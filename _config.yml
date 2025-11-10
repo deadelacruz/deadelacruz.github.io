@@ -1,57 +1,84 @@
 title: Java Senior Full Stack Developer
+
 subtitle: 9 Years Experience
+
 description: >- # this means to ignore newlines until "baseurl:"
- 
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
-    - text: Home
-      url: /
+    - text: About
+      url: /about
 
 # Edit Author details (For multi authors check _data/authors.yml)
-
-author_logo: profile.png
+author_logo: profile.jpg
 author: David Edward Dela Cruz
 author_bio: Hi, my nickname is Dave.
 author_email: "david22edward@gmail.com"
 author_location: Philippines
 author_website_url: "deadelacruz.github.io"
-typewrite-text: 
+typewrite-text:
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
             - company_name: TradeX Network Inc.
-              company_logo: 
+              company_logo: TradeX.jpg
               company_url: https://web.facebook.com/ascentsolutions.ph.inc
               designation: Senior-Level Java Developer
-              description: Design, develop, and maintain high-performance, scalable Java applications using Spring Boot and related frameworks.
+              description: |-
+                - Design, develop, and maintain high-performance, scalable Java applications using Spring Boot and related frameworks
+                - Independently manage the full software development lifecycle for assigned features, from technical design to deployment
+                - Develop robust RESTful APIs and microservices that integrate seamlessly with the broader enterprise ecosystem
+                - Write comprehensive unit, integration, and performance tests to ensure the highest level of software quality
+                - Actively participate in architectural discussions and contribute to the evolution of technical standards and design patterns
+                - Perform thorough code reviews and provide constructive feedback to mentor junior developers
+                - Diagnose and resolve complex production issues, ensuring application stability and performance
               visibility: true
             - company_name: Fujitsu
-              company_logo: 
+              company_logo: Fujitsu.png
               company_url: https://www.fujitsu.com/ph/about/
               designation: Mid-Level Java System Engineer
-              description: Ensure new programs behave according to specifications by conducting unit test, integration test and regression test.
+              description: |-
+                - Provide comprehensive application/software implementation planning and/or software development planning to meet total project implementation needs (schedule, budgeting)
+                - Advise on corporate system implementation schemes, sharing technical knowledge with team and outsource members
+                - Ensure new programs behave according to specifications by conducting unit, integration, and regression tests
+                - Manage team members' activities aligned to project plan and progress
+                - Supervise and resolve issues across requirements confirmation, system design, program development, and system installation including DB/software component installation with staff
+                - Support and attend project status meetings with customers and project team members
+                - Produce project documentation/manuals: User Requirement Specification, UI specification, Design documents, User Manual, Application Software Installation manual, etc.
+                - Report progress of job assignments to supervisor
               visibility: true
-            - company_name: Fujitsu
-              company_logo: 
+            - company_name: Rizal Commercial Banking Corporation
+              company_logo: rcbc.jpg
               company_url: https://www.rcbc.com/
               designation: Junior-Level Java Application Developer
-              description: Design, develop, and improve existing applications using Java 7, Hibernate, & Spring MVC.
+              description: |-
+                - Design, develop, and improve existing applications using Java 7, Hibernate, & Spring MVC
+                - Perform an impact analysis and provide recommendations
+                - Perform prototyping and code review to ensure that the application meets the business requirements
+                - Provide user training and application documentation
+                - Provide solutions to common business problems
+                - Provide level two (2) and level three (3) technical support
               visibility: true
             - company_name: St. Lukes Medical Center
-              company_logo: 
+              company_logo:
               company_url: https://www.rcbc.com/
               designation: Entry-Level Java Software Engineer
-              description: Develop codes using Java EE that conforms to the coding standards set by the organization.
+              description: |-
+                - Create technical design documentation and UML diagrams
+                - Analyze and translate functional specifications / use cases into functional applications
+                - Develop codes using Java EE that conforms to the coding standards set by the organization
+                - Ensure code quality by performing unit and functional testing
+                - Identify bottlenecks and issues to devise solution and optimization to address the problem using Jenkins
+                - Provide maintenance and production support to the existing application
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo:
+              - college_logo: philsca.png
                 college_name: PHILSCA
                 college_url: https://web.facebook.com/PhilscaOfficial
                 college_degree: Aviation Information Technology
@@ -92,163 +119,6 @@ author_project_details:
                 visibility: true
 
 # social links
-github_username:  deadelacruz
-# facebook_username: johndoe
-# linkedin_username: johndoe
-# behance_username: johndoe
-# medium_username: johndoe
-# telegram_username: johndoe
-# dribbble_username: johndoe
-# flickr_username: johndoe
-
-#for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
-
-# disqus_shortname: sujay-kundu
-# hyvor_talk_website_id: 476
-
-# wakatime username (coding activity)
-
-# mailchimp embedded form url (newsletter):
-
-# contact form - (choose formspress or getform)
-# getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: david22edward@gmail.com
-
-# releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
-olvy_widget_type: sidebar
-
-# syntax highlighter
-markdown: kramdown
-highlighter: rouge
-permalink: pretty
-
-# Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
-show_author_project_details: true
-
-# pagination of posts
-paginate: 4
-per_page: 4
-paginate_path: "/blog/page/:num/"
-
-# minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
-
-# Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
-
-collections:
-  products:
-    output: true
-  authors:
-    output: true
-
-defaults:
-  -
-    scope:
-      path: "gallery"
-    values:
-      permalink: /:path/:basename:output_ext
-  -
-    scope:
-      path: ""
-      type: authors
-    values:
-      layout: author
-      permalink: /blog/authors/:slug
-  -
-    scope:
-      path: 'assets/**'
-    values:
-      sitemap: false
-
-# Build settings
-plugins:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-
-  # jekyll admin is causing issues with github pages, so it's disabled by default
-  # - jekyll-admin 
-
-# Jekyll Admin Config
-# jekyll_admin:
-  # hidden_links:
-  #   - posts
-  #   - pages
-  #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  # homepage: "posts"
+github_username: deadelacruz
 
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-
-### Switching Deployment Strategy (in DEPLOY_STRATEGY) file change the key accordingly:
-# none - For no default
-# gh-pages - For Github Pages
-# firebase - For Firebase Hosting
-
-sass:
-  sass_dir: _sass
-  style: compressed
-
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - node_modules/
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - assets/bower_components/isotope-layout/README.md
-  - assets/bower_components/icono/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-svg-core/README.md
-  - assets/bower_components/ghosthunter/README.md
-  - assets/bower_components/nanobar/README.md
-  - assets/bower_components/lightgallery/demo/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-brands-svg-icons/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/free-solid-svg-icons/README.md
-  - assets/bower_components/jquery-mousewheel/README.md
-  - assets/bower_components/get-size/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome/README.md
-  - assets/bower_components/jquery-mousewheel/ChangeLog/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-regular/README.md
-  - assets/bower_components/desandro-matches-selector/README.md
-  - assets/bower_components/ev-emitter/README.md
-  - assets/bower_components/font-awesome/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-solid/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-webfonts/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-free-brands/README.md
-  - assets/bower_components/font-awesome/advanced-options/use-with-node-js/fontawesome-common-types/README.md
-  - assets/bower_components/ghosthunter/example/Index.html
-  - assets/bower_components/lightgallery/test/lightgallery.html
-  - assets/bower_components/masonry-layout/README.md
-  - assets/bower_components/imagesloaded/README.md
-
-
-destination: ./build
