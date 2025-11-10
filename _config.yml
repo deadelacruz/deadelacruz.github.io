@@ -3,6 +3,12 @@ title: Java Senior Full Stack Developer
 subtitle: 9 Years Experience
 
 description: >- # this means to ignore newlines until "baseurl:"
+  Senior Full‑Stack Java Developer with 9+ years of experience building
+  high‑performance, cloud‑ready applications. Expert in Java, Spring Boot,
+  microservices, REST/GraphQL APIs, and SQL/NoSQL datastores. Comfortable
+  across the stack with TypeScript and modern front‑ends (React/Angular),
+  automated testing, CI/CD, and performance optimization. I help teams deliver
+  reliable, scalable software that ships fast and runs smoothly in production.
 
 url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -19,8 +25,16 @@ author_bio: Hi, my nickname is Dave.
 author_email: "david22edward@gmail.com"
 author_location: Philippines
 author_website_url: "deadelacruz.github.io"
-typewrite-text:
+typewrite-text: I build scalable Java microservices, APIs, and modern web apps.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+
+# About page section toggles
+show_author_project_details: true
+show_author_work_experiences: true
+show_author_education_details: true
+
+# Footer newsletter toggle
+show_newsletter_footer: false
 
 # Experiences
 author_work_experiences:
