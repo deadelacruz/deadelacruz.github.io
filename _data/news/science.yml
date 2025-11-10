@@ -1,0 +1,7 @@
+news_items:
+  - title: "Science News from Verified Sources"
+    description: "Latest science news from trusted sources. Run update_news.py to fetch current articles."
+    url: "#"
+    date: "2025-11-05"
+    source: "System"
+

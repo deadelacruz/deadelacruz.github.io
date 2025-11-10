@@ -37,7 +37,9 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo-data"
 end
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+# Performance-booster for watching directories on Windows (incompatible with Ruby >= 3.3)
+install_if -> { Gem.win_platform? && Gem::Version.new(RUBY_VERSION) < Gem::Version.new('3.3') } do
+  gem "wdm", "~> 0.1.1"
+end
 gem "webrick", "~> 1.7"
 # gem "ffi", "~> 1.16.3"

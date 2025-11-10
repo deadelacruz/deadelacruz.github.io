@@ -6,7 +6,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Senior Full‑Stack Java Developer with 9+ years of experience building
   high‑performance, cloud‑ready applications. Expert in Java, Spring Boot,
   microservices, REST/GraphQL APIs, and SQL/NoSQL datastores. Comfortable
-  across the stack with TypeScript and modern front‑ends (React/Angular),
+  across the stack with JavaScript or TypeScript and modern front‑ends (React.js/Angular.js/Vue.js/Next.js),
   automated testing, CI/CD, and performance optimization. I help teams deliver
   reliable, scalable software that ships fast and runs smoothly in production.
 
@@ -17,6 +17,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 urls:
     - text: About
       url: /about
+    - text: Deep Learning
+      url: /deep-learning
+    - text: Machine Learning
+      url: /machine-learning
+    - text: Artificial Intelligence
+      url: /artificial-intelligence
 
 # Edit Author details (For multi authors check _data/authors.yml)
 author_logo: profile.jpg
@@ -78,8 +84,8 @@ author_work_experiences:
                 - Provide level two (2) and level three (3) technical support
               visibility: true
             - company_name: St. Lukes Medical Center
-              company_logo:
-              company_url: https://www.rcbc.com/
+              company_logo: stlukes.png
+              company_url: https://www.stlukes.com.ph/
               designation: Entry-Level Java Software Engineer
               description: |-
                 - Create technical design documentation and UML diagrams
@@ -93,7 +99,7 @@ author_work_experiences:
 # Education
 author_education_details:
               - college_logo: philsca.png
-                college_name: PHILSCA
+                college_name: Philippine State College of Aeronautics
                 college_url: https://web.facebook.com/PhilscaOfficial
                 college_degree: Aviation Information Technology
                 description: Bachelor of Science
@@ -101,33 +107,33 @@ author_education_details:
 
 # Projects
 author_project_details:
-              - project_thumbnail:
+              - project_thumbnail: pft.png
                 project_title: Personal Finance Tracker
                 project_description: "Backend: Java 25 | Framework: Spring Boot 4.0 | Frontend: TypeScript | Template Engine: Thymeleaf"
                 project_url: https://github.com/deadelacruz/Personal-Finance-Tracker
                 visibility: true
-              - project_thumbnail:
+              - project_thumbnail: tms.png
                 project_title: Task Management System
                 project_description: "Backend: Java 25 | Framework: Spring Boot 4.0 | Frontend: React.js"
                 project_url: https://github.com/deadelacruz/Task-Management-System
                 visibility: true
-              - project_thumbnail:
+              - project_thumbnail: ecp.png
                 project_title: E-commerce Platform with Real-time Analytics
                 project_description: "Backend: Java 25 | Framework: Spring Boot 3.3.5 | Frontend: Angular.js"
                 project_url: https://github.com/deadelacruz/E-commerce-Platform-with-Real-time-Analytics
                 visibility: true
-              - project_thumbnail:
+              - project_thumbnail: tts.png
                 project_title: Travel Ticketing System
                 project_description: "Backend: Java 25 | Framework: Spring Boot 3.5.6 | Frontend: Vue.js"
                 project_url: https://github.com/deadelacruz/Travel-Ticketing-System
                 visibility: true
-              - project_thumbnail:
-                project_title: Travel Ticketing System
+              - project_thumbnail: ndp.png
+                project_title: Scalable Notification Delivery Platform with Complex Event Processing
                 project_description: "Backend: Java 21 | Framework: Spring Boot 3.3 | Frontend: JavaScript"
                 project_url: https://github.com/deadelacruz/Scalable-Notification-Delivery-Platform-with-Complex-Event-Processing
                 visibility: true
-              - project_thumbnail:
-                project_title: Task Management System
+              - project_thumbnail: ccp.png
+                project_title: Content Creator Portfolio & Analytics Platform
                 project_description: "Backend: Java 21 | Framework: Spring Boot 3.4 | Frontend: Next.js"
                 project_url: https://github.com/deadelacruz/Content-Creator-Portfolio-and-Analytics-Platform
                 visibility: true

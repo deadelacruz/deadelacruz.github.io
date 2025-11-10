@@ -1,0 +1,10 @@
+news_items:
+  - title: "AI-Driven Brain Implant Advances Artificial Vision"
+    description: "Researchers unveiled a bidirectional visual neuroprosthesis that adapts in real time to neural activity, moving closer to restoring functional sight for blind patients."
+    url: "https://neurosciencenews.com/neuroscience-topics/deep-learning/?utm_source=openai"
+    date: "2025-11-05"
+  - title: "NextBrain Offers Detailed 3D Map of the Human Brain"
+    description: "A new AI-powered atlas now maps 333 brain regions in high-resolution 3D, giving neuroscientists unprecedented insight into brain structure and function."
+    url: "https://neurosciencenews.com/neuroscience-topics/deep-learning/?utm_source=openai"
+    date: "2025-11-05"
+

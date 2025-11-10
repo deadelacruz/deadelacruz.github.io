@@ -217,7 +217,7 @@ header {
 /* bootstrap override */
 .container-fluid {
     padding: 0px !important;
-    width: fit-content !important;
+    width: 100% !important;
     margin-left: 0px !important;
     margin-right: 0px !important;
     margin-top: 10px !important;
@@ -613,8 +613,13 @@ header {
     text-align: center;
 }
 .project-img{
-    width:150px;
-    height:100px;
+    width: 100%;
+    max-width: 1400px;
+    aspect-ratio: 16 / 10;
+    height: auto;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
 }
 .project_details{
     padding: 10px;
@@ -711,11 +716,20 @@ header {
 
 #author_projects {
     .project-img {
-        width: 300px;
-        height: 200px;
+        width: 100%;
+        max-width: 1400px;
+        aspect-ratio: 16 / 10;
     }
     #project-card{
         margin-top:30px;
+        .col-md-6 {
+            flex: 0 0 70%;
+            max-width: 70%;
+        }
+        .col-md-4 {
+            flex: 0 0 30%;
+            max-width: 30%;
+        }
     }
     .project-link{
         color: var(--link-color);
@@ -724,14 +738,39 @@ header {
 
 
 .company-logo {
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
+    max-width: 100%;
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 6px;
+}
+
+.education-logo {
+    width: 170px;
+    height: 170px;
+    max-width: 100%;
+    object-fit: contain;
+    background-color: transparent;
+    border-radius: 8px;
 }
 
 .author-profile-img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+
+/* Small screens: make logos fluid to avoid text overlap */
+@media (max-width: 576px) {
+    #author_projects #project-card {
+        margin-top: 20px;
+    }
+    .company-logo,
+    .education-logo {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .blog-post {

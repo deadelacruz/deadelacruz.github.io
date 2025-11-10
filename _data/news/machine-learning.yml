@@ -1,0 +1,10 @@
+news_items:
+  - title: "Modular Software Framework from MIT"
+    description: "MIT researchers introduced a coding framework that uses modular concepts and simple synchronization rules to make software safer and easier for large language models to understand."
+    url: "https://news.mit.edu/topic/machine-learning?utm_source=openai"
+    date: "2025-11-05"
+  - title: "Robots Learn to Map Unfamiliar Terrain"
+    description: "A rapid mapping method from MIT could help search-and-rescue robots navigate unpredictable environments with greater accuracy."
+    url: "https://news.mit.edu/topic/machine-learning?utm_source=openai"
+    date: "2025-11-05"
+

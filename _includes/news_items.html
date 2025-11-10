@@ -1,0 +1,50 @@
+{% assign topic = page.permalink | remove: '/' | replace: '-', '_' %}
+{% if topic == 'deep_learning' %}
+  {% assign news_data = site.data.news.deep-learning %}
+{% elsif topic == 'machine_learning' %}
+  {% assign news_data = site.data.news.machine-learning %}
+{% elsif topic == 'artificial_intelligence' %}
+  {% assign news_data = site.data.news.artificial-intelligence %}
+{% elsif topic == 'technology' %}
+  {% assign news_data = site.data.news.technology %}
+{% elsif topic == 'science' %}
+  {% assign news_data = site.data.news.science %}
+{% elsif topic == 'business' %}
+  {% assign news_data = site.data.news.business %}
+{% elsif topic == 'health' %}
+  {% assign news_data = site.data.news.health %}
+{% endif %}
+
+{% if news_data and news_data.news_items %}
+  <div class="news-container">
+    {% for item in news_data.news_items %}
+      <div class="news-item" style="margin-bottom: 20px; padding: 15px; background-color: var(--card-background-color); border-radius: 8px; border-left: 4px solid var(--link-color);">
+        <h4 style="margin-top: 0; margin-bottom: 10px;">
+          <strong>{{ item.title }}</strong>
+        </h4>
+        <p style="margin-bottom: 10px; color: var(--main-text-color);">
+          {{ item.description }}
+        </p>
+        <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="color: var(--link-color); text-decoration: none;">
+          Read more →
+        </a>
+        {% if item.source %}
+          <span style="color: var(--main-text-color); opacity: 0.7; font-size: 0.9em; margin-left: 10px;">
+            | {{ item.source }}
+          </span>
+        {% endif %}
+        {% if item.date %}
+          <span style="color: var(--main-text-color); opacity: 0.7; font-size: 0.9em; margin-left: 10px;">
+            ({{ item.date | date: "%B %d, %Y" }})
+          </span>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  <p style="margin-top: 20px; font-style: italic; color: var(--main-text-color); opacity: 0.7;">
+    <em>Last updated: {{ "now" | date: "%B %d, %Y at %I:%M %p" }}</em>
+  </p>
+{% else %}
+  <p>No news items available at this time. Please check back later.</p>
+{% endif %}
+
