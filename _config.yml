@@ -62,32 +62,32 @@ author_education_details:
 author_project_details:
               - project_thumbnail:
                 project_title: Personal Finance Tracker
-                project_description: Backend: Java 25 | Framework: Spring Boot 4.0 | Frontend: TypeScript | Template Engine: Thymeleaf
+                project_description: "Backend: Java 25 | Framework: Spring Boot 4.0 | Frontend: TypeScript | Template Engine: Thymeleaf"
                 project_url: https://github.com/deadelacruz/Personal-Finance-Tracker
                 visibility: true
               - project_thumbnail:
                 project_title: Task Management System
-                project_description: Backend: Java 25 | Framework: Spring Boot 4.0 | Frontend: React.js
+                project_description: "Backend: Java 25 | Framework: Spring Boot 4.0 | Frontend: React.js"
                 project_url: https://github.com/deadelacruz/Task-Management-System
                 visibility: true
               - project_thumbnail:
                 project_title: E-commerce Platform with Real-time Analytics
-                project_description: Backend: Java 25 | Framework: Spring Boot 3.3.5 | Frontend: Angular.js
+                project_description: "Backend: Java 25 | Framework: Spring Boot 3.3.5 | Frontend: Angular.js"
                 project_url: https://github.com/deadelacruz/E-commerce-Platform-with-Real-time-Analytics
                 visibility: true
               - project_thumbnail:
                 project_title: Travel Ticketing System
-                project_description: Backend: Java 25 | Framework: Spring Boot 3.5.6 | Frontend: Vue.js
+                project_description: "Backend: Java 25 | Framework: Spring Boot 3.5.6 | Frontend: Vue.js"
                 project_url: https://github.com/deadelacruz/Travel-Ticketing-System
                 visibility: true
               - project_thumbnail:
                 project_title: Travel Ticketing System
-                project_description: Backend: Java 21 | Framework: Spring Boot 3.3 | Frontend: JavaScript
+                project_description: "Backend: Java 21 | Framework: Spring Boot 3.3 | Frontend: JavaScript"
                 project_url: https://github.com/deadelacruz/Scalable-Notification-Delivery-Platform-with-Complex-Event-Processing
                 visibility: true
               - project_thumbnail:
                 project_title: Task Management System
-                project_description: Backend: Java 21 | Framework: Spring Boot 3.4 | Frontend: Next.js
+                project_description: "Backend: Java 21 | Framework: Spring Boot 3.4 | Frontend: Next.js"
                 project_url: https://github.com/deadelacruz/Content-Creator-Portfolio-and-Analytics-Platform
                 visibility: true
 
