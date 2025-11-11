@@ -1,0 +1,71 @@
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.summary | default: page.description | escape }}",
+  "image": "{{ site.url }}{{ site.baseurl }}{{ page.thumbnail | default: '/assets/img/default.jpg' }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author }}",
+    "url": "{{ site.url }}{{ site.baseurl }}/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author_logo }}"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ site.baseurl }}{{ page.url }}"
+  }
+  {% if page.categories %}
+  ,"articleSection": "{{ page.categories | first }}"
+  {% endif %}
+  {% if page.tags %}
+  ,"keywords": "{{ page.tags | join: ', ' }}"
+  {% endif %}
+}
+</script>
+{% elsif page.layout == 'about-me' or page.url == '/about' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "image": "{{ site.url }}{{ site.baseurl }}/assets/img/{{ site.author_logo }}",
+  "jobTitle": "{{ site.title }}",
+  "description": "{{ site.description | escape }}",
+  "email": "{{ site.author_email }}",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "{{ site.author_location }}"
+  },
+  "sameAs": [
+    {% if site.github_username %}"https://github.com/{{ site.github_username }}"{% endif %}
+  ]
+}
+</script>
+{% else %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "{{ site.title }}",
+  "url": "{{ site.url }}{{ site.baseurl }}",
+  "description": "{{ site.description | escape }}",
+  "publisher": {
+    "@type": "Person",
+    "name": "{{ site.author }}"
+  }
+}
+</script>
+{% endif %}
+

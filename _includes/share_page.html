@@ -17,20 +17,93 @@
   charset="utf-8"
 ></script>
 
-<div class="share-page">
+<div class="share-page" role="complementary" aria-label="Share this article">
   <p class="share-text">Share this on &rarr;</p>
-  <a
-    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
-    class="twitter-share-button"
-    data-size="large"
-    data-show-count="false"
-    style="margin-top:5px;"
-    >Tweet</a
-  >
-  <a
-    class="fb-share-button"
-    data-href="{{site.url}}{{page.url}}"
-    data-size="large"
-    data-layout="button"
-  >Share</a>
+  <div class="share-buttons">
+    <a
+      href="https://twitter.com/intent/tweet?text={{ page.title | url_encode }}&url={{ site.url }}{{ page.url }}"
+      class="share-button twitter-share"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on Twitter"
+      title="Share on Twitter"
+    >
+      <i class="fab fa-twitter"></i> Twitter
+    </a>
+    <a
+      href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}"
+      class="share-button facebook-share"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on Facebook"
+      title="Share on Facebook"
+    >
+      <i class="fab fa-facebook-f"></i> Facebook
+    </a>
+    <a
+      href="https://www.linkedin.com/sharing/share-offsite/?url={{ site.url }}{{ page.url }}"
+      class="share-button linkedin-share"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on LinkedIn"
+      title="Share on LinkedIn"
+    >
+      <i class="fab fa-linkedin-in"></i> LinkedIn
+    </a>
+    <a
+      href="https://reddit.com/submit?url={{ site.url }}{{ page.url }}&title={{ page.title | url_encode }}"
+      class="share-button reddit-share"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Share on Reddit"
+      title="Share on Reddit"
+    >
+      <i class="fab fa-reddit"></i> Reddit
+    </a>
+    <button
+      class="share-button copy-link"
+      onclick="navigator.clipboard.writeText('{{ site.url }}{{ page.url }}'); alert('Link copied!');"
+      aria-label="Copy link"
+      title="Copy link"
+    >
+      <i class="fas fa-link"></i> Copy Link
+    </button>
+  </div>
 </div>
+
+<style>
+.share-page {
+  margin: 30px 0;
+  padding: 20px;
+  background: var(--card-background-color);
+  border-radius: 8px;
+}
+.share-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+.share-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 15px;
+  background: var(--card-background-color);
+  border: 1px solid var(--link-color);
+  color: var(--link-color);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-size: 0.9em;
+}
+.share-button:hover {
+  background: var(--link-color);
+  color: white;
+  transform: translateY(-2px);
+}
+.share-button.copy-link {
+  cursor: pointer;
+  font-family: inherit;
+}
+</style>

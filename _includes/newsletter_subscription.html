@@ -1,0 +1,63 @@
+{% if site.show_newsletter_footer != false %}
+<div class="newsletter-container" style="background: var(--card-background-color); padding: 30px; border-radius: 8px; margin: 30px 0;">
+  <h3 style="margin-bottom: 15px;">Subscribe to Newsletter</h3>
+  <p style="margin-bottom: 20px; opacity: 0.8;">Get the latest updates on AI, Machine Learning, and Technology news delivered to your inbox.</p>
+  
+  {% if site.mailchimp_form_action %}
+  <!-- Mailchimp Form -->
+  <form action="{{ site.mailchimp_form_action }}" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+    <div class="input-group">
+      <input 
+        type="email" 
+        value="" 
+        name="EMAIL" 
+        class="form-control" 
+        id="mce-EMAIL" 
+        placeholder="Your email address" 
+        required
+        aria-label="Email address"
+      />
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="submit" name="subscribe" id="mc-embedded-subscribe">
+          Subscribe
+        </button>
+      </div>
+    </div>
+    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+      <input type="text" name="b_{{ site.mailchimp_user_id }}_{{ site.mailchimp_list_id }}" tabindex="-1" value="">
+    </div>
+  </form>
+  {% else %}
+  <!-- Generic Newsletter Form -->
+  <form id="newsletter-form" onsubmit="return false;">
+    <div class="input-group">
+      <input 
+        type="email" 
+        id="newsletter-email" 
+        class="form-control" 
+        placeholder="Your email address" 
+        required
+        aria-label="Email address"
+      />
+      <div class="input-group-append">
+        <button class="btn btn-primary" type="submit">
+          Subscribe
+        </button>
+      </div>
+    </div>
+    <div id="newsletter-message" style="margin-top: 10px; display: none;"></div>
+  </form>
+  <script>
+  document.getElementById('newsletter-form')?.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const email = document.getElementById('newsletter-email').value;
+    const messageDiv = document.getElementById('newsletter-message');
+    messageDiv.style.display = 'block';
+    messageDiv.innerHTML = '<p style="color: var(--link-color);">Thank you for subscribing! Check your email to confirm.</p>';
+    this.reset();
+  });
+  </script>
+  {% endif %}
+</div>
+{% endif %}
+

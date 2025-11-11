@@ -1,0 +1,21 @@
+{% if site.github_username %}
+<div class="card mt-4">
+  <div class="card-header">
+    <h3>GitHub Contributions</h3>
+  </div>
+  <div class="card-body">
+    <img 
+      src="https://ghchart.rshah.org/{{ site.github_username }}" 
+      alt="GitHub Contributions Chart for {{ site.github_username }}"
+      style="width: 100%; max-width: 100%; height: auto;"
+      loading="lazy"
+    />
+    <p class="text-center mt-3">
+      <a href="https://github.com/{{ site.github_username }}" target="_blank" rel="noopener">
+        View GitHub Profile <i class="fas fa-external-link-alt"></i>
+      </a>
+    </p>
+  </div>
+</div>
+{% endif %}
+

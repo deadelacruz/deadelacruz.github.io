@@ -1,0 +1,37 @@
+{% if site.show_author_testimonials == true and site.author_testimonials %}
+<div class="card">
+  <h1 class="card-title">Testimonials</h1>
+  <br />
+  <div class="testimonials-container">
+    {% for testimonial in site.author_testimonials %}
+      {% if testimonial.visibility != false %}
+      <div class="testimonial-item" style="margin-bottom: 30px; padding: 20px; background-color: var(--card-background-color); border-radius: 8px; border-left: 4px solid var(--link-color);">
+        <div class="testimonial-content" style="margin-bottom: 15px; font-style: italic; color: var(--main-text-color); line-height: 1.6;">
+          "{{ testimonial.content | escape }}"
+        </div>
+        <div class="testimonial-author">
+          <div class="row align-items-center">
+            {% if testimonial.avatar %}
+            <div class="col-auto">
+              <img src="{{site.url}}{{site.baseurl}}/assets/img/{{ testimonial.avatar | escape }}" 
+                   alt="{{ testimonial.name | escape }}" 
+                   style="width: 50px; height: 50px; border-radius: 50%; object-fit: cover;">
+            </div>
+            {% endif %}
+            <div class="col">
+              <h5 style="margin: 0; color: var(--main-text-color); font-size: 1em;">
+                {{ testimonial.name | escape }}
+              </h5>
+              <p style="margin: 0; font-size: 0.9em; color: var(--main-text-color); opacity: 0.7;">
+                {{ testimonial.position | escape }}{% if testimonial.company %}, {{ testimonial.company | escape }}{% endif %}
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+

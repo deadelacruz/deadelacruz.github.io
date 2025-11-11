@@ -1,0 +1,48 @@
+{% if site.show_author_certifications == true and site.author_certifications %}
+<div class="card">
+  <h1 class="card-title">Certifications</h1>
+  <br />
+  {% for cert in site.author_certifications %}
+    {% if cert.visibility != false %}
+    <div class="certification-item" style="margin-bottom: 25px; padding-bottom: 25px; border-bottom: 1px solid var(--card-background-color);">
+      <div class="row">
+        <div class="col-md-10">
+          <h4 class="certification-name" style="margin-bottom: 8px; color: var(--main-text-color);">
+            <i class="fas fa-certificate" style="color: var(--link-color); margin-right: 8px;"></i>
+            {{ cert.name }}
+          </h4>
+          <h6 class="certification-issuer" style="color: var(--main-text-color); opacity: 0.8; margin-bottom: 5px;">
+            {{ cert.issuer }}
+          </h6>
+          {% if cert.credential_id %}
+          <p style="font-size: 0.9em; color: var(--main-text-color); opacity: 0.7; margin-bottom: 5px;">
+            Credential ID: {{ cert.credential_id }}
+          </p>
+          {% endif %}
+          {% if cert.date %}
+          <p style="font-size: 0.9em; color: var(--main-text-color); opacity: 0.7;">
+            <i class="far fa-calendar" style="margin-right: 5px;"></i>
+            {{ cert.date | date: "%B %Y" }}
+          </p>
+          {% endif %}
+          {% if cert.credential_url %}
+          <a href="{{ cert.credential_url }}" target="_blank" rel="noopener" style="color: var(--link-color); text-decoration: none; font-size: 0.9em;">
+            View Credential <i class="fas fa-external-link-alt" style="margin-left: 5px;"></i>
+          </a>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}
+
+<style>
+.certification-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+</style>
+

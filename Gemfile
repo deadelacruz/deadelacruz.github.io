@@ -8,6 +8,7 @@ gem 'kramdown'
 gem 'puma'
 gem 'csv'
 gem 'base64'
+gem 'nokogiri'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.

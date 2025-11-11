@@ -99,6 +99,7 @@ layout: default
       {%- include author_skills.html -%}
     </div>
 
+    {%- include github_contributions.html -%}
 
   </div>
   <div class="col-lg-8">
@@ -114,21 +115,20 @@ layout: default
       {% for project in site.author_project_details %} {% if project.visibility
       == true %}
       <div class="row" id="project-card">
-        <div class="col-md-6">
+        <div class="col-md-7 col-sm-12">
           <img
             src="{{site.url}}{{site.baseurl}}/assets/img/{{project.project_thumbnail}}"
             class="project-img"
+            loading="lazy"
+            decoding="async"
+            alt="{{ project.project_title }}"
           />
         </div>
-        <div class="col-md-4 center">
+        <div class="col-md-5 col-sm-12">
           <h4 class="experience-title">{{ project.project_title }}</h4>
           <h6 class="experience-info">{{ project.project_info}}</h6>
-          <p class="experience-desc">{{ project.project_description }}</p>
-          <p>
-            <a class="project-link" href="{{project.project_url}}"
-              >{{ project.project_url}}</a
-            >
-          </p>
+          <div class="experience-desc">{{ project.project_description }}</div>
+          <p class="project-link-container"><a class="project-link" href="{{project.project_url}}">{{ project.project_url}}</a></p>
         </div>
       </div>
       <br />

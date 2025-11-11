@@ -6,11 +6,14 @@ layout: compress
 <html lang="{{ page.lang | default: site.lang | default: " en " }}">
 {%- include head.html -%}
 <body>
+        <a href="#main-content" class="skip-link">Skip to main content</a>
         {%- include header.html -%}
-        <div class="main-container">
+        <main id="main-content" class="main-container" role="main">
             {{ content }}
-        </div>
+        </main>
+        {%- include reading_progress.html -%}
         {%- include footer.html -%}
+        {%- include back_to_top.html -%}
      <script>
             var options = {
                 classname: 'progressline',
@@ -22,8 +25,6 @@ layout: compress
             nanobar.go(100);
         </script>
 
-   <div hidden id="snipcart" data-api-key="Y2I1NTAyNWYtMTNkMy00ODg0LWE4NDItNTZhYzUxNzJkZTI5NjM3MDI4NTUzNzYyMjQ4NzU0"></div>
-   <script src="https://cdn.snipcart.com/themes/v3.0.0-beta.3/default/snipcart.js" defer></script>
    <script>
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {

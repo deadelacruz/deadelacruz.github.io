@@ -39,8 +39,6 @@ show_author_project_details: true
 show_author_work_experiences: true
 show_author_education_details: true
 
-# Footer newsletter toggle
-show_newsletter_footer: false
 
 # Experiences
 author_work_experiences:
@@ -140,5 +138,40 @@ author_project_details:
 
 # social links
 github_username: deadelacruz
+
+
+# Skills with progress levels (0-100)
+author_skills:
+  - name: Java
+    level: 95
+    visibility: true
+  - name: Spring Boot
+    level: 90
+    visibility: true
+  - name: JavaScript/TypeScript
+    level: 85
+    visibility: true
+  - name: React.js
+    level: 80
+    visibility: true
+  - name: Angular.js
+    level: 85
+    visibility: true
+  - name: Vue.js
+    level: 80
+    visibility: true
+  - name: Next.js
+    level: 75
+    visibility: true
+  - name: Microservices
+    level: 90
+    visibility: true
+  - name: REST/GraphQL APIs
+    level: 88
+    visibility: true
+  - name: SQL/NoSQL Databases
+    level: 85
+    visibility: true
+
 
 

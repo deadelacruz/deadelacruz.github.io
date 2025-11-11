@@ -1,5 +1,6 @@
 <ul>
-    {% for author in site.authors %}
+    {% for author_entry in site.data.authors %}
+        {% assign author = author_entry[1] %}
         <li>
             <a href="/blog/authors/{{ author.username }}">{{ author.name }}</a>
         </li>

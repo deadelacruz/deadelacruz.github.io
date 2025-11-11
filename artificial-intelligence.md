@@ -8,3 +8,4 @@ description: Key AI policy moves, industry shifts, and platform updates making h
 ## What's Happening Now
 
 {% include news_items.html %}
+

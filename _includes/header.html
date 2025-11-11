@@ -1,5 +1,5 @@
 
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="topNav" role="navigation" aria-label="Main navigation">
           <button
             class="navbar-toggler"
             type="button"
@@ -8,10 +8,11 @@
             aria-controls="navbarNav"
             aria-expanded="false"
             aria-label="Toggle navigation"
+            aria-controls="navbarNav"
           >
-            <span class="icono-hamburger" id="navbar-hamburger"> </span>
+            <span class="icono-hamburger" id="navbar-hamburger" aria-hidden="true"> </span>
           </button>
-          <a class="navbar-brand" href="/">{{site.title}}</a>
+          <a class="navbar-brand" href="/" aria-label="Home">{{site.title}}</a>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               {% for i in site.urls %}

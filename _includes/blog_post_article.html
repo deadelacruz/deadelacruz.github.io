@@ -5,11 +5,17 @@
     <p class="post-summary">
       Posted by : {% if page.author %}
       <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-        <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span> </span
-      >{% endif %} on
+        <span itemprop="name"><a href="{{site.url}}{{site.baseurl}}/blog/authors/{{page.author}}">{{ page.author }}</a></span></span>
+      {% endif %} on
       <time datetime="{{ page.date }}" itemprop="datePublished"
         >{{ page.date | date: "%b %-d, %Y" }}</time
       >
+      {% assign words = content | number_of_words %}
+      {% if words < 360 %}
+        <span class="reading-time"> • 1 min read</span>
+      {% else %}
+        <span class="reading-time"> • {{ words | divided_by: 180 }} min read</span>
+      {% endif %}
     </p>
     <span
       class="disqus-comment-count"
@@ -17,23 +23,61 @@
     ></span>
     <div class="post-categories">
       {% if post %} {% assign categories = post.categories %} {% else %} {%
-      assign categories = page.categories %} {% endif %} Category : {% for
-      category in categories %}
-      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}"
+      assign categories = page.categories %} {% endif %} 
+      {% if categories.size > 0 %}
+      <span class="meta-label">Category:</span>
+      {% for category in categories %}
+      <a href="{{site.baseurl}}/blog/categories/{{category|slugize}}" class="category-tag"
         >{{category}}</a
       >
       {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+      {% endif %}
+      {% if page.tags.size > 0 %}
+      <span class="meta-label" style="margin-left: 15px;">Tags:</span>
+      {% for tag in page.tags %}
+      <a href="{{site.baseurl}}/blog/tags/{{tag|slugize}}" class="tag-tag"
+        >#{{tag}}</a
+      >
+      {% unless forloop.last %}&nbsp;{% endunless %} {% endfor %}
+      {% endif %}
     </div>
+    
+    <style>
+    .category-tag, .tag-tag {
+      display: inline-block;
+      padding: 4px 10px;
+      background: var(--card-background-color);
+      border: 1px solid var(--link-color);
+      color: var(--link-color);
+      border-radius: 4px;
+      text-decoration: none;
+      font-size: 0.85em;
+      margin: 2px;
+      transition: all 0.2s;
+    }
+    .category-tag:hover, .tag-tag:hover {
+      background: var(--link-color);
+      color: white;
+    }
+    .meta-label {
+      font-weight: 600;
+      color: var(--main-text-color);
+      opacity: 0.8;
+    }
+    </style>
   </div>
 
   <div class="card-body" itemprop="articleBody">
     <img
       class="card-img-top"
       src="{{site.url}}{{site.baseurl}}{{ page.thumbnail }}"
-      alt="{{ post.title }}"
+      alt="{{ post.title | escape }}"
+      loading="lazy"
+      decoding="async"
     />
     <br />
     <br />
+    {%- include table_of_contents.html -%}
     {{ content }}
     <br />
     {%- include share_page.html -%}
@@ -45,11 +89,12 @@
   </div>
 
   <div class="comments">
+    {% if site.giscus_repo %}
     <script src="https://giscus.app/client.js"
-        data-repo="sujaykundu777/devlopr-jekyll"
-        data-repo-id="MDEwOlJlcG9zaXRvcnkxMzk1NzQ1NTY="
-        data-category="General"
-        data-category-id="MDE4OkRpc2N1c3Npb25DYXRlZ29yeTMyODk4MTky"
+        data-repo="{{ site.giscus_repo }}"
+        data-repo-id="{{ site.giscus_repo_id }}"
+        data-category="{{ site.giscus_category | default: 'General' }}"
+        data-category-id="{{ site.giscus_category_id }}"
         data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
@@ -60,6 +105,7 @@
         crossorigin="anonymous"
         async>
     </script>
+    {% endif %}
   </div>
 
   {%- if site.hyvor_talk_website_id -%}

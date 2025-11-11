@@ -1,0 +1,62 @@
+{% assign minHeaders = 3 %}
+{% assign headers = content | split: '<h' %}
+{% assign headerCount = 0 %}
+{% for header in headers %}
+  {% if header contains 'id=' %}
+    {% assign headerCount = headerCount | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if headerCount >= minHeaders %}
+<div class="table-of-contents" id="table-of-contents">
+  <h3><i class="fas fa-list"></i> Table of Contents</h3>
+  <nav id="toc-nav">
+    {{ content | toc_only }}
+  </nav>
+</div>
+
+<style>
+.table-of-contents {
+  background: var(--card-background-color);
+  border: 1px solid var(--card-background-color);
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  position: sticky;
+  top: 80px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.table-of-contents h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2em;
+  color: var(--main-text-color);
+}
+.table-of-contents nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.table-of-contents nav ul li {
+  margin-bottom: 8px;
+  padding-left: 0;
+}
+.table-of-contents nav ul li a {
+  color: var(--main-text-color);
+  text-decoration: none;
+  transition: color 0.2s;
+  display: block;
+  padding: 5px 0;
+}
+.table-of-contents nav ul li a:hover {
+  color: var(--link-color);
+  padding-left: 5px;
+}
+.table-of-contents nav ul ul {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+</style>
+{% endif %}
+
