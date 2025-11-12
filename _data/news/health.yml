@@ -1,7 +1,2148 @@
 news_items:
-  - title: "Health News from Verified Sources"
-    description: "Latest health and medical news from trusted sources. Run update_news.py to fetch current articles."
-    url: "#"
-    date: "2025-11-05"
-    source: "System"
+- title: Senate approves shutdown ending legislation, sending bill to the House for
+    a vote
+  description: After 41 days of a government shutdown, the U.S. Senate has passed
+    a set of bills to reopen the government. Its fate in the House is uncertain.
+  url: https://www.npr.org/2025/11/10/g-s1-97245/senate-shutdown-vote
+  date: '2025-11-11'
+  source: NPR
+- title: Cryptoqueen who fled China for London mansion to be sentenced over £5bn Bitcoin
+    stash
+  description: Qian Zhimin bought cryptocurrency using funds stolen from thousands
+    of Chinese pensioners, say police.
+  url: https://www.bbc.com/news/articles/cvg4w1g9ezko
+  date: '2025-11-11'
+  source: BBC News
+- title: FDA to remove "black box" warnings on some menopause hormone therapies
+  description: The Food and Drug Administration says it is removing safety warnings
+    for many hormone therapy drugs prescribed to ease symptoms of menopause and perimenopause.
+    Dr. Erika Schwartz, founder of the Evolved Science medical group in New York City,
+    joins w
+  url: https://www.cbsnews.com/video/fda-to-remove-black-box-warnings-some-menopause-hormone-therapies/
+  date: '2025-11-11'
+  source: CBS News
+- title: 'Diddy''s prison life: A chapel gig, drug treatment and early disciplinary
+    action'
+  description: Sean "Diddy" Combs was disciplined just days into his sentence at a
+    federal prison, an internal prison document obtained by CBS News shows.
+  url: https://www.cbsnews.com/news/sean-diddy-combs-prison-chapel-drug-rehab-phone-call/
+  date: '2025-11-11'
+  source: CBS News
+- title: Universal consensus 3D segmentation of cells from 2D segmented stacks
+  description: u-Segment3D is a universal framework that translates and enhances 2D
+    instance segmentations to a 3D consensus instance segmentation without training
+    data. It performs well across diverse datasets, including cells with complex morphologies.
+  url: https://www.nature.com/articles/s41592-025-02887-w
+  date: '2025-11-11'
+  source: Nature.com
+- title: Failure is not an option for Africa’s newly launched medicines agency
+  description: The inequitable distribution of vaccines during the COVID-19 pandemic
+    was the final proof of the need for more home-grown manufacturing and regulatory
+    capacity across Africa.
+  url: https://www.nature.com/articles/d41586-025-03668-3
+  date: '2025-11-11'
+  source: Nature.com
+- title: Comprehensive echocardiogram evaluation with view primed vision language
+    AI
+  description: Nature - Comprehensive echocardiogram evaluation with view primed vision
+    language AI
+  url: https://www.nature.com/articles/s41586-025-09850-x
+  date: '2025-11-11'
+  source: Nature.com
+- title: Influence of gravity on water management and mass transport losses in polymer
+    electrolyte membrane fuel cells
+  description: Scientific Reports - Influence of gravity on water management and mass
+    transport losses in polymer electrolyte membrane fuel cells
+  url: https://www.nature.com/articles/s41598-025-09067-y
+  date: '2025-11-11'
+  source: Nature.com
+- title: Structural basis of cyclobutane pyrimidine dimer recognition by UV-DDB in
+    the nucleosome
+  description: UV-DDB is a protein that plays a key role in recognizing DNA lesions.
+    Here, the authors determine the cryo-EM structure of UV-DDB bound to UV-damaged
+    chromatin in human cells, identifying a nucleosome binding site.
+  url: https://www.nature.com/articles/s41467-025-65486-5
+  date: '2025-11-11'
+  source: Nature.com
+- title: Signal control during tissue regeneration in adult animals
+  description: The ability to track single cells in vivo, combined with insights into
+    chromatin structure, immune–tissue crosstalk, bioelectric and metabolic cues and
+    quantitative modelling, is changing our understanding of how tissues are repaired
+    and renewed. Thi
+  url: https://www.nature.com/articles/s41580-025-00917-1
+  date: '2025-11-11'
+  source: Nature.com
+- title: Is HRT in menopause healthy? US label change triggers debate
+  description: The US FDA is removing serious health warnings from hormone replacement
+    therapies. Scientists worry that more work is needed to get the message right.
+  url: https://www.nature.com/articles/d41586-025-03687-0
+  date: '2025-11-11'
+  source: Nature.com
+- title: A genome-wide analysis of the shared genetic risk architecture of complex
+    neurological and psychiatric disorders
+  description: Smeland et al. demonstrate greater genetic overlap between neurological
+    and psychiatric disorders than previously recognized, along with diverse neurobiological
+    associations. The findings support a more integrated view of brain-related illness.
+  url: https://www.nature.com/articles/s41593-025-02090-2
+  date: '2025-11-11'
+  source: Nature.com
+- title: APOE4 to APOE2 allelic switching in mice improves Alzheimer’s disease-related
+    metabolic signatures, neuropathology and cognition
+  description: Using a mouse model enabling an inducible ‘switch’, Golden et al. show
+    that an astrocyte-specific replacement of the Alzheimer’s risk gene APOE4 with
+    protective APOE2 alters metabolism and gene expression, reducing amyloid pathology
+    and gliosis.
+  url: https://www.nature.com/articles/s41593-025-02094-y
+  date: '2025-11-11'
+  source: Nature.com
+- title: Estrogen modulates reward prediction errors and reinforcement learning
+  description: Dopamine encoding of reward prediction errors naturally fluctuates
+    over females’ reproductive cycles with estrogenic signaling due to reduced expression
+    of dopamine reuptake proteins.
+  url: https://www.nature.com/articles/s41593-025-02104-z
+  date: '2025-11-11'
+  source: Nature.com
+- title: Heavy drinking linked to deadlier brain hemorrhages
+  description: A new study found that habitual drinkers were more likely to develop
+    earlier strokes and larger brain bleeds.
+  url: https://www.nationalgeographic.com/health/article/study-heavy-drinking-causing-deadly-strokes
+  date: '2025-11-11'
+  source: National Geographic
+- title: Wild-type KRAS activation drives evasion of interferon-mediated immunity
+    and resistance to immunotherapy in hepatocellular carcinoma
+  description: Increasing evidence suggests that activation of oncogenic pathways
+    contributes to an unfavorable tumor microenvironment. Here, the authors show that
+    wild-type KRAS plays a key role in immune evasion in hepatocellular carcinoma
+    by impairing interferon
+  url: https://www.nature.com/articles/s41467-025-64860-7
+  date: '2025-11-11'
+  source: Nature.com
+- title: Assessment of terrestrial gamma radiation dose rates and its associated hazards
+    in Taraba State, Nigeria
+  description: Scientific Reports - Assessment of terrestrial gamma radiation dose
+    rates and its associated hazards in Taraba State, Nigeria
+  url: https://www.nature.com/articles/s41598-025-22939-7
+  date: '2025-11-11'
+  source: Nature.com
+- title: Nick Kurtz, Drake Baldwin Honored As 2025 MLB Rookies Of The Year
+  description: Nick Kurtz and Drake Baldwin earn 2025 MLB Rookie of the Year honors.
+    Stats, highlights, and the next wave of baseball rookies to watch in 2026.
+  url: https://www.forbes.com/sites/chuckmurr/2025/11/10/2025-mlb-rookies-of-the-year/
+  date: '2025-11-11'
+  source: Forbes
+- title: The Trump Administration Has a New Plan for Gaza
+  description: The U.S. wants to build housing for those displaced by the war, but
+    not everyone is on board.
+  url: https://www.theatlantic.com/national-security/2025/11/gaza-new-plan-united-states/684879/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: Did Democrats Win the Shutdown After All?
+  description: Jon Allsop on the possible end to the recent government shutdown, and
+    what the Democrats have gained from it.
+  url: https://www.newyorker.com/news/the-lede/did-democrats-win-the-shutdown-after-all
+  date: '2025-11-11'
+  source: The New Yorker
+- title: Why the Democrats Finally Folded
+  description: This is how the government shutdown was always going to end.
+  url: https://www.theatlantic.com/politics/2025/11/democrats-folded-government-shutdown-end/684885/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: End of shutdown in sight as some Democrats break with leadership to make
+    deal with GOP
+  description: At 41 days and counting, the end of the longest shutdown in government
+    history could be in sight. A group of Democrats and one independent crossed the
+    aisle to make a deal with Republicans. It still needs approval from the Senate,
+    House and president
+  url: https://www.pbs.org/newshour/show/end-of-shutdown-in-sight-as-some-democrats-break-with-leadership-to-make-deal-with-gop
+  date: '2025-11-10'
+  source: PBS
+- title: Some constituents say they struggled to reach Fetterman before vote to end
+    government shutdown
+  description: Some of Sen. John Fetterman's constituents said they struggled to reach
+    his office ahead of the vote on the government shutdown.
+  url: https://www.cbsnews.com/pittsburgh/news/constituents-fetterman-unavailable-government-shutdown-vote/
+  date: '2025-11-10'
+  source: CBS News
+- title: Nine tackles on Thursday, cancer surgery on Friday for Broncos' Singleton
+  description: Denver Broncos linebacker Alex Singleton is recovering from surgery
+    following a testicular cancer diagnosis.
+  url: https://www.bbc.com/sport/american-football/articles/czxk5l5pwkko
+  date: '2025-11-10'
+  source: BBC News
+- title: FDA head explains decision to drop ‘black box’ warnings from menopause hormone
+    treatment
+  description: The FDA announced it would begin asking drug companies to remove so-called
+    “black box” warnings for hormones prescribed to treat symptoms of menopause. The
+    FDA says the warning has dissuaded generations of women from taking advantage
+    of the medicatio
+  url: https://www.pbs.org/newshour/show/fda-head-explains-decision-to-drop-black-box-warnings-from-menopause-hormone-treatment
+  date: '2025-11-10'
+  source: PBS
+- title: Sanders calls deal to end government shutdown a "disaster"
+  description: Sen. Bernie Sanders told CBS News he's "very disappointed" by the bill
+    to end the government shutdown, calling a planned vote on health insurance subsidies
+    "meaningless."
+  url: https://www.cbsnews.com/news/bernie-sanders-deal-government-shutdown-disaster/
+  date: '2025-11-10'
+  source: CBS News
+- title: Shopping for an Affordable Care Act health plan? NPR wants to hear your experience
+  description: If you buy your own health insurance through the ACA marketplaces,
+    how do this year's prices look to you?
+  url: https://www.npr.org/2025/11/10/g-s1-97223/health-care-callout
+  date: '2025-11-10'
+  source: NPR
+- title: Scottish scientists tackle vampire bat rabies threat in Amazon
+  description: Glasgow university researchers say more humans and livestock are being
+    bitten by the bats because of the impacts of climate change.
+  url: https://www.bbc.com/news/articles/c74015ll09yo
+  date: '2025-11-10'
+  source: BBC News
+- title: Democrats rebel after 8 senators cut a deal to end the shutdown without ACA
+    funds
+  description: Many Democrats are fuming after eight moderates teamed up with Republicans
+    to end the government shutdown without extending health care subsidies.
+  url: https://www.nbcnews.com/politics/congress/democrats-rebel-8-senators-cut-deal-end-shutdown-aca-funds-rcna242994
+  date: '2025-11-10'
+  source: NBC News
+- title: '''I was spat at in the ''70s because of my colour - those days are back'''
+  description: A man who was spat at because of his colour when he was young is worried
+    about the political climate.
+  url: https://www.bbc.com/news/articles/cz7plye1lp7o
+  date: '2025-11-10'
+  source: BBC News
+- title: The shutdown deal doesn’t extend expiring health subsidies. What happens
+    to them now?
+  description: A legislative package that appears on track to end the longest government
+    shutdown in U.S. history leaves out any clear resolution on the expiring Affordable
+    Care Act tax credits that have made private health insurance less costly for millions
+    of Ame
+  url: https://www.pbs.org/newshour/politics/the-shutdown-deal-doesnt-extend-expiring-health-subsidies-what-happens-to-them-now
+  date: '2025-11-10'
+  source: PBS
+- title: Public safety groups face an uncertain future months after federal grant
+    cuts
+  description: Six months after the Trump administration cut more than $800 million
+    in Justice Department grants geared toward public safety, the organizations affected
+    are adjusting to a future without that money.
+  url: https://www.npr.org/2025/11/10/nx-s1-5552704/doj-crime-prevention-public-safety-grant-cuts
+  date: '2025-11-10'
+  source: NPR
+- title: 'WATCH: Jeffries says Democrats will continue fight for health care tax credits
+    as shutdown deal inches ahead'
+  description: Democratic House Minority Leader Hakeem Jeffries says that Democratic
+    senators who voted to advance a government funding bill Sunday are “going to have
+    to explain themselves.”
+  url: https://www.pbs.org/newshour/politics/watch-jeffries-says-democrats-will-continue-the-fight-for-health-care-tax-credits-as-shutdown-deal-inches-ahead
+  date: '2025-11-10'
+  source: PBS
+- title: Army gynecologist took secret videos of patients during exams, lawsuit says
+  description: An Army gynecologist, Dr. Blaine McGraw, took secret intimate videos
+    of a patient under his care at the Fort Hood base in Texas, according to a new
+    lawsuit.
+  url: https://www.nbcnews.com/news/investigations/army-gynecologist-took-secret-videos-patients-intimate-exams-lawsuit-s-rcna242846
+  date: '2025-11-10'
+  source: NBC News
+- title: The hack on Jaguar Land Rover was so bad that it hurt the U.K.'s GDP, Bank
+    of England says
+  description: A hack affecting British car manufacturer Jaguar Land Rover has been
+    so bad that it put a dent in the U.K.’s gross domestic product, the Bank of England
+    said.
+  url: https://www.nbcnews.com/tech/security/jaguar-land-rover-hack-hurt-uk-gdp-bank-england-says-rcna243083
+  date: '2025-11-10'
+  source: NBC News
+- title: Fetterman says he supports healthcare credits but won't hold government "hostage"
+  description: Sen. John Fetterman told CBS News that Democrats agreed "collectively"
+    that the "mass chaos" wrought by the government shutdown needed to end — and rejected
+    allegations that he folded.
+  url: https://www.cbsnews.com/news/fetterman-government-shutdown-deal-healthcare-tax-credits-wont-hold-government-hostage/
+  date: '2025-11-10'
+  source: CBS News
+- title: 8 Democrats voted with Republicans on a shutdown deal. Here’s what they’ve
+    said about why
+  description: They faced almost instant blowback from members of their own party
+    as they voted to allow the Senate to move forward on compromise legislation that
+    would reopen the government.
+  url: https://www.pbs.org/newshour/politics/8-democrats-voted-with-republicans-on-a-shutdown-deal-heres-what-theyve-said-about-why
+  date: '2025-11-10'
+  source: PBS
+- title: 'Sen. John Fetterman on health care protections: "We have to negotiate" with
+    Republicans'
+  description: Sen. John Fetterman says Republicans and Democrats "have different
+    priorities," but health care protections and making health care more affordable
+    is a priority, and both parties "have to negotiate." Watch more of his interview
+    airing Wednesday on "C
+  url: https://www.cbsnews.com/video/sen-john-fetterman-health-care-protections-we-have-to-negotiate-republicans/
+  date: '2025-11-10'
+  source: CBS News
+- title: Here's what could happen to expiring health subsidies as a deal to end the
+    shutdown emerges
+  description: A legislative package that could end the weekslong government shutdown
+    leaves out any clear resolution on the expiring Affordable Care Act tax credits
+    that have made private health insurance less costly for millions. The deal agreed
+    to by Senate Repu
+  url: https://apnews.com/article/shutdown-health-tax-credits-affordable-care-act-2b5ae3651ff16783a00e00dc1ce264bf
+  date: '2025-11-10'
+  source: Associated Press
+- title: The government shutdown may last longer because of a fight over hemp
+  description: 'WASHINGTON — Though Congress appears to have a deal to end the government
+    shutdown, a vote on that agreement is being held up by an unexpected issue: hemp.Sen.'
+  url: https://www.nbcnews.com/politics/congress/government-shutdown-may-last-longer-fight-hemp-rcna243075
+  date: '2025-11-10'
+  source: NBC News
+- title: 'Khanna explains call for Schumer to be replaced: "Not meeting the moment"'
+  description: Democratic Rep. Ro Khanna of California said Senate Minority Leader
+    Chuck Schumer is "out of touch with where the party's base is."
+  url: https://www.cbsnews.com/news/government-shutdown-ro-khanna-chuck-schumer-senate-leader/
+  date: '2025-11-10'
+  source: CBS News
+- title: Child critical after serious crash involving lorry
+  description: Emergency services were called to the scene on the Boleran Road, between
+    Coleraine, Limavady and Garvagh, shortly before 16:00 BST on Monday.
+  url: https://www.bbc.com/news/articles/c4gw91redrro
+  date: '2025-11-10'
+  source: BBC News
+- title: Canada loses its measles-free status, with US on track to follow
+  description: The country hasn't been able to curb an outbreak of more than 5,000
+    cases over the last year, while US cases are at a 33-year high.
+  url: https://www.bbc.com/news/articles/cy7e2lv4r8xo
+  date: '2025-11-10'
+  source: BBC News
+- title: Denver Broncos linebacker Alex Singleton undergoes successful surgery for
+    cancer
+  description: The 31-year-old was diagnosed last week after a random drug test flagged
+    health officials to indicators of cancer. The team said Singleton is recovering
+    and doctors are confident he'll return to the field in the coming weeks.
+  url: https://www.cbsnews.com/colorado/news/denver-broncos-linebacker-alex-singleton-successful-cancer-surgery/
+  date: '2025-11-10'
+  source: CBS News
+- title: What the End of Obamacare Subsidies Could Mean for Your Health Coverage
+  description: Healthcare costs could triple for millions of people if subsidies are
+    allowed to lapse at the end of the year.
+  url: https://time.com/7332658/government-shutdown-over-aca-subsidies/
+  date: '2025-11-10'
+  source: Time
+- title: Warren Buffett says he's "going quiet" in CEO letter to investors
+  description: In an eight-page letter published Monday, Warren Buffett said he'll
+    donate 2.7 million of his shares to four family foundations.
+  url: https://www.cbsnews.com/news/warren-buffett-shareholder-letter-berkshire-hathaway/
+  date: '2025-11-10'
+  source: CBS News
+- title: Parents arrested after 4-year-old twin boys are shot with gun found in the
+    living room
+  description: Two Florida parents were jailed over the weekend after their 4-year-old
+    twin boys were shot after finding a handgun underneath a couch cushion at their
+    family home, police said.
+  url: https://www.nbcnews.com/news/us-news/parents-arrested-4-year-old-twin-boys-are-shot-gun-found-living-room-rcna243054
+  date: '2025-11-10'
+  source: NBC News
+- title: Jeffries slams Republicans amid possible Senate deal to end government shutdown
+  description: House Minority Leader Hakeem Jeffries held a press conference slamming
+    Republicans over healthcare after the Senate advanced a House-passed funding bill
+    to end the 41-day government shutdown.
+  url: https://www.cbsnews.com/video/jeffries-slams-republicans-amid-possible-senate-deal-to-end-government-shutdown/
+  date: '2025-11-10'
+  source: CBS News
+- title: These are the Senate Democrats who voted to reopen the government
+  description: After reaching a bipartisan deal, Senate Democrats finally gave Republicans
+    the votes needed to advance a government funding measure.
+  url: https://www.cbsnews.com/news/senate-democrats-vote-end-government-shutdown/
+  date: '2025-11-10'
+  source: CBS News
+- title: Shutdown deal leaves many Dems furious, with little to show on health care
+  description: The decision by eight Democratic senators to embrace a deal to end
+    the government shutdown has infuriated many members of the party.
+  url: https://www.cbsnews.com/news/government-shutdown-deal-senate-democrats-health-care/
+  date: '2025-11-10'
+  source: CBS News
+- title: U.S. to drop black box warnings on hormone therapy drugs used for menopause
+  description: The Food and Drug Administration is removing black box warnings on
+    hormone therapy drugs used to treat menopause, Health and Human Services Secretary
+    Robert F. Kennedy Jr. announced on Monday. CBS News' Shanelle Kaul has more.
+  url: https://www.cbsnews.com/video/us-to-drop-black-box-warnings-on-hormone-therapy-drugs-used-for-menopause/
+  date: '2025-11-10'
+  source: CBS News
+- title: Speaker Johnson says House will return to Washington for voting on shutdown
+    deal
+  description: Speaker Mike Johnson says that House lawmakers should start returning
+    to Washington “right now” after a small group of Senate Democrats broke a 40 day
+    stalemate late Sunday evening and voted with Republicans to move forward with
+    legislation that woul
+  url: https://apnews.com/article/government-shutdown-update-80ef7cada7b3c0559aca38886efd8f90
+  date: '2025-11-10'
+  source: Associated Press
+- title: What is considered bad debt (and why should it matter to borrowers)?
+  description: Bad debt can drain your finances and damage your credit. Here's how
+    to identify and tackle it now.
+  url: https://www.cbsnews.com/news/what-is-considered-bad-debt-and-why-should-it-matter-to-borrowers/
+  date: '2025-11-10'
+  source: CBS News
+- title: What is Ofsted and how will the new school ratings work?
+  description: The system is changing after the death of head Ruth Perry highlighted
+    the pressure of inspections.
+  url: https://www.bbc.com/news/articles/cz0xe4zmpeyo
+  date: '2025-11-10'
+  source: BBC News
+- title: U.S. officials in Israel to press truce forward as first phase of Israel-Hamas
+    ceasefire winds down
+  description: As the first stage of the agreement nears its end, President Donald
+    Trump’s son-in-law, Jared Kushner, met on Monday with Israeli Prime Minister Benjamin
+    Netanyahu and his close confidant Ron Dermer in Jerusalem.
+  url: https://www.pbs.org/newshour/world/u-s-officials-in-israel-to-press-truce-forward-as-first-phase-of-israel-hamas-ceasefire-winds-down
+  date: '2025-11-10'
+  source: PBS
+- title: Here's what's in the Senate deal to end the government shutdown
+  description: The Senate deal to end the government shutdown would extend funding
+    through January and promise Democrats a vote on health care.
+  url: https://www.cbsnews.com/news/government-shutdown-senate-deal/?ftag=YHF4eb9d17
+  date: '2025-11-10'
+  source: CBS News
+- title: Preliminary tests find germ that causes botulism in ByHeart baby formula
+  description: Consumers should stop using ByHeart powdered infant formula immediately.
+  url: https://www.pbs.org/newshour/health/preliminary-tests-find-germ-that-causes-botulism-in-byheart-baby-formula
+  date: '2025-11-10'
+  source: PBS
+- title: 20 people hospitalized after bus overturns in Southern California
+  description: Authorities say 20 people were hospitalized, three with major injuries,
+    after a bus carrying teens returning from a church camp overturned on a winding
+    mountain road in Southern California. Fire officials say the bus crashed with
+    36 people aboard Sun
+  url: https://apnews.com/article/bus-crash-california-highway-b1a016db3bb2e319716acc67bf9c18c6
+  date: '2025-11-10'
+  source: Associated Press
+- title: These 8 Democrats voted with Republicans on shutdown deal
+  description: Eight Democratic senators are facing criticism from their own party
+    for their deal with Republicans to end the federal government shutdown. The eight
+    senators voted Sunday night to provide crucial votes to allow the Senate to move
+    forward on compromi
+  url: https://apnews.com/article/government-shutdown-8-democrats-e83180c0b69642a00a234c244d9ea76e
+  date: '2025-11-10'
+  source: Associated Press
+- title: 'NFL Power Rankings Week 11: It''s time to take the Patriots seriously'
+  description: Plus, the Cleveland Browns and the Cauldron of Sadness and what rough
+    beast slouches toward Buffalo?
+  url: https://ftw.usatoday.com/story/sports/nfl/2025/11/10/nfl-power-rankings-week-11-patriots-rams-seahawks-eagles-colts/87193897007/
+  date: '2025-11-10'
+  source: USA Today
+- title: Hormone replacement therapy will no longer carry a warning label, FDA says
+  description: Hormone therapies for menopause will no longer carry a black box warning
+    about serious risks such as breast cancer, heart attack and stroke, FDA officials
+    announced.
+  url: https://www.nbcnews.com/health/womens-health/hormone-replacement-therapy-no-warning-label-fda-rcna243008
+  date: '2025-11-10'
+  source: NBC News
+- title: 'WATCH: RFK Jr. says FDA will remove long-standing warning from hormone-based
+    menopause drugs'
+  description: The change announced Monday is a break from more than 20 years of FDA
+    policy, in which the drugs carried the agency's most severe warning label.
+  url: https://www.pbs.org/newshour/politics/watch-rfk-jr-says-fda-will-remove-long-standing-warning-from-hormone-based-menopause-drugs
+  date: '2025-11-10'
+  source: PBS
+- title: Here's what's in the Senate deal to end the government shutdown
+  description: The Senate deal to end the government shutdown would extend funding
+    through January and promise Democrats a vote on health care.
+  url: https://www.cbsnews.com/news/government-shutdown-senate-deal/
+  date: '2025-11-10'
+  source: CBS News
+- title: '''Death by Lightning'' unfolds like an 1880s ''West Wing'''
+  description: Netflix's new four-part miniseries dives into the plot to assassinate
+    President James Garfield. Death by Lightning  is full of recognizable arrogance,
+    political intrigue and unexpected betrayal.
+  url: https://www.npr.org/2025/11/10/nx-s1-5604211/death-by-lightning-review-garfield-assassination
+  date: '2025-11-10'
+  source: NPR
+- title: Canada loses its measles elimination status amid large outbreak | CNN
+  description: Canada has lost its measles elimination status amid a large, ongoing
+    outbreak of the virus, Public Health Agency of Canada said Monday.
+  url: https://www.cnn.com/2025/11/10/health/canada-measles-elimination-status-removed
+  date: '2025-11-10'
+  source: CNN
+- title: FDA removing warning from hormone-based menopause drugs
+  description: 'The Food and Drug Administration says it will remove a long-standing
+    warning from hormone-based drugs used to treat menopause symptoms in women. The
+    change announced Monday is a break from more than 20 years of FDA policy, in which
+    the drugs carried '
+  url: https://apnews.com/article/menopause-hormones-warning-fda-drugs-pills-women-f26a8208fd3f5174ec96d61140439561
+  date: '2025-11-10'
+  source: Associated Press
+- title: The FDA will lift warnings on hormone therapy for menopause
+  description: Hormone therapy drugs have carried box warning labels for years. The
+    Food and Drug Administration is removing them, saying the risks were overstated.
+  url: https://www.npr.org/sections/shots-health-news/2025/11/10/nx-s1-5604283/fda-menopause-hormone-therapy
+  date: '2025-11-10'
+  source: NPR
+- title: Canada loses its measles elimination status. Will the U.S. be next?
+  description: Canada has lost its measles elimination status, the country’s Public
+    Health Agency announced Monday, because of its inability to control an ongoing
+    outbreak of the virus for at least a year
+  url: https://www.nbcnews.com/health/health-news/canada-loses-measles-elimination-status-will-us-rcna242630
+  date: '2025-11-10'
+  source: NBC News
+- title: ‘Black box’ safety warning to be removed from hormone therapy for menopause
+    | CNN
+  description: In a pivotal move, the US Food and Drug Administration on Monday will
+    say it’s taking steps to remove the lengthy “black box” warning on many hormone
+    treatments for women with menopause symptoms — a shift expected to give women
+    more options for treat
+  url: https://www.cnn.com/2025/11/10/health/hormone-therapy-menopause-fda-warning-wellness
+  date: '2025-11-10'
+  source: CNN
+- title: Flu vaccine plea amid rising hospital admissions
+  description: Health chiefs say only half of people in Staffordshire aged over 65
+    have had the free flu jab.
+  url: https://www.bbc.com/news/articles/cn97pwy5e58o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
+  date: '2025-11-10'
+  source: BBC News
+- title: 'Sen. Shaheen blames GOP on health care, addresses shutdown vote: "Live to
+    fight another day"'
+  description: Sen. Jeanne Shaheen of New Hampshire, one of the Democrats who joined
+    Republicans to advance a funding measure to potentially end the government shutdown,
+    joins "CBS Mornings" to discuss the vote that has divided her party. Shaheen placed
+    blame on Pr
+  url: https://www.cbsnews.com/video/sen-shaheen-government-shutdown/
+  date: '2025-11-10'
+  source: CBS News
+- title: 'WATCH LIVE: Senate convenes as some Senate Democrats prepare to join GOP
+    to end government shutdown'
+  description: A handful of Senate Democrats joined with Republicans to advance the
+    bill after what's become a deepening disruption of federal programs and services.
+  url: https://www.pbs.org/newshour/politics/watch-live-senate-convenes-as-some-senate-democrats-prepare-to-join-gop-to-end-government-shutdown
+  date: '2025-11-10'
+  source: PBS
+- title: Lung cancer is becoming more common among young, healthy women. Here's why.
+  description: Traditionally, lung cancer is associated with older patients, specifically
+    men who smoked. But doctors say that's beginning to change.
+  url: https://www.usatoday.com/story/life/health-wellness/2025/11/10/lung-cancer-young-women/87107857007/
+  date: '2025-11-10'
+  source: USA Today
+- title: Stocks jump as the Senate takes steps to end the government shutdown
+  description: Wall Street was buoyed by investor optimism that the longest federal
+    government shutdown in U.S. history could be nearing an end.
+  url: https://www.cbsnews.com/news/stocks-government-shutdown-senate-deal-sp500-dow-jones-november-10/
+  date: '2025-11-10'
+  source: CBS News
+- title: 'Three questions for 2026: From the Politics Desk'
+  description: Welcome to the online version of From the Politics Desk, a newsletter
+    that brings you the NBC News Politics team’s latest reporting and analysis from
+    the White House, Capitol Hill and the campaign trail
+  url: https://www.nbcnews.com/politics/politics-news/three-questions-2026-politics-desk-rcna242692
+  date: '2025-11-10'
+  source: NBC News
+- title: Several Democrats take risk and join Republicans to end government shutdown
+  description: A group of Democrats, along with Independent Sen. Angus King, joined
+    Republican efforts to fund the government after reportedly securing guarantees
+    on healthcare. CBS News' Caitlin Huey-Burns reports.
+  url: https://www.cbsnews.com/video/several-democrats-take-risk-and-join-republicans-to-end-government-shutdown/
+  date: '2025-11-10'
+  source: CBS News
+- title: How Ukrainian children receive urgent medical care during the Russia war
+  description: Ukrainians are being forced to move toward the west to obtain medical
+    care for children wounded by the war. Dr. Maija Cheung, the chief medical officer
+    at Kids Operating Room, joins CBS News with more on her mission.
+  url: https://www.cbsnews.com/video/how-ukrainian-children-receive-urgent-medical-care-during-the-russia-war/
+  date: '2025-11-10'
+  source: CBS News
+- title: New pill could help millions struggling with cholesterol
+  description: The drug maker Merck says it's developed a new daily cholesterol pill
+    that can dramatically lower LDL, or bad cholesterol. CBS News medical contributor
+    Dr. Celine Gounder explains what to know.
+  url: https://www.cbsnews.com/video/new-pill-could-help-millions-struggling-with-cholesterol/
+  date: '2025-11-10'
+  source: CBS News
+- title: He was a dictator, but now he's officially a national hero
+  description: 'Indonesia has a new national hero: its former dictator, the late President
+    Suharto'
+  url: https://www.nbcnews.com/world/asia/indonesia-former-dictator-suharto-national-hero-rcna242955
+  date: '2025-11-10'
+  source: NBC News
+- title: Handful of Senate Democrats join GOP to break funding stalemate, first step
+    toward ending shutdown
+  description: A group of moderate Democrats agreed to proceed without a guaranteed
+    extension of health care subsidies, angering many in their caucus who say Americans
+    want them to continue the fight.
+  url: https://www.pbs.org/newshour/politics/handful-of-senate-democrats-join-gop-to-break-funding-stalemate-first-step-toward-ending-shutdown
+  date: '2025-11-10'
+  source: PBS
+- title: Former police officer withdraws from Sheku Bayoh inquiry
+  description: Alan Paton was one of the first officers at the scene when Mr Bayoh
+    was seen with a knife in Kirkcaldy in 2015.
+  url: https://www.bbc.com/news/articles/cj3zpg1mrneo
+  date: '2025-11-10'
+  source: BBC News
+- title: No decision over ban on transgender women - IOC
+  description: The International Olympic Committee says no decision has been taken
+    on whether to ban transgender women from female categories across all sports.
+  url: https://www.bbc.com/sport/articles/cy4p29j4z70o
+  date: '2025-11-10'
+  source: BBC News
+- title: Attackers treated victim's broken jaw with peas
+  description: Kyle Dale held a woman while Cather Hutter knocked her unconscious,
+    a court hears.
+  url: https://www.bbc.com/news/articles/c4gw0yznxj2o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
+  date: '2025-11-10'
+  source: BBC News
+- title: 'FDA chief says warning labels deterred menopause care: "It''s an American
+    tragedy"'
+  description: In an interview with CBS News, FDA Commissioner Dr. Marty Makary explains
+    what went into the decision to drop the most serious warnings on hormone therapy
+    for menopause.
+  url: https://www.cbsnews.com/news/fda-hormone-therapy-marty-makary-interview/
+  date: '2025-11-10'
+  source: CBS News
+- title: 'FDA chief says warning labels deterred menopause care: "It''s an American
+    tragedy"'
+  description: In an interview with CBS News, FDA Commissioner Dr. Marty Makary explains
+    what went into the decision to drop the most serious warnings on hormone therapy...
+  url: https://www.cbsnews.com/news/fda-hormone-therapy-marty-makary-interview/?ftag=YHF4eb9d17
+  date: '2025-11-10'
+  source: CBS News
+- title: The Democrats who backed Republican shutdown deal - and why
+  description: The Democratic defections broke a weeks-long deadlock amid the longest
+    ever US shutdown.
+  url: https://www.bbc.com/news/articles/c7974x7248go
+  date: '2025-11-10'
+  source: BBC News
+- title: Senators reach deal to reopen the government. And, countries gather for climate
+    talks
+  description: Several Senate Democrats break ranks to join Republicans in a deal
+    to reopen the government. And, world leaders gather in Brazil for a major climate
+    conference, but the U.S. is not expected to attend.
+  url: https://www.npr.org/2025/11/10/g-s1-97152/up-first-newsletter-government-shutdown-snap-benefits-cop30
+  date: '2025-11-10'
+  source: NPR
+- title: 'Shutdown deal in sight and Arctic blast kicks off storm season: Morning
+    Rundown'
+  description: An end to the shutdown is in sight after Senators clear a key vote
+    for a deal. An Arctic blast dumps snow on the Midwest. And recapping Chargers
+    vs. Steelers.
+  url: https://www.nbcnews.com/news/us-news/shutdown-deal-arctic-blast-storm-season-morning-rundown-rcna242952
+  date: '2025-11-10'
+  source: NBC News
+- title: Government shutdown deal faces hurdles
+  description: A legislative package to end the government shutdown appears on track.
+    A handful of Senate Democrats joined with Republicans to advance the bill after
+    what's become a deepening disruption of federal programs and services. But hurdles
+    remain. Senators
+  url: https://apnews.com/article/government-shutdown-senate-deal-schumer-trump-33c6e37c68e9bf2d33770de0f3399563
+  date: '2025-11-10'
+  source: Associated Press
+- title: Bangladeshi workers demonstrate in Malaysia over unpaid wages
+  description: About 100 Bangladeshi workers who were employed by Malaysian companies
+    have rallied in Bangladesh’s capital to demand unpaid wages, fair compensation
+    and an end to alleged abuse by Malaysian employers. The Migrant Welfare Network,
+    a Bangladeshi group
+  url: https://apnews.com/article/bangladesh-malaysia-protest-workers-wages-46778e8886839c5a4932e95eb0e6773a
+  date: '2025-11-10'
+  source: Associated Press
+- title: Does a change in manager lead to more injuries?
+  description: Physiotherapist Ben Warburton says it's "very well known" that a new
+    coach of a team will prompt "an increase of injury incidence".
+  url: https://www.bbc.com/sport/football/articles/cg43ev413zeo
+  date: '2025-11-10'
+  source: BBC News
+- title: Welcome to the planet’s newest oil frontier
+  description: The region is seeing a boom in fossil fuels just as the impacts of
+    the climate crisis really bite. It’s raising thorny questions about who gets to
+    benefit...
+  url: https://www.cnn.com/2025/11/10/climate/south-america-oil-gas-brazil-guyana-argentina-climate
+  date: '2025-11-10'
+  source: CNN
+- title: Alaska's public schools can serve as emergency shelters. The buildings are
+    in crisis
+  description: Alaska's public schools are being used as emergency shelters, though
+    many of the buildings are crumbling.
+  url: https://www.npr.org/2025/11/10/g-s1-96847/alaska-schools-emergency-shelter-disaster
+  date: '2025-11-10'
+  source: NPR
+- title: People want to avoid ultra-processed foods. But experts struggle to define
+    them
+  description: 'The evidence that ultra-processed foods are bad for us is piling up.
+    But efforts to reduce their role in our diets face a big hurdle: experts can''t
+    agree on what they are and which to target.'
+  url: https://www.npr.org/2025/11/10/nx-s1-5602065/ultra-processed-food-diet-health
+  date: '2025-11-10'
+  source: NPR
+- title: Countries are gathering for climate negotiations. Here's where the U.S. stands
+  description: Under President Trump, the U.S. has taken steps to roll back climate
+    policies. Here are six significant changes.
+  url: https://www.npr.org/2025/11/10/nx-s1-5601876/trump-cop30-climate-brazil-belem
+  date: '2025-11-10'
+  source: NPR
+- title: Guinness maker appoints former Tesco boss to stem falling sales
+  description: It is hoped the former Tesco boss can reignite sales at the biggest
+    drinks-maker in the world, Diageo.
+  url: https://www.bbc.com/news/articles/cy4021v7wepo
+  date: '2025-11-10'
+  source: BBC News
+- title: Travelers facing flight cancellations due to the government shutdown turn
+    to trains, buses and car rentals as alternate transportation options
+  description: Xavier Vega and his partner, Soluna Vega, cheered in relief as the
+    “Welcome to Connecticut” sign came into view. It marked the end of an unplanned
+    17-hour highway odyssey home after their flight became one of more than 1,000
+    cancellations tied to the
+  url: https://www.cnn.com/2025/11/10/us/flight-cancellation-government-shutdown-options
+  date: '2025-11-10'
+  source: CNN
+- title: Senate takes the first step toward ending the government shutdown
+  description: After 40 days and 40 nights, a bipartisan group of Senate Democrats
+    and Republicans reached a deal to reopen the government. But some oppose the deal
+    because it doesn't reduce health care costs.
+  url: https://www.npr.org/2025/11/10/nx-s1-5603687/senate-takes-the-first-step-toward-ending-the-government-shutdown
+  date: '2025-11-10'
+  source: NPR
+- title: Call for more employers to pay 'real living wage'
+  description: Campaigners are calling for more businesses to explore the benefits
+    of paying the real living wage.
+  url: https://www.bbc.com/news/articles/c3643x1jd28o
+  date: '2025-11-10'
+  source: BBC News
+- title: Class helps me 'forget everything and just dance'
+  description: Hannah is one of several members of an inclusive dance class in west
+    Oxfordshire
+  url: https://www.bbc.com/news/articles/c5yl42l9p34o
+  date: '2025-11-10'
+  source: BBC News
+- title: Hundreds turn out for anti-pollution protest in Delhi
+  description: Police detained dozens of people, saying the protesters did not have
+    permission to gather near the iconic India Gate.
+  url: https://www.bbc.com/news/articles/c1k02lregw0o
+  date: '2025-11-10'
+  source: BBC News
+- title: Three takeaways from the US shutdown deal
+  description: The longest shutdown in US history appears to be drawing to a close,
+    leaving Democrats divided and Trump's hard line paying off.
+  url: https://www.bbc.com/news/articles/ce9dpyevx3jo
+  date: '2025-11-10'
+  source: BBC News
+- title: Bid to protect 'masterpiece' concrete shell roofs
+  description: The "delicate concrete forms" are the only UK design by a Swiss engineer,
+    a campaign group says.
+  url: https://www.bbc.com/news/articles/cn97qxxl830o?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
+  date: '2025-11-10'
+  source: BBC News
+- title: Dundee and US surgeons achieve world-first stroke surgery using robot
+  description: BBC News can reveal a Dundee professor carried out the first remote
+    thrombectomy on a human cadaver.
+  url: https://www.bbc.com/news/articles/cjw983pvz6lo
+  date: '2025-11-10'
+  source: BBC News
+- title: Education minister faces no confidence vote over Israel visit
+  description: The move is set to fail as it needs cross-community support and unionists
+    have already ruled out supporting it.
+  url: https://www.bbc.com/news/articles/ce8z4x52gnno
+  date: '2025-11-10'
+  source: BBC News
+- title: No special school places and kids are 'overlooked'
+  description: The council says the county's special schools are full to capacity.
+  url: https://www.bbc.com/news/articles/crmx177lw90o
+  date: '2025-11-10'
+  source: BBC News
+- title: 'A hacking kingpin reveals all: Inside the gang that left a trail of destruction'
+  description: One of the world's most prominent cyber-criminals speaks to the BBC
+    in an exclusive interview.
+  url: https://www.bbc.com/news/articles/cm2w0pvg4wko
+  date: '2025-11-10'
+  source: BBC News
+- title: Surgical menopause like a 'hormonal cliff edge'
+  description: Surgical menopause is the immediate onset of menopause caused by the
+    removal of both ovaries.
+  url: https://www.bbc.com/news/articles/cly95px04vzo
+  date: '2025-11-10'
+  source: BBC News
+- title: US Senate passes deal aimed at ending government shutdown
+  description: The measure signals a major breakthrough but the deal still needs to
+    get over more hurdles in Congress.
+  url: https://www.bbc.com/news/articles/cpd2p2eddnzo
+  date: '2025-11-10'
+  source: BBC News
+- title: Senators take first step toward reopening the government after historic shutdown
+  description: The Senate voted late Sunday evening on a compromise that could reopen
+    the government following the longest shutdown in history.
+  url: https://www.npr.org/2025/11/09/nx-s1-5603659/government-shutdown-senate-agreement
+  date: '2025-11-10'
+  source: NPR
+- title: The winners and losers of the government shutdown deal
+  description: 'One thing''s for sure: progressive Democrats lost.'
+  url: https://www.usatoday.com/story/news/politics/2025/11/09/government-shutdown-deal-winners-losers/87189477007/
+  date: '2025-11-10'
+  source: USA Today
+- title: Who are the Democrats voting for the government shutdown deal? | CNN Politics
+  description: A group of Democrats and one Democratic-aligned independent have helped
+    clinch an agreement to end the government shutdown, saying they had secured a
+    vote on the Affordable Care Act subsidies at the center of the standoff.
+  url: https://www.cnn.com/2025/11/09/politics/democrats-voting-government-shutdown-deal
+  date: '2025-11-10'
+  source: CNN
+- title: Sanders, Schumer speak out against deal to end shutdown, emphasize health
+    care fight
+  description: Sens. Bernie Sanders and Chuck Schumer spoke out against a funding
+    deal that has the support of at least eight Democrats, which could end the government
+    shutdown. Both senators emphasized the health care fight and rising costs for
+    Americans.
+  url: https://www.cbsnews.com/video/sanders-schumer-speak-out-against-deal-to-end-shutdown-emphasize-health-care-fight/
+  date: '2025-11-10'
+  source: CBS News
+- title: Several Democrats side with Republicans to pass deal aimed at ending US government
+    shutdown - follow live
+  description: Several Democrats side with Republicans to pass deal aimed at ending
+    US government shutdown - follow livebbc.com
+  url: https://www.bbc.com/news/live/c0rpq9r5zklt
+  date: '2025-11-10'
+  source: BBC News
+- title: Senators reach tentative deal to end the government shutdown
+  description: Senators struck an agreement to end the lengthy U.S. government shutdown,
+    three sources with direct knowledge of the details told NBC News.
+  url: https://www.nbcnews.com/politics/congress/senators-reach-tentative-deal-end-government-shutdown-rcna242401
+  date: '2025-11-10'
+  source: NBC News
+- title: Hospital failings continued after Alice Figueiredo death, leaked documents
+    show
+  description: Four months after a young woman died in a mental health unit, another
+    patient tried to harm herself in similar circumstances, leaked documents show.
+  url: https://www.bbc.com/news/articles/c5ypq0y7997o
+  date: '2025-11-10'
+  source: BBC News
+- title: How the US overtook China as Africa's biggest foreign investor
+  description: As the two nations vie for key materials, the US has regained the lead
+    in foreign direct investments in African countries.
+  url: https://www.bbc.com/news/articles/cx2yl88wd3lo
+  date: '2025-11-10'
+  source: BBC News
+- title: Canada Just Lost Its Measles-Free Status. The U.S. Could Soon Follow
+  description: Canada lost its official measles elimination status after a year of
+    continuous transmission
+  url: https://www.scientificamerican.com/article/canada-just-lost-its-measles-free-status-the-u-s-could-soon-follow/
+  date: '2025-11-10'
+  source: Scientific American
+- title: How cells orchestrate protein production through ER-lysosome interactions
+  description: Janelia researchers have uncovered a novel way that two of the structures
+    inside cells—the endoplasmic reticulum (ER) and lysosomes—coordinate the production
+    of proteins, highlighting how interactions between organelles are important for
+    regulating c
+  url: https://phys.org/news/2025-11-cells-orchestrate-protein-production-er.html
+  date: '2025-11-10'
+  source: Phys.Org
+- title: FDA Strips Breast Cancer Warning from Menopause Hormone Therapy
+  description: In a reversal, the Food and Drug Administration has removed black box
+    warnings on hormone replacement therapies for menopause
+  url: https://www.scientificamerican.com/article/fda-strips-breast-cancer-warning-from-menopause-hormone-therapy/
+  date: '2025-11-10'
+  source: Scientific American
+- title: Diet alone doesn't explain divergent health of California sea lions in US
+    and Mexico
+  description: 'When scientists compared what California sea lions eat in the Channel
+    Islands (U.S.) and the Gulf of California (Mexico), they expected to find a clear
+    explanation for why populations were booming in California but shrinking in Mexico.
+    Instead, they '
+  url: https://phys.org/news/2025-11-diet-doesnt-divergent-health-california.html
+  date: '2025-11-10'
+  source: Phys.Org
+- title: 'Q&A: How culture as a sustainable development goal is starting to become
+    a reality'
+  description: Eight global millennium development goals were established in 2000
+    by member states of the United Nations (UN) and endorsed by other multilateral
+    organizations. They ranged from eliminating hunger to empowering women, and from
+    reducing child mortalit
+  url: https://phys.org/news/2025-11-qa-culture-sustainable-goal-reality.html
+  date: '2025-11-10'
+  source: Phys.Org
+- title: Warming U.S. climate linked to rising deaths from heat
+  description: Record-breaking heat and severe cold spells are having a significant
+    impact on health and mortality in the United States, say researchers at the Yale
+    School of Public Health (YSPH).
+  url: https://ysph.yale.edu/news-article/warming-us-climate-linked-to-rising-deaths-from-heat/
+  date: '2025-11-10'
+  source: Yale.edu
+- title: Sabin Center Files Amicus Brief Supporting New York City’s Building Electrification
+    Law in Second Circuit Appeal
+  description: Last week, the Sabin Center filed an amicus brief on behalf of the
+    National League of Cities (NLC) and the New York Conference of Mayors (NYCOM)
+    in the case Association of Contracting Plumbers of the City of New York v. City
+    of New York, No. 25-977 (
+  url: https://blogs.law.columbia.edu/climatechange/2025/11/10/sabin-center-files-amicus-brief-supporting-new-york-citys-building-electrification-law-in-second-circuit-appeal/
+  date: '2025-11-10'
+  source: Columbia.edu
+- title: Goodbye cavities? This new toothpaste made from hair can heal enamel
+  description: Scientists have found that keratin, the protein in hair and skin, can
+    repair and protect tooth enamel. The material forms a mineralized layer that halts
+    decay and restores strength, outperforming traditional fluoride. Made from sustainable
+    sources li
+  url: https://www.sciencedaily.com/releases/2025/11/251110021058.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: Why giving up on goals is good for you, and how to know which to ditch
+  description: We admire grit and perseverance, but surprising research suggests that
+    giving up on ambitions in the right way can actually improve our physical and
+    mental health
+  url: https://www.newscientist.com/article/2501420-why-giving-up-on-goals-is-good-for-you-and-how-to-know-which-to-ditch/
+  date: '2025-11-10'
+  source: New Scientist
+- title: Hidden weakness makes prostate cancer self-destruct
+  description: 'Researchers have discovered that prostate cancer depends on two key
+    enzymes, PDIA1 and PDIA5, to survive and resist therapy. When blocked, these enzymes
+    cause the androgen receptor to collapse, killing cancer cells and enhancing the
+    effects of drugs '
+  url: https://www.sciencedaily.com/releases/2025/11/251110021056.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: Bioreactor replicates versatile induced Pluripotent Stem Cells
+  description: Southwest Research Institute (SwRI) has demonstrated a new application
+    for its cell-expansion bioreactor to advance tissue engineering and cell-based
+    therapies for treatment of injuries and diseases.
+  url: https://phys.org/news/2025-11-bioreactor-replicates-versatile-pluripotent-stem.html
+  date: '2025-11-10'
+  source: Phys.Org
+- title: New research finds no clear link between acetaminophen (Tylenol) and autism
+  description: 'A sweeping review of existing studies finds no solid evidence that
+    using acetaminophen (Tylenol) during pregnancy increases the risk of autism or
+    ADHD in children. Researchers found that previous reviews often relied on weak
+    or biased data, and most '
+  url: https://www.sciencedaily.com/releases/2025/11/251110021050.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: Surprising heart study finds daily coffee may cut AFib risk by 39%
+  description: New research finds that daily coffee drinking may cut AFib risk by
+    nearly 40%, defying decades of medical caution. Scientists discovered that caffeine’s
+    effects on activity, blood pressure, and inflammation could all contribute to
+    a healthier heart r
+  url: https://www.sciencedaily.com/releases/2025/11/251110021046.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: Yale Law School students take a deep dive into Connecticut policymaking
+  description: In Zachary Liscow&#8217;s “Connecticut Policy Lab” course, students
+    use the state as a case study for understanding the legal foundations of government&nbsp;effectiveness.
+  url: https://law.yale.edu/yls-today/news/students-take-deep-dive-connecticut-policymaking
+  date: '2025-11-10'
+  source: Yale.edu
+- title: Vitamin D3 breakthrough halves risk of second heart attack
+  description: Intermountain Health researchers discovered that customizing vitamin
+    D3 doses for heart attack survivors slashed their risk of another heart attack
+    by 50%. The strategy involved frequent monitoring and dose adjustments to reach
+    ideal vitamin D levels
+  url: https://www.sciencedaily.com/releases/2025/11/251110021043.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: Exploring Food Texture and Taste Perception with Kendra Pierre-Louis
+  description: Kendra Pierre-Louis steps in as interim host and dives into the science
+    behind why some foods—especially mayonnaise—can gross us out.
+  url: https://www.scientificamerican.com/podcast/episode/exploring-food-texture-and-taste-perception-with-kendra-pierre-louis/
+  date: '2025-11-10'
+  source: Scientific American
+- title: AI unravels the hidden communication of gut microbes
+  description: Scientists have turned to advanced AI to decode the intricate ecosystem
+    of gut bacteria and their chemical signals. Using a Bayesian neural network called
+    VBayesMM, researchers can now identify genuine biological links rather than random
+    correlations
+  url: https://www.sciencedaily.com/releases/2025/11/251109013246.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: New online tool can predict how well blood pressure drugs will work
+  description: A new blood pressure calculator built on extensive clinical trial data
+    helps doctors accurately estimate how much each medication will reduce blood pressure.
+    The tool simplifies complex treatment choices and replaces unreliable BP measurements
+    with s
+  url: https://www.sciencedaily.com/releases/2025/11/251109013248.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: Mechanistic insights into cargo sorting and export from the Golgi apparatus
+  description: Protein and lipid cargoes are modified and sorted in the Golgi apparatus
+    and packaged for delivery to diverse cellular destinations at the trans-Golgi
+    network (TGN). This Review discusses recent insights into Golgi transport mechanisms
+    and carrier bi
+  url: https://www.nature.com/articles/s41580-025-00907-3
+  date: '2025-11-10'
+  source: Nature.com
+- title: Toward security-aware portable sequencing
+  description: Portable genome sequencers are revolutionizing genomic research. However,
+    their reliance on external systems introduces new vulnerabilities that threaten
+    the security of these sequencers. By employing zero-trust principles throughout
+    the sequencing w
+  url: https://www.nature.com/articles/s41467-025-66024-z
+  date: '2025-11-10'
+  source: Nature.com
+- title: Cross-sectional survey of the incidence, mortality and socioeconomic burden
+    of snakebite envenoming in India
+  description: Snakebite envenoming is a significant public health problem in India,
+    particularly in rural tropical and subtropical regions. Here, the authors report
+    findings from a community-based cross-sectional study in India on the incidence,
+    clinical outcomes,
+  url: https://www.nature.com/articles/s41467-025-64849-2
+  date: '2025-11-10'
+  source: Nature.com
+- title: DAF-16/FOXO and HLH-30/TFEB comprise a cooperative regulatory axis controlling
+    tubular lysosome induction in C. elegans
+  description: This study reveals that transcription factors DAF-16/FOXO and HLH-30/TFEB
+    promote healthy aging in C. elegans, in part, by activating lipid metabolism genes
+    that remodel lysosomes into tubular networks.
+  url: https://www.nature.com/articles/s41467-025-64832-x
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Author Correction: Global burden of chikungunya virus infections and the
+    potential benefit of vaccination campaigns'
+  description: 'Nature Medicine - Author Correction: Global burden of chikungunya
+    virus infections and the potential benefit of vaccination campaigns'
+  url: https://www.nature.com/articles/s41591-025-04065-z
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Endotyping-informed therapy for patients with chest pain and no obstructive
+    coronary artery disease: a randomized trial'
+  description: As presented at the American Heart Association Conference 2025, patients
+    with chest pain and without obstructive coronary artery disease benefit from treatment
+    informed by cardiovascular magnetic resonance.
+  url: https://www.nature.com/articles/s41591-025-04044-4
+  date: '2025-11-10'
+  source: Nature.com
+- title: A comparative evaluatıon of AI-based ChatGPT and physicians in psychiatric
+    case assessment
+  description: Scientific Reports - A comparative evaluatıon of AI-based ChatGPT and
+    physicians in psychiatric case assessment
+  url: https://www.nature.com/articles/s41598-025-20813-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: Functional improvements correlate with enhanced quality of life following
+    mesenchymal stromal cell therapy in chronic spinal cord injury
+  description: Scientific Reports - Functional improvements correlate with enhanced
+    quality of life following mesenchymal stromal cell therapy in chronic spinal cord
+    injury
+  url: https://www.nature.com/articles/s41598-025-23142-4
+  date: '2025-11-10'
+  source: Nature.com
+- title: Gut-primed neutrophils activate Kupffer cells to promote hepatic injury in
+    mouse sepsis
+  description: 'Sepsis often induces liver injury, but the underlying cellular and
+    molecular mechanisms are still unclear. Here the authors show that gut neutrophils,
+    assisted by intraepithelial lymphocytes, secrete neutrophil extracellular traps
+    (NETs) to activate '
+  url: https://www.nature.com/articles/s41467-025-65572-8
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Publisher Correction: Radiation-induced amphiregulin drives tumour metastasis'
+  description: 'Nature - Publisher Correction: Radiation-induced amphiregulin drives
+    tumour metastasis'
+  url: https://www.nature.com/articles/s41586-025-09862-7
+  date: '2025-11-10'
+  source: Nature.com
+- title: Africa finally has its own drug-regulation agency — and it could transform
+    the continent’s health
+  description: If it gets things right, the first major regulator of medicines to
+    launch for 30 years could empower Africa to tackle African challenges around health
+    and disease.
+  url: https://www.nature.com/articles/d41586-025-03637-w
+  date: '2025-11-10'
+  source: Nature.com
+- title: Maximizing researcher–policymaker engagement in global public health
+  description: Research does not always ‘speak for itself’; high-fidelity uptake of
+    science into policy requires active engagement between researchers and policymakers.
+    This Perspective offers tangible recommendations to help bridge the research-to-policy
+    gap.
+  url: https://www.nature.com/articles/s41591-025-04015-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: inhibitory effect of hyperin on Staphylococcus aureus pathogenicity though
+    interactions with sortase A and sortase B
+  description: Scientific Reports - inhibitory effect of hyperin on Staphylococcus
+    aureus pathogenicity though interactions with sortase A and sortase B
+  url: https://www.nature.com/articles/s41598-025-23458-1
+  date: '2025-11-10'
+  source: Nature.com
+- title: Want a younger brain? Learn another language
+  description: A vast study suggests that being multilingual can slow down cognitive
+    ageing.
+  url: https://www.nature.com/articles/d41586-025-03677-2
+  date: '2025-11-10'
+  source: Nature.com
+- title: Impact of gliomas in different brain hemispheres on anxiety and the prognosis
+    of neurosurgical patients
+  description: Scientific Reports - Impact of gliomas in different brain hemispheres
+    on anxiety and the prognosis of neurosurgical patients
+  url: https://www.nature.com/articles/s41598-025-23098-5
+  date: '2025-11-10'
+  source: Nature.com
+- title: Nasal allergen challenge with dissolved birch tree pollen tablets
+  description: Scientific Reports - Nasal allergen challenge with dissolved birch
+    tree pollen tablets
+  url: https://www.nature.com/articles/s41598-025-27356-4
+  date: '2025-11-10'
+  source: Nature.com
+- title: Optimized loading effects on pressure steam sterilization of loaned surgical
+    instruments using product family categorization
+  description: Scientific Reports - Optimized loading effects on pressure steam sterilization
+    of loaned surgical instruments using product family categorization
+  url: https://www.nature.com/articles/s41598-025-23086-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: Cancer-specific cytotoxicity of curcumin through regulation of integrin β1
+    expression in colon cancer
+  description: Scientific Reports - Cancer-specific cytotoxicity of curcumin through
+    regulation of integrin β1 expression in colon cancer
+  url: https://www.nature.com/articles/s41598-025-21627-w
+  date: '2025-11-10'
+  source: Nature.com
+- title: Ingested PET microplastics alter the metabolomic profile of the porcine pancreas
+  description: Scientific Reports - Ingested PET microplastics alter the metabolomic
+    profile of the porcine pancreas
+  url: https://www.nature.com/articles/s41598-025-21915-5
+  date: '2025-11-10'
+  source: Nature.com
+- title: Somatic mutations at scale
+  description: Nature Genetics - Somatic mutations at scale
+  url: https://www.nature.com/articles/s41588-025-02438-1
+  date: '2025-11-10'
+  source: Nature.com
+- title: LUBAC modulates CBM complex functions downstream of TRAF6 in T cells
+  description: The CARD11-BCL10-MALT1 (CBM) complex governs canonical NF-κB signaling
+    and MALT1 protease activation downstream of TCR stimulation. Here, the authors
+    evaluate the contribution of the E3 ligases LUBAC and TRAF6 in controlling CBM
+    activity, using Jurka
+  url: https://www.nature.com/articles/s41467-025-65879-6
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Process optimization and quality assessment of redistilled Ethiopian traditional
+    spirit (Areke): ethanol yield and zinc contamination control'
+  description: This research presents a comprehensive optimization of the ethanol
+    re-distillation process focusing on maximizing ethanol purity while minimizing
+    heavy metal contaminants, particularly zinc. Using a rigorous experimental design,
+    key parameters, holdi
+  url: https://www.nature.com/articles/s41598-025-24568-6
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Hamilton Smith obituary: molecular biologist who co-discovered precise molecular
+    scissors for cutting DNA'
+  description: Nobel laureate who helped to sequence the first bacterial and human
+    genomes.
+  url: https://www.nature.com/articles/d41586-025-03635-y
+  date: '2025-11-10'
+  source: Nature.com
+- title: Prognostic value of an abnormal chest X-ray result in predicting the development
+    of tuberculosis
+  description: In this study, authors evaluate mass tuberculosis (TB) screening data
+    from 183,808 elderly individuals in China, finding that abnormal chest X-rays
+    significantly increase TB risk.
+  url: https://www.nature.com/articles/s41467-025-64834-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: Clearance of intracranial debris by ultrasound reduces inflammation and improves
+    outcomes in hemorrhagic stroke models
+  description: Brain debris in mouse models of stroke is cleared by ultrasound, boosting
+    recovery.
+  url: https://www.nature.com/articles/s41587-025-02866-8
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Vaccine advice: how a US centre is filling growing gaps in public-health
+    information'
+  description: Epidemiologist Michael Osterholm talks about efforts by the Center
+    for Infectious Disease Research and Policy to inform vaccine recommendations and
+    maintain public-health awareness during the Trump administration.
+  url: https://www.nature.com/articles/d41586-025-03625-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: Comparative evaluation of different transport media for H5N1 highly pathogenic
+    avian influenza virus
+  description: Scientific Reports - Comparative evaluation of different transport
+    media for H5N1 highly pathogenic avian influenza virus
+  url: https://www.nature.com/articles/s41598-025-15987-6
+  date: '2025-11-10'
+  source: Nature.com
+- title: Trump May Have Won The ACA Subsidy Battle, But He May Lose The War
+  description: The GOP either must agree to extend those insurance subsidies or take
+    sole blame for killing an effort to continue assistance that has overwhelming
+    public support.
+  url: https://www.forbes.com/sites/howardgleckman/2025/11/10/trump-may-have-won-the-aca-subsidy-battle-but-he-may-lose-the-war/
+  date: '2025-11-10'
+  source: Forbes
+- title: Kaltura acquires eSelf, founded by creator of Snap’s AI, in $27M deal | TechCrunch
+  description: Kaltura acquires AI avatar startup eSelf to integrate generative AI
+    into enterprise video and learning tools.
+  url: https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/
+  date: '2025-11-10'
+  source: TechCrunch
+- title: AI stocks lead Wall Street rebound as Nvidia, Palantir surge and S&P 500
+    claws back last week’s losses
+  description: Nvidia was by far the strongest force lifting the market and rallied
+    4.8%. It's a bounceback after Nvidia and other winners in the frenzy around artificial-intelligence
+    technology were at the center of last week’s drop.
+  url: https://fortune.com/2025/11/10/ai-stocks-lead-wall-street-rebound-as-nvidia-palantir-surge-and-sp-500-claws-back-last-weeks-losses-market/
+  date: '2025-11-10'
+  source: Fortune
+- title: Wyze’s new scale measures segmented body composition with a retractable handle
+  description: 'Wyze has announced its first smart scale that can capture body metric
+    data for your arms, legs, and torso individually using a retractable handle. Wyze’s
+    smart scales have traditionally been budget-friendly alternatives to offerings
+    from competitors '
+  url: https://www.theverge.com/news/817826/wyze-smart-scale-ultra-bodyscan-segmented-body-composition-handle-electrodes
+  date: '2025-11-10'
+  source: The Verge
+- title: Warren Buffett is ‘going quiet’ after he steps down as Berkshire Hathaway
+    CEO this year. Read his farewell letter to shareholders
+  description: Greg Abel will take Warren Buffett's post at year's end.
+  url: https://fortune.com/2025/11/10/read-full-warren-buffett-retirement-letter-berkshire-hathaway-shareholders/
+  date: '2025-11-10'
+  source: Fortune
+- title: Speaker Johnson says House will return to Washington for shutdown deal vote
+  description: Seven Democrats and one independent voted with Republicans Sunday night
+    to reopen the US government to end the shutdown.
+  url: https://www.aljazeera.com/economy/2025/11/10/speaker-johnson-says-house-will-return-to-washington-for-shutdown-deal-vote
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Israeli drone strike kills two in Gaza as ceasefire violations mount
+  description: Hamas condemns Israel’s “daily and continuous violations” since a truce
+    came into effect last month.
+  url: https://www.aljazeera.com/news/2025/11/10/israeli-drone-strike-kills-two-in-gaza-as-ceasefire-violations-mount
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Who was Soeharto, the late leader named Indonesia’s ‘national hero’?
+  description: Indonesian President Prabowo Subianto has presented former President
+    Soeharto with the national hero title.
+  url: https://www.aljazeera.com/news/2025/11/10/who-was-soeharto-the-late-strongman-named-indonesias-national
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Meet the millennial Meta cofounder and his wife who are giving away $20 billion
+  description: The couple has donated more than $4 billion total, including more than
+    $600 million in 2025 alone.
+  url: https://fortune.com/2025/11/10/meet-the-millennial-meta-cofounder-and-his-wife-who-are-giving-away-20-billion/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'India: Protests decry New Delhi''s air pollution spike'
+  description: Hundreds took to the streets of New Delhi to protest against what they
+    see as government inaction in the face of the country's worsening air quality.
+    Air quality dropped to "severe" levels over the weekend.
+  url: https://www.dw.com/en/india-protests-decry-new-delhis-air-pollution-spike/a-74688769
+  date: '2025-11-10'
+  source: DW (English)
+- title: '‘Yikes’: Top investment bank looks under the hood of the economy and finds
+    ‘the labor market doesn’t look that good’'
+  description: We've heard the labor market is in a "low-hire, low-fire" kind of environment.
+    The "low hire" part seems to be true, the other not so much.
+  url: https://fortune.com/2025/11/10/economy-bad-low-hire-fire-labor-market-recession-levels-ubs/
+  date: '2025-11-10'
+  source: Fortune
+- title: Bill Gates believes Alzheimer’s blood tests should be part of routine medicals—such
+    prevention means you could work into your 90s if you wanted to
+  description: Bill Gates wants Alzheimer’s blood tests added to U.S. medical checkups,
+    aiming to make early diagnosis and prevention routine for adults over 60.
+  url: https://fortune.com/2025/11/10/bill-gates-alzheimers-blood-tests-routine-medicals/
+  date: '2025-11-10'
+  source: Fortune
+- title: At Ukraine’s Top Tech Event, Faster and Cheaper Rule
+  description: 'Four years into a full-scale invasion and a decade after the annexation
+    of Crimea, Ukraine’s tech ecosystem continues to flourish at home and in exile
+    around the world. After celebrating its 10th anniversary in 2024, Ukraine’s premier
+    tech event, IT '
+  url: https://spectrum.ieee.org/ukraine-weapons
+  date: '2025-11-10'
+  source: Ieee.org
+- title: 'US Senate shutdown vote: What happened, who voted to end it, what’s next?'
+  description: Some Democrats join Republicans to vote to end the government shutdown,
+    which enters its 41st day.
+  url: https://www.aljazeera.com/news/2025/11/10/us-senate-shutdown-vote-what-happened-who-voted-to-end-it-whats-next
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Future Hall Of Famer Makes Decision On Return After Blue Jays Exit
+  description: A key member of Toronto Blue Jays’ World Series run made a clear statement
+    about returning to baseball next year.
+  url: https://www.forbes.com/sites/peterchawaga/2025/11/10/future-hall-of-famer-makes-decision-on-return-after-blue-jays-exit/
+  date: '2025-11-10'
+  source: Forbes
+- title: The government shutdown has escalated the US war on the poor
+  description: For the ruling elite, poor Americans are expendable.
+  url: https://www.aljazeera.com/opinions/2025/11/10/the-government-shutdown-has-escalated-the-us-war-on-the-poor
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Syria’s al-Sharaa on historic visit to US, here’s what you need to know
+  description: The Syrian president will visit the White House, a first for any leader
+    from post-independence Syria.
+  url: https://www.aljazeera.com/news/2025/11/10/all-you-need-to-know-about-al-sharaas-historic-visit-to-the-us
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: What UPS’s reinvention reveals about modernizing a nearly 120-year-old company
+  description: UPS is rewriting its playbook for the next era of global delivery in
+    an AI-dominant world.
+  url: https://fortune.com/article/ups-reinvention-reveal-modernizing-ai/
+  date: '2025-11-10'
+  source: Fortune
+- title: Investors Tap Into The Zero Proof and Non-Alcoholic Beverage Market
+  description: The non-alc market is buzzing, and quietly chipping away at the $570
+    billion alcohol industry. Here's why why investors are driving real capital into
+    the niche market.
+  url: https://www.forbes.com/sites/shimiteobialo/2025/11/10/investors-tap-into-the-zero-proof-and-non-alcoholic-beverage-market/
+  date: '2025-11-10'
+  source: Forbes
+- title: 'The Download: busting weather myths, and AI heart attack prediction'
+  description: This is today’s edition of The Download, our weekday newsletter that
+    provides a daily dose of what’s going on in the world of technology. Why it’s
+    so hard to bust the weather control conspiracy theory It was October 2024, and
+    Hurricane Helene had jus
+  url: https://www.technologyreview.com/2025/11/10/1127798/the-download-busting-weather-myths-and-ai-heart-attack-prediction/
+  date: '2025-11-10'
+  source: MIT Technology Review
+- title: Riot in Ecuador prison kills 31 amid gunfire and explosions
+  description: Ecuador’s prisons are among the deadliest in Latin America due to overcrowding,
+    corruption and weak control.
+  url: https://www.aljazeera.com/news/2025/11/10/riot-in-ecuador-prison-kills-31-amid-gunfire-and-explosions
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Medicare’s Paltry Doctor Payments Are Price Controls In Disguise
+  description: Soviet-style price controls have resulted in shortages in the supply
+    of physician services. Fortunately, there are a number of promising ways to address
+    this situation.
+  url: https://www.forbes.com/sites/sallypipes/2025/11/10/medicares-paltry-doctor-payments-are-price-controls-in-disguise/
+  date: '2025-11-10'
+  source: Forbes
+- title: How Nick Mayhugh Is Changing The World’s Perspective On Paralympic Athletes
+  description: Nick Mayhugh on advocating for Paralympic athletes and competing at
+    the 2025 World Para Athletics Championships.
+  url: https://www.forbes.com/sites/parasjan/2025/11/10/how-nick-mayhugh-is-changing-the-worlds-perspective-on-paralympic-athletes/
+  date: '2025-11-10'
+  source: Forbes
+- title: What ‘67’ As Dictionary.com 2025 Word Of The Year Says About Society
+  description: The 2025 Dictionary.com Word of the Year is "67" or "6-7" or "six seven."
+    Why has this term gone so viral this year? Well, there are two possible explanations.
+  url: https://www.forbes.com/sites/brucelee/2025/11/10/what-67-as-dictionarycom-2025-word-of-the-year-says-about-society/
+  date: '2025-11-10'
+  source: Forbes
+- title: 'Humana CEO is betting on culture change and AI to fuel a turnaround: ‘We
+    are not where we want to be’'
+  description: 'Also: All the news and watercooler chat from Fortune.'
+  url: https://fortune.com/2025/11/10/humana-ceo-jim-rechtin-turnaround/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'The “Fauxzempic” Crisis: Counterfeit Innovation Puts Lives—and Markets—at
+    Risk'
+  description: The growing, deadly plague of counterfeit drugs demands smarter, targeted
+    enforcement.
+  url: https://www.forbes.com/sites/steveforbes/2025/11/10/the-fauxzempic-crisis-counterfeit-innovation-puts-lives-and-markets-at-risk/
+  date: '2025-11-10'
+  source: Forbes
+- title: New Study Offers Hope For People Living With Seizures
+  description: Most newly diagnosed patients with epilepsy do gain lasting control
+    of their seizures, even if their first medication doesn’t work.
+  url: https://www.forbes.com/sites/milletienne/2025/11/10/new-study-offers-hope-for-people-living-with-seizures/
+  date: '2025-11-10'
+  source: Forbes
+- title: 'From the Peace Corps to the boardroom: Humana CEO Jim Rechtin on listening
+    and leading'
+  description: In a conversation with Fortune, Rechtin said the health-insurance giant
+    that primarily serves seniors is "not where we want to be."
+  url: https://fortune.com/article/humana-ceo-jim-rechtin-health-insurance-medicare/
+  date: '2025-11-10'
+  source: Fortune
+- title: '“I just want to breathe”: Protests over pollution in New Delhi'
+  description: Air quality in India's capital reaches alarming levels, prompting outrage
+    and calls for action.
+  url: https://www.aljazeera.com/gallery/2025/11/10/1744
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: How the explosives shortage could make everyday items even more expensive
+  description: The global shortage of high explosives like TNT could drive up the
+    cost of cellphones, energy and, home and infrastructure construction.
+  url: https://www.cnbc.com/2025/11/10/the-explosives-shortage-may-drive-up-phone-energy-and-home-prices.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Warren Buffett to step up giving away fortune to his children’s foundations,
+    while supporting successor Abel
+  description: Buffett, in a Thanksgiving letter, said he needs to accelerate the
+    disbursement of his Berkshire stock to his three children's foundations.
+  url: https://www.cnbc.com/2025/11/10/warren-buffett-to-step-up-giving-away-fortune-to-his-childrens-foundations-while-supporting-successor-abel.html
+  date: '2025-11-10'
+  source: CNBC
+- title: What Democrats are — and aren't — getting in the deal that could end the
+    government shutdown
+  description: The pending government funding deal includes a guarantee from Republican
+    leadership that the Senate will soon vote on a Democrat-drafted health care bill.
+  url: https://www.cnbc.com/2025/11/10/government-shutdown-senate-deal-democrats.html
+  date: '2025-11-10'
+  source: CNBC
+- title: 'Government shutdown: House will vote on Senate deal ASAP, Speaker Johnson
+    says'
+  description: The deal does not include an extension of enhanced ACA tax credits,
+    which had been the key demand by most Democrats since the government shutdown
+    began Oct. 1.
+  url: https://www.cnbc.com/2025/11/10/government-shutdown-republicans-senate-house-snap.html
+  date: '2025-11-10'
+  source: CNBC
+- title: FDA ends hormone therapy warning, says safe for menopause care
+  description: The FDA is reversing a 2003 decision that put a stringent warning on
+    hormone therapy products for menopausal women, saying that the treatments offer
+    heart, brain, and bone health benefits.
+  url: https://www.statnews.com/2025/11/10/fda-reverses-hormone-warning-menopause-health/
+  date: '2025-11-10'
+  source: STAT
+- title: Couples who 'truly trust' each other never use these 8 phrases, says Harvard-trained
+    psychologist—it causes 'long-term damage'
+  description: In the happiest and most successful relationships, each partner believes
+    that the other will follow through on their commitments. Harvard-trained psychologist
+    Dr. Cortney Warren shares the phrases that couples who truly trust each other
+    never say.
+  url: https://www.cnbc.com/2025/11/10/harvard-psychologist-couples-who-truly-trust-each-other-never-use-8-phrases.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Government shutdown update, the market's rough week, PitchBook's AI tool
+    and more in Morning Squawk
+  description: Here are five key things investors need to know to start the trading
+    day.
+  url: https://www.cnbc.com/2025/11/10/5-things-to-know-before-the-stock-market-opens.html
+  date: '2025-11-10'
+  source: CNBC
+- title: I have $12K in credit-card debt due to health issues and a 30% pay cut. Is
+    it finally time to take a loan from my 401(k)?
+  description: “Because of a downturn in my industry, my pay was cut 30%.”
+  url: https://www.marketwatch.com/story/i-have-12k-in-credit-card-debt-due-to-health-issues-and-a-30-pay-cut-is-it-finally-time-to-take-a-loan-from-my-401-k-e2dec117
+  date: '2025-11-10'
+  source: MarketWatch
+- title: What Climate Change Will Do to America by Mid-Century
+  description: Many places may become uninhabitable. Many people may be on their own.
+  url: https://www.theatlantic.com/magazine/2025/12/trump-climate-change-acceleration/684632/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: Global stocks rally on hopes the U.S. shutdown is nearing an end
+  description: Global equities traded higher on Monday morning amid reports that the
+    protracted U.S. government shutdown may be nearing an end.
+  url: https://www.cnbc.com/2025/11/10/global-stocks-rally-on-hopes-the-us-shutdown-is-nearing-an-end.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Bearded Dragons – Salmonella
+  description: Describes an outbreak of Salmonella linked to pet bearded dragons and
+    what pet owners can do.
+  url: https://www.cdc.gov/salmonella/outbreaks/cotham-11-25/index.html
+  date: '2025-11-10'
+  source: Cdc.gov
+- title: Senate Democrats Just Made a Huge Mistake
+  description: The shutdown was hurting Trump. Ending it helps him.
+  url: https://www.theatlantic.com/politics/2025/11/democrats-shutdown-mistake/684878/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: Doctors found a way to stop a deadly metformin reaction
+  description: A hospital in Thailand created a quick-action dialysis protocol for
+    patients with metformin-associated lactic acidosis, a dangerous reaction to a
+    common diabetes drug. The program sharply reduced deaths and sped up treatment
+    times. Awareness also soa
+  url: https://www.sciencedaily.com/releases/2025/11/251109013244.htm
+  date: '2025-11-09'
+  source: Science Daily
+- title: A simple DNA test could reveal the right antidepressant for you
+  description: Millions struggle with depression and anxiety, often enduring long
+    waits for effective treatment. Scientists in Sweden, Denmark, and Germany are
+    developing a genetic test to predict which medications will actually work. Using
+    polygenic risk scores, t
+  url: https://www.sciencedaily.com/releases/2025/11/251109013242.htm
+  date: '2025-11-09'
+  source: Science Daily
+- title: Microbes that breathe rust could help save Earth’s oceans
+  description: Researchers from the University of Vienna discovered MISO bacteria
+    that use iron minerals to oxidize toxic sulfide, creating energy and producing
+    sulfate. This biological process reshapes how scientists understand global sulfur
+    and iron cycles. By ou
+  url: https://www.sciencedaily.com/releases/2025/11/251109013252.htm
+  date: '2025-11-09'
+  source: Science Daily
+- title: Tiny laser could transform medicine and quantum science
+  description: A team at the University of Stuttgart has engineered a compact short-pulse
+    laser that achieves up to 80% efficiency—far surpassing current models. Their
+    new multipass design reuses light within a small crystal, combining power and
+    precision in a palm
+  url: https://www.sciencedaily.com/releases/2025/11/251108083854.htm
+  date: '2025-11-09'
+  source: Science Daily
+- title: Common antidepressant found to work in just two weeks
+  description: 'Sertraline (Zoloft) may relieve emotional symptoms of depression and
+    anxiety within two weeks, while physical side effects stabilize later. The research
+    highlights how antidepressants can act on specific symptom networks rather than
+    uniformly across '
+  url: https://www.sciencedaily.com/releases/2025/11/251108083910.htm
+  date: '2025-11-09'
+  source: Science Daily
+- title: 'Stock market today: live updates'
+  description: Traders were eyeing the latest talks about the government shutdown.
+  url: https://www.cnbc.com/2025/11/09/stock-market-today-live-updates.html
+  date: '2025-11-09'
+  source: CNBC
+- title: '‘I’m in a financial mess’: My income was cut in half. Do I sell my $600K
+    home and kiss my 2.9% mortgage rate goodbye?'
+  description: “We can move 10 miles south, where property is much cheaper.”
+  url: https://www.marketwatch.com/story/im-in-a-financial-mess-my-income-was-cut-in-half-do-i-sell-my-600k-home-and-kiss-my-2-9-mortgage-rate-goodbye-5d356273
+  date: '2025-11-09'
+  source: MarketWatch
+- title: This neuroscientist-approved habit tracks my progress—and boosts my happiness
+  description: For the past three years, I've written letters to myself and scheduled
+    them to send to me a year later. Here's why the practice can benefit your mental
+    health.
+  url: https://www.cnbc.com/2025/11/09/this-neuroscientist-approved-habit-boosts-my-happiness.html
+  date: '2025-11-09'
+  source: CNBC
+- title: Stop asking 'How was school today?' To raise successful, mentally strong
+    kids, ask these 7 questions instead
+  description: This question "usually leads to a one-word answer," says Amy Morin,
+    author of "13 Things Mentally Strong Parents Don't Do." Here's what to ask instead.
+  url: https://www.cnbc.com/2025/11/09/stop-asking-how-was-school-today-to-raise-successful-kids-ask-these-questions-instead.html
+  date: '2025-11-09'
+  source: CNBC
+- title: Francis Collins urges liver researchers to advocate for research
+  description: Francis Collins, the former NIH director, tells liver researcher that
+    the partisanship that has pervaded science "is really a dangerous sign for the
+    future of our society."
+  url: https://www.statnews.com/2025/11/09/aasld-liver-meeting-francis-collins/
+  date: '2025-11-09'
+  source: STAT
+- title: Blaming Foreigners for American Failings Won’t Fix Them
+  description: Railing against Ukraine, Israel, and other outsiders is easy. Solving
+    problems at home is not.
+  url: https://www.theatlantic.com/ideas/2025/11/trump-ukraine-israel/684858/
+  date: '2025-11-09'
+  source: The Atlantic
+- title: The Ideal That Underlies the Declaration of Independence
+  description: 'Restoring stability to American politics will require reviving an
+    age-old concept: common ground.'
+  url: https://www.theatlantic.com/ideas/2025/11/greatest-sentence-ever-isaacson-excerpt/684491/
+  date: '2025-11-09'
+  source: The Atlantic
+- title: What I Learned About Dick Cheney
+  description: The former vice president was certain he knew better than the citizens
+    he served what was good for them.
+  url: https://www.theatlantic.com/ideas/2025/11/barton-gellman-what-i-learned-about-dick-cheney/684875/
+  date: '2025-11-09'
+  source: The Atlantic
+- title: What if your Tamagotchi was alive and glowing? This toy prototype is full
+    of bacteria
+  description: Children and bacteria—normally they're a parental nightmare, a cocktail
+    of late-night pediatrician calls and ruined weekends.
+  url: https://phys.org/news/2025-11-tamagotchi-alive-toy-prototype-full.html
+  date: '2025-11-08'
+  source: Phys.Org
+- title: Scientists find brain cells that could stop Alzheimer’s
+  description: Researchers have identified special immune cells in the brain that
+    help slow Alzheimer’s. These microglia work to reduce inflammation and block the
+    spread of harmful proteins. They appear to protect memory and brain health, offering
+    a promising new d
+  url: https://www.sciencedaily.com/releases/2025/11/251108083902.htm
+  date: '2025-11-08'
+  source: Science Daily
+- title: We studied 217 tropical cyclones globally to see how people died. Our findings
+    might surprise you
+  description: Tropical cyclones—also known as hurricanes, typhoons or storms, depending
+    on their location and intensity—are among the world's most destructive and costly
+    climate disasters.
+  url: https://phys.org/news/2025-11-tropical-cyclones-globally-people-died.html
+  date: '2025-11-08'
+  source: Phys.Org
+- title: Common pesticides may cause testicular damage and lower sperm counts
+  description: A decade-long review by George Mason University researchers reveals
+    growing evidence that neonicotinoid insecticides—the world’s most widely used
+    class of pesticides—may harm male reproductive health. The findings, based on
+    21 animal studies, show co
+  url: https://www.sciencedaily.com/releases/2025/11/251108083900.htm
+  date: '2025-11-08'
+  source: Science Daily
+- title: COVID vaccine linked to fewer infections and allergies in kids with eczema
+  description: New research suggests the COVID-19 vaccine could help children with
+    eczema stay healthier overall. Vaccinated kids had lower rates of infections and
+    allergies, including asthma and rhinitis, compared with unvaccinated peers. Experts
+    believe the vacci
+  url: https://www.sciencedaily.com/releases/2025/11/251108012853.htm
+  date: '2025-11-08'
+  source: Science Daily
+- title: Deep-sea mining starves life in the ocean’s twilight zone
+  description: Scientists have discovered that deep-sea mining plumes can strip vital
+    nutrition from the ocean’s twilight zone, replacing natural food with nutrient-poor
+    sediment. The resulting “junk food” effect could starve life across entire marine
+    ecosystems.
+  url: https://www.sciencedaily.com/releases/2025/11/251108012850.htm
+  date: '2025-11-08'
+  source: Science Daily
+- title: A hidden cellular cleanup trick could reverse aging
+  description: Researchers found that the body’s natural recycling system, the lysosome,
+    plays a vital role in removing the protein that drives premature aging. When this
+    system breaks down, aging speeds up. By reactivating it, scientists were able
+    to help cells re
+  url: https://www.sciencedaily.com/releases/2025/11/251107010326.htm
+  date: '2025-11-08'
+  source: Science Daily
+- title: How farms and artisan producers are spearheading a Northern Irish food revolution
+  description: In the backcountry around Belfast and the Causeway Coast, Northern
+    Irish producers are bringing new life to old farms and creating community hubs
+    that showcase the region’s rich artisan food scene.
+  url: https://www.nationalgeographic.com/travel/article/how-farms-and-artisans-are-leading-a-northern-irish-food-revolution
+  date: '2025-11-08'
+  source: National Geographic
+- title: Trump tells Senate Republicans to send federal health insurance money 'directly
+    to the people'
+  description: President Trump proposed a new potential compromise on health insurance
+    payments.
+  url: https://www.cnbc.com/2025/11/08/trump-republicans-health-insurance.html
+  date: '2025-11-08'
+  source: CNBC
+- title: Too early to bet against AI trade, State Street suggests
+  description: State Street' Anna Paglia is reiterating her bullish stance on artificial
+    intelligence stocks despite the Nasdaq’s worst week since April.
+  url: https://www.cnbc.com/2025/11/08/ai-big-tech-bull-case-despite-nasdaqs-worst-week-since-april-.html
+  date: '2025-11-08'
+  source: CNBC
+- title: I’m 83 and will have $500K if I sell my house. My estranged wife wants me
+    to join her in Colombia. Do I go?
+  description: “I can just barely handle my expenses with a mortgage payment of $984
+    and an income of $3,800.”
+  url: https://www.marketwatch.com/story/im-83-and-have-a-monthly-income-of-3-800-my-estranged-wife-wants-me-to-join-her-in-colombia-do-i-go-a5850fe9
+  date: '2025-11-08'
+  source: MarketWatch
+- title: I finally have enough cash to pay off my student loan in full—here's why
+    I'm not doing it
+  description: Mathetmatically, paying off my debt now would cost me less money. But
+    I don't want to put my wedding savings in jeopardy.
+  url: https://www.cnbc.com/2025/11/08/i-have-enough-cash-to-pay-off-my-student-loan-why-im-not.html
+  date: '2025-11-08'
+  source: CNBC
+- title: People with ADHD, autism, dyslexia say AI agents are helping them succeed
+    at work
+  description: Neurodiverse professionals see benefits from AI tools, giving people
+    with conditions like ADHD, autism, and dyslexia a more level playing field in
+    job market.
+  url: https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html
+  date: '2025-11-08'
+  source: CNBC
+- title: 'Consumers on edge as ACA ''subsidy cliff'' looms: ''Quite frankly, it''s
+    terrifying'''
+  description: Households are bracing for a sharp increase in their health insurance
+    premiums if Congress doesn't extend enhanced subsidies for ACA marketplace plans.
+  url: https://www.cnbc.com/2025/11/08/aca-subsidy-cliff-government-shutdown.html
+  date: '2025-11-08'
+  source: CNBC
+- title: Millionaires value their personal trainers and therapists more than their
+    wealth advisors
+  description: The trend highlight the growing importance of so-called "soft services"
+    for the wealthy.
+  url: https://www.cnbc.com/2025/11/08/millionaires-personal-trainers-wealth-advisors-professional-services-survey.html
+  date: '2025-11-08'
+  source: CNBC
+- title: 4 things worrying investors as U.S. stocks see worst start to a month since
+    April
+  description: The U.S. stock market is off to its worst start to a month since April
+    as investors grapple with the longest U.S. government shutdown in history, among
+    other...
+  url: https://www.marketwatch.com/story/4-things-worrying-investors-as-u-s-stocks-see-worst-start-to-a-month-since-april-8b0ca874
+  date: '2025-11-08'
+  source: MarketWatch
+- title: The Allure—and the Policing—of Subway Surfing
+  description: Mayor Eric Adams’s administration has wrapped an expansion of invasive
+    surveillance in the apolitical packaging of saving teen-agers from their addled
+    selves.
+  url: https://www.newyorker.com/culture/critics-notebook/the-allure-and-the-policing-of-subway-surfing
+  date: '2025-11-08'
+  source: The New Yorker
+- title: Impact of mHealth interventions on maternal, newborn, and child health from
+    conception to 24 months postpartum in low
+  description: This review suggests that mHealth interventions can improve antenatal
+    care attendance and child immunization timeliness in LMICs. However, their impact
+    on facility-based delivery and infant feeding practices varies. Nevertheless,
+    the potential of mHe
+  url: https://pubmed.ncbi.nlm.nih.gov/38750486/?dopt=Abstract
+  date: '2025-11-08'
+  source: National Institutes of Health
+- title: 'Yale Afternoons with Alison: YSPH Dean Megan L. Ranney'
+  description: In this episode, Megan L. Ranney, dean of Yale School of Public Health,
+    chats with Yale Alumni Association Executive Director Alison Cole about how YSPH
+    is evolving and how the alumni community can get&nbsp;involved.
+  url: https://alumni.yale.edu/news/yale-afternoons-alison-megan-l-ranney-md-mph
+  date: '2025-11-07'
+  source: Yale.edu
+- title: Marcia Inhorn recognized for outstanding career by Association for Feminist
+    Anthropology
+  description: Inhorn, William K. Lanman Jr. Professor of Anthropology and International
+    Affairs, has been awarded the 2025 AFA Career Award for her many contributions
+    to the field of feminist&nbsp;anthropology.
+  url: https://fas.yale.edu/news-announcements/news/marcia-inhorn-recognized-outstanding-career-association-feminist-anthropology
+  date: '2025-11-07'
+  source: Yale.edu
+- title: Having children plays a complicated role in the rate we age
+  description: The effort of reproducing may divert energy away from repairing DNA
+    or fighting illness, which could drive ageing, but a new study suggests that is
+    only the case when environmental conditions are tough
+  url: https://www.newscientist.com/article/2503299-having-children-plays-a-complicated-role-in-the-rate-we-age/
+  date: '2025-11-07'
+  source: New Scientist
+- title: Revolutionizing care for people with hepatitis C
+  description: A new initiative led by Yale’s Rick Altice is removing barriers to
+    hepatitis C virus care by providing same-day diagnosis and treatment in the community
+    rather than in traditional brick-and-mortar&nbsp;clinics.
+  url: https://medicine.yale.edu/news-article/revolutionizing-care-for-people-with-hepatitis-c/
+  date: '2025-11-07'
+  source: Yale.edu
+- title: 10 Delegates From the Climate School Share Their Plans and Hopes for COP30
+  description: Columbia Climate School representatives discuss what they hope to achieve
+    at this year's global climate summit in Brazil.
+  url: https://news.climate.columbia.edu/2025/11/07/10-delegates-from-the-climate-school-share-their-plans-and-hopes-for-cop30/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: 10 Delegates From Columbia and the Climate School Discuss What They Hope
+    to Achieve at COP30
+  description: Columbia and Climate School representatives discuss what they hope
+    to achieve at this year's global climate summit in Brazil.
+  url: https://news.climate.columbia.edu/2025/11/07/10-delegates-from-columbia-and-the-climate-school-discuss-what-they-hope-to-achieve-at-cop30/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: Nano-encapsulated CBD offers potential pain relief with no adverse side effects
+  description: Reaching for CBD-infused lotion or oil may seem like a low-risk way
+    to find pain relief, but little is actually known about the impact that CBD has
+    on the nervous system.
+  url: https://phys.org/news/2025-11-nano-encapsulated-cbd-potential-pain.html
+  date: '2025-11-07'
+  source: Phys.Org
+- title: CT Wealth Accelerator
+  description: "CT Wealth AcceleratorAnonymous (not verified)\nFri, 11/07/2025 - 11:00\n\
+    \n Yaw Owusu-Boahen returns to SOM to share his experience after graduating, and\
+    \ his most recent role as Director of the CT Wealth Accelerator, an extrapreneurship\
+    \ endeavor bringing"
+  url: https://insights.som.yale.edu/podcasts/impact-innovation/ct-wealth-accelerator
+  date: '2025-11-07'
+  source: Yale.edu
+- title: Scientists find hidden brain damage from a common pesticide
+  description: Prenatal exposure to the insecticide chlorpyrifos causes widespread
+    brain abnormalities and poorer motor skills in children. Even after a residential
+    ban, ongoing agricultural use continues to endanger developing brains.
+  url: https://www.sciencedaily.com/releases/2025/11/251107010322.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: Evolution of human saliva tracked back to primates
+  description: 'Saliva is a bodily fluid most of us take for granted despite the significant
+    roles it plays: aiding in digestion, maintaining strong teeth and defending against
+    oral disease. However, the evolution of human saliva has been largely unknown—until
+    now, '
+  url: https://phys.org/news/2025-11-evolution-human-saliva-tracked-primates.html
+  date: '2025-11-07'
+  source: Phys.Org
+- title: 'Appropriated, but Unobligated: Impounding Climate Funds'
+  description: The Trump administration has undertaken a comprehensive effort to prevent
+    the distribution of mandatory federal funding, including billions for climate
+    programs. Attempts to cancel already-obligated federal funding awards have been
+    among its most not
+  url: https://blogs.law.columbia.edu/climatechange/2025/11/07/appropriated-but-unobligated-impounding-climate-funds/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: Tom Zeller, Jr., on Migraine Research, Gender Bias and the Cultural Stigma
+    of Headaches
+  description: Migraine and cluster headaches affect millions—yet research remains
+    surprisingly thin.
+  url: https://www.scientificamerican.com/podcast/episode/tom-zeller-jr-on-migraine-research-gender-bias-and-the-cultural-stigma-of/
+  date: '2025-11-07'
+  source: Scientific American
+- title: The hidden “Big Bang” that decides how bowel cancer grows
+  description: Scientists have pinpointed a “Big Bang” moment in bowel cancer—when
+    cells first evade the immune system. This early immune escape locks in how the
+    cancer will behave as it grows. The discovery could help predict which patients
+    respond to immunotherap
+  url: https://www.sciencedaily.com/releases/2025/11/251107010250.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: Scientists discover how hair cells can help heal skin faster
+  description: Rockefeller scientists uncovered how hair follicle stem cells can switch
+    from growing hair to repairing skin when nutrients run low. The key lies in serine,
+    an amino acid that activates a stress signal telling cells to conserve energy.
+    When both inju
+  url: https://www.sciencedaily.com/releases/2025/11/251107010248.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: The bright colors in your food may be harming your kids
+  description: Almost 20% of packaged foods and beverages in the US contain synthetic
+    dyes, often paired with excessive sugar to attract children. These additives have
+    been linked to behavioral issues, yet remain widespread among major brands like
+    Mars and PepsiCo.
+  url: https://www.sciencedaily.com/releases/2025/11/251107010245.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: Rare desert berry could transform diabetes treatment
+  description: An extract from a desert berry used in traditional Chinese medicine
+    restored insulin function and stabilized metabolism in diabetic mice. The findings
+    hint at a powerful natural alternative for holistic diabetes treatment.
+  url: https://www.sciencedaily.com/releases/2025/11/251107010302.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: Where Is Litigation Over AI Headed?
+  description: In emerging AI-related litigation, one of the most common claims so
+    far concerns alleged over-stating or misrepresenting a company’s AI capabilities
+    to its investors. According to Stanford’s Class Action Clearinghouse, there have
+    been more than 50 cl
+  url: https://clsbluesky.law.columbia.edu/2025/11/07/where-is-litigation-over-ai-headed/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: Common acne drug may protect against schizophrenia
+  description: 'Scientists have discovered a surprising benefit of the acne drug doxycycline:
+    it may lower the risk of schizophrenia. Teens prescribed the antibiotic were about
+    one-third less likely to develop the condition as adults. The effect could stem
+    from the '
+  url: https://www.sciencedaily.com/releases/2025/11/251106213552.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: TUSC3 regulates ERMA-mediated Mg2+ uptake for synaptic function and neurodevelopment
+  description: 'This study shows that TUSC3 is essential for magnesium balance in
+    the brain. Loss of TUSC3 disrupts neuron function and leads to intellectual disability
+    in a mouse model, but magnesium supplementation restores brain function, pointing
+    to a potential '
+  url: https://www.nature.com/articles/s41467-025-65668-1
+  date: '2025-11-07'
+  source: Nature.com
+- title: What to do in Gouda—and where to eat the best cheese
+  description: Here’s everywhere you should buy, taste, and learn about cheese in
+    this historic small town in the Netherlands.
+  url: https://www.nationalgeographic.com/travel/article/gouda-the-netherlands
+  date: '2025-11-07'
+  source: National Geographic
+- title: Efficacy and toxicity of post-neoadjuvant trastuzumab emtansine in HER2-positive
+    breast cancer patients treated at Institut Curie Hospitals
+  description: Scientific Reports - Efficacy and toxicity of post-neoadjuvant trastuzumab
+    emtansine in HER2-positive breast cancer patients treated at Institut Curie Hospitals
+  url: https://www.nature.com/articles/s41598-025-24849-0
+  date: '2025-11-07'
+  source: Nature.com
+- title: The corneal thickness profile in different forms of glaucoma
+  description: Scientific Reports - The corneal thickness profile in different forms
+    of glaucoma
+  url: https://www.nature.com/articles/s41598-025-26680-z
+  date: '2025-11-07'
+  source: Nature.com
+- title: 'Daily briefing: A ‘Google Maps’ for Roman roads'
+  description: The full glory of the network of roads that connected the Roman empire.
+    Plus, meet some of the scientists running for public office in the United States
+    and how a tiny tyrannosaur is putting a paleontological controversy to bed.
+  url: https://www.nature.com/articles/d41586-025-03674-5
+  date: '2025-11-07'
+  source: Nature.com
+- title: Protective role of ellagic acid in the adhesive interface after dental bleaching
+  description: Scientific Reports - Protective role of ellagic acid in the adhesive
+    interface after dental bleaching
+  url: https://www.nature.com/articles/s41598-025-26885-2
+  date: '2025-11-07'
+  source: Nature.com
+- title: 'Effect of desmopressin on bleeding outcomes after native renal biopsy: a
+    systematic review and meta-analysis'
+  description: 'Scientific Reports - Effect of desmopressin on bleeding outcomes after
+    native renal biopsy: a systematic review and meta-analysis'
+  url: https://www.nature.com/articles/s41598-025-24092-7
+  date: '2025-11-07'
+  source: Nature.com
+- title: The interplay between perceived stress, psychological flexibility, and interpretation
+    biases in undergraduate mental health
+  description: Scientific Reports - The interplay between perceived stress, psychological
+    flexibility, and interpretation biases in undergraduate mental health
+  url: https://www.nature.com/articles/s41598-025-26492-1
+  date: '2025-11-07'
+  source: Nature.com
+- title: Rats wage war on bats in stunning new footage
+  description: New videos reveal the surprising dynamics of bat-rat relationships—and
+    suggest how human activity is fueling these interspecies conflicts.
+  url: https://www.nationalgeographic.com/animals/article/bats-at-war-with-rats
+  date: '2025-11-07'
+  source: National Geographic
+- title: TGF-β builds a dual immune barrier in colorectal cancer by impairing T cell
+    recruitment and instructing immunosuppressive SPP1+ macrophages
+  description: Targeting TGFBR1 in transplantable mouse colorectal tumor organoids
+    improves response to anti-PD-L1 therapy. Mechanistically, TGF-β abrogates clonal
+    expansion of T effector and memory phenotypes and indirectly inhibits T cell activity
+    by regulating i
+  url: https://www.nature.com/articles/s41588-025-02380-2
+  date: '2025-11-07'
+  source: Nature.com
+- title: Exploring the inhibition mechanisms of momordin Ic on S. aureus serine/threonine
+    phosphatase (Stp1) using theoretical and experimental approaches
+  description: Scientific Reports - Exploring the inhibition mechanisms of momordin
+    Ic on S. aureus serine/threonine phosphatase (Stp1) using theoretical and experimental
+    approaches
+  url: https://www.nature.com/articles/s41598-025-24255-6
+  date: '2025-11-07'
+  source: Nature.com
+- title: Millions more Americans could access obesity drugs after Trump's deals with
+    Eli Lilly, Novo Nordisk
+  description: Medicare will start covering obesity drugs for the first time, which
+    could open access to millions of seniors and spur more private insurers to follow
+    suit.
+  url: https://www.cnbc.com/2025/11/07/trump-deals-with-lilly-novo-nordisk-could-broaden-obesity-drug-access.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Democratic leader offers deal to reopen government with 1-year ACA tax credit
+    extension
+  description: The U.S. government shutdown has dragged on for 38 days because of
+    a dispute over whether ACA tax credits should be included in a stop-gap funding
+    bill.
+  url: https://www.cnbc.com/2025/11/07/government-shutdown-democrats-schumer-trump-aca.html
+  date: '2025-11-07'
+  source: CNBC
+- title: The Fall of El Fasher
+  description: Nicolas Niarchos on war crimes committed in El Fasher, Sudan, by the
+    Rapid Support Forces (the R.S.F.), a paramilitary group vying for control of the
+    country.
+  url: https://www.newyorker.com/news/the-lede/the-fall-of-el-fasher
+  date: '2025-11-07'
+  source: The New Yorker
+- title: Countries make progress on WHO Pandemic Agreement annex on pathogen access
+    and benefit sharing system
+  description: <p>In an important step, Member States started discussing for the first
+    time the proposed draft text of the annex to the WHO Pandemic Agreement that establishes
+    the Pathogen Access and Benefit Sharing (PABS) system. The PABS system is a key
+    part of t
+  url: https://www.who.int/news/item/07-11-2025-countries-make-progress-on-who-pandemic-agreement-annex-on-pathogen-access-and-benefit-sharing-system
+  date: '2025-11-07'
+  source: World Health Organization
+- title: Worried about layoffs? Economists say the job market is cooling but 'not
+    falling off a cliff'
+  description: Job experts say they're not in panic mode just yet. Here are the numbers
+    to focus on.
+  url: https://www.cnbc.com/2025/11/07/-economists-say-job-market-is-cooling-but-not-falling-off-a-cliff.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Trump CFPB takes aim at 15 states that ban medical debt on credit reports—it's
+    'salt in the wound,' says consumer advocate
+  description: Recent guidance from the CFPB calls on courts to overturn laws in 15
+    states which prohibit including medical debt on consumer credit reports.
+  url: https://www.cnbc.com/2025/11/07/trump-cfpb-aims-to-nix-laws-that-ban-medical-debt-on-credit-reports.html
+  date: '2025-11-07'
+  source: CNBC
+- title: 'Homeowners: The SALT deduction is going up to $40,000. Here’s how to get
+    the most out of it.'
+  description: Homeowners now have the chance to write off much more of their state
+    and local tax bills, and this could potentially lead to bigger tax refunds.
+  url: https://www.marketwatch.com/story/homeowners-the-salt-deduction-is-going-up-to-40-000-heres-how-to-get-the-most-out-of-it-cfcc4d76
+  date: '2025-11-07'
+  source: MarketWatch
+- title: The Most Useless Piece of Parenting Advice
+  description: The problem with telling moms “It takes a village”
+  url: https://www.theatlantic.com/family/2025/11/it-takes-a-village/684835/
+  date: '2025-11-07'
+  source: The Atlantic
+- title: The Coming Swell of Scientists-Turned-Politicians
+  description: Instead of trying to depoliticize science, they’re running for office.
+  url: https://www.theatlantic.com/science/2025/11/scientists-politicans/684853/
+  date: '2025-11-07'
+  source: The Atlantic
+- title: A Conservative Case for Feminization
+  description: A new book argues that America would benefit if more men adopted the
+    values of vulnerability and mutual care that are usually attributed to women.
+  url: https://www.theatlantic.com/books/2025/11/conservative-case-for-feminization/684852/
+  date: '2025-11-07'
+  source: The Atlantic
+- title: Is Gambling Really Threatening the Integrity of Sports?
+  description: Jay Caspian Kang on the increase in writers and pundits railing against
+    legalized sports betting, after a recent N.B.A. scandal, and the pitfalls of their
+    arguments.
+  url: https://www.newyorker.com/news/fault-lines/is-gambling-really-threatening-the-integrity-of-sports
+  date: '2025-11-07'
+  source: The New Yorker
+- title: Alaska’s Public Schools Serve as Emergency Shelters. Those Buildings Are
+    Also in Crisis.
+  description: Across hundreds of Alaskan communities, public schools are often the
+    safest buildings where people can take shelter during disasters. After decades
+    of state neglect, however, some have become emergencies themselves.
+  url: http://www.propublica.org/article/alaska-public-schools-emergency-shelter-neglect-typhoon-halong
+  date: '2025-11-07'
+  source: ProPublica
+- title: The potential outcomes of interpersonal violence for women’s artistic gymnasts
+  description: 'Author: Natalie Barker-Ruchti, School of Health Sciences, Örebro University,
+    Sweden [...]
 
+    Read More...
+
+    The post The potential outcomes of interpersonal violence for women’s artistic
+    gymnasts appeared first on BJSM blog - social media''s leading SEM vo'
+  url: https://blogs.bmj.com/bjsm/?p=11766
+  date: '2025-11-07'
+  source: The BMJ
+- title: Just When It Looked Like the Shutdown Might End
+  description: Election Day happened.
+  url: https://www.theatlantic.com/politics/2025/11/both-parties-extend-government-shutdown/684849/
+  date: '2025-11-07'
+  source: The Atlantic
+- title: Trump’s Ozempic Deal Has a Major Flaw
+  description: Obesity drugs are still too expensive.
+  url: https://www.theatlantic.com/health/2025/11/trump-glp1-deal-wegovy-zepbound/684851/
+  date: '2025-11-07'
+  source: The Atlantic
+- title: Ongoing government shutdown and AI fears are putting the market under pressure,
+    Jim Cramer says
+  description: CNBC's Jim Cramer unpacked Thursday's market decline.
+  url: https://www.cnbc.com/2025/11/06/jim-cramer-shutdown-ai-fears-market-pressure.html
+  date: '2025-11-06'
+  source: CNBC
+- title: A New Way to Look at the Pressures of Motherhood
+  description: In Die My Love, parenting is the least of a struggling new mother’s
+    concerns.
+  url: https://www.theatlantic.com/culture/2025/11/die-my-love-movie-review-bad-mother-trope/684844/
+  date: '2025-11-06'
+  source: The Atlantic
+- title: Startup Omada Health to start prescribing GLP-1s, other obesity medications
+    as membership grows
+  description: The announcement expands the offerings under the company's weight management
+    program as its membership grows to more than 100,000.
+  url: https://www.cnbc.com/2025/11/06/omada-health-to-start-prescribing-glp-1s-other-obesity-medications.html
+  date: '2025-11-06'
+  source: CNBC
+- title: McDonald's U.S. boss puts focus on 'value and affordability' as consumer
+    spending splits
+  description: McDonald's U.S. President Joe Erlinger told operators the brand was
+    "moving in the right direction" as it continues a more-than-yearlong push on value.
+  url: https://www.cnbc.com/2025/11/06/mcdonalds-us-boss-memo-value-affordability.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Here's how much weight loss drugs could cost you under Trump's deals with
+    Eli Lilly, Novo Nordisk
+  description: The monthly out-of-pocket cost of popular injections and upcoming pills
+    could range from $50 to $350, depending on the dosage and insurance coverage.
+  url: https://www.cnbc.com/2025/11/06/obesity-drug-prices-trump-deals-eli-lilly-novo-nordisk.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Is Marjorie Taylor Greene Playing Three-Dimensional Chess?
+  description: The “Jewish space lasers” lady may be positioning herself to lead the
+    MAGA movement.
+  url: https://www.theatlantic.com/politics/2025/11/marjorie-taylor-greene/684837/
+  date: '2025-11-06'
+  source: The Atlantic
+- title: Meta reportedly projected 10% of 2024 sales came from scam, fraud ads
+  description: Meta projected that about $16 billion in 2024 revenue came from running
+    ads for scams and banned goods, according to a Thursday report from Reuters.
+  url: https://www.cnbc.com/2025/11/06/meta-reportedly-projected-10percent-of-2024-sales-came-from-scam-fraud-ads.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Trump announces deals with Eli Lilly, Novo Nordisk to slash weight loss drug
+    prices, offer some Medicare coverage
+  description: The deals are among the most politically significant announcements
+    to date in the Trump administration's efforts to rein in high U.S. drug costs.
+  url: https://www.cnbc.com/2025/11/06/trump-eli-lilly-novo-nordisk-deal-obesity-drug-prices.html
+  date: '2025-11-06'
+  source: CNBC
+- title: What a Young Paul McCartney Knew About Growing Old
+  description: Put true love at the center of your life, and your happiness will only
+    grow.
+  url: https://www.theatlantic.com/ideas/2025/11/paul-mccartney-aging-love/684820/
+  date: '2025-11-06'
+  source: The Atlantic
+- title: Here's what travelers need to know as the FAA announces flight reductions
+    at 40 airports
+  description: The Federal Aviation Administration announced a reduction across 40
+    airports beginning Friday. Here's what travelers need to know.
+  url: https://www.cnbc.com/2025/11/06/airport-flight-reductions-faa.html
+  date: '2025-11-06'
+  source: CNBC
+- title: 3 Questions to Ask About Your Strategy in the Age of AI
+  description: Lessons from Intercorp Perú Ltd on transitioning from an industrial-era
+    conglomerate to an AI-driven corporation.
+  url: https://hbr.org/2025/11/3-questions-to-ask-about-your-strategy-in-the-age-of-ai
+  date: '2025-11-06'
+  source: Harvard Business Review
+- title: Younger consumers are eating less Chipotle and Cava. They are buying more
+    Coach bags
+  description: The split in company results indicates consumers are splurging in some
+    areas, as they save in others.
+  url: https://www.cnbc.com/2025/11/06/tapestry-tpr-q1-2026-earnings.html
+  date: '2025-11-06'
+  source: CNBC
+- title: We Are Not One
+  description: A short story
+  url: https://www.theatlantic.com/magazine/2025/12/george-packer-we-are-not-one/684614/
+  date: '2025-11-06'
+  source: The Atlantic
+- title: The Missing Kayaker
+  description: What happened to Ryan Borgwardt?
+  url: https://www.theatlantic.com/magazine/2025/12/wisconsin-kayaker-ryan-borgwardt-death/684631/
+  date: '2025-11-06'
+  source: The Atlantic
+- title: Foreign Food Safety Inspections Hit Historic Low After Trump Cuts
+  description: The dramatic shift in oversight comes at a time when the U.S. has never
+    been more reliant on foreign food, which accounts for the vast majority of the
+    nation’s seafood and more than half its fresh fruit.
+  url: http://www.propublica.org/article/foreign-food-safety-inspections-historic-low-fda
+  date: '2025-11-06'
+  source: ProPublica
+- title: Trump’s VA Made It Harder for Male Veterans to Get Treatment for Breast Cancer.
+    Lawmakers Want to Fix That.
+  description: After ProPublica revealed changes to how the Department of Veterans
+    Affairs covers men with breast cancer, House members demanded the agency reverse
+    its decision. Separately, new Senate legislation would require the VA to be more
+    transparent.
+  url: http://www.propublica.org/article/trump-veterans-affairs-male-breast-cancer-lawmakers
+  date: '2025-11-06'
+  source: ProPublica
+- title: Can Mamdani Pull Off a Child-Care Miracle?
+  description: The hurdles facing the incoming mayor’s proposal are as large as its
+    potential rewards.
+  url: https://www.theatlantic.com/ideas/2025/11/mamdani-child-care/684783/
+  date: '2025-11-05'
+  source: The Atlantic
+- title: America on the Brink of War With Venezuela
+  description: 'Quico Toro on the Trump administration’s dangerous game of brinksmanship
+    with Venezuela and why a conflict in the Caribbean could be a disaster for everyone
+    involved. Plus: Trump’s newest attempt at a constitutional coup and a discussion
+    of The Opper'
+  url: https://www.theatlantic.com/podcasts/2025/11/the-david-frum-show-quico-toro-venzuela/684831/
+  date: '2025-11-05'
+  source: The Atlantic
+- title: The Shutdown of U.S.A.I.D. Has Already Killed Hundreds of Thousands
+  description: Atul Gawande writes about the short documentary “Rovina’s Choice,”
+    by Thomas Jennings and Annie Wong, which tells the story of what goes when aid
+    goes.
+  url: https://www.newyorker.com/culture/the-new-yorker-documentary/the-shutdown-of-usaid-has-already-killed-hundreds-of-thousands
+  date: '2025-11-05'
+  source: The New Yorker
+- title: Rising household debt balances point to worsening 'K-shaped' economic divide
+  description: Recent reports show a growing divide among consumers, with more borrowers
+    either in a position of financial distress or strength.
+  url: https://www.cnbc.com/2025/11/05/consumer-debt-rises-amid-worsening-k-shaped-economic-divide.html
+  date: '2025-11-05'
+  source: CNBC
+- title: 'Trump Is Right: Ditch the Filibuster'
+  description: The tactic is a deformed anachronism. Its demise would benefit the
+    whole country, and Democrats especially.
+  url: https://www.theatlantic.com/politics/2025/11/trump-filibuster-democrats-senate/684826/
+  date: '2025-11-05'
+  source: The Atlantic
+- title: Amazon raising prices by more than Target, Walmart to meet tariffs
+  description: Prices on Amazon, Walmart and Target have all increased this year as
+    retailers grapple with higher costs due to tariffs.
+  url: https://www.cnbc.com/2025/11/05/amazon-target-walmart-raising-prices-tariffs.html
+  date: '2025-11-05'
+  source: CNBC
+- title: 'Healthy Returns: What to know about Pfizer and Novo Nordisk’s bidding war
+    over obesity biotech Metsera'
+  description: Pfizer and Novo Nordisk are in a takeover clash over the obesity biotech
+    Metsera, while some House Republicans warm to extending tax credits.
+  url: https://www.cnbc.com/2025/11/05/healthy-returns-pfizer-novo-nordisk-escalate-metsera-bidding-war.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Social Security's 2.8% COLA for 2026 is sparking debate over how the annual
+    increase gets calculated
+  description: The Social Security cost-of-living adjustment for 2026 will not be
+    a windfall for the millions of beneficiaries who rely on the program's monthly
+    checks.
+  url: https://www.cnbc.com/2025/11/05/social-security-cola-2026-calculation.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Private payrolls rose 42,000 in October, more than expected and countering
+    labor market fears, ADP says
+  description: Companies added 42,000 jobs for the month, following a decline of 29,000
+    and topping the estimate for a gain of 22,000.
+  url: https://www.cnbc.com/2025/11/05/private-payrolls-rose-42000-in-october-more-than-expected-and-countering-labor-market-fears-adp-says.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Mitigating the Public Health Impacts of AI Data Centers
+  description: Organizations can make decisions today about how much air pollution
+    the AI boom will create.
+  url: https://hbr.org/2025/11/mitigating-the-public-health-impacts-of-ai-data-centers
+  date: '2025-11-05'
+  source: Harvard Business Review
+- title: The Age of Anti-Social Media Is Here
+  description: The social-media era is over. What’s coming will be much worse.
+  url: https://www.theatlantic.com/magazine/2025/12/ai-companionship-anti-social-media/684596/
+  date: '2025-11-05'
+  source: The Atlantic
+- title: 'Amazon upheaval: With morale shaken, Jassy looks for next big play after
+    mass layoffs'
+  description: Amazon CEO Andy Jassy has been overhauling the company's corporate
+    culture in recent years, and went even further last week, announcing 14,000 layoffs.
+  url: https://www.cnbc.com/2025/11/05/amazon-upheaval-andy-jassy-looks-for-next-big-play-after-mass-layoffs.html
+  date: '2025-11-05'
+  source: CNBC
+- title: McDonald's is about to report earnings. Here's what to expect
+  description: McDonald's stock has risen just 3% this year, as investor concerns
+    about the restaurant industry and the broader economy have weighed on shares.
+  url: https://www.cnbc.com/2025/11/05/mcdonalds-mcd-q3-2025-earnings.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Democrats make clean sweep in three biggest U.S. elections on Tuesday night
+  description: President Donald Trump said that the reason that Republicans lost big
+    was because he was not on the ballots and because of the federal government shutdown.
+  url: https://www.cnbc.com/2025/11/04/democrats-trump-us-elections-mamdani-sherrill-spanberger.html
+  date: '2025-11-05'
+  source: CNBC

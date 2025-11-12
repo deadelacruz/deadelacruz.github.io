@@ -1,10 +1,178 @@
 news_items:
-  - title: "AI-Driven Brain Implant Advances Artificial Vision"
-    description: "Researchers unveiled a bidirectional visual neuroprosthesis that adapts in real time to neural activity, moving closer to restoring functional sight for blind patients."
-    url: "https://neurosciencenews.com/neuroscience-topics/deep-learning/?utm_source=openai"
-    date: "2025-11-05"
-  - title: "NextBrain Offers Detailed 3D Map of the Human Brain"
-    description: "A new AI-powered atlas now maps 333 brain regions in high-resolution 3D, giving neuroscientists unprecedented insight into brain structure and function."
-    url: "https://neurosciencenews.com/neuroscience-topics/deep-learning/?utm_source=openai"
-    date: "2025-11-05"
-
+- title: Single-cell synaptome mapping of endogenous protein subpopulations in mammalian
+    brain
+  description: Synapses are diverse within a single neuron. Here, the authors present
+    a method for single-cell synaptome imaging of endogenous protein subpopulations
+    in the mouse brain, enabling spatial mapping of synapse diversity in protein localization
+    and turno
+  url: https://www.nature.com/articles/s41467-025-65813-w
+  date: '2025-11-11'
+  source: Nature.com
+- title: Following a cell’s every move
+  description: Identifying individual cells and tracking their movements over time
+    are two critically important tasks in bioimage analysis. We discuss a fresh wave
+    of tools that push these techniques toward peak performance.
+  url: https://www.nature.com/articles/s41592-025-02937-3
+  date: '2025-11-11'
+  source: Nature.com
+- title: A novel hybrid model integrating CEEMDAN decomposition, dispersion entropy
+    and LSTM for photovoltaic power forecasting and anomaly detection
+  description: Scientific Reports - A novel hybrid model integrating CEEMDAN decomposition,
+    dispersion entropy and LSTM for photovoltaic power forecasting and anomaly detection
+  url: https://www.nature.com/articles/s41598-025-23305-3
+  date: '2025-11-11'
+  source: Nature.com
+- title: Beyond the niche - unlocking the full potential of synthetic riboswitches
+  description: Synthetic riboswitches are a burgeoning regulatory tool in the field
+    of molecular biology. Here, the authors explore the unique features of synthetic
+    riboswitches, highlight key applications, assess current bottlenecks and limitations
+    and put them in
+  url: https://www.nature.com/articles/s41467-025-65808-7
+  date: '2025-11-10'
+  source: Nature.com
+- title: A call for 3D genomics submissions
+  description: Nature Genetics has joined forces with Nature Communications, Communications
+    Biology and Scientific Reports to create a Collection of papers on 3D genome organization.
+    We reflect on the field and invite submissions addressing fundamental unsolved
+    que
+  url: https://www.nature.com/articles/s41588-025-02439-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: The First Amendment Won’t Go Quietly
+  description: Welcome to the third Red Scare.
+  url: https://www.theatlantic.com/ideas/2025/11/first-amendment-trump-free-speech-red-scare/684866/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: AMC’s Thunder Road Could Be NASCAR’s Next Big Story
+  description: The network behind Breaking Bad is turning its lens on NASCAR’s roots
+    — where racing families, grudges, and Southern grit still fuel the story.
+  url: https://www.forbes.com/sites/gregengle/2025/11/09/amcs-thunder-road-could-be-nascars-next-big-story/
+  date: '2025-11-09'
+  source: Forbes
+- title: Turning undersea cables into a global monitoring system for seismic and environmental
+    hazards
+  description: EU researchers are exploring how undersea communication cables can
+    double-up as environmental and seismic sensors—a potential game-changer for early
+    warning systems.
+  url: https://phys.org/news/2025-11-undersea-cables-global-seismic-environmental.html
+  date: '2025-11-08'
+  source: Phys.Org
+- title: Multifunctionally diverse alkaline phosphatases of Alteromonas drive the
+    phosphorus cycle in the ocean
+  description: This study shows that Alteromonas is a key driver of phosphorus recycling
+    in the ocean and that its alkaline phosphatases are multifunctional—with different
+    families coexisting in one genome by adopting distinct functions and secretion
+    strategies.
+  url: https://www.nature.com/articles/s41467-025-64455-2
+  date: '2025-11-07'
+  source: Nature.com
+- title: Deep learning models simultaneously trained on multiple datasets improve
+    base-editing activity prediction
+  description: 'CRISPR base editing enables the precise introduction of single-nucleotide
+    mutations in the genome. Here, authors generated new adenine/cytosine base editor
+    dataset and proposed a deep-learning model CRISPRon-BE for base editor efficiency
+    prediction, '
+  url: https://www.nature.com/articles/s41467-025-65200-5
+  date: '2025-11-07'
+  source: Nature.com
+- title: 'Monod: model-based discovery and integration through fitting stochastic
+    transcriptional dynamics to single-cell sequencing data'
+  description: Monod fits biophysically motivated models to single-cell transcriptomics
+    data, empowering multifaceted and integrative insights of gene expression dynamics,
+    stochasticity and regulation.
+  url: https://www.nature.com/articles/s41592-025-02832-x
+  date: '2025-11-07'
+  source: Nature.com
+- title: Genetic basis of flavor complexity in sweet corn
+  description: Genomic, transcriptomic and metabolomic analyses from a population
+    of 295 diverse sweet-corn inbred lines provide insights into kernel quality formation
+    mechanisms and the divergence of sweet corn and field corn.
+  url: https://www.nature.com/articles/s41588-025-02401-0
+  date: '2025-11-07'
+  source: Nature.com
+- title: Regulation of RNA-binding proteins by small biomolecules
+  description: RNA-binding proteins (RBPs) are essential for gene regulation. Recent
+    data reveal that small biomolecules (SBMs) such as sugars, nucleotides, metabolites
+    and drugs bind to RBPs and regulate their function. This Review discusses the
+    landscape of SBM-b
+  url: https://www.nature.com/articles/s41580-025-00914-4
+  date: '2025-11-06'
+  source: Nature.com
+- title: Memristor-based adaptive analog-to-digital conversion for efficient and accurate
+    compute-in-memory
+  description: Hong et al. report an adaptive memristor-based analog-to-digital converter
+    which leverages the programmable nature of memristors to implement optimal, data-aware
+    quantization boundaries directly in hardware, enabling a 15.1× improvement in
+    energy eff
+  url: https://www.nature.com/articles/s41467-025-65233-w
+  date: '2025-11-06'
+  source: Nature.com
+- title: Genomics of drug target prioritization for complex diseases
+  description: In this Review, Chen et al. discuss how the advancement and integration
+    of large-scale genetic resources, multi-omics data and sophisticated computational
+    tools are improving drug development pipelines.
+  url: https://www.nature.com/articles/s41576-025-00904-4
+  date: '2025-11-06'
+  source: Nature.com
+- title: 'The prophet of American loneliness on the world that produced Trump and
+    his message to Gen Z: ‘You didn’t cause this problem, we caused this problem’'
+  description: Robert Putnam famously diagnosed America as "bowling alone" 25 years
+    ago. Things have just gotten lonelier since.
+  url: https://fortune.com/2025/11/06/robert-putnam-gen-z-trump-social-capital-respect-economy/
+  date: '2025-11-06'
+  source: Fortune
+- title: Vietnam looks to new strategies for living with extreme storms
+  description: Vietnam is rethinking how it copes with floods after a year of relentless
+    storms has collapsed hillsides and turned streets into rivers. Record rainfall,
+    warmer seas, and slower-moving typhoons have exposed weaknesses in urban planning,
+    with concrete
+  url: https://apnews.com/article/vietnam-climate-storms-disaster-floods-bc9a27d709c17db2d02be30e689f4b98
+  date: '2025-11-05'
+  source: Associated Press
+- title: Mechano-induced patterned domain formation by monocytes
+  description: Human primary monocytes reversibly phase separate into regular, multicellular,
+    multilayered domains on soft matrices with physiological stiffness due to local
+    activation and global inhibition processes that occur during random cell migration.
+  url: https://www.nature.com/articles/s41563-025-02397-2
+  date: '2025-11-05'
+  source: Nature.com
+- title: A multimodal whole-slide foundation model for pathology
+  description: 'Pretrained using 335,645 whole-slide images, a foundation model is
+    developed to provide representations for slide- and patient-level tasks. It is
+    capable of performing clinical tasks and generating reports even in data-scarce
+    scenarios, such as rare '
+  url: https://www.nature.com/articles/s41591-025-03982-3
+  date: '2025-11-05'
+  source: Nature.com
+- title: Can AI be truly creative?
+  description: Chatbots and AI models are challenging ideas about who — or what —
+    can create art, music and more.
+  url: https://www.nature.com/articles/d41586-025-03570-y
+  date: '2025-11-05'
+  source: Nature.com
+- title: Lymph node environment drives FSP1 targetability in metastasizing melanoma
+  description: Targeting FSP1 in lymph nodes has considerable potential for blocking
+    melanoma progression.
+  url: https://www.nature.com/articles/s41586-025-09709-1
+  date: '2025-11-05'
+  source: Nature.com
+- title: The importance of past rifting in large igneous province development
+  description: Seismic data from the Turkana Depression in East Africa show that areas
+    of thinned lithosphere are not necessarily persistent weak zones where extension
+    and magmatic provinces will develop.
+  url: https://www.nature.com/articles/s41586-025-09668-7
+  date: '2025-11-05'
+  source: Nature.com
+- title: CNN Beefs Up Its CNN Headlines FAST Channel With Anchor Brad Smith
+  description: '"I want to make sure that with any ounce of time people give us, they
+    feel like they’re walking away with an extreme amount of value"'
+  url: https://www.forbes.com/sites/markjoyella/2025/11/05/cnn-beefs-up-its-cnn-headlines-fast-channel-with-anchor-brad-smith/
+  date: '2025-11-05'
+  source: Forbes
+- title: NVIDIA, Qualcomm join U.S., Indian VCs to help build India's next deep tech
+    startups | TechCrunch
+  description: Qualcomm Ventures has joined six Indian venture firms, collectively
+    adding more than $850 million to boost India’s deep-tech ecosystem.
+  url: https://techcrunch.com/2025/11/04/nvidia-qualcomm-join-u-s-indian-vcs-to-help-build-indias-next-deep-tech-startups/
+  date: '2025-11-05'
+  source: TechCrunch

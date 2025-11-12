@@ -1,22 +1,1857 @@
 news_items:
-  - title: "Apple Taps Google's Gemini for the New Siri"
-    description: "Apple plans to integrate Google's Gemini model into an upcoming Siri overhaul, a collaboration reportedly worth about $1 billion per year."
-    url: "https://www.reuters.com/business/apple-use-googles-ai-model-run-new-siri-bloomberg-news-reports-2025-11-05/?utm_source=openai"
-    date: "2025-11-05"
-  - title: "EU Weighs Pause on Portions of AI Act"
-    description: "Facing pressure from the U.S. and major tech firms, the European Commission may temporarily halt parts of its flagship AI regulation ahead of a November 19 decision."
-    url: "https://www.reuters.com/business/eu-weighs-pausing-parts-landmark-ai-act-face-us-big-tech-pressure-ft-reports-2025-11-07/?utm_source=openai"
-    date: "2025-11-07"
-  - title: "Microsoft Forms MAI Superintelligence Team"
-    description: "Microsoft announced a new group tasked with building AI systems that surpass human experts in targeted domains, beginning with medical diagnosis."
-    url: "https://www.reuters.com/technology/microsoft-launches-superintelligence-team-targeting-medical-diagnosis-start-2025-11-06/?utm_source=openai"
-    date: "2025-11-06"
-  - title: "Nvidia CEO Warns of China's AI Momentum"
-    description: "Jensen Huang cautions that U.S. restrictions could allow China's developer community to outpace American efforts in AI."
-    url: "https://www.reuters.com/world/asia-pacific/nvidias-jensen-huang-says-china-will-win-ai-race-with-us-ft-reports-2025-11-05/?utm_source=openai"
-    date: "2025-11-05"
-  - title: "South Korea Eyes Major AI Investment"
-    description: "President Lee Jae Myung is pushing to triple national AI spending to 10.1 trillion won ($6.9 billion) in 2026 to fortify the country's AI infrastructure."
-    url: "https://apnews.com/article/80db48ff3d6cdaabd10b79518d56dc0f?utm_source=openai"
-    date: "2025-11-05"
-
+- title: The computers that run on human brain cells
+  description: 'Move over silicon: scientists want to use neurons to make powerful
+    computers with minuscule energy needs.'
+  url: https://www.nature.com/articles/d41586-025-03633-0
+  date: '2025-11-11'
+  source: Nature.com
+- title: Single-cell synaptome mapping of endogenous protein subpopulations in mammalian
+    brain
+  description: Synapses are diverse within a single neuron. Here, the authors present
+    a method for single-cell synaptome imaging of endogenous protein subpopulations
+    in the mouse brain, enabling spatial mapping of synapse diversity in protein localization
+    and turno
+  url: https://www.nature.com/articles/s41467-025-65813-w
+  date: '2025-11-11'
+  source: Nature.com
+- title: China’s new scientist visa is a ‘serious bid’ for the world’s top talent
+  description: The country is easing migration for young researchers to boost its
+    competitiveness in artificial intelligence (AI), robotics and new materials.
+  url: https://www.nature.com/articles/d41586-025-03657-6
+  date: '2025-11-11'
+  source: Nature.com
+- title: Drivers of natural regeneration seedling dynamics in a Larix gmelinii var.
+    principis-rupprechtii artificial forest
+  description: Scientific Reports - Drivers of natural regeneration seedling dynamics
+    in a Larix gmelinii var. principis-rupprechtii artificial forest
+  url: https://www.nature.com/articles/s41598-025-25747-1
+  date: '2025-11-11'
+  source: Nature.com
+- title: I have Einstein, Bohr and Feynman in my pocket
+  description: Grappling with difficulties in your career? Try asking an AI-powered
+    advisory panel of experts, suggests Carsten Lund Pedersen.
+  url: https://www.nature.com/articles/d41586-025-03468-9
+  date: '2025-11-11'
+  source: Nature.com
+- title: Ethically sourced image data set encourages fairness in AI research
+  description: AI systems rely on data that often lack diversity, perpetuate biases
+    and violate intellectual-property rights. An ethical human-image data set addresses
+    these problems.
+  url: https://www.nature.com/articles/d41586-025-03643-y
+  date: '2025-11-11'
+  source: Nature.com
+- title: Assessment of terrestrial gamma radiation dose rates and its associated hazards
+    in Taraba State, Nigeria
+  description: Scientific Reports - Assessment of terrestrial gamma radiation dose
+    rates and its associated hazards in Taraba State, Nigeria
+  url: https://www.nature.com/articles/s41598-025-22939-7
+  date: '2025-11-11'
+  source: Nature.com
+- title: 'CNBC Daily Open: AI is back — it never really went away'
+  description: Investors piled back into artificial intelligence names on Monday stateside.
+    "AI-related stocks should drive equity markets," an analyst said.
+  url: https://www.cnbc.com/2025/11/11/cnbc-daily-open-ai-is-back-it-never-really-went-away.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Stocks jump as the Senate takes steps to end the government shutdown
+  description: Wall Street was buoyed by investor optimism that the longest federal
+    government shutdown in U.S. history could be nearing an end.
+  url: https://www.cbsnews.com/news/stocks-government-shutdown-senate-deal-sp500-dow-jones-november-10/
+  date: '2025-11-10'
+  source: CBS News
+- title: Senators reach deal to reopen the government. And, countries gather for climate
+    talks
+  description: Several Senate Democrats break ranks to join Republicans in a deal
+    to reopen the government. And, world leaders gather in Brazil for a major climate
+    conference, but the U.S. is not expected to attend.
+  url: https://www.npr.org/2025/11/10/g-s1-97152/up-first-newsletter-government-shutdown-snap-benefits-cop30
+  date: '2025-11-10'
+  source: NPR
+- title: People want to avoid ultra-processed foods. But experts struggle to define
+    them
+  description: 'The evidence that ultra-processed foods are bad for us is piling up.
+    But efforts to reduce their role in our diets face a big hurdle: experts can''t
+    agree on what they are and which to target.'
+  url: https://www.npr.org/2025/11/10/nx-s1-5602065/ultra-processed-food-diet-health
+  date: '2025-11-10'
+  source: NPR
+- title: China steps up efforts to woo global tech talent with a new visa scheme
+  description: China has a new visa scheme that is creating job opportunities for
+    foreign professionals, part of its effort to attract global talent and gain an
+    edge in global technology. The K-visa, similar to the H-1B visa in the United
+    States, targets skilled sc
+  url: https://apnews.com/article/china-us-talent-tech-visa-h1b-4c5792cf1b9fec9a846ca002f9e383ae
+  date: '2025-11-10'
+  source: Associated Press
+- title: Tutoring a baby to make them an 'English gentleman' - Is it worth the money?
+  description: The advert seeks "an extraordinary tutor" required "to support child
+    on his first steps to becoming an English gentleman."
+  url: https://www.bbc.com/news/articles/cd9kljww1zdo
+  date: '2025-11-10'
+  source: BBC News
+- title: Anduril's unmanned jet "Fury" makes first flight
+  description: A Collaborative Combat Aircraft, the AI-powered fighter YFQ-44A has
+    begun flight testing, as General Atomics takes to the sky as well.
+  url: https://www.cbsnews.com/news/anduril-unmanned-jet-fury-makes-first-flight-60-minutes/
+  date: '2025-11-10'
+  source: CBS News
+- title: Is Space the Place for Earth’s Next Evolutionary Leap?
+  description: In a new book, NASA astrobiologist Caleb Scharf says the fate of life
+    on Earth may hinge on leaving our planet behind
+  url: https://www.scientificamerican.com/article/is-space-the-place-for-earths-next-evolutionary-leap/
+  date: '2025-11-10'
+  source: Scientific American
+- title: Yale Law School students take a deep dive into Connecticut policymaking
+  description: In Zachary Liscow&#8217;s “Connecticut Policy Lab” course, students
+    use the state as a case study for understanding the legal foundations of government&nbsp;effectiveness.
+  url: https://law.yale.edu/yls-today/news/students-take-deep-dive-connecticut-policymaking
+  date: '2025-11-10'
+  source: Yale.edu
+- title: AI unravels the hidden communication of gut microbes
+  description: Scientists have turned to advanced AI to decode the intricate ecosystem
+    of gut bacteria and their chemical signals. Using a Bayesian neural network called
+    VBayesMM, researchers can now identify genuine biological links rather than random
+    correlations
+  url: https://www.sciencedaily.com/releases/2025/11/251109013246.htm
+  date: '2025-11-10'
+  source: Science Daily
+- title: 'From Hype to Adoption: Guiding Organizations in Their AI Journey'
+  description: After a flurry of initial investments in artificial intelligence, including
+    generative and agentic AI, many organizations are facing mixed results. The SEI
+    is examining how organizations adopt AI and what methods they can use to measure
+    and improve t
+  url: https://www.sei.cmu.edu/blog/from-hype-to-adoption-guiding-organizations-in-their-ai-journey/
+  date: '2025-11-10'
+  source: Carnegie Mellon University
+- title: Rebuilding Ukraine — one university’s bold vision
+  description: Rector and AI researcher Nataliya Shakhovska tells Nature how her institution
+    is supporting students and staff members amid the war and about her hopes for
+    the future.
+  url: https://www.nature.com/articles/d41586-025-03638-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: A comparative evaluatıon of AI-based ChatGPT and physicians in psychiatric
+    case assessment
+  description: Scientific Reports - A comparative evaluatıon of AI-based ChatGPT and
+    physicians in psychiatric case assessment
+  url: https://www.nature.com/articles/s41598-025-20813-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: Surface-plasmon control of ultrafast energy-relaxation modes in photoexcited
+    Au nanorods probed by time-resolved single-particle X-ray imaging
+  description: Ultrafast lasers can drive materials into states beyond equilibrium.
+    Here, the authors use single-pulse X-ray imaging to show that surface plasmons
+    channel energy relaxation into distinct pathways, leading to different shape deformations.
+  url: https://www.nature.com/articles/s41467-025-64853-6
+  date: '2025-11-10'
+  source: Nature.com
+- title: DAF-16/FOXO and HLH-30/TFEB comprise a cooperative regulatory axis controlling
+    tubular lysosome induction in C. elegans
+  description: This study reveals that transcription factors DAF-16/FOXO and HLH-30/TFEB
+    promote healthy aging in C. elegans, in part, by activating lipid metabolism genes
+    that remodel lysosomes into tubular networks.
+  url: https://www.nature.com/articles/s41467-025-64832-x
+  date: '2025-11-10'
+  source: Nature.com
+- title: Beyond the niche - unlocking the full potential of synthetic riboswitches
+  description: Synthetic riboswitches are a burgeoning regulatory tool in the field
+    of molecular biology. Here, the authors explore the unique features of synthetic
+    riboswitches, highlight key applications, assess current bottlenecks and limitations
+    and put them in
+  url: https://www.nature.com/articles/s41467-025-65808-7
+  date: '2025-11-10'
+  source: Nature.com
+- title: Africa finally has its own drug-regulation agency — and it could transform
+    the continent’s health
+  description: If it gets things right, the first major regulator of medicines to
+    launch for 30 years could empower Africa to tackle African challenges around health
+    and disease.
+  url: https://www.nature.com/articles/d41586-025-03637-w
+  date: '2025-11-10'
+  source: Nature.com
+- title: Maximizing researcher–policymaker engagement in global public health
+  description: Research does not always ‘speak for itself’; high-fidelity uptake of
+    science into policy requires active engagement between researchers and policymakers.
+    This Perspective offers tangible recommendations to help bridge the research-to-policy
+    gap.
+  url: https://www.nature.com/articles/s41591-025-04015-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: Clearance of intracranial debris by ultrasound reduces inflammation and improves
+    outcomes in hemorrhagic stroke models
+  description: Brain debris in mouse models of stroke is cleared by ultrasound, boosting
+    recovery.
+  url: https://www.nature.com/articles/s41587-025-02866-8
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Endowing urban business environments with an intelligent brain: empirical
+    evidence from cities in western China'
+  description: 'Scientific Reports - Endowing urban business environments with an
+    intelligent brain: empirical evidence from cities in western China'
+  url: https://www.nature.com/articles/s41598-025-05630-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: Prognostic value of an abnormal chest X-ray result in predicting the development
+    of tuberculosis
+  description: In this study, authors evaluate mass tuberculosis (TB) screening data
+    from 183,808 elderly individuals in China, finding that abnormal chest X-rays
+    significantly increase TB risk.
+  url: https://www.nature.com/articles/s41467-025-64834-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: You don’t hate AI because of genuine dislike. No, there’s a $1 billion plot
+    by the ‘Doomer Industrial Complex’ to brainwash you, Trump’s AI czar says
+  description: Remember “Effective Altruism?” The movement led by disgraced crypto
+    kingpin Sam Bankman-Fried is back, lobbying against AI.
+  url: https://fortune.com/2025/11/10/why-do-people-hate-ai-david-sacks-effective-altruism-doomer-industrial-complex/
+  date: '2025-11-10'
+  source: Fortune
+- title: AI stocks lead Wall Street rebound as Nvidia, Palantir surge and S&P 500
+    claws back last week’s losses
+  description: Nvidia was by far the strongest force lifting the market and rallied
+    4.8%. It's a bounceback after Nvidia and other winners in the frenzy around artificial-intelligence
+    technology were at the center of last week’s drop.
+  url: https://fortune.com/2025/11/10/ai-stocks-lead-wall-street-rebound-as-nvidia-palantir-surge-and-sp-500-claws-back-last-weeks-losses-market/
+  date: '2025-11-10'
+  source: Fortune
+- title: Payton Pritchard And Lucky Energy, An Underdog Pairing That Continues To
+    Triumph
+  description: Lucky Energy and Boston Celtics guard Payton Pritchard have formed
+    a partnership built on two underdogs continuing to defy the odds.
+  url: https://www.forbes.com/sites/bobbykrivitsk/2025/11/10/payton-pritchard-and-lucky-energy-an-underdog-pairing-that-continues-to-triumph/
+  date: '2025-11-10'
+  source: Forbes
+- title: '‘Yikes’: Top investment bank looks under the hood of the economy and finds
+    ‘the labor market doesn’t look that good’'
+  description: We've heard the labor market is in a "low-hire, low-fire" kind of environment.
+    The "low hire" part seems to be true, the other not so much.
+  url: https://fortune.com/2025/11/10/economy-bad-low-hire-fire-labor-market-recession-levels-ubs/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'Fact check: Videos of crying Ukrainian soldiers are fake'
+  description: Viral clips purport to show young Ukrainian conscripts in tears as
+    they head to the front. However, the videos are AI-generated. DW takes a closer
+    look.
+  url: https://www.dw.com/en/fact-check-viral-videos-of-crying-ukrainian-soldiers-are-fake/a-74659145
+  date: '2025-11-10'
+  source: DW (English)
+- title: 'Fact check: AI videos of crying Ukrainian soldiers are fake'
+  description: Viral videos purport to show young Ukrainian conscripts in tears as
+    they head to the front. However, the videos are AI-generated using the faces of
+    prominent Russian influencers. DW takes a closer look.
+  url: https://www.dw.com/en/fact-check-ai-videos-of-crying-ukrainian-soldiers-are-fake/a-74659145
+  date: '2025-11-10'
+  source: DW (English)
+- title: Data centers in Nvidia’s hometown stand empty awaiting power
+  description: Two projects in Nvidia’s hometown may sit empty for years because the
+    local utility isn’t ready to supply electricity.
+  url: https://fortune.com/2025/11/10/nvidia-hometown-santa-clara-california-data-centers-empty-power-grid/
+  date: '2025-11-10'
+  source: Fortune
+- title: It’s Trump’s economy now and Americans don’t seem to love it
+  description: President Donald Trump has been back in office long enough for Americans
+    to expect at least glimmers of the economic golden age he promised.
+  url: https://fortune.com/2025/11/10/trump-economy-americans-dont-seem-impressed-k-shaped-inflation-tariffs/
+  date: '2025-11-10'
+  source: Fortune
+- title: What UPS’s reinvention reveals about modernizing a nearly 120-year-old company
+  description: UPS is rewriting its playbook for the next era of global delivery in
+    an AI-dominant world.
+  url: https://fortune.com/article/ups-reinvention-reveal-modernizing-ai/
+  date: '2025-11-10'
+  source: Fortune
+- title: New Study Offers Hope For People Living With Seizures
+  description: Most newly diagnosed patients with epilepsy do gain lasting control
+    of their seizures, even if their first medication doesn’t work.
+  url: https://www.forbes.com/sites/milletienne/2025/11/10/new-study-offers-hope-for-people-living-with-seizures/
+  date: '2025-11-10'
+  source: Forbes
+- title: The S&P 500 is also in a K-shaped economy, says Apollo, with a widening gap
+    between the winners and losers
+  description: Part of the growing divide between the rich and the average worker
+    can also be traced back to where these households derive their wealth—namely,
+    from their exposure to the booming stock market of 2025.
+  url: https://fortune.com/2025/11/10/markets-k-shaped-economy-apollo-winners-losers-wealth-ai/
+  date: '2025-11-10'
+  source: Fortune
+- title: DBS rolls out Gen AI chatbot, as Southeast Asia’s largest bank incorporates
+    AI in its workflow
+  description: The bank currently uses AI to handle tasks like fraud detection, algorithmic
+    credit-scoring and employee training.
+  url: https://fortune.com/2025/11/10/dbs-joy-rolls-out-gen-ai-chatbot/
+  date: '2025-11-10'
+  source: Fortune
+- title: Stock markets surge after US lawmakers move to end government shutdown
+  description: US Senate vote to end shutdown delivers reprieve to investors worried
+    about AI valuations and weakness in US economy.
+  url: https://www.aljazeera.com/economy/2025/11/10/stock-markets-surge-after-us-lawmakers-move-to-end-government-shutdown
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Latest Multi-Agentic AI For Mental Health Makes Use Of Clever Socratic Dialoguing
+    For Cognitive Behavioral Therapy
+  description: Multi-agentic AI is hot. A useful deployment is in providing mental
+    health advice. I discuss how this can be done. An AI Insider scoop.
+  url: https://www.forbes.com/sites/lanceeliot/2025/11/10/latest-multi-agentic-ai-for-mental-health-makes-use-of-clever-socratic-dialoguing-for-cognitive-behavioral-therapy/
+  date: '2025-11-10'
+  source: Forbes
+- title: Protesters call for action as pollution suffocates New Delhi
+  description: Crop residue burning, along with emissions from vehicles, industries
+    and construction, engulf the capital in smog.
+  url: https://www.aljazeera.com/news/2025/11/10/protesters-call-for-action-as-pollution-suffocates-new-delhi
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: AI bubble about to pop as returns on investment fall short?
+  description: 'Billions have poured into AI, helping stock valuations soar. But the
+    cracks are starting to show. Slowing adoption, surging costs and elusive profits
+    are fueling warnings that the boom may be headed for a hard reset. The artificial
+    intelligence (AI) '
+  url: https://www.dw.com/en/ai-bubble-about-to-pop-as-returns-on-investment-fall-short-chatgpt-microsoft-nvidia-grok-elon-musk/a-74636881
+  date: '2025-11-10'
+  source: DW (English)
+- title: No More Mr. Nice AI
+  description: OpenAI is pursuing aggressive legal tactics against its opponents.
+  url: https://www.theatlantic.com/technology/2025/11/openai-lawsuit-subpoenas/684861/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: Democratic senators blame White House, AI data centers for rising electricity
+    prices
+  description: Retail electricity prices in the U.S. increased about 6% on average
+    through August 2025 compared with the same period in 2024, according to government
+    data.
+  url: https://www.cnbc.com/2025/11/10/democratic-senators-blame-white-house-ai-data-centers-for-rising-electricity-prices.html
+  date: '2025-11-10'
+  source: CNBC
+- title: 'Jim Cramer unpacks Monday''s market action: ''It''s back to business as
+    usual'''
+  description: CNBC's Jim Cramer told investors why he thinks stocks rallied on Monday.
+  url: https://www.cnbc.com/2025/11/10/jim-cramer-monday-market-action-its-back-to-business-as-usual.html
+  date: '2025-11-10'
+  source: CNBC
+- title: CoreWeave's revenue more than doubles as AI buildout expansion accelerates
+  description: On top of deals with Meta and OpenAI, CoreWeave pointed to expansions
+    from a large unnamed customer in the third quarter.
+  url: https://www.cnbc.com/2025/11/10/coreweave-crwv-q3-earnings-report-2025.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Nuclear power will get the most Energy Department loans, Chris Wright says
+  description: The Secretary of Energy said he hopes dozens of nuclear plants are
+    under construction in the U.S. when the Trump administration leaves office.
+  url: https://www.cnbc.com/2025/11/10/nuclear-power-energy-department-chris-wright-loan-westinghouse-ai-data-center.html
+  date: '2025-11-10'
+  source: CNBC
+- title: 'Mark Cuban: AI-skilled kids are more likely to become successful adults—they''ll
+    ''be best equipped to lead'''
+  description: Mark Cuban and fellow entrepreneur Emma Grede are ambassadors for a
+    Samsung initiative providing free AI training resources to public schools across
+    the U.S.
+  url: https://www.cnbc.com/2025/11/10/mark-cuban-ai-skilled-kids-more-likely-to-become-successful-adults.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Former Google, Meta executives raise $100 million for high-capacity AI servers
+    startup
+  description: The three plan to sell high-memory server technology.
+  url: https://www.cnbc.com/2025/11/10/majestic-labs-meta-google-ai-funding.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Government shutdown update, the market's rough week, PitchBook's AI tool
+    and more in Morning Squawk
+  description: Here are five key things investors need to know to start the trading
+    day.
+  url: https://www.cnbc.com/2025/11/10/5-things-to-know-before-the-stock-market-opens.html
+  date: '2025-11-10'
+  source: CNBC
+- title: As private tech market heats up, PitchBook makes startup data available via
+    ChatGPT
+  description: PitchBook is launching PitchBook Navigator, a new generative AI tool
+    that produces private market insights based on user prompts.
+  url: https://www.cnbc.com/2025/11/10/pitchbook-introduces-ai-tool-navigaton-integrates-with-chatgpt.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Instacart tops third-quarter expectations under new CEO Rogers, gives strong
+    guidance
+  description: Instacart said it's expanding artificial intelligence tools, and recently
+    launched a suite of new solutions for grocers.
+  url: https://www.cnbc.com/2025/11/10/instacart-cart-stock-earnings-q3-2025.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Japanese investors turn to Europe as deep tech boom lures capital abroad
+  description: Japanese investors participated in European financing rounds worth
+    more than 33 billion euros ($38 billions) since 2019.
+  url: https://www.cnbc.com/2025/11/10/japanese-investors-turn-to-europe-in-lieu-of-own-ecosystem.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Socialism, But Make It Trump
+  description: After Zohran Mamdani’s victory, Republicans are fearmongering about
+    Democrats turning socialist. Meanwhile, Donald Trump is busy taking stakes in
+    private companies and ordering them around.
+  url: https://www.newyorker.com/news/the-financial-page/socialism-but-make-it-trump
+  date: '2025-11-10'
+  source: The New Yorker
+- title: 'CNBC Daily Open: Don''t hit panic button on tech pullback just yet'
+  description: Earnings have been "reassuring" despite worries about tech stocks'
+    high valuations, a strategist told CNBC. That means the fall in tech stocks might
+    not last.
+  url: https://www.cnbc.com/2025/11/10/cnbc-daily-open-dont-hit-panic-button-on-tech-pullback-just-yet.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Europe's markets set to rally amid potential deal to end U.S. government
+    shutdown
+  description: European stocks are expected to rally at the start of the new trading
+    week as a deal that could end the U.S. government shutdown appears to be getting
+    closer.
+  url: https://www.cnbc.com/2025/11/10/european-markets-on-nov-10-stoxx-600-ftse-dax-cac.html
+  date: '2025-11-10'
+  source: CNBC
+- title: 'CNBC Daily Open: Too early to fret about tech pullback?'
+  description: Earnings have been "reassuring" despite worries about tech stocks'
+    high valuations, a strategist told CNBC. That means the fall in tech stocks might
+    not last.
+  url: https://www.cnbc.com/2025/11/10/cnbc-daily-open-too-early-to-fret-about-tech-pullback.html
+  date: '2025-11-10'
+  source: CNBC
+- title: India's data centre boom confronts a looming water challenge
+  description: Energy hungry, water-guzzling data centres could affect India's decarbonisation
+    plans, say experts.
+  url: https://www.bbc.com/news/articles/cgr417pwek7o
+  date: '2025-11-09'
+  source: BBC News
+- title: Full transcript of "Face the Nation with Margaret Brennan," Nov. 9, 2025
+  description: On this "Face the Nation with Margaret Brennan" broadcast, Virginia
+    Gov.-elect Virginia Spanberger and New Jersey Gov.-elect Mikie Sherrill join Margaret
+    Brennan.
+  url: https://www.cbsnews.com/news/face-the-nation-full-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: Virginia Gov.-elect Spanberger warns state heading toward "energy crisis"
+  description: With the world's highest concentration of AI data centers, Virginia
+    faces energy costs that Gov.-elect Abigail Spanberger aims to lower during her
+    term.
+  url: https://www.cbsnews.com/news/abigail-spanberger-virginia-energy-crisis-data-centers-face-the-nation/
+  date: '2025-11-09'
+  source: CBS News
+- title: How a childhood virus can contribute to dementia later and what you can do
+  description: One of the largest studies ever conducted on the link between the shingles
+    vaccine and brain health offers insight into how the disease increases dementia...
+  url: https://washingtonpost.com/health/2025/11/02/shingles-vaccine-dementia-prevention/
+  date: '2025-11-09'
+  source: The Washington Post
+- title: 'Transcript: Virginia Gov.-elect Abigail Spanberger on "Face the Nation with
+    Margaret Brennan," Nov. 9, 2025'
+  description: The following is the transcript of the interview with Virginia Gov.-elect
+    Abigail Spanberger, a Democrat, that aired on "Face the Nation with Margaret Brennan"
+    on Nov. 9, 2025.
+  url: https://www.cbsnews.com/news/abigail-spanberger-virginia-governor-elect-face-the-nation-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: Promising clinical trials in Alzheimer's prevention
+  description: Washington University Medicine in St. Louis is conducting important
+    research into treating early-onset Alzheimer's before symptoms arise.
+  url: https://www.cbsnews.com/news/promising-clinical-trials-in-alzheimers-prevention/
+  date: '2025-11-09'
+  source: CBS News
+- title: How one photo and a deluge of threats turned an Arizona high school upside
+    down
+  description: VAIL, Ariz. — Cienega High School Principal Kim Middleton woke up early
+    last Saturday to urgent messages from district administrators.
+  url: https://www.nbcnews.com/news/us-news/one-photo-deluge-threats-arizona-high-school-turned-upside-right-wing-rcna241672
+  date: '2025-11-09'
+  source: NBC News
+- title: AI Slop—How Every Media Revolution Breeds Rubbish and Art
+  description: The popularization of the term “slop” for AI output follows a centuries-long
+    pattern where new tools flood the zone, audiences adapt and some of tomorrow’s
+    art emerges from today’s excess
+  url: https://www.scientificamerican.com/article/ai-slop-how-every-media-revolution-breeds-rubbish-and-art/
+  date: '2025-11-09'
+  source: Scientific American
+- title: DNA’s hidden power could transform how we make medicines
+  description: 'Scientists found that DNA’s phosphate groups can direct chemical reactions
+    to make the correct mirror-image form of drug molecules. This breakthrough simplifies
+    chiral drug production, reducing waste and energy use. Using a new “PS scanning”
+    method, '
+  url: https://www.sciencedaily.com/releases/2025/11/251108083914.htm
+  date: '2025-11-09'
+  source: Science Daily
+- title: Discover the wild side of Dubai with these thrilling adventures
+  description: Whether you’re heading for its desert, city, beaches or extraordinary
+    artificial islands, the Gulf region’s most popular stopover is packed with pulse-quickening
+    pursuits to spice up any fly-and-flop. Here are half a dozen to get you started.
+  url: https://www.nationalgeographic.com/travel/article/best-adventures-in-dubai-diving-rollercoasters-dune-buggies
+  date: '2025-11-09'
+  source: National Geographic
+- title: NFL blossoms in Berlin, but are historic stadiums enough?
+  description: The NFL's first game in the German capital since 1994 was a major success
+    for American football fans, but the country's stadiums are ageing fast.
+  url: https://www.dw.com/en/nfl-blossoms-in-berlin-but-are-historic-stadiums-enough/a-74678660
+  date: '2025-11-09'
+  source: DW (English)
+- title: It’s not just Israel to blame for the medical evacuation crisis in Gaza
+  description: Injured children like my cousin Ahmad are languishing in Gaza because
+    foreign governments will not take them in.
+  url: https://www.aljazeera.com/opinions/2025/11/9/its-not-just-israel-to-blame-for-the-medical-evacuation-crisis-in-gaza
+  date: '2025-11-09'
+  source: Al Jazeera English
+- title: Goldman Sachs says we’re not in an AI bubble, and its young multimillionaire
+    clientele are all-in on AI-energy investments and healthcare innovations
+  description: Goldman Sachs brought together 100 ultra-rich clientele at its annual
+    At the Helm summit—but beyond Navy SEAL training and legacy chats with actress
+    Mindy Kaling, AI was the talk of the town.
+  url: https://fortune.com/2025/11/09/goldman-sachs-not-in-ai-bubble-young-mutlimillionaire-clients-ai-energy-investments-healthcare/
+  date: '2025-11-09'
+  source: Fortune
+- title: Using Knowledge Elicitation Techniques To Infuse Deep Expertise And Best
+    Practices Into Generative AI
+  description: How can we get AI and LLMs to be domain experts? The prior era of AI
+    devised knowledge elicitation techniques. Those are still good in the LLM era.
+    An AI Insider scoop.
+  url: https://www.forbes.com/sites/lanceeliot/2025/11/09/using-knowledge-elicitation-techniques-to-infuse-deep-expertise-and-best-practices-into-generative-ai/
+  date: '2025-11-09'
+  source: Forbes
+- title: Asia-Pacific markets set to mostly rise after AI-fueled rout last week
+  description: Investors in Asia are also assessing October inflation data out from
+    China over the weekend, which came in above expectations.
+  url: https://www.cnbc.com/2025/11/10/asia-markets-live-china-inflation-data.html
+  date: '2025-11-09'
+  source: CNBC
+- title: 'Stock market today: live updates'
+  description: Traders were eyeing the latest talks about the government shutdown.
+  url: https://www.cnbc.com/2025/11/09/stock-market-today-live-updates.html
+  date: '2025-11-09'
+  source: CNBC
+- title: The ‘buy everything’ rally now feels like an uphill battle, putting bull
+    market to the test
+  description: Tech and speculative assets are now in focus after the Nasdaq’s worst
+    week since April.
+  url: https://www.marketwatch.com/story/the-bull-market-in-stocks-and-the-buy-everything-rally-now-feel-like-an-uphill-battle-a4352bb0
+  date: '2025-11-09'
+  source: MarketWatch
+- title: '‘I’m in a financial mess’: My income was cut in half. Do I sell my $600K
+    home and kiss my 2.9% mortgage rate goodbye?'
+  description: “We can move 10 miles south, where property is much cheaper.”
+  url: https://www.marketwatch.com/story/im-in-a-financial-mess-my-income-was-cut-in-half-do-i-sell-my-600k-home-and-kiss-my-2-9-mortgage-rate-goodbye-5d356273
+  date: '2025-11-09'
+  source: MarketWatch
+- title: 'New U.S. nuclear power boom begins with old, still-unsolved problem: What
+    to do with radioactive waste'
+  description: As government and industry, from tech giants to utilities, commit to
+    big nuclear power plants, there is still no clear solution for radioactive waste
+    storage.
+  url: https://www.cnbc.com/2025/11/09/nuclear-power-energy-radioactive-waste-storage-disposal.html
+  date: '2025-11-09'
+  source: CNBC
+- title: Francis Collins urges liver researchers to advocate for research
+  description: Francis Collins, the former NIH director, tells liver researcher that
+    the partisanship that has pervaded science "is really a dangerous sign for the
+    future of our society."
+  url: https://www.statnews.com/2025/11/09/aasld-liver-meeting-francis-collins/
+  date: '2025-11-09'
+  source: STAT
+- title: Top Wall Street analysts favor these 3 tech stocks for their growth outlook
+  description: TipRanks' ranking service discusses three stocks that are favored by
+    Wall Street, including Amazon and Alphabet.
+  url: https://www.cnbc.com/2025/11/09/top-wall-street-analysts-favor-3-tech-stocks-for-their-growth-outlook.html
+  date: '2025-11-09'
+  source: CNBC
+- title: Facebook enables gender discrimination in job ads, European human rights
+    rules
+  description: A European human rights body has ruled that Facebook’s algorithm shows
+    gender bias when promoting job advertisements, marking what activists say is a
+    crucial step in holding big tech companies accountable for the design of their
+    platforms.
+  url: https://www.cnn.com/2025/02/28/tech/facebook-gender-discrimination-europe-ruling-asequals-intl
+  date: '2025-11-08'
+  source: CNN
+- title: National 211 hotline calls for food assistance quadrupled in a matter of
+    days, a magnitude typically seen during disasters
+  description: Between January and mid-October 2025, calls to local 211 helplines
+    from people seeking food pantries in their community held steady at nearly 1,000
+    calls per day.
+  url: https://www.cnn.com/2025/11/08/health/211-food-assistance-hotline-snap
+  date: '2025-11-08'
+  source: CNN
+- title: Tesla shareholders didn’t approve of investment in Musk’s xAI
+  description: Tesla board Chair Robyn Denholm said ‘we haven’t invested in it’ because
+    xAI is developing a different kind of technology than the real-world applications
+    Tesla is pursuing in A
+  url: https://www.bloomberg.com/news/articles/2025-11-07/tesla-shareholders-didn-t-approve-authorizing-investment-in-xai
+  date: '2025-11-08'
+  source: Bloomberg
+- title: Is Wall Street losing faith in AI? | TechCrunch
+  description: A rough week for tech stocks might signal a loss of investor confidence
+    in artificial intelligence.
+  url: https://techcrunch.com/2025/11/08/is-wall-street-losing-faith-in-ai/
+  date: '2025-11-08'
+  source: TechCrunch
+- title: Why Sam Altman Won't Be on the Hook for OpenAI's Spending Spree
+  description: OpenAI has gone wild with compute deals this year, committing to spend
+    far more than its balance sheet can currently sustain. So who takes the fall if
+    it can’t pay? It won’t be Altman.
+  url: https://www.forbes.com/sites/rashishrivastava/2025/11/07/why-sam-altman-wont-be-on-the-hook-for-openais-massive-spending-spree/
+  date: '2025-11-08'
+  source: Forbes
+- title: 'AI’s hidden recession: How fewer jobs and cultural backlash create a governance
+    crisis'
+  description: AI will redefine how humans create value. Whether it also redefines
+    who is allowed to create value will depend on the choices leaders make now.
+  url: https://fortune.com/2025/11/08/ai-hidden-recession-gender-inequality-patriarchy/
+  date: '2025-11-08'
+  source: Fortune
+- title: Bad Air Is One of the Biggest Threats to Your Health. Here’s How to Protect
+    Yourself
+  description: Even though you can’t see it, fine particulate matter from woodsmoke
+    and industrial pollution can cause everything from heart attacks and diabetes
+    to brain damage.
+  url: https://www.wired.com/story/one-of-the-biggest-threats-to-your-health-is-something-you-cant-see/
+  date: '2025-11-08'
+  source: Wired
+- title: Top French YouTuber caught in flood of AI-generated racist videos on Sora
+  description: Fake clips depicting Tibo InShape making racist statements have flooded
+    social media. While he has said it was 'dark humor' and condemned the words, the
+    phenomenon raises new questions about moderation in the era of artificial intelligence.
+  url: https://www.lemonde.fr/en/pixels/article/2025/11/08/top-french-youtuber-caught-in-flood-of-ai-generated-racist-videos-on-sora_6747253_13.html
+  date: '2025-11-08'
+  source: Le Monde
+- title: During The AI Journey To AGI There Is Concern That We Will Be Like Frogs
+    In A Slowly Boiling Pot
+  description: The boiling frog theory says that we can be immersed in a process that
+    leads to a bad outcome and not realize it. Is this true for AI-to-AGI? Here's
+    the scoop.
+  url: https://www.forbes.com/sites/lanceeliot/2025/11/08/during-the-ai-journey-to-agi-there-is-concern-that-we-will-be-like-frogs-in-a-slowly-boiling-pot/
+  date: '2025-11-08'
+  source: Forbes
+- title: Kim Kardashian’s ‘All’s Fair’ Rotten Tomatoes Score Goes From 0% To 5%
+  description: One Rotten Tomatoes critic helps prevent Kim Kardashian’s new legal
+    drama “All’s Fair” from being completely “rotten” on the review aggregation site.
+  url: https://www.forbes.com/sites/timlammers/2025/11/07/kim-kardashians-alls-fair-rotten-tomatoes-score-goes-from-0-to-5/
+  date: '2025-11-08'
+  source: Forbes
+- title: Too early to bet against AI trade, State Street suggests
+  description: State Street' Anna Paglia is reiterating her bullish stance on artificial
+    intelligence stocks despite the Nasdaq’s worst week since April.
+  url: https://www.cnbc.com/2025/11/08/ai-big-tech-bull-case-despite-nasdaqs-worst-week-since-april-.html
+  date: '2025-11-08'
+  source: CNBC
+- title: People with ADHD, autism, dyslexia say AI agents are helping them succeed
+    at work
+  description: Neurodiverse professionals see benefits from AI tools, giving people
+    with conditions like ADHD, autism, and dyslexia a more level playing field in
+    job market.
+  url: https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html
+  date: '2025-11-08'
+  source: CNBC
+- title: Underwater cables are a vital piece of the AI buildout and internet — investment
+    is booming
+  description: Over 95% of international data and voice traffic travels through subsea
+    telecom cables. Tech giants Meta, Google, Amazon and Microsoft are investing for
+    AI.
+  url: https://www.cnbc.com/2025/11/08/big-tech-ai-underwater-cables.html
+  date: '2025-11-08'
+  source: CNBC
+- title: 4 things worrying investors as U.S. stocks see worst start to a month since
+    April
+  description: The U.S. stock market is off to its worst start to a month since April
+    as investors grapple with the longest U.S. government shutdown in history, among
+    other...
+  url: https://www.marketwatch.com/story/4-things-worrying-investors-as-u-s-stocks-see-worst-start-to-a-month-since-april-8b0ca874
+  date: '2025-11-08'
+  source: MarketWatch
+- title: You’ve just been laid off because of AI — here’s what to do next
+  description: '"AI literacy is likely to become a baseline requirement for jobs in
+    the future," Glassdoor''s Chief Economist Daniel Zhao told CNBC Make It.'
+  url: https://www.cnbc.com/2025/11/08/youve-just-been-laid-off-because-of-ai-heres-what-to-do-next-.html
+  date: '2025-11-08'
+  source: CNBC
+- title: Who is Xania Monet? What we know about the AI music artist.
+  description: The creator of Xania Monet, an AI R&B artist, revealed her identity
+    in recent interview with Gayle King.
+  url: https://www.usatoday.com/story/entertainment/music/2025/11/07/who-is-xania-monet-what-we-know-about-the-ai-music-artist/87149296007/
+  date: '2025-11-07'
+  source: USA Today
+- title: Tesla plans to pay Musk $1tn - do they really need him that much?
+  description: Shareholders have approved a pay package that puts an astronomical
+    value on Elon Musk's value as a leader.
+  url: https://www.bbc.com/news/articles/c5yp8w5k5q9o
+  date: '2025-11-07'
+  source: BBC News
+- title: OpenAI's new web browser has ChatGPT baked in. That's raising some privacy
+    questions
+  description: The Atlas browser can act as your "agent" online, doing tasks like
+    shopping or booking tickets. But that gives it access to a lot of personal information.
+  url: https://www.npr.org/2025/11/07/nx-s1-5597010/openai-atlas-browser-chatgpt-data-privacy
+  date: '2025-11-07'
+  source: NPR
+- title: OpenAI's new web browser has ChatGPT baked in. That's raising some privacy
+    questions
+  description: The Atlas browser can act as your "agent" online, doing tasks like
+    shopping or booking tickets. But that gives it access to a lot of personal information.
+  url: https://www.npr.org/2025/11/07/nx-s1-5597010/openais-new-web-browser-has-chatgpt-baked-in-thats-raising-some-privacy-questions
+  date: '2025-11-07'
+  source: NPR
+- title: AI stocks head for more than $1 trillion in losses this week
+  description: Stocks were set to post their first weekly losses in weeks as concerns
+    about the valuations of artificial intelligence companies prompt investors to
+    pull back.
+  url: https://www.nbcnews.com/business/markets/stock-market-update-ai-losses-rcna242592
+  date: '2025-11-07'
+  source: NBC News
+- title: Pelosi exit opens way for tough fight to replace her...
+  description: Former House Speaker Nancy Pelosi’s decision to step aside after nearly
+    four decades in Congress kicks off a wide-open contest to replace her at a time
+    when her home city of San Francisco is roiled in debate about what its future
+    should look like. Pe
+  url: https://apnews.com/article/nancy-pelosi-speaker-house-san-francisco-democrats-764539037004766909a454c327ba831d
+  date: '2025-11-07'
+  source: Associated Press
+- title: '''No hire'' job market leaves unemployed in limbo as threats to economy
+    multiply...'
+  description: The unemployment rate is low and the economy is still growing, but
+    those out of work face the slowest pace of hiring in more than a decade. While
+    big corporate layoff announcements typically grab the most attention, it has been
+    the unwillingness of m
+  url: https://apnews.com/article/jobs-hiring-economy-c48fd84dfaa71eee962feb3a88fd8575
+  date: '2025-11-07'
+  source: Associated Press
+- title: Rightmove shares plummet over AI investment plans
+  description: Shares in the property website sink after it cuts profit forecasts
+    to step up investment in AI.
+  url: https://www.bbc.com/news/articles/cly97lj0nddo
+  date: '2025-11-07'
+  source: BBC News
+- title: Why human-shaped robots loom large in Musk's Tesla plans
+  description: The tech billionaire believes Optimus could play a big role in the
+    lives of people around the world.
+  url: https://www.bbc.com/news/articles/cdrz2rdlykdo
+  date: '2025-11-07'
+  source: BBC News
+- title: Why OpenAI went into crisis PR mode Thursday | CNN Business
+  description: OpenAI, the world’s leader and ChatGPT parent company, went into panic
+    mode on Thursday over what it said was a very public misstatement.
+  url: https://www.cnn.com/2025/11/06/tech/openai-backtracks-government-support-chip-investments
+  date: '2025-11-07'
+  source: CNN
+- title: The bright colors in your food may be harming your kids
+  description: Almost 20% of packaged foods and beverages in the US contain synthetic
+    dyes, often paired with excessive sugar to attract children. These additives have
+    been linked to behavioral issues, yet remain widespread among major brands like
+    Mars and PepsiCo.
+  url: https://www.sciencedaily.com/releases/2025/11/251107010245.htm
+  date: '2025-11-07'
+  source: Science Daily
+- title: Where Is Litigation Over AI Headed?
+  description: In emerging AI-related litigation, one of the most common claims so
+    far concerns alleged over-stating or misrepresenting a company’s AI capabilities
+    to its investors. According to Stanford’s Class Action Clearinghouse, there have
+    been more than 50 cl
+  url: https://clsbluesky.law.columbia.edu/2025/11/07/where-is-litigation-over-ai-headed/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: Degradable cyclic amino alcohol ionizable lipids as vectors for potent influenza
+    mRNA vaccines
+  description: This work presents a degradable ionizable lipid, AMG1541, for mRNA
+    vaccines that significantly enhances potency and enables similar protective immunity
+    at doses 100-fold lower than current standards, while also reducing toxicity and
+    improving clearan
+  url: https://www.nature.com/articles/s41565-025-02044-6
+  date: '2025-11-07'
+  source: Nature.com
+- title: TUSC3 regulates ERMA-mediated Mg2+ uptake for synaptic function and neurodevelopment
+  description: 'This study shows that TUSC3 is essential for magnesium balance in
+    the brain. Loss of TUSC3 disrupts neuron function and leads to intellectual disability
+    in a mouse model, but magnesium supplementation restores brain function, pointing
+    to a potential '
+  url: https://www.nature.com/articles/s41467-025-65668-1
+  date: '2025-11-07'
+  source: Nature.com
+- title: Multifunctionally diverse alkaline phosphatases of Alteromonas drive the
+    phosphorus cycle in the ocean
+  description: This study shows that Alteromonas is a key driver of phosphorus recycling
+    in the ocean and that its alkaline phosphatases are multifunctional—with different
+    families coexisting in one genome by adopting distinct functions and secretion
+    strategies.
+  url: https://www.nature.com/articles/s41467-025-64455-2
+  date: '2025-11-07'
+  source: Nature.com
+- title: Outside the window
+  description: A life well lived.
+  url: https://www.nature.com/articles/d41586-025-03600-9
+  date: '2025-11-07'
+  source: Nature.com
+- title: Electrochemical deutero-(di)carboxylations for the preparation of deuterium-labeled
+    medicinal building blocks
+  description: The metal cations released from sacrificial anodes during reductive
+    electrosynthetic reactions are widely believed to not affect reaction outcomes.
+    Here, the authors disclose an electrochemical deutero-(di)carboxylation that relies
+    on anodically gene
+  url: https://www.nature.com/articles/s41467-025-64818-9
+  date: '2025-11-07'
+  source: Nature.com
+- title: Stylistic language drives perceived moral superiority of LLMs
+  description: Scientific Reports - Stylistic language drives perceived moral superiority
+    of LLMs
+  url: https://www.nature.com/articles/s41598-025-25046-9
+  date: '2025-11-07'
+  source: Nature.com
+- title: Room-temperature spin-layer locking of exciton–polariton nonlinearities in
+    a WS2 microcavity
+  description: A room-temperature double-layer WS2 microcavity is used to explore
+    spin anisotropy and tune it with interlayer spacing.
+  url: https://www.nature.com/articles/s41566-025-01786-y
+  date: '2025-11-07'
+  source: Nature.com
+- title: 'Preprint site arXiv is banning computer-science reviews: here’s why'
+  description: The repository is taking steps to tackle a surge in low quality, AI-generated
+    content.
+  url: https://www.nature.com/articles/d41586-025-03664-7
+  date: '2025-11-07'
+  source: Nature.com
+- title: Cornell University to pay $60M in deal with Trump administration to restore
+    federal funding
+  description: The six-page agreement is similar to one signed by the University of
+    Virginia last month. It’s shorter and less prescriptive than others signed by
+    Columbia University and Brown University.
+  url: https://fortune.com/2025/11/07/cornell-university-to-pay-60m-in-deal-with-trump-administration-to-restore-federal-funding/
+  date: '2025-11-07'
+  source: Fortune
+- title: Expedia Stock Surges 18% After Blowout Third Quarter Earnings Call
+  description: Expedia shares rallied as the travel firm beat earnings expectations,
+    signaling strong travel demand heading into the fourth quarter of 2025, despite
+    economists warning of a divided economy.
+  url: https://www.forbes.com/sites/martinacastellanos/2025/11/07/expedia-stock-surges-18-after-blowout-third-quarter-earnings-call/
+  date: '2025-11-07'
+  source: Forbes
+- title: Consumer sentiment has plunged nearly 30% from just a year ago
+  description: Economists were caught off guard. Those polled had expected a slight
+    month-to-month increase for a reading of 54.2.
+  url: https://fortune.com/2025/11/07/consumer-sentiment-university-of-michigan-near-record-low/
+  date: '2025-11-07'
+  source: Fortune
+- title: Law Firms Like DLA Piper Are Embracing AI To Help Clients Navigate Compliance
+  description: The regulatory and compliance space for the new AI ecosystem is rapidly
+    expanding.
+  url: https://www.forbes.com/sites/saibala/2025/11/07/law-firms-like-dla-piper-are-embracing-ai-to-help-clients-navigate-compliance/
+  date: '2025-11-07'
+  source: Forbes
+- title: Polymarket volume inflated by ‘artificial’ activity, study finds
+  description: The volume of activity on one of the most popular prediction markets
+    has been inflated by "wash trading," according to Columbia University researchers.
+  url: https://fortune.com/2025/11/07/polymarket-wash-trading-inflated-prediction-markets-columbia-research/
+  date: '2025-11-07'
+  source: Fortune
+- title: Nasdaq 100 set for worst week since April meltdown
+  description: A risk-off week on Wall Street is drawing to a close, with some of
+    the most-expensive areas of the market driving stocks lower.
+  url: https://fortune.com/2025/11/07/nasdaq-100-worst-week-since-april-bear-market-correction/
+  date: '2025-11-07'
+  source: Fortune
+- title: Inside the compounds of Asia’s $10 billion scam industry, where trafficked
+    staff sleep at work and log 16-hour days texting ‘hello’ over and over
+  description: Workers get their passports taken away, and if they don’t perform are
+    beaten or face other physical punishments.
+  url: https://fortune.com/2025/11/07/10-billion-scam-industry-cybercrime-myanmar-compounds/
+  date: '2025-11-07'
+  source: Fortune
+- title: Meet a 32-year-old who quit her job a year ago and is still looking after
+    700 applications and counting in the ‘low-hire, low-fire’ job market
+  description: Carly Kaprive had never been unemployed for longer than three months
+    before she met with the 2025 market.
+  url: https://fortune.com/2025/11/07/why-cant-i-find-a-job-low-hire-fire-labor-market/
+  date: '2025-11-07'
+  source: Fortune
+- title: Wall Street heads for losing week as stocks open lower
+  description: Stocks are on track for their first weekly loss in the last four.
+  url: https://fortune.com/2025/11/07/stocks-markets-falling-wall-street-heads-for-losing-week/
+  date: '2025-11-07'
+  source: Fortune
+- title: EU considers weakening landmark AI Act amid pressure from Trump and U.S.
+    tech giants, news report says
+  description: The European Commission is considering softening parts of its flagship
+    AI Act amid industry complaints that strict rules could stifle innovation and
+    hurt competitiveness.
+  url: https://fortune.com/2025/11/07/eu-ai-act-weaken-regulation-delay-big-tech-trump-government/
+  date: '2025-11-07'
+  source: Fortune
+- title: What’s in Elon Musk’s bumper $878bn pay package?
+  description: Musk will have to meet a series of milestones over the next decade
+    to earn it.
+  url: https://www.aljazeera.com/economy/2025/11/7/whats-in-elon-musks-bumper-878bn-pay-package
+  date: '2025-11-07'
+  source: Al Jazeera English
+- title: What pop culture got wrong about Frankenstein
+  description: 'Unlike the iconic monster we have come to know through various movies,
+    Guillermo del Toro''s "Frankenstein" is more faithful to Mary Shelley''s original
+    vision. For more than two centuries, Mary Shelley''s "Frankenstein" has been the
+    monster that won''t '
+  url: https://www.dw.com/en/what-pop-culture-got-wrong-about-frankenstein/a-74653161
+  date: '2025-11-07'
+  source: DW (English)
+- title: Malwai's hunger crisis demands urgent solutions
+  description: Malawi is facing one of its worst hunger crises, with millions affected.
+    Both the president and experts say the country must invest in resilient food systems
+    rather than rely on aid to break the cycle.
+  url: https://www.dw.com/en/malwais-hunger-crisis-demands-urgent-solutions/a-74544489
+  date: '2025-11-07'
+  source: DW (English)
+- title: Malawi's hunger crisis demands urgent solutions
+  description: Malawi is facing one of its worst hunger crises, affecting millions.
+    The president and outside experts say the country must invest in resilient food
+    systems rather than rely on aid to break the cycle. About 4 million people in
+    Malawi are facing acute
+  url: https://www.dw.com/en/malawis-hunger-crisis-demands-urgent-solutions/a-74544489
+  date: '2025-11-07'
+  source: DW (English)
+- title: 'Big Tech''s AI spending spree: Smart long-term bet or short-term risk?'
+  description: CNBC's Paulina Likos and Zev Fima break down big tech's massive artificial
+    intelligence spending spree
+  url: https://www.cnbc.com/2025/11/07/big-techs-ai-spending-spree-smart-long-term-bet-or-short-term-risk.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Trump budget cuts, agency gutting, leave Americans and economy at greater
+    risk of being hacked, experts warn
+  description: President Trump's government agency gutting and budget cuts leave the
+    U.S. economy at greater risk of cyberattacks than a year ago, according to experts.
+  url: https://www.cnbc.com/2025/11/07/trump-government-budget-cuts-cybersecurity-hacking-risks.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Musk's $1 trillion pay, a price cut for obesity drugs, Target's in-store
+    woes and more in Morning Squawk
+  description: Here are five key things investors need to know to start the trading
+    day.
+  url: https://www.cnbc.com/2025/11/07/5-things-to-know-before-the-stock-market-opens-friday.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Google's decade-long bet on custom chips is turning into company's secret
+    weapon in AI race
+  description: Google's cloud business is a primary engine of growth, and the company's
+    custom-built chips called Tensor Processing Units are helping drive it.
+  url: https://www.cnbc.com/2025/11/07/googles-decade-long-bet-on-tpus-companys-secret-weapon-in-ai-race.html
+  date: '2025-11-07'
+  source: CNBC
+- title: UK's Rightmove stock tumbles over 28% as AI investments expected to weigh
+    on 2026 profit
+  description: In a trading update on Friday, Rightmove lowered operational profit
+    expectations for 2026.
+  url: https://www.cnbc.com/2025/11/07/rightmove-shares-plummet-as-ai-investments-to-hit-2026-profit-.html
+  date: '2025-11-07'
+  source: CNBC
+- title: 'CNBC Daily Open: It''s a bad time to be a tech investor — or employee'
+  description: For most tech workers and investors, Thursday was another reminder
+    of volatility's sting. For Elon Musk, it was another day on the road to the stratosphere.
+  url: https://www.cnbc.com/2025/11/07/cnbc-daily-open-its-a-bad-time-to-be-a-tech-investor-or-employee.html
+  date: '2025-11-07'
+  source: CNBC
+- title: 'Southeast Asia''s largest bank CEO warns investors: ''Buckle up, we''re
+    in for a volatile ride'''
+  description: DBS CEO Tan Su Shan cautioned investors about persistent market swings
+    amid stretched U.S. valuations and concentrated AI stock exposure.
+  url: https://www.cnbc.com/2025/11/07/dbs-ceo-tan-su-shan-warns-buckle-up-were-in-for-a-volatile-ride.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Elon Musk says Tesla needs to build 'gigantic chip fab' to meet AI and robotics
+    needs
+  description: Tesla CEO Elon Musk he needs a "gigantic" semiconductor fabrication
+    plant to meet the company's chip needs as it expands its AI and robotics ventures.
+  url: https://www.cnbc.com/2025/11/07/elon-musk-says-tesla-needs-gigantic-chip-fab-terra-for-ai-and-robotics-tsmc-intel.html
+  date: '2025-11-07'
+  source: CNBC
+- title: 'CNBC Daily Open: Tech had a rough day in the markets — its employees had
+    a worse October'
+  description: For most tech workers and investors, Thursday was another reminder
+    of volatility's sting. For Elon Musk, it was another day on the road to the stratosphere.
+  url: https://www.cnbc.com/2025/11/07/cnbc-daily-open-tech-had-a-rough-day-its-employees-had-a-worse-october.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Asia-Pacific markets set to open lower, tracking Wall Street losses as AI
+    stocks resume slump
+  description: Investors in Asia will look to trade data coming out of China later
+    in the day.
+  url: https://www.cnbc.com/2025/11/07/asia-pacific-markets-friday-ai-stocks-valuation-china-october-trade-data.html
+  date: '2025-11-07'
+  source: CNBC
+- title: ChatGPT encouraged college graduate to commit suicide, family claims in lawsuit
+    against OpenAI | CNN
+  description: A 23-year-old man killed himself in Texas after ChatGPT ‘goaded’ him
+    to commit suicide, his family says in a lawsuit.
+  url: https://www.cnn.com/2025/11/06/us/openai-chatgpt-suicide-lawsuit-invs-vis
+  date: '2025-11-06'
+  source: CNN
+- title: OpenAI's Sam Altman backtracks on CFO's government 'backstop' talk
+  description: OpenAI CEO Sam Altman says the company has no plans to seek a government
+    backstop for its $1 trillion worth of data center investments, further walking
+    back comments made by the company’s chief financial officer this week that some
+    interpreted as ind
+  url: https://www.nbcnews.com/business/business-news/openais-sam-altman-backtracks-cfos-government-backstop-talk-rcna242447
+  date: '2025-11-06'
+  source: NBC News
+- title: Tesla shareholders approve $1 trillion pay package for Elon Musk
+  description: The results of the vote approving Elon Musk's trillion-dollar pay package
+    were announced during Tesla's annual shareholder meeting.
+  url: https://www.nbcnews.com/tech/elon-musk/tesla-elon-musk-shareholder-meeting-1-trillion-dollar-pay-package-rcna242223
+  date: '2025-11-06'
+  source: NBC News
+- title: I wanted ChatGPT to help me. So why did it advise me how to kill myself?
+  description: ChatGPT wrote a woman a suicide note and another AI chatbot role-played
+    sexual acts with children, BBC finds.
+  url: https://www.bbc.com/news/articles/cp3x71pv1qno
+  date: '2025-11-06'
+  source: BBC News
+- title: National Retail Federation predicts first $1 trillion holiday shopping season
+  description: American shoppers are expected to spend more during this holiday shopping
+    season than last year despite economic uncertainty and rising prices. The 2025
+    forecast from the National Retail Federation on Thursday estimates that shoppers
+    will collectivel
+  url: https://apnews.com/article/national-retail-federation-holiday-forecast-tariffs-inflation-de5b851a009fed78b446676c1d944853
+  date: '2025-11-06'
+  source: Associated Press
+- title: Zuckerberg, Chan shift bulk of philanthropy to science
+  description: For the past decade, Dr. Priscilla Chan and her husband Mark Zuckerberg
+    have focused part of their philanthropy on a lofty goal — “to cure, prevent or
+    manage all disease” — if not in their lifetime, then in their children’s. Now,
+    the billionaire coup
+  url: https://apnews.com/article/chan-zuckerberg-philanthropy-biohub-evolutionaryscale-87c24eb349abcce8abec132b8538d7b0
+  date: '2025-11-06'
+  source: Associated Press
+- title: AI steps in to detect the world's deadliest infectious disease
+  description: There's a global shortage of radiologists. Now artificial intelligence
+    is helping speed up the diagnosis of tuberculosis in hard-to-reach communities.
+  url: https://www.npr.org/sections/goats-and-soda/2025/11/06/g-s1-96448/ai-artificial-intelligence-tb-tuberculosis
+  date: '2025-11-06'
+  source: NPR
+- title: Why the blue wave? It is, of course, the economy, stupid | CNN Business
+  description: 'It’s the circle of political life: Now, as in 1992 when Bill Clinton
+    was trying to unseat George H.W. Bush, what ails the electorate can be boiled
+    down to a soundbite: It is, in fact, the economy, stupid.'
+  url: https://www.cnn.com/2025/11/06/business/democrats-trump-economy-affordability-nightcap
+  date: '2025-11-06'
+  source: CNN
+- title: Is your electric bill going up? AI is partly to blame
+  description: Across the country, demand for electricity is on the rise — and so
+    is the price of electric power.
+  url: https://www.npr.org/2025/11/06/nx-s1-5597971/electricity-bills-utilities-ai
+  date: '2025-11-06'
+  source: NPR
+- title: Australian teen charged over allegedly sticking googly eyes on 'Blue Blob'
+    artwork
+  description: A local council said the repairs to the bright blue sculpture would
+    be 'significant'.
+  url: https://www.bbc.com/news/articles/c1wl5jp94eno
+  date: '2025-11-06'
+  source: BBC News
+- title: '''Vibe coding'' named word of the year by Collins Dictionary'
+  description: The art of making an app by describing it to artificial intelligence
+    (AI) tops 10 new terms on the shortlist.
+  url: https://www.bbc.com/news/articles/cpd2y053nleo
+  date: '2025-11-06'
+  source: BBC News
+- title: From gas to groceries, has Trump kept his promise to tackle rising prices?
+  description: President Trump promised to bring down inflation. One year on from
+    his victory, BBC Verify revisits some of his claims.
+  url: https://www.bbc.com/news/articles/ckgkl25734go
+  date: '2025-11-06'
+  source: BBC News
+- title: Will quantum be bigger than AI?
+  description: The highly-complex technology is increasingly being tipped to transform
+    computing.
+  url: https://www.bbc.com/news/articles/c04gvx7egw5o
+  date: '2025-11-06'
+  source: BBC News
+- title: CITP Is Now Accepting Applications for the 2026–27 Fellows Program
+  description: Applications are now open for Princeton University’s Center for Information
+    Technology Policy (CITP) 2026-27 Fellows Program. Candidates are encouraged to
+    apply by the start-of-review date of December 1, 2025. The applications are open
+    now (links are
+  url: https://blog.citp.princeton.edu/2025/11/06/citp-is-now-accepting-applications-for-the-2026-27-fellows-program/
+  date: '2025-11-06'
+  source: Princeton University
+- title: Motor protein 'hook' reveals how neurons deliver cargo with precision
+  description: For decades, scientists have known that motor proteins like kinesin-2
+    ferry vital cargo along microtubule "highways" inside cells. But how these molecular
+    vehicles identify and bind to the right cargo remained a mystery. Now, a new study
+    provides a k
+  url: https://phys.org/news/2025-11-motor-protein-reveals-neurons-cargo.html
+  date: '2025-11-06'
+  source: Phys.Org
+- title: An Opera Explores the Story of Rosalind Franklin and the Discovery of DNA
+  description: 'Betrayal, ambition and the double helix: turning Rosalind Franklin’s
+    story and the discovery of the structure of DNA into an opera'
+  url: https://www.scientificamerican.com/article/an-opera-explores-the-story-of-rosalind-franklin-and-the-discovery-of-dna/
+  date: '2025-11-06'
+  source: Scientific American
+- title: Alarm Grows over Proposed Giant Mirrors in Orbit and Other Commercial Space
+    Plans
+  description: Reflect Orbital’s plan to deliver “sunlight on demand” using thousands
+    of giant orbital mirrors is just the latest in a growing list of disruptive commercial
+    activities in space
+  url: https://www.scientificamerican.com/article/alarm-grows-over-proposed-giant-mirrors-in-orbit-and-other-commercial-space/
+  date: '2025-11-06'
+  source: Scientific American
+- title: Who is setting fire to the Amazon?
+  description: '"Red John" is an old acquaintance of landowners and ranchers in the
+    Brazilian Amazon.'
+  url: https://phys.org/news/2025-11-amazon.html
+  date: '2025-11-06'
+  source: Phys.Org
+- title: A genetic switch lets plants accept nitrogen-fixing bacteria
+  description: Researchers are one step closer to understanding how some plants survive
+    without nitrogen. Their work could eventually reduce the need for artificial fertilizer
+    in crops such as wheat, maize, or rice.
+  url: https://phys.org/news/2025-11-genetic-nitrogen-bacteria.html
+  date: '2025-11-06'
+  source: Phys.Org
+- title: Drugmakers share data to feed voracious foundation models
+  description: Big pharma shares its machine learning models with biotechs, but awaits
+    definitive data on success of artificial intelligence-generated drugs.
+  url: https://www.nature.com/articles/s41587-025-02901-8
+  date: '2025-11-06'
+  source: Nature.com
+- title: Site-specific DNA insertion into the human genome with engineered recombinases
+  description: Engineered DNA recombinases efficiently and specifically insert genetic
+    cargos without the use of landing pads.
+  url: https://www.nature.com/articles/s41587-025-02895-3
+  date: '2025-11-06'
+  source: Nature.com
+- title: CRISPR live-cell imaging reveals chromatin dynamics and enhancer interactions
+    at multiple non-repetitive loci
+  description: Multiplexed DNA imaging uncovers promoter−enhancer interaction dynamics
+    and effects of epigenetic modifications.
+  url: https://www.nature.com/articles/s41587-025-02887-3
+  date: '2025-11-06'
+  source: Nature.com
+- title: 'Daily briefing: ‘Mind captioning’ AI describes the images in your head'
+  description: AI model can translate scenes in your head into sentences. Plus, iguanas
+    were wrongly accused of invading a Mexican island and the ‘shadow scholars’ paid
+    to write for others.
+  url: https://www.nature.com/articles/d41586-025-03671-8
+  date: '2025-11-06'
+  source: Nature.com
+- title: Javier Tebas Bets On Agentic AI To Improve La Liga Fan Experience
+  description: La Liga and Globant have announced a partnership to use Agentic AI
+    to power Spanish soccer. AI will now be used to improve broadcasts and streamline
+    league work flows.
+  url: https://www.forbes.com/sites/vitascarosella/2025/11/06/javier-tebas-bets-on-agentic-ai-to-improve-la-liga-fan-experience/
+  date: '2025-11-06'
+  source: Forbes
+- title: Tesla shareholders approve $878bn pay plan for Elon Musk
+  description: Shareholders approved the pay package with as much as 75 percent support
+    on Thursday.
+  url: https://www.aljazeera.com/economy/2025/11/6/tesla-shareholders-approve-878bn-pay-plan-for-elon-musk
+  date: '2025-11-06'
+  source: Al Jazeera English
+- title: Laude Institute announces first batch of 'Slingshots' AI grants | TechCrunch
+  description: Slingshots AI grants provide resources that would be unavailable in
+    most academic settings. Its debut program has 15 startups focused on AI evaluation.
+  url: https://techcrunch.com/2025/11/06/laude-institute-announces-first-batch-of-slingshots-ai-grants/
+  date: '2025-11-06'
+  source: TechCrunch
+- title: The algorithm failed music
+  description: This is The Stepback, a weekly newsletter breaking down one essential
+    story from the tech world. For more on how to break free of the algorithm and
+    discover things you love, follow Terrence O'Brien. The Stepback arrives in our
+    subscribers' inboxes at
+  url: https://www.theverge.com/column/815744/music-recommendation-algorithms
+  date: '2025-11-06'
+  source: The Verge
+- title: Nvidia falls as much as 4.2% amid lurch downward as traders digest earnings
+  description: The S&P 500 dropped 1.1%. The Dow Jones Industrial Average fell 421
+    points, or 0.9%, as of 12:34 p.m. Eastern time. The Nasdaq composite fell 1.8%.
+  url: https://fortune.com/2025/11/06/stocks-fall-earnings-nvidia-tech-stocks-selloff/
+  date: '2025-11-06'
+  source: Fortune
+- title: Mark Zuckerberg, Priscilla Chan shift philanthropy focus to how AI can accelerate
+    science
+  description: Chan and Zuckerberg have pledged 99% of their lifetime wealth — from
+    shares of Meta Platforms, where Zuckerberg is CEO — toward these efforts.
+  url: https://fortune.com/2025/11/06/mark-zuckerberg-priscilla-chan-billionaire-philanthropy/
+  date: '2025-11-06'
+  source: Fortune
+- title: Is the AI boom losing steam as investors grow wary of returns?
+  description: 'Billions have poured into AI, helping stock valuations soar, but the
+    cracks are starting to show. Slowing adoption, surging costs and elusive profits
+    are fueling warnings that the boom may be headed for a hard reset. The artificial
+    intelligence (AI) '
+  url: https://www.dw.com/en/will-the-ai-bubble-burst-as-investors-grow-wary-of-returns/a-74636881
+  date: '2025-11-06'
+  source: DW (English)
+- title: NRF sees first $1 trillion holiday shopping season in American history
+  description: “We're seeing really positive behavior and engagement from consumers,
+    ” National Retail Federation President and CEO Matthew Shay told reporters.
+  url: https://fortune.com/2025/11/06/christmas-season-holiday-shopping-forecast-1-trillion-nrf/
+  date: '2025-11-06'
+  source: Fortune
+- title: 'Scott Galloway says big government is actually a good thing—and he’s a product
+    of it: ‘Taking bets on unremarkable people pays off’'
+  description: Galloway credits UCLA for his success, despite an initial rejection.
+    "California taxpayers and the regents of the University of California saved my
+    ass."
+  url: https://fortune.com/2025/11/06/scott-galloway-big-government-is-good-taking-bets-on-unremarkable-people-pays-off/
+  date: '2025-11-06'
+  source: Fortune
+- title: For Gen Z, it’s ‘not enough to work hard’ if you want to succeed, says Jamie
+    Dimon—specific skills are the way to get ahead
+  description: '"In the old days, you could be in 10th grade, go get a factory in
+    Detroit, and eventually you could afford a family, a home, a car, and that may
+    not be true anymore," Dimon said.'
+  url: https://fortune.com/2025/11/06/gen-z-success-work-hard-skills-demand-ai/
+  date: '2025-11-06'
+  source: Fortune
+- title: 'Trump admits the GOP was blindsided by economy fears as Democrats sweep
+    key races: ‘Republicans don’t talk about the word affordability’'
+  description: '"We have the greatest economy right now. A lot of people don’t see
+    that," Trump said.'
+  url: https://fortune.com/2025/11/06/trump-admits-republicans-not-talking-affordability-gop-crushed-elections/
+  date: '2025-11-06'
+  source: Fortune
+- title: Best Home Depot Black Friday Deals
+  description: Black Friday lasts a month this year at The Home Depot, including half
+    off select tools and tool sets.
+  url: https://www.wired.com/story/black-friday-home-depot-deals-2025/
+  date: '2025-11-06'
+  source: Wired
+- title: What to Do in St. Paul and Minneapolis If You’re Here for Business (2025)
+  description: Work, eat, and play like a local with this business traveler’s guide.
+    Discover the Twin Cities best hotels, coworking spaces, and hidden gems worth
+    your time.
+  url: https://www.wired.com/story/the-wired-guide-to-the-twin-cities-for-business-travelers/
+  date: '2025-11-06'
+  source: Wired
+- title: Microsoft, freed from relying on OpenAI, joins the race for ‘superintelligence’—and
+    AI chief Mustafa Suleyman wants to ensure it serves humanity
+  description: Microsoft follows Meta in rebranding its advanced AI efforts as "superintelligence."
+    But Suleyman says Microsoft's "humanist" approach means it will try to ensure
+    superpowerful AI "doesn't harm us"
+  url: https://fortune.com/2025/11/06/microsoft-launches-new-ai-humanist-superinteligence-team-mustafa-suleyman-openai/
+  date: '2025-11-06'
+  source: Fortune
+- title: Artificial Intelligence Hits The Grid As Utilities Race To Keep Up
+  description: Utilities like National Grid, Duke Energy, and AES are investing in
+    AI to modernize grids, improve reliability, and prepare for electrification growth.
+  url: https://www.forbes.com/sites/kensilverstein/2025/11/06/artificial-intelligence-hits-the-grid-as-utilities-race-to-keep-up/
+  date: '2025-11-06'
+  source: Forbes
+- title: Google Maps, now brought to you with an AI conversational companion
+  description: The AI features are also supposed to enable Google Maps to be more
+    precise by calling out landmarks instead of relying on distance notifications.
+  url: https://fortune.com/2025/11/06/google-maps-gemini-conversational-companion-ai/
+  date: '2025-11-06'
+  source: Fortune
+- title: Meta hit with cease-and-desist letter over use of ‘PG-13 ratings’ for Instagram
+    content
+  description: The Motion Picture Association said it's "false and misleading" to
+    say Meta's Teen Account content settings are “generally aligned with movie ratings."
+  url: https://fortune.com/2025/11/06/meta-pg-13-cease-desist-letter-instagram-motion-picture-association/
+  date: '2025-11-06'
+  source: Fortune
+- title: How Agentic AI Is Challenging The Boundaries Of Life And Innovation
+  description: Agentic artificial intelligence is evolving from an advanced tool to
+    something that resembles a living system, capable of reasoning, planning and learning
+    across disciplines.
+  url: https://www.forbes.com/sites/williamhaseltine/2025/11/06/how-agentic-ai-is-challenging-the-boundaries-of-life-and-innovation/
+  date: '2025-11-06'
+  source: Forbes
+- title: More Than 1 Million Jobs Have Been Cut This Year, Report Says
+  description: A new report largely blames "disruptive technology” and cuts to government
+    spending for a high number of job losses this year.
+  url: https://www.forbes.com/sites/maryroeloffs/2025/11/06/more-than-1-million-jobs-have-been-cut-this-year-report-says/
+  date: '2025-11-06'
+  source: Forbes
+- title: Scam Ads Are Flooding Social Media. These Former Meta Staffers Have a Plan
+  description: Rob Leathern and Rob Goldman, who both worked at Meta, are launching
+    a new nonprofit that aims to bring transparency to an increasingly opaque, scam-filled
+    social media ecosystem.
+  url: https://www.wired.com/story/scam-ads-are-flooding-social-media-these-former-meta-staffers-have-a-plan/
+  date: '2025-11-06'
+  source: Wired
+- title: Snap Shares Surge 16% In Premarket After Perplexity AI Deal And Stock Buyback
+    Announcements
+  description: Snap announced Perplexity’s AI search engine will be directly integrated
+    into Snapchat’s app starting in 2026.
+  url: https://www.forbes.com/sites/siladityaray/2025/11/06/snap-shares-surge-16-in-premarket-after-perplexity-ai-deal-and-stock-buyback-announcements/
+  date: '2025-11-06'
+  source: Forbes
+- title: Ongoing government shutdown and AI fears are putting the market under pressure,
+    Jim Cramer says
+  description: CNBC's Jim Cramer unpacked Thursday's market decline.
+  url: https://www.cnbc.com/2025/11/06/jim-cramer-shutdown-ai-fears-market-pressure.html
+  date: '2025-11-06'
+  source: CNBC
+- title: China's key weapons in its AI battle with the U.S. — massive Huawei chip
+    clusters and cheap energy
+  description: China's strategy for competing with the U.S. on AI revolves around
+    huge clusters of Huawei chips and cheap energy.
+  url: https://www.cnbc.com/2025/11/07/chinas-strategy-in-ai-race-with-us-big-chip-clusters-cheap-energy.html
+  date: '2025-11-06'
+  source: CNBC
+- title: 'Stock market today: Live updates'
+  description: Key artificial intelligence leaders lost steam on Thursday, weighing
+    on the broader market.
+  url: https://www.cnbc.com/2025/11/06/stock-market-today-live-updates.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Is A.I. Amazing or Are We Simple?
+  description: 'From the daily newsletter: the case that A.I. is thinking.'
+  url: https://www.newyorker.com/newsletter/the-daily/is-ai-amazing-or-are-we-simple
+  date: '2025-11-06'
+  source: The New Yorker
+- title: Sam Altman says OpenAI will top $20 billion in annualized revenue this year,
+    hundreds of billions by 2030
+  description: OpenAI has inked more than $1.4 trillion of infrastructure deals, raising
+    questions about how it will pay for those commitments.
+  url: https://www.cnbc.com/2025/11/06/sam-altman-says-openai-will-top-20-billion-annual-revenue-this-year.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Retailers' holiday hiring to hit lowest level since the Great Recession,
+    says major industry trade group
+  description: The major industry group's prediction offers the latest glimpse into
+    the jobs market as the record government shutdown stretches on.
+  url: https://www.cnbc.com/2025/11/06/retail-holiday-hiring-to-hit-lowest-level-in-15-years-nrf.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Meta reportedly projected 10% of 2024 sales came from scam, fraud ads
+  description: Meta projected that about $16 billion in 2024 revenue came from running
+    ads for scams and banned goods, according to a Thursday report from Reuters.
+  url: https://www.cnbc.com/2025/11/06/meta-reportedly-projected-10percent-of-2024-sales-came-from-scam-fraud-ads.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Trump AI czar Sacks says 'no federal bailout for AI' after OpenAI CFO's comments
+  description: Sacks' comments came after OpenAI CFO Sarah Friar mentioned a federal
+    "backstop" during a conference.
+  url: https://www.cnbc.com/2025/11/06/trump-ai-sacks-federal-bailout-openai-friar.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Microsoft forms superintelligence team under AI chief Suleyman 'to serve
+    humanity'
+  description: The MAI Superintelligence Team will pursue research for improving artificial
+    intelligence companions, diagnosing diseases and generating renewable energy.
+  url: https://www.cnbc.com/2025/11/06/microsoft-forms-superintelligence-team-under-ai-head-mustafa-suleyman-.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Datadog's stock soars 20% on revenue beat, strong forecast
+  description: Datadog has rolled out multiple artificial intelligence technologies
+    as the AI boom boosts demand for cloud security.
+  url: https://www.cnbc.com/2025/11/06/datadogs-ddog-stock-earnings.html
+  date: '2025-11-06'
+  source: CNBC
+- title: OpenAI CFO Sarah Friar says company isn't seeking government backstop, clarifying
+    prior comment
+  description: OpenAI CFO Sarah Friar said in a LinkedIn post that the artificial
+    intelligence company is not seeking a government backstop for its infrastructure
+    commitments.
+  url: https://www.cnbc.com/2025/11/06/openai-cfo-sarah-friar-says-company-is-not-seeking-government-backstop.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Alibaba-backed Moonshot releases its second AI update in four months as China’s
+    AI race heats up
+  description: The Chinese AI startup on Thursday released its newest "Kimi K2 Thinking"
+    artificial intelligence model.
+  url: https://www.cnbc.com/2025/11/06/alibaba-backed-moonshot-releases-new-ai-model-kimi-k2-thinking.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Snap stock surges 13% after announcing Perplexity AI deal, reporting strong
+    revenue
+  description: Perplexity will integrate its AI-powered search engine directly into
+    the Snapchat app.
+  url: https://www.cnbc.com/2025/11/06/snap-stock-perplexity-ai-earnings.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Duolingo stock plunges 27% on light guidance as company prioritizes user
+    growth
+  description: CEO and co-founder Luis von Ahn told CNBC that the company has shifted
+    its investment strategy in recent months to focus on long-term initiatives.
+  url: https://www.cnbc.com/2025/11/06/duolingo-duol-stock-q3-earnings-2025.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Matthew McConaughey, Ryan Reynolds-backed password manager tops $400 million
+    in ARR on AI tail winds
+  description: Canadian cybersecurity startup 1Password has surpassed $400 million
+    in annual recurring revenue.
+  url: https://www.cnbc.com/2025/11/06/ryan-reynolds-backed-1password-tops-400-million-in-arr.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Market Rebound Gathers Pace as Stock Futures Rise
+  description: Dow, S&P 500, and Nasdaq futures are rising in premarket trading Thursday
+    but fears over the AI trade continue to stalk the stock market.
+  url: https://www.barrons.com/livecoverage/stock-market-news-today-110625
+  date: '2025-11-06'
+  source: Barron's
+- title: Google's rolling out its most powerful AI chip, taking aim at Nvidia with
+    custom silicon
+  description: Google says Ironwood, the seventh generation of its Tensor Processing
+    Unit, is more than four times faster than its predecessor chip.
+  url: https://www.cnbc.com/2025/11/06/google-unveils-ironwood-seventh-generation-tpu-competing-with-nvidia.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Family offices make fewer deals but still flock to AI startup mega-rounds
+  description: Investment firms of the ultra-rich seek bigger returns and to tap into
+    the AI boom.
+  url: https://www.cnbc.com/2025/11/06/family-offices-deals-october-ai.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Elon Musk expected to prevail in Tesla shareholder vote over CEO's $1 trillion
+    pay plan
+  description: After Tesla 's annual shareholders meeting on Thursday, the company
+    is expected to disclose results of the vote on CEO Elon Musk's pay plan.
+  url: https://www.cnbc.com/2025/11/06/tesla-shareholders-vote-on-elon-musks-1-trillion-pay-package.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Job cuts in October hit highest level for the month in 22 years, Challenger
+    says
+  description: Job cuts for October totaled 153,074, a 183% surge from September.
+  url: https://www.cnbc.com/2025/11/06/job-cuts-in-october-hit-highest-level-for-the-month-in-22-years-challenger-says.html
+  date: '2025-11-06'
+  source: CNBC
+- title: 'Critics at Large Live: Padma Lakshmi’s Expansive Taste'
+  description: The host of “Top Chef” and “Taste the Nation” has sampled—and judged—dishes
+    from around the country and the world. How did she develop her discerning palate?
+  url: https://www.newyorker.com/podcast/critics-at-large/critics-at-large-live-padma-lakshmis-expansive-taste
+  date: '2025-11-06'
+  source: The New Yorker
+- title: Nvidia's Jensen Huang softens his ‘China will win the AI race’ remark to
+    FT
+  description: Nvidia CEO Jensen Huang reportedly told the Financial Times that "China
+    is going to win the AI race," before releasing a notably softer statement soon
+    after.
+  url: https://www.cnbc.com/2025/11/06/jensen-huang-says-china-will-win-the-ai-race-before-clarifying-in-a-statement-nvidia-trump-xi.html
+  date: '2025-11-06'
+  source: CNBC
+- title: European markets open lower as earnings hold the spotlight
+  description: European stocks were lower in early trade on Thursday.
+  url: https://www.cnbc.com/2025/11/06/european-markets-on-novpoint6-stoxx-600-dax-cac-ftse.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Chinese autonomous driving firm Pony.ai sees shares drop 12% in Hong Kong
+    debut
+  description: Shares of two Chinese autonomous driving companies Pony.ai and WeRide
+    both debuted in Hong Kong on Thursday.
+  url: https://www.cnbc.com/2025/11/06/china-ponyai-weride-ipo-shares-market-debut.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Microsoft letting employees raise concerns about products after Middle East
+    controversy
+  description: Microsoft employees can now request Trusted Technology Reviews when
+    they want to report on concerning uses of the company's products.
+  url: https://www.cnbc.com/2025/11/05/microsoft-offers-employees-trusted-technology-review-form.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Axon Enterprise CEO explains new acquisitions in emergency call space
+  description: Axon Enterprise CEO Rick Smith said his company's recent acquisitions
+    are helping to modernize emergency call services in an interview with CNBC's Jim
+    Cramer.
+  url: https://www.cnbc.com/2025/11/05/axon-enterprise-ceo-emergency-call-lines.html
+  date: '2025-11-06'
+  source: CNBC
+- title: King handed Nvidia boss a letter warning of AI dangers
+  description: In the 2023 remarks from the King he said AI was "no less important
+    than the discovery of electricity" but warned the risks must be tackled.
+  url: https://www.bbc.com/news/articles/cze60grxx4wo
+  date: '2025-11-05'
+  source: BBC News
+- title: Jamie Dimon hopes Mamdani calls Detroit mayor for advice | CNN Business
+  description: 'JPMorgan Chase CEO Jamie Dimon has some advice for New York City Mayor-elect
+    Zohran Mamdani: Talk to the man who helped bring Detroit back from the dead.'
+  url: https://www.cnn.com/2025/11/05/business/mamdani-mayor-jamie-dimon-detroit
+  date: '2025-11-05'
+  source: CNN
+- title: Why are U.S. layoffs rising even as corporate profits surge?
+  description: A trend that started in the technology sector is spreading to other
+    industries, with businesses cutting workers even as their profits expand.
+  url: https://www.cbsnews.com/news/jobless-boom-ai-economy-labor-market-corporate-profits-layoffs/
+  date: '2025-11-05'
+  source: CBS News
+- title: You're living in a "K-shaped" economy. Here's how that affects you.
+  description: The shape of economic growth this year highlights the widening gap
+    between wealthy Americans and everyone else, economists say.
+  url: https://www.cbsnews.com/news/k-shaped-economy-low-middle-high-income-households/
+  date: '2025-11-05'
+  source: CBS News
+- title: Trump may become the face of a deteriorating economy, a year after such worries
+    helped him win
+  description: Voters have sent a message to President Donald Trump that the economy
+    doesn't feel as though its booming — despite what he says.
+  url: https://www.pbs.org/newshour/politics/trump-may-become-the-face-of-a-deteriorating-economy-a-year-after-such-worries-helped-him-win
+  date: '2025-11-05'
+  source: PBS
+- title: MP wants Elon Musk's chatbot shut down over claim he enabled grooming gangs
+  description: SNP MP Pete Wishart says he is seeking legal advice over the "disturbing"
+    AI-generated social media post.
+  url: https://www.bbc.com/news/articles/c9d6vwg80qyo
+  date: '2025-11-05'
+  source: BBC News
+- title: Meet the woman behind chart-topping AI artist Xania Monet
+  description: Artist Xania Monet's voice has been heard by millions around the world,
+    but some are surprised to learn she's a product of artificial intelligence.
+  url: https://www.cbsnews.com/news/meet-the-woman-behind-chart-topping-ai-artist-xania-monet-i-look-at-her-as-a-real-person/
+  date: '2025-11-05'
+  source: CBS News
+- title: MORNING AFTER THE NIGHT BEFORE
+  description: Voters have sent a message to President Donald Trump that the economy
+    doesn't feel as though its booming — despite what he says. Democrats romped to
+    victory in Tuesday's key races, focusing on issues like the cost of living. Democrats
+    won the governo
+  url: https://apnews.com/article/trump-economy-election-democratic-wins-voter-discontent-e8e94eb6f2de702475875c1bbd80a89b
+  date: '2025-11-05'
+  source: Associated Press
+- title: Motion Picture Association hits Instagram with cease-and-desist over 'PG-13'
+    label
+  description: Hollywood's leading trade association is demanding that Instagram stop
+    using its film rating system to describe the social media giant's content policies
+    for teens
+  url: https://www.nbcnews.com/news/us-news/motion-picture-association-hits-instagram-cease-desist-pg-13-label-rcna242090
+  date: '2025-11-05'
+  source: NBC News
+- title: Michael Burry is back with two bets against Nvidia and Palantir
+  description: Michael Burry, the famed investor behind “The Big Short,” is betting
+    artificial intelligence is more of a bubble than a revolution.
+  url: https://www.cnn.com/2025/11/05/business/nvidia-palantir-michael-burry-stock
+  date: '2025-11-05'
+  source: CNN
+- title: Tech Jitters Weigh on U.S. Stock Futures, Asian Indexes
+  description: A selloff sparked by doubts over the AI trade showed signs of fading
+    out, while the future of many of President Trump’s global tariffs hung in the
+    balance.
+  url: https://www.wsj.com/finance/stocks/https-www-wsj-com-articles-global-stocks-markets-dow-update-11-05-2025-3405c7af
+  date: '2025-11-05'
+  source: The Wall Street Journal
+- title: Tech shares fall over AI bubble fears
+  description: Shares of major tech companies have fallen in the US and Japan over
+    fears about the valuations of firms linked to AI.
+  url: https://www.bbc.com/news/articles/c867vyn2evlo
+  date: '2025-11-05'
+  source: BBC News
+- title: International stocks slide as concerns about AI and tech company values spread
+  description: International markets plunged Tuesday night, as stocks across the Asia-Pacific
+    region sold off on worries about the sky-high values of AI and tech companies.
+  url: https://www.nbcnews.com/world/asia/international-stocks-slide-concerns-ai-tech-company-values-spread-rcna242025
+  date: '2025-11-05'
+  source: NBC News
+- title: IBM to layoff thousands of employees before end of year
+  description: The job losses will amount to a “low single-digit percentage” of the
+    global workforce.
+  url: https://www.newsweek.com/ibm-layoff-thousands-employees-before-end-year-10992649
+  date: '2025-11-05'
+  source: Newsweek
+- title: AI 'godmother' Fei-Fei Li says she is 'proud to be different'
+  description: AI pioneer Professor Fei-Fei Li is set to receive a top engineering
+    prize from the King for her contributions to the field.
+  url: https://www.bbc.com/news/articles/c5yp2vj92e9o
+  date: '2025-11-05'
+  source: BBC News
+- title: Pillar-cage fluorinated hybrid porous framework features rare quasi-Johnson
+    solid J₂₈ structure
+  description: Adsorptive separation process based on porous materials is widely employed
+    in various separation scenarios owing to its mild operating conditions and energy-efficient
+    characteristics.
+  url: https://phys.org/news/2025-11-pillar-cage-fluorinated-hybrid-porous.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: Deep-space sci-fi novel is delightful, profound and not to be missed
+  description: A planet is about to be destroyed by the collapse of a binary star
+    system in Slow Gods, Claire North’s first venture into classic science fiction.
+    Read it! says Emily H. Wilson
+  url: https://www.newscientist.com/article/mg26835680-400-deep-space-sci-fi-novel-is-delightful-profound-and-not-to-be-missed/
+  date: '2025-11-05'
+  source: New Scientist
+- title: Hand gestures that illustrate speech boost persuasiveness, study shows
+  description: Words matter—but your hands might matter more, according to a new UBC
+    study which found that purposeful hand gestures can make speakers appear more
+    competent and persuasive.
+  url: https://phys.org/news/2025-11-gestures-speech-boost-persuasiveness.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: Artificial neurons that behave like real brain cells
+  description: USC researchers built artificial neurons that replicate real brain
+    processes using ion-based diffusive memristors. These devices emulate how neurons
+    use chemicals to transmit and process signals, offering massive energy and size
+    advantages. The techn
+  url: https://www.sciencedaily.com/releases/2025/11/251105050723.htm
+  date: '2025-11-05'
+  source: Science Daily
+- title: Genomic selection is a crucial tool for meeting future challenges in agriculture
+  description: Developing high-yielding, nutritious and climate-resilient crops is
+    vital to safeguard the future of global food production. To meet the challenges
+    ahead, Iowa State University scientists are working with crop breeders to look
+    for approaches that can
+  url: https://phys.org/news/2025-11-genomic-crucial-tool-future-agriculture.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: China commands 47% of remote sensing research, while U.S. produces just 9%
+  description: The United States is falling far behind China in remote sensing research,
+    according to a comprehensive new study that tracked seven decades of academic
+    publishing and reveals a notable reversal in global technological standing.
+  url: https://phys.org/news/2025-11-china-remote.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: Language models cannot reliably distinguish belief from knowledge and fact
+    | Nature Machine Intelligence
+  description: Suzgun et al. find that current large language models cannot reliably
+    distinguish between belief, knowledge and fact, raising concerns for their use
+    in healthcare, law and journalism, where such distinctions are critical.
+  url: https://www.nature.com/articles/s42256-025-01113-8
+  date: '2025-11-05'
+  source: Nature.com
+- title: On-chip quantum interference of indistinguishable single photons from integrated
+    independent molecules
+  description: Hong–Ou–Mandel experiments on a quantum photonic chip demonstrate on-chip
+    quantum interference of indistinguishable single photons with visibilities exceeding
+    0.97 for two molecules separately coupled to two waveguides.
+  url: https://www.nature.com/articles/s41565-025-02043-7
+  date: '2025-11-05'
+  source: Nature.com
+- title: 'Publisher Correction: Academia Europaea’s guidelines for the visualization
+    of clinical outcomes'
+  description: 'Nature Medicine - Publisher Correction: Academia Europaea’s guidelines
+    for the visualization of clinical outcomes'
+  url: https://www.nature.com/articles/s41591-025-04091-x
+  date: '2025-11-05'
+  source: Nature.com
+- title: Meet the ‘Wee-rex’. Tiny tyrannosaur is its own species
+  description: Hear the biggest stories from the world of science | 05 November 2025
+  url: https://www.nature.com/articles/d41586-025-03642-z
+  date: '2025-11-05'
+  source: Nature.com
+- title: Continuous cell-type diversification in mouse visual cortex development
+  description: A high-resolution transcriptomic and epigenomic cell-type atlas of
+    the developing mouse visual cortex from embryonic to postnatal development is
+    presented, providing a real-time dynamic molecular map associated with individual
+    cell types and specific
+  url: https://www.nature.com/articles/s41586-025-09644-1
+  date: '2025-11-05'
+  source: Nature.com
+- title: Spatial dynamics of brain development and neuroinflammation
+  description: A tri-omic atlas of the mouse brain from postnatal day 0 to P21 reveals
+    that layer-specific projection neurons have a role in coordinating axonogenesis
+    and myelination.
+  url: https://www.nature.com/articles/s41586-025-09663-y
+  date: '2025-11-05'
+  source: Nature.com
+- title: Conservation and alteration of mammalian striatal interneurons
+  description: An analysis of cell-type diversity in brain samples from a variety
+    of mammalian species, both during development and in adult animals, reveals that
+    the TAC3 initial class of striatal interneurons is conserved across placental
+    mammals&nbsp;and is homo
+  url: https://www.nature.com/articles/s41586-025-09592-w
+  date: '2025-11-05'
+  source: Nature.com
+- title: Adenosine signalling drives antidepressant actions of ketamine and ECT
+  description: Adenosine signalling is identified as the central mechanism of action
+    of the antidepressant effects of ketamine and electroconvulsive therapy, and newly
+    developed analogues of ketamine exhibit improved antidepressant efficacy with
+    reduced side effect
+  url: https://www.nature.com/articles/s41586-025-09755-9
+  date: '2025-11-05'
+  source: Nature.com
+- title: Air-dried high-strength black MXene aerogel for spatiotemporal infrared information
+    management
+  description: A lightweight and high-strength Ti3C2Tx aerogel is prepared by air-drying
+    methods for multi-spatiotemporal infrared information management.
+  url: https://www.nature.com/articles/s41467-025-64754-8
+  date: '2025-11-05'
+  source: Nature.com
+- title: Can AI be truly creative?
+  description: Chatbots and AI models are challenging ideas about who — or what —
+    can create art, music and more.
+  url: https://www.nature.com/articles/d41586-025-03570-y
+  date: '2025-11-05'
+  source: Nature.com
+- title: Chinese scientists increasingly lead joint projects with the UK, US and Europe
+  description: Although China needs to strengthen its leadership in artificial intelligence,
+    semiconductors and energy, say researchers.
+  url: https://www.nature.com/articles/d41586-025-03617-0
+  date: '2025-11-05'
+  source: Nature.com
+- title: A probabilistic histological atlas of the human brain for MRI segmentation
+  description: 'NextBrain is an open source, probabilistic atlas of the entire human
+    brain, assembled using artificial-intelligence-enabled registration and segmentation
+    methods to reconstruct the multimodal serial histology of five human half brains,
+    and which can '
+  url: https://www.nature.com/articles/s41586-025-09708-2
+  date: '2025-11-05'
+  source: Nature.com
+- title: Lymphoid gene expression supports neuroprotective microglia function
+  description: PU.1low CD28-expressing microglia may act as suppressive cells in Alzheimer’s
+    disease, mitigating its progression by reducing neuroinflammation and amyloid
+    plaque load, indicating potential immunotherapeutic approaches for treatment.
+  url: https://www.nature.com/articles/s41586-025-09662-z
+  date: '2025-11-05'
+  source: Nature.com
+- title: Atomically accurate de novo design of antibodies with RFdiffusion
+  description: The combination of computational design, laboratory-based screening
+    and biophysical validation enables the de novo generation of variable heavy-chain
+    antibody fragments and antibodies&nbsp;that precisely target chosen disease-related
+    molecules.
+  url: https://www.nature.com/articles/s41586-025-09721-5
+  date: '2025-11-05'
+  source: Nature.com
+- title: Images for AI use can be sourced responsibly
+  description: A high-quality image data set shows that tech companies can obtain
+    informed consent and avoid data bias without breaking the bank.
+  url: https://www.nature.com/articles/d41586-025-03568-6
+  date: '2025-11-05'
+  source: Nature.com
+- title: Millisecond lifetimes and coherence times in 2D transmon qubits
+  description: A materials platform using tantalum as a base layer and silicon as
+    the substrate to construct superconducting qubits enables device performance improvements
+    such as millisecond lifetimes and coherence times, as well as high time-averaged
+    quality fact
+  url: https://www.nature.com/articles/s41586-025-09687-4
+  date: '2025-11-05'
+  source: Nature.com
+- title: ‘Mind-captioning’ AI decodes brain activity to turn thoughts into text
+  description: A non-invasive imaging technique can translate scenes in your head
+    into sentences. It could help to reveal how the brain interprets the world.
+  url: https://www.nature.com/articles/d41586-025-03624-1
+  date: '2025-11-05'
+  source: Nature.com
+- title: Truth, Technology And The Cost Of Bearing Witness
+  description: Oscar winner Chai Vasarhelyi and Pulitzer Prize-winning photographer
+    Lynsey Addario explore the moral cost of truth-telling in an era of AI and deepfakes.
+  url: https://www.forbes.com/sites/tonybradley/2025/11/05/truth-technology-and-the-cost-of-bearing-witness/
+  date: '2025-11-05'
+  source: Forbes
+- title: 'Elon Musk’s $1 Trillion Pay Plan: The Case For Magical Thinking'
+  description: Big funds, advisory firms and the Pope oppose the exorbitant plan.
+    Approval means shareholders think the polarizing, distracted CEO can top past
+    successes with an AI-powered strategy.
+  url: https://www.forbes.com/sites/alanohnsman/2025/11/05/elon-musks-1-trillion-pay-plan-the-case-for-magical-thinking/
+  date: '2025-11-05'
+  source: Forbes
+- title: AI Wunderkind DeepSeek’s Founder Debuts On China’s 100 Richest List
+  description: The privately held company has reached a valuation of $15 billion,
+    as Liang wants to push the boundaries of technology.
+  url: https://www.forbes.com/sites/ywang/2025/11/05/ai-wunderkind-deepseeks-founder-debuts-on-chinas-100-richest-list/
+  date: '2025-11-05'
+  source: Forbes
+- title: Asia-Pacific markets set to open higher, tracking Wall Street gains as AI
+    stocks rebound
+  description: Investors in the region are looking to Chinese autonomous vehicle firms
+    WeRide and Pony.ai's listing debut in Hong Kong later in the day.
+  url: https://www.cnbc.com/2025/11/06/asia-pacific-markets-ponyai-debut-hong-kong-weride-ai-stocks.html
+  date: '2025-11-05'
+  source: CNBC
+- title: How Jim Cramer navigates a market selloff
+  description: CNBC's Jim Cramer offered advice on how to deal with market declines.
+  url: https://www.cnbc.com/2025/11/05/jim-cramer-market-selloff.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Why Purpose Is Foundational in Leadership
+  description: It takes more than a drive for profits to build a successful business.
+  url: https://hbr.org/podcast/2025/11/why-purpose-is-foundational-in-leadership
+  date: '2025-11-05'
+  source: Harvard Business Review
+- title: Figma delivers strong forecast as AI draws in more customers
+  description: People are signing up for Figma to use its Make tool for generating
+    app designs with artificial intelligence, CEO Dylan Figma said.
+  url: https://www.cnbc.com/2025/11/05/figma-fig-q3-earnings-report-2025.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Qualcomm reports earnings, revenue beat and issues strong forecast
+  description: Qualcomm is trying to prove that it has a role in the artificial intelligence
+    boom, which to date has been dominated by Nvidia.
+  url: https://www.cnbc.com/2025/11/05/qualcomm-qcom-q4-2025-earnings-report.html
+  date: '2025-11-05'
+  source: CNBC
+- title: HubSpot adds Clara Shih, Meta's head of business AI, to board of directors
+  description: HubSpot appointed Meta's head of business AI Clara Shih to its board
+    of directors
+  url: https://www.cnbc.com/2025/11/05/hubspot-adds-meta-executive-clara-shih-to-board-of-directors.html
+  date: '2025-11-05'
+  source: CNBC
+- title: New bipartisan bill would require companies to report AI job losses
+  description: The AI-Related Job Impacts Clarity Act would require companies and
+    federal agencies to submit quarterly reports of "AI-related job effects."
+  url: https://www.cnbc.com/2025/11/05/ai-jobs-act-warner-hawley.html
+  date: '2025-11-05'
+  source: CNBC
+- title: It’s Cool to Have No Followers Now
+  description: As social media has become older, more manipulable, and more automated
+    by artificial intelligence, flouting online popularity has gained a new cachet,
+    Kyle Chayka writes.
+  url: https://www.newyorker.com/culture/infinite-scroll/its-cool-to-have-no-followers-now
+  date: '2025-11-05'
+  source: The New Yorker
+- title: 'Op-ed: The fuel for the AI boom driving the markets is advertising. It is
+    also an existential risk.'
+  description: Joe Marchese, Executive Chairman at Human Ventures, describes a key
+    conundrum facing OpenAI and other AI start-ups as they disrupt the ad tech industry.
+  url: https://www.cnbc.com/2025/11/05/op-ed-the-fuel-for-the-ai-boom-driving-the-markets-is-advertising-it-is-also-an-existential-risk-.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Pinterest plunges 20% after weak results as tariffs drag on ad revenue
+  description: Third-quarter sales in the U.S. and Canada came in at $786 million,
+    missing analyst projections.
+  url: https://www.cnbc.com/2025/11/05/pinterest-stock-earnings-tariffs-ads.html
+  date: '2025-11-05'
+  source: CNBC
+- title: As bubble debate rages, a new study finds why companies are getting stuck
+    by the AI productivity paradox
+  description: Companies do benefit from attracting AI workers, but only from lean
+    organizations, study finds
+  url: https://www.marketwatch.com/story/as-bubble-debate-rages-a-new-study-finds-why-companies-are-getting-stuck-by-the-ai-productivity-paradox-f1123c7d
+  date: '2025-11-05'
+  source: MarketWatch
+- title: Can AI Boards Outperform Human Ones?
+  description: "November 5, 2025\r\nAccording to a recent poll of 500 global CEOs,\
+    \ 94% believe AI could offer better counsel than at least one of their human board\
+    \ members. In October 2025, Samruk-Kazyna, the National Wealth Fund of Kazakhstan,\
+    \ announced the appointme"
+  url: https://hbr.org/2025/11/can-ai-boards-outperform-human-ones
+  date: '2025-11-05'
+  source: Harvard Business Review
+- title: Private payrolls rose 42,000 in October, more than expected and countering
+    labor market fears, ADP says
+  description: Companies added 42,000 jobs for the month, following a decline of 29,000
+    and topping the estimate for a gain of 22,000.
+  url: https://www.cnbc.com/2025/11/05/private-payrolls-rose-42000-in-october-more-than-expected-and-countering-labor-market-fears-adp-says.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Election results, McDonald's earnings, AI valuation fears and more in Morning
+    Squawk
+  description: Here are five key things investors need to know to start the trading
+    day.
+  url: https://www.cnbc.com/2025/11/05/5-things-to-know-before-the-stock-market-opens.html
+  date: '2025-11-05'
+  source: CNBC
+- title: 'Amazon upheaval: With morale shaken, Jassy looks for next big play after
+    mass layoffs'
+  description: Amazon CEO Andy Jassy has been overhauling the company's corporate
+    culture in recent years, and went even further last week, announcing 14,000 layoffs.
+  url: https://www.cnbc.com/2025/11/05/amazon-upheaval-andy-jassy-looks-for-next-big-play-after-mass-layoffs.html
+  date: '2025-11-05'
+  source: CNBC
+- title: After years of outsized stock market returns, it’s time to reassess your
+    portfolio ‘risk exposure,’ top-ranked advisor says
+  description: Many financial advisors recommend rebalancing your portfolio at least
+    once a year, if not more often. Here's why now may be an opportune time.
+  url: https://www.cnbc.com/2025/11/05/rebalance-your-portfolio.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Asia's private equity funds turn bullish on China, betting on Beijing's tech-focused
+    economic plan
+  description: The optimism marks a subtle yet important shift for an industry that
+    has spent the past two years grappling with weak fundraising and geopolitical
+    uncertainty.
+  url: https://www.cnbc.com/2025/11/05/asias-private-equity-funds-china-ai-tech-economic-plan-.html
+  date: '2025-11-05'
+  source: CNBC
+- title: 'CNBC Daily Open: When AI hype hits gravity'
+  description: AMD smashed expectations, and Palantir reported another quarter of
+    strong growth. Yet the Nasdaq fell, revealing Wall Street's playlist is stuck
+    on AI mania.
+  url: https://www.cnbc.com/2025/11/05/cnbc-daily-open-when-ai-hype-hits-gravity.html
+  date: '2025-11-05'
+  source: CNBC
+- title: 'CNBC Daily Open: Beware the tunnel vision on AI stocks'
+  description: 'AMD smashed expectations, and IBM impressed with cloud strength. Yet
+    the Nasdaq fell, revealing Wall Street''s playlist is stuck on one track: AI mania.'
+  url: https://www.cnbc.com/2025/11/05/cnbc-daily-open-beware-the-tunnel-vision-on-ai-stocks.html
+  date: '2025-11-05'
+  source: CNBC
+- title: 'Fossil fuel leaders herald the energy addition era: ''Music to my ears'''
+  description: '"I think we are transitioning from the energy transition," the CEO
+    of the American Petroleum Institute lobby group told CNBC.'
+  url: https://www.cnbc.com/2025/11/05/adipec-oil-summit-fossil-fuel-leaders-embrace-the-energy-addition-era.html
+  date: '2025-11-05'
+  source: CNBC
+- title: Wall Street is too fixated on the high valuations of tech and speculative
+    stocks, Cramer says
+  description: CNBC's Jim Cramer examined Tuesday's market action.
+  url: https://www.cnbc.com/2025/11/04/wall-street-speculative-tech-high-valuation-jim-cramer.html
+  date: '2025-11-05'
+  source: CNBC

@@ -1,10 +1,348 @@
 news_items:
-  - title: "Modular Software Framework from MIT"
-    description: "MIT researchers introduced a coding framework that uses modular concepts and simple synchronization rules to make software safer and easier for large language models to understand."
-    url: "https://news.mit.edu/topic/machine-learning?utm_source=openai"
-    date: "2025-11-05"
-  - title: "Robots Learn to Map Unfamiliar Terrain"
-    description: "A rapid mapping method from MIT could help search-and-rescue robots navigate unpredictable environments with greater accuracy."
-    url: "https://news.mit.edu/topic/machine-learning?utm_source=openai"
-    date: "2025-11-05"
-
+- title: The computers that run on human brain cells
+  description: 'Move over silicon: scientists want to use neurons to make powerful
+    computers with minuscule energy needs.'
+  url: https://www.nature.com/articles/d41586-025-03633-0
+  date: '2025-11-11'
+  source: Nature.com
+- title: Drivers of natural regeneration seedling dynamics in a Larix gmelinii var.
+    principis-rupprechtii artificial forest
+  description: Scientific Reports - Drivers of natural regeneration seedling dynamics
+    in a Larix gmelinii var. principis-rupprechtii artificial forest
+  url: https://www.nature.com/articles/s41598-025-25747-1
+  date: '2025-11-11'
+  source: Nature.com
+- title: 'From Hype to Adoption: Guiding Organizations in Their AI Journey'
+  description: After a flurry of initial investments in artificial intelligence, including
+    generative and agentic AI, many organizations are facing mixed results. The SEI
+    is examining how organizations adopt AI and what methods they can use to measure
+    and improve t
+  url: https://www.sei.cmu.edu/blog/from-hype-to-adoption-guiding-organizations-in-their-ai-journey/
+  date: '2025-11-10'
+  source: Carnegie Mellon University
+- title: Toward security-aware portable sequencing
+  description: Portable genome sequencers are revolutionizing genomic research. However,
+    their reliance on external systems introduces new vulnerabilities that threaten
+    the security of these sequencers. By employing zero-trust principles throughout
+    the sequencing w
+  url: https://www.nature.com/articles/s41467-025-66024-z
+  date: '2025-11-10'
+  source: Nature.com
+- title: Beyond the niche - unlocking the full potential of synthetic riboswitches
+  description: Synthetic riboswitches are a burgeoning regulatory tool in the field
+    of molecular biology. Here, the authors explore the unique features of synthetic
+    riboswitches, highlight key applications, assess current bottlenecks and limitations
+    and put them in
+  url: https://www.nature.com/articles/s41467-025-65808-7
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Process optimization and quality assessment of redistilled Ethiopian traditional
+    spirit (Areke): ethanol yield and zinc contamination control'
+  description: This research presents a comprehensive optimization of the ethanol
+    re-distillation process focusing on maximizing ethanol purity while minimizing
+    heavy metal contaminants, particularly zinc. Using a rigorous experimental design,
+    key parameters, holdi
+  url: https://www.nature.com/articles/s41598-025-24568-6
+  date: '2025-11-10'
+  source: Nature.com
+- title: A call for 3D genomics submissions
+  description: Nature Genetics has joined forces with Nature Communications, Communications
+    Biology and Scientific Reports to create a Collection of papers on 3D genome organization.
+    We reflect on the field and invite submissions addressing fundamental unsolved
+    que
+  url: https://www.nature.com/articles/s41588-025-02439-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: What UPS’s reinvention reveals about modernizing a nearly 120-year-old company
+  description: UPS is rewriting its playbook for the next era of global delivery in
+    an AI-dominant world.
+  url: https://fortune.com/article/ups-reinvention-reveal-modernizing-ai/
+  date: '2025-11-10'
+  source: Fortune
+- title: AI bubble about to pop as returns on investment fall short?
+  description: 'Billions have poured into AI, helping stock valuations soar. But the
+    cracks are starting to show. Slowing adoption, surging costs and elusive profits
+    are fueling warnings that the boom may be headed for a hard reset. The artificial
+    intelligence (AI) '
+  url: https://www.dw.com/en/ai-bubble-about-to-pop-as-returns-on-investment-fall-short-chatgpt-microsoft-nvidia-grok-elon-musk/a-74636881
+  date: '2025-11-10'
+  source: DW (English)
+- title: 'Today’s Atlantic Trivia: Twain on Language'
+  description: Test your knowledge—and read our latest stories for a little extra
+    help.
+  url: https://www.theatlantic.com/newsletters/2025/11/daily-trivia-questions-answers-week-7/684880/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: How a childhood virus can contribute to dementia later and what you can do
+  description: One of the largest studies ever conducted on the link between the shingles
+    vaccine and brain health offers insight into how the disease increases dementia...
+  url: https://washingtonpost.com/health/2025/11/02/shingles-vaccine-dementia-prevention/
+  date: '2025-11-09'
+  source: The Washington Post
+- title: 'Suspect in Calif. family''s murder asked online psychic: "will I get caught?"'
+  description: The bodies of Dr. Henry Han, his wife Jennie, and their 5-year-old
+    daughter Emily were found in the garage of their Santa Barbara, California, home,
+    wrapped in plastic and duct tape. The prosecutor says they were shot while they
+    slept.
+  url: https://www.cbsnews.com/news/han-family-murders-santa-barbara-california-pierre-haobsh-48-hours/
+  date: '2025-11-09'
+  source: CBS News
+- title: Using Knowledge Elicitation Techniques To Infuse Deep Expertise And Best
+    Practices Into Generative AI
+  description: How can we get AI and LLMs to be domain experts? The prior era of AI
+    devised knowledge elicitation techniques. Those are still good in the LLM era.
+    An AI Insider scoop.
+  url: https://www.forbes.com/sites/lanceeliot/2025/11/09/using-knowledge-elicitation-techniques-to-infuse-deep-expertise-and-best-practices-into-generative-ai/
+  date: '2025-11-09'
+  source: Forbes
+- title: Laser satellites expose a secret Antarctic carbon burst
+  description: 'A new study shows that the Southern Ocean releases far more carbon
+    dioxide in winter than once thought. By combining laser satellite data with AI
+    analysis, scientists managed to “see” through the polar darkness for the first
+    time. The results reveal '
+  url: https://www.sciencedaily.com/releases/2025/11/251108014024.htm
+  date: '2025-11-08'
+  source: Science Daily
+- title: How To Lead When Your Team Knows More Than You Do Due To Access To AI
+  description: Leaders who rely on authority built on information and experience find
+    that no longer is enough. With AI, knowledge is everywhere, making leadership
+    become about wisdom.
+  url: https://www.forbes.com/sites/dianehamilton/2025/11/08/how-to-lead-when-your-team-knows-more-than-you-do-due-to-access-to-ai/
+  date: '2025-11-08'
+  source: Forbes
+- title: Unpicking How to Measure the Complexity of Knots
+  description: Two mathematicians have proved that a straightforward question—how
+    hard is it to untie a knot?—has a complicated answer.
+  url: https://www.wired.com/story/unpicking-how-to-measure-the-complexity-of-knots/
+  date: '2025-11-08'
+  source: Wired
+- title: Musicology Colloquium with Claire Pelofi
+  description: The Musicology Colloquium presents a talk by Claire Pelofi (neuroscience)
+    from New York University.TicketingFree, UnticketedBioClaire Pelofi is a Research
+    Scientist at the Center for Language, Music and Emotion, a research venture co-funded
+    by NYU an
+  url: https://www.princeton.edu/events/2025/musicology-colloquium-claire-pelofi
+  date: '2025-11-07'
+  source: Princeton University
+- title: Degradable cyclic amino alcohol ionizable lipids as vectors for potent influenza
+    mRNA vaccines
+  description: This work presents a degradable ionizable lipid, AMG1541, for mRNA
+    vaccines that significantly enhances potency and enables similar protective immunity
+    at doses 100-fold lower than current standards, while also reducing toxicity and
+    improving clearan
+  url: https://www.nature.com/articles/s41565-025-02044-6
+  date: '2025-11-07'
+  source: Nature.com
+- title: Deep learning models simultaneously trained on multiple datasets improve
+    base-editing activity prediction
+  description: 'CRISPR base editing enables the precise introduction of single-nucleotide
+    mutations in the genome. Here, authors generated new adenine/cytosine base editor
+    dataset and proposed a deep-learning model CRISPRon-BE for base editor efficiency
+    prediction, '
+  url: https://www.nature.com/articles/s41467-025-65200-5
+  date: '2025-11-07'
+  source: Nature.com
+- title: 'Monod: model-based discovery and integration through fitting stochastic
+    transcriptional dynamics to single-cell sequencing data'
+  description: Monod fits biophysically motivated models to single-cell transcriptomics
+    data, empowering multifaceted and integrative insights of gene expression dynamics,
+    stochasticity and regulation.
+  url: https://www.nature.com/articles/s41592-025-02832-x
+  date: '2025-11-07'
+  source: Nature.com
+- title: Oil Millionaire Sarah Rector Inspires Entrepreneurs 112 Years Later
+  description: Sarah Rector, America's first Black oil millionaire at age 11, story
+    is being shared on the big screen thanks to Ciara and Russell Wilson, and Amazon’s
+    MGM Studios.
+  url: https://www.forbes.com/sites/lydiatblanco/2025/11/07/oil-millionaire-sarah-rector-inspires-entrepreneurs-112-years-later/
+  date: '2025-11-07'
+  source: Forbes
+- title: Law Firms Like DLA Piper Are Embracing AI To Help Clients Navigate Compliance
+  description: The regulatory and compliance space for the new AI ecosystem is rapidly
+    expanding.
+  url: https://www.forbes.com/sites/saibala/2025/11/07/law-firms-like-dla-piper-are-embracing-ai-to-help-clients-navigate-compliance/
+  date: '2025-11-07'
+  source: Forbes
+- title: Dennis Walters, inducted into PGA Hall of Fame, is unquestionably golf's
+    most inspiring story
+  description: Walters is golf’s version of Mick Jagger and Bruce Springsteen, still
+    rocking out at age 76 and performing shows nationwide.
+  url: https://golfweek.usatoday.com/story/sports/golf/2025/11/06/dennis-walters-inducted-pga-hall-of-fame-contributions-golf-inspiration-determination/87121159007/
+  date: '2025-11-06'
+  source: USA Today
+- title: Study Suggests COVID Pandemic May Have Aged Everyone’s Brain
+  description: Immunologist Zachary Rubin explains how, according to a recent study,
+    living through a pandemic might accelerate brain aging.
+  url: https://www.scientificamerican.com/video/study-suggests-covid-pandemic-may-have-aged-everyones-brain/
+  date: '2025-11-06'
+  source: Scientific American
+- title: CITP Is Now Accepting Applications for the 2026–27 Fellows Program
+  description: Applications are now open for Princeton University’s Center for Information
+    Technology Policy (CITP) 2026-27 Fellows Program. Candidates are encouraged to
+    apply by the start-of-review date of December 1, 2025. The applications are open
+    now (links are
+  url: https://blog.citp.princeton.edu/2025/11/06/citp-is-now-accepting-applications-for-the-2026-27-fellows-program/
+  date: '2025-11-06'
+  source: Princeton University
+- title: Drugmakers share data to feed voracious foundation models
+  description: Big pharma shares its machine learning models with biotechs, but awaits
+    definitive data on success of artificial intelligence-generated drugs.
+  url: https://www.nature.com/articles/s41587-025-02901-8
+  date: '2025-11-06'
+  source: Nature.com
+- title: Site-specific DNA insertion into the human genome with engineered recombinases
+  description: Engineered DNA recombinases efficiently and specifically insert genetic
+    cargos without the use of landing pads.
+  url: https://www.nature.com/articles/s41587-025-02895-3
+  date: '2025-11-06'
+  source: Nature.com
+- title: Genomics of drug target prioritization for complex diseases
+  description: In this Review, Chen et al. discuss how the advancement and integration
+    of large-scale genetic resources, multi-omics data and sophisticated computational
+    tools are improving drug development pipelines.
+  url: https://www.nature.com/articles/s41576-025-00904-4
+  date: '2025-11-06'
+  source: Nature.com
+- title: Regulation of RNA-binding proteins by small biomolecules
+  description: RNA-binding proteins (RBPs) are essential for gene regulation. Recent
+    data reveal that small biomolecules (SBMs) such as sugars, nucleotides, metabolites
+    and drugs bind to RBPs and regulate their function. This Review discusses the
+    landscape of SBM-b
+  url: https://www.nature.com/articles/s41580-025-00914-4
+  date: '2025-11-06'
+  source: Nature.com
+- title: AI-enhanced clustering of mine tailings using Geostatistical data augmentation
+    and Gaussian mixture models
+  description: Scientific Reports - AI-enhanced clustering of mine tailings using
+    Geostatistical data augmentation and Gaussian mixture models
+  url: https://www.nature.com/articles/s41598-025-22625-8
+  date: '2025-11-06'
+  source: Nature.com
+- title: Red cell distribution width and cerebral white matter hyperintensity
+  description: Scientific Reports - Red cell distribution width and cerebral white
+    matter hyperintensity
+  url: https://www.nature.com/articles/s41598-025-22863-w
+  date: '2025-11-06'
+  source: Nature.com
+- title: The algorithm failed music
+  description: This is The Stepback, a weekly newsletter breaking down one essential
+    story from the tech world. For more on how to break free of the algorithm and
+    discover things you love, follow Terrence O'Brien. The Stepback arrives in our
+    subscribers' inboxes at
+  url: https://www.theverge.com/column/815744/music-recommendation-algorithms
+  date: '2025-11-06'
+  source: The Verge
+- title: Is the AI boom losing steam as investors grow wary of returns?
+  description: 'Billions have poured into AI, helping stock valuations soar, but the
+    cracks are starting to show. Slowing adoption, surging costs and elusive profits
+    are fueling warnings that the boom may be headed for a hard reset. The artificial
+    intelligence (AI) '
+  url: https://www.dw.com/en/will-the-ai-bubble-burst-as-investors-grow-wary-of-returns/a-74636881
+  date: '2025-11-06'
+  source: DW (English)
+- title: Subtle Computing's voice isolation models help computers understand you in
+    noisy environments | TechCrunch
+  description: Subtle Computing has raised $6M in seed funding to build voice isolation
+    models. The startup plans to announce a hardware device next year.
+  url: https://techcrunch.com/2025/11/06/subtle-computings-voice-isolation-models-help-computers-understand-you-in-noisy-environments/
+  date: '2025-11-06'
+  source: TechCrunch
+- title: Artificial Intelligence Hits The Grid As Utilities Race To Keep Up
+  description: Utilities like National Grid, Duke Energy, and AES are investing in
+    AI to modernize grids, improve reliability, and prepare for electrification growth.
+  url: https://www.forbes.com/sites/kensilverstein/2025/11/06/artificial-intelligence-hits-the-grid-as-utilities-race-to-keep-up/
+  date: '2025-11-06'
+  source: Forbes
+- title: How Agentic AI Is Challenging The Boundaries Of Life And Innovation
+  description: Agentic artificial intelligence is evolving from an advanced tool to
+    something that resembles a living system, capable of reasoning, planning and learning
+    across disciplines.
+  url: https://www.forbes.com/sites/williamhaseltine/2025/11/06/how-agentic-ai-is-challenging-the-boundaries-of-life-and-innovation/
+  date: '2025-11-06'
+  source: Forbes
+- title: Is A.I. Amazing or Are We Simple?
+  description: 'From the daily newsletter: the case that A.I. is thinking.'
+  url: https://www.newyorker.com/newsletter/the-daily/is-ai-amazing-or-are-we-simple
+  date: '2025-11-06'
+  source: The New Yorker
+- title: Family offices make fewer deals but still flock to AI startup mega-rounds
+  description: Investment firms of the ultra-rich seek bigger returns and to tap into
+    the AI boom.
+  url: https://www.cnbc.com/2025/11/06/family-offices-deals-october-ai.html
+  date: '2025-11-06'
+  source: CNBC
+- title: Southport killer 'may have wanted to hurt society'
+  description: The killer's brother and father have been speaking to the public inquiry
+    into the dance class murders.
+  url: https://www.bbc.com/news/articles/cly91mryzlko
+  date: '2025-11-05'
+  source: BBC News
+- title: AI 'godmother' Fei-Fei Li says she is 'proud to be different'
+  description: AI pioneer Professor Fei-Fei Li is set to receive a top engineering
+    prize from the King for her contributions to the field.
+  url: https://www.bbc.com/news/articles/c5yp2vj92e9o
+  date: '2025-11-05'
+  source: BBC News
+- title: 'Responsible AI: From Proof of Concept to Research Software'
+  description: This workshop is part of a three-session series where participants
+    work together to develop research software using generative AI. We will work together
+    as a cohort to identify productive uses of AI methods and areas of ethical and
+    legal concern. Par
+  url: https://www.princeton.edu/events/2025/responsible-ai-proof-concept-research-software
+  date: '2025-11-05'
+  source: Princeton University
+- title: China commands 47% of remote sensing research, while U.S. produces just 9%
+  description: The United States is falling far behind China in remote sensing research,
+    according to a comprehensive new study that tracked seven decades of academic
+    publishing and reveals a notable reversal in global technological standing.
+  url: https://phys.org/news/2025-11-china-remote.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: The Psychology Behind Standing Up and Saying No
+  description: Why saying no is harder than it should be.
+  url: https://www.scientificamerican.com/podcast/episode/the-psychology-behind-standing-up-and-saying-no/
+  date: '2025-11-05'
+  source: Scientific American
+- title: Language models cannot reliably distinguish belief from knowledge and fact
+    | Nature Machine Intelligence
+  description: Suzgun et al. find that current large language models cannot reliably
+    distinguish between belief, knowledge and fact, raising concerns for their use
+    in healthcare, law and journalism, where such distinctions are critical.
+  url: https://www.nature.com/articles/s42256-025-01113-8
+  date: '2025-11-05'
+  source: Nature.com
+- title: 'LDBT instead of DBTL: combining machine learning and rapid cell-free testing'
+  description: Synthetic biology is defined by Design-Build-Test-Learn cycles. Recent
+    advances in machine learning are changing the landscape; thus, we propose that
+    “Learning” can precede “Design”. Moreover, adopting cell-free platforms can further
+    accelerate “Buil
+  url: https://www.nature.com/articles/s41467-025-65281-2
+  date: '2025-11-05'
+  source: Nature.com
+- title: Unfreezing structural biology for drug discovery
+  description: This Perspective discusses how elevated-temperature crystallography
+    uncovers hidden dynamic states of protein, ligand and water molecules, expanding
+    insights into the protein conformational landscape for drug discovery and design.
+  url: https://www.nature.com/articles/s41589-025-02047-3
+  date: '2025-11-05'
+  source: Nature.com
+- title: Can AI be truly creative?
+  description: Chatbots and AI models are challenging ideas about who — or what —
+    can create art, music and more.
+  url: https://www.nature.com/articles/d41586-025-03570-y
+  date: '2025-11-05'
+  source: Nature.com
+- title: OpenAI’s new safety tools are designed to make AI models harder to jailbreak.
+    Instead, they may give users a false sense of security.
+  description: OpenAI has open-sourced two AI safety classifiers that let enterprises
+    more easily set their own guardrails. Experts say the move could improve transparency
+    but also create new risks.
+  url: https://fortune.com/2025/11/05/openai-open-source-safety-classifiers-enterprise-ai-false-sense-security/
+  date: '2025-11-05'
+  source: Fortune
+- title: How Artificial Intelligence Makes Eye Exams A Gateway To Whole-Body Wellness
+  description: AI-powered retinal imaging closes healthcare gaps, enables earlier
+    intervention, and reveals new insights into systemic diseases across diverse populations.
+  url: https://www.forbes.com/sites/williamhaseltine/2025/11/05/how-artificial-intelligence-makes-eye-exams-a-gateway-to-whole-body-wellness/
+  date: '2025-11-05'
+  source: Forbes

@@ -1,7 +1,1991 @@
 news_items:
-  - title: "Business News from Verified Sources"
-    description: "Latest business and finance news from trusted sources. Run update_news.py to fetch current articles."
-    url: "#"
-    date: "2025-11-05"
-    source: "System"
+- title: Senate approves shutdown ending legislation, sending bill to the House for
+    a vote
+  description: After 41 days of a government shutdown, the U.S. Senate has passed
+    a set of bills to reopen the government. Its fate in the House is uncertain.
+  url: https://www.npr.org/2025/11/10/g-s1-97245/senate-shutdown-vote
+  date: '2025-11-11'
+  source: NPR
+- title: Russian oil firm’s multibillion-dollar assets overseas at risk as US sanctions
+    begin to bite | CNN Business
+  description: The Iraqi government says it can no longer work with Russian oil company
+    Lukoil – which has a huge stake in the country’s oil fields – because of recently
+    imposed US sanctions against the company.
+  url: https://www.cnn.com/2025/11/10/business/lukoil-iraq-russia-sanctions-latam-intl
+  date: '2025-11-11'
+  source: CNN
+- title: A battle over a Chinese chip maker that rocked the global car industry
+  description: In an extraordinary move, the Dutch government seized control of Nexperia,
+    triggering anger in Beijing.
+  url: https://www.bbc.com/news/articles/cr43kyn9d6po
+  date: '2025-11-11'
+  source: BBC News
+- title: For real climate action, empower women
+  description: In Belize, women are tackling climate change and biodiversity loss
+    on the ground, but gender equity is needed in government, too — COP30 should address
+    this.
+  url: https://www.nature.com/articles/d41586-025-03630-3
+  date: '2025-11-11'
+  source: Nature.com
+- title: The ultimate guide to Sonoma’s wine country
+  description: With bountiful organic produce, sustainable wineries and a glorious
+    Pacific coastline, Sonoma county in northern California offers a beautiful, quieter
+    alternative to its better-known neighbour, Napa Valley.
+  url: https://www.nationalgeographic.com/travel/article/the-ultimate-guide-to-sonoma-wine-country-california
+  date: '2025-11-11'
+  source: National Geographic
+- title: '‘Almost utopian’: how protecting the environment is boosting the economy
+    in Brazil'
+  description: This bold approach could galvanize countries attending the COP30 summit.
+  url: https://www.nature.com/articles/d41586-025-03631-2
+  date: '2025-11-11'
+  source: Nature.com
+- title: Don’t Spend Trump’s $2,000 A Person Tariff Dividend Check Just Yet
+  description: President Trump has pitched the idea of using tariff revenues for a
+    $2,000 “dividend” payment. But there are big obstacles, including that Congress
+    hasn’t approved it.
+  url: https://www.forbes.com/sites/kellyphillipserb/2025/11/10/dont-spend-trumps-2000-a-person-tariff-dividend--check-just-yet/
+  date: '2025-11-11'
+  source: Forbes
+- title: CoreWeave’s earnings report highlights $56 billion in contracted revenue,
+    but its guidance and share price tick down amid AI infrastructure bubble fears
+  description: All eyes were on the datacenter operator’s RPO figure, which matched
+    Wall Street’s $50 billion-$60 billion expectations.
+  url: https://fortune.com/2025/11/10/coreweave-earnings-infrastructure-debt-ai-bubble/
+  date: '2025-11-11'
+  source: Fortune
+- title: The Trump Administration Has a New Plan for Gaza
+  description: The U.S. wants to build housing for those displaced by the war, but
+    not everyone is on board.
+  url: https://www.theatlantic.com/national-security/2025/11/gaza-new-plan-united-states/684879/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: 'CNBC Daily Open: AI is back — it never really went away'
+  description: Investors piled back into artificial intelligence names on Monday stateside.
+    "AI-related stocks should drive equity markets," an analyst said.
+  url: https://www.cnbc.com/2025/11/11/cnbc-daily-open-ai-is-back-it-never-really-went-away.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Some constituents say they struggled to reach Fetterman before vote to end
+    government shutdown
+  description: Some of Sen. John Fetterman's constituents said they struggled to reach
+    his office ahead of the vote on the government shutdown.
+  url: https://www.cbsnews.com/pittsburgh/news/constituents-fetterman-unavailable-government-shutdown-vote/
+  date: '2025-11-10'
+  source: CBS News
+- title: Once a sure thing, Australia's bid to host COP31 falters amid deadlock with
+    Turkey
+  description: If no agreement is reached between the two countries, the German city
+    of Bonn will host by default.
+  url: https://www.bbc.com/news/articles/cly4pnpl0g7o
+  date: '2025-11-10'
+  source: BBC News
+- title: 'Muscatelli report: What will it take to grow Scotland''s economy?'
+  description: Prof Anton Muscatelli's report calls for a range of reforms to planning,
+    business rates and skills in Scotland.
+  url: https://www.bbc.com/news/articles/c8dr8ddr7l1o
+  date: '2025-11-10'
+  source: BBC News
+- title: 'Trump responds to criticism from Marjorie Taylor Greene: ''She''s lost her
+    way'''
+  description: Greene, a longtime Trump ally, has been increasingly critical of the
+    Republican Party and the Trump administration in recent months.
+  url: https://www.nbcnews.com/politics/donald-trump/trump-responds-criticism-marjorie-taylor-greene-lost-way-rcna243102
+  date: '2025-11-10'
+  source: NBC News
+- title: Surveillance video shows father and son killed in shooting outside their
+    Chicago jewelry store
+  description: Chicago police are searching for the shooter who killed a father and
+    son during a robbery at their family jewelry store over the weekend.
+  url: https://www.cbsnews.com/chicago/news/little-village-shooting-robbery-jewelry-store-26th-street/
+  date: '2025-11-10'
+  source: CBS News
+- title: Prominent Afrikaners refuse to be 'pawns,' and hit back at Trump's claims
+    about South Africa
+  description: Prominent Afrikaners are pushing back after President Trump announced
+    no U.S. officials will attend the G20 in Johannesburg, rejecting his claims of
+    "white persecution" in South Africa as false and politically driven.
+  url: https://www.npr.org/2025/11/10/nx-s1-5603421/g20-afrikaners-trump-south-africa
+  date: '2025-11-10'
+  source: NPR
+- title: 8 Democrats voted with Republicans on a shutdown deal. Here’s what they’ve
+    said about why
+  description: They faced almost instant blowback from members of their own party
+    as they voted to allow the Senate to move forward on compromise legislation that
+    would reopen the government.
+  url: https://www.pbs.org/newshour/politics/8-democrats-voted-with-republicans-on-a-shutdown-deal-heres-what-theyve-said-about-why
+  date: '2025-11-10'
+  source: PBS
+- title: Starring Dick Van Dyke – About the documentary
+  description: American Masters Celebrates Dick Van Dyke’s 100th Birthday with Star-Studded
+    Documentary. Starring Dick Van Dyke explores how the prolific performer became
+    a star on stage, television and film for nearly eight decades. Over the course
+    of his life, Di
+  url: https://www.pbs.org/wnet/americanmasters/dick-van-dyke-documentary/37036/
+  date: '2025-11-10'
+  source: PBS
+- title: What Trump's 50-year mortgage plan could mean for homebuyers
+  description: A senior housing official confirmed that a 50-year mortgage plan is
+    underway after President Trump floated the idea on Truth Social.
+  url: https://www.cbsnews.com/news/trump-50-year-mortgage-loan-bill-pulte-cost/
+  date: '2025-11-10'
+  source: CBS News
+- title: Upcoming Frida Kahlo auction could fetch up to $60 million, potentially setting
+    a new record for a woman artist
+  description: Frida Kahlo’s "El sueño (La cama)" is causing a stir among art historians
+    as its estimated $40 million to $60 million price tag would make it the most expensive
+    work by any female or Latin American artist when it goes to auction later this
+    month.
+  url: https://www.pbs.org/newshour/world/upcoming-frida-kahlo-auction-could-fetch-up-to-60-million-potentially-setting-a-new-record-for-a-woman-artist
+  date: '2025-11-10'
+  source: PBS
+- title: Trump slams air traffic controllers who called out during the government
+    shutdown
+  description: Trump said on social media that he wasn't happy with controllers who
+    called out of work, and suggested a $10,000 bonus for those who didn't take any
+    time off during the shutdown.
+  url: https://www.npr.org/2025/11/10/nx-s1-5604664/trump-air-traffic-controllers-forced-time-off-bonus
+  date: '2025-11-10'
+  source: NPR
+- title: Family says father and toddler hit with pepper spray as they headed shopping
+    in suburban Chicago
+  description: A suburban Chicago father says he and his 1-year-old daughter were
+    pepper-sprayed at close range as they headed grocery shopping over the weekend
+    and happened upon federal immigration agents. Rafael Veraza said the incident
+    happened in a Sam’s Club p
+  url: https://apnews.com/article/immigration-chicago-pepper-spray-90effb7970339902682dc9c9fda8e1d8
+  date: '2025-11-10'
+  source: Associated Press
+- title: 'Fact check: Trump’s lying spree about inflation | CNN Politics'
+  description: President Donald Trump went on a lying spree about inflation last week.
+  url: https://www.cnn.com/2025/11/10/politics/inflation-trump-fact-check
+  date: '2025-11-10'
+  source: CNN
+- title: How Trump’s support for white South Africans led to a U.S. boycott of the
+    G20 summit
+  description: U.S. President Donald Trump says his government will boycott the Group
+    of 20 summit this month in South Africa over his claims that a white minority
+    group there is being violently persecuted.
+  url: https://www.pbs.org/newshour/world/how-trumps-support-for-white-south-africans-led-to-a-u-s-boycott-of-the-g20-summit
+  date: '2025-11-10'
+  source: PBS
+- title: Warren Buffett says he's "going quiet" in CEO letter to investors
+  description: In an eight-page letter published Monday, Warren Buffett said he'll
+    donate 2.7 million of his shares to four family foundations.
+  url: https://www.cbsnews.com/news/warren-buffett-shareholder-letter-berkshire-hathaway/
+  date: '2025-11-10'
+  source: CBS News
+- title: '''If You Can Keep It'': The Results Of The 2025 Election'
+  description: In the first general election since the beginning of Donald Trump’s
+    second term, Democrats won big. <a href="https://www.cnn.com/2025/11/09/politics/democrats-voting-government-shutdown-deal"target="_blank"   >But
+    they might also be set to kill a lot
+  url: https://www.npr.org/2025/11/10/nx-s1-5604407/if-you-can-keep-it-the-results-of-the-2025-election
+  date: '2025-11-10'
+  source: NPR
+- title: Trump administration claims prices are leveling off
+  description: The Trump administration is claiming that the economy is making progress
+    despite a gap between wage and price increases. CBS News MoneyWatch correspondent
+    Kelly O'Grady has more.
+  url: https://www.cbsnews.com/video/trump-administration-claims-prices-are-leveling-off/
+  date: '2025-11-10'
+  source: CBS News
+- title: Sarkozy released from prison after 3 weeks as he appeals conspiracy conviction
+  description: France’s former President Nicolas Sarkozy has left a Paris prison after
+    an appeals court granted him release under judicial supervision.
+  url: https://www.pbs.org/newshour/world/sarkozy-released-from-prison-after-3-weeks-as-he-appeals-conspiracy-conviction
+  date: '2025-11-10'
+  source: PBS
+- title: ESPN names Georgia football's fatal flaw ahead of Texas game
+  description: ESPN has named the Georgia Bulldogs' biggest flaw that will prevent
+    UGA from winning a national championship
+  url: https://ugawire.usatoday.com/story/sports/college/bulldogs/football/2025/11/10/espn-georgia-bulldogs-football-fatal-flaw-weakness/87197438007/
+  date: '2025-11-10'
+  source: USA Today
+- title: Record revenue forecast for Prem amid R360 threat
+  description: Prem Rugby is predicted to record revenues of more than £200m next
+    year as the league looks to stave off the threat of the rebel R360 competition.
+  url: https://www.bbc.com/sport/rugby-union/articles/cz0x25x1m0do
+  date: '2025-11-10'
+  source: BBC News
+- title: These 8 Democrats voted with Republicans on shutdown deal
+  description: Eight Democratic senators are facing criticism from their own party
+    for their deal with Republicans to end the federal government shutdown. The eight
+    senators voted Sunday night to provide crucial votes to allow the Senate to move
+    forward on compromi
+  url: https://apnews.com/article/government-shutdown-8-democrats-e83180c0b69642a00a234c244d9ea76e
+  date: '2025-11-10'
+  source: Associated Press
+- title: Micah's takeaways from the Big Ten in Week 11
+  description: 'Week 11 in the Big Ten was full of chaos, none of which involved USC.
+    The most interesting national games came from the B1G:'
+  url: https://trojanswire.usatoday.com/story/sports/college/2025/11/10/week-11-big-ten-football-chaos-usc-oregon-iowa/87180171007/
+  date: '2025-11-10'
+  source: USA Today
+- title: Fight fake news and defeat climate deniers, Brazil's Lula tells UN talks
+  description: The world must "defeat" climate denialism and fake news, Brazil's President
+    Lula da Silva tells UN climate summit.
+  url: https://www.bbc.com/news/articles/cn51pn74l23o
+  date: '2025-11-10'
+  source: BBC News
+- title: Reeves suggests benefit limits on larger families to be lifted
+  description: The chancellor tells the BBC children in bigger families should not
+    be "penalised" by the welfare system.
+  url: https://www.bbc.com/news/articles/c70j7dxjp5wo
+  date: '2025-11-10'
+  source: BBC News
+- title: Nottingham Forest 3-1 Leeds - the fans' verdict
+  description: 'Omari Hutchinson changed the game with his running and pace and Taiwo
+    Awoniyi looked lively. Encouraging, and once Chris Wood, Ola Aina and Callum Hudson
+    Odoi are back we should have enough to pull clear of danger. James: Finally, but
+    this Forest has'
+  url: https://www.bbc.com/sport/football/articles/crexppn4n9eo
+  date: '2025-11-10'
+  source: BBC News
+- title: Trump threatens legal action, BBC apologizes for speech edit after top execs
+    quit
+  description: President Donald Trump has threatened the BBC with legal action after
+    Director-General Tim Davie, and news CEO Deborah Turness resigned.
+  url: https://www.nbcnews.com/business/media/trump-threatens-bbc-legal-action-speech-edit-panorama-davie-turness-rcna242958
+  date: '2025-11-10'
+  source: NBC News
+- title: Bellamy 'perfect ' for Celtic, but is timing wrong?
+  description: Joe Ledley believes fellow Welshman Craig Bellamy is "a perfect fit"
+    to be Celtic manager and would be "very interested" in doing so.
+  url: https://www.bbc.com/sport/football/articles/cn4jpk7p2klo
+  date: '2025-11-10'
+  source: BBC News
+- title: What will happen to home prices in 2026? Here's what experts say buyers should
+    know now.
+  description: Experts forecast modest home price growth next year, though several
+    forces could shift the outcome.
+  url: https://www.cbsnews.com/news/what-will-happen-to-home-prices-in-2026-heres-what-experts-say-buyers-should-know-now/
+  date: '2025-11-10'
+  source: CBS News
+- title: Trump ramps up the 'insider pardon' for those in his personal, political
+    orbit
+  description: This week, President Trump pardoned allies accused of trying to overturn
+    the 2020 presidential election. It is part of an uptick in "insider pardons" issued
+    in his second term, one legal expert says.
+  url: https://www.npr.org/2025/11/10/nx-s1-5587875/trump-pardons-insider-political-orbit-second-term
+  date: '2025-11-10'
+  source: NPR
+- title: Stocks jump as the Senate takes steps to end the government shutdown
+  description: Wall Street was buoyed by investor optimism that the longest federal
+    government shutdown in U.S. history could be nearing an end.
+  url: https://www.cbsnews.com/news/stocks-government-shutdown-senate-deal-sp500-dow-jones-november-10/
+  date: '2025-11-10'
+  source: CBS News
+- title: Visa and Mastercard might have a deal to lower merchant fees. Your rewards
+    card could get hit | CNN Business
+  description: Visa and Mastercard have a potential deal with retailers that would
+    lower fees for merchants, potentially lowering prices but threatening prized consumer
+    rewards.
+  url: https://www.cnn.com/2025/11/10/business/visa-mastercard-deal-merchant-fees
+  date: '2025-11-10'
+  source: CNN
+- title: Supreme Court to weigh imposing new limits on mail-in ballots in a major
+    election case
+  description: WASHINGTON — Taking up a contentious election issue with nationwide
+    implications, the Supreme Court on Monday agreed to consider whether federal law
+    bars states from counting mail-in ballots that are received after Election Day
+  url: https://www.nbcnews.com/politics/supreme-court/supreme-court-weigh-imposing-new-limits-mail-ballots-major-election-ca-rcna238202
+  date: '2025-11-10'
+  source: NBC News
+- title: Orkney sees tourism dip as cruise ship season ends
+  description: Orkney Harbours said several factors were to blame for the drop, but
+    it was not necessarily looking for an increase every year.
+  url: https://www.bbc.com/news/articles/cvgvzz472l8o
+  date: '2025-11-10'
+  source: BBC News
+- title: Celebrity Traitors to return for a second series in 2026
+  description: The first celebrity series was a big ratings hit, with the winner collecting
+    £87,500 for charity.
+  url: https://www.bbc.com/news/articles/cwy12ln7rnlo
+  date: '2025-11-10'
+  source: BBC News
+- title: Tesla Cybertruck executive leaving the Musk-led automaker
+  description: The executive leading Tesla’s Cybertruck business is leaving the Elon
+    Musk-led automaker after eight years. Siddhant Awasthi, the program manager for
+    Tesla’s Cybertruck and Model 3, said on LinkedIn that it wasn’t an easy decision
+    to depart the compa
+  url: https://apnews.com/article/tesla-musk-cybertruck-siddhant-awasthi-linkedin-f8b04f48221137a670d6543c2f98f587
+  date: '2025-11-10'
+  source: Associated Press
+- title: Post Office Horizon IT contract extended for another year
+  description: It is paying £41m to the Japanese-owned company Fujitsu to use the
+    Horizon system until March 2027.
+  url: https://www.bbc.com/news/articles/cz6n2v7ywgeo
+  date: '2025-11-10'
+  source: BBC News
+- title: Court orders ex-French President Nicolas Sarkozy's release from prison
+  description: A Paris court has ordered former French President Nicolas Sarkozy's
+    release from prison less than three weeks into his five-year sentence for criminal
+    conspiracy.
+  url: https://www.cbsnews.com/news/nicolas-sarkozy-former-french-president-court-orders-release-prison/
+  date: '2025-11-10'
+  source: CBS News
+- title: Sarwar refuses to comment on UK tax hike speculation
+  description: Chancellor Rachel Reeves has fuelled speculation that she could announce
+    an increase in the Autumn Budget.
+  url: https://www.bbc.com/news/articles/c77z55n2x6lo
+  date: '2025-11-10'
+  source: BBC News
+- title: 'Nicolas Sarkozy: Former French President to be released from prison pending
+    appeal'
+  description: Former French President Nicolas Sarkozy will be released from prison
+    after a Paris court ruled he could be freed pending an appeal for his October
+    conviction
+  url: https://www.cnn.com/2025/11/10/world/nicolas-sarkozy-released-prison-intl
+  date: '2025-11-10'
+  source: CNN
+- title: Red Dragons Den - US sales pitch for Welsh football
+  description: Welsh football bosses are heading to the United States of America in
+    a Dragons Den style bid to attract investors to Wales' top flight.
+  url: https://www.bbc.com/sport/football/articles/cp8ypp2lyydo
+  date: '2025-11-10'
+  source: BBC News
+- title: New funding gives 'space to focus on football'
+  description: The club says the money will be used to support coaching and administrative
+    resources for the club.
+  url: https://www.bbc.com/news/articles/cjek4427exxo
+  date: '2025-11-10'
+  source: BBC News
+- title: Democrats seek probe into agency messages blaming them for the shutdown
+  description: Senate Democrats call for an investigation into the Trump administration’s
+    posts on federal agency websites blaming Democrats for the government shutdown.
+  url: https://www.nbcnews.com/politics/congress/democrats-push-investigation-trump-messages-blaming-democrats-shutdown-rcna242591
+  date: '2025-11-10'
+  source: NBC News
+- title: Welcome to the planet’s newest oil frontier
+  description: The region is seeing a boom in fossil fuels just as the impacts of
+    the climate crisis really bite. It’s raising thorny questions about who gets to
+    benefit...
+  url: https://www.cnn.com/2025/11/10/climate/south-america-oil-gas-brazil-guyana-argentina-climate
+  date: '2025-11-10'
+  source: CNN
+- title: Alaska's public schools can serve as emergency shelters. The buildings are
+    in crisis
+  description: Alaska's public schools are being used as emergency shelters, though
+    many of the buildings are crumbling.
+  url: https://www.npr.org/2025/11/10/g-s1-96847/alaska-schools-emergency-shelter-disaster
+  date: '2025-11-10'
+  source: NPR
+- title: Guinness maker appoints former Tesco boss to stem falling sales
+  description: It is hoped the former Tesco boss can reignite sales at the biggest
+    drinks-maker in the world, Diageo.
+  url: https://www.bbc.com/news/articles/cy4021v7wepo
+  date: '2025-11-10'
+  source: BBC News
+- title: Call for more employers to pay 'real living wage'
+  description: Campaigners are calling for more businesses to explore the benefits
+    of paying the real living wage.
+  url: https://www.bbc.com/news/articles/c3643x1jd28o
+  date: '2025-11-10'
+  source: BBC News
+- title: Plans in progress for Inverness Castle opening ceremony
+  description: The detail is set out in a new report, but no date has been released
+    for when the new attraction will open.
+  url: https://www.bbc.com/news/articles/c625ld93x2eo
+  date: '2025-11-10'
+  source: BBC News
+- title: China steps up efforts to woo global tech talent with a new visa scheme
+  description: China has a new visa scheme that is creating job opportunities for
+    foreign professionals, part of its effort to attract global talent and gain an
+    edge in global technology. The K-visa, similar to the H-1B visa in the United
+    States, targets skilled sc
+  url: https://apnews.com/article/china-us-talent-tech-visa-h1b-4c5792cf1b9fec9a846ca002f9e383ae
+  date: '2025-11-10'
+  source: Associated Press
+- title: How does London's housing crisis affect the UK economy?
+  description: A "localised housing crisis" has become a "national problem", according
+    to economic experts.
+  url: https://www.bbc.com/news/articles/c1k0lyy7wvdo
+  date: '2025-11-10'
+  source: BBC News
+- title: '''I didn''t feel safe after race hate attack on my shop - but I''m glad
+    I stayed'''
+  description: A businessman who considered leaving Belfast after a racist attack
+    is back in business in another part of the city.
+  url: https://www.bbc.com/news/articles/cvgw0epx2lzo
+  date: '2025-11-10'
+  source: BBC News
+- title: '''Killed because they are Alawites'': Fear among Syria''s minorities after
+    the fall of Assad'
+  description: Many among Syria's minorities see little future in the country amid
+    revenge attacks and sectarian killings.
+  url: https://www.bbc.com/news/articles/crex1zp3213o
+  date: '2025-11-10'
+  source: BBC News
+- title: Indonesia names ex-dictator Suharto a 'national hero'
+  description: The controversial legacy of Suharto's New Order regime has sparked
+    heated protests against the move.
+  url: https://www.bbc.com/news/articles/cn40p2vwyn7o
+  date: '2025-11-10'
+  source: BBC News
+- title: 'A hacking kingpin reveals all: Inside the gang that left a trail of destruction'
+  description: One of the world's most prominent cyber-criminals speaks to the BBC
+    in an exclusive interview.
+  url: https://www.bbc.com/news/articles/cm2w0pvg4wko
+  date: '2025-11-10'
+  source: BBC News
+- title: US Senate passes deal aimed at ending government shutdown
+  description: The measure signals a major breakthrough but the deal still needs to
+    get over more hurdles in Congress.
+  url: https://www.bbc.com/news/articles/cpd2p2eddnzo
+  date: '2025-11-10'
+  source: BBC News
+- title: 'Named on a napkin: EasyJet celebrates 30 years'
+  description: We take a look at the history and impact of the budget airline based
+    at Luton Airport.
+  url: https://www.bbc.com/news/articles/ckgkl4x8z88o
+  date: '2025-11-10'
+  source: BBC News
+- title: Texas Gov. Greg Abbott announces run for fourth term, touts property tax
+    plan, economy, policies
+  description: Gov. Greg Abbott announced on Sunday evening that he is running for
+    a fourth term as governor of the Lone Star State.
+  url: https://www.cbsnews.com/texas/news/texas-gov-greg-abbott-announces-run-for-fourth-term/
+  date: '2025-11-10'
+  source: CBS News
+- title: Ahead of the G20, is Johannesburg's city centre in ruins?
+  description: Some residents in the heart of the South African city are living amid
+    sewage in derelict buildings run by criminal gangs.
+  url: https://www.bbc.com/news/articles/c993k9y2l4zo
+  date: '2025-11-10'
+  source: BBC News
+- title: Tutoring a baby to make them an 'English gentleman' - Is it worth the money?
+  description: The advert seeks "an extraordinary tutor" required "to support child
+    on his first steps to becoming an English gentleman."
+  url: https://www.bbc.com/news/articles/cd9kljww1zdo
+  date: '2025-11-10'
+  source: BBC News
+- title: How the US overtook China as Africa's biggest foreign investor
+  description: As the two nations vie for key materials, the US has regained the lead
+    in foreign direct investments in African countries.
+  url: https://www.bbc.com/news/articles/cx2yl88wd3lo
+  date: '2025-11-10'
+  source: BBC News
+- title: Do UN climate talks have a point any more?
+  description: The US president is notably absent from these UN climate talks, as
+    are other world leaders, all of which prompts questions about the purpose of COP
+    today.
+  url: https://www.bbc.com/news/articles/c205jvyg3wjo
+  date: '2025-11-10'
+  source: BBC News
+- title: China exempts chips used by carmakers from export curbs
+  description: The block on exports of the company's chips had raised fears that European
+    car production would be hit.
+  url: https://www.bbc.com/news/articles/c0rp2514g4qo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
+  date: '2025-11-10'
+  source: BBC News
+- title: China exempts chips used by carmakers from export curbs
+  description: The block on exports of the company's chips had raised fears that European
+    car production would be hit.
+  url: https://www.bbc.com/news/articles/c0rp2514g4qo
+  date: '2025-11-10'
+  source: BBC News
+- title: Anduril's unmanned jet "Fury" makes first flight
+  description: A Collaborative Combat Aircraft, the AI-powered fighter YFQ-44A has
+    begun flight testing, as General Atomics takes to the sky as well.
+  url: https://www.cbsnews.com/news/anduril-unmanned-jet-fury-makes-first-flight-60-minutes/
+  date: '2025-11-10'
+  source: CBS News
+- title: 'Q&A: How culture as a sustainable development goal is starting to become
+    a reality'
+  description: Eight global millennium development goals were established in 2000
+    by member states of the United Nations (UN) and endorsed by other multilateral
+    organizations. They ranged from eliminating hunger to empowering women, and from
+    reducing child mortalit
+  url: https://phys.org/news/2025-11-qa-culture-sustainable-goal-reality.html
+  date: '2025-11-10'
+  source: Phys.Org
+- title: Fragments of Stone of Scone tracked down to reveal a hidden history
+  description: 'The Stone of Scone, also known as the Stone of Destiny, is a treasured
+    relic of history in Great Britain, used for centuries as an accompaniment to the
+    coronation of kings. This 152 kg (335 lb) sandstone block has suffered through
+    a series of thefts '
+  url: https://phys.org/news/2025-11-fragments-stone-scone-tracked-reveal.html
+  date: '2025-11-10'
+  source: Phys.Org
+- title: Are AI Chatbots Changing How We Shop?
+  description: "Are AI Chatbots Changing How We Shop?Ben.Mattison\nMon, 11/10/2025\
+    \ - 10:33\n\n Three Questions\n <li>\n Jidong Zhou\n\n\n Professor of Economics\n\
+    \r\n\n \r\n\n</li>\n<ul>\n <li>Data and AI</li>\n </ul>\n Square\n 176534\n For\
+    \ decades, online search was the starting point"
+  url: https://insights.som.yale.edu/insights/are-ai-chatbots-changing-how-we-shop
+  date: '2025-11-10'
+  source: Yale.edu
+- title: AI may blunt our thinking skills – here’s what you can do about it
+  description: There is growing evidence that our reliance on generative AI tools
+    is reducing our ability to think clearly and critically, but it doesn’t have to
+    be that way
+  url: https://www.newscientist.com/article/2501634-ai-may-blunt-our-thinking-skills-heres-what-you-can-do-about-it/
+  date: '2025-11-10'
+  source: New Scientist
+- title: Could electric race cars soon be faster than Formula 1?
+  description: The electic cars of the Formula E racing championship can accelerate
+    faster than Formula 1 cars and their top speeds are catching up – but battery
+    capacity would let them down in a head-to-head
+  url: https://www.newscientist.com/article/2503519-could-electric-race-cars-soon-be-faster-than-formula-1/
+  date: '2025-11-10'
+  source: New Scientist
+- title: As U.S. and E.U. Retreat on Climate, China Takes the Leadership Role
+  description: As U.N. talks get underway, China is emerging as a key leader in international
+    climate efforts. It is empowering the global energy transition, and along with
+    India and Brazil, is becoming the driving force in climate diplomacy and filling
+    a vacuum le
+  url: https://e360.yale.edu/features/china-climate-diplomacy
+  date: '2025-11-10'
+  source: Yale.edu
+- title: AI power use forecast finds the industry far off track to net zero
+  description: Several large tech firms that are active in AI have set goals to hit
+    net zero by 2030, but a new forecast of the energy and water required to run large
+    data centres shows they’re unlikely to meet those targets
+  url: https://www.newscientist.com/article/2503556-ai-power-use-forecast-finds-the-industry-far-off-track-to-net-zero/
+  date: '2025-11-10'
+  source: New Scientist
+- title: Latham & Watkins Discusses Treasury Request for Public Input on GENIUS Act
+    Implementation
+  description: On September 19, 2025, the US Department of the Treasury (Treasury) issued an
+    Advance Notice of Proposed Rulemaking (ANPRM), seeking public comment related
+    to its implementation of the Guiding and Establishing National Innovation for
+    US Stablecoins A
+  url: https://clsbluesky.law.columbia.edu/2025/11/10/latham-watkins-discusses-treasury-request-for-public-input-on-genius-act-implementation/
+  date: '2025-11-10'
+  source: Columbia.edu
+- title: 'From Hype to Adoption: Guiding Organizations in Their AI Journey'
+  description: After a flurry of initial investments in artificial intelligence, including
+    generative and agentic AI, many organizations are facing mixed results. The SEI
+    is examining how organizations adopt AI and what methods they can use to measure
+    and improve t
+  url: https://www.sei.cmu.edu/blog/from-hype-to-adoption-guiding-organizations-in-their-ai-journey/
+  date: '2025-11-10'
+  source: Carnegie Mellon University
+- title: Rebuilding Ukraine — one university’s bold vision
+  description: Rector and AI researcher Nataliya Shakhovska tells Nature how her institution
+    is supporting students and staff members amid the war and about her hopes for
+    the future.
+  url: https://www.nature.com/articles/d41586-025-03638-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: Don’t despair, collective action can address climate change
+  description: Even small acts can make a big difference in driving positive environmental
+    impacts.
+  url: https://www.nature.com/articles/d41586-025-03634-z
+  date: '2025-11-10'
+  source: Nature.com
+- title: Polyethylene hydrogenolysis to liquid products over bimetallic catalysts
+    with favorable environmental footprint and economics
+  description: Proving sustainable chemical plastic recycling must rely on realistic
+    feedstocks and sustainability-driven catalyst design. Here, the authors report
+    titania-supported Ru–Ni alloy nanoparticles achieving up to 55% liquid (C6 to
+    C45) products for low-c
+  url: https://www.nature.com/articles/s41467-025-65260-7
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Endowing urban business environments with an intelligent brain: empirical
+    evidence from cities in western China'
+  description: 'Scientific Reports - Endowing urban business environments with an
+    intelligent brain: empirical evidence from cities in western China'
+  url: https://www.nature.com/articles/s41598-025-05630-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: VC Jennifer Neundorfer explains how founders can stand out in a crowded AI
+    market | TechCrunch
+  description: January Ventures co-founder Jennifer Neundorfer discussed this AI-driven
+    funding market on the Equity podcast during TechCrunch Disrupt.
+  url: https://techcrunch.com/2025/11/10/vc-jennifer-neundorfer-explains-how-founders-can-stand-out-in-a-crowded-ai-market/
+  date: '2025-11-10'
+  source: TechCrunch
+- title: Trump Admin Says It’s Working On 50-Year Mortgages—Here’s What Buyers Could
+    Pay
+  description: The proposal was met with a mixed reception from critics.
+  url: https://www.forbes.com/sites/zacharyfolk/2025/11/10/trump-admin-says-its-working-on-50-year-mortgages-heres-what-buyers-could-pay/
+  date: '2025-11-10'
+  source: Forbes
+- title: Trump demands $10,000 bonuses for air traffic controllers who worked during
+    shutdown and pay cuts for those who didn’t amid flight chaos
+  description: Air travelers should expect worsening cancellations and delays this
+    week even if the government shutdown ends.
+  url: https://fortune.com/2025/11/10/trump-10000-bonuses-air-traffic-controllers-governent-shutdown-pay-cuts-sick-days/
+  date: '2025-11-10'
+  source: Fortune
+- title: Tesla’s Engineering Exodus Comes Amid Shift From Core EV Mission
+  description: The latest departures, days after shareholders backed Elon Musk’s $1
+    trillion pay package, follow the loss of top sales, battery, robotics and chip
+    executives this year.
+  url: https://www.forbes.com/sites/alanohnsman/2025/11/10/teslas-engineering-exodus-comes-amid-shift-from-core-ev-mission/
+  date: '2025-11-10'
+  source: Forbes
+- title: Paramount Plus is getting a price hike in early 2026
+  description: Paramount Plus is going up in price again. As part of its earnings
+    report released on Monday, Paramount announced that it will “implement price increases
+    in the US” in the first quarter of 2026 — without saying how much it will soon
+    cost. Paramount s
+  url: https://www.theverge.com/news/818019/paramount-plus-price-increase-us-2026
+  date: '2025-11-10'
+  source: The Verge
+- title: How Emily Sundberg Built ‘Feed Me’ Into A 7-Figure Substack Empire
+  description: Smart, sharp and irreverent, “the Carrie Bradshaw of money” has made
+    her Substack the pulse of the culture. Meet the voice and creator behind "Feed
+    Me," Emily Sundberg.
+  url: https://www.forbes.com/sites/karineldor/2025/11/10/how-emily-sundberg-built-feed-me-into-a-seven-figure-substack-powerhouse/
+  date: '2025-11-10'
+  source: Forbes
+- title: Airport lounges are about to get even more exclusive as some credit card
+    companies jack up annual fees by more than 40%
+  description: One of the most popular travel perk cards, the Chase Sapphire Reserve,
+    just ratcheted up its annual fee from $550 to $795.
+  url: https://fortune.com/2025/11/10/airport-lounges-more-expensive-credit-card-companies-jacking-up-prices/
+  date: '2025-11-10'
+  source: Fortune
+- title: You don’t hate AI because of genuine dislike. No, there’s a $1 billion plot
+    by the ‘Doomer Industrial Complex’ to brainwash you, Trump’s AI czar says
+  description: Remember “Effective Altruism?” The movement led by disgraced crypto
+    kingpin Sam Bankman-Fried is back, lobbying against AI.
+  url: https://fortune.com/2025/11/10/why-do-people-hate-ai-david-sacks-effective-altruism-doomer-industrial-complex/
+  date: '2025-11-10'
+  source: Fortune
+- title: Ahmed al-Sharaa meets Trump as US extends Syria sanctions relief
+  description: Syrian presidency says al-Sharaa and Trump discussed ways to 'strengthen
+    and develop' ties between the US and Syria.
+  url: https://www.aljazeera.com/news/2025/11/10/ahmed-al-sharaa-meets-trump-as-us-extends-syria-sanctions-relief
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: A better way of thinking about the AI bubble  | TechCrunch
+  description: AI isn't all or nothing, and even good bets can turn sour if you aren't
+    careful about how you make them.
+  url: https://techcrunch.com/2025/11/10/a-better-way-of-thinking-about-the-ai-bubble/
+  date: '2025-11-10'
+  source: TechCrunch
+- title: Rad Power Bikes faces shutdown in January without new funding | TechCrunch
+  description: The company is "still fighting to find ways to continue" according
+    to an email viewed by TechCrunch.
+  url: https://techcrunch.com/2025/11/10/rad-power-bikes-faces-shutdown-in-january-without-new-funding/
+  date: '2025-11-10'
+  source: TechCrunch
+- title: Kaltura acquires eSelf, founded by creator of Snap’s AI, in $27M deal | TechCrunch
+  description: Kaltura acquires AI avatar startup eSelf to integrate generative AI
+    into enterprise video and learning tools.
+  url: https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/
+  date: '2025-11-10'
+  source: TechCrunch
+- title: The Thanks Visa & MasterCard Get For Financing Global Business Growth
+  description: It seems merchants forget how things used to be.
+  url: https://www.forbes.com/sites/johntamny/2025/11/10/the-thanks-visa--mastercard-get-for-financing-global-business-growth/
+  date: '2025-11-10'
+  source: Forbes
+- title: 'Trump’s Pardon List: Here Are The Big-Time Donors And Allies He’s Sprung
+    Free'
+  description: Trump pardoned more than 70 people who helped him try to overturn the
+    2020 election—the latest in a string of pardons to people who have benefited the
+    president.
+  url: https://www.forbes.com/sites/alisondurkee/2025/11/10/trumps-pardon-list-here-are-the-big-time-donors-and-allies-hes-sprung-free/
+  date: '2025-11-10'
+  source: Forbes
+- title: US airline disruptions persist amid prolonged government shutdown chaos
+  description: US airline havoc continues with over 1,700 cancellations and 5,000
+    delays despite signs shutdown may be ending.
+  url: https://www.aljazeera.com/economy/2025/11/10/us-airline-disruptions-persist-amid-prolonged-government-shutdown-chaos
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: 'UK VAT And Customs Duties: A Guide For Cross-Border E-Commerce Sellers'
+  description: Find out how UK VAT and customs rules apply to e-commerce sellers shipping
+    goods from abroad to UK customers and what changes may follow after 2025.
+  url: https://www.forbes.com/sites/aleksandrabal/2025/11/10/uk-vat-and-customs-duties-a-guide-for-cross-border-e-commerce-sellers/
+  date: '2025-11-10'
+  source: Forbes
+- title: Tyson Warns Of Plummeting Consumer Beef Purchases—As Chicken Sales Soar
+  description: A shrinking of the American cattle herd, plus a tariff-driven decline
+    in foreign imports, has led to a spike in beef prices.
+  url: https://www.forbes.com/sites/maryroeloffs/2025/11/10/tyson-warns-of-plummeting-consumer-beef-purchases-as-chicken-sales-soar/
+  date: '2025-11-10'
+  source: Forbes
+- title: AI stocks lead Wall Street rebound as Nvidia, Palantir surge and S&P 500
+    claws back last week’s losses
+  description: Nvidia was by far the strongest force lifting the market and rallied
+    4.8%. It's a bounceback after Nvidia and other winners in the frenzy around artificial-intelligence
+    technology were at the center of last week’s drop.
+  url: https://fortune.com/2025/11/10/ai-stocks-lead-wall-street-rebound-as-nvidia-palantir-surge-and-sp-500-claws-back-last-weeks-losses-market/
+  date: '2025-11-10'
+  source: Fortune
+- title: Warren Buffett is ‘going quiet’ after he steps down as Berkshire Hathaway
+    CEO this year. Read his farewell letter to shareholders
+  description: Greg Abel will take Warren Buffett's post at year's end.
+  url: https://fortune.com/2025/11/10/read-full-warren-buffett-retirement-letter-berkshire-hathaway-shareholders/
+  date: '2025-11-10'
+  source: Fortune
+- title: Speaker Johnson says House will return to Washington for shutdown deal vote
+  description: Seven Democrats and one independent voted with Republicans Sunday night
+    to reopen the US government to end the shutdown.
+  url: https://www.aljazeera.com/economy/2025/11/10/speaker-johnson-says-house-will-return-to-washington-for-shutdown-deal-vote
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: The World’s 10 Richest People Became $40 Billion Richer As Shutdown Deal
+    Advances
+  description: Consumers have expressed growing concerns about the shutdown’s potential
+    impact on the economy in recent weeks.
+  url: https://www.forbes.com/sites/tylerroush/2025/11/10/the-worlds-10-richest-people-became-40-billion-richer-as-shutdown-deal-advances/
+  date: '2025-11-10'
+  source: Forbes
+- title: COP30 Reality Check, A Hopeful Agenda Competes With Rising Emissions
+  description: 'The COP30 climate summit convenes in Belém, Brazil. Research reveals
+    a stark reality: despite global commitments, fossil-fuel emissions have continued
+    to rise.'
+  url: https://www.forbes.com/sites/monicasanders/2025/11/10/cop30-reality-check-a-hopeful-agenda-competes-with-rising-emissions/
+  date: '2025-11-10'
+  source: Forbes
+- title: Farmers feel betrayed as China dangles millions of tons of soybean purchases
+    over the U.S. to get an edge in the escalating trade war
+  description: Farmers could lose $109 an acre for this year’s crop, according to
+    the president of the American Soybean Association.
+  url: https://fortune.com/2025/11/10/farmers-feel-betrayed-china-soybean-exports-trump-tariffs/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'Iraq parliamentary elections: What we know'
+  description: As Iraqis head to the polls, here is everything you need to know about
+    the parliamentary elections.
+  url: https://www.aljazeera.com/news/2025/11/10/iraq-parliamentary-elections-what-we-know
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Billionaire Ken Griffin shares the top traits he looks for when hiring—and
+    warns that schools are failing to prepare applicants
+  description: '"One of the problems with grade inflation in the United States is
+    we''re not teaching young Americans what it''s like to fall short," the Citadel
+    CEO said.'
+  url: https://fortune.com/2025/11/10/ken-griffin-what-i-look-for-hiring-schools-failing-grade-inflation/
+  date: '2025-11-10'
+  source: Fortune
+- title: The K-shaped economy has come for your wages, as lower-income Americans sees
+    their gains plummet to the weakest rate in a decade
+  description: A decade ago, low-income Americans saw the highest income growth, Apollo
+    chief economist Torsten Slok said. Today, the opposite is true.
+  url: https://fortune.com/2025/11/10/k-shaped-economy-wage-growth-wealthiest-poorest-americans-diverge/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'Ukraine updates: Kyiv launches energy corruption probe'
+  description: Ukraine has opened a probe into alleged bribery at state nuclear company
+    Energoatom. Meanwhile, Ukraine's special forces say they struck a pumping station
+    at a Russian oil depot in Crimea. Follow DW for the latest.
+  url: https://www.dw.com/en/ukraine-updates-kyiv-launches-energy-corruption-probe/live-74689628
+  date: '2025-11-10'
+  source: DW (English)
+- title: Blind Spots In Corporate Merger Strategy
+  description: Verizon’s $20 billion Frontier deal won FCC approval in May 2025 after
+    it pledged to drop DEI policies under pressure from the current administration.
+  url: https://www.forbes.com/sites/insider/2025/11/10/blind-spots-in-corporate-merger-strategy/
+  date: '2025-11-10'
+  source: Forbes
+- title: Former Coach CEO asks job candidates to rate EQ and quizzes applicants on
+    80 skills like style, street smarts, and integrity
+  description: Lew Frankfort, who helmed $5 billion luxury giant Coach for nearly
+    30 years, developed a three-part “immersive interviewing” tactic to “force a level
+    of honesty” among job candidates.
+  url: https://fortune.com/2025/11/10/former-coach-ceo-lew-frankfort-job-candidates-rate-boss-eq-quiz-job-applicants-80-skills-hiring/
+  date: '2025-11-10'
+  source: Fortune
+- title: iRobot’s revenue has tanked and it’s almost out of cash
+  description: 'Things continue to look bleak for the original robot vacuum maker.
+    iRobot’s third-quarter results, released last week, show that revenue is down
+    and “well below our internal expectations due to continuing market headwinds,
+    ongoing production delays, '
+  url: https://www.theverge.com/news/817536/irobots-revenue-has-tanked-and-its-almost-out-of-cash
+  date: '2025-11-10'
+  source: The Verge
+- title: Meet the millennial Meta cofounder and his wife who are giving away $20 billion
+  description: The couple has donated more than $4 billion total, including more than
+    $600 million in 2025 alone.
+  url: https://fortune.com/2025/11/10/meet-the-millennial-meta-cofounder-and-his-wife-who-are-giving-away-20-billion/
+  date: '2025-11-10'
+  source: Fortune
+- title: Paperboy Ventures Launches Breakout CPG VC Fund, Expanding To Become A Joint
+    Media-Funding Enterprise
+  description: Kyle Fitzpatrick launches unique CPG fund that blends media with fundraising
+  url: https://www.forbes.com/sites/andrewwatman/2025/11/10/paperboy-ventures-launches-breakout-cpg-vc-fund-expanding-to-become-a-joint-media-funding-enterprise/
+  date: '2025-11-10'
+  source: Forbes
+- title: 'Election Polls: Their Past, Present, And Future'
+  description: A new report on the pre-election poll performance in 2024 and an interview
+    with two seasoned veterans of Election Day polling describe problems and what
+    lies ahead.
+  url: https://www.forbes.com/sites/bowmanmarsico/2025/11/10/election-polls-their-past-present-and-future/
+  date: '2025-11-10'
+  source: Forbes
+- title: Disney Cruise Line’s New Ship Sets Sail As Brand Looks To The Future
+  description: “Our ambition in this space [is] delivering more ships to more destinations
+    [with] more stories,” Josh D’Amaro, Chairman of Disney Experiences, told me.
+  url: https://www.forbes.com/sites/megandubois/2025/11/10/disney-cruise-lines-new-ship-sets-sail-as-brand-looks-to-the-future/
+  date: '2025-11-10'
+  source: Forbes
+- title: '‘Yikes’: Top investment bank looks under the hood of the economy and finds
+    ‘the labor market doesn’t look that good’'
+  description: We've heard the labor market is in a "low-hire, low-fire" kind of environment.
+    The "low hire" part seems to be true, the other not so much.
+  url: https://fortune.com/2025/11/10/economy-bad-low-hire-fire-labor-market-recession-levels-ubs/
+  date: '2025-11-10'
+  source: Fortune
+- title: Millions endure power cuts in Ukraine as Russia strikes more energy sites
+  description: Ukraine says European allies can give up some of their Patriot missile
+    systems now and get future deliveries.
+  url: https://www.aljazeera.com/news/2025/11/10/millions-endure-power-cuts-in-ukraine-as-russia-strikes-more-energy-sites
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Ogonis wary of more oil drilling in Niger Delta
+  description: Whispers of renewed oil drilling in the Niger Delta may grow prospects
+    for much-needed infrastructure and job creation. But oil extraction is also blamed
+    for impoverishing the area through environmental devastation. Amid the tropical
+    heat, intense hu
+  url: https://www.dw.com/en/ogonis-wary-of-more-oil-drilling-in-niger-delta/a-74688663
+  date: '2025-11-10'
+  source: DW (English)
+- title: Bill Gates believes Alzheimer’s blood tests should be part of routine medicals—such
+    prevention means you could work into your 90s if you wanted to
+  description: Bill Gates wants Alzheimer’s blood tests added to U.S. medical checkups,
+    aiming to make early diagnosis and prevention routine for adults over 60.
+  url: https://fortune.com/2025/11/10/bill-gates-alzheimers-blood-tests-routine-medicals/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'US Senate shutdown vote: What happened, who voted to end it, what’s next?'
+  description: Some Democrats join Republicans to vote to end the government shutdown,
+    which enters its 41st day.
+  url: https://www.aljazeera.com/news/2025/11/10/us-senate-shutdown-vote-what-happened-who-voted-to-end-it-whats-next
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Scott Galloway warns of ‘nowhere to hide’ in markets if the OpenAI story
+    unravels
+  description: '"If the music stops, there''s not only not any chairs, there''s like
+    hot coals they''re all going to sit on. It''s going to be ugly."'
+  url: https://fortune.com/2025/11/10/scott-galloway-nowhere-to-hide-ai-bubble-sam-altman/
+  date: '2025-11-10'
+  source: Fortune
+- title: Frida Kahlo painting could sell for up to $60 million, breaking records for
+    most expensive work by any female or Latin American artist
+  description: The auction market still reflects a profound disparity as no female
+    artist has yet exceeded the maximum sale price of a male artist.
+  url: https://fortune.com/2025/11/10/frida-kahlo-portrait-auction-could-break-records-first-latin-america-and-female-artist/
+  date: '2025-11-10'
+  source: Fortune
+- title: The EPA Is in Chaos
+  description: “We learn who is furloughed when we send an email to someone and get
+    the out-of-office message,” one employee tells WIRED.
+  url: https://www.wired.com/story/environmental-protection-agency-shutdown-chaos/
+  date: '2025-11-10'
+  source: Wired
+- title: A Murky Future For Russia’s Foreign Minister
+  description: Has Russian foreign minister Sergei Lavrov become a fall guy for the
+    Kremlin's Ukraine policy?
+  url: https://www.forbes.com/sites/ilanberman/2025/11/10/a-murky-future-for-russias-foreign-minister/
+  date: '2025-11-10'
+  source: Forbes
+- title: Why Russia’s Foreign Minister May Have A Murky Future
+  description: Has Russian foreign minister Sergei Lavrov become a fall guy for the
+    Kremlin's Ukraine policy? His choices are having complex effects on the war efforts.
+  url: https://www.forbes.com/sites/ilanberman/2025/11/10/why-russias-foreign-minister-may-have-a-murky-future/
+  date: '2025-11-10'
+  source: Forbes
+- title: Brian Chesky says Airbnb’s successful IPO was ‘one of the saddest periods’
+    of his life—then Barack Obama gave him one piece of advice
+  description: Months after hitting IPO and feeling “really isolated”, Chesky revealed
+    that he sent a letter to Barack Obama asking him for advise.
+  url: https://fortune.com/2025/11/10/brian-chesky-airbnb-ipo-saddest-period-of-life-barack-obama-advice/
+  date: '2025-11-10'
+  source: Fortune
+- title: Syria’s al-Sharaa on historic visit to US, here’s what you need to know
+  description: The Syrian president will visit the White House, a first for any leader
+    from post-independence Syria.
+  url: https://www.aljazeera.com/news/2025/11/10/all-you-need-to-know-about-al-sharaas-historic-visit-to-the-us
+  date: '2025-11-10'
+  source: Al Jazeera English
+- title: Nvidia, Meta, More Lead Stock Rally As Shutdown Deal Advances
+  description: Consumers have expressed growing concerns about the shutdown’s potential
+    impact on the economy in recent weeks.
+  url: https://www.forbes.com/sites/tylerroush/2025/11/10/nvidia-meta-more-lead-stock-rally-as-shutdown-deal-advances/
+  date: '2025-11-10'
+  source: Forbes
+- title: CNN’s app is adding a ‘Shorts’ feed for bite-size videos
+  description: CNN is revamping its app’s homepage with a feed dedicated to short-form
+    videos. The new “Shorts” tab houses a stream of clips with stories from CNN, allowing
+    you to swipe through them like you would with TikTok or Instagram Reels. The CNN
+    app already
+  url: https://www.theverge.com/news/816638/cnn-app-shorts-feed-videos-launch
+  date: '2025-11-10'
+  source: The Verge
+- title: Data centers in Nvidia’s hometown stand empty awaiting power
+  description: Two projects in Nvidia’s hometown may sit empty for years because the
+    local utility isn’t ready to supply electricity.
+  url: https://fortune.com/2025/11/10/nvidia-hometown-santa-clara-california-data-centers-empty-power-grid/
+  date: '2025-11-10'
+  source: Fortune
+- title: It’s Trump’s economy now and Americans don’t seem to love it
+  description: President Donald Trump has been back in office long enough for Americans
+    to expect at least glimmers of the economic golden age he promised.
+  url: https://fortune.com/2025/11/10/trump-economy-americans-dont-seem-impressed-k-shaped-inflation-tariffs/
+  date: '2025-11-10'
+  source: Fortune
+- title: Microsoft bets on influencers like Alix Earle to close the gap with ChatGPT
+  description: Eager to boost downloads of Copilot, Microsoft has recruited popular
+    influencers to push a message that its AI assistant is as cool as ChatGPT.
+  url: https://fortune.com/2025/11/10/microsoft-copilot-chatgpt-agent-influencers-alix-earle/
+  date: '2025-11-10'
+  source: Fortune
+- title: 'COP30: How Ghana is reducing its carbon footprint with indigenous solutions'
+  description: As COP30 kicks off in Brazil, Ghana's rural communities are leading
+    a grassroots climate push, using indigenous knowledge to cut carbon and protect
+    forests. In northern Ghana's Yiwagu community, farming has long been the backbone
+    of local livelihoods
+  url: https://www.dw.com/en/cop30-how-ghana-is-reducing-its-carbon-footprint-with-indigenous-solutions/a-74632319
+  date: '2025-11-10'
+  source: DW (English)
+- title: Sir Tim Berners-Lee doesn’t think AI will destroy the web
+  description: 'Today, I’m talking with a very special guest: Sir Tim Berners-Lee,
+    the inventor of the World Wide Web. Tim is a legend in the history of the internet.
+    He created HTML, the standard language for creating and structuring web pages,
+    and the HTTP protoco'
+  url: https://www.theverge.com/podcast/814552/tim-berners-lee-world-wide-web-ai-future-interview
+  date: '2025-11-10'
+  source: The Verge
+- title: Despite some initial skepticism, could Target’s turnaround be right on target?
+  description: Is Target on target? Our Yale Chief Executive Leadership Institute
+    analysis of Fortune 500 CEO successions suggests an internal candidate has strong
+    odds.
+  url: https://fortune.com/2025/11/10/who-is-new-target-ceo-michael-fiddelke-succession-turnaround/
+  date: '2025-11-10'
+  source: Fortune
+- title: What UPS’s reinvention reveals about modernizing a nearly 120-year-old company
+  description: UPS is rewriting its playbook for the next era of global delivery in
+    an AI-dominant world.
+  url: https://fortune.com/article/ups-reinvention-reveal-modernizing-ai/
+  date: '2025-11-10'
+  source: Fortune
+- title: Remote driving startup Vay could grab up to $410M from Singapore's Grab |
+    TechCrunch
+  description: Vay, a German startup offering remote-controlled rental cars, will
+    get an investment of up to $410M from Singaporean super-app company Grab.
+  url: https://techcrunch.com/2025/11/10/remote-driving-startup-vay-could-grab-up-to-410m-from-singapores-grab/
+  date: '2025-11-10'
+  source: TechCrunch
+- title: Cava’s CFO on sustaining growth and developing future leaders amid consumer
+    strain
+  description: The company is keeping prices steady while investing in people, says
+    Tricia Tolivar.
+  url: https://fortune.com/2025/11/10/cava-cfo-sustaining-growth-developing-future-leaders-amid-consumer-strain/
+  date: '2025-11-10'
+  source: Fortune
+- title: The $1.3 billion startup that wants to tell you how to stop wasting time
+    at work
+  description: Scribe, a workflow AI platform that helps companies document how work
+    gets done and automatically generates step-by-step guides for employees, announced
+    a new $75 million funding round, bringing total funding to $130 million at a $1.3
+    billion valuati
+  url: https://fortune.com/2025/11/10/the-1-3-billion-startup-that-wants-to-tell-you-how-to-stop-wasting-time-at-work/
+  date: '2025-11-10'
+  source: Fortune
+- title: Tesla is fighting the EV sales slump with short-term rentals
+  description: 'Tesla is now in the business of short-term car rentals, as the company
+    tries to mitigate falling sales in the US following the expiry of federal tax
+    credits for electric vehicles. Rentals are currently being offered in two California
+    Tesla stores in '
+  url: https://www.theverge.com/news/817477/tesla-direct-short-term-ev-rentals-tax-credit
+  date: '2025-11-10'
+  source: The Verge
+- title: First Paris Shein Store Provokes Fierce Backlash And Long Queues
+  description: Has a shop ever opened amid this furore? Shein's Paris debut saw fans
+    pack the store, while politicians, the fashion industry and labor groups rounded
+    on the retailer.
+  url: https://www.forbes.com/sites/markfaithfull/2025/11/10/first-paris-shein-store-provokes-fierce-backlash-and-long-queues/
+  date: '2025-11-10'
+  source: Forbes
+- title: Investors Tap Into The Zero Proof and Non-Alcoholic Beverage Market
+  description: The non-alc market is buzzing, and quietly chipping away at the $570
+    billion alcohol industry. Here's why why investors are driving real capital into
+    the niche market.
+  url: https://www.forbes.com/sites/shimiteobialo/2025/11/10/investors-tap-into-the-zero-proof-and-non-alcoholic-beverage-market/
+  date: '2025-11-10'
+  source: Forbes
+- title: Clean, Cheap Energy Looks Like A Political Winner
+  description: This week’s newsletter also looks at the magical thinking behind Elon
+    Musk’s $1 trillion pay package and cutting home heating costs with a “lukewarm”
+    geothermal system
+  url: https://www.forbes.com/sites/current-climate/2025/11/10/clean-energy-looks-like-a-political-winner/
+  date: '2025-11-10'
+  source: Forbes
+- title: Medicare’s Paltry Doctor Payments Are Price Controls In Disguise
+  description: Soviet-style price controls have resulted in shortages in the supply
+    of physician services. Fortunately, there are a number of promising ways to address
+    this situation.
+  url: https://www.forbes.com/sites/sallypipes/2025/11/10/medicares-paltry-doctor-payments-are-price-controls-in-disguise/
+  date: '2025-11-10'
+  source: Forbes
+- title: China Could Crash The Price Of Oil
+  description: Chinese government stock-building has been supporting the market. If
+    it ends, prices will be under serious pressure.
+  url: https://www.forbes.com/sites/michaellynch/2025/11/10/china-could-crash-the-price-of-oil/
+  date: '2025-11-10'
+  source: Forbes
+- title: DeFi is creeping into corporate cash flow—‘The cat’s out of the bag’
+  description: More firms are thinking about parking spare cash in DeFi vaults that
+    offer better yield and easier withdrawals.
+  url: https://fortune.com/crypto/2025/11/10/defi-corporate-cash-yield-david-pakman-coinfund/
+  date: '2025-11-10'
+  source: Fortune
+- title: Temu and Shein continue march across Europe as sales rise
+  description: Fast fashion and other cheap goods from China keep hitting Europe's
+    shores. For authorities it is a logistical and regulatory headache and the EU
+    is struggling to contain the overwhelming flood.
+  url: https://www.dw.com/en/e-commerce-sale-temu-and-shein-continue-march-across-europe/a-74626804
+  date: '2025-11-10'
+  source: DW (English)
+- title: No More Mr. Nice AI
+  description: OpenAI is pursuing aggressive legal tactics against its opponents.
+  url: https://www.theatlantic.com/technology/2025/11/openai-lawsuit-subpoenas/684861/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: 'Jim Cramer unpacks Monday''s market action: ''It''s back to business as
+    usual'''
+  description: CNBC's Jim Cramer told investors why he thinks stocks rallied on Monday.
+  url: https://www.cnbc.com/2025/11/10/jim-cramer-monday-market-action-its-back-to-business-as-usual.html
+  date: '2025-11-10'
+  source: CNBC
+- title: American farmers push to boost soybean sales in China as Trump's trade war
+    rumbles on
+  description: China lifted retaliatory tariffs on some agricultural products after
+    the meeting between U.S. President Donald Trump and Chinese President Xi Jinping.
+  url: https://www.cnbc.com/2025/11/10/trump-trade-war-american-farmers-china-soybeans.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Paramount Skydance expects another $1B in merger savings as David Ellison
+    resets spending
+  description: CEO David Ellison outlined further layoffs and synergies in Paramount
+    Skydance's first earnings report since its merger in August.
+  url: https://www.cnbc.com/2025/11/10/paramount-skydance-psky-earnings-merger-savings.html
+  date: '2025-11-10'
+  source: CNBC
+- title: CoreWeave's revenue more than doubles as AI buildout expansion accelerates
+  description: On top of deals with Meta and OpenAI, CoreWeave pointed to expansions
+    from a large unnamed customer in the third quarter.
+  url: https://www.cnbc.com/2025/11/10/coreweave-crwv-q3-earnings-report-2025.html
+  date: '2025-11-10'
+  source: CNBC
+- title: More than 100 lawmakers push Starbucks to resume union negotiations
+  description: Starbucks Workers United is threatening a strike in 25 cities starting
+    Thursday, the company's Red Cup Day.
+  url: https://www.cnbc.com/2025/11/10/lawmakers-starbucks-union-negotiations.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Waymo announces new CFO Steve Fieler
+  description: Fieler's appointment comes as Waymo looks toward its next phase, which
+    could include seeking additional outside investment.
+  url: https://www.cnbc.com/2025/11/10/waymo-announces-new-cfo-steve-fieler.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Ripple Labs is conquering crypto. Now the XRP-linked firm wants to take on
+    traditional finance
+  description: XRP-linked Ripple Labs has used a $4 billion acquisition spree to deepen
+    a push to become a financial services powerhouse.
+  url: https://www.cnbc.com/2025/11/10/after-conquering-crypto-ripple-labs-wants-to-take-on-traditional-finance.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Trump proposes 50-year mortgage, but some say homeowner savings would be
+    minimal
+  description: The intended purpose of a longer-term mortgage would be to lower the
+    monthly payment for homeowners. But a lower monthly payment, has other trade-offs.
+  url: https://www.cnbc.com/2025/11/10/trump-proposes-50-year-mortgage-but-homeowner-savings-could-be-minimal.html
+  date: '2025-11-10'
+  source: CNBC
+- title: How the explosives shortage could make everyday items even more expensive
+  description: The global shortage of high explosives like TNT could drive up the
+    cost of cellphones, energy and, home and infrastructure construction.
+  url: https://www.cnbc.com/2025/11/10/the-explosives-shortage-may-drive-up-phone-energy-and-home-prices.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Warren Buffett to step up giving away fortune to his children’s foundations,
+    while supporting successor Abel
+  description: Buffett, in a Thanksgiving letter, said he needs to accelerate the
+    disbursement of his Berkshire stock to his three children's foundations.
+  url: https://www.cnbc.com/2025/11/10/warren-buffett-to-step-up-giving-away-fortune-to-his-childrens-foundations-while-supporting-successor-abel.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Nuclear startup that sued NRC raises $130 million with backing from Anduril's
+    Palmer Luckey and senior Palantir executive
+  description: Valar is one of several nuclear startups that hopes to benefit from
+    President Donald Trump's push to deploy new reactors by cutting regulations.
+  url: https://www.cnbc.com/2025/11/10/nuclear-startup-valar-atomics-raises-130-million.html
+  date: '2025-11-10'
+  source: CNBC
+- title: 'Disney''s newest cruise ship, the Destiny, is getting ready to set sail:
+    Here''s a peek inside'
+  description: Like Disney's other cruise ships, the Destiny features themed dining,
+    curated lounges and onboard entertainment. The Destiny is all about heroes and
+    villains.
+  url: https://www.cnbc.com/2025/11/10/disney-destiny-cruise-ship.html
+  date: '2025-11-10'
+  source: CNBC
+- title: The First Amendment Won’t Go Quietly
+  description: Welcome to the third Red Scare.
+  url: https://www.theatlantic.com/ideas/2025/11/first-amendment-trump-free-speech-red-scare/684866/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: The Trump administration wants to allow crypto-backed mortgages. Here's why
+  description: Fannie Mae and Freddie Mac could allow crypto holdings to be included
+    in mortgage risk assessments.
+  url: https://www.cnbc.com/2025/11/10/why-the-trump-administration-wants-to-allow-crypto-backed-mortgages.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Most Leaders Don’t Celebrate Their Wins—But They Should
+  description: Acknowledging even your smallest achievements can help you stay anchored
+    and motivated.
+  url: https://hbr.org/2025/11/most-leaders-dont-celebrate-their-wins-but-they-should
+  date: '2025-11-10'
+  source: Harvard Business Review
+- title: Russia is late to the party, but it's still preparing to enter the rare earths
+    fray
+  description: Russian President Vladimir Putin last week ordered his officials to
+    complete a road map for the extraction of rare earths by Dec.1.
+  url: https://www.cnbc.com/2025/11/10/russia-is-preparing-to-enter-the-rare-earths-party-heres-how.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Restaurant Brands International to form joint venture for Burger King China
+    to accelerate expansion
+  description: Over the next decade, the joint venture aims to more than double Burger
+    King's footprint in China.
+  url: https://www.cnbc.com/2025/11/10/restaurant-brands-international-to-form-burger-king-china-joint-venture-with-cpe.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Private-jet demand is on the rise amid government shutdown, says Flexjet
+    CEO
+  description: The FAA plans to curb private-jet traffic at 12 major U.S. airports
+    starting Monday.
+  url: https://www.cnbc.com/2025/11/10/private-jet-demand-government-shutdown.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Former Google, Meta executives raise $100 million for high-capacity AI servers
+    startup
+  description: The three plan to sell high-memory server technology.
+  url: https://www.cnbc.com/2025/11/10/majestic-labs-meta-google-ai-funding.html
+  date: '2025-11-10'
+  source: CNBC
+- title: As private tech market heats up, PitchBook makes startup data available via
+    ChatGPT
+  description: PitchBook is launching PitchBook Navigator, a new generative AI tool
+    that produces private market insights based on user prompts.
+  url: https://www.cnbc.com/2025/11/10/pitchbook-introduces-ai-tool-navigaton-integrates-with-chatgpt.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Instacart tops third-quarter expectations under new CEO Rogers, gives strong
+    guidance
+  description: Instacart said it's expanding artificial intelligence tools, and recently
+    launched a suite of new solutions for grocers.
+  url: https://www.cnbc.com/2025/11/10/instacart-cart-stock-earnings-q3-2025.html
+  date: '2025-11-10'
+  source: CNBC
+- title: How the math would work on a 50-year mortgage that Trump envisions
+  description: The key question, beyond the logistics of actually introducing such
+    a product, is how much of a benefit in terms of affordability would it provide.
+  url: https://www.marketwatch.com/story/how-the-math-would-work-on-a-50-year-mortgage-that-trump-envisions-fcb97d68
+  date: '2025-11-10'
+  source: MarketWatch
+- title: Japanese investors turn to Europe as deep tech boom lures capital abroad
+  description: Japanese investors participated in European financing rounds worth
+    more than 33 billion euros ($38 billions) since 2019.
+  url: https://www.cnbc.com/2025/11/10/japanese-investors-turn-to-europe-in-lieu-of-own-ecosystem.html
+  date: '2025-11-10'
+  source: CNBC
+- title: What Climate Change Will Do to America by Mid-Century
+  description: Many places may become uninhabitable. Many people may be on their own.
+  url: https://www.theatlantic.com/magazine/2025/12/trump-climate-change-acceleration/684632/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: Socialism, But Make It Trump
+  description: After Zohran Mamdani’s victory, Republicans are fearmongering about
+    Democrats turning socialist. Meanwhile, Donald Trump is busy taking stakes in
+    private companies and ordering them around.
+  url: https://www.newyorker.com/news/the-financial-page/socialism-but-make-it-trump
+  date: '2025-11-10'
+  source: The New Yorker
+- title: Solvej Balle’s Novels Rewire the Time Loop
+  description: Most stories in the genre build to a moment of escape. “On the Calculation
+    of Volume” imagines a woman making a life inside an infinitely repeating November
+    18th.
+  url: https://www.newyorker.com/magazine/2025/11/17/on-the-calculation-of-volume-solvej-balle-book-review
+  date: '2025-11-10'
+  source: The New Yorker
+- title: Letters from Our Readers
+  description: Readers respond to Emma Green’s piece about the Trump Administration’s
+    attacks on higher education.
+  url: https://www.newyorker.com/magazine/2025/11/17/letters-from-the-november-17-2025-issue
+  date: '2025-11-10'
+  source: The New Yorker
+- title: Global stocks rally on hopes the U.S. shutdown is nearing an end
+  description: Global equities traded higher on Monday morning amid reports that the
+    protracted U.S. government shutdown may be nearing an end.
+  url: https://www.cnbc.com/2025/11/10/global-stocks-rally-on-hopes-the-us-shutdown-is-nearing-an-end.html
+  date: '2025-11-10'
+  source: CNBC
+- title: FAA prohibits most private jets at 12 major airports amid shutdown's air
+    traffic staffing problems
+  description: The new restrictions come less than a week after the FAA ordered commercial
+    airlines to cut flights due to air traffic controller staffing shortfalls.
+  url: https://www.cnbc.com/2025/11/10/government-shutdown-private-jets.html
+  date: '2025-11-10'
+  source: CNBC
+- title: SoftBank-backed Lenskart wobbles after volatile debut despite oversubscribed
+    IPO
+  description: One of India's most storied startup, Lenskart, listed on the exchanges
+    today but its debut did not live up to the hype.
+  url: https://www.cnbc.com/2025/11/10/softbank-backed-lenskart-volatile-debut-oversubscribed-ipo-peyush-bansal-bse-nse-eyewear-india-shark-tank.html
+  date: '2025-11-10'
+  source: CNBC
+- title: COP30 gets underway in Brazil — and a Trump-shaped hole is hanging over the
+    climate summit
+  description: U.S. President Donald Trump recently described climate change as the
+    "greatest con job ever perpetrated on the world."
+  url: https://www.cnbc.com/2025/11/10/cop30-in-brazil-a-trump-shaped-hole-is-hanging-over-the-climate-talks.html
+  date: '2025-11-10'
+  source: CNBC
+- title: Consumer confidence in U.S. economy is near record-lows, survey shows
+  description: A recent survey shows consumer confidence in the economy is near record-low
+    amid the ongoing government shutdown. Andres Gutierrez is in Burbank, California,
+    with the details.
+  url: https://www.cbsnews.com/video/low-confidence-in-economy-amid-government-shutdown/
+  date: '2025-11-09'
+  source: CBS News
+- title: India's data centre boom confronts a looming water challenge
+  description: Energy hungry, water-guzzling data centres could affect India's decarbonisation
+    plans, say experts.
+  url: https://www.bbc.com/news/articles/cgr417pwek7o
+  date: '2025-11-09'
+  source: BBC News
+- title: Here's the biggest news you missed this weekend
+  description: Sunday marked the 39th day of the government shutdown, with confusion
+    and chaos affecting millions of people
+  url: https://www.nbcnews.com/news/us-news/weekend-rundown-november-9-rcna242645
+  date: '2025-11-09'
+  source: NBC News
+- title: 'Big Ten Football Power Rankings after Week 11: Wisconsin emerges from basement'
+  description: Week 11 of the 2025 college football season is now in the books.
+  url: https://badgerswire.usatoday.com/story/sports/college/badgers/football/2025/11/09/big-ten-football-power-rankings-week-11/87186110007/
+  date: '2025-11-09'
+  source: USA Today
+- title: Amazon tree-felling blamed for polluting UK rivers
+  description: Campaigners warn of a "hidden link" between tree-felling in the Amazon
+    rainforest and UK pollution.
+  url: https://www.bbc.com/news/articles/cy40qk7v938o
+  date: '2025-11-09'
+  source: BBC News
+- title: Abigail Spanberger says Democrats' election wins aren't a green light to
+    extend shutdown
+  description: Virginia Gov.-elect Abigail Spanberger, a Democrat, said Sunday that
+    Democrats in the Senate should join a majority of Senate Republicans to vote to
+    reopen the government, regardless of whether both sides reach a deal on extending
+    Affordable Care Act
+  url: https://www.nbcnews.com/politics/politics-news/abigail-spanberger-democrats-election-shutdown-healthcare-virginia-rcna242859
+  date: '2025-11-09'
+  source: NBC News
+- title: Who has made Troy's Premier League team of the week?
+  description: After every round of Premier League matches this season, Troy Deeney
+    gives us his team of the week. Do you agree with his choices?
+  url: https://www.bbc.com/sport/football/articles/ckgzp51jr2do
+  date: '2025-11-09'
+  source: BBC News
+- title: Trump floats giving Americans cash for health care and tariff dividends
+  description: Trump floated directly paying Americans for their health care costs
+    and giving out $2,000 dividends from tariff revenue, ideas that admin officials
+    later said were not formal proposals.
+  url: https://www.nbcnews.com/politics/trump-administration/trump-floats-giving-americans-cash-health-care-tariff-dividends-rcna242835
+  date: '2025-11-09'
+  source: NBC News
+- title: Full transcript of "Face the Nation with Margaret Brennan," Nov. 9, 2025
+  description: On this "Face the Nation with Margaret Brennan" broadcast, Virginia
+    Gov.-elect Virginia Spanberger and New Jersey Gov.-elect Mikie Sherrill join Margaret
+    Brennan.
+  url: https://www.cbsnews.com/news/face-the-nation-full-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: Paul Tagliabue, NFL commissioner for 17 years, dies at 84
+  description: Paul Tagliabue, who helped bring labor peace and riches to the NFL
+    during his 17 years as commissioner but was criticized for not taking stronger
+    action on concussions, died on Sunday at 84 years old.
+  url: https://www.npr.org/2025/11/09/nx-s1-5603612/paul-tagliabue-nfl-commissioner-dies
+  date: '2025-11-09'
+  source: NPR
+- title: Alabama's AP Poll ranking revealed following Week 11 win vs. LSU
+  description: Alabama's ranking in the latest AP Poll has been revealed following
+    a 20-9 win over the LSU Tigers.
+  url: https://rolltidewire.usatoday.com/story/sports/college/crimson-tide/football/2025/11/09/alabama-football-ap-poll-ranking-lsu-tigers-win/87184204007/
+  date: '2025-11-09'
+  source: USA Today
+- title: Paul Tagliabue, who led an era of riches and expansion as NFL commissioner,
+    dies at 84
+  description: Paul Tagliabue, who helped bring labor peace and riches to the NFL during
+    his 17 years as commissioner but was criticized for not taking stronger action
+    on concussions, died Sunday from heart failure.
+  url: https://www.pbs.org/newshour/nation/paul-tagliabue-who-led-an-era-of-riches-and-expansion-as-nfl-commissioner-dies-at-84
+  date: '2025-11-09'
+  source: PBS
+- title: Is Donald Trump proposing a 50-year mortgage? What to know about long-term
+    loans
+  description: President Donald Trump appeared to propose mortgages with 50-year terms.
+    Here's what to know.
+  url: https://www.usatoday.com/story/money/personalfinance/real-estate/2025/11/09/trump-50-year-mortgages-bad-idea/87182819007/
+  date: '2025-11-09'
+  source: USA Today
+- title: Senedd election 'tipping point' for Starmer as PM
+  description: One source calls the prime minister "absolutely delusional" about the
+    likely result next May.
+  url: https://www.bbc.com/news/articles/ckgk8glkndzo
+  date: '2025-11-09'
+  source: BBC News
+- title: Trump faces cost-of-living criticism in new poll as Democrats' 2026 stock
+    rises
+  description: In a survey taken before the Nov. 4 election, Democrats were seen as
+    the preferred party to lead the next Congress amid economy frustrations.
+  url: https://www.usatoday.com/story/news/politics/2025/11/09/trump-approval-rating-falls-in-new-poll-democrats-2026-stock-rises/87181915007/
+  date: '2025-11-09'
+  source: USA Today
+- title: 'Transcript: Kevin Hassett, National Economic Council director, on "Face
+    the Nation with Margaret Brennan," Nov. 9, 2025'
+  description: The following is the transcript of the interview with Kevin Hassett,
+    National Economic Council director, that aired on "Face the Nation with Margaret
+    Brennan" on Nov. 9, 2025.
+  url: https://www.cbsnews.com/news/kevin-hassett-national-economic-council-face-the-nation-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: 'Transcript: West Virginia Gov. Patrick Morrisey on "Face the Nation with
+    Margaret Brennan," Nov. 9, 2025'
+  description: The following is the transcript of the interview with West Virginia
+    Gov. Patrick Morrisey, a Republican, that aired on "Face the Nation with Margaret
+    Brennan" on Nov. 9, 2025.
+  url: https://www.cbsnews.com/news/patrick-morrisey-west-virginia-governor-face-the-nation-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: 'Transcript: Virginia Gov.-elect Abigail Spanberger on "Face the Nation with
+    Margaret Brennan," Nov. 9, 2025'
+  description: The following is the transcript of the interview with Virginia Gov.-elect
+    Abigail Spanberger, a Democrat, that aired on "Face the Nation with Margaret Brennan"
+    on Nov. 9, 2025.
+  url: https://www.cbsnews.com/news/abigail-spanberger-virginia-governor-elect-face-the-nation-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: In 10 years since Paris climate agreement, progress on warming but not nearly
+    enough
+  description: The world has seen faster climate change than expected since the Paris
+    Agreement a decade ago. Scientists say Earth's warming has outpaced efforts to
+    reduce fossil fuel pollution that came out of the 2015 accord. This issue will
+    be a focus of this we
+  url: https://apnews.com/article/climate-negotiations-agreement-paris-brazil-warming-harms-d56626cd6f7f1f8e5c1a9afbde9d5198
+  date: '2025-11-09'
+  source: Associated Press
+- title: How LSU football coaching candidates fared in Week 11 games
+  description: Several LSU football head coaching candidates were in action on Saturday.
+    Here's how the group fared in Week 11.
+  url: https://lsutigerswire.usatoday.com/story/sports/college/lsu/football/2025/11/09/lsu-football-coaching-news-lane-kiffin-jon-sumrall/87182544007/
+  date: '2025-11-09'
+  source: USA Today
+- title: How one photographer got access to 1960s rock royalty
+  description: In the mid-1960s, Danish photographer Bent Rej was able to photograph
+    some of the most beloved musicians of a generation — legends such as The Rolling
+    Stones, The Beatles, The Who, Bob Dylan and Jimi Hendrix.
+  url: https://www.cnn.com/interactive/2025/11/entertainment/rock-music-bent-rej-cnnphotos/
+  date: '2025-11-09'
+  source: CNN
+- title: 'Transcript: New Jersey Gov.-elect Mikie Sherrill on "Face the Nation with
+    Margaret Brennan," Nov. 9, 2025'
+  description: The following is the transcript of the interview with New Jersey Gov.-elect
+    , a Democrat, that aired on "Face the Nation with Margaret Brennan" on Nov. 9,
+    2025.
+  url: https://www.cbsnews.com/news/mikie-sherrill-new-jersey-governor-elect-face-the-nation-transcript-11-09-2025/
+  date: '2025-11-09'
+  source: CBS News
+- title: Workers on overseas U.S. bases go without pay as some are directed to food
+    pantries
+  description: Workers at some overseas U.S. military bases are going without pay
+    during the shutdown, with employees on at least one base in Germany directed to
+    food pantries before local officials stepped in
+  url: https://www.nbcnews.com/world/europe/workers-overseas-us-bases-pay-shutdown-food-pantries-rcna242806
+  date: '2025-11-09'
+  source: NBC News
+- title: Billy Bob Thornton on the return of "Landman"
+  description: 'The actor, writer and musician has been an unconventional and unforgettable
+    presence, from his Oscar-winning "Sling Blade," to his rock band, The Boxmasters.
+    He''s now back in Season 2 of the Paramount+ series "Landman," set in the oil
+    fields of West '
+  url: https://www.cbsnews.com/news/billy-bob-thornton-on-the-return-of-landman/
+  date: '2025-11-09'
+  source: CBS News
+- title: '"The Wounded Generation": Bearing the invisible scars of war'
+  description: When the "Greatest Generation" returned home from World War II, many
+    veterans had suffered psychic wounds not diagnosed or understood at the time to
+    be PTSD. A new book examines the traumas that they - and other returning war veterans
+    - have faced.
+  url: https://www.cbsnews.com/news/the-wounded-generation-bearing-the-invisible-scars-of-war/
+  date: '2025-11-09'
+  source: CBS News
+- title: How tariffs could impact wedding budgets
+  description: 'Weddings can be expensive, and stressful. But this year, prospective
+    brides and grooms are dealing with an added layer, and it’s not cake: tariffs.'
+  url: https://www.cnn.com/2025/11/09/business/wedding-industry-budgets-tariffs
+  date: '2025-11-09'
+  source: CNN
+- title: France’s ex-President Sarkozy may be released from prison after 20 days
+  description: He was sentenced to five years in prison following his conviction for
+    criminal conspiracy in a scheme to finance his winning 2007 campaign with funds
+    from Libya.
+  url: https://apnews.com/article/sarkozy-prison-release-appeal-4846eabe30544ca216d31a897d38e8a9
+  date: '2025-11-09'
+  source: Associated Press
+- title: '''Wicked: For Good'' director Jon M. Chu discusses the importance of identity
+    in his films'
+  description: '“Wicked: For Good” director Jon M. Chu has built his career on turning
+    stories about outsiders into celebrations of belonging.'
+  url: https://www.nbcnews.com/pop-culture/pop-culture-news/wicked-good-director-jon-m-chu-discusses-importance-identity-films-rcna242766
+  date: '2025-11-09'
+  source: NBC News
+- title: Is this all one incredible thrill ride of distraction before inevitable Ohio
+    State glory?
+  description: Is this all one incredible thrill ride of distraction before a soul-sucking
+    march to glory by Ohio State?
+  url: https://www.usatoday.com/story/sports/ncaaf/2025/11/09/indiana-football-cfp-college-football-playoff-ohio-state-win-streak/87064361007/
+  date: '2025-11-09'
+  source: USA Today
+- title: Supply chain strain -- already stretched thin...
+  description: The Federal Aviation Administration has announced a 10% reduction in
+    flight capacity across 40 major U.S. airports. This could strain air cargo as
+    the holiday season approaches. FedEx and UPS have major hubs at affected airports,
+    including Indianapol
+  url: https://apnews.com/article/government-shutdown-airlines-shipping-cfeecb272743298e2e522eb351a28e31
+  date: '2025-11-09'
+  source: Associated Press
+- title: 'FOREVER DEBT: President Proposing 50-Year Mortgages...'
+  description: Federal Housing Finance Agency Director Bill Pulte said on Saturday
+    that the Trump administration is working on a plan to introduce the longer-term
+    mortgages.
+  url: https://www.newsweek.com/donald-trump-50-year-mortgage-backlash-11017505
+  date: '2025-11-09'
+  source: Newsweek
+- title: The US air traffic control system is in desperate need of improvement. Would
+    privatization help? | CNN Business
+  description: Some experts say there is a solution that could change the dynamic
+    in relatively short order — either privatize air traffic control, or set up a
+    separate government corporation that can run the system.
+  url: https://www.cnn.com/2025/11/09/business/air-traffic-control-privatization
+  date: '2025-11-09'
+  source: CNN
+- title: College football Top 25 rankings prediction for US LBM Coaches Poll after
+    Week 11 results
+  description: A couple of losses among teams near the top of the US LBM Coaches Poll
+    in Week 11 means there will be changes in the new rankings.
+  url: https://www.usatoday.com/story/sports/ncaaf/2025/11/09/college-football-poll-rankings-prediction-week-11/87178141007/
+  date: '2025-11-09'
+  source: USA Today
+- title: 'ACA enrollment: Skyrocketing health insurance premiums force enrollees to
+    make tough decisions'
+  description: Millions of Americans with Affordable Care Act policies are contending
+    with the looming lapse of the enhanced subsidies. The increased cost of coverage
+    can lead to agonizing tradeoffs for many enrollees.
+  url: https://www.cnn.com/2025/11/09/politics/aca-enrollment-premiums-increase-impact
+  date: '2025-11-09'
+  source: CNN
+- title: Landmark Paris Agreement set a path to slow warming. The world hasn't stayed
+    on it
+  description: The world has changed dramatically in the decade since leaders celebrated
+    a historic climate agreement in Paris a decade ago, but not quite in ways they
+    expected or wanted.
+  url: https://phys.org/news/2025-11-landmark-paris-agreement-path-world.html
+  date: '2025-11-09'
+  source: Phys.Org
+- title: Why women land top jobs in struggling organizations—they may just be better
+    in a crisis
+  description: Women are increasingly occupying top leadership roles across organizations,
+    political parties and even nations. This may seem unequivocally like a good thing.
+    Yet, many of these roles are undertaken in precarious circumstances, with inherent
+    risks th
+  url: https://phys.org/news/2025-11-women-jobs-struggling-crisis.html
+  date: '2025-11-09'
+  source: Phys.Org
+- title: AI Slop—How Every Media Revolution Breeds Rubbish and Art
+  description: The popularization of the term “slop” for AI output follows a centuries-long
+    pattern where new tools flood the zone, audiences adapt and some of tomorrow’s
+    art emerges from today’s excess
+  url: https://www.scientificamerican.com/article/ai-slop-how-every-media-revolution-breeds-rubbish-and-art/
+  date: '2025-11-09'
+  source: Scientific American
+- title: The ‘buy everything’ rally now feels like an uphill battle, putting bull
+    market to the test
+  description: Tech and speculative assets are now in focus after the Nasdaq’s worst
+    week since April.
+  url: https://www.marketwatch.com/story/the-bull-market-in-stocks-and-the-buy-everything-rally-now-feel-like-an-uphill-battle-a4352bb0
+  date: '2025-11-09'
+  source: MarketWatch
+- title: Job interviewers are overlooking their best candidates—unless they do these
+    2 things, says Wharton psychologist Adam Grant
+  description: Wharton psychologist Adam Grant says traditional job interview methods
+    may make you overlook a diamond in the rough. He offers this alternate approach
+    instead.
+  url: https://www.cnbc.com/2025/11/09/adam-grant-do-these-2-things-in-a-job-interview-to-find-the-best-talent.html
+  date: '2025-11-09'
+  source: CNBC
+- title: 'New U.S. nuclear power boom begins with old, still-unsolved problem: What
+    to do with radioactive waste'
+  description: As government and industry, from tech giants to utilities, commit to
+    big nuclear power plants, there is still no clear solution for radioactive waste
+    storage.
+  url: https://www.cnbc.com/2025/11/09/nuclear-power-energy-radioactive-waste-storage-disposal.html
+  date: '2025-11-09'
+  source: CNBC
+- title: Top Wall Street analysts favor these 3 tech stocks for their growth outlook
+  description: TipRanks' ranking service discusses three stocks that are favored by
+    Wall Street, including Amazon and Alphabet.
+  url: https://www.cnbc.com/2025/11/09/top-wall-street-analysts-favor-3-tech-stocks-for-their-growth-outlook.html
+  date: '2025-11-09'
+  source: CNBC
+- title: Blaming Foreigners for American Failings Won’t Fix Them
+  description: Railing against Ukraine, Israel, and other outsiders is easy. Solving
+    problems at home is not.
+  url: https://www.theatlantic.com/ideas/2025/11/trump-ukraine-israel/684858/
+  date: '2025-11-09'
+  source: The Atlantic
+- title: The Ideal That Underlies the Declaration of Independence
+  description: 'Restoring stability to American politics will require reviving an
+    age-old concept: common ground.'
+  url: https://www.theatlantic.com/ideas/2025/11/greatest-sentence-ever-isaacson-excerpt/684491/
+  date: '2025-11-09'
+  source: The Atlantic
+- title: Hannah Goldfield on Anthony Bourdain’s “Don’t Eat Before Reading This”
+  description: The food critic revisits the article that later became part of “Kitchen
+    Confidential,” a best-selling book that launched Bourdain to stardom on shows
+    including “Parts Unknown” and “No Reservations.”
+  url: https://www.newyorker.com/magazine/takes/hannah-goldfield-on-anthony-bourdains-dont-eat-before-reading-this
+  date: '2025-11-09'
+  source: The New Yorker
+- title: What I Learned About Dick Cheney
+  description: The former vice president was certain he knew better than the citizens
+    he served what was good for them.
+  url: https://www.theatlantic.com/ideas/2025/11/barton-gellman-what-i-learned-about-dick-cheney/684875/
+  date: '2025-11-09'
+  source: The Atlantic
+- title: What Did Men Do to Deserve This?
+  description: Changes in the economy and in the culture seem to have hit them hard.
+    Scott Galloway believes they need an “aspirational vision of masculinity.”
+  url: https://www.newyorker.com/culture/the-weekend-essay/what-did-men-do-to-deserve-this
+  date: '2025-11-09'
+  source: The New Yorker
+- title: They met on Tinder when they were 19. Now, they're married and run a cake
+    business that brings in over $650,000 a year
+  description: Kai Yang Chan and JiaYi Zhuo matched on Tinder as teenagers in 2019.
+    Now, they are married and run a $650,000 a year cake business together in Singapore.
+  url: https://www.cnbc.com/2025/11/09/this-gen-z-couple-runs-a-650000-a-year-celebrity-cake-business.html
+  date: '2025-11-09'
+  source: CNBC
+- title: 'Jamie Dimon shares why he never reads text messages at work: ''I don''t
+    have notifications'''
+  description: '"The only notifications I get is from my kids," JPMorgan boss Jamie
+    Dimon said about his phone habits at work.'
+  url: https://www.cnbc.com/2025/11/09/jamie-dimon-shares-why-he-never-reads-text-messages-at-work.html
+  date: '2025-11-09'
+  source: CNBC
+- title: China consumer prices return to growth in October, producer price slump extends
+    to three years
+  description: Deflation pressures in China alleviated in October, as consumer prices
+    returned to growth after falling for two straight months, though producer prices
+    extended their slump to three years.
+  url: https://www.cnbc.com/2025/11/09/china-october-cpi-ppi-deflation-consumer-prices-.html
+  date: '2025-11-09'
+  source: CNBC
+- title: How countries can be held responsible for staying within new legal climate
+    target of 1.5°C
+  description: 'Global emissions need to peak this year to stay within 1.5°C of global
+    temperature rise since pre-industrial levels. This means that starting now, countries
+    need to emit less greenhouse gases. Emissions also need to be cut in half by 2030
+    to prevent '
+  url: https://phys.org/news/2025-11-countries-held-responsible-staying-legal.html
+  date: '2025-11-08'
+  source: Phys.Org
+- title: Backing Trump Has Paid Off for Silicon Valley Billionaires Like Marc Andreessen
+  description: Lawsuits have been dropped and settlements renegotiated in favor of
+    companies as the administration guts the CFPB.
+  url: https://www.propublica.org/article/trump-cfpb-marc-andreessen-silicon-valley
+  date: '2025-11-08'
+  source: ProPublica
+- title: Too early to bet against AI trade, State Street suggests
+  description: State Street' Anna Paglia is reiterating her bullish stance on artificial
+    intelligence stocks despite the Nasdaq’s worst week since April.
+  url: https://www.cnbc.com/2025/11/08/ai-big-tech-bull-case-despite-nasdaqs-worst-week-since-april-.html
+  date: '2025-11-08'
+  source: CNBC
+- title: Trump's 'No tax on tips' could be end of large-group service fees on restaurant
+    bills
+  description: If you don't like service fees restaurants charge large groups, you
+    may be in luck. President Trump's 'no tax on tips' may end it, but restaurants
+    aren't happy.
+  url: https://www.cnbc.com/2025/11/08/no-tax-on-tips-service-fees-restaurant-bill-gratuities.html
+  date: '2025-11-08'
+  source: CNBC
+- title: 'Top 10 trending destinations for U.S. travelers in 2026: ''Americans are
+    discovering their own backyard,'' expert says'
+  description: In October, Skyscanner released its best places to visit in 2026 report
+    and ranked the top trending destinations for U.S. travelers.
+  url: https://www.cnbc.com/2025/11/08/best-places-to-visit-in-2026-skyscanner.html
+  date: '2025-11-08'
+  source: CNBC
+- title: I finally have enough cash to pay off my student loan in full—here's why
+    I'm not doing it
+  description: Mathetmatically, paying off my debt now would cost me less money. But
+    I don't want to put my wedding savings in jeopardy.
+  url: https://www.cnbc.com/2025/11/08/i-have-enough-cash-to-pay-off-my-student-loan-why-im-not.html
+  date: '2025-11-08'
+  source: CNBC
+- title: People with ADHD, autism, dyslexia say AI agents are helping them succeed
+    at work
+  description: Neurodiverse professionals see benefits from AI tools, giving people
+    with conditions like ADHD, autism, and dyslexia a more level playing field in
+    job market.
+  url: https://www.cnbc.com/2025/11/08/adhd-autism-dyslexia-jobs-careers-ai-agents-success.html
+  date: '2025-11-08'
+  source: CNBC
+- title: When Scarcity Blurs the Line Between Right and Wrong
+  description: Megha Majumdar’s second novel imagines how climate disaster might scramble
+    our sense of morality.
+  url: https://www.theatlantic.com/books/2025/11/guardian-and-thief-megha-majumdar-novel-review/684860/
+  date: '2025-11-08'
+  source: The Atlantic
+- title: 'Consumers on edge as ACA ''subsidy cliff'' looms: ''Quite frankly, it''s
+    terrifying'''
+  description: Households are bracing for a sharp increase in their health insurance
+    premiums if Congress doesn't extend enhanced subsidies for ACA marketplace plans.
+  url: https://www.cnbc.com/2025/11/08/aca-subsidy-cliff-government-shutdown.html
+  date: '2025-11-08'
+  source: CNBC
+- title: Millionaires value their personal trainers and therapists more than their
+    wealth advisors
+  description: The trend highlight the growing importance of so-called "soft services"
+    for the wealthy.
+  url: https://www.cnbc.com/2025/11/08/millionaires-personal-trainers-wealth-advisors-professional-services-survey.html
+  date: '2025-11-08'
+  source: CNBC
+- title: The Mafia Style in American Politics
+  description: Trump is saying, essentially, If you don’t want to get hurt, you’ll
+    do what I say.
+  url: https://www.theatlantic.com/ideas/2025/11/mafia-style-american-politics/684863/
+  date: '2025-11-08'
+  source: The Atlantic
+- title: 'Have tricky money talks with your partner, ''Money Together'' authors say:
+    ''Your dreams need real roadmaps'''
+  description: In their new book, "Money Together," Heather and Douglas Boneparth
+    share advice to couples on how to talk about and manage the fraught topic of finances.
+  url: https://www.cnbc.com/2025/11/08/how-to-talk-about-money-as-a-couple.html
+  date: '2025-11-08'
+  source: CNBC
+- title: 4 things worrying investors as U.S. stocks see worst start to a month since
+    April
+  description: The U.S. stock market is off to its worst start to a month since April
+    as investors grapple with the longest U.S. government shutdown in history, among
+    other...
+  url: https://www.marketwatch.com/story/4-things-worrying-investors-as-u-s-stocks-see-worst-start-to-a-month-since-april-8b0ca874
+  date: '2025-11-08'
+  source: MarketWatch
+- title: Carl Icahn returns to a familiar sector — auto repair — as he builds a 15%
+    stake in Monro
+  description: Icahn has a long history in the automotive parts and services industry,
+    so this investment could play out in several different ways.
+  url: https://www.cnbc.com/2025/11/08/carl-icahn-returns-to-a-familiar-sector-auto-repair-as-he-builds-a-15percent-stake-in-monro.html
+  date: '2025-11-08'
+  source: CNBC
+- title: You’ve just been laid off because of AI — here’s what to do next
+  description: '"AI literacy is likely to become a baseline requirement for jobs in
+    the future," Glassdoor''s Chief Economist Daniel Zhao told CNBC Make It.'
+  url: https://www.cnbc.com/2025/11/08/youve-just-been-laid-off-because-of-ai-heres-what-to-do-next-.html
+  date: '2025-11-08'
+  source: CNBC
+- title: China's Stranded Astronauts Show the Dangers of Space Junk
+  description: Three Chinese astronauts will likely return safely to Earth after a
+    reported space-junk strike. But the incident highlights the growing risk of orbital
+    debris
+  url: https://www.scientificamerican.com/article/chinas-stranded-astronauts-show-the-dangers-of-space-junk/
+  date: '2025-11-07'
+  source: Scientific American
+- title: 10 Delegates From the Climate School Share Their Plans and Hopes for COP30
+  description: Columbia Climate School representatives discuss what they hope to achieve
+    at this year's global climate summit in Brazil.
+  url: https://news.climate.columbia.edu/2025/11/07/10-delegates-from-the-climate-school-share-their-plans-and-hopes-for-cop30/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: 10 Delegates From Columbia and the Climate School Discuss What They Hope
+    to Achieve at COP30
+  description: Columbia and Climate School representatives discuss what they hope
+    to achieve at this year's global climate summit in Brazil.
+  url: https://news.climate.columbia.edu/2025/11/07/10-delegates-from-columbia-and-the-climate-school-discuss-what-they-hope-to-achieve-at-cop30/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: CT Wealth Accelerator
+  description: "CT Wealth AcceleratorAnonymous (not verified)\nFri, 11/07/2025 - 11:00\n\
+    \n Yaw Owusu-Boahen returns to SOM to share his experience after graduating, and\
+    \ his most recent role as Director of the CT Wealth Accelerator, an extrapreneurship\
+    \ endeavor bringing"
+  url: https://insights.som.yale.edu/podcasts/impact-innovation/ct-wealth-accelerator
+  date: '2025-11-07'
+  source: Yale.edu
+- title: Happy hour with coworkers can be a double-edged sword
+  description: It turns out happy hour with your coworkers may not be so happy for
+    everyone. New research from the University of Georgia published in Personnel Psychology
+    suggests that there are both positives and negatives to getting an invite to after-work
+    events
+  url: https://phys.org/news/2025-11-happy-hour-coworkers-edged-sword.html
+  date: '2025-11-07'
+  source: Phys.Org
+- title: 'Appropriated, but Unobligated: Impounding Climate Funds'
+  description: The Trump administration has undertaken a comprehensive effort to prevent
+    the distribution of mandatory federal funding, including billions for climate
+    programs. Attempts to cancel already-obligated federal funding awards have been
+    among its most not
+  url: https://blogs.law.columbia.edu/climatechange/2025/11/07/appropriated-but-unobligated-impounding-climate-funds/
+  date: '2025-11-07'
+  source: Columbia.edu
+- title: As stocks wobbled, the S&P 500 held a critical threshold. Here’s what history
+    says happens next.
+  description: The benchmark index has been above its 50-day moving average for 133
+    sessions, the longest streak since 2007. But that nearly came to an end on Friday.
+  url: https://www.marketwatch.com/story/as-stocks-wobbled-the-s-p-500-held-a-critical-threshold-heres-what-history-says-happens-next-872e02f9
+  date: '2025-11-07'
+  source: MarketWatch
+- title: Palantir CEO Karp twice slams short sellers as stock suffers worst week since
+    April
+  description: Palantir CEO Alex Karp twice confronted short sellers this week as
+    the company's shares suffered a double-digit drop.
+  url: https://www.cnbc.com/2025/11/07/palantir-ceo-alex-karp-ai-short-sellers.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Tech stocks just had their worst week since the April tariff selloff. Why
+    it’s about time.
+  description: Strong tech earnings weren’t enough to reassure investors worried about
+    high valuations.
+  url: https://www.marketwatch.com/story/tech-stocks-are-having-their-worst-week-since-the-april-tariff-selloff-why-its-about-time-6334cbc3
+  date: '2025-11-07'
+  source: MarketWatch
+- title: Fed's Miran says stablecoin surge could help push interest rates lower
+  description: The central banker said the Fed might need to lower its own policy
+    rate to avoid unintentionally slowing the economy.
+  url: https://www.cnbc.com/2025/11/07/feds-miran-says-stablecoin-surge-could-help-push-interest-rates-lower.html
+  date: '2025-11-07'
+  source: CNBC
+- title: Pop Culture Is Obsessed With Female Friendships
+  description: Margaret Atwood’s Cat’s Eye perfectly portrays an intense, fickle,
+    painful dynamic between women.
+  url: https://www.theatlantic.com/newsletters/2025/11/books-briefing-pop-culture-obsessed-female-friendships/684862/
+  date: '2025-11-07'
+  source: The Atlantic
+- title: J. B. Pritzker Sounds the Alarm
+  description: Peter Slevin discusses with the governor of Illinois what ICE is doing
+    in Chicago, how the Trump Administration has created a “secret police,” and what
+    to do when the federal government is breaking the law.
+  url: https://www.newyorker.com/podcast/the-new-yorker-radio-hour/what-resistance-means-to-governor-j-b-pritzker
+  date: '2025-11-07'
+  source: The New Yorker
+- title: Worried about layoffs? Economists say the job market is cooling but 'not
+    falling off a cliff'
+  description: Job experts say they're not in panic mode just yet. Here are the numbers
+    to focus on.
+  url: https://www.cnbc.com/2025/11/07/-economists-say-job-market-is-cooling-but-not-falling-off-a-cliff.html
+  date: '2025-11-07'
+  source: CNBC
+- title: How Trump’s tariffs are crushing small businesses while big retailers weather
+    the costs
+  description: While large retailers like Walmart and Amazon are mostly brushing off
+    Trump's tariffs, small businesses are being crushed under the weight of them.
+  url: https://www.cnbc.com/2025/11/07/how-trumps-tariffs-are-crushing-small-businesses.html
+  date: '2025-11-07'
+  source: CNBC
+- title: 'Homeowners: The SALT deduction is going up to $40,000. Here’s how to get
+    the most out of it.'
+  description: Homeowners now have the chance to write off much more of their state
+    and local tax bills, and this could potentially lead to bigger tax refunds.
+  url: https://www.marketwatch.com/story/homeowners-the-salt-deduction-is-going-up-to-40-000-heres-how-to-get-the-most-out-of-it-cfcc4d76
+  date: '2025-11-07'
+  source: MarketWatch
+- title: PBC General Meeting
+  description: Join the Princeton Blockchain Club to discuss anything blockchain or
+    crypto. If you're interested in technology or finance, this club might be for
+    you!
+  url: https://www.princeton.edu/events/2025/pbc-general-meeting-8
+  date: '2025-11-06'
+  source: Princeton University
+- title: Tanner Lectures on Human Values
+  description: 'The Tanner Lectures on Human Values are presented annually at a select
+    list of universities around the world. The University Center serves as host to
+    these lectures at Princeton, in which an eminent scholar from philosophy, religion,
+    the humanities, '
+  url: https://www.princeton.edu/events/2025/tanner-lectures-human-values-0
+  date: '2025-11-06'
+  source: Princeton University
+- title: YSE students join global climate talks at COP30
+  description: YSE students will play active roles in discussions on climate adaptation,
+    finance, and resilience — working with delegations from global NGOs and countries
+    such as Kazakhstan, Pakistan, and&nbsp;Bhutan.
+  url: https://environment.yale.edu/news/article/yse-students-join-global-climate-talks-cop30
+  date: '2025-11-06'
+  source: Yale.edu
+- title: Competing rivals can become powerful partners in global markets
+  description: In an era of geopolitical tensions and fragile supply chains, firms
+    are seeking new ways to remain competitive and resilient. One such approach is
+    coopetition, a strategic relationship in which companies cooperate and compete
+    at the same time to achi
+  url: https://phys.org/news/2025-11-rivals-powerful-partners-global.html
+  date: '2025-11-06'
+  source: Phys.Org
+- title: 'World must face ''moral failure'' of missing 1.5C: UN chief to COP30'
+  description: UN chief Antonio Guterres on Thursday said leaders must confront the
+    "moral failure and deadly negligence" of missing the 1.5C climate target and urgently
+    correct course at the COP30 summit.
+  url: https://phys.org/news/2025-11-world-moral-failure-15c-chief.html
+  date: '2025-11-06'
+  source: Phys.Org
+- title: Brewery waste can be repurposed to make nanoparticles that can fight bacteria
+  description: Modern beer production is a US$117 billion business in the United States,
+    with brewers producing over 170 million barrels of beer per year. The brewing
+    process is time- and energy-intensive, and each step generates large amounts of
+    waste.
+  url: https://phys.org/news/2025-11-brewery-repurposed-nanoparticles-bacteria.html
+  date: '2025-11-06'
+  source: Phys.Org
+- title: How Gambling Is Transforming the Experience of Sports
+  description: "How Gambling Is Transforming the Experience of SportsBen.Mattison\n\
+    Thu, 11/06/2025 - 10:10\n\n Three Questions\n<ul>\n <li>Behavioral</li>\n </ul>\n\
+    \ Wide\n 176533\n In the seven years since it was legalized in the U.S., sports\
+    \ betting has elbowed its way into"
+  url: https://insights.som.yale.edu/insights/how-gambling-is-transforming-the-experience-of-sports
+  date: '2025-11-06'
+  source: Yale.edu
+- title: Alarm Grows over Proposed Giant Mirrors in Orbit and Other Commercial Space
+    Plans
+  description: Reflect Orbital’s plan to deliver “sunlight on demand” using thousands
+    of giant orbital mirrors is just the latest in a growing list of disruptive commercial
+    activities in space
+  url: https://www.scientificamerican.com/article/alarm-grows-over-proposed-giant-mirrors-in-orbit-and-other-commercial-space/
+  date: '2025-11-06'
+  source: Scientific American
+- title: 'Shadow scholars: inside Kenya’s multibillion-dollar fake-essay industry'
+  description: Sociologist Patricia Kingori is helping to expose contract cheating
+    by scholars in high-income countries.
+  url: https://www.nature.com/articles/d41586-025-03399-5
+  date: '2025-11-06'
+  source: Nature.com
+- title: 'Addressing the Recurrent and Protracted Cholera Outbreaks in Africa: Challenges
+    and the Way Forward'
+  description: Cholera remains a global health threat across the African continent.
+    Here, the authors discuss the current issues relating to the control of the disease,
+    and make recommendations for its management across Africa.
+  url: https://www.nature.com/articles/s41467-025-64789-x
+  date: '2025-11-06'
+  source: Nature.com
+- title: Tanner Lectures on Human Values
+  description: 'The Tanner Lectures on Human Values are presented annually at a select
+    list of universities around the world. The University Center serves as host to
+    these lectures at Princeton, in which an eminent scholar from philosophy, religion,
+    the humanities, '
+  url: https://www.princeton.edu/events/2025/tanner-lectures-human-values
+  date: '2025-11-05'
+  source: Princeton University
+- title: NASA Chief Pick Jared Isaacman Renominated to Head Agency
+  description: Ahead of Jared Isaacman’s renomination for the position of NASA’s administrator,
+    a dispute between him and its acting chief Sean Duffy spilled into the open, with
+    potentially profound consequences for the U.S. space agency
+  url: https://www.scientificamerican.com/article/nasa-chief-pick-jared-isaacman-renominated-to-head-agency/
+  date: '2025-11-05'
+  source: Scientific American
+- title: The China Summit Revealed the Limits of Trump’s Tariff War
+  description: "The China Summit Revealed the Limits of Trump’s Tariff WarBen.Mattison\n\
+    Wed, 11/05/2025 - 13:37\n\n Faculty Viewpoints\n <li>\n Jeffrey A. Sonnenfeld\n\
+    \n\n Senior Associate Dean for Leadership Studies & Lester Crown Professor in\
+    \ the Practice of Management\n\r\n"
+  url: https://insights.som.yale.edu/insights/the-china-summit-revealed-the-limits-of-trumps-tariff-war
+  date: '2025-11-05'
+  source: Yale.edu
+- title: Hand gestures that illustrate speech boost persuasiveness, study shows
+  description: Words matter—but your hands might matter more, according to a new UBC
+    study which found that purposeful hand gestures can make speakers appear more
+    competent and persuasive.
+  url: https://phys.org/news/2025-11-gestures-speech-boost-persuasiveness.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: What we’re learning about consciousness from master meditators’ brains
+  description: Neuroscientist Matthew Sacchet is revealing how mastering meditation
+    can not only enable transcendental states of bliss, but also reshape how we experience
+    pain and emotion
+  url: https://www.newscientist.com/article/2501144-what-were-learning-about-consciousness-from-master-meditators-brains/
+  date: '2025-11-05'
+  source: New Scientist
+- title: Companies that 'sell to buy' reap $234 million shareholder boost, study finds
+  description: Companies that sell parts of their business to raise cash for acquisitions
+    make better deals and win greater shareholder approval, according to new research
+    from the University of Surrey.
+  url: https://phys.org/news/2025-11-companies-buy-reap-million-shareholder.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: '‘It’s a calling’: Meet Geoff Chatas, Yale’s new senior vice president for
+    operations'
+  description: In a Q&amp;A, Geoff Chatas discusses his path to Yale and how he blends
+    a lifelong love of learning with a leadership philosophy centered on people and&nbsp;purpose.
+  url: https://your.yale.edu/youryale/2025-11-03-its-a-calling
+  date: '2025-11-05'
+  source: Yale.edu
+- title: The Psychology Behind Standing Up and Saying No
+  description: Why saying no is harder than it should be.
+  url: https://www.scientificamerican.com/podcast/episode/the-psychology-behind-standing-up-and-saying-no/
+  date: '2025-11-05'
+  source: Scientific American
+- title: 'Green goals versus growth needs: India''s climate scorecard'
+  description: India is the world's most populous country, the third-biggest emitter
+    of greenhouse gases, and remains deeply dependent on polluting coal to meet soaring
+    energy demand.
+  url: https://phys.org/news/2025-11-green-goals-growth-india-climate.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: 'COP30: What’s on the agenda at the Belém climate summit'
+  description: Initiatives on the table at COP30 aim to evaluate which countries are
+    most vulnerable, support efforts to clean up industries and pay for the protection
+    of tropical forests
+  url: https://www.newscientist.com/article/2502476-cop30-whats-on-the-agenda-at-the-belem-climate-summit/
+  date: '2025-11-05'
+  source: New Scientist
+- title: Sullivan & Cromwell Discusses Federal Reserve Capital Stress Testing
+  description: 'On October 24, 2025, the Federal Reserve Board issued two proposals
+    to revise its supervisory stress testing framework.
 
+
+
+
+    <ul>
+
+    <li>One proposal (the “Transparency and Public Accountability NPR”) requests comment
+    on (i) the Federal Reserve’s supervis'
+  url: https://clsbluesky.law.columbia.edu/2025/11/05/sullivan-cromwell-discusses-federal-reserve-capital-stress-testing/
+  date: '2025-11-05'
+  source: Columbia.edu
+- title: '''Resilience Science Must-Knows'': Report shows how decision-makers can
+    manage global crises'
+  description: As the world approaches critical tipping points, a comprehensive global
+    scientific report shows that resilience—the ability to live and develop with change
+    and crises—must now be placed at the heart of global decision-making.
+  url: https://phys.org/news/2025-11-resilience-science-decision-makers-global.html
+  date: '2025-11-05'
+  source: Phys.Org
+- title: How Sicily has celebrated its diversity through the centuries
+  description: A journey across Sicily reveals the essence of an island shaped by
+    outsiders, where successive waves of immigration over the centuries have created
+    a unique cultural identity.
+  url: https://www.nationalgeographic.com/travel/article/how-sicily-has-celebrated-its-diversity-through-the-centuries
+  date: '2025-11-05'
+  source: National Geographic
+- title: Can AI be truly creative?
+  description: Chatbots and AI models are challenging ideas about who — or what —
+    can create art, music and more.
+  url: https://www.nature.com/articles/d41586-025-03570-y
+  date: '2025-11-05'
+  source: Nature.com
+- title: Supramolecular chemical recycling of dynamic polymers
+  description: Using supramolecular chemistry principles, thermodynamically metastable,
+    yet kinetically stable, poly(disulfide)s with tunable mechanical properties can
+    be recycled into crystalline monomers with quantitative yields and monomer purity
+    &gt;90%.
+  url: https://www.nature.com/articles/s41565-025-02041-9
+  date: '2025-11-05'
+  source: Nature.com
