@@ -1,4 +1,382 @@
 news_items:
+- title: Cleto Escobedo III, "Jimmy Kimmel Live!" bandleader, dies at 59
+  description: Cleto Escobedo III, longtime bandleader of the "Jimmy Kimmel Live!"
+    show, has died, Jimmy Kimmel announced Tuesday. He was 59.
+  url: https://www.cbsnews.com/news/cleto-escobedo-iii-jimmy-kimmel-bandleader-dies-59/
+  date: '2025-11-12'
+  source: CBS News
+- title: Geomagnetic storm could make aurora visible for half of northern U.S.
+  description: A severe geomagnetic storm watch was issued by NOAA on Tuesday in response
+    to recent coronal mass ejections from the sun.
+  url: https://www.cbsnews.com/news/g4-geomagnetic-storm-aurora-forecast/
+  date: '2025-11-12'
+  source: CBS News
+- title: Notre Dame moves up in second College Football Playoff rankings of 2025
+  description: Notre Dame football is still in a very good spot in the College Football
+    Playoff ranking, as they moved up in the rerank after Week 11.
+  url: https://fightingirishwire.usatoday.com/story/sports/college/fighting-irish/football/2025/11/11/college-football-playoff-cfp-rankings-week-11-second-2025-notre-dame/87222601007/
+  date: '2025-11-12'
+  source: USA Today
+- title: Chairman explains new CFP rankings as Indiana holds strong, ACC still not
+    impressing
+  description: Why did Indiana stay at No. 2 over Texas A&M? Texas Tech impressed,
+    while Miami got a bump despite the rest of the ACC not pulling its weight.
+  url: https://www.usatoday.com/story/sports/ncaaf/2025/11/11/cfp-rankings-committee-chairman-mack-rhoades-explains-new-college-football-playoff-top-25/87222571007/
+  date: '2025-11-12'
+  source: USA Today
+- title: UK seeks to curb AI child sex abuse imagery with tougher testing
+  description: A new law will allow authorised testers to assess AI models for their
+    ability to generate abuse material
+  url: https://www.bbc.com/news/articles/cn8xq677l9xo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
+  date: '2025-11-12'
+  source: BBC News
+- title: UK seeks to curb AI child sex abuse imagery with tougher testing
+  description: A new law will allow authorised testers to assess AI models for their
+    ability to generate abuse material
+  url: https://www.bbc.com/news/articles/cn8xq677l9xo
+  date: '2025-11-12'
+  source: BBC News
+- title: New consoles used to come out every five years – so where's the PlayStation
+    6?
+  description: On the fifth anniversary of the PlayStation 5, the firm says its focus
+    remains on its current console.
+  url: https://www.bbc.com/news/articles/cy7e352emrro
+  date: '2025-11-12'
+  source: BBC News
+- title: India's start-ups fire up public markets amid valuation concerns
+  description: Start-up fundraising has raised uncomfortable questions about valuations,
+    but  signals a maturing ecosystem.
+  url: https://www.bbc.com/news/articles/crklp1y81keo
+  date: '2025-11-12'
+  source: BBC News
+- title: '“It keeps me awake at night”: machine-learning pioneer on AI’s threat to
+    humanity'
+  description: Yoshua Bengio talks about his efforts to identify — and address — the
+    risks posed by AI.
+  url: https://www.nature.com/articles/d41586-025-03686-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: ‘Godfather of AI’ becomes first person to hit one million citations
+  description: The milestone makes machine-learning trailblazer Yoshua Bengio the
+    most cited researcher on Google Scholar.
+  url: https://www.nature.com/articles/d41586-025-03681-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'How geopolitics is reshaping research: Data hint at shifting collaborations'
+  description: Individual researchers and academic bodies are choosing not to work
+    with other nations’ scientists amid geopolitical tensions. Is this affecting research
+    output?
+  url: https://www.nature.com/articles/d41586-025-03025-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Health trends among workers in Germany and the role of changing job activities
+    and working conditions
+  description: Scientific Reports - Health trends among workers in Germany and the
+    role of changing job activities and working conditions
+  url: https://www.nature.com/articles/s41598-025-25692-z
+  date: '2025-11-12'
+  source: Nature.com
+- title: Study on titanium fire suppression technology for aero-engine uncontained
+    failures
+  description: Scientific Reports - Study on titanium fire suppression technology
+    for aero-engine uncontained failures
+  url: https://www.nature.com/articles/s41598-025-23279-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: Florigen activation complex forms via multifaceted assembly in Arabidopsis
+  description: In flowering plants, DNA–FD–14-3-3 recruits FT to the florigen activation
+    complex both through DNA–FT interactions and by reducing liquid phase condensation
+    of FD protein, which promotes dimerization, leading to FT recruitment.
+  url: https://www.nature.com/articles/s41586-025-09704-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: Silicon solar cells with hybrid back contacts
+  description: Silicon solar cells with hybrid interdigitated back contacts have a
+    power conversion efficiency approaching 95% of the theoretical limit and a fill
+    factor approaching 98% of the theoretical limit.
+  url: https://www.nature.com/articles/s41586-025-09681-w
+  date: '2025-11-12'
+  source: Nature.com
+- title: Chitosan coated cotton fabric embedded with silver nanoparticles for azo
+    dye degradation in aqueous solutions
+  description: Scientific Reports - Chitosan coated cotton fabric embedded with silver
+    nanoparticles for azo dye degradation in aqueous solutions
+  url: https://www.nature.com/articles/s41598-025-23222-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: Spatial fibroblast niches define Crohn’s fistulae
+  description: Spatial transcriptomic analysis of cells in intestinal fistulae of
+    patients with Crohn’s disease reveals the existence of specialized fistula-associated
+    cell states with distinct signalling profiles and extracellular matrix architecture.
+  url: https://www.nature.com/articles/s41586-025-09744-y
+  date: '2025-11-12'
+  source: Nature.com
+- title: Biotech news from around the world
+  description: Nature Biotechnology - Biotech news from around the world
+  url: https://www.nature.com/articles/s41587-025-02907-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Fossilized technology: Books in brief'
+  description: Andrew Robinson reviews five of the best science picks.
+  url: https://www.nature.com/articles/d41586-025-03702-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Can UK science really spawn a $1-trillion company?
+  description: The British government wants the country to be home to a supersized
+    tech firm within the next decade.
+  url: https://www.nature.com/articles/d41586-025-03700-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: Hypersonic turbulent quantities in support of Morkovin’s hypothesis
+  description: 'Morkovin’s hypothesis establishes a comparison between incompressible
+    and compressible flows and is essential for understanding supersonic and hypersonic
+    turbulence. In this work, the authors present the measurements of wall-normal
+    fluctuations that '
+  url: https://www.nature.com/articles/s41467-025-65398-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Electronic switching of topology in LaSbTe
+  description: This study shows that the nodal loop topology in LaSbxTe2−x can be
+    controlled by chemical substitution and electron doping. The reversible opening
+    and closing of a gap larger than 400 meV in the nodal loop enables on-demand switching
+    of topology.
+  url: https://www.nature.com/articles/s41563-025-02396-3
+  date: '2025-11-12'
+  source: Nature.com
+- title: On-site enhancement and control of spin-forbidden dark excitons in a plasmonic
+    heterostructure
+  description: Observation and control of spin-forbidden dark excitons is demonstrated
+    in a hybrid heterostructure of WSe2 monolayers and plasmonic nanocavities.
+  url: https://www.nature.com/articles/s41566-025-01788-w
+  date: '2025-11-12'
+  source: Nature.com
+- title: Could humans live to 150? Why some researchers think we’re on the cusp of
+    a major longevity breakthrough
+  description: Other scientists believe extending lifespan might be difficult but
+    are pursuing therapies that aim to make us feel younger for longer.
+  url: https://www.nature.com/articles/d41586-025-03524-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Achieving electrochemical and mechanical stability in a lightweight titanium
+    alloy
+  description: Seawater corrosion can impact the lifespan and reliability of metallic
+    materials for marine applications. This work develops a titanium alloy exhibiting
+    active passivation behavior that ensures its electrochemical and mechanical stability
+    in seawater
+  url: https://www.nature.com/articles/s41467-025-64875-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: YTHDF2 regulates self non-coding RNA metabolism to control inflammation and
+    tumorigenesis
+  description: RNA modifications influence gene regulation and disease. Here, the
+    authors show that YTHDF2 recognizes m6A-modified U6 snRNA to prevent aberrant
+    TLR3 activation to inhibit inflammation and skin cancer development.
+  url: https://www.nature.com/articles/s41467-025-64898-7
+  date: '2025-11-12'
+  source: Nature.com
+- title: SIGLEC12 mediates plasma membrane rupture during necroptotic cell death
+  description: CRISPR–Cas9-based genome-wide screening shows that SIGLEC12 mediates
+    plasma membrane rupture in cells undergoing necroptosis, possibly through a human-specific
+    mechanism, indicating its potential as a therapeutic target.
+  url: https://www.nature.com/articles/s41586-025-09741-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: Cytosolic acetyl-coenzyme A is a signalling metabolite to control mitophagy
+  description: Acetyl-coenzyme A functions as a non-canonical signal to trigger mitophagy,
+    and&nbsp;the acetyl-coenzyme A–NLRX1 axis underlies the KRAS-inhibitor-induced
+    mitophagy response and promotes drug resistance, providing a metabolic mechanism
+    of KRAS inhibi
+  url: https://www.nature.com/articles/s41586-025-09745-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: What Time Is New ‘South Park’ Episode This Week And What's It About?
+  description: Trey Parker and Matt Stone’s "South Park"is back this week after its
+    Halloween episode. What time does it start on cable and streaming and what will
+    the show pick apart next?
+  url: https://www.forbes.com/sites/timlammers/2025/11/11/what-time-is-new-south-park-episode-this-week-and-whats-it-about/
+  date: '2025-11-12'
+  source: Forbes
+- title: California’s Gavin Newsom slams Trump absence at COP30 climate conference
+  description: The Democratic governor accused President Trump of having 'abandoned
+    any sense of duty' by not showing up to COP30.
+  url: https://www.aljazeera.com/news/2025/11/12/california-governor-gavin-newsom-slams-trump-absence-at-climate-conference
+  date: '2025-11-12'
+  source: Al Jazeera English
+- title: SoftBank shares plunge as much as 10% after selling Nvidia stake
+  description: SoftBank Group shares fell as much as 10% Wednesday after the conglomerate
+    revealed it had offloaded its entire stake in U.S. chip giant Nvidia.
+  url: https://www.cnbc.com/2025/11/12/softbank-shares-plunge-as-much-as-10percent-after-selling-nvidia-stake.html
+  date: '2025-11-12'
+  source: CNBC
+- title: 'Tariffs thaw, rivalry simmers: U.S.–China trade truce enters uneasy phase'
+  description: Even as a U.S.–China trade truce appears to be holding, analysts caution
+    that the détente remains fragile in a rivalry increasingly defined by strategic
+    competition.
+  url: https://www.cnbc.com/2025/11/12/us-china-gestures-hint-at-calm-but-the-rivalry-still-runs-deep.html
+  date: '2025-11-12'
+  source: CNBC
+- title: China needs its youth to spend but they are embracing frugality
+  description: Economic uncertainty is encouraging some young people to cut back on
+    their spending.
+  url: https://www.bbc.com/news/articles/cx2pvlvdve7o
+  date: '2025-11-11'
+  source: BBC News
+- title: Jimmy Kimmel bandleader Cleto Escobedo III dies
+  description: Jimmy Kimmel is mourning the death of his longtime friend and bandleader,
+    Cleto Escobedo III. Escobedo was 59. Kimmel announced the news Tuesday on Instagram
+    and expressed deep heartbreak. The two met as children in Las Vegas and grew up
+    across the s
+  url: https://apnews.com/article/cleto-escobedo-dies-jimmy-kimmel-bandleader-9233f742cbd1d306cd03ca35c5b3e67a
+  date: '2025-11-11'
+  source: Associated Press
+- title: Bros really are dominating podcasting
+  description: New research from the USC Annenberg Inclusion Initiative shows that
+    both podcast hosts and their guests skew very heavily male – and white.
+  url: https://www.npr.org/2025/11/11/nx-s1-5605983/bros-really-are-dominating-podcasting
+  date: '2025-11-11'
+  source: NPR
+- title: What’s in the Senate shutdown deal
+  description: A few things stood out outside the headlines.
+  url: https://www.pbs.org/newshour/politics/whats-in-the-senate-shutdown-deal
+  date: '2025-11-11'
+  source: PBS
+- title: The U.S. stock market is lagging dozens of countries, even in a year of record
+    highs
+  description: For only the second time in 10 years, the S&P 500 is poised to is lagging
+    dozens of countries, even in a year of record highs.
+  url: https://www.nbcnews.com/business/markets/sp500-stocks-lags-dozens-countries-rcna243088
+  date: '2025-11-11'
+  source: NBC News
+- title: Saudis to host investment summit in D.C. during crown prince's visit, sources
+    say
+  description: Some deals announced by Saudi Crown Prince Mohammed bin Salman in May
+    could be finalized during his trip to D.C. to visit President Trump next week,
+    one source said.
+  url: https://www.cbsnews.com/news/saudi-investment-summit-d-c-bin-salman-trump-visit/
+  date: '2025-11-11'
+  source: CBS News
+- title: Florida football plummets in USA TODAY Sports rerank after Week 11
+  description: Florida football needed a win against Kentucky. Instead, the Wildcats
+    embarrassed the Gators, leading to a huge drop in the college football rerank.
+  url: https://gatorswire.usatoday.com/story/sports/college/gators/football/2025/11/11/florida-football-usa-today-sports-rerank-week-11-kentucky-wildcats/87216017007/
+  date: '2025-11-11'
+  source: USA Today
+- title: 'Reel life: Highlights of DOC NYC documentary film festival'
+  description: America's largest festival for non-fiction cinema opens Nov. 12, offering
+    more than 115 feature-length documentaries plus short films, available in NYC
+    theaters and streaming. Check out the remarkable lineup.
+  url: https://www.cbsnews.com/news/doc-nyc-documentary-film-festival-returns-in-person-and-streaming/
+  date: '2025-11-11'
+  source: CBS News
+- title: 'Eva LaRue opens up about stalker: "There was no place to hide"'
+  description: Actress Eva LaRue opens up about her yearslong stalker and the two-part
+    documentary detailing her experience.
+  url: https://www.cbsnews.com/news/eva-larue-documentary-stalker/
+  date: '2025-11-11'
+  source: CBS News
+- title: Sonder tells guests to leave immediately after Marriott partnership ends
+  description: After Sonder said it was shutting down, one guest told CBS News he
+    returned to his short-term rental to find his luggage in the hallway.
+  url: https://www.cbsnews.com/news/sonder-marriott-bonvoy-partnership-guests-24-hours-vacate-rooms/
+  date: '2025-11-11'
+  source: CBS News
+- title: Suspect identified 27 years after woman murdered in suburban D.C. hospital
+  description: Police have identified a suspect in the 1998 murder of a D.C.-area
+    hospital worker.
+  url: https://www.cbsnews.com/news/sheryl-crandell-murder-suspect-identified-cold-case-hospital-killing/
+  date: '2025-11-11'
+  source: CBS News
+- title: Man dances for 144 hours to break videogame marathon record
+  description: Szabolcs Csépe played Dance Dance Revolution for six days to secure
+    his place in the record books.
+  url: https://www.bbc.com/news/articles/cy8vwjp4jxyo
+  date: '2025-11-11'
+  source: BBC News
+- title: SEC coach firings take a pause. That doesn't mean they're finished
+  description: And on the second Sunday in November, the buyout gods rested. Are the
+    firings finished for this season? Well, about that ...
+  url: https://www.usatoday.com/story/sports/ncaaf/sec/2025/11/11/sec-football-mark-stoops-hot-seat-brent-venables-shane-beamer-virginia-tech/87195595007/
+  date: '2025-11-11'
+  source: USA Today
+- title: 2027 in-state wide receiver names Tennessee football in top 10 schools
+  description: A 2027 four-star, in-state wide receiver names Tennessee football in
+    his top 10 schools.
+  url: https://volswire.usatoday.com/story/sports/college/volunteers/football/2025/11/11/tennessee-football-recruiting-lawrence-britt-names-vols-in-top-10-schools/87197063007/
+  date: '2025-11-11'
+  source: USA Today
+- title: The No. 1 Country Song in America Is AI-Generated...
+  description: Breaking Rust, an AI-generated artist, currently has the No. 1 song
+    on Billboard’s "Country Digital Song Sales" chart.
+  url: https://www.newsweek.com/breaking-rust-ai-music-country-digital-sales-11022040
+  date: '2025-11-11'
+  source: Newsweek
+- title: Wendy's to close hundreds of U.S. stores as low-income consumers cut back
+  description: Wendy's plans to close hundreds U.S. restaurants over the next few
+    months amid spending cutbacks from its customers.
+  url: https://www.cbsnews.com/news/wendys-closing-restaurants-hamburger-chain-closures/
+  date: '2025-11-11'
+  source: CBS News
+- title: Strikes at helicopter manufacturer to go ahead
+  description: Aerospace workers at the home of British helicopters will strike after
+    rejecting the latest deal.
+  url: https://www.bbc.com/news/articles/cvgk5899rg5o
+  date: '2025-11-11'
+  source: BBC News
+- title: COVID vaccine rollout and pandemic preparedness assessed in new book, 'Fair
+    Doses'
+  description: In his new book, 'Fair Doses,' epidemiologist Seth Berkley discusses
+    what went right -- and wrong -- with COVID vaccine distribution and whether the
+    world is ready if a new pandemic were to strike.
+  url: https://www.npr.org/sections/goats-and-soda/2025/11/11/g-s1-97230/vaccines-pandemic-preparedness-covid-seth-berkley-fair-doses
+  date: '2025-11-11'
+  source: NPR
+- title: 'Iowa Football: Week 12 Hawkeyes bowl projection roundup'
+  description: Sitting at 6-3, the Iowa Hawkeyes could end up in a myriad of different
+    bowl games. Check out where they could be headed this postseason.
+  url: https://hawkeyeswire.usatoday.com/story/sports/college/hawkeyes/football/2025/11/11/iowa-football-bowl-projection-roundup-week-12/87199268007/
+  date: '2025-11-11'
+  source: USA Today
+- title: '"They don''t return home": U.S. cities fail to curb traffic deaths'
+  description: Los Angeles, San Francisco, and Houston reported more traffic fatalities
+    than homicides last year.
+  url: https://www.cbsnews.com/news/us-cities-traffic-deaths-los-angeles/
+  date: '2025-11-11'
+  source: CBS News
+- title: Climate negotiations have started. Here's how far countries need to go
+  description: Nations have begun climate negotiations at the COP30 summit in Brazil.
+    Studies show the world is not on track to avoid the most damaging impacts of climate
+    change.
+  url: https://www.npr.org/2025/11/11/nx-s1-5593050/climate-emissions-gap-cop30
+  date: '2025-11-11'
+  source: NPR
+- title: Global Markets Mixed After Monday’s Rally
+  description: U.S. stock futures were just shy of flat and international stock markets
+    were mixed as investors took a breath after Monday’s rally.
+  url: https://www.wsj.com/finance/stocks/global-markets-mixed-after-mondays-rally-7bc4c694
+  date: '2025-11-11'
+  source: The Wall Street Journal
+- title: Government sets out plan to phase out animal experiments
+  description: The plan follows up on a manifesto promise to work towards the phasing
+    out the practice.
+  url: https://www.bbc.com/news/articles/cm2lpekjeg9o
+  date: '2025-11-11'
+  source: BBC News
+- title: Japan's SoftBank sells its shares in Nvidia for $5.8 billion
+  description: Japanese technology giant SoftBank says it has sold its stake in Nvidia
+    for $5.8 billion. Tokyo-based SoftBank Group Corp. said it sold the stake in October.
+    It reported its profit in April-September soared to almost triple what it was
+    a year earlier
+  url: https://apnews.com/article/japan-softbank-son-nvidia-ai-chips-d8a10172850628c317a214280a4d94c9
+  date: '2025-11-11'
+  source: Associated Press
+- title: AI scams fuel rise in fake online car sales. How California is trying to
+    protect consumers.
+  description: Buying a car is one of the biggest purchases we make, and more people
+    are turning to online marketplaces for deals on used cars. But thanks to artificial
+    intelligence, you're more likely than ever to get scammed.
+  url: https://www.cbsnews.com/news/ai-scams-fake-car-sales-california/
+  date: '2025-11-11'
+  source: CBS News
 - title: Cryptoqueen who fled China for London mansion to be sentenced over £5bn Bitcoin
     stash
   description: Qian Zhimin bought cryptocurrency using funds stolen from thousands
@@ -18,19 +396,173 @@ news_items:
   url: https://www.bbc.com/news/articles/cr43kyn9d6po
   date: '2025-11-11'
   source: BBC News
-- title: A proposed limit test for p-chloroaniline impurity in paracetamol pharmaceutical
-    formulations
-  description: Scientific Reports - A proposed limit test for p-chloroaniline impurity
-    in paracetamol pharmaceutical formulations
-  url: https://www.nature.com/articles/s41598-025-24786-y
+- title: Raman spectral database offers open library to identify biomolecules
+  description: Researchers at the Universitat Oberta de Catalunya and the Institute
+    of Photonic Sciences have created a Raman spectral database that is accessible
+    and open to the scientific community with 140 of the main types of biomolecules,
+    including nucleic aci
+  url: https://phys.org/news/2025-11-raman-spectral-database-library-biomolecules.html
   date: '2025-11-11'
-  source: Nature.com
+  source: Phys.Org
+- title: New method may improve blood test's ability to detect inflammation in horses
+  description: Inflammation can help the body when injured or sick by delivering immune
+    cells, promoting healing and more. Chronic or excessive inflammation, however,
+    can cause further damage and lead to additional disease or injury. Clinicians
+    often rely on patien
+  url: https://phys.org/news/2025-11-method-blood-ability-inflammation-horses.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: 'When shrimp hear the engines roar: How boat noise rattles marine besties,
+    but not their friendship'
+  description: 'It''s a tale of underwater odd couples: One digs, the other keeps
+    watch, and together they''ve thrived on the Great Barrier Reef for millennia.'
+  url: https://phys.org/news/2025-11-shrimp-roar-boat-noise-rattles.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Never mind rogue planets—their rogue moons could support life
+  description: At a young age, we're told how the sun warms Earth and makes life possible.
+    That idea sticks with most of us for life. But when we want to understand things
+    more thoroughly and we dig more deeply, we learn that Earth has its own heat sources
+    that hel
+  url: https://phys.org/news/2025-11-mind-rogue-planets-moons-life.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: The rarest element on Earth could revolutionize cancer treatment
+  description: Texas A&amp;M scientists have unlocked new potential for astatine-211,
+    a rare and short-lived element, as a highly precise cancer-fighting isotope. Its
+    alpha emissions destroy tumor cells while sparing healthy tissue, making it ideal
+    for targeted the
+  url: https://www.sciencedaily.com/releases/2025/11/251111010008.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: Tiny implant wipes out bladder cancer in 82% of patients
+  description: TAR-200, a small drug-releasing implant, wiped out tumors in most patients
+    with high-risk bladder cancer. Its slow, consistent release of chemotherapy proved
+    far more effective than traditional short-term treatments. The therapy may replace
+    bladder r
+  url: https://www.sciencedaily.com/releases/2025/11/251111010000.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: Key 'fingerprint' reveals slowdown of Atlantic Meridional Overturning Circulation
+  description: The Atlantic Meridional Overturning Circulation (AMOC), an ocean current
+    system that transports heat from the tropics to the North Atlantic, plays a vital
+    role in regulating the global climate. Most climate models project a decline in
+    AMOC strength u
+  url: https://phys.org/news/2025-11-key-fingerprint-reveals-slowdown-atlantic.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Bamboo dishes may leach pesticides and melamine into food
+  description: So-called "eco-friendly" bamboo and other bio-based dishes, often marketed
+    as natural and safe alternatives to plastic, may release potentially harmful chemicals
+    into food, according to a new study led by researchers at the University of Chemistry
+    an
+  url: https://phys.org/news/2025-11-bamboo-dishes-leach-pesticides-melamine.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Who speaks for the dead? Rethinking consent in ancient DNA research
+  description: Would you choose to have a part of your body live on after you died?
+    How might your choice affect your relatives—or even your entire community?
+  url: https://phys.org/news/2025-11-dead-rethinking-consent-ancient-dna.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: 'A century-old mixing puzzle: AI helps predict and understand viscous fingering'
+  description: 'Viscous fingering occurs when a thinner fluid pushes a thicker, more
+    viscous fluid in a porous medium, like underground rock, creating unpredictable,
+    finger-like patterns. For decades, this intricate dance between fluids has been
+    a major headache in '
+  url: https://phys.org/news/2025-11-century-puzzle-ai-viscous-fingering.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Artificial enzyme combines vitamin B2 with metal for next-generation catalysts
+  description: Vitamin B2 (riboflavin) acts as an important coenzyme that helps convert
+    food into energy within the body. Korean researchers have successfully created
+    a new artificial enzyme for the first time in the world by combining this riboflavin
+    (flavin) with
+  url: https://phys.org/news/2025-11-artificial-enzyme-combines-vitamin-b2.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Ai revives lost 3,000-year-old Babylonian hymn
+  description: Researchers have rediscovered a long-lost Babylonian hymn from 1000
+    BCE, using artificial intelligence to piece together fragments scattered across
+    the world. The hymn glorifies ancient Babylon’s beauty, prosperity, and inclusivity,
+    even describing w
+  url: https://www.sciencedaily.com/releases/2025/11/251111010011.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: Five key issues at the UN climate summit in Brazil—and why they matter to
+    you and the planet
+  description: 'The world''s most important climate summit—known this year as COP30—has
+    begun in the Amazonian port city of Belém, Brazil. It promises to be contentious:
+    key countries haven''t submitted new climate plans, and negotiations are held
+    up by disputes over '
+  url: https://phys.org/news/2025-11-key-issues-climate-summit-brazil.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Static electricity can remove frost from windows using little energy
+  description: High-voltage copper plates can remove up to three-quarters of frost
+    from a surface, while using much less energy than conventional heating
+  url: https://www.newscientist.com/article/2503870-static-electricity-can-remove-frost-from-windows-using-little-energy/
+  date: '2025-11-11'
+  source: New Scientist
+- title: This new robot has a clever spin on lunar mining
+  description: Work continues on designs for robots that can help assist the first
+    human explorers on the moon in over half a century. One of the most important
+    aspects of that future trip will be utilizing the resources available on the moon's
+    surface, known as in
+  url: https://phys.org/news/2025-11-robot-clever-lunar.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Researchers are using acoustic recorders to confirm more koala sightings
+    in remote parts of Australia
+  description: There are parts of Australia where koalas are talked about like urban
+    legends.
+  url: https://phys.org/news/2025-11-acoustic-koala-sightings-remote-australia.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: China's Emissions Have Been Trending Down for 18 Months
+  description: For 18 months, China's carbon emissions have been flat or falling as
+    solar and wind displace coal and electric vehicles supplant gas-powered cars.
+    That is the finding of a new analysis, which comes as China takes center stage
+    at the U.N. climate nego
+  url: https://e360.yale.edu/digest/china-emissions-decline
+  date: '2025-11-11'
+  source: Yale.edu
+- title: The biggest controversy in maths could be settled by a computer
+  description: For over a decade, mathematicians have failed to agree whether a 500-page
+    proof is actually correct. Now, translating the proof into a computer-readable
+    form may finally settle the matter
+  url: https://www.newscientist.com/article/2503500-the-biggest-controversy-in-maths-could-be-settled-by-a-computer/
+  date: '2025-11-11'
+  source: New Scientist
+- title: Scientists uncover a hidden universal law limiting life’s growth
+  description: Japanese researchers uncovered a universal rule describing why life’s
+    growth slows despite abundant nutrients. Their “global constraint principle” integrates
+    classic biological laws to show that multiple factors limit cellular growth in
+    sequence. Ver
+  url: https://www.sciencedaily.com/releases/2025/11/251111005947.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: Running on little sleep? You’re twice as likely to get hurt
+  description: Researchers found that runners who sleep poorly face nearly double
+    the injury risk compared to those who rest well. The study highlights that sleep
+    is not just recovery—it’s a key factor in preventing injuries. They stress that
+    runners should priorit
+  url: https://www.sciencedaily.com/releases/2025/11/251111005945.htm
+  date: '2025-11-11'
+  source: Science Daily
 - title: Ca2+-driven PDIA6 biomolecular condensation ensures proinsulin folding
   description: Lee et al. show that Ca²⁺ triggers condensates enriched with PDIA6,
     an ER-resident disulfide isomerase and chaperone, along with other protein disulfide
     isomerase family proteins and some chaperones that in turn enhance folding of
     proinsulin.
   url: https://www.nature.com/articles/s41556-025-01794-8
+  date: '2025-11-11'
+  source: Nature.com
+- title: A proposed limit test for p-chloroaniline impurity in paracetamol pharmaceutical
+    formulations
+  description: Scientific Reports - A proposed limit test for p-chloroaniline impurity
+    in paracetamol pharmaceutical formulations
+  url: https://www.nature.com/articles/s41598-025-24786-y
   date: '2025-11-11'
   source: Nature.com
 - title: Lumen charge governs gated ion transport in β-barrel nanopores
@@ -41,12 +573,6 @@ news_items:
   url: https://www.nature.com/articles/s41565-025-02052-6
   date: '2025-11-11'
   source: Nature.com
-- title: China’s new scientist visa is a ‘serious bid’ for the world’s top talent
-  description: The country is easing migration for young researchers to boost its
-    competitiveness in artificial intelligence (AI), robotics and new materials.
-  url: https://www.nature.com/articles/d41586-025-03657-6
-  date: '2025-11-11'
-  source: Nature.com
 - title: Structural basis of cyclobutane pyrimidine dimer recognition by UV-DDB in
     the nucleosome
   description: UV-DDB is a protein that plays a key role in recognizing DNA lesions.
@@ -55,16 +581,16 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-65486-5
   date: '2025-11-11'
   source: Nature.com
+- title: China’s new scientist visa is a ‘serious bid’ for the world’s top talent
+  description: The country is easing migration for young researchers to boost its
+    competitiveness in artificial intelligence (AI), robotics and new materials.
+  url: https://www.nature.com/articles/d41586-025-03657-6
+  date: '2025-11-11'
+  source: Nature.com
 - title: Long-read sequencing disentangles isoform complexity at allele-specific loci
   description: Scientific Reports - Long-read sequencing disentangles isoform complexity
     at allele-specific loci
   url: https://www.nature.com/articles/s41598-025-97362-z
-  date: '2025-11-11'
-  source: Nature.com
-- title: I have Einstein, Bohr and Feynman in my pocket
-  description: Grappling with difficulties in your career? Try asking an AI-powered
-    advisory panel of experts, suggests Carsten Lund Pedersen.
-  url: https://www.nature.com/articles/d41586-025-03468-9
   date: '2025-11-11'
   source: Nature.com
 - title: 'Correction: A time-fractional model of hydromagnetic slip flow of viscous
@@ -74,10 +600,10 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-27981-z
   date: '2025-11-11'
   source: Nature.com
-- title: High performance tandem perovskite LEDs through interlayer photon recycling
-  description: Nature - High performance tandem perovskite LEDs through interlayer
-    photon recycling
-  url: https://www.nature.com/articles/s41586-025-09865-4
+- title: I have Einstein, Bohr and Feynman in my pocket
+  description: Grappling with difficulties in your career? Try asking an AI-powered
+    advisory panel of experts, suggests Carsten Lund Pedersen.
+  url: https://www.nature.com/articles/d41586-025-03468-9
   date: '2025-11-11'
   source: Nature.com
 - title: Signal control during tissue regeneration in adult animals
@@ -86,6 +612,12 @@ news_items:
     quantitative modelling, is changing our understanding of how tissues are repaired
     and renewed. Thi
   url: https://www.nature.com/articles/s41580-025-00917-1
+  date: '2025-11-11'
+  source: Nature.com
+- title: High performance tandem perovskite LEDs through interlayer photon recycling
+  description: Nature - High performance tandem perovskite LEDs through interlayer
+    photon recycling
+  url: https://www.nature.com/articles/s41586-025-09865-4
   date: '2025-11-11'
   source: Nature.com
 - title: A novel hybrid model integrating CEEMDAN decomposition, dispersion entropy
@@ -104,14 +636,281 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-64860-7
   date: '2025-11-11'
   source: Nature.com
-- title: The LG G5 takes OLED performance to another level
-  description: LG OLEDs are consistently some of the best TVs you can get, and I've
-    lost count how many times I've recommended them to family and friends. Add the
-    LG G5 to that list. It's LG's high-end gallery-style TV, designed to look refined
-    and sleek mounted on
-  url: https://www.theverge.com/tech/817807/lg-g5-oled-tv-review
+- title: Google is trying to take down a group sending you all those spammy texts
+  description: If you’ve ever received a spammy text falsely alerting you to an unpaid
+    toll or failed delivery, it might have come from a so-called Phishing-as-a-Service
+    network that Google is now trying to take down.  Google filed suit against several
+    unnamed defe
+  url: https://www.theverge.com/news/818554/google-lighthouse-text-spam-lawsuit
   date: '2025-11-11'
   source: The Verge
+- title: The Green Premium Is Dead. The Fossil Premium Has Arrived.
+  description: The energy transformation is moving forward. In many cases Green Premiums
+    are not necessary any longer. Instead, Fossil Premiums are now used to protect
+    old industries.
+  url: https://www.forbes.com/sites/walvanlierop/2025/11/11/the-green-premium-is-dead-the-fossil-premium-has-arrived/
+  date: '2025-11-11'
+  source: Forbes
+- title: 'Beyond The Naked Eye: Experts Discuss The Future Of AI Gymnastics Judging'
+  description: As one of the few subjective Olympic sports, scoring controversies
+    have long plagued Artistic Gymnastics. Now, experts in sports timing are leading
+    the charge to improve its accuracy and transparency.
+  url: https://www.forbes.com/sites/carolineprice/2025/11/11/beyond-the-naked-eye-experts-discuss-the-future-of-ai-gymnastics-judging/
+  date: '2025-11-11'
+  source: Forbes
+- title: The Nike x Hyperice Hyperboot Is $200 Off
+  description: Nike x Hyperice Hyperboots are now at an unbeatable $699 price. Grab
+    this $200 off deal just in time for ski season.
+  url: https://www.wired.com/story/nike-hyperboots-deal-1125/
+  date: '2025-11-11'
+  source: Wired
+- title: Apple Unveils iPhone Pouch Designed By Steve Jobs Collaborator—But Some Criticize
+    High Price
+  description: Some customers criticized the product for its steep price tag of between
+    $150 and $230, comparing it unfavorably to Apple’s much cheaper, now-discontinued
+    iPod Sock product.
+  url: https://www.forbes.com/sites/conormurray/2025/11/11/apple-unveils-iphone-pouch-designed-by-steve-jobs-collaborator-but-some-criticize-high-price/
+  date: '2025-11-11'
+  source: Forbes
+- title: Is China about to win the AI race?
+  description: From subsidized power to open-source innovation, China is mounting
+    a serious challenge to U.S. dominance in artificial intelligence.
+  url: https://fortune.com/2025/11/11/is-china-about-to-win-the-ai-race/
+  date: '2025-11-11'
+  source: Fortune
+- title: Sinking Nvidia keeps Wall Street’s gains in check
+  description: Nvidia sank 2.4% after SoftBank, a Japanese technology giant that had
+    been a major investor, said it had sold its entire stake last month for $5.83
+    billion.
+  url: https://fortune.com/2025/11/11/wall-street-artifical-intelligence-nvidia-chip-stocks-technology-investors-coreweave-paramount-skydance/
+  date: '2025-11-11'
+  source: Fortune
+- title: Alexis Ohanian ignored Paul Graham’s warning that Reddit’s ‘terrible’ name
+    would be ‘poison’. Now it’s a $38 billion business
+  description: “Disregarding that advice was definitely one of the things I got right,”
+    Ohanian said.
+  url: https://fortune.com/2025/11/11/alexis-ohanian-reddit-graham-founder-business-advice/
+  date: '2025-11-11'
+  source: Fortune
+- title: OpenAI accused of ‘consistent and dangerous pattern’ rushing product to market
+    that is ‘inherently unsafe or lacking in needed guardrails’
+  description: The nonprofit Public Citizen is now demanding OpenAI withdraw Sora
+    2 from the public.
+  url: https://fortune.com/2025/11/11/openai-consistent-dangerous-pattern-rushing-unsafe-products-sora-nonprofit/
+  date: '2025-11-11'
+  source: Fortune
+- title: Big Oil Is Pairing Up With Big Tech For An Opportunity Worth Billions
+  description: Big Oil's quest for improved margins and efficiencies in a cyclical
+    energy market has strengthened ties with Big Tech giving rise to an opportunity
+    that's worth billions.
+  url: https://www.forbes.com/sites/gauravsharma/2025/11/11/big-oil-is-pairing-up-with-big-tech-for-an-opportunity-worth-billions/
+  date: '2025-11-11'
+  source: Forbes
+- title: Pixel phones are getting notification summaries
+  description: 'Google is releasing an update for Pixel phones with an interesting
+    feature in the mix: notification summaries. Apple notably had plenty of trouble
+    implementing its version of this AI-powered feature, and Google is taking a cautious
+    first step by depl'
+  url: https://www.theverge.com/tech/817644/pixel-update-notification-summaries-image-remix-messages
+  date: '2025-11-11'
+  source: The Verge
+- title: Asia-Pacific markets set to rise after mixed trading on Wall Street on hopes
+    of U.S. government shutdown ending; AI trade pullback
+  description: Asia-Pacific markets was set to climb Wednesday, after Wall Street
+    traded mixed on hopes of the U.S. government shutdown ending and a pullback in
+    AI stocks.
+  url: https://www.cnbc.com/2025/11/12/asia-pacific-markets-nifty-50-nikkei-225-kospi.html
+  date: '2025-11-11'
+  source: CNBC
+- title: As OpenAI spends billions, Jim Cramer says the number of winning AI stocks
+    could narrow
+  description: CNBC's Jim Cramer expressed concern about OpenAI's ability to pay the
+    billions it has committed to spend on artificial intelligence infrastructure.
+  url: https://www.cnbc.com/2025/11/11/jim-cramer-winning-ai-stocks-narrow.html
+  date: '2025-11-11'
+  source: CNBC
+- title: 'Stock market today: Live updates'
+  description: Tuesday saw a tale of two markets emerge — the 30-stock Dow rallied
+    more than 550 points to close at a record high, while the Nasdaq Composite slipped.
+  url: https://www.cnbc.com/2025/11/11/stock-market-today-live-updates.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Trump is pardoning dozens of allies and backers. Here's who might be seeking
+    clemency
+  description: Some figures eyed as possible candidates for clemency from President
+    Donald Trump include Ghislaine Maxwell and Sean "Diddy" Combs.
+  url: https://www.cnbc.com/2025/11/11/trump-pardons-clemency-maxwell-diddy.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Now You Can Wear Your Vitamins
+  description: Supplement patches are blurring the line between wellness and beauty.
+  url: https://www.theatlantic.com/health/2025/11/supplement-patches-wellness/684893/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: 'Mark Cuban: The job-hunting advice I give my own kids in the age of AI—it''ll
+    make their careers ''easier'' and more successful'
+  description: If you're looking for an entry-level job in the age of AI, seek jobs
+    at small- to medium-sized businesses over ones at large corporations, says Mark
+    Cuban.
+  url: https://www.cnbc.com/2025/11/11/mark-cuban-job-hunting-advice-i-give-my-kids-in-age-of-ai.html
+  date: '2025-11-11'
+  source: CNBC
+- title: CoreWeave CEO responds to data center delays as stock plunges. Core Scientific
+    shares fall
+  description: CNBC's Jim Cramer noted data center delays at sites in Texas, Oklahoma
+    and North Carolina tied to Core Scientific.
+  url: https://www.cnbc.com/2025/11/11/coreweave-stock-core-scientific-delays.html
+  date: '2025-11-11'
+  source: CNBC
+- title: The Right-Wing Attack on Wikipedia
+  description: The free internet encyclopedia is widely used to train AI. That’s why
+    conservatives are trying to dethrone it.
+  url: https://www.theatlantic.com/ideas/2025/11/right-wing-attack-wikipedia-bias-musk-cruz/684886/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: How 20-year-old Kenyan student turned a local fundraiser into nonprofit serving
+    600,000 meals a day
+  description: Wawira Njiru, founder and CEO of Food4Education, leads a nonprofit
+    feeding 600,000 schoolchildren in Kenya, and has provided over 100 million meals
+    in all.
+  url: https://www.cnbc.com/2025/11/11/how-20-year-old-kenyan-student-built-nonprofit-serving-100-million-meals.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Rocket Lab rises 5% on record third-quarter revenue, launch backlog
+  description: Rocket Lab said its has 49 rocket launches on contract and 17 of those
+    deals were signed during the third quarter.
+  url: https://www.cnbc.com/2025/11/11/rocket-lab-rklb-earnings-q3-2025.html
+  date: '2025-11-11'
+  source: CNBC
+- title: 29-year-old left his 6-figure tech job and opened a pizza bagel business—it
+    brought in $20K in September
+  description: Jacob Cooper left his six-figure tech job due to burnout and launched
+    a business selling mini pizza bagels in New York City.
+  url: https://www.cnbc.com/2025/11/11/29-year-old-left-6-figure-tech-job-and-opened-a-pizza-bagel-business.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Wells Fargo says lock in gains in tech and invest here instead
+  description: Wells Fargo Investment Institute has taken a step back on tech stocks
+    after a strong run since April. They have better ideas on where to put money right
+    now.
+  url: https://www.marketwatch.com/story/wells-fargo-says-lock-in-gains-in-tech-and-invest-here-instead-58a3e45b
+  date: '2025-11-11'
+  source: MarketWatch
+- title: '''Big Short'' investor Michael Burry accuses AI hyperscalers of artificially
+    boosting earnings'
+  description: Burry alleged that "hyperscalers" are artificially boosting earnings
+    by extending the useful life of their computer equipment.
+  url: https://www.cnbc.com/2025/11/11/big-short-investor-michael-burry-accuses-ai-hyperscalers-of-artificially-boosting-earnings.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Real estate titan Barry Sternlicht says he will 'have to' drop employees
+    in favor of AI
+  description: Billionaire Barry Sternlicht, the chairman and CEO of Starwood Capital
+    Group, is a legendary, legacy real estate investor. He called the impact of AI
+    "terrifying."
+  url: https://www.cnbc.com/2025/11/11/barry-sternlicht-says-he-will-drop-employees-in-favor-of-ai.html
+  date: '2025-11-11'
+  source: CNBC
+- title: What a Cranky New Book About Progress Gets Right
+  description: Paul Kingsnorth argues that much of today’s culture is intent on eroding
+    what it means to be human.
+  url: https://www.theatlantic.com/books/2025/11/paul-kingsnorth-against-the-machine/684848/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: Paramount cuts costs, SoftBank sells its Nvidia stake, Warren Buffett's new
+    tradition and more in Morning Squawk
+  description: Here are five key things investors need to know to start the trading
+    day.
+  url: https://www.cnbc.com/2025/11/11/5-things-to-know-before-the-stock-market-opens.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Apollo Global Management’s Business Model Transformation
+  description: What does it mean to be a scalable, modern investment firm?
+  url: https://hbr.org/podcast/2025/11/apollo-global-managements-business-model-transformation
+  date: '2025-11-11'
+  source: Harvard Business Review
+- title: Brené Brown on Being a Steady Leader in Tumultuous Times
+  description: Leadership takes daring and steadfastness even in the best of times.
+    In eras of shaky political, economic, and social stability, researcher and author
+    Brené Brown argues it is more important than ever to stay true to your values,
+    make thoughtful deci
+  url: https://hbr.org/podcast/2025/11/bren-brown-on-being-a-steady-leader-in-tumultuous-times
+  date: '2025-11-11'
+  source: Harvard Business Review
+- title: AI spending is not all equal. Wall Street rewards hyperscalers, punishes
+    DoorDash and Duolingo
+  description: While hyperscalers are getting rewarded for their big spending plans,
+    smaller companies are getting punished by investors.
+  url: https://www.cnbc.com/2025/11/11/doordash-duolingo-show-wall-street-doesnt-love-ai-spending-equally.html
+  date: '2025-11-11'
+  source: CNBC
+- title: A Quiet American Papacy
+  description: Pope Leo’s relative silence carries certain risks, but it might be
+    exactly what American Catholics need right now.
+  url: https://www.theatlantic.com/ideas/2025/11/pope-leo-quiet-trump/684888/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: Stock investors are buoying the economy. A labor market breakdown could end
+    that
+  description: Government labor data could paint a darker economic picture, leading
+    to a market slide that would throw cold water on the outlook of those who are
+    well off.
+  url: https://www.cnbc.com/2025/11/11/stocks-are-buoying-wealthy-sentiment-a-labor-market-break-could-end-that.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Oura expects close to $2 billion in 2026 sales, almost doubling for the second
+    consecutive year
+  description: CEO Tom Hale spoke with CNBC's Arjun Kharpal in an exclusive interview
+    at Web Summit in Lisbon, Portugal.
+  url: https://www.cnbc.com/2025/11/11/smart-ring-maker-oura-expects-close-to-2-billion-in-2026-sales-ceo.html
+  date: '2025-11-11'
+  source: CNBC
+- title: Why Can’t A.I. Manage My E-Mails?
+  description: Cal Newport investigates e-mail-sorting apps powered by A.I. and lets
+    one, called Cora, organize his inbox.
+  url: https://www.newyorker.com/culture/open-questions/why-cant-ai-manage-my-e-mails
+  date: '2025-11-11'
+  source: The New Yorker
+- title: Trump hints at cutting tariffs on India as loyalist Sergio Gor sworn in as
+    ambassador
+  description: President Donald Trump said tariffs on India could be reduced as the
+    country has cut down imports of Russian oil and US-India could close a trade deal
+    soon.
+  url: https://www.cnbc.com/2025/11/11/india-delhi-a-test-of-trumps-political-diplomacy-arrival-of-loyalist-envoy-ambassador-sergio-gor.html
+  date: '2025-11-11'
+  source: CNBC
+- title: 'Sonder announces bankruptcy plans; tells guests to vacate hotel rooms: ''People
+    were scrambling'''
+  description: Apartment rentals firm Sonder said it's liquidating operations, a day
+    after Marriott said a licensing agreement between the two companies had ended.
+  url: https://www.cnbc.com/2025/11/11/sonder-to-file-for-bankruptcy-travelers-told-to-leave-hotels-next-day.html
+  date: '2025-11-11'
+  source: CNBC
+- title: SoftBank sells its entire stake in Nvidia for $5.83 billion
+  description: The Japanese conglomerate said Tuesday it sold 32.1 million shares
+    of Nvidia in October.
+  url: https://www.cnbc.com/2025/11/11/softbank-sells-its-entire-stake-in-nvidia-for-5point83-billion.html
+  date: '2025-11-11'
+  source: CNBC
+- title: SoftBank rides the AI wave as OpenAI lifts Vision Fund to $19 billion gain
+  description: SoftBank's stock has slumped in the past week as concerns of an artificial
+    intelligence bubble sent jitters through global markets.
+  url: https://www.cnbc.com/2025/11/11/softbank-earnings-report-2q.html
+  date: '2025-11-11'
+  source: CNBC
+- title: AI progress and recommendations | OpenAI
+  description: AI is unlocking new knowledge and capabilities. Our responsibility
+    is to guide that power toward broad, lasting benefit.
+  url: https://openai.com/index/ai-progress-and-recommendations/
+  date: '2025-11-11'
+  source: Openai.com
+- title: Sony raises profit forecast after earnings beat, boosted by PlayStation and
+    Imaging divisions
+  description: Sony Group on Tuesday reported a increase in its second-quarter operating
+    profit that beat expectations.
+  url: https://www.cnbc.com/2025/11/11/sony-group-second-quarter-september-quarter-profits-expectations-kpop-demon-hunter-playstation.html
+  date: '2025-11-11'
+  source: CNBC
 - title: The Trump Administration Has a New Plan for Gaza
   description: The U.S. wants to build housing for those displaced by the war, but
     not everyone is on board.
@@ -457,6 +1256,14 @@ news_items:
   url: https://www.newscientist.com/article/2503499-mysterious-holes-in-andean-mountain-may-be-an-inca-spreadsheet/
   date: '2025-11-10'
   source: New Scientist
+- title: Toward security-aware portable sequencing
+  description: Portable genome sequencers are revolutionizing genomic research. However,
+    their reliance on external systems introduces new vulnerabilities that threaten
+    the security of these sequencers. By employing zero-trust principles throughout
+    the sequencing w
+  url: https://www.nature.com/articles/s41467-025-66024-z
+  date: '2025-11-10'
+  source: Nature.com
 - title: Development of a targeted BioPROTAC degrader selective for misfolded SOD1
   description: Conventional PROTACs have limited capacity for misfolded proteins.
     Here, authors develop a BioPROTAC containing an scFv specifically targeting misfolded
@@ -465,12 +1272,17 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-65481-w
   date: '2025-11-10'
   source: Nature.com
-- title: Toward security-aware portable sequencing
-  description: Portable genome sequencers are revolutionizing genomic research. However,
-    their reliance on external systems introduces new vulnerabilities that threaten
-    the security of these sequencers. By employing zero-trust principles throughout
-    the sequencing w
-  url: https://www.nature.com/articles/s41467-025-66024-z
+- title: A comparative evaluatıon of AI-based ChatGPT and physicians in psychiatric
+    case assessment
+  description: Scientific Reports - A comparative evaluatıon of AI-based ChatGPT and
+    physicians in psychiatric case assessment
+  url: https://www.nature.com/articles/s41598-025-20813-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: 'Scales of risk and adaptive ‘dread’: an evolutionary theory of risk inflation'
+  description: 'Scientific Reports - Scales of risk and adaptive ‘dread’: an evolutionary
+    theory of risk inflation'
+  url: https://www.nature.com/articles/s41598-025-19079-3
   date: '2025-11-10'
   source: Nature.com
 - title: Magnetostrictive mechanical frequency combs
@@ -481,17 +1293,11 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-64878-x
   date: '2025-11-10'
   source: Nature.com
-- title: 'Scales of risk and adaptive ‘dread’: an evolutionary theory of risk inflation'
-  description: 'Scientific Reports - Scales of risk and adaptive ‘dread’: an evolutionary
-    theory of risk inflation'
-  url: https://www.nature.com/articles/s41598-025-19079-3
-  date: '2025-11-10'
-  source: Nature.com
-- title: A comparative evaluatıon of AI-based ChatGPT and physicians in psychiatric
-    case assessment
-  description: Scientific Reports - A comparative evaluatıon of AI-based ChatGPT and
-    physicians in psychiatric case assessment
-  url: https://www.nature.com/articles/s41598-025-20813-0
+- title: Cancer-specific cytotoxicity of curcumin through regulation of integrin β1
+    expression in colon cancer
+  description: Scientific Reports - Cancer-specific cytotoxicity of curcumin through
+    regulation of integrin β1 expression in colon cancer
+  url: https://www.nature.com/articles/s41598-025-21627-w
   date: '2025-11-10'
   source: Nature.com
 - title: 'Publisher Correction: Radiation-induced amphiregulin drives tumour metastasis'
@@ -508,19 +1314,11 @@ news_items:
   url: https://www.nature.com/articles/s41566-025-01784-0
   date: '2025-11-10'
   source: Nature.com
-- title: Cancer-specific cytotoxicity of curcumin through regulation of integrin β1
-    expression in colon cancer
-  description: Scientific Reports - Cancer-specific cytotoxicity of curcumin through
-    regulation of integrin β1 expression in colon cancer
-  url: https://www.nature.com/articles/s41598-025-21627-w
-  date: '2025-11-10'
-  source: Nature.com
-- title: LUBAC modulates CBM complex functions downstream of TRAF6 in T cells
-  description: The CARD11-BCL10-MALT1 (CBM) complex governs canonical NF-κB signaling
-    and MALT1 protease activation downstream of TCR stimulation. Here, the authors
-    evaluate the contribution of the E3 ligases LUBAC and TRAF6 in controlling CBM
-    activity, using Jurka
-  url: https://www.nature.com/articles/s41467-025-65879-6
+- title: 'Daily briefing: The Americas have lost their measles elimination status'
+  description: A year-long outbreak of measles in Canada negates the country’s disease-free
+    status. Plus, the benefits of being multilingual and computers that run on human
+    brains.
+  url: https://www.nature.com/articles/d41586-025-03705-1
   date: '2025-11-10'
   source: Nature.com
 - title: A call for 3D genomics submissions
@@ -531,13 +1329,6 @@ news_items:
   url: https://www.nature.com/articles/s41588-025-02439-0
   date: '2025-11-10'
   source: Nature.com
-- title: 'Endowing urban business environments with an intelligent brain: empirical
-    evidence from cities in western China'
-  description: 'Scientific Reports - Endowing urban business environments with an
-    intelligent brain: empirical evidence from cities in western China'
-  url: https://www.nature.com/articles/s41598-025-05630-9
-  date: '2025-11-10'
-  source: Nature.com
 - title: What it really took to become an astronaut during the Space Race
   description: As NASA prepared astronauts for its second mission into space, National
     Geographic had exclusive behind-the-scenes access for the intense and out-of-this-world
@@ -545,10 +1336,19 @@ news_items:
   url: https://www.nationalgeographic.com/history/article/the-making-of-an-astronaut-space-race
   date: '2025-11-10'
   source: National Geographic
-- title: Flexible perovskite/silicon tandem solar cells with 33.6% efficiency
-  description: Nature - Flexible perovskite/silicon tandem solar cells with 33.6%
-    efficiency
-  url: https://www.nature.com/articles/s41586-025-09849-4
+- title: 'Endowing urban business environments with an intelligent brain: empirical
+    evidence from cities in western China'
+  description: 'Scientific Reports - Endowing urban business environments with an
+    intelligent brain: empirical evidence from cities in western China'
+  url: https://www.nature.com/articles/s41598-025-05630-9
+  date: '2025-11-10'
+  source: Nature.com
+- title: LUBAC modulates CBM complex functions downstream of TRAF6 in T cells
+  description: The CARD11-BCL10-MALT1 (CBM) complex governs canonical NF-κB signaling
+    and MALT1 protease activation downstream of TCR stimulation. Here, the authors
+    evaluate the contribution of the E3 ligases LUBAC and TRAF6 in controlling CBM
+    activity, using Jurka
+  url: https://www.nature.com/articles/s41467-025-65879-6
   date: '2025-11-10'
   source: Nature.com
 - title: Flexible perovskite/silicon tandem solar cell with a dual buffer layer
@@ -557,128 +1357,12 @@ news_items:
   url: https://www.nature.com/articles/s41586-025-09835-w
   date: '2025-11-10'
   source: Nature.com
-- title: All The Billionaires At Kris Jenner’s 70th Birthday Party
-  description: The star-studded guest list included celebrities and a group of billionaires
-    worth more than a half-trillion dollars.
-  url: https://www.forbes.com/sites/asia-alexander/2025/11/10/all-the-billionaires-at-kris-jenners-70th-birthday-party/
+- title: Flexible perovskite/silicon tandem solar cells with 33.6% efficiency
+  description: Nature - Flexible perovskite/silicon tandem solar cells with 33.6%
+    efficiency
+  url: https://www.nature.com/articles/s41586-025-09849-4
   date: '2025-11-10'
-  source: Forbes
-- title: VC Jennifer Neundorfer explains how founders can stand out in a crowded AI
-    market | TechCrunch
-  description: January Ventures co-founder Jennifer Neundorfer discussed this AI-driven
-    funding market on the Equity podcast during TechCrunch Disrupt.
-  url: https://techcrunch.com/2025/11/10/vc-jennifer-neundorfer-explains-how-founders-can-stand-out-in-a-crowded-ai-market/
-  date: '2025-11-10'
-  source: TechCrunch
-- title: Siri Shortcuts now works with Samsung SmartThings routines
-  description: Samsung’s latest SmartThings update adds support for Siri Shortcuts.
-    In a press release, Samsung announced that you can now use Siri to run SmartThings
-    routines, allowing you to use Apple’s voice assistant to control your smart home.
-    Siri Shortcuts i
-  url: https://www.theverge.com/news/818054/samsung-smartthings-routines-siri-ios-support
-  date: '2025-11-10'
-  source: The Verge
-- title: Tesla’s Engineering Exodus Comes Amid Shift From Core EV Mission
-  description: The latest departures, days after shareholders backed Elon Musk’s $1
-    trillion pay package, follow the loss of top sales, battery, robotics and chip
-    executives this year.
-  url: https://www.forbes.com/sites/alanohnsman/2025/11/10/teslas-engineering-exodus-comes-amid-shift-from-core-ev-mission/
-  date: '2025-11-10'
-  source: Forbes
-- title: Paramount Plus is getting a price hike in early 2026
-  description: Paramount Plus is going up in price again. As part of its earnings
-    report released on Monday, Paramount announced that it will “implement price increases
-    in the US” in the first quarter of 2026 — without saying how much it will soon
-    cost. Paramount s
-  url: https://www.theverge.com/news/818019/paramount-plus-price-increase-us-2026
-  date: '2025-11-10'
-  source: The Verge
-- title: You don’t hate AI because of genuine dislike. No, there’s a $1 billion plot
-    by the ‘Doomer Industrial Complex’ to brainwash you, Trump’s AI czar says
-  description: Remember “Effective Altruism?” The movement led by disgraced crypto
-    kingpin Sam Bankman-Fried is back, lobbying against AI.
-  url: https://fortune.com/2025/11/10/why-do-people-hate-ai-david-sacks-effective-altruism-doomer-industrial-complex/
-  date: '2025-11-10'
-  source: Fortune
-- title: A better way of thinking about the AI bubble  | TechCrunch
-  description: AI isn't all or nothing, and even good bets can turn sour if you aren't
-    careful about how you make them.
-  url: https://techcrunch.com/2025/11/10/a-better-way-of-thinking-about-the-ai-bubble/
-  date: '2025-11-10'
-  source: TechCrunch
-- title: Kaltura acquires eSelf, founded by creator of Snap’s AI, in $27M deal | TechCrunch
-  description: Kaltura acquires AI avatar startup eSelf to integrate generative AI
-    into enterprise video and learning tools.
-  url: https://techcrunch.com/2025/11/10/kaltura-acquires-eself-founded-by-creator-of-snaps-ai-in-27m-deal/
-  date: '2025-11-10'
-  source: TechCrunch
-- title: 'Trump’s Pardon List: Here Are The Big-Time Donors And Allies He’s Sprung
-    Free'
-  description: Trump pardoned more than 70 people who helped him try to overturn the
-    2020 election—the latest in a string of pardons to people who have benefited the
-    president.
-  url: https://www.forbes.com/sites/alisondurkee/2025/11/10/trumps-pardon-list-here-are-the-big-time-donors-and-allies-hes-sprung-free/
-  date: '2025-11-10'
-  source: Forbes
-- title: Wendy’s plans hundreds of store closures to boost profits
-  description: The company said it expected a “mid-single-digit percentage” of its
-    U.S. stores to be affected, but it didn't give any more details.
-  url: https://fortune.com/2025/11/10/wendys-plans-hundreds-of-store-closures-to-boost-profits/
-  date: '2025-11-10'
-  source: Fortune
-- title: Google says its confusing Gemini Home rollout is going just great
-  description: 'Google started rolling out its new Gemini voice assistant for its
-    smart speakers two weeks ago and, in a blog post marking the anniversary, the
-    company seems to think everything is going great. It’s even quoting a user who
-    said, “My Google Home just '
-  url: https://www.theverge.com/news/817668/google-gemini-home-rollout-is-going-great
-  date: '2025-11-10'
-  source: The Verge
-- title: The next iPhone Air has reportedly been delayed
-  description: Apple is no longer planning to launch a second-generation iPhone Air
-    next fall and has “already sharply scaled back production of the first version,”
-    The Information reports. The company launched the super-thin version of the iPhone
-    in September, but
-  url: https://www.theverge.com/news/817908/apple-iphone-air-second-generation-delayed
-  date: '2025-11-10'
-  source: The Verge
-- title: AI stocks lead Wall Street rebound as Nvidia, Palantir surge and S&P 500
-    claws back last week’s losses
-  description: Nvidia was by far the strongest force lifting the market and rallied
-    4.8%. It's a bounceback after Nvidia and other winners in the frenzy around artificial-intelligence
-    technology were at the center of last week’s drop.
-  url: https://fortune.com/2025/11/10/ai-stocks-lead-wall-street-rebound-as-nvidia-palantir-surge-and-sp-500-claws-back-last-weeks-losses-market/
-  date: '2025-11-10'
-  source: Fortune
-- title: Gemini for TV is coming to Google TV Streamer starting today
-  description: Gemini for TV is rolling out to Google TV Streamer devices starting
-    today, allowing almost anyone to try it out. Since it launched back in September,
-    Gemini for TV has only been available on a limited number of smart TVs. If you
-    didn’t have one of th
-  url: https://www.theverge.com/news/817831/gemini-for-tv-google-tv-streamer-roll-out
-  date: '2025-11-10'
-  source: The Verge
-- title: Google brings Gemini to the Google TV Streamer | TechCrunch
-  description: The tech giant says the change will enable users to use their voice
-    more naturally to access content and more.
-  url: https://techcrunch.com/2025/11/10/google-brings-gemini-to-the-google-tv-streamer/
-  date: '2025-11-10'
-  source: TechCrunch
-- title: Apple’s AirPods 4 just hit their lowest price yet at $85
-  description: I’ve seen dozens of solid deals trickle in ahead of Black Friday, but
-    Apple’s AirPods 4 hitting a new all-time low is the first one that’s really stood
-    out to me. Right now, you can buy Apple’s entry-level wireless earbuds for just
-    $84.99 ($44 off) a
-  url: https://www.theverge.com/tech/817656/apple-airpods-4-early-black-friday-deal-sale
-  date: '2025-11-10'
-  source: The Verge
-- title: The World’s 10 Richest People Became $40 Billion Richer As Shutdown Deal
-    Advances
-  description: Consumers have expressed growing concerns about the shutdown’s potential
-    impact on the economy in recent weeks.
-  url: https://www.forbes.com/sites/tylerroush/2025/11/10/the-worlds-10-richest-people-became-40-billion-richer-as-shutdown-deal-advances/
-  date: '2025-11-10'
-  source: Forbes
+  source: Nature.com
 - title: No More Mr. Nice AI
   description: OpenAI is pursuing aggressive legal tactics against its opponents.
   url: https://www.theatlantic.com/technology/2025/11/openai-lawsuit-subpoenas/684861/
@@ -1217,28 +1901,6 @@ news_items:
   url: https://www.bloomberg.com/news/articles/2025-11-07/tesla-shareholders-didn-t-approve-authorizing-investment-in-xai
   date: '2025-11-08'
   source: Bloomberg
-- title: Denver International Airport experiences flight delays, cancellations due
-    to government shutdown
-  description: More flight cancellations are expected at Denver International, which
-    is among 40 total airports impacted nationwide this weekend.
-  url: https://www.cbsnews.com/colorado/news/denver-international-airport-flight-delays-cancellations-government-shutdown/
-  date: '2025-11-08'
-  source: CBS News
-- title: '‘No one can shut our voice’: Miss Universe Mexico confronts mistreatment
-    | CNN'
-  description: A video of a Miss Universe contestant being berated by a male pageant
-    director in Thailand has sparked widespread allegations of misogyny as well as
-    global discussions about women empowerment and merits of the international beauty
-    pageant.
-  url: https://www.cnn.com/2025/11/07/americas/miss-universe-mexico-thailand-latam-intl
-  date: '2025-11-08'
-  source: CNN
-- title: You can now book online to see your GP. But is it any easier to get an appointment?
-  description: A month since GPs in England started offering online appointment bookings,
-    patients recount their experiences.
-  url: https://www.bbc.com/news/articles/c8x19k50dlpo
-  date: '2025-11-08'
-  source: BBC News
 - title: How countries can be held responsible for staying within new legal climate
     target of 1.5°C
   description: 'Global emissions need to peak this year to stay within 1.5°C of global
@@ -1282,69 +1944,6 @@ news_items:
   url: https://phys.org/news/2025-11-solid-oxygen-crystal-extreme-magnetic.html
   date: '2025-11-08'
   source: Phys.Org
-- title: MIT quantum breakthrough edges toward room-temp superconductors
-  description: MIT scientists uncovered direct evidence of unconventional superconductivity
-    in magic-angle graphene by observing a distinctive V-shaped energy gap. The discovery
-    hints that electron pairing in this material may arise from strong electronic
-    interacti
-  url: https://www.sciencedaily.com/releases/2025/11/251108014019.htm
-  date: '2025-11-08'
-  source: Science Daily
-- title: Einstein might have been wrong about black holes
-  description: Researchers are using black hole shadows to challenge Einstein’s theory
-    of relativity. With new simulations and future ultra-sharp telescope images, they
-    may uncover signs that his famous equations don’t tell the whole story.
-  url: https://www.sciencedaily.com/releases/2025/11/251108014022.htm
-  date: '2025-11-08'
-  source: Science Daily
-- title: Deep-sea mining starves life in the ocean’s twilight zone
-  description: Scientists have discovered that deep-sea mining plumes can strip vital
-    nutrition from the ocean’s twilight zone, replacing natural food with nutrient-poor
-    sediment. The resulting “junk food” effect could starve life across entire marine
-    ecosystems.
-  url: https://www.sciencedaily.com/releases/2025/11/251108012850.htm
-  date: '2025-11-08'
-  source: Science Daily
-- title: Laser satellites expose a secret Antarctic carbon burst
-  description: 'A new study shows that the Southern Ocean releases far more carbon
-    dioxide in winter than once thought. By combining laser satellite data with AI
-    analysis, scientists managed to “see” through the polar darkness for the first
-    time. The results reveal '
-  url: https://www.sciencedaily.com/releases/2025/11/251108014024.htm
-  date: '2025-11-08'
-  source: Science Daily
-- title: A hidden cellular cleanup trick could reverse aging
-  description: Researchers found that the body’s natural recycling system, the lysosome,
-    plays a vital role in removing the protein that drives premature aging. When this
-    system breaks down, aging speeds up. By reactivating it, scientists were able
-    to help cells re
-  url: https://www.sciencedaily.com/releases/2025/11/251107010326.htm
-  date: '2025-11-08'
-  source: Science Daily
-- title: Turning undersea cables into a global monitoring system for seismic and environmental
-    hazards
-  description: EU researchers are exploring how undersea communication cables can
-    double-up as environmental and seismic sensors—a potential game-changer for early
-    warning systems.
-  url: https://phys.org/news/2025-11-undersea-cables-global-seismic-environmental.html
-  date: '2025-11-08'
-  source: Phys.Org
-- title: Climate policy strengthens globally, despite unprecedented contestation in
-    the US and Europe
-  description: As countries meet at COP30 in the Amazon, a new Oxford University study
-    gives the most detailed view yet of how different nations' laws and regulations
-    are aligning—or not—to climate goals. The survey of climate policies across 37
-    countries (includin
-  url: https://phys.org/news/2025-11-climate-policy-globally-unprecedented-contestation.html
-  date: '2025-11-08'
-  source: Phys.Org
-- title: DNA pioneer James Watson has died ― colleagues wrestle with his legacy
-  description: The co-discoverer of the structure of DNA helped to strengthen a US
-    research institute and wrote a classic textbook, but also earned a reputation
-    for racist and sexist comments.
-  url: https://www.nature.com/articles/d41586-025-03380-2
-  date: '2025-11-08'
-  source: Nature.com
 - title: Backing Trump Has Paid Off for Silicon Valley Billionaires Like Marc Andreessen
   description: Lawsuits have been dropped and settlements renegotiated in favor of
     companies as the administration guts the CFPB.
@@ -1401,378 +2000,6 @@ news_items:
   url: https://www.cnbc.com/2025/11/08/youve-just-been-laid-off-because-of-ai-heres-what-to-do-next-.html
   date: '2025-11-08'
   source: CNBC
-- title: Who is Xania Monet? What we know about the AI music artist.
-  description: The creator of Xania Monet, an AI R&B artist, revealed her identity
-    in recent interview with Gayle King.
-  url: https://www.usatoday.com/story/entertainment/music/2025/11/07/who-is-xania-monet-what-we-know-about-the-ai-music-artist/87149296007/
-  date: '2025-11-07'
-  source: USA Today
-- title: Lawsuits accuse OpenAI's ChatGPT of encouraging suicide
-  description: At least seven families are suing tech giant OpenAI, claiming that
-    its ChatGPT program drove people to suicide and harmful delusions. CBS News legal
-    contributor Jessica Levinson has more.
-  url: https://www.cbsnews.com/video/lawsuits-accuse-openai-chatgpt-encouraging-suicide/
-  date: '2025-11-07'
-  source: CBS News
-- title: The legacy of James Watson, who helped crack DNA's code
-  description: 'James Watson, the scientist who co-discovered the structure of DNA,
-    died on Nov. 6, 2025, at the age of 97. Watson, along with Francis Crick and Maurice
-    Wilkins, won the Nobel Prize for their groundbreaking work on DNA''s double helix
-    structure. This '
-  url: https://apnews.com/article/james-watson-legacy-obituary-dna-double-helix-dc6a73a868b8783bf6ad5400fddb7c14
-  date: '2025-11-07'
-  source: Associated Press
-- title: Hegseth wants to prioritize speed as the Pentagon buys weapons
-  description: 'Defense Secretary Pete Hegseth says the Pentagon is revamping how
-    the military buys weapons, shifting the focus away from producing advanced and
-    complex technology and toward products that can be made and delivered quickly.
-    Hegseth spoke to military '
-  url: https://apnews.com/article/pentagon-hegseth-weapons-purchases-6f9326c2bad4355541d1a02b54d899db
-  date: '2025-11-07'
-  source: Associated Press
-- title: A new experiment in remote work … from the inside
-  description: When people in Maine prisons started getting laptops to use in their
-    cells for online classes and homework, it sparked this new idea. Could they have
-    laptops in their cells to work remotely for real outside world jobs, too??? And
-    get real outside wor
-  url: https://www.npr.org/2025/11/07/nx-s1-5601059/maine-prisoners-remote-work-jobs
-  date: '2025-11-07'
-  source: NPR
-- title: OpenAI's new web browser has ChatGPT baked in. That's raising some privacy
-    questions
-  description: The Atlas browser can act as your "agent" online, doing tasks like
-    shopping or booking tickets. But that gives it access to a lot of personal information.
-  url: https://www.npr.org/2025/11/07/nx-s1-5597010/openais-new-web-browser-has-chatgpt-baked-in-thats-raising-some-privacy-questions
-  date: '2025-11-07'
-  source: NPR
-- title: OpenAI's new web browser has ChatGPT baked in. That's raising some privacy
-    questions
-  description: The Atlas browser can act as your "agent" online, doing tasks like
-    shopping or booking tickets. But that gives it access to a lot of personal information.
-  url: https://www.npr.org/2025/11/07/nx-s1-5597010/openai-atlas-browser-chatgpt-data-privacy
-  date: '2025-11-07'
-  source: NPR
-- title: Government shutdown costing the economy billions of dollars each week
-  description: Estimates of the economic hit from the U.S. government shutdown put
-    the losses at up to $16 billion every week the impasse continues.
-  url: https://www.cbsnews.com/news/government-shutdown-economy-billions/
-  date: '2025-11-07'
-  source: CBS News
-- title: James Watson, who co-discovered DNA's double helix shape, dies at age 97
-  description: Scientist James Watson, who shared a Nobel prize for helping discover
-    the double-helix shape of the DNA molecule, has died. He was 97. His death was
-    announced by his former research lab. Watson also helped guide efforts to map
-    the human genome. But h
-  url: https://apnews.com/article/james-watson-obituary-dna-double-helix-nobel-c1f6d589f2d0d4751859168f9fae295c
-  date: '2025-11-07'
-  source: Associated Press
-- title: Former Texas A&M football commit names Tennessee in top four schools
-  description: Former 2026 four-star Texas A&M football commit names Tennessee in
-    his top four schools.
-  url: https://volswire.usatoday.com/story/sports/college/volunteers/football/2025/11/07/tennessee-football-recruiting-jordan-carter-names-vols-in-top-four-schools/87131034007/
-  date: '2025-11-07'
-  source: USA Today
-- title: Woeful Security At The Louvre (Including Its Passwords)
-  description: A French court released a report Thursday slamming the leadership of
-    the Louvre for its focus on headline-grabbing purchases and renovation projects
-    over maintaining the security of on of the world’s largest museums.
-  url: https://www.cnn.com/2025/11/06/europe/louvre-password-cctv-security-intl
-  date: '2025-11-07'
-  source: CNN
-- title: Governor Polis takes action as Colorado's car insurance ranks among top 5
-    most expensive
-  description: Drivers are shelling out more than $3,200 a year for full coverage,
-    which is 30% more than the national average, according to Bankrate.com.
-  url: https://www.cbsnews.com/colorado/news/governor-polis-colorado-car-insurance-costs/
-  date: '2025-11-07'
-  source: CBS News
-- title: Denmark’s government aims to ban access to social media for children aged
-    under 15
-  description: The move would give some parents — after a specific assessment — the
-    right to let their children access social media from age 13.
-  url: https://www.pbs.org/newshour/world/denmarks-government-aims-to-ban-access-to-social-media-for-children-aged-under-15
-  date: '2025-11-07'
-  source: PBS
-- title: '''Untenable'': Israel team loses top sponsor despite changes'
-  description: The title sponsor of the beleaguered Israel-Premier Tech ends its association,
-    despite the team agreeing to remove Israel from its name.
-  url: https://www.bbc.com/sport/cycling/articles/cz7p8w2xznjo
-  date: '2025-11-07'
-  source: BBC News
-- title: AI stocks head for more than $1 trillion in losses this week
-  description: Stocks were set to post their first weekly losses in weeks as concerns
-    about the valuations of artificial intelligence companies prompt investors to
-    pull back.
-  url: https://www.nbcnews.com/business/markets/stock-market-update-ai-losses-rcna242592
-  date: '2025-11-07'
-  source: NBC News
-- title: Is there plastic in your underwear? Here’s what to know
-  description: According to experts, there is a good chance that there are plastics
-    and chemicals in your underwear. Here’s how to find out.
-  url: https://www.nbcnews.com/select/shopping/plastic-in-underwear-rcna241678
-  date: '2025-11-07'
-  source: NBC News
-- title: The role outside powers are playing in Sudan’s continued, brutal war
-  description: For more than two years, Sudan’s military and a powerful paramilitary
-    force have torn the country apart in a war for power, both digging in against
-    peace efforts even as atrocities mount and starvation spreads. One reason they
-    can keep going is the s
-  url: https://www.pbs.org/newshour/world/the-role-outside-powers-are-playing-in-sudans-continued-brutal-war
-  date: '2025-11-07'
-  source: PBS
-- title: Denmark set to ban social media for children under 15...
-  description: Denmark's government has announced a plan to ban social media access
-    for anyone under 15. The Ministry of Digitalization has led the move, allowing
-    some parents to consent for children as young as 13 after assessment. This step
-    is among the most sign
-  url: https://apnews.com/article/denmark-social-media-ban-children-7862d2a8cc590b4969c8931a01adc7f4
-  date: '2025-11-07'
-  source: Associated Press
-- title: Trump administration loosens restrictions on pollutant
-  description: 'The Trump administration is loosening a federal rule that requires
-    grocery stores, air-conditioning companies and others to reduce powerful greenhouse
-    gases that contribute to global warming. Lee Zeldin, administrator of the Environmental
-    Protection '
-  url: https://apnews.com/article/hfc-alternative-refrigerants-air-conditioners-trump-epa-fb2d3c8bd3029b9f924e9adb45bedfb4
-  date: '2025-11-07'
-  source: Associated Press
-- title: Kirk Herbstreit ranks his top-5 college football teams ahead of Week 11
-  description: ESPN college football analyst and "College GameDay" host Kirk Herbstreit
-    sets the record straight on Georgia after leaving UGA out of his top five
-  url: https://ugawire.usatoday.com/story/sports/college/bulldogs/football/2025/11/07/kirk-herbstreit-college-football-rankings-georgia-week-11/87132206007/
-  date: '2025-11-07'
-  source: USA Today
-- title: David Ellison's Paramount Skydance makes its bullish pitch to Hollywood
-  description: About a dozen industry insiders who spoke to NBC News said Paramount
-    Skydance is aggressively closing deals with top talent.
-  url: https://www.nbcnews.com/pop-culture/pop-culture-news/david-ellison-paramount-skydance-shaping-hollywood-rcna241980
-  date: '2025-11-07'
-  source: NBC News
-- title: Pelosi exit opens way for tough fight to replace her...
-  description: Former House Speaker Nancy Pelosi’s decision to step aside after nearly
-    four decades in Congress kicks off a wide-open contest to replace her at a time
-    when her home city of San Francisco is roiled in debate about what its future
-    should look like. Pe
-  url: https://apnews.com/article/nancy-pelosi-speaker-house-san-francisco-democrats-764539037004766909a454c327ba831d
-  date: '2025-11-07'
-  source: Associated Press
-- title: '''No hire'' job market leaves unemployed in limbo as threats to economy
-    multiply...'
-  description: The unemployment rate is low and the economy is still growing, but
-    those out of work face the slowest pace of hiring in more than a decade. While
-    big corporate layoff announcements typically grab the most attention, it has been
-    the unwillingness of m
-  url: https://apnews.com/article/jobs-hiring-economy-c48fd84dfaa71eee962feb3a88fd8575
-  date: '2025-11-07'
-  source: Associated Press
-- title: Where is College GameDay headed for Week 11 of 2025?
-  description: College GameDay is on site for a big top-10 matchup.
-  url: https://ftw.usatoday.com/story/sports/ncaaf/2025/11/07/where-is-college-gameday-week-11-texas-tech/87143317007/
-  date: '2025-11-07'
-  source: USA Today
-- title: Big 12 and other Week 11 college football game expert picks and predictions
-  description: Our writers pick the entire Big 12 slate straight-up as well as the
-    biggest games for Week 11 across college football.
-  url: https://coloradobuffaloeswire.usatoday.com/story/sports/college/buffaloes/football/2025/11/07/college-football-predictions-big-12-games-week-11/87132588007/
-  date: '2025-11-07'
-  source: USA Today
-- title: 'What to know about today''s flight cuts and a ruling to preserve SNAP: Morning
-    Rundown'
-  description: Reduction in flights have begun today at major airports across the
-    country.
-  url: https://www.nbcnews.com/news/us-news/know-todays-flight-cuts-ruling-preserve-snap-morning-rundown-rcna242506
-  date: '2025-11-07'
-  source: NBC News
-- title: Why human-shaped robots loom large in Musk's Tesla plans
-  description: The tech billionaire believes Optimus could play a big role in the
-    lives of people around the world.
-  url: https://www.bbc.com/news/articles/cdrz2rdlykdo
-  date: '2025-11-07'
-  source: BBC News
-- title: FIW Staff pick Notre Dame vs. Navy and top Week 11 games in college football
-  description: The Fighting Irish Wire staff pick the winner of Notre Dame vs. Navy
-    and the best Week 11 games in college football.
-  url: https://fightingirishwire.usatoday.com/story/sports/college/fighting-irish/football/2025/11/07/notre-dame-football-navy-week-11-predictions-winners-picks-college-playoff/87117502007/
-  date: '2025-11-07'
-  source: USA Today
-- title: China aims to expand its power in the Pacific with its new Fujian aircraft
-    carrier
-  description: China’s largest and most advanced aircraft carrier has entered service,
-    Chinese state media said Friday, in a major step for the world’s largest navy
-    as it seeks to challenge U.S. dominance in the Pacific.
-  url: https://www.nbcnews.com/world/asia/china-aims-expand-power-pacific-new-fujian-aircraft-carrier-rcna242515
-  date: '2025-11-07'
-  source: NBC News
-- title: Marcia Inhorn recognized for outstanding career by Association for Feminist
-    Anthropology
-  description: Inhorn, William K. Lanman Jr. Professor of Anthropology and International
-    Affairs, has been awarded the 2025 AFA Career Award for her many contributions
-    to the field of feminist&nbsp;anthropology.
-  url: https://fas.yale.edu/news-announcements/news/marcia-inhorn-recognized-outstanding-career-association-feminist-anthropology
-  date: '2025-11-07'
-  source: Yale.edu
-- title: SpyTag nanodisks enable reliable surface plasmon resonance analysis of membrane
-    proteins
-  description: 'In a study published in Analytical Chemistry, a research team led
-    by Wang Junfeng from the Hefei Institutes of Physical Science of the Chinese Academy
-    of Sciences has developed a novel immobilization method for surface plasmon resonance
-    (SPR) assays '
-  url: https://phys.org/news/2025-11-spytag-nanodisks-enable-reliable-surface.html
-  date: '2025-11-07'
-  source: Phys.Org
-- title: 10 Delegates From the Climate School Share Their Plans and Hopes for COP30
-  description: Columbia Climate School representatives discuss what they hope to achieve
-    at this year's global climate summit in Brazil.
-  url: https://news.climate.columbia.edu/2025/11/07/10-delegates-from-the-climate-school-share-their-plans-and-hopes-for-cop30/
-  date: '2025-11-07'
-  source: Columbia.edu
-- title: 10 Delegates From Columbia and the Climate School Discuss What They Hope
-    to Achieve at COP30
-  description: Columbia and Climate School representatives discuss what they hope
-    to achieve at this year's global climate summit in Brazil.
-  url: https://news.climate.columbia.edu/2025/11/07/10-delegates-from-columbia-and-the-climate-school-discuss-what-they-hope-to-achieve-at-cop30/
-  date: '2025-11-07'
-  source: Columbia.edu
-- title: Death Valley plant yields blueprint for building heat-resilient crops
-  description: In California's Death Valley, where summer temperatures regularly soar
-    above 120 degrees Fahrenheit, life seems almost impossible. Yet among the cracked
-    earth and blinding sunlight, one native plant not only survives—it thrives.
-  url: https://phys.org/news/2025-11-death-valley-yields-blueprint-resilient.html
-  date: '2025-11-07'
-  source: Phys.Org
-- title: Nano-encapsulated CBD offers potential pain relief with no adverse side effects
-  description: Reaching for CBD-infused lotion or oil may seem like a low-risk way
-    to find pain relief, but little is actually known about the impact that CBD has
-    on the nervous system.
-  url: https://phys.org/news/2025-11-nano-encapsulated-cbd-potential-pain.html
-  date: '2025-11-07'
-  source: Phys.Org
-- title: Evolution of human saliva tracked back to primates
-  description: 'Saliva is a bodily fluid most of us take for granted despite the significant
-    roles it plays: aiding in digestion, maintaining strong teeth and defending against
-    oral disease. However, the evolution of human saliva has been largely unknown—until
-    now, '
-  url: https://phys.org/news/2025-11-evolution-human-saliva-tracked-primates.html
-  date: '2025-11-07'
-  source: Phys.Org
-- title: New report sheds light on how UN SDG 11 is shaping urban planning systems
-    around the globe
-  description: The global planning community must move "from awareness to action"
-    if the UN's goal of sustainable and inclusive urban development is to be achieved
-    by 2030, authors of a new report have warned.
-  url: https://phys.org/news/2025-11-sdg-urban-globe.html
-  date: '2025-11-07'
-  source: Phys.Org
-- title: After 250 years, an 18th-century mechanical volcano erupts to life
-  description: An 18th-century mechanical artwork depicting Mount Vesuvius’ eruption
-    has finally erupted — 250 years later. University of Melbourne students reconstructed
-    Sir William Hamilton’s imaginative fusion of art and engineering using modern
-    technology. Thei
-  url: https://www.sciencedaily.com/releases/2025/11/251107010306.htm
-  date: '2025-11-07'
-  source: Science Daily
-- title: CERN creates cosmic “fireballs” that could reveal the Universe’s hidden magnetism
-  description: Using CERN’s Super Proton Synchrotron, researchers generated plasma
-    fireballs to simulate blazar jets. The beams stayed stable, suggesting plasma
-    instabilities aren’t responsible for missing gamma rays. Instead, the data strengthens
-    the idea of ancie
-  url: https://www.sciencedaily.com/releases/2025/11/251107010252.htm
-  date: '2025-11-07'
-  source: Science Daily
-- title: The hidden “Big Bang” that decides how bowel cancer grows
-  description: Scientists have pinpointed a “Big Bang” moment in bowel cancer—when
-    cells first evade the immune system. This early immune escape locks in how the
-    cancer will behave as it grows. The discovery could help predict which patients
-    respond to immunotherap
-  url: https://www.sciencedaily.com/releases/2025/11/251107010250.htm
-  date: '2025-11-07'
-  source: Science Daily
-- title: 'Antarctic ice melt triggers further melting: Evidence for cascading feedbacks
-    9,000 years ago'
-  description: A study has revealed that the substantial retreat of the East Antarctic
-    Ice Sheet (EAIS) approximately 9,000 years ago was driven by a self-reinforcing
-    feedback loop between ice melt and ocean circulation.
-  url: https://phys.org/news/2025-11-antarctic-ice-triggers-evidence-cascading.html
-  date: '2025-11-07'
-  source: Phys.Org
-- title: Where Is Litigation Over AI Headed?
-  description: In emerging AI-related litigation, one of the most common claims so
-    far concerns alleged over-stating or misrepresenting a company’s AI capabilities
-    to its investors. According to Stanford’s Class Action Clearinghouse, there have
-    been more than 50 cl
-  url: https://clsbluesky.law.columbia.edu/2025/11/07/where-is-litigation-over-ai-headed/
-  date: '2025-11-07'
-  source: Columbia.edu
-- title: Mini llama proteins show promise for Alzheimer’s treatment
-  description: Miniature antibodies from camels and llamas can slip into the brain
-    more easily than conventional drugs, offering a new way to treat disorders like
-    Alzheimer’s and schizophrenia. Researchers say these “nanobodies” could reshape
-    the future of brain me
-  url: https://www.sciencedaily.com/releases/2025/11/251106213557.htm
-  date: '2025-11-07'
-  source: Science Daily
-- title: TUSC3 regulates ERMA-mediated Mg2+ uptake for synaptic function and neurodevelopment
-  description: 'This study shows that TUSC3 is essential for magnesium balance in
-    the brain. Loss of TUSC3 disrupts neuron function and leads to intellectual disability
-    in a mouse model, but magnesium supplementation restores brain function, pointing
-    to a potential '
-  url: https://www.nature.com/articles/s41467-025-65668-1
-  date: '2025-11-07'
-  source: Nature.com
-- title: The corneal thickness profile in different forms of glaucoma
-  description: Scientific Reports - The corneal thickness profile in different forms
-    of glaucoma
-  url: https://www.nature.com/articles/s41598-025-26680-z
-  date: '2025-11-07'
-  source: Nature.com
-- title: Outside the window
-  description: A life well lived.
-  url: https://www.nature.com/articles/d41586-025-03600-9
-  date: '2025-11-07'
-  source: Nature.com
-- title: The nerve center of organ engineering
-  description: As tissue engineering has developed it has become apparent that multiple
-    inputs are needed to fully replicate tissues, neuronal-axonal networks are an
-    important part of this. In this review, the authors explore the advances in biomanufacturing
-    and mu
-  url: https://www.nature.com/articles/s41467-025-64801-4
-  date: '2025-11-07'
-  source: Nature.com
-- title: International PhD student numbers in US hold steady — for now
-  description: Trend flies in face of Trump-administration policies, but could yet
-    see a rapid decrease, especially in science fields.
-  url: https://www.nature.com/articles/d41586-025-03653-w
-  date: '2025-11-07'
-  source: Nature.com
-- title: 'Reply to: Stylistic language drives perceived moral superiority of LLMs'
-  description: 'Scientific Reports - Reply to: Stylistic language drives perceived
-    moral superiority of LLMs'
-  url: https://www.nature.com/articles/s41598-025-25047-8
-  date: '2025-11-07'
-  source: Nature.com
-- title: The methyl-CpG-binding protein 2 inhibits cGAS-associated signaling
-  description: Mecp2 deficiency underlies Rett syndrome, a genetic disorder presenting
-    with chronic low-grade inflammation of unknown origin. Here, the authors show
-    that Mecp2 is a central regulator of the onset, breadth and nature of nucleic
-    acid immunity.
-  url: https://www.nature.com/articles/s41467-025-65713-z
-  date: '2025-11-07'
-  source: Nature.com
-- title: How scientists exposed to other people’s trauma find support
-  description: Vicarious trauma is an occupational risk for some researchers. But
-    there are strategies to cope.
-  url: https://www.nature.com/articles/d41586-025-03485-8
-  date: '2025-11-07'
-  source: Nature.com
-- title: Reference genome and population genomic analyses reveal insight into herbicide
-    tolerance in Avena fatua L.
-  description: Avena fatua (wild oat) is a herbicide resistant weed species for many
-    crops worldwide. Here, the authors report its genome assembly, reveal evolutionary
-    history through population genetics analyses, and identify expanded GST genes
-    in conferring herbi
-  url: https://www.nature.com/articles/s41467-025-64825-w
-  date: '2025-11-07'
-  source: Nature.com
 - title: Tech stocks just had their worst week since the April tariff selloff. Why
     it’s about time.
   description: Strong tech earnings weren’t enough to reassure investors worried about
@@ -1906,83 +2133,6 @@ news_items:
   url: https://www.cnbc.com/2025/11/07/asia-pacific-markets-friday-ai-stocks-valuation-china-october-trade-data.html
   date: '2025-11-07'
   source: CNBC
-- title: New retrieval method boosts accuracy of open-path infrared gas sensing
-  description: 'A research team from the Anhui Institute of Optics and Fine Mechanics,
-    the Hefei Institutes of Physical Science of the Chinese Academy of Sciences, developed
-    a new method that enhances the precision and reliability of trace gas analysis
-    in open-path '
-  url: https://phys.org/news/2025-11-method-boosts-accuracy-path-infrared.html
-  date: '2025-11-06'
-  source: Phys.Org
-- title: PBC General Meeting
-  description: Join the Princeton Blockchain Club to discuss anything blockchain or
-    crypto. If you're interested in technology or finance, this club might be for
-    you!
-  url: https://www.princeton.edu/events/2025/pbc-general-meeting-8
-  date: '2025-11-06'
-  source: Princeton University
-- title: YSE students join global climate talks at COP30
-  description: YSE students will play active roles in discussions on climate adaptation,
-    finance, and resilience — working with delegations from global NGOs and countries
-    such as Kazakhstan, Pakistan, and&nbsp;Bhutan.
-  url: https://environment.yale.edu/news/article/yse-students-join-global-climate-talks-cop30
-  date: '2025-11-06'
-  source: Yale.edu
-- title: Three newly discovered toads give birth to live young
-  description: An international team of researchers has discovered three new, bizarre,
-    and wart-covered species of tree toads from Tanzania that give birth to fully
-    developed toadlets. A key element of the study was the examination of specimens
-    housed in the wet co
-  url: https://phys.org/news/2025-11-newly-toads-birth-young.html
-  date: '2025-11-06'
-  source: Phys.Org
-- title: What really happened on Easter Island? Ancient sediments rewrite the 'ecocide'
-    story
-  description: A new study led by researchers at the Lamont-Doherty Earth Observatory
-    offers the clearest evidence yet that a centuries-long drought transformed life
-    on Rapa Nui (Easter Island) beginning around the year 1550.
-  url: https://phys.org/news/2025-11-easter-island-ancient-sediments-rewrite.html
-  date: '2025-11-06'
-  source: Phys.Org
-- title: CITP Is Now Accepting Applications for the 2026–27 Fellows Program
-  description: Applications are now open for Princeton University’s Center for Information
-    Technology Policy (CITP) 2026-27 Fellows Program. Candidates are encouraged to
-    apply by the start-of-review date of December 1, 2025. The applications are open
-    now (links are
-  url: https://blog.citp.princeton.edu/2025/11/06/citp-is-now-accepting-applications-for-the-2026-27-fellows-program/
-  date: '2025-11-06'
-  source: Princeton University
-- title: Asian summer monsoon's unusual role in 2021 Pacific Northwest heat wave revealed
-  description: In recent years, as extreme weather events have occurred with increasing
-    frequency, scientists have been searching within the chaotic atmospheric system
-    for clues that can enhance forecasting capabilities—factors such as ENSO, sea
-    ice, the stratosphe
-  url: https://phys.org/news/2025-11-asian-summer-monsoon-unusual-role.html
-  date: '2025-11-06'
-  source: Phys.Org
-- title: Competing rivals can become powerful partners in global markets
-  description: In an era of geopolitical tensions and fragile supply chains, firms
-    are seeking new ways to remain competitive and resilient. One such approach is
-    coopetition, a strategic relationship in which companies cooperate and compete
-    at the same time to achi
-  url: https://phys.org/news/2025-11-rivals-powerful-partners-global.html
-  date: '2025-11-06'
-  source: Phys.Org
-- title: 'World must face ''moral failure'' of missing 1.5C: UN chief to COP30'
-  description: UN chief Antonio Guterres on Thursday said leaders must confront the
-    "moral failure and deadly negligence" of missing the 1.5C climate target and urgently
-    correct course at the COP30 summit.
-  url: https://phys.org/news/2025-11-world-moral-failure-15c-chief.html
-  date: '2025-11-06'
-  source: Phys.Org
-- title: Brewery waste can be repurposed to make nanoparticles that can fight bacteria
-  description: Modern beer production is a US$117 billion business in the United States,
-    with brewers producing over 170 million barrels of beer per year. The brewing
-    process is time- and energy-intensive, and each step generates large amounts of
-    waste.
-  url: https://phys.org/news/2025-11-brewery-repurposed-nanoparticles-bacteria.html
-  date: '2025-11-06'
-  source: Phys.Org
 - title: Ongoing government shutdown and AI fears are putting the market under pressure,
     Jim Cramer says
   description: CNBC's Jim Cramer unpacked Thursday's market decline.
@@ -2021,213 +2171,3 @@ news_items:
   url: https://www.cnbc.com/2025/11/06/trump-ai-sacks-federal-bailout-openai-friar.html
   date: '2025-11-06'
   source: CNBC
-- title: Microsoft forms superintelligence team under AI chief Suleyman 'to serve
-    humanity'
-  description: The MAI Superintelligence Team will pursue research for improving artificial
-    intelligence companions, diagnosing diseases and generating renewable energy.
-  url: https://www.cnbc.com/2025/11/06/microsoft-forms-superintelligence-team-under-ai-head-mustafa-suleyman-.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Doordash stock drops 15%, heads for worst day ever on spending concerns
-  description: Doordash has already shelled out billions this year to buy restaurant
-    booking platform SevenRooms and British delivery platform Deliveroo.
-  url: https://www.cnbc.com/2025/11/06/doordash-dash-stock-earnings-spending.html
-  date: '2025-11-06'
-  source: CNBC
-- title: This fintech unicorn just launched an AI agent to handle billions of dollars
-    in CRE lending
-  description: Built Technologies unveiled an AI agent for what's known as draw requests,
-    when developers or construction firms ask lenders for the next stage of financing.
-  url: https://www.cnbc.com/2025/11/06/built-technologies-ai-draw-agent-cre-lending.html
-  date: '2025-11-06'
-  source: CNBC
-- title: OpenAI CFO Sarah Friar says company isn't seeking government backstop, clarifying
-    prior comment
-  description: OpenAI CFO Sarah Friar said in a LinkedIn post that the artificial
-    intelligence company is not seeking a government backstop for its infrastructure
-    commitments.
-  url: https://www.cnbc.com/2025/11/06/openai-cfo-sarah-friar-says-company-is-not-seeking-government-backstop.html
-  date: '2025-11-06'
-  source: CNBC
-- title: AI startup Metropolis, biggest parking lot operator in U.S., raises $1.6
-    billion for major retail expansion
-  description: Metropolis, which uses AI, computer vision for payments, raised $1.6
-    billion in equity and debt for a big retail push into gas stations, drive-thru
-    and hotels.
-  url: https://www.cnbc.com/2025/11/06/ai-based-parking-lot-payment-startup-metropolis-raises-1point6-billion.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Target's sloppy stores are wearing on shoppers, and its turnaround could
-    hinge on cleaning them up
-  description: The big-box retailer, which has long relied on stores as fulfillment
-    hubs, is tweaking its approach to try to improve customers' experiences within
-    the aisles.
-  url: https://www.cnbc.com/2025/11/06/target-store-delivery-pickup-ceo-michael-fiddelke.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Market Rebound Gathers Pace as Stock Futures Rise
-  description: Dow, S&P 500, and Nasdaq futures are rising in premarket trading Thursday
-    but fears over the AI trade continue to stalk the stock market.
-  url: https://www.barrons.com/livecoverage/stock-market-news-today-110625
-  date: '2025-11-06'
-  source: Barron's
-- title: Arthur C. Brooks on How Leaders Can Be Happier
-  description: The higher you climb in your career, the more empathy and purpose will
-    matter.
-  url: https://hbr.org/podcast/2025/11/arthur-c-brooks-on-how-leaders-can-be-happier
-  date: '2025-11-06'
-  source: Harvard Business Review
-- title: Tariffs in doubt, Musk's pay plan, shutdown flight reductions and more in
-    Morning Squawk
-  description: Here are five key things investors need to know to start the trading
-    day.
-  url: https://www.cnbc.com/2025/11/06/5-things-to-know-before-the-stock-market-opens.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Elon Musk expected to prevail in Tesla shareholder vote over CEO's $1 trillion
-    pay plan
-  description: After Tesla 's annual shareholders meeting on Thursday, the company
-    is expected to disclose results of the vote on CEO Elon Musk's pay plan.
-  url: https://www.cnbc.com/2025/11/06/tesla-shareholders-vote-on-elon-musks-1-trillion-pay-package.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Job cuts in October hit highest level for the month in 22 years, Challenger
-    says
-  description: Job cuts for October totaled 153,074, a 183% surge from September.
-  url: https://www.cnbc.com/2025/11/06/job-cuts-in-october-hit-highest-level-for-the-month-in-22-years-challenger-says.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Nvidia's Jensen Huang softens his ‘China will win the AI race’ remark to
-    FT
-  description: Nvidia CEO Jensen Huang reportedly told the Financial Times that "China
-    is going to win the AI race," before releasing a notably softer statement soon
-    after.
-  url: https://www.cnbc.com/2025/11/06/jensen-huang-says-china-will-win-the-ai-race-before-clarifying-in-a-statement-nvidia-trump-xi.html
-  date: '2025-11-06'
-  source: CNBC
-- title: 'CNBC''s Inside India newsletter: India’s ‘back offices’ are evolving into
-    leadership hubs for global companies'
-  description: GCCs are looking to hire leadership roles in India as firms move critical
-    R&D and IP to these centers.
-  url: https://www.cnbc.com/2025/11/06/cnbcs-inside-india-newsletter-indias-back-offices-are-evolving-into-leadership-hubs-for-global-companies.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Chinese autonomous driving firm Pony.ai sees shares drop 12% in Hong Kong
-    debut
-  description: Shares of two Chinese autonomous driving companies Pony.ai and WeRide
-    both debuted in Hong Kong on Thursday.
-  url: https://www.cnbc.com/2025/11/06/china-ponyai-weride-ipo-shares-market-debut.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Microsoft letting employees raise concerns about products after Middle East
-    controversy
-  description: Microsoft employees can now request Trusted Technology Reviews when
-    they want to report on concerning uses of the company's products.
-  url: https://www.cnbc.com/2025/11/05/microsoft-offers-employees-trusted-technology-review-form.html
-  date: '2025-11-06'
-  source: CNBC
-- title: 'CNBC Daily Open: Even a Supreme Court ruling might not spell the end of
-    tariffs'
-  description: The end of tariffs wouldn't be an unequivocal win for stocks. It could
-    cause yields to rise — and Trump might try to reinstate tariffs through other
-    means.
-  url: https://www.cnbc.com/2025/11/06/cnbc-daily-open-even-a-supreme-court-ruling-might-not-spell-the-end-of-tariffs.html
-  date: '2025-11-06'
-  source: CNBC
-- title: Axon Enterprise CEO explains new acquisitions in emergency call space
-  description: Axon Enterprise CEO Rick Smith said his company's recent acquisitions
-    are helping to modernize emergency call services in an interview with CNBC's Jim
-    Cramer.
-  url: https://www.cnbc.com/2025/11/05/axon-enterprise-ceo-emergency-call-lines.html
-  date: '2025-11-06'
-  source: CNBC
-- title: 'Stock market today: Live updates'
-  description: Stock futures were little changed on Wednesday as investors' jitters
-    over AI stock valuations improved.
-  url: https://www.cnbc.com/2025/11/05/stock-market-today-live-updates.html
-  date: '2025-11-05'
-  source: CNBC
-- title: How Jim Cramer navigates a market selloff
-  description: CNBC's Jim Cramer offered advice on how to deal with market declines.
-  url: https://www.cnbc.com/2025/11/05/jim-cramer-market-selloff.html
-  date: '2025-11-05'
-  source: CNBC
-- title: America on the Brink of War With Venezuela
-  description: 'Quico Toro on the Trump administration’s dangerous game of brinksmanship
-    with Venezuela and why a conflict in the Caribbean could be a disaster for everyone
-    involved. Plus: Trump’s newest attempt at a constitutional coup and a discussion
-    of The Opper'
-  url: https://www.theatlantic.com/podcasts/2025/11/the-david-frum-show-quico-toro-venzuela/684831/
-  date: '2025-11-05'
-  source: The Atlantic
-- title: Doordash stock tanks 20% as company misses earnings, says it expects further
-    spending
-  description: The food delivery platform said it expects to spend "several hundred
-    million dollars" on new initiatives and development in 2026.
-  url: https://www.cnbc.com/2025/11/05/doordash-stock-dash-q3-2025-earnings.html
-  date: '2025-11-05'
-  source: CNBC
-- title: Snap shares rocket 20% on strong forecast, $400 million Perplexity deal
-  description: Snap on Wednesday issued its third-quarter earnings, reporting revenue
-    that beat analysts expectations and a $500 million stock repurchase program.
-  url: https://www.cnbc.com/2025/11/05/snap-q3-earnings-report-2025.html
-  date: '2025-11-05'
-  source: CNBC
-- title: Robinhood doubles revenue as it beats third-quarter earnings expectations
-  description: CFO Jason Warnick said prediction markets and Bitstamp are generating
-    about $100 million or more in annualized revenues.
-  url: https://www.cnbc.com/2025/11/05/robinhood-hood-q3-2025-earnings.html
-  date: '2025-11-05'
-  source: CNBC
-- title: Lucid misses Wall Street expectations as problems continue with SUV launch
-  description: Lucid also said it has agreed to increase a term loan credit facility
-    from $750 million to roughly $2 billion from Saudi Arabia's Public Investment
-    Fund.
-  url: https://www.cnbc.com/2025/11/05/lucid-lcid-earnings-q3-2025.html
-  date: '2025-11-05'
-  source: CNBC
-- title: HubSpot adds Clara Shih, Meta's head of business AI, to board of directors
-  description: HubSpot appointed Meta's head of business AI Clara Shih to its board
-    of directors
-  url: https://www.cnbc.com/2025/11/05/hubspot-adds-meta-executive-clara-shih-to-board-of-directors.html
-  date: '2025-11-05'
-  source: CNBC
-- title: New bipartisan bill would require companies to report AI job losses
-  description: The AI-Related Job Impacts Clarity Act would require companies and
-    federal agencies to submit quarterly reports of "AI-related job effects."
-  url: https://www.cnbc.com/2025/11/05/ai-jobs-act-warner-hawley.html
-  date: '2025-11-05'
-  source: CNBC
-- title: Trump nuclear power investment in Westinghouse could lead to IPO with U.S.
-    government as shareholder
-  description: Nuclear technology company Westinghouse could spin out into an independent
-    company under a Trump administration deal to build reactors.
-  url: https://www.cnbc.com/2025/11/05/westinghouse-cameco-brookfield-trump-nuclear-ap1000.html
-  date: '2025-11-05'
-  source: CNBC
-- title: It’s Cool to Have No Followers Now
-  description: As social media has become older, more manipulable, and more automated
-    by artificial intelligence, flouting online popularity has gained a new cachet,
-    Kyle Chayka writes.
-  url: https://www.newyorker.com/culture/infinite-scroll/its-cool-to-have-no-followers-now
-  date: '2025-11-05'
-  source: The New Yorker
-- title: 'Op-ed: The fuel for the AI boom driving the markets is advertising. It is
-    also an existential risk.'
-  description: Joe Marchese, Executive Chairman at Human Ventures, describes a key
-    conundrum facing OpenAI and other AI start-ups as they disrupt the ad tech industry.
-  url: https://www.cnbc.com/2025/11/05/op-ed-the-fuel-for-the-ai-boom-driving-the-markets-is-advertising-it-is-also-an-existential-risk-.html
-  date: '2025-11-05'
-  source: CNBC
-- title: 'Research: When Are Customers Willing to Try a New Technology?'
-  description: Marketers need to meet people during unexpected pockets of free time.
-  url: https://hbr.org/2025/11/research-when-are-customers-willing-to-try-a-new-technology
-  date: '2025-11-05'
-  source: Harvard Business Review
-- title: As bubble debate rages, a new study finds why companies are getting stuck
-    by the AI productivity paradox
-  description: Companies do benefit from attracting AI workers, but only from lean
-    organizations, study finds
-  url: https://www.marketwatch.com/story/as-bubble-debate-rages-a-new-study-finds-why-companies-are-getting-stuck-by-the-ai-productivity-paradox-f1123c7d
-  date: '2025-11-05'
-  source: MarketWatch

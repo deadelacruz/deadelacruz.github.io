@@ -1,4 +1,478 @@
 news_items:
+- title: 'Influential list of highly cited researchers now shuts out more scientists:
+    here’s why'
+  description: Rule change weeds out many who co-author papers with others linked
+    to suspicious practices.
+  url: https://www.nature.com/articles/d41586-025-03691-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Light-controlled tissue sectioning for volumetric imaging
+  description: Nature Biotechnology - Light-controlled tissue sectioning for volumetric
+    imaging
+  url: https://www.nature.com/articles/s41587-025-02919-y
+  date: '2025-11-12'
+  source: Nature.com
+- title: Extraction, characterization, and efficacy enhancement of natural dye from
+    locally grown plant impatiens tinctoria
+  description: Scientific Reports - Extraction, characterization, and efficacy enhancement
+    of natural dye from locally grown plant impatiens tinctoria
+  url: https://www.nature.com/articles/s41598-025-23268-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'How geopolitics is reshaping research: Data hint at shifting collaborations'
+  description: Individual researchers and academic bodies are choosing not to work
+    with other nations’ scientists amid geopolitical tensions. Is this affecting research
+    output?
+  url: https://www.nature.com/articles/d41586-025-03025-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: A non-canonical lymphoblast in refractory childhood T-cell leukaemia
+  description: T-cell acute lymphoblastic leukemia is a highly aggressive disease
+    with varying recurrence rates. Here, the authors build a single cell transcriptomic
+    atlas of childhood T-cell acute lymphoblastic leukaemia (T-ALL). They identified
+    a distinctive canc
+  url: https://www.nature.com/articles/s41467-025-65049-8
+  date: '2025-11-12'
+  source: Nature.com
+- title: Can you shock yourself into relaxation? The science of vagus nerve stimulation
+  description: Vagus nerve stimulation is a social-media sensation, promising instant
+    stress relief. Here’s what the science really says about the body’s built-in “chill”
+    circuit.
+  url: https://www.nationalgeographic.com/health/article/vagus-nerve-stimulation-devices-anxiety-sleep-stress
+  date: '2025-11-12'
+  source: National Geographic
+- title: How much protein do you really need? What the science says
+  description: Fitness influencers promote super-high-protein diets, but studies show
+    there’s only so much the body can use.
+  url: https://www.nature.com/articles/d41586-025-03632-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Author Correction: Learning the natural history of human disease with generative
+    transformers'
+  description: 'Nature - Author Correction: Learning the natural history of human
+    disease with generative transformers'
+  url: https://www.nature.com/articles/s41586-025-09879-y
+  date: '2025-11-12'
+  source: Nature.com
+- title: A composite motif in calcimembrin/C16orf74 dictates multimeric dephosphorylation
+    by calcineurin
+  description: C16orf74/ calcimembrin (CLMB), a lipidated microprotein with roles
+    in cancer, targets the calcineurin phosphatase to membranes. Here, authors show
+    how CLMB uses a composite motif to form multimeric complexes with calcineurin
+    that are required for dep
+  url: https://www.nature.com/articles/s41467-025-64884-z
+  date: '2025-11-12'
+  source: Nature.com
+- title: '“It keeps me awake at night”: machine-learning pioneer on AI’s threat to
+    humanity'
+  description: Yoshua Bengio talks about his efforts to identify — and address — the
+    risks posed by AI.
+  url: https://www.nature.com/articles/d41586-025-03686-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: ‘Godfather of AI’ becomes first person to hit one million citations
+  description: The milestone makes machine-learning trailblazer Yoshua Bengio the
+    most cited researcher on Google Scholar.
+  url: https://www.nature.com/articles/d41586-025-03681-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Er3+: Yb3+ ions embedded ZnO nanostructure for photonic applications'
+  description: 'Scientific Reports - Er3+: Yb3+ ions embedded ZnO nanostructure for
+    photonic applications'
+  url: https://www.nature.com/articles/s41598-025-24424-7
+  date: '2025-11-12'
+  source: Nature.com
+- title: Development and validation of a risk assessment tool for ischemic stroke
+    in cancer patients
+  description: Scientific Reports - Development and validation of a risk assessment
+    tool for ischemic stroke in cancer patients
+  url: https://www.nature.com/articles/s41598-025-23958-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: Health trends among workers in Germany and the role of changing job activities
+    and working conditions
+  description: Scientific Reports - Health trends among workers in Germany and the
+    role of changing job activities and working conditions
+  url: https://www.nature.com/articles/s41598-025-25692-z
+  date: '2025-11-12'
+  source: Nature.com
+- title: Photoinduced twist and untwist of moiré superlattices
+  description: Femtosecond photoexcitation drives a coherent twist–untwist motion
+    of the moiré superlattice in 2° and 57° twisted WSe2/MoSe2 heterobilayers.
+  url: https://www.nature.com/articles/s41586-025-09707-3
+  date: '2025-11-12'
+  source: Nature.com
+- title: Emerging climate impact on carbon sinks in a consolidated carbon budget
+  description: Nature - Emerging climate impact on carbon sinks in a consolidated
+    carbon budget
+  url: https://www.nature.com/articles/s41586-025-09802-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: Mortality impacts of rainfall and sea-level rise in a developing megacity
+  description: High-resolution rainfall, tide and mortaility data are used to quantify
+    the impact of rainfall and flooding on urban health in Mumbai, India, revealing
+    an order-of-magnitude discrepency between observed and officially reported mortality
+    impacts, with
+  url: https://www.nature.com/articles/s41586-025-09730-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Study on titanium fire suppression technology for aero-engine uncontained
+    failures
+  description: Scientific Reports - Study on titanium fire suppression technology
+    for aero-engine uncontained failures
+  url: https://www.nature.com/articles/s41598-025-23279-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: Association of cesarean section with asthma and atopic dermatitis in infants
+    from the Japan Environment and Children’s Study
+  description: Scientific Reports - Association of cesarean section with asthma and
+    atopic dermatitis in infants from the Japan Environment and Children’s Study
+  url: https://www.nature.com/articles/s41598-025-23252-z
+  date: '2025-11-12'
+  source: Nature.com
+- title: Diffusion mechanism as cause of optical degradation in AlGaN-based UV-C leds
+    investigated by TCAD simulations
+  description: Scientific Reports - Diffusion mechanism as cause of optical degradation
+    in AlGaN-based UV-C leds investigated by TCAD simulations
+  url: https://www.nature.com/articles/s41598-025-23645-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: Analysis of Weibull time metrics using normal operating via partially accelerated
+    tests with improved adaptive progressive censoring and its applications
+  description: Scientific Reports - Analysis of Weibull time metrics using normal
+    operating via partially accelerated tests with improved adaptive progressive censoring
+    and its applications
+  url: https://www.nature.com/articles/s41598-025-23990-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: Short-term and long-term solar irradiance forecasting with advanced machine
+    learning techniques in Zafarana, Egypt
+  description: Scientific Reports - Short-term and long-term solar irradiance forecasting
+    with advanced machine learning techniques in Zafarana, Egypt
+  url: https://www.nature.com/articles/s41598-025-24853-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: The utilization of Innovative, Eco-friendly recycled walls in the development
+    of border regions’ educational buildings in Egypt
+  description: Scientific Reports - The utilization of Innovative, Eco-friendly recycled
+    walls in the development of border regions’ educational buildings in Egypt
+  url: https://www.nature.com/articles/s41598-025-24113-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Predictors of heel pain among healthy street vendors in Delhi: a cross-sectional
+    study'
+  description: 'Scientific Reports - Predictors of heel pain among healthy street
+    vendors in Delhi: a cross-sectional study'
+  url: https://www.nature.com/articles/s41598-025-25236-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: Making sense of the Egyptian pyramids’ enduring conspiracies
+  description: For 5,000 years scholars, generals, and mystics have been fascinated
+    by the Egyptian pyramids. That obsession persists in the modern age.
+  url: https://www.nationalgeographic.com/history/article/mystery-obsession-how-gize-pyramids-built
+  date: '2025-11-12'
+  source: National Geographic
+- title: Advancing equitable and sustainable urban health
+  description: Cities are often at the forefront of creative thinking on policy opportunities;
+    this Perspective outlines an agenda for urban health research that promotes a
+    virtuous cycle by which population health and environmental sustainability support
+    and reinf
+  url: https://www.nature.com/articles/s41591-025-04031-9
+  date: '2025-11-12'
+  source: Nature.com
+- title: Huge eruption on a distant star confirmed at last
+  description: Hear the biggest stories from the world of science | 12 November 2025
+  url: https://www.nature.com/articles/d41586-025-03710-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Spatial fibroblast niches define Crohn’s fistulae
+  description: Spatial transcriptomic analysis of cells in intestinal fistulae of
+    patients with Crohn’s disease reveals the existence of specialized fistula-associated
+    cell states with distinct signalling profiles and extracellular matrix architecture.
+  url: https://www.nature.com/articles/s41586-025-09744-y
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Fossilized technology: Books in brief'
+  description: Andrew Robinson reviews five of the best science picks.
+  url: https://www.nature.com/articles/d41586-025-03702-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Can UK science really spawn a $1-trillion company?
+  description: The British government wants the country to be home to a supersized
+    tech firm within the next decade.
+  url: https://www.nature.com/articles/d41586-025-03700-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Correction: Effect of listening to preferred music at different frequencies
+    during warmup on physical performance and psychophysiological responses in male
+    athletes'
+  description: 'Scientific Reports - Correction: Effect of listening to preferred
+    music at different frequencies during warmup on physical performance and psychophysiological
+    responses in male athletes'
+  url: https://www.nature.com/articles/s41598-025-27344-8
+  date: '2025-11-12'
+  source: Nature.com
+- title: Species distribution modelling of benthic amphipod crustaceans in the deep
+    North Atlantic under climate change
+  description: Scientific Reports - Species distribution modelling of benthic amphipod
+    crustaceans in the deep North Atlantic under climate change
+  url: https://www.nature.com/articles/s41598-025-26442-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: Identification of key genes predicting the efficacy of mepolizumab in the
+    treatment of severe eosinophilic asthma
+  description: Scientific Reports - Identification of key genes predicting the efficacy
+    of mepolizumab in the treatment of severe eosinophilic asthma
+  url: https://www.nature.com/articles/s41598-025-23443-8
+  date: '2025-11-12'
+  source: Nature.com
+- title: Chitosan coated cotton fabric embedded with silver nanoparticles for azo
+    dye degradation in aqueous solutions
+  description: Scientific Reports - Chitosan coated cotton fabric embedded with silver
+    nanoparticles for azo dye degradation in aqueous solutions
+  url: https://www.nature.com/articles/s41598-025-23222-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: First new type of malaria treatment in decades shows promise against drug
+    resistance
+  description: If approved, GanLum could be available within a year and a half, according
+    to maker.
+  url: https://www.nature.com/articles/d41586-025-03690-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: Hypersonic turbulent quantities in support of Morkovin’s hypothesis
+  description: 'Morkovin’s hypothesis establishes a comparison between incompressible
+    and compressible flows and is essential for understanding supersonic and hypersonic
+    turbulence. In this work, the authors present the measurements of wall-normal
+    fluctuations that '
+  url: https://www.nature.com/articles/s41467-025-65398-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: People with autism deserve evidence-based policy and care
+  description: Scientific integrity must guide autism research and communication —
+    now more than ever.
+  url: https://www.nature.com/articles/s41591-025-04082-y
+  date: '2025-11-12'
+  source: Nature.com
+- title: Chinese researchers reveal unexplored section of mysterious Arctic Ocean
+    ridge
+  description: Oceanographers hope to find otherworldly ecosystems at hydrothermal
+    vents on the seafloor.
+  url: https://www.nature.com/articles/d41586-025-03679-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: To reform universities, first tackle global rankings
+  description: Universities are in thrall to a rankings system that prioritizes narrow
+    aspects of academic life. Three changes would give institutions the freedom to
+    explore fresh ways of working.
+  url: https://www.nature.com/articles/d41586-025-03636-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: On-site enhancement and control of spin-forbidden dark excitons in a plasmonic
+    heterostructure
+  description: Observation and control of spin-forbidden dark excitons is demonstrated
+    in a hybrid heterostructure of WSe2 monolayers and plasmonic nanocavities.
+  url: https://www.nature.com/articles/s41566-025-01788-w
+  date: '2025-11-12'
+  source: Nature.com
+- title: Salvianolic acid A modulates α-Ketoisovaleric acid metabolism to inhibit
+    human cartilage endplate cells apoptosis under mechanical tensile stress
+  description: Scientific Reports - Salvianolic acid A modulates α-Ketoisovaleric
+    acid metabolism to inhibit human cartilage endplate cells apoptosis under mechanical
+    tensile stress
+  url: https://www.nature.com/articles/s41598-025-23875-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Large language model–based prediction of speech intelligibility after Vibrant
+    Soundbridge implantation using multidimensional outcome data: Part 2 of a prospective
+    study'
+  description: 'Scientific Reports - Large language model–based prediction of speech
+    intelligibility after Vibrant Soundbridge implantation using multidimensional
+    outcome data: Part 2 of a prospective study'
+  url: https://www.nature.com/articles/s41598-025-20919-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: iPEX enables micrometre-resolution deep spatial proteomics via tissue expansion
+  description: Isotropic tissue magnification is integrated with matrix-assisted laser
+    desorption/ionization mass spectrometry imaging to enable untargeted spatial proteomics
+    at micrometre resolution and with high protein identification rates in multiple
+    tissue typ
+  url: https://www.nature.com/articles/s41586-025-09734-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: Rare genetic variants confer a high risk of ADHD and implicate neuronal biology
+  description: An analysis of rare genetic variants identifies three genes—MAP1A,
+    ANO8 and ANK2—that have a role in attention deficit hyperactivity disorder (ADHD)
+    and investigates the potential underlying biological mechanisms.
+  url: https://www.nature.com/articles/s41586-025-09702-8
+  date: '2025-11-12'
+  source: Nature.com
+- title: Cytosolic acetyl-coenzyme A is a signalling metabolite to control mitophagy
+  description: Acetyl-coenzyme A functions as a non-canonical signal to trigger mitophagy,
+    and&nbsp;the acetyl-coenzyme A–NLRX1 axis underlies the KRAS-inhibitor-induced
+    mitophagy response and promotes drug resistance, providing a metabolic mechanism
+    of KRAS inhibi
+  url: https://www.nature.com/articles/s41586-025-09745-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: A molecularly impermeable polymer from two-dimensional polyaramids
+  description: Two-dimensional polyaramid polymers are synthesized to form nanofilms
+    that exhibit the lowest gas permeability of any polymer by orders of magnitude,&nbsp;despite
+    lacking crystallinity, enabling molecular-scale nanomechanical resonators and
+    barrier m
+  url: https://www.nature.com/articles/s41586-025-09674-9
+  date: '2025-11-12'
+  source: Nature.com
+- title: Extreme rainfall poses the biggest risk to Mumbai’s most vulnerable people
+  description: An assessment of death rates in India’s coastal megacity of Mumbai
+    reveals the impact of rain, high tides and flooding. Climate change will probably
+    exacerbate the effects.
+  url: https://www.nature.com/articles/d41586-025-03453-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'GREGoR: accelerating genomics for rare diseases'
+  description: The GREGoR consortium provides foundational resources and substrates
+    for the future of rare disease genomics.
+  url: https://www.nature.com/articles/s41586-025-09613-8
+  date: '2025-11-12'
+  source: Nature.com
+- title: SIGLEC12 mediates plasma membrane rupture during necroptotic cell death
+  description: CRISPR–Cas9-based genome-wide screening shows that SIGLEC12 mediates
+    plasma membrane rupture in cells undergoing necroptosis, possibly through a human-specific
+    mechanism, indicating its potential as a therapeutic target.
+  url: https://www.nature.com/articles/s41586-025-09741-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: YTHDF2 regulates self non-coding RNA metabolism to control inflammation and
+    tumorigenesis
+  description: RNA modifications influence gene regulation and disease. Here, the
+    authors show that YTHDF2 recognizes m6A-modified U6 snRNA to prevent aberrant
+    TLR3 activation to inhibit inflammation and skin cancer development.
+  url: https://www.nature.com/articles/s41467-025-64898-7
+  date: '2025-11-12'
+  source: Nature.com
+- title: Hotcakes at the end times
+  description: Another satisfied customer.
+  url: https://www.nature.com/articles/d41586-025-03666-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'The future of ageing: science aims to deliver another leap in lifespan'
+  description: A wave of research into the biology of ageing is raising hopes of a
+    longer life, but fundamental questions remain.
+  url: https://www.nature.com/articles/d41586-025-03523-5
+  date: '2025-11-12'
+  source: Nature.com
+- title: A guide to the Nature Index
+  description: A description of the terminology and methodology used in this supplement,
+    and a guide to the functionality that is available free online at natureindex.com.
+  url: https://www.nature.com/articles/d41586-025-03527-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: Is ageing a disease? The debate that could reshape medicine
+  description: Classifying ageing as a disease might bring funding and other benefits,
+    say some researchers, but others say this is fraught with ethical and regulatory
+    implications.
+  url: https://www.nature.com/articles/d41586-025-03525-3
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'Author Correction: Ammonia sets limit to life and alters physiology independently
+    of pH in Halomonas meridiana'
+  description: 'Scientific Reports - Author Correction: Ammonia sets limit to life
+    and alters physiology independently of pH in Halomonas meridiana'
+  url: https://www.nature.com/articles/s41598-025-26844-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: California’s Gavin Newsom slams Trump absence at COP30 climate conference
+  description: The Democratic governor accused President Trump of having 'abandoned
+    any sense of duty' by not showing up to COP30.
+  url: https://www.aljazeera.com/news/2025/11/12/california-governor-gavin-newsom-slams-trump-absence-at-climate-conference
+  date: '2025-11-12'
+  source: Al Jazeera English
+- title: Rick Pazdur to replace George Tidmarsh at FDA drug center
+  description: 'The Food and Drug Administration has named a longtime regulator of
+    cancer medications to lead the agency’s drug center. The announcement comes after
+    the previous FDA official in the role was ousted following an ethics complaint.
+    The FDA said Tuesday '
+  url: https://apnews.com/article/fda-drug-center-rick-pazdur-tidmarsh-42ab2cae8188990cbb5cec509d595e22
+  date: '2025-11-11'
+  source: Associated Press
+- title: Republicans Face Epstein Reckoning...
+  description: "Republicans Face Epstein Reckoning...\r\n\n \n \n \n (First column,\
+    \ 9th story, link)\r\n\n \r\n\n \r\n\n \n Related stories:Schumer stares down\
+    \ progressive fury over handling of shutdown...\r\nFight over hemp could delay\
+    \ reopening..."
+  url: https://www.newsweek.com/republicans-jeffrey-epstein-reckoning-shutdown-end-looms-11027112
+  date: '2025-11-11'
+  source: Newsweek
+- title: ByHeart recalls organic baby formula amid infant botulism outbreak
+  description: Baby formula manufacturer ByHeart recalled all of its products sold
+    nationwide Tuesday. The move comes days after some batches were recalled amid
+    an expanding outbreak of infant botulism. According to state and federal health
+    officials, at least 15 b
+  url: https://apnews.com/article/byheart-baby-formula-infant-botulism-recall-e070565daaf1f425e3d37dca20277714
+  date: '2025-11-11'
+  source: Associated Press
+- title: COVID vaccine rollout and pandemic preparedness assessed in new book, 'Fair
+    Doses'
+  description: In his new book, 'Fair Doses,' epidemiologist Seth Berkley discusses
+    what went right -- and wrong -- with COVID vaccine distribution and whether the
+    world is ready if a new pandemic were to strike.
+  url: https://www.npr.org/sections/goats-and-soda/2025/11/11/g-s1-97230/vaccines-pandemic-preparedness-covid-seth-berkley-fair-doses
+  date: '2025-11-11'
+  source: NPR
+- title: Alaska sued over hunting of bears from the air to protect caribou
+  description: Conservation groups sued over a state program in Alaska that authorizes
+    killing brown and black bears as a way to increase the size of a once-significant
+    caribou herd.
+  url: https://www.cbsnews.com/news/alaska-sued-over-hunting-of-bears-from-the-air-to-protect-caribou/
+  date: '2025-11-11'
+  source: CBS News
+- title: British Sailing Team's new training base shelved
+  description: The RYA will instead invest in a major upgrade of its existing facilities
+    at Portland.
+  url: https://www.bbc.com/news/articles/cgqljvd7wy9o
+  date: '2025-11-11'
+  source: BBC News
+- title: 'Demonic horns and a devilish name: New ''Lucifer'' bee discovered in Australia'
+  description: Scientists in Australia have identified a new species of native bee
+    with tiny, devil-like horns that have earned it a playfully hellish name – “lucifer.”The
+    species, Megachile lucifer, was discovered by scholars surveying a critically
+    endangered wild
+  url: https://www.nbcnews.com/world/asia/demonic-horns-devilish-name-new-lucifer-bee-discovered-australia-rcna243156
+  date: '2025-11-11'
+  source: NBC News
+- title: How to avoid 'The Winner's Curse'
+  description: A new book by the Nobel-winning pioneer of behavioral economics offers
+    some advice we can all use.
+  url: https://www.npr.org/sections/planet-money/2025/11/11/g-s1-96954/how-to-avoid-the-winners-curse
+  date: '2025-11-11'
+  source: NPR
+- title: Climate negotiations have started. Here's how far countries need to go
+  description: Nations have begun climate negotiations at the COP30 summit in Brazil.
+    Studies show the world is not on track to avoid the most damaging impacts of climate
+    change.
+  url: https://www.npr.org/2025/11/11/nx-s1-5593050/climate-emissions-gap-cop30
+  date: '2025-11-11'
+  source: NPR
+- title: Is hormone therapy for menopause right for you? 6 things to know
+  description: The science around hormone therapy to treat menopause has changed a
+    lot since the FDA issued warning labels 20 years ago. Now the labels are being
+    removed, here are 6 things to consider.
+  url: https://www.npr.org/2025/11/11/nx-s1-5590203/hormone-therapy-fda-health
+  date: '2025-11-11'
+  source: NPR
+- title: Government sets out plan to phase out animal experiments
+  description: The plan follows up on a manifesto promise to work towards the phasing
+    out the practice.
+  url: https://www.bbc.com/news/articles/cm2lpekjeg9o
+  date: '2025-11-11'
+  source: BBC News
+- title: Three easy ways to help you beat the winter blues
+  description: It's easy to feel gloomy in winter, but here are three ways to help
+    you manage the darker days and even embrace them.
+  url: https://www.bbc.com/news/articles/c051mdgd1ddo
+  date: '2025-11-11'
+  source: BBC News
 - title: FDA to remove "black box" warnings on some menopause hormone therapies
   description: The Food and Drug Administration says it is removing safety warnings
     for many hormone therapy drugs prescribed to ease symptoms of menopause and perimenopause.
@@ -7,20 +481,198 @@ news_items:
   url: https://www.cbsnews.com/video/fda-to-remove-black-box-warnings-some-menopause-hormone-therapies/
   date: '2025-11-11'
   source: CBS News
-- title: Ca2+-driven PDIA6 biomolecular condensation ensures proinsulin folding
-  description: Lee et al. show that Ca²⁺ triggers condensates enriched with PDIA6,
-    an ER-resident disulfide isomerase and chaperone, along with other protein disulfide
-    isomerase family proteins and some chaperones that in turn enhance folding of
-    proinsulin.
-  url: https://www.nature.com/articles/s41556-025-01794-8
+- title: Optional learning support fosters self-directed learning
+  description: 'A research team at the University of Cologne examined how optional
+    support influences students'' learning success and motivation in secondary biology
+    education. This support can be used voluntarily whenever learners feel they need
+    it, such as through '
+  url: https://phys.org/news/2025-11-optional-fosters.html
   date: '2025-11-11'
-  source: Nature.com
-- title: The computers that run on human brain cells
-  description: 'Move over silicon: scientists want to use neurons to make powerful
-    computers with minuscule energy needs.'
-  url: https://www.nature.com/articles/d41586-025-03633-0
+  source: Phys.Org
+- title: Raman spectral database offers open library to identify biomolecules
+  description: Researchers at the Universitat Oberta de Catalunya and the Institute
+    of Photonic Sciences have created a Raman spectral database that is accessible
+    and open to the scientific community with 140 of the main types of biomolecules,
+    including nucleic aci
+  url: https://phys.org/news/2025-11-raman-spectral-database-library-biomolecules.html
   date: '2025-11-11'
-  source: Nature.com
+  source: Phys.Org
+- title: New method may improve blood test's ability to detect inflammation in horses
+  description: Inflammation can help the body when injured or sick by delivering immune
+    cells, promoting healing and more. Chronic or excessive inflammation, however,
+    can cause further damage and lead to additional disease or injury. Clinicians
+    often rely on patien
+  url: https://phys.org/news/2025-11-method-blood-ability-inflammation-horses.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Powerful Solar Storm Could Trigger Far-Reaching Auroras across U.S.
+  description: The sun just spat out several coronal mass ejections that could trigger
+    a serious solar storm on Wednesday
+  url: https://www.scientificamerican.com/article/powerful-solar-storm-could-trigger-far-reaching-auroras-across-u-s/
+  date: '2025-11-11'
+  source: Scientific American
+- title: Keeping the flame of remembrance lit on a windswept Veterans Day
+  description: Members of the Yale community, including members of the university’s
+    military community, gathered today for the annual Veterans Day&nbsp;ceremony.
+  url: https://news.yale.edu/2025/11/11/keeping-flame-remembrance-lit-windswept-veterans-day
+  date: '2025-11-11'
+  source: Yale.edu
+- title: Aquaporin gene duplication followed by mutation in European eels restores
+    broad solute permeability
+  description: Common ancestor eels lost the aquaporin gene encoding proteins with
+    broad solute permeability. Researchers from the Institute of Science Tokyo have
+    now found that recent gene duplication events in the European eel (Anguilla species)
+    have restored aqu
+  url: https://phys.org/news/2025-11-aquaporin-gene-duplication-mutation-european.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Never mind rogue planets—their rogue moons could support life
+  description: At a young age, we're told how the sun warms Earth and makes life possible.
+    That idea sticks with most of us for life. But when we want to understand things
+    more thoroughly and we dig more deeply, we learn that Earth has its own heat sources
+    that hel
+  url: https://phys.org/news/2025-11-mind-rogue-planets-moons-life.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: COS436 Project Fair
+  description: 'Come by the Friend Center Upper Atrium to see this term''s projects
+    from COS 436: Human-Computer Interaction. Student teams are tackling topics from
+    reducing food waste in dining halls to improving teamwork through better instruction-sharing
+    and explo'
+  url: https://www.princeton.edu/events/2025/cos436-project-fair
+  date: '2025-11-11'
+  source: Princeton University
+- title: The rarest element on Earth could revolutionize cancer treatment
+  description: Texas A&amp;M scientists have unlocked new potential for astatine-211,
+    a rare and short-lived element, as a highly precise cancer-fighting isotope. Its
+    alpha emissions destroy tumor cells while sparing healthy tissue, making it ideal
+    for targeted the
+  url: https://www.sciencedaily.com/releases/2025/11/251111010008.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: China’s Stranded Astronauts Are Safe—For Now. But How Will They Get Home?
+  description: There are six people living on the Chinese space station Tiangong at
+    the moment, and the plan to bring three of them back is in progress
+  url: https://www.scientificamerican.com/article/chinas-stranded-astronauts-are-safe-for-now-but-how-will-they-get-home/
+  date: '2025-11-11'
+  source: Scientific American
+- title: Who speaks for the dead? Rethinking consent in ancient DNA research
+  description: Would you choose to have a part of your body live on after you died?
+    How might your choice affect your relatives—or even your entire community?
+  url: https://phys.org/news/2025-11-dead-rethinking-consent-ancient-dna.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Entangled spins give diamonds a quantum advantage
+  description: UC Santa Barbara physicists have engineered entangled spin systems
+    in diamond that surpass classical sensing limits through quantum squeezing. Their
+    breakthrough enables next-generation quantum sensors that are powerful, compact,
+    and ready for real-w
+  url: https://www.sciencedaily.com/releases/2025/11/251111010002.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: 'A century-old mixing puzzle: AI helps predict and understand viscous fingering'
+  description: 'Viscous fingering occurs when a thinner fluid pushes a thicker, more
+    viscous fluid in a porous medium, like underground rock, creating unpredictable,
+    finger-like patterns. For decades, this intricate dance between fluids has been
+    a major headache in '
+  url: https://phys.org/news/2025-11-century-puzzle-ai-viscous-fingering.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Artificial enzyme combines vitamin B2 with metal for next-generation catalysts
+  description: Vitamin B2 (riboflavin) acts as an important coenzyme that helps convert
+    food into energy within the body. Korean researchers have successfully created
+    a new artificial enzyme for the first time in the world by combining this riboflavin
+    (flavin) with
+  url: https://phys.org/news/2025-11-artificial-enzyme-combines-vitamin-b2.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Women have supercharged immune systems and we now know why
+  description: Being born with two X chromosomes brings a host of health benefits,
+    and recognising this could lead to personalised medical treatments for men and
+    wome
+  url: https://www.newscientist.com/article/2501447-women-have-supercharged-immune-systems-and-we-now-know-why/
+  date: '2025-11-11'
+  source: New Scientist
+- title: Five key issues at the UN climate summit in Brazil—and why they matter to
+    you and the planet
+  description: 'The world''s most important climate summit—known this year as COP30—has
+    begun in the Amazonian port city of Belém, Brazil. It promises to be contentious:
+    key countries haven''t submitted new climate plans, and negotiations are held
+    up by disputes over '
+  url: https://phys.org/news/2025-11-key-issues-climate-summit-brazil.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: This 14th century story fooled the world about the Black Death
+  description: Historians have traced myths about the Black Death’s rapid journey
+    across Asia to one 14th-century poem by Ibn al-Wardi. His imaginative maqāma,
+    never meant as fact, became the foundation for centuries of misinformation about
+    how the plague spread. T
+  url: https://www.sciencedaily.com/releases/2025/11/251111005957.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: This new robot has a clever spin on lunar mining
+  description: Work continues on designs for robots that can help assist the first
+    human explorers on the moon in over half a century. One of the most important
+    aspects of that future trip will be utilizing the resources available on the moon's
+    surface, known as in
+  url: https://phys.org/news/2025-11-robot-clever-lunar.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: Researchers are using acoustic recorders to confirm more koala sightings
+    in remote parts of Australia
+  description: There are parts of Australia where koalas are talked about like urban
+    legends.
+  url: https://phys.org/news/2025-11-acoustic-koala-sightings-remote-australia.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: 'Sneak Peek: Wicked Science'
+  description: 'We''re off to see the Wizard on a yellow brick road that also...wait
+    for it...defies gravity, thanks to the magic of science and magnets!
+
+
+    This weekend, we''re hosting Wicked Science, a thrillifying event in collaboration
+    with Science Outreach at Princ'
+  url: https://popgoesthepage.princeton.edu/sneak-peek-wicked-science/
+  date: '2025-11-11'
+  source: Princeton University
+- title: Odds of asteroid 2024 YR4 hitting the moon may rise to 30 per cent
+  description: In February, the James Webb Space Telescope will briefly be able to
+    observe asteroid 2024 YR4, which currently has a 4 per cent chance of hitting
+    the moon in 2032. Depending on what it sees, the odds of collision could drastically
+    increase
+  url: https://www.newscientist.com/article/2503607-odds-of-asteroid-2024-yr4-hitting-the-moon-may-rise-to-30-per-cent/
+  date: '2025-11-11'
+  source: New Scientist
+- title: One-pot method synthesizes blue light-responsive aryne precursors from carboxylic
+    acids
+  description: Arynes are highly reactive organic intermediates featuring a triple
+    bond within an aromatic ring. Their strong reactivity enables them to form bonds
+    with a wide range of functional groups, making them valuable tools for the synthesis
+    of complex aroma
+  url: https://phys.org/news/2025-11-pot-method-blue-responsive-aryne.html
+  date: '2025-11-11'
+  source: Phys.Org
+- title: The World’s Largest Wind Turbine Will Smash Previous Records
+  description: A planned supersized floating wind turbine with two spinning heads
+    will generate nearly double the amount of energy as the current record-holder
+  url: https://www.scientificamerican.com/article/the-worlds-largest-wind-turbine-will-smash-previous-records/
+  date: '2025-11-11'
+  source: Scientific American
+- title: Scientists uncover a hidden universal law limiting life’s growth
+  description: Japanese researchers uncovered a universal rule describing why life’s
+    growth slows despite abundant nutrients. Their “global constraint principle” integrates
+    classic biological laws to show that multiple factors limit cellular growth in
+    sequence. Ver
+  url: https://www.sciencedaily.com/releases/2025/11/251111005947.htm
+  date: '2025-11-11'
+  source: Science Daily
+- title: Caves carved by water on Mars may hold signs of past life
+  description: Eight possible cave openings found on the Martian surface look to have
+    once had ancient streams flowing into them, suggesting they are promising places
+    to look for evidence of life
+  url: https://www.newscientist.com/article/2503049-caves-carved-by-water-on-mars-may-hold-signs-of-past-life/
+  date: '2025-11-11'
+  source: New Scientist
 - title: A proposed limit test for p-chloroaniline impurity in paracetamol pharmaceutical
     formulations
   description: Scientific Reports - A proposed limit test for p-chloroaniline impurity
@@ -42,11 +694,31 @@ news_items:
   url: https://www.nature.com/articles/s41586-025-09850-x
   date: '2025-11-11'
   source: Nature.com
+- title: The computers that run on human brain cells
+  description: 'Move over silicon: scientists want to use neurons to make powerful
+    computers with minuscule energy needs.'
+  url: https://www.nature.com/articles/d41586-025-03633-0
+  date: '2025-11-11'
+  source: Nature.com
+- title: Ca2+-driven PDIA6 biomolecular condensation ensures proinsulin folding
+  description: Lee et al. show that Ca²⁺ triggers condensates enriched with PDIA6,
+    an ER-resident disulfide isomerase and chaperone, along with other protein disulfide
+    isomerase family proteins and some chaperones that in turn enhance folding of
+    proinsulin.
+  url: https://www.nature.com/articles/s41556-025-01794-8
+  date: '2025-11-11'
+  source: Nature.com
 - title: Influence of gravity on water management and mass transport losses in polymer
     electrolyte membrane fuel cells
   description: Scientific Reports - Influence of gravity on water management and mass
     transport losses in polymer electrolyte membrane fuel cells
   url: https://www.nature.com/articles/s41598-025-09067-y
+  date: '2025-11-11'
+  source: Nature.com
+- title: China’s new scientist visa is a ‘serious bid’ for the world’s top talent
+  description: The country is easing migration for young researchers to boost its
+    competitiveness in artificial intelligence (AI), robotics and new materials.
+  url: https://www.nature.com/articles/d41586-025-03657-6
   date: '2025-11-11'
   source: Nature.com
 - title: Structural basis of cyclobutane pyrimidine dimer recognition by UV-DDB in
@@ -66,10 +738,10 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-65813-w
   date: '2025-11-11'
   source: Nature.com
-- title: China’s new scientist visa is a ‘serious bid’ for the world’s top talent
-  description: The country is easing migration for young researchers to boost its
-    competitiveness in artificial intelligence (AI), robotics and new materials.
-  url: https://www.nature.com/articles/d41586-025-03657-6
+- title: Long-read sequencing disentangles isoform complexity at allele-specific loci
+  description: Scientific Reports - Long-read sequencing disentangles isoform complexity
+    at allele-specific loci
+  url: https://www.nature.com/articles/s41598-025-97362-z
   date: '2025-11-11'
   source: Nature.com
 - title: Characterization of transmitted drug resistance among recently infected HIV-1
@@ -77,26 +749,6 @@ news_items:
   description: Scientific Reports - Characterization of transmitted drug resistance
     among recently infected HIV-1 men who have sex with men in Hebei Province, China
   url: https://www.nature.com/articles/s41598-025-26028-7
-  date: '2025-11-11'
-  source: Nature.com
-- title: Long-read sequencing disentangles isoform complexity at allele-specific loci
-  description: Scientific Reports - Long-read sequencing disentangles isoform complexity
-    at allele-specific loci
-  url: https://www.nature.com/articles/s41598-025-97362-z
-  date: '2025-11-11'
-  source: Nature.com
-- title: 'Correction: A time-fractional model of hydromagnetic slip flow of viscous
-    fluid in rotational frame with heat and mass transfer'
-  description: 'Scientific Reports - Correction: A time-fractional model of hydromagnetic
-    slip flow of viscous fluid in rotational frame with heat and mass transfer'
-  url: https://www.nature.com/articles/s41598-025-27981-z
-  date: '2025-11-11'
-  source: Nature.com
-- title: Drivers of natural regeneration seedling dynamics in a Larix gmelinii var.
-    principis-rupprechtii artificial forest
-  description: Scientific Reports - Drivers of natural regeneration seedling dynamics
-    in a Larix gmelinii var. principis-rupprechtii artificial forest
-  url: https://www.nature.com/articles/s41598-025-25747-1
   date: '2025-11-11'
   source: Nature.com
 - title: Following a cell’s every move
@@ -111,6 +763,26 @@ news_items:
   description: Scientific Reports - Combined application of biochar-compost and cow
     urine enhances organic rice production
   url: https://www.nature.com/articles/s41598-025-23641-4
+  date: '2025-11-11'
+  source: Nature.com
+- title: Is HRT in menopause healthy? US label change triggers debate
+  description: The US FDA is removing serious health warnings from hormone replacement
+    therapies. Scientists worry that more work is needed to get the message right.
+  url: https://www.nature.com/articles/d41586-025-03687-0
+  date: '2025-11-11'
+  source: Nature.com
+- title: 'Correction: A time-fractional model of hydromagnetic slip flow of viscous
+    fluid in rotational frame with heat and mass transfer'
+  description: 'Scientific Reports - Correction: A time-fractional model of hydromagnetic
+    slip flow of viscous fluid in rotational frame with heat and mass transfer'
+  url: https://www.nature.com/articles/s41598-025-27981-z
+  date: '2025-11-11'
+  source: Nature.com
+- title: Drivers of natural regeneration seedling dynamics in a Larix gmelinii var.
+    principis-rupprechtii artificial forest
+  description: Scientific Reports - Drivers of natural regeneration seedling dynamics
+    in a Larix gmelinii var. principis-rupprechtii artificial forest
+  url: https://www.nature.com/articles/s41598-025-25747-1
   date: '2025-11-11'
   source: Nature.com
 - title: On knowledge and spectacle
@@ -133,12 +805,6 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-28069-4
   date: '2025-11-11'
   source: Nature.com
-- title: Is HRT in menopause healthy? US label change triggers debate
-  description: The US FDA is removing serious health warnings from hormone replacement
-    therapies. Scientists worry that more work is needed to get the message right.
-  url: https://www.nature.com/articles/d41586-025-03687-0
-  date: '2025-11-11'
-  source: Nature.com
 - title: APOE4 to APOE2 allelic switching in mice improves Alzheimer’s disease-related
     metabolic signatures, neuropathology and cognition
   description: Using a mouse model enabling an inducible ‘switch’, Golden et al. show
@@ -148,109 +814,172 @@ news_items:
   url: https://www.nature.com/articles/s41593-025-02094-y
   date: '2025-11-11'
   source: Nature.com
-- title: Estrogen modulates reward prediction errors and reinforcement learning
-  description: Dopamine encoding of reward prediction errors naturally fluctuates
-    over females’ reproductive cycles with estrogenic signaling due to reduced expression
-    of dopamine reuptake proteins.
-  url: https://www.nature.com/articles/s41593-025-02104-z
+- title: Elon Musk Vs. Joyce Carol Oates—The Online Feud, Explained
+  description: Elon Musk, the world’s richest man, is entangled in a fierce online
+    feud with author Joyce Carol Oates on X, the site formerly known as Twitter.
+  url: https://www.forbes.com/sites/danidiplacido/2025/11/11/elon-musk-vs-joyce-carol-oates-the-online-feud-explained/
   date: '2025-11-11'
-  source: Nature.com
-- title: Stable clonal contribution of lineage-restricted stem cells to human hematopoiesis
-  description: This study uses somatic mutations as a natural barcoding system to
-    retrospectively and prospectively trace the fate of hematopoietic stem cells across
-    all major blood cell lineages in healthy aged individuals. It reveals the existence
-    of intrinsicall
-  url: https://www.nature.com/articles/s41588-025-02405-w
+  source: Forbes
+- title: The Green Premium Is Dead. The Fossil Premium Has Arrived.
+  description: The energy transformation is moving forward. In many cases Green Premiums
+    are not necessary any longer. Instead, Fossil Premiums are now used to protect
+    old industries.
+  url: https://www.forbes.com/sites/walvanlierop/2025/11/11/the-green-premium-is-dead-the-fossil-premium-has-arrived/
   date: '2025-11-11'
-  source: Nature.com
-- title: Numerical and experimental study on optimal design of rock bolts in single-lining
-    support of expressway tunnel
-  description: Scientific Reports - Numerical and experimental study on optimal design
-    of rock bolts in single-lining support of expressway tunnel
-  url: https://www.nature.com/articles/s41598-025-24962-0
+  source: Forbes
+- title: Is the wellness industry just for the privileged?
+  description: As the wellness industry grows into a $6 trillion force, we ask, is
+    this the future of healing or a profitable illusion?
+  url: https://www.aljazeera.com/video/the-stream/2025/11/11/is-the-wellness-industry-just-for-the-privileged
   date: '2025-11-11'
-  source: Nature.com
-- title: Genetic variants reshape the m6A epitranscriptome and drive transcriptomic
-    reprogramming in colorectal cancer
-  description: Scientific Reports - Genetic variants reshape the m6A epitranscriptome
-    and drive transcriptomic reprogramming in colorectal cancer
-  url: https://www.nature.com/articles/s41598-025-23397-x
+  source: Al Jazeera English
+- title: ByHeart recalls every single bottle of baby formula sold nationwide as infant
+    botulism outbreak hospitalizes 15 and counting
+  description: Parents and caregivers who have the formula in their homes “should
+    immediately discontinue use and dispose of the product.”
+  url: https://fortune.com/2025/11/11/byheart-recalls-baby-formula-sold-nationwide-as-infant-botulism-outbreak-hospitalization/
   date: '2025-11-11'
-  source: Nature.com
-- title: Research on power flow of encased differential gear train in coaxial contra-rotating
-    gearbox
-  description: Scientific Reports - Research on power flow of encased differential
-    gear train in coaxial contra-rotating gearbox
-  url: https://www.nature.com/articles/s41598-025-23712-6
+  source: Fortune
+- title: 'Syrian president in Washington: Start of a new regional order?'
+  description: This week, Syria joined the US-led global coalition fighting the "Islamic
+    State." But Syria's move is a much bigger deal than membership of the coalition.
+    It's potentially a sign of regional realignment, experts say.
+  url: https://www.dw.com/en/syrian-president-in-washington-start-of-a-new-regional-order/a-74703515
   date: '2025-11-11'
-  source: Nature.com
-- title: A novel hybrid model integrating CEEMDAN decomposition, dispersion entropy
-    and LSTM for photovoltaic power forecasting and anomaly detection
-  description: Scientific Reports - A novel hybrid model integrating CEEMDAN decomposition,
-    dispersion entropy and LSTM for photovoltaic power forecasting and anomaly detection
-  url: https://www.nature.com/articles/s41598-025-23305-3
+  source: DW (English)
+- title: AI chatbots are helping hide eating disorders and making deepfake ‘thinspiration’
+  description: 'AI chatbots “pose serious risks to individuals vulnerable to eating
+    disorders,” researchers warned on Monday. They report that tools from companies
+    like Google and OpenAI are doling out dieting advice, tips on how to hide disorders,
+    and AI-generated '
+  url: https://www.theverge.com/news/818508/chatbot-eating-disorder-mental-health
   date: '2025-11-11'
-  source: Nature.com
-- title: 'Correction: Satisfaction with life in young adults with type 1 diabetes
-    mellitus'
-  description: 'Scientific Reports - Correction: Satisfaction with life in young adults
-    with type 1 diabetes mellitus'
-  url: https://www.nature.com/articles/s41598-025-27345-7
+  source: The Verge
+- title: The rise of Yann LeCun, the 65-year-old NYU professor who is planning to
+    leave Mark Zuckerberg’s highly paid team at Meta to launch his own AI startup
+  description: LeCun is a Turing Award winner and considered one of the pioneers of
+    modern artificial intelligence.
+  url: https://fortune.com/2025/11/11/who-is-yann-lecun-career-meta-ai-chief-scientist-nyu-turing/
   date: '2025-11-11'
-  source: Nature.com
-- title: Assessment of terrestrial gamma radiation dose rates and its associated hazards
-    in Taraba State, Nigeria
-  description: Scientific Reports - Assessment of terrestrial gamma radiation dose
-    rates and its associated hazards in Taraba State, Nigeria
-  url: https://www.nature.com/articles/s41598-025-22939-7
+  source: Fortune
+- title: China’s average school day is 2 hours longer than the U.S., with all studies
+    and no extracurriculars. The results could help it win the AI race
+  description: As Trump shifts his tone on Chinese students, Beijing doubles down
+    on AI education—signaling a new kind of cold war in learning.
+  url: https://fortune.com/2025/11/11/china-us-rivarly-in-the-classroom-longer-days-ai-race-trump-shifts-tone/
   date: '2025-11-11'
-  source: Nature.com
-- title: Wild-type KRAS activation drives evasion of interferon-mediated immunity
-    and resistance to immunotherapy in hepatocellular carcinoma
-  description: Increasing evidence suggests that activation of oncogenic pathways
-    contributes to an unfavorable tumor microenvironment. Here, the authors show that
-    wild-type KRAS plays a key role in immune evasion in hepatocellular carcinoma
-    by impairing interferon
-  url: https://www.nature.com/articles/s41467-025-64860-7
+  source: Fortune
+- title: New Series From ‘Breaking Bad’ Creator Gets 100% Rotten Tomatoes Critics’
+    Score
+  description: '"Pluribus," a new sci-fi comedy drama from "Breaking Bad" and "Better
+    Call Saul" creator Vince Gilligan, is winning over Rotten Tomatoes critics.'
+  url: https://www.forbes.com/sites/timlammers/2025/11/11/new-series-from-breaking-bad-creator-gets-100-rotten-tomatoes-score/
   date: '2025-11-11'
-  source: Nature.com
-- title: The relationship between social support, life satisfaction and problematic
-    WeChat use among college students
-  description: Scientific Reports - The relationship between social support, life
-    satisfaction and problematic WeChat use among college students
-  url: https://www.nature.com/articles/s41598-025-23788-0
+  source: Forbes
+- title: What's stopping Elon Musk from becoming a trillionaire?
+  description: Musk's record-breaking pay deal was approved by Tesla shareholders
+    after years of legal battles. Hailed as an incentive for Tesla's robotic ambitions,
+    critics warn the new tech isn't remotely ready for prime time.
+  url: https://www.dw.com/en/whats-stopping-elon-musk-from-becoming-a-trillionaire/a-74684756
   date: '2025-11-11'
-  source: Nature.com
-- title: 'Publisher Correction: Adrenocortical carcinoma survival gene HMMR was identified
-    as being targeted by fluorouracil and epirubicin using a gene coexpression network-based
-    drug repositioning strategy'
-  description: 'Scientific Reports - Publisher Correction: Adrenocortical carcinoma
-    survival gene HMMR was identified as being targeted by fluorouracil and epirubicin
-    using a gene coexpression network-based drug...'
-  url: https://www.nature.com/articles/s41598-025-26111-z
+  source: DW (English)
+- title: What's stopping Elon Musk from becoming a trillionaire?
+  description: Musk's record-breaking pay deal was approved by Tesla shareholders
+    after years of legal battles. It's tied to Tesla's robotic ambitions, but critics
+    warn the new tech isn't remotely ready. The future’s so bright for Elon Musk,
+    even industrial-grade s
+  url: https://www.dw.com/en/elon-musk-could-become-a-trillionaire-tesla-spacex/a-74684756
   date: '2025-11-11'
-  source: Nature.com
-- title: The prize at the end of the quantum tunnel
-  description: The 2025 Nobel Prize in Physics has been awarded to John Clarke, Michel
-    Devoret and John Martinis “for the discovery of macroscopic quantum mechanical
-    tunnelling and energy quantisation in an electric circuit”.
-  url: https://www.nature.com/articles/s41567-025-03119-w
+  source: DW (English)
+- title: Maggie Sellers Reum’s HSR Ventures Invests In Bird&Be Amidst Ulta Beauty
+    Expansion
+  description: Maggie Sellers Reum invests into Bird&Be as it expands across retail
+    amplifying the brand through the firepower of the Hot Smart Rich platform.
+  url: https://www.forbes.com/sites/yolarobert1/2025/11/11/maggie-sellers-reums-hsr-ventures-invests-in-birdbe-amidst-ulta-beauty-expansion/
   date: '2025-11-11'
-  source: Nature.com
-- title: Gross tumor assessment is not a reliable measure of the efficacy of chemo-preventive
-    agents for breast cancer in preclinical mouse models
-  description: Scientific Reports - Gross tumor assessment is not a reliable measure
-    of the efficacy of chemo-preventive agents for breast cancer in preclinical mouse
-    models
-  url: https://www.nature.com/articles/s41598-025-19423-7
+  source: Forbes
+- title: 'America’s Top Hospitality Architects & Designers: Crafting Exceptional Spaces'
+  description: 'Q&A: Six principals from listed firms talk core issues and opportunities
+    defining hospitality design''s state of the art'
+  url: https://www.forbes.com/sites/richardolsen/2025/11/11/americas-top-hospitality-architects--designers-crafting-exceptional-spaces/
   date: '2025-11-11'
-  source: Nature.com
-- title: Lessons from a long road to a first-author paper
-  description: Unlike my colleagues, I faced a five-year wait to publish my PhD project.
-    Here’s how I coped.
-  url: https://www.nature.com/articles/d41586-025-03348-2
+  source: Forbes
+- title: Why has Canada lost its measles-free status – and could the US be next?
+  description: With more than 5,000 positive cases of measles, Canada lost its measles
+    elimination status.
+  url: https://www.aljazeera.com/news/2025/11/11/why-has-canada-lost-its-measles-free-status-and-could-the-us-be-next
   date: '2025-11-11'
-  source: Nature.com
+  source: Al Jazeera English
+- title: Disinformation Is Worse Than Ever—And It’s Putting Our Health At Risk
+  description: Disinformation – the deliberate spreading of falsehoods – is the leading
+    threat to Americans’ health. Recent IT and political developments are accelerating
+    its spread.
+  url: https://www.forbes.com/sites/arthurkellermann/2025/11/11/disinformation-is-worse-than-ever-and-its-putting-our-health-at-risk/
+  date: '2025-11-11'
+  source: Forbes
+- title: German, Polish eco-activists fight to protect the Oder River
+  description: The Oder River forms the natural border between Germany and Poland
+    over a distance of 187 kilometers (116 miles). Despite common goals, German and
+    Polish activists struggle to collaborate. Stefanie and Norbert Bartel's farm in
+    eastern Germany is a st
+  url: https://www.dw.com/en/german-polish-eco-activists-fight-to-protect-the-oder-river/a-74685950
+  date: '2025-11-11'
+  source: DW (English)
+- title: German, Polish eco-activists fight to get the Oder River cleaned up
+  description: Despite bureaucratic and financial challenges, environmentalists in
+    Germany and Poland are joining forces to protect the biodiverse Oder River ecosystem.
+  url: https://www.dw.com/en/german-polish-activists-fight-to-get-the-oder-river-clean/a-74685950
+  date: '2025-11-11'
+  source: DW (English)
+- title: Booze Without the Burn? An Enzyme-Tinkering Startup Aims to Make Spirits
+    Smoother
+  description: Voodoo Scientific has developed a process that, when applied to fiery
+    hooch, results in a more sippable tipple.
+  url: https://www.wired.com/story/booze-without-the-burn-voodoo-scientific-viriato/
+  date: '2025-11-11'
+  source: Wired
+- title: What is the meaning of Zohran Kwame Mamdani’s name?
+  description: With his name linked to Persian, Arabic and Ghanian, New York's newest
+    mayor reflects the city he will govern.
+  url: https://www.aljazeera.com/news/2025/11/11/what-is-the-meaning-of-zohran-kwame-mamdanis-name
+  date: '2025-11-11'
+  source: Al Jazeera English
+- title: Now You Can Wear Your Vitamins
+  description: Supplement patches are blurring the line between wellness and beauty.
+  url: https://www.theatlantic.com/health/2025/11/supplement-patches-wellness/684893/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: CoreWeave CEO responds to data center delays as stock plunges. Core Scientific
+    shares fall
+  description: CNBC's Jim Cramer noted data center delays at sites in Texas, Oklahoma
+    and North Carolina tied to Core Scientific.
+  url: https://www.cnbc.com/2025/11/11/coreweave-stock-core-scientific-delays.html
+  date: '2025-11-11'
+  source: CNBC
+- title: 29-year-old left his 6-figure tech job and opened a pizza bagel business—it
+    brought in $20K in September
+  description: Jacob Cooper left his six-figure tech job due to burnout and launched
+    a business selling mini pizza bagels in New York City.
+  url: https://www.cnbc.com/2025/11/11/29-year-old-left-6-figure-tech-job-and-opened-a-pizza-bagel-business.html
+  date: '2025-11-11'
+  source: CNBC
+- title: What a Cranky New Book About Progress Gets Right
+  description: Paul Kingsnorth argues that much of today’s culture is intent on eroding
+    what it means to be human.
+  url: https://www.theatlantic.com/books/2025/11/paul-kingsnorth-against-the-machine/684848/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: Fantasy Racism
+  description: Why Elon Musk needs Dungeons &amp; Dragons to be racist
+  url: https://www.theatlantic.com/ideas/2025/11/dungeons-and-dragons-elon-musk/684828/
+  date: '2025-11-11'
+  source: The Atlantic
+- title: AI progress and recommendations | OpenAI
+  description: AI is unlocking new knowledge and capabilities. Our responsibility
+    is to guide that power toward broad, lasting benefit.
+  url: https://openai.com/index/ai-progress-and-recommendations/
+  date: '2025-11-11'
+  source: Openai.com
 - title: Preliminary tests find germ that causes botulism in ByHeart baby formula
   description: Consumers should stop using ByHeart powdered infant formula immediately.
   url: https://www.pbs.org/newshour/health/preliminary-tests-find-germ-that-causes-botulism-in-byheart-baby-formula
@@ -353,419 +1082,6 @@ news_items:
   url: https://www.cbsnews.com/news/university-impact-federal-research-funding-cuts-60-minutes/
   date: '2025-11-10'
   source: CBS News
-- title: Canada Just Lost Its Measles-Free Status. The U.S. Could Soon Follow
-  description: Canada lost its official measles elimination status after a year of
-    continuous transmission
-  url: https://www.scientificamerican.com/article/canada-just-lost-its-measles-free-status-the-u-s-could-soon-follow/
-  date: '2025-11-10'
-  source: Scientific American
-- title: FDA Strips Breast Cancer Warning from Menopause Hormone Therapy
-  description: In a reversal, the Food and Drug Administration has removed black box
-    warnings on hormone replacement therapies for menopause
-  url: https://www.scientificamerican.com/article/fda-strips-breast-cancer-warning-from-menopause-hormone-therapy/
-  date: '2025-11-10'
-  source: Scientific American
-- title: 'Hopeful Realism: Evangelical Natural Law and Democratic Politics'
-  description: 'Drawing on their new book, Hopeful Realism, Jesse Covington, Bryan
-    T. McGraw, and Micah Watson lay out an Augustinian and evangelical theory of the
-    natural law and show how it can be employed within the context of a pluralistic
-    democratic order.
-
-
-    Jes'
-  url: https://www.princeton.edu/events/2025/hopeful-realism-evangelical-natural-law-and-democratic-politics
-  date: '2025-11-10'
-  source: Princeton University
-- title: Diet alone doesn't explain divergent health of California sea lions in US
-    and Mexico
-  description: 'When scientists compared what California sea lions eat in the Channel
-    Islands (U.S.) and the Gulf of California (Mexico), they expected to find a clear
-    explanation for why populations were booming in California but shrinking in Mexico.
-    Instead, they '
-  url: https://phys.org/news/2025-11-diet-doesnt-divergent-health-california.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: 'Q&A: How culture as a sustainable development goal is starting to become
-    a reality'
-  description: Eight global millennium development goals were established in 2000
-    by member states of the United Nations (UN) and endorsed by other multilateral
-    organizations. They ranged from eliminating hunger to empowering women, and from
-    reducing child mortalit
-  url: https://phys.org/news/2025-11-qa-culture-sustainable-goal-reality.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: Warming U.S. climate linked to rising deaths from heat
-  description: Record-breaking heat and severe cold spells are having a significant
-    impact on health and mortality in the United States, say researchers at the Yale
-    School of Public Health (YSPH).
-  url: https://ysph.yale.edu/news-article/warming-us-climate-linked-to-rising-deaths-from-heat/
-  date: '2025-11-10'
-  source: Yale.edu
-- title: Fragments of Stone of Scone tracked down to reveal a hidden history
-  description: 'The Stone of Scone, also known as the Stone of Destiny, is a treasured
-    relic of history in Great Britain, used for centuries as an accompaniment to the
-    coronation of kings. This 152 kg (335 lb) sandstone block has suffered through
-    a series of thefts '
-  url: https://phys.org/news/2025-11-fragments-stone-scone-tracked-reveal.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: '''Impossible'' merger of two massive black holes explained'
-  description: In 2023, astronomers detected a huge collision. Two unprecedentedly
-    massive black holes had crashed an estimated 7 billion light-years away. The enormous
-    masses and extreme spins of the black holes puzzled astronomers. Black holes like
-    these were not
-  url: https://phys.org/news/2025-11-impossible-merger-massive-black-holes.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: Why giving up on goals is good for you, and how to know which to ditch
-  description: We admire grit and perseverance, but surprising research suggests that
-    giving up on ambitions in the right way can actually improve our physical and
-    mental health
-  url: https://www.newscientist.com/article/2501420-why-giving-up-on-goals-is-good-for-you-and-how-to-know-which-to-ditch/
-  date: '2025-11-10'
-  source: New Scientist
-- title: Dinosaur eggshells unlock a new way to tell time in the fossil record
-  description: An international team of geologists and paleontologists is pioneering
-    a groundbreaking methodology to reliably determine the age of fossil-bearing rocks—by
-    directly dating fossilized dinosaur eggshells.
-  url: https://phys.org/news/2025-11-dinosaur-eggshells-fossil.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: Is Space the Place for Earth’s Next Evolutionary Leap?
-  description: In a new book, NASA astrobiologist Caleb Scharf says the fate of life
-    on Earth may hinge on leaving our planet behind
-  url: https://www.scientificamerican.com/article/is-space-the-place-for-earths-next-evolutionary-leap/
-  date: '2025-11-10'
-  source: Scientific American
-- title: Archaeologists may have finally solved Peru’s strange “Band of Holes” mystery
-  description: In Peru’s mysterious Pisco Valley, thousands of perfectly aligned holes
-    known as Monte Sierpe have long puzzled scientists. New drone mapping and microbotanical
-    analysis reveal that these holes may once have served as a bustling pre-Inca barter
-    marke
-  url: https://www.sciencedaily.com/releases/2025/11/251110021048.htm
-  date: '2025-11-10'
-  source: Science Daily
-- title: Ultimate precision in measuring multiple light parameters with new quantum
-    sensing approach
-  description: A new method for measuring three different properties of light, at
-    the same time, has been developed using an interferometry-based quantum sensing
-    scheme capable of simultaneously estimating multiple parameters of an optical
-    network.
-  url: https://phys.org/news/2025-11-ultimate-precision-multiple-parameters-quantum.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: Vitamin D3 breakthrough halves risk of second heart attack
-  description: Intermountain Health researchers discovered that customizing vitamin
-    D3 doses for heart attack survivors slashed their risk of another heart attack
-    by 50%. The strategy involved frequent monitoring and dose adjustments to reach
-    ideal vitamin D levels
-  url: https://www.sciencedaily.com/releases/2025/11/251110021043.htm
-  date: '2025-11-10'
-  source: Science Daily
-- title: Not Everyone with Schizophrenia Hears Voices. Here’s Why
-  description: New research aims to tease out what exactly is happening in the brains
-    of people with schizophrenia who have auditory hallucinations
-  url: https://www.scientificamerican.com/article/not-everyone-with-schizophrenia-hears-voices-heres-why/
-  date: '2025-11-10'
-  source: Scientific American
-- title: Mathematicians’ Chalkboard Writing Shows When Inspiration Strikes
-  description: Researchers spot the “tipping point” before mathematicians’ moments
-    of discovery
-  url: https://www.scientificamerican.com/article/mathematicians-chalkboard-writing-shows-when-inspiration-strikes/
-  date: '2025-11-10'
-  source: Scientific American
-- title: Exploring Food Texture and Taste Perception with Kendra Pierre-Louis
-  description: Kendra Pierre-Louis steps in as interim host and dives into the science
-    behind why some foods—especially mayonnaise—can gross us out.
-  url: https://www.scientificamerican.com/podcast/episode/exploring-food-texture-and-taste-perception-with-kendra-pierre-louis/
-  date: '2025-11-10'
-  source: Scientific American
-- title: As U.S. and E.U. Retreat on Climate, China Takes the Leadership Role
-  description: As U.N. talks get underway, China is emerging as a key leader in international
-    climate efforts. It is empowering the global energy transition, and along with
-    India and Brazil, is becoming the driving force in climate diplomacy and filling
-    a vacuum le
-  url: https://e360.yale.edu/features/china-climate-diplomacy
-  date: '2025-11-10'
-  source: Yale.edu
-- title: Human impact on Amazon forests is transforming its ecological functions and
-    evolutionary history
-  description: A new study reveals that the impact humans are having on the Amazon
-    rainforest is so profound it is even changing the evolutionary history and functionality
-    of the forests.
-  url: https://phys.org/news/2025-11-human-impact-amazon-forests-ecological.html
-  date: '2025-11-10'
-  source: Phys.Org
-- title: Physicists prove the Universe isn’t a simulation after all
-  description: New research from UBC Okanagan mathematically demonstrates that the
-    universe cannot be simulated. Using Gödel’s incompleteness theorem, scientists
-    found that reality requires “non-algorithmic understanding,” something no computation
-    can replicate. Th
-  url: https://www.sciencedaily.com/releases/2025/11/251110021052.htm
-  date: '2025-11-10'
-  source: Science Daily
-- title: Supercomputer breakthrough exposes Enceladus’s hidden ocean
-  description: From Cassini’s awe-inspiring flybys to cutting-edge simulations, scientists
-    are decoding the secrets of Enceladus’s geysers. Supercomputer models show the
-    icy moon’s plumes lose less mass than expected, refining our understanding of
-    its mysterious in
-  url: https://www.sciencedaily.com/releases/2025/11/251109013238.htm
-  date: '2025-11-10'
-  source: Science Daily
-- title: New bacterial therapy destroys cancer without the immune system
-  description: 'A Japanese-led research team has developed AUN, a groundbreaking immune-independent
-    bacterial cancer therapy that uses two harmonized bacteria to destroy tumors even
-    in patients with weakened immune systems. By leveraging the natural synergy between '
-  url: https://www.sciencedaily.com/releases/2025/11/251109013250.htm
-  date: '2025-11-10'
-  source: Science Daily
-- title: 'Deep connections: exploring the genetic connectivity of mesophotic and shallow-water
-    populations of the sponge Axinella polypoides'
-  description: 'Scientific Reports - Deep connections: exploring the genetic connectivity
-    of mesophotic and shallow-water populations of the sponge Axinella polypoides'
-  url: https://www.nature.com/articles/s41598-025-18563-0
-  date: '2025-11-10'
-  source: Nature.com
-- title: A comparative study of AI and human programming on environmental sustainability
-  description: Scientific Reports - A comparative study of AI and human programming
-    on environmental sustainability
-  url: https://www.nature.com/articles/s41598-025-24658-5
-  date: '2025-11-10'
-  source: Nature.com
-- title: Accelerated rifting in response to regional climate change in the East African
-    Rift System
-  description: Scientific Reports - Accelerated rifting in response to regional climate
-    change in the East African Rift System
-  url: https://www.nature.com/articles/s41598-025-23264-9
-  date: '2025-11-10'
-  source: Nature.com
-- title: Functional improvements correlate with enhanced quality of life following
-    mesenchymal stromal cell therapy in chronic spinal cord injury
-  description: Scientific Reports - Functional improvements correlate with enhanced
-    quality of life following mesenchymal stromal cell therapy in chronic spinal cord
-    injury
-  url: https://www.nature.com/articles/s41598-025-23142-4
-  date: '2025-11-10'
-  source: Nature.com
-- title: Rebuilding Ukraine — one university’s bold vision
-  description: Rector and AI researcher Nataliya Shakhovska tells Nature how her institution
-    is supporting students and staff members amid the war and about her hopes for
-    the future.
-  url: https://www.nature.com/articles/d41586-025-03638-9
-  date: '2025-11-10'
-  source: Nature.com
-- title: A comparative evaluatıon of AI-based ChatGPT and physicians in psychiatric
-    case assessment
-  description: Scientific Reports - A comparative evaluatıon of AI-based ChatGPT and
-    physicians in psychiatric case assessment
-  url: https://www.nature.com/articles/s41598-025-20813-0
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Scales of risk and adaptive ‘dread’: an evolutionary theory of risk inflation'
-  description: 'Scientific Reports - Scales of risk and adaptive ‘dread’: an evolutionary
-    theory of risk inflation'
-  url: https://www.nature.com/articles/s41598-025-19079-3
-  date: '2025-11-10'
-  source: Nature.com
-- title: Why did the Inca dig thousands of holes in this mountain? We may now know.
-  description: No, it wasn’t built by aliens. But accountants? Maybe.
-  url: https://www.nationalgeographic.com/history/article/band-of-holes-peru-inca-mystery
-  date: '2025-11-10'
-  source: National Geographic
-- title: Cancer-specific cytotoxicity of curcumin through regulation of integrin β1
-    expression in colon cancer
-  description: Scientific Reports - Cancer-specific cytotoxicity of curcumin through
-    regulation of integrin β1 expression in colon cancer
-  url: https://www.nature.com/articles/s41598-025-21627-w
-  date: '2025-11-10'
-  source: Nature.com
-- title: Impact of gliomas in different brain hemispheres on anxiety and the prognosis
-    of neurosurgical patients
-  description: Scientific Reports - Impact of gliomas in different brain hemispheres
-    on anxiety and the prognosis of neurosurgical patients
-  url: https://www.nature.com/articles/s41598-025-23098-5
-  date: '2025-11-10'
-  source: Nature.com
-- title: Optimized loading effects on pressure steam sterilization of loaned surgical
-    instruments using product family categorization
-  description: Scientific Reports - Optimized loading effects on pressure steam sterilization
-    of loaned surgical instruments using product family categorization
-  url: https://www.nature.com/articles/s41598-025-23086-9
-  date: '2025-11-10'
-  source: Nature.com
-- title: Gut-primed neutrophils activate Kupffer cells to promote hepatic injury in
-    mouse sepsis
-  description: 'Sepsis often induces liver injury, but the underlying cellular and
-    molecular mechanisms are still unclear. Here the authors show that gut neutrophils,
-    assisted by intraepithelial lymphocytes, secrete neutrophil extracellular traps
-    (NETs) to activate '
-  url: https://www.nature.com/articles/s41467-025-65572-8
-  date: '2025-11-10'
-  source: Nature.com
-- title: Africa finally has its own drug-regulation agency — and it could transform
-    the continent’s health
-  description: If it gets things right, the first major regulator of medicines to
-    launch for 30 years could empower Africa to tackle African challenges around health
-    and disease.
-  url: https://www.nature.com/articles/d41586-025-03637-w
-  date: '2025-11-10'
-  source: Nature.com
-- title: Maximizing researcher–policymaker engagement in global public health
-  description: Research does not always ‘speak for itself’; high-fidelity uptake of
-    science into policy requires active engagement between researchers and policymakers.
-    This Perspective offers tangible recommendations to help bridge the research-to-policy
-    gap.
-  url: https://www.nature.com/articles/s41591-025-04015-9
-  date: '2025-11-10'
-  source: Nature.com
-- title: Ingested PET microplastics alter the metabolomic profile of the porcine pancreas
-  description: Scientific Reports - Ingested PET microplastics alter the metabolomic
-    profile of the porcine pancreas
-  url: https://www.nature.com/articles/s41598-025-21915-5
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Author Correction: Transsynaptic labeling and transcriptional control of
-    zebrafish neural circuits'
-  description: 'Nature Neuroscience - Author Correction: Transsynaptic labeling and
-    transcriptional control of zebrafish neural circuits'
-  url: https://www.nature.com/articles/s41593-025-02174-z
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Author Correction: The oldest known lepidosaur and origins of lepidosaur
-    feeding adaptations'
-  description: 'Nature - Author Correction: The oldest known lepidosaur and origins
-    of lepidosaur feeding adaptations'
-  url: https://www.nature.com/articles/s41586-025-09782-6
-  date: '2025-11-10'
-  source: Nature.com
-- title: Nasal allergen challenge with dissolved birch tree pollen tablets
-  description: Scientific Reports - Nasal allergen challenge with dissolved birch
-    tree pollen tablets
-  url: https://www.nature.com/articles/s41598-025-27356-4
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Retraction Note: Farnesyl dimethyl chromanol targets colon cancer stem cells
-    and prevents colorectal cancer metastasis'
-  description: 'Scientific Reports - Retraction Note: Farnesyl dimethyl chromanol
-    targets colon cancer stem cells and prevents colorectal cancer metastasis'
-  url: https://www.nature.com/articles/s41598-025-27189-1
-  date: '2025-11-10'
-  source: Nature.com
-- title: A Minimum Information about a High Containment Laboratory Experiment (MIHCLE)
-    reporting standard
-  description: 'Experiments with high-risk pathogens are routinely conducted under
-    strict conditions of biosafety and biosecurity. In this Comment, we propose a
-    Minimum Information about a High Containment Laboratory Experiment (MIHCLE) reporting
-    standard. Although '
-  url: https://www.nature.com/articles/s41592-025-02862-5
-  date: '2025-11-10'
-  source: Nature.com
-- title: inhibitory effect of hyperin on Staphylococcus aureus pathogenicity though
-    interactions with sortase A and sortase B
-  description: Scientific Reports - inhibitory effect of hyperin on Staphylococcus
-    aureus pathogenicity though interactions with sortase A and sortase B
-  url: https://www.nature.com/articles/s41598-025-23458-1
-  date: '2025-11-10'
-  source: Nature.com
-- title: Breaking barriers in crosslinking mass spectrometry with enhanced throughput
-    and sensitivity using Orbitrap Astral
-  description: Mapping protein interactions requires sensitive mass spectrometry.
-    Here, the authors show that the Orbitrap Astral, combined with optimized chromatography,
-    improves detection of low-abundance crosslinks compared with the Eclipse.
-  url: https://www.nature.com/articles/s41467-025-64844-7
-  date: '2025-11-10'
-  source: Nature.com
-- title: Deep immune profiling delineates hallmarks of disease heterogeneity in extrapulmonary
-    tuberculosis
-  description: This work uses gene expression and single cell analyses to group extrapulmonary
-    tuberculosis patients into three immune types, revealing immune pathways driving
-    pathogenesis and markers that could improve diagnosis and guide tailored treatments.
-  url: https://www.nature.com/articles/s41467-025-65561-x
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Hamilton Smith obituary: molecular biologist who co-discovered precise molecular
-    scissors for cutting DNA'
-  description: Nobel laureate who helped to sequence the first bacterial and human
-    genomes.
-  url: https://www.nature.com/articles/d41586-025-03635-y
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Retraction Note: Forest pest monitoring and early warning using UAV remote
-    sensing and computer vision techniques'
-  description: 'Scientific Reports - Retraction Note: Forest pest monitoring and early
-    warning using UAV remote sensing and computer vision techniques'
-  url: https://www.nature.com/articles/s41598-025-27305-1
-  date: '2025-11-10'
-  source: Nature.com
-- title: High-sensitive mechanical response in metal–insulator nanogranular films
-    with large gauge factor
-  description: Scientific Reports - High-sensitive mechanical response in metal–insulator
-    nanogranular films with large gauge factor
-  url: https://www.nature.com/articles/s41598-025-24084-7
-  date: '2025-11-10'
-  source: Nature.com
-- title: LUBAC modulates CBM complex functions downstream of TRAF6 in T cells
-  description: The CARD11-BCL10-MALT1 (CBM) complex governs canonical NF-κB signaling
-    and MALT1 protease activation downstream of TCR stimulation. Here, the authors
-    evaluate the contribution of the E3 ligases LUBAC and TRAF6 in controlling CBM
-    activity, using Jurka
-  url: https://www.nature.com/articles/s41467-025-65879-6
-  date: '2025-11-10'
-  source: Nature.com
-- title: Clearance of intracranial debris by ultrasound reduces inflammation and improves
-    outcomes in hemorrhagic stroke models
-  description: Brain debris in mouse models of stroke is cleared by ultrasound, boosting
-    recovery.
-  url: https://www.nature.com/articles/s41587-025-02866-8
-  date: '2025-11-10'
-  source: Nature.com
-- title: Flexible perovskite/silicon tandem solar cells with 33.6% efficiency
-  description: Nature - Flexible perovskite/silicon tandem solar cells with 33.6%
-    efficiency
-  url: https://www.nature.com/articles/s41586-025-09849-4
-  date: '2025-11-10'
-  source: Nature.com
-- title: Long-term outcomes of successful cardiac resuscitation
-  description: Scientific Reports - Long-term outcomes of successful cardiac resuscitation
-  url: https://www.nature.com/articles/s41598-025-22943-x
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Endowing urban business environments with an intelligent brain: empirical
-    evidence from cities in western China'
-  description: 'Scientific Reports - Endowing urban business environments with an
-    intelligent brain: empirical evidence from cities in western China'
-  url: https://www.nature.com/articles/s41598-025-05630-9
-  date: '2025-11-10'
-  source: Nature.com
-- title: Witnessing chamois populations recover
-  description: Haritakis Papaioannou combines a mountaineer’s know-how with a scientific
-    eye to track the slow recovery of chamois populations in western Greece.
-  url: https://www.nature.com/articles/d41586-025-03640-1
-  date: '2025-11-10'
-  source: Nature.com
-- title: Comparative evaluation of different transport media for H5N1 highly pathogenic
-    avian influenza virus
-  description: Scientific Reports - Comparative evaluation of different transport
-    media for H5N1 highly pathogenic avian influenza virus
-  url: https://www.nature.com/articles/s41598-025-15987-6
-  date: '2025-11-10'
-  source: Nature.com
-- title: A call for 3D genomics submissions
-  description: Nature Genetics has joined forces with Nature Communications, Communications
-    Biology and Scientific Reports to create a Collection of papers on 3D genome organization.
-    We reflect on the field and invite submissions addressing fundamental unsolved
-    que
-  url: https://www.nature.com/articles/s41588-025-02439-0
-  date: '2025-11-10'
-  source: Nature.com
-- title: 'Vaccine advice: how a US centre is filling growing gaps in public-health
-    information'
-  description: Epidemiologist Michael Osterholm talks about efforts by the Center
-    for Infectious Disease Research and Policy to inform vaccine recommendations and
-    maintain public-health awareness during the Trump administration.
-  url: https://www.nature.com/articles/d41586-025-03625-0
-  date: '2025-11-10'
-  source: Nature.com
 - title: COP30 opens in Brazil with calls for unity to tackle climate crisis
   description: About 50,000 people are expected to attend the 12-day climate summit
     in the Brazilian city of Belem.
@@ -1041,77 +1357,6 @@ news_items:
   url: https://www.bbc.com/news/articles/c2dr8gzdz1wo
   date: '2025-11-09'
   source: BBC News
-- title: 'Yale and Princeton: The Football Concert'
-  description: The Yale Glee Club visits the Princeton University Glee Club in the
-    annual “Football Concert” — a choral face-off tradition that is over a century
-    old, taking place the weekend before the Princeton-Yale football game. Yale Glee
-    Club Jeffrey Douma, di
-  url: https://www.princeton.edu/events/2025/yale-and-princeton-football-concert-0
-  date: '2025-11-09'
-  source: Princeton University
-- title: Landmark Paris Agreement set a path to slow warming. The world hasn't stayed
-    on it
-  description: The world has changed dramatically in the decade since leaders celebrated
-    a historic climate agreement in Paris a decade ago, but not quite in ways they
-    expected or wanted.
-  url: https://phys.org/news/2025-11-landmark-paris-agreement-path-world.html
-  date: '2025-11-09'
-  source: Phys.Org
-- title: Why women land top jobs in struggling organizations—they may just be better
-    in a crisis
-  description: Women are increasingly occupying top leadership roles across organizations,
-    political parties and even nations. This may seem unequivocally like a good thing.
-    Yet, many of these roles are undertaken in precarious circumstances, with inherent
-    risks th
-  url: https://phys.org/news/2025-11-women-jobs-struggling-crisis.html
-  date: '2025-11-09'
-  source: Phys.Org
-- title: A simple DNA test could reveal the right antidepressant for you
-  description: Millions struggle with depression and anxiety, often enduring long
-    waits for effective treatment. Scientists in Sweden, Denmark, and Germany are
-    developing a genetic test to predict which medications will actually work. Using
-    polygenic risk scores, t
-  url: https://www.sciencedaily.com/releases/2025/11/251109013242.htm
-  date: '2025-11-09'
-  source: Science Daily
-- title: Astronomers shocked by mysterious gas found in deep space
-  description: Astronomers have discovered phosphine gas in the atmosphere of an ancient
-    brown dwarf, Wolf 1130C, using the James Webb Space Telescope. The finding is
-    puzzling because phosphine, a potential biosignature, has been missing from other
-    similar objects.
-  url: https://www.sciencedaily.com/releases/2025/11/251109013240.htm
-  date: '2025-11-09'
-  source: Science Daily
-- title: Microbes that breathe rust could help save Earth’s oceans
-  description: Researchers from the University of Vienna discovered MISO bacteria
-    that use iron minerals to oxidize toxic sulfide, creating energy and producing
-    sulfate. This biological process reshapes how scientists understand global sulfur
-    and iron cycles. By ou
-  url: https://www.sciencedaily.com/releases/2025/11/251109013252.htm
-  date: '2025-11-09'
-  source: Science Daily
-- title: COSCON
-  description: 'COSCON is Princeton''s student-run computer science contest designed
-    to encourage out-of-the-box thinking on the variety of topics arising in computer
-    science and its applications. You can participate in teams comprised of at most
-    three members, each '
-  url: https://www.princeton.edu/events/2025/coscon
-  date: '2025-11-09'
-  source: Princeton University
-- title: Deep-sea mining risks disrupting the marine food web, study warns
-  description: Drilling for minerals deep in the ocean could have immense consequences
-    for the tiny animals at the core of the vast marine food web—and ultimately affect
-    fisheries and the food we find on our plates, according to a new study.
-  url: https://phys.org/news/2025-11-deep-sea-disrupting-marine-food.html
-  date: '2025-11-09'
-  source: Phys.Org
-- title: AI Slop—How Every Media Revolution Breeds Rubbish and Art
-  description: The popularization of the term “slop” for AI output follows a centuries-long
-    pattern where new tools flood the zone, audiences adapt and some of tomorrow’s
-    art emerges from today’s excess
-  url: https://www.scientificamerican.com/article/ai-slop-how-every-media-revolution-breeds-rubbish-and-art/
-  date: '2025-11-09'
-  source: Scientific American
 - title: Will Victims Of Atrocities In Ethiopia See Justice And Accountability?
   description: November 4, 2025, marked five years since the beginning of the war
     in Tigray, Ethiopia. The war was to end with the Cessation of Hostilities Agreement
@@ -1537,85 +1782,6 @@ news_items:
   url: https://fortune.com/2025/11/07/trump-ozempic-howard-lutnick-robert-kennedy/
   date: '2025-11-07'
   source: Fortune
-- title: '‘Pluribus’ Composer Dave Porter On Moving Away From ‘Breaking Bad’ Universe
-    For Vince Gilligan’s Secret Sci-Fi Series: ‘Exciting And A Little Terrifying’'
-  description: The Apple TV+ series stars 'Better Call Saul' alum Reha Seehorn as
-    a misanthropic author who must save the world from an outbreak of happiness.
-  url: https://www.forbes.com/sites/joshweiss/2025/11/07/pluribus-composer-dave-porter-on-moving-away-from-breaking-bad-universe-for-vince-gilligans-secret-sci-fi-series-exciting-and-a-little-terrifying/
-  date: '2025-11-07'
-  source: Forbes
-- title: What To Watch This Weekend On Netflix, Hulu, Prime Video & Other Top Streamers
-  description: Looking for what to stream this weekend? Here’s every major new movie
-    and show hitting Netflix, Hulu, Prime Video, Apple TV and more.
-  url: https://www.forbes.com/sites/erikkain/2025/11/07/weekend-streaming-guide-netflix-apple-tv-hulu-prime-video-tv-shows-movies/
-  date: '2025-11-07'
-  source: Forbes
-- title: 'Pluribus: all the latest on Vince Gilligan’s Apple TV series'
-  description: Apple’s run of excellent sci-fi looks to continue with Pluribus. The
-    series has some strong pedigree; it’s helmed by Breaking Bad and Better Call Saul
-    creator Vince Gilligan, who also has a history in the genre working on The X-Files.
-    It’s also a sho
-  url: https://www.theverge.com/entertainment/815898/pluribus-apple-tv-vince-gilligan
-  date: '2025-11-07'
-  source: The Verge
-- title: What Whales, Elephants And Tardigrades Reveal About Longevity
-  description: Longevity and disease resistance in humans may soon be transformed
-    by studying and emulating the genetic strategies encoded in nature’s most resilient
-    and long-lived species.
-  url: https://www.forbes.com/sites/williamhaseltine/2025/11/07/what-whales-elephants-and-tardigrades-reveal-about-longevity/
-  date: '2025-11-07'
-  source: Forbes
-- title: What pop culture got wrong about Frankenstein
-  description: 'Unlike the iconic monster we have come to know through various movies,
-    Guillermo del Toro''s "Frankenstein" is more faithful to Mary Shelley''s original
-    vision. For more than two centuries, Mary Shelley''s "Frankenstein" has been the
-    monster that won''t '
-  url: https://www.dw.com/en/what-pop-culture-got-wrong-about-frankenstein/a-74653161
-  date: '2025-11-07'
-  source: DW (English)
-- title: Why is former House Speaker Nancy Pelosi retiring from US Congress?
-  description: Trump called her an ‘evil woman’; Pelosi is considered one of the most
-    influential legislative leaders in recent history
-  url: https://www.aljazeera.com/news/2025/11/7/why-is-former-house-speaker-nancy-pelosi-retiring-from-us-congress
-  date: '2025-11-07'
-  source: Al Jazeera English
-- title: China commissions Fujian aircraft carrier
-  description: China announced it has commissioned its third aircraft carrier, the
-    Fujian. With it, China is steadily closing the gap to US naval capabilities in
-    the region. On Friday, Chinese media reported that the People's Liberation Army
-    Navy (PLAN) has officia
-  url: https://www.dw.com/en/china-commissions-fujian-aircraft-carrier/a-74659998
-  date: '2025-11-07'
-  source: DW (English)
-- title: Gen Alpha won’t ever have to write an email when they join the workforce,
-    new research reveals—they’ll be sending voice notes to their boss instead
-  description: LSE researchers say Gen Alpha will talk, not type at work—they predict
-    that voice notes will make keyboard practically obsolete by 2030.
-  url: https://fortune.com/2025/11/07/gen-alpha-wont-ever-have-to-write-an-email-when-they-join-the-workforce-new-research-reveals-theyll-be-sending-voice-notes-to-their-boss-instead/
-  date: '2025-11-07'
-  source: Fortune
-- title: The first new subsea habitat in 40 years is about to launch
-  description: 'Vanguard feels and smells like a new RV. It has long, gray banquettes
-    that convert into bunks, a microwave cleverly hidden under a counter, a functional
-    steel sink with a French press and crockery above. A weird little toilet hides
-    behind a curtain. '
-  url: https://www.technologyreview.com/2025/11/07/1127682/vanguard-deep-subsea-habitat-launch/
-  date: '2025-11-07'
-  source: MIT Technology Review
-- title: Mental Health Therapists Are Surprisingly Making Use Of Generative AI During
-    Actual Client Therapy Sessions
-  description: Therapists are using AI during client sessions (controversial!). AI
-    before or after a session is underway, but AI in a session is hotly contested.
-    An AI Insider scoop.
-  url: https://www.forbes.com/sites/lanceeliot/2025/11/07/mental-health-therapists-are-surprisingly-making-use-of-generative-ai-during-actual-client-therapy-sessions/
-  date: '2025-11-07'
-  source: Forbes
-- title: Why are scientists rushing to study a comet from deep space?
-  description: The comet is the third interstellar object from deep space ever recorded
-    to pass through Earth's solar system.
-  url: https://www.aljazeera.com/news/2025/11/7/why-are-scientists-rushing-to-study-a-comet-from-deep-space
-  date: '2025-11-07'
-  source: Al Jazeera English
 - title: Millions more Americans could access obesity drugs after Trump's deals with
     Eli Lilly, Novo Nordisk
   description: Medicare will start covering obesity drugs for the first time, which
@@ -1778,31 +1944,6 @@ news_items:
   url: https://www.bbc.com/news/articles/c04gvx7egw5o
   date: '2025-11-06'
   source: BBC News
-- title: How long will the US government shutdown last?
-  description: The federal government shutdown is now the longest in US history.
-  url: https://www.aljazeera.com/video/inside-story/2025/11/6/how-long-will-the-us-government-shutdown-last
-  date: '2025-11-06'
-  source: Al Jazeera English
-- title: Laude Institute announces first batch of 'Slingshots' AI grants | TechCrunch
-  description: Slingshots AI grants provide resources that would be unavailable in
-    most academic settings. Its debut program has 15 startups focused on AI evaluation.
-  url: https://techcrunch.com/2025/11/06/laude-institute-announces-first-batch-of-slingshots-ai-grants/
-  date: '2025-11-06'
-  source: TechCrunch
-- title: Sam Altman says OpenAI has $20B ARR and about $1.4 trillion in data center
-    commitments | TechCrunch
-  description: Sam Altman says OpenAI has $20B ARR and about $1.4 trillion in data
-    center commitments | TechCrunchtechcrunch.com
-  url: https://techcrunch.com/2025/11/06/sam-altman-says-openai-has-20b-arr-and-about-1-4-trillion-in-data-center-commitments/
-  date: '2025-11-06'
-  source: TechCrunch
-- title: 'When Medicine Becomes Marketing: How Celebrities Are Selling GLP-1s, Peptides
-    And Longevity Through Telehealth'
-  description: Ro, Hims, and other telehealth and longevity companies are using celebrity
-    to sell GLP-1s, imaging and diagnostics —raising FDA concerns.
-  url: https://www.forbes.com/sites/sindhyavalloppillil/2025/11/06/when-medicine-becomes-marketing-how-celebrities-are-selling-glp-1s-peptides-and-longevity-through-telehealth/
-  date: '2025-11-06'
-  source: Forbes
 - title: What a Young Paul McCartney Knew About Growing Old
   description: Put true love at the center of your life, and your happiness will only
     grow.
@@ -1832,144 +1973,3 @@ news_items:
   url: http://www.propublica.org/article/trump-veterans-affairs-male-breast-cancer-lawmakers
   date: '2025-11-06'
   source: ProPublica
-- title: Dead basking shark found with plastic in its stomach
-  description: The more than 4m long shark had washed up on a beach near Buckie in
-    Moray.
-  url: https://www.bbc.com/news/articles/c8x19zxdq8lo
-  date: '2025-11-05'
-  source: BBC News
-- title: Controversial rapper Namewee held over influencer's death
-  description: Police have reclassified Iris Hsieh's "sudden death" as murder and
-    remanded Namewee in custody.
-  url: https://www.bbc.com/news/articles/cly9zp55v33o
-  date: '2025-11-05'
-  source: BBC News
-- title: A declaration of famine is rare. It's now happened twice in 2025, this time
-    in Sudan
-  description: Famine declarations are relatively rare. But the leading international
-    authority on hunger crises this week declared that regions of war-torn Sudan face
-    catastrophic shortages of food.
-  url: https://www.npr.org/sections/goats-and-soda/2025/11/05/g-s1-96608/famine-sudan-gaza
-  date: '2025-11-05'
-  source: NPR
-- title: Why do only some leaves turn red in the fall? Scientists can't agree on an
-    answer
-  description: The red pigments in some fall leaves have proven to be a puzzle for
-    researchers who debate why leaves bother to go red.
-  url: https://www.npr.org/2025/11/05/nx-s1-5599152/why-do-leaves-turn-red-fall-foliage-autumn
-  date: '2025-11-05'
-  source: NPR
-- title: The 'poor man's Titanic' reveals long-forgotten and fascinating history
-  description: '"Deeper Than the Ocean," Mirta Ojito''s debut novel, centers around
-    the Valbanera shipwreck and Canary Islands migration to the Americas that''s been
-    largely forgotten.'
-  url: https://www.nbcnews.com/news/us-news/valbanera-shipwreck-ojito-deeper-ocean-novel-titanic-rcna241820
-  date: '2025-11-05'
-  source: NBC News
-- title: What’s next in the national redistricting fight after California approved
-    a new U.S. House map
-  description: California's new map could counter that with five additional seats
-    for Democrats. Redistricting in Missouri, North Carolina and Ohio leaves Republicans
-    still ahead. But more states soon could take up redistricting.
-  url: https://www.pbs.org/newshour/politics/whats-next-in-the-national-redistricting-fight-after-california-approved-a-new-u-s-house-map
-  date: '2025-11-05'
-  source: PBS
-- title: Another escaped monkey fatally shot in Mississippi; 1 still missing
-  description: Someone shot the monkey after seeing it cross the highway about a mile
-    from the scene of the crash, the sheriff said.
-  url: https://www.cbsnews.com/news/escaped-monkey-fatally-shot-mississippi-1-still-missing/
-  date: '2025-11-05'
-  source: CBS News
-- title: For First Time, Diary Collection Wins Baillie Gifford Prize For Nonfiction
-  description: '“How to End a Story: Collected Diaries by Helen Garner charts the
-    Australian writer’s life from her early career in bohemian Melbourne to raising
-    her daughter in the 1970s and her disintegrating marriage in the 1990s.” The jury’s
-    vote was unanimous, '
-  url: https://www.bbc.com/news/articles/c231r4984kko?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
-  date: '2025-11-05'
-  source: BBC News
-- title: A pill is raising hope for one of the deadliest cancers. The question is
-    how fast patients should get it.
-  description: At 69 years old, Debby Orcutt was diagnosed last year with pancreatic
-    cancer, a condition so dire that her doctor refused to tell her how long she had
-    to...
-  url: https://washingtonpost.com/health/2025/11/05/cancer-pancreatic-drug-fda-trump/
-  date: '2025-11-05'
-  source: The Washington Post
-- title: Everyone's buzzing about the blood test that detects 50 types of cancer.
-    I tried it.
-  description: Is Galleri the future of cancer treatment? It's not that simple. The
-    new research from the company, while promising, isn't some cure-all.
-  url: https://www.usatoday.com/story/life/health-wellness/2025/11/05/galleri-early-cancer-detection-blood-test/87009742007/
-  date: '2025-11-05'
-  source: USA Today
-- title: In Mamdani's New York win, India's Nehru finds an echo
-  description: At his New York victory rally, Zohran Mamdani gave a nod to Nehru’s
-    iconic speech marking India's independence.
-  url: https://www.bbc.com/news/articles/cew48pywl1ro
-  date: '2025-11-05'
-  source: BBC News
-- title: Trump once again nominates tech space traveler Jared Isaacman to serve as
-    NASA administrator
-  description: President Donald Trump announced Tuesday he has decided to nominate
-    Jared Isaacman to serve as his NASA administrator, months after withdrawing the
-    tech billionaire's nomination because of concerns about his political leanings.
-  url: https://www.npr.org/2025/11/05/nx-s1-5599010/trump-nominates-tech-space-jared-isaacman-nasa-administrator
-  date: '2025-11-05'
-  source: NPR
-- title: '''Addictive'' diaries win prestigious non-fiction prize'
-  description: 'Helen Garner''s How to End a Story: Collected Diaries is first diary
-    to win Baillie Gifford prize.'
-  url: https://www.bbc.com/news/articles/c231r4984kko
-  date: '2025-11-05'
-  source: BBC News
-- title: '''My skin was peeling'' - the African women tricked into making Russian
-    drones'
-  description: A BBC investigation finds evidence that young African women are being
-    tricked into building Russian drones.
-  url: https://www.bbc.com/news/articles/cdrzdpre058o
-  date: '2025-11-05'
-  source: BBC News
-- title: '''More data than ever, but does it help managers?'''
-  description: In his BBC Sport column, Tony Pulis looks at the increase in data in
-    recruitment, sports science and medicine in football and examines whether it helps
-    managers or not.
-  url: https://www.bbc.com/sport/football/articles/c781v7zz0w2o
-  date: '2025-11-05'
-  source: BBC News
-- title: Council to vaccinate child in care after court win
-  description: The mother refused vaccinations out of her belief there is a link between
-    the jabs and autism.
-  url: https://www.bbc.com/news/articles/ce86gjr8ddpo
-  date: '2025-11-05'
-  source: BBC News
-- title: How Zohran Mamdani rose from Queens lawmaker to mayor of New York
-  description: The former foreclosure prevention counselor and one-time rapper becomes
-    the city’s first Muslim mayor, first born in Africa, and first of South Asian
-    heritage — not to mention its youngest mayor in more than a century.
-  url: https://www.pbs.org/newshour/politics/how-zohran-mamdani-rose-from-queens-lawmaker-to-mayor-of-new-york
-  date: '2025-11-05'
-  source: PBS
-- title: Can Mamdani Pull Off a Child-Care Miracle?
-  description: The hurdles facing the incoming mayor’s proposal are as large as its
-    potential rewards.
-  url: https://www.theatlantic.com/ideas/2025/11/mamdani-child-care/684783/
-  date: '2025-11-05'
-  source: The Atlantic
-- title: The Great Masculinization
-  description: America is rapidly becoming the manosphere, but, sure, let’s go after
-    women.
-  url: https://www.theatlantic.com/culture/2025/11/the-great-feminization-essay-masculinization/684817/
-  date: '2025-11-05'
-  source: The Atlantic
-- title: The Age of Anti-Social Media Is Here
-  description: The social-media era is over. What’s coming will be much worse.
-  url: https://www.theatlantic.com/magazine/2025/12/ai-companionship-anti-social-media/684596/
-  date: '2025-11-05'
-  source: The Atlantic
-- title: Dick Cheney’s Brand of Conservatism
-  description: Nicholas Lemann writes about the former Vice-President Dick Cheney,
-    who has died, at the age of eighty-four.
-  url: https://www.newyorker.com/news/postscript/dick-cheneys-brand-of-conservatism
-  date: '2025-11-05'
-  source: The New Yorker

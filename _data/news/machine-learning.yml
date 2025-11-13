@@ -1,4 +1,66 @@
 news_items:
+- title: '“It keeps me awake at night”: machine-learning pioneer on AI’s threat to
+    humanity'
+  description: Yoshua Bengio talks about his efforts to identify — and address — the
+    risks posed by AI.
+  url: https://www.nature.com/articles/d41586-025-03686-1
+  date: '2025-11-12'
+  source: Nature.com
+- title: ‘Godfather of AI’ becomes first person to hit one million citations
+  description: The milestone makes machine-learning trailblazer Yoshua Bengio the
+    most cited researcher on Google Scholar.
+  url: https://www.nature.com/articles/d41586-025-03681-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: Time, space, memory and brain–body rhythms
+  description: Understanding how the brain represents experienced time and how representations
+    of space and time are integrated to form episodic memories has been a goal of
+    much neuroscientific research. In this Perspective, Buzsáki discusses classical
+    and contempo
+  url: https://www.nature.com/articles/s41583-025-00987-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: Short-term and long-term solar irradiance forecasting with advanced machine
+    learning techniques in Zafarana, Egypt
+  description: Scientific Reports - Short-term and long-term solar irradiance forecasting
+    with advanced machine learning techniques in Zafarana, Egypt
+  url: https://www.nature.com/articles/s41598-025-24853-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: Advancing equitable and sustainable urban health
+  description: Cities are often at the forefront of creative thinking on policy opportunities;
+    this Perspective outlines an agenda for urban health research that promotes a
+    virtuous cycle by which population health and environmental sustainability support
+    and reinf
+  url: https://www.nature.com/articles/s41591-025-04031-9
+  date: '2025-11-12'
+  source: Nature.com
+- title: Aligning machine and human visual representations across abstraction levels
+  description: Aligning foundation models with human judgments enables them to more
+    accurately approximate human behaviour and uncertainty across various levels of
+    visual abstraction, while additionally improving their generalization performance.
+  url: https://www.nature.com/articles/s41586-025-09631-6
+  date: '2025-11-12'
+  source: Nature.com
+- title: Spatial fibroblast niches define Crohn’s fistulae
+  description: Spatial transcriptomic analysis of cells in intestinal fistulae of
+    patients with Crohn’s disease reveals the existence of specialized fistula-associated
+    cell states with distinct signalling profiles and extracellular matrix architecture.
+  url: https://www.nature.com/articles/s41586-025-09744-y
+  date: '2025-11-12'
+  source: Nature.com
+- title: 'GREGoR: accelerating genomics for rare diseases'
+  description: The GREGoR consortium provides foundational resources and substrates
+    for the future of rare disease genomics.
+  url: https://www.nature.com/articles/s41586-025-09613-8
+  date: '2025-11-12'
+  source: Nature.com
+- title: Who speaks for the dead? Rethinking consent in ancient DNA research
+  description: Would you choose to have a part of your body live on after you died?
+    How might your choice affect your relatives—or even your entire community?
+  url: https://phys.org/news/2025-11-dead-rethinking-consent-ancient-dna.html
+  date: '2025-11-11'
+  source: Phys.Org
 - title: The computers that run on human brain cells
   description: 'Move over silicon: scientists want to use neurons to make powerful
     computers with minuscule energy needs.'
@@ -12,6 +74,13 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-25747-1
   date: '2025-11-11'
   source: Nature.com
+- title: For Managing Business Uncertainty, Predictive AI Eclipses GenAI
+  description: GenAI is super advanced – but it doesn’t replace predictive AI, it
+    only augments it. The two will remain intrinsically distinct, even as they’re
+    strategically married.
+  url: https://www.forbes.com/sites/ericsiegel/2025/11/11/for-managing-business-uncertainty-predictive-ai-eclipses-genai/
+  date: '2025-11-11'
+  source: Forbes
 - title: 'From Hype to Adoption: Guiding Organizations in Their AI Journey'
   description: After a flurry of initial investments in artificial intelligence, including
     generative and agentic AI, many organizations are facing mixed results. The SEI
@@ -36,6 +105,14 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-65808-7
   date: '2025-11-10'
   source: Nature.com
+- title: A call for 3D genomics submissions
+  description: Nature Genetics has joined forces with Nature Communications, Communications
+    Biology and Scientific Reports to create a Collection of papers on 3D genome organization.
+    We reflect on the field and invite submissions addressing fundamental unsolved
+    que
+  url: https://www.nature.com/articles/s41588-025-02439-0
+  date: '2025-11-10'
+  source: Nature.com
 - title: 'Process optimization and quality assessment of redistilled Ethiopian traditional
     spirit (Areke): ethanol yield and zinc contamination control'
   description: This research presents a comprehensive optimization of the ethanol
@@ -43,14 +120,6 @@ news_items:
     heavy metal contaminants, particularly zinc. Using a rigorous experimental design,
     key parameters, holdi
   url: https://www.nature.com/articles/s41598-025-24568-6
-  date: '2025-11-10'
-  source: Nature.com
-- title: A call for 3D genomics submissions
-  description: Nature Genetics has joined forces with Nature Communications, Communications
-    Biology and Scientific Reports to create a Collection of papers on 3D genome organization.
-    We reflect on the field and invite submissions addressing fundamental unsolved
-    que
-  url: https://www.nature.com/articles/s41588-025-02439-0
   date: '2025-11-10'
   source: Nature.com
 - title: What UPS’s reinvention reveals about modernizing a nearly 120-year-old company
@@ -196,13 +265,6 @@ news_items:
   url: https://www.nature.com/articles/s41587-025-02895-3
   date: '2025-11-06'
   source: Nature.com
-- title: Genomics of drug target prioritization for complex diseases
-  description: In this Review, Chen et al. discuss how the advancement and integration
-    of large-scale genetic resources, multi-omics data and sophisticated computational
-    tools are improving drug development pipelines.
-  url: https://www.nature.com/articles/s41576-025-00904-4
-  date: '2025-11-06'
-  source: Nature.com
 - title: Regulation of RNA-binding proteins by small biomolecules
   description: RNA-binding proteins (RBPs) are essential for gene regulation. Recent
     data reveal that small biomolecules (SBMs) such as sugars, nucleotides, metabolites
@@ -211,17 +273,24 @@ news_items:
   url: https://www.nature.com/articles/s41580-025-00914-4
   date: '2025-11-06'
   source: Nature.com
-- title: AI-enhanced clustering of mine tailings using Geostatistical data augmentation
-    and Gaussian mixture models
-  description: Scientific Reports - AI-enhanced clustering of mine tailings using
-    Geostatistical data augmentation and Gaussian mixture models
-  url: https://www.nature.com/articles/s41598-025-22625-8
+- title: Genomics of drug target prioritization for complex diseases
+  description: In this Review, Chen et al. discuss how the advancement and integration
+    of large-scale genetic resources, multi-omics data and sophisticated computational
+    tools are improving drug development pipelines.
+  url: https://www.nature.com/articles/s41576-025-00904-4
   date: '2025-11-06'
   source: Nature.com
 - title: Red cell distribution width and cerebral white matter hyperintensity
   description: Scientific Reports - Red cell distribution width and cerebral white
     matter hyperintensity
   url: https://www.nature.com/articles/s41598-025-22863-w
+  date: '2025-11-06'
+  source: Nature.com
+- title: AI-enhanced clustering of mine tailings using Geostatistical data augmentation
+    and Gaussian mixture models
+  description: Scientific Reports - AI-enhanced clustering of mine tailings using
+    Geostatistical data augmentation and Gaussian mixture models
+  url: https://www.nature.com/articles/s41598-025-22625-8
   date: '2025-11-06'
   source: Nature.com
 - title: The algorithm failed music
@@ -271,78 +340,3 @@ news_items:
   url: https://www.cnbc.com/2025/11/06/family-offices-deals-october-ai.html
   date: '2025-11-06'
   source: CNBC
-- title: Southport killer 'may have wanted to hurt society'
-  description: The killer's brother and father have been speaking to the public inquiry
-    into the dance class murders.
-  url: https://www.bbc.com/news/articles/cly91mryzlko
-  date: '2025-11-05'
-  source: BBC News
-- title: AI 'godmother' Fei-Fei Li says she is 'proud to be different'
-  description: AI pioneer Professor Fei-Fei Li is set to receive a top engineering
-    prize from the King for her contributions to the field.
-  url: https://www.bbc.com/news/articles/c5yp2vj92e9o
-  date: '2025-11-05'
-  source: BBC News
-- title: 'Responsible AI: From Proof of Concept to Research Software'
-  description: This workshop is part of a three-session series where participants
-    work together to develop research software using generative AI. We will work together
-    as a cohort to identify productive uses of AI methods and areas of ethical and
-    legal concern. Par
-  url: https://www.princeton.edu/events/2025/responsible-ai-proof-concept-research-software
-  date: '2025-11-05'
-  source: Princeton University
-- title: China commands 47% of remote sensing research, while U.S. produces just 9%
-  description: The United States is falling far behind China in remote sensing research,
-    according to a comprehensive new study that tracked seven decades of academic
-    publishing and reveals a notable reversal in global technological standing.
-  url: https://phys.org/news/2025-11-china-remote.html
-  date: '2025-11-05'
-  source: Phys.Org
-- title: The Psychology Behind Standing Up and Saying No
-  description: Why saying no is harder than it should be.
-  url: https://www.scientificamerican.com/podcast/episode/the-psychology-behind-standing-up-and-saying-no/
-  date: '2025-11-05'
-  source: Scientific American
-- title: Language models cannot reliably distinguish belief from knowledge and fact
-    | Nature Machine Intelligence
-  description: Suzgun et al. find that current large language models cannot reliably
-    distinguish between belief, knowledge and fact, raising concerns for their use
-    in healthcare, law and journalism, where such distinctions are critical.
-  url: https://www.nature.com/articles/s42256-025-01113-8
-  date: '2025-11-05'
-  source: Nature.com
-- title: 'LDBT instead of DBTL: combining machine learning and rapid cell-free testing'
-  description: Synthetic biology is defined by Design-Build-Test-Learn cycles. Recent
-    advances in machine learning are changing the landscape; thus, we propose that
-    “Learning” can precede “Design”. Moreover, adopting cell-free platforms can further
-    accelerate “Buil
-  url: https://www.nature.com/articles/s41467-025-65281-2
-  date: '2025-11-05'
-  source: Nature.com
-- title: Unfreezing structural biology for drug discovery
-  description: This Perspective discusses how elevated-temperature crystallography
-    uncovers hidden dynamic states of protein, ligand and water molecules, expanding
-    insights into the protein conformational landscape for drug discovery and design.
-  url: https://www.nature.com/articles/s41589-025-02047-3
-  date: '2025-11-05'
-  source: Nature.com
-- title: Can AI be truly creative?
-  description: Chatbots and AI models are challenging ideas about who — or what —
-    can create art, music and more.
-  url: https://www.nature.com/articles/d41586-025-03570-y
-  date: '2025-11-05'
-  source: Nature.com
-- title: OpenAI’s new safety tools are designed to make AI models harder to jailbreak.
-    Instead, they may give users a false sense of security.
-  description: OpenAI has open-sourced two AI safety classifiers that let enterprises
-    more easily set their own guardrails. Experts say the move could improve transparency
-    but also create new risks.
-  url: https://fortune.com/2025/11/05/openai-open-source-safety-classifiers-enterprise-ai-false-sense-security/
-  date: '2025-11-05'
-  source: Fortune
-- title: How Artificial Intelligence Makes Eye Exams A Gateway To Whole-Body Wellness
-  description: AI-powered retinal imaging closes healthcare gaps, enables earlier
-    intervention, and reveals new insights into systemic diseases across diverse populations.
-  url: https://www.forbes.com/sites/williamhaseltine/2025/11/05/how-artificial-intelligence-makes-eye-exams-a-gateway-to-whole-body-wellness/
-  date: '2025-11-05'
-  source: Forbes

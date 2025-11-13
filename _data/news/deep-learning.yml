@@ -1,4 +1,34 @@
 news_items:
+- title: Time, space, memory and brain–body rhythms
+  description: Understanding how the brain represents experienced time and how representations
+    of space and time are integrated to form episodic memories has been a goal of
+    much neuroscientific research. In this Perspective, Buzsáki discusses classical
+    and contempo
+  url: https://www.nature.com/articles/s41583-025-00987-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: Viral NblA proteins negatively affect oceanic cyanobacterial photosynthesis
+  description: Viral NblA accelerates the cyanophage infection cycle, directs degradation
+    of the host phycobilisome and other proteins, and reduces host photosynthetic
+    light-harvesting efficiency.
+  url: https://www.nature.com/articles/s41586-025-09656-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: Short-term and long-term solar irradiance forecasting with advanced machine
+    learning techniques in Zafarana, Egypt
+  description: Scientific Reports - Short-term and long-term solar irradiance forecasting
+    with advanced machine learning techniques in Zafarana, Egypt
+  url: https://www.nature.com/articles/s41598-025-24853-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: iPEX enables micrometre-resolution deep spatial proteomics via tissue expansion
+  description: Isotropic tissue magnification is integrated with matrix-assisted laser
+    desorption/ionization mass spectrometry imaging to enable untargeted spatial proteomics
+    at micrometre resolution and with high protein identification rates in multiple
+    tissue typ
+  url: https://www.nature.com/articles/s41586-025-09734-0
+  date: '2025-11-12'
+  source: Nature.com
 - title: Single-cell synaptome mapping of endogenous protein subpopulations in mammalian
     brain
   description: Synapses are diverse within a single neuron. Here, the authors present
@@ -22,6 +52,19 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-23305-3
   date: '2025-11-11'
   source: Nature.com
+- title: Israeli forces kill three in Gaza as settlers attack in occupied West Bank
+  description: Israelis continue to attack Palestinians in West Bank and Gaza, as
+    death toll in the latter tops 69,000.
+  url: https://www.aljazeera.com/news/2025/11/11/israeli-forces-kill-three-in-gaza-as-settlers-attack-in-the-occupied-west-bank
+  date: '2025-11-11'
+  source: Al Jazeera English
+- title: The rise of Yann LeCun, the 65-year-old NYU professor who is planning to
+    leave Mark Zuckerberg’s highly paid team at Meta to launch his own AI startup
+  description: LeCun is a Turing Award winner and considered one of the pioneers of
+    modern artificial intelligence.
+  url: https://fortune.com/2025/11/11/who-is-yann-lecun-career-meta-ai-chief-scientist-nyu-turing/
+  date: '2025-11-11'
+  source: Fortune
 - title: Beyond the niche - unlocking the full potential of synthetic riboswitches
   description: Synthetic riboswitches are a burgeoning regulatory tool in the field
     of molecular biology. Here, the authors explore the unique features of synthetic
@@ -75,14 +118,6 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-65200-5
   date: '2025-11-07'
   source: Nature.com
-- title: 'Monod: model-based discovery and integration through fitting stochastic
-    transcriptional dynamics to single-cell sequencing data'
-  description: Monod fits biophysically motivated models to single-cell transcriptomics
-    data, empowering multifaceted and integrative insights of gene expression dynamics,
-    stochasticity and regulation.
-  url: https://www.nature.com/articles/s41592-025-02832-x
-  date: '2025-11-07'
-  source: Nature.com
 - title: Genetic basis of flavor complexity in sweet corn
   description: Genomic, transcriptomic and metabolomic analyses from a population
     of 295 diverse sweet-corn inbred lines provide insights into kernel quality formation
@@ -90,13 +125,13 @@ news_items:
   url: https://www.nature.com/articles/s41588-025-02401-0
   date: '2025-11-07'
   source: Nature.com
-- title: Regulation of RNA-binding proteins by small biomolecules
-  description: RNA-binding proteins (RBPs) are essential for gene regulation. Recent
-    data reveal that small biomolecules (SBMs) such as sugars, nucleotides, metabolites
-    and drugs bind to RBPs and regulate their function. This Review discusses the
-    landscape of SBM-b
-  url: https://www.nature.com/articles/s41580-025-00914-4
-  date: '2025-11-06'
+- title: 'Monod: model-based discovery and integration through fitting stochastic
+    transcriptional dynamics to single-cell sequencing data'
+  description: Monod fits biophysically motivated models to single-cell transcriptomics
+    data, empowering multifaceted and integrative insights of gene expression dynamics,
+    stochasticity and regulation.
+  url: https://www.nature.com/articles/s41592-025-02832-x
+  date: '2025-11-07'
   source: Nature.com
 - title: Memristor-based adaptive analog-to-digital conversion for efficient and accurate
     compute-in-memory
@@ -114,6 +149,14 @@ news_items:
   url: https://www.nature.com/articles/s41576-025-00904-4
   date: '2025-11-06'
   source: Nature.com
+- title: Regulation of RNA-binding proteins by small biomolecules
+  description: RNA-binding proteins (RBPs) are essential for gene regulation. Recent
+    data reveal that small biomolecules (SBMs) such as sugars, nucleotides, metabolites
+    and drugs bind to RBPs and regulate their function. This Review discusses the
+    landscape of SBM-b
+  url: https://www.nature.com/articles/s41580-025-00914-4
+  date: '2025-11-06'
+  source: Nature.com
 - title: 'The prophet of American loneliness on the world that produced Trump and
     his message to Gen Z: ‘You didn’t cause this problem, we caused this problem’'
   description: Robert Putnam famously diagnosed America as "bowling alone" 25 years
@@ -121,58 +164,3 @@ news_items:
   url: https://fortune.com/2025/11/06/robert-putnam-gen-z-trump-social-capital-respect-economy/
   date: '2025-11-06'
   source: Fortune
-- title: Vietnam looks to new strategies for living with extreme storms
-  description: Vietnam is rethinking how it copes with floods after a year of relentless
-    storms has collapsed hillsides and turned streets into rivers. Record rainfall,
-    warmer seas, and slower-moving typhoons have exposed weaknesses in urban planning,
-    with concrete
-  url: https://apnews.com/article/vietnam-climate-storms-disaster-floods-bc9a27d709c17db2d02be30e689f4b98
-  date: '2025-11-05'
-  source: Associated Press
-- title: Mechano-induced patterned domain formation by monocytes
-  description: Human primary monocytes reversibly phase separate into regular, multicellular,
-    multilayered domains on soft matrices with physiological stiffness due to local
-    activation and global inhibition processes that occur during random cell migration.
-  url: https://www.nature.com/articles/s41563-025-02397-2
-  date: '2025-11-05'
-  source: Nature.com
-- title: A multimodal whole-slide foundation model for pathology
-  description: 'Pretrained using 335,645 whole-slide images, a foundation model is
-    developed to provide representations for slide- and patient-level tasks. It is
-    capable of performing clinical tasks and generating reports even in data-scarce
-    scenarios, such as rare '
-  url: https://www.nature.com/articles/s41591-025-03982-3
-  date: '2025-11-05'
-  source: Nature.com
-- title: Can AI be truly creative?
-  description: Chatbots and AI models are challenging ideas about who — or what —
-    can create art, music and more.
-  url: https://www.nature.com/articles/d41586-025-03570-y
-  date: '2025-11-05'
-  source: Nature.com
-- title: Lymph node environment drives FSP1 targetability in metastasizing melanoma
-  description: Targeting FSP1 in lymph nodes has considerable potential for blocking
-    melanoma progression.
-  url: https://www.nature.com/articles/s41586-025-09709-1
-  date: '2025-11-05'
-  source: Nature.com
-- title: The importance of past rifting in large igneous province development
-  description: Seismic data from the Turkana Depression in East Africa show that areas
-    of thinned lithosphere are not necessarily persistent weak zones where extension
-    and magmatic provinces will develop.
-  url: https://www.nature.com/articles/s41586-025-09668-7
-  date: '2025-11-05'
-  source: Nature.com
-- title: CNN Beefs Up Its CNN Headlines FAST Channel With Anchor Brad Smith
-  description: '"I want to make sure that with any ounce of time people give us, they
-    feel like they’re walking away with an extreme amount of value"'
-  url: https://www.forbes.com/sites/markjoyella/2025/11/05/cnn-beefs-up-its-cnn-headlines-fast-channel-with-anchor-brad-smith/
-  date: '2025-11-05'
-  source: Forbes
-- title: NVIDIA, Qualcomm join U.S., Indian VCs to help build India's next deep tech
-    startups | TechCrunch
-  description: Qualcomm Ventures has joined six Indian venture firms, collectively
-    adding more than $850 million to boost India’s deep-tech ecosystem.
-  url: https://techcrunch.com/2025/11/04/nvidia-qualcomm-join-u-s-indian-vcs-to-help-build-indias-next-deep-tech-startups/
-  date: '2025-11-05'
-  source: TechCrunch
