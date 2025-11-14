@@ -29,6 +29,12 @@ metrics:
   export_to_json: true  # Export metrics to JSON file
   json_output_path: "_data/news_metrics.json"  # Path for metrics JSON export
 
+# UI Display Configuration
+ui:
+  articles_per_page: 20  # Number of articles to show per page (default: 20)
+  enable_pagination: true  # Enable pagination (true) or show all articles (false)
+  show_all_option: true  # Show "Show All" button to display all articles at once
+
 # News Sources Configuration
 # Each topic can optionally override max_pages (e.g., max_pages: 16)
 # If not specified, uses the global api.max_pages setting (currently 16)
