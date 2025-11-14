@@ -58,11 +58,12 @@ def update_news_file(topic, news_items):
             yaml.dump(data, f, default_flow_style=False, allow_unicode=True, sort_keys=False)
         
         print(f"[OK] Updated {file_path} with {len(news_items)} news items (sorted by date, newest first)")
+        return True
     except Exception as e:
         print(f"[ERROR] Failed to update news file for {topic}: {e}")
         import traceback
         print(f"   [ERROR] Traceback: {traceback.format_exc()}")
-        raise  # Re-raise to be caught by main error handler
+        return False
 
 def fetch_from_newsapi(topic, api_key=None):
     """
@@ -263,11 +264,15 @@ def main():
             
             # Always update the news file (even if empty, to clear old data)
             try:
-                update_news_file(topic, news_items)
-                if news_items:
-                    print(f"   [OK] Saved {len(news_items)} articles to {topic}.yml")
+                success = update_news_file(topic, news_items)
+                if success:
+                    if news_items:
+                        print(f"   [OK] Saved {len(news_items)} articles to {topic}.yml")
+                    else:
+                        print(f"   [INFO] Saved empty list to {topic}.yml (no articles found)")
                 else:
-                    print(f"   [INFO] Saved empty list to {topic}.yml (no articles found)")
+                    print(f"   [ERROR] Failed to save news file for {topic}")
+                    error_count += 1
             except Exception as save_err:
                 print(f"   [ERROR] Failed to save news file for {topic}: {save_err}")
                 error_count += 1
