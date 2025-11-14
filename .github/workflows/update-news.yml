@@ -33,6 +33,14 @@ jobs:
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
+          echo "Checking NEWSAPI_KEY..."
+          if [ -z "$NEWSAPI_KEY" ]; then
+            echo "ERROR: NEWSAPI_KEY secret is not set in repository secrets!"
+            echo "Please go to: Settings → Secrets and variables → Actions → Add secret"
+            exit 1
+          else
+            echo "NEWSAPI_KEY is set (length: ${#NEWSAPI_KEY} characters)"
+          fi
           python update_news.py
 
       - name: Check for changes
