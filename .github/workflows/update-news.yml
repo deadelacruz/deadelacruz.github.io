@@ -50,5 +50,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add _data/news/
           git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
-          git push
+          # Pull latest changes and rebase if needed, then push
+          git pull --rebase origin master || git pull origin master --no-edit
+          git push origin master
 
