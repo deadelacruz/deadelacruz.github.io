@@ -22,10 +22,13 @@ api:
 
 # Date Range Configuration
 date_range:
-  lookback_days: 30  # How many days back to search from NewsAPI
+  lookback_days: 30  # How many days back to search from NewsAPI (MAXIMUM for free tier - cannot go higher!)
   exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay
   exclude_today_offset_days: 1  # Days to exclude from today
-  retention_days: 60  # How many days to keep articles in UI (articles older than this will be removed)
+  retention_days: 90  # How many days to keep articles in UI (increased to build cache over time)
+  # NOTE: NewsAPI free tier only allows articles up to 30 days old
+  # To get older articles, you need a paid plan ($449+/month)
+  # This script can only fetch last 30 days, but we keep them for 90 days in cache
 
 # Article Processing Configuration
 article_processing:
