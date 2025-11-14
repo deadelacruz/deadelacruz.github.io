@@ -6,10 +6,19 @@ api:
   base_url: "https://newsapi.org/v2/everything"
   timeout_seconds: 15
   max_page_size: 100  # NewsAPI maximum
-  max_pages: 10  # Maximum number of pages per topic (10 requests × 3 topics = 30 total, safe 20-request buffer under 50 limit per 12 hours)
+  max_pages: 10  # Maximum number of pages per topic (fallback limit, early stopping will usually stop before this)
   language: "en"
   sort_by: "publishedAt"
   rate_limit_delay_seconds: 1.0  # Delay between API calls to respect rate limits
+  topic_delay_seconds: 2.0  # Delay between topics to prevent hitting rate limits
+  max_api_calls: 45  # Maximum API calls per run (safety buffer under 50 limit per 12 hours)
+  max_retries: 3  # Maximum retries for rate limit errors (429)
+  retry_base_delay_seconds: 60  # Base delay for exponential backoff retries (1 minute)
+  
+  # Early Stopping Optimization (NEW - Reduces API calls significantly)
+  # Stop pagination early when we have enough articles or too many duplicates
+  min_articles_per_topic: 10  # Stop pagination when we have this many new articles per topic
+  early_stop_duplicate_threshold: 0.7  # Stop if 70%+ of articles on a page are duplicates (0.0-1.0)
 
 # Date Range Configuration
 date_range:
@@ -37,54 +46,31 @@ ui:
   show_all_option: true  # Show "Show All" button to display all articles at once
 
 # News Sources Configuration
-# Each topic can optionally override max_pages (e.g., max_pages: 10)
-# If not specified, uses the global api.max_pages setting (currently 10)
-# Total requests = 3 topics × 10 = 30 requests (safe 20-request buffer under 50 limit per 12 hours)
-# Workflow runs every 12 hours to align with NewsAPI quota reset cycle
+# Each topic searches for exact phrase only (case-insensitive)
+# - "Deep Learning" or "deep learning" only
+# - "Machine Learning" or "machine learning" only  
+# - "Artificial Intelligence" or "artificial intelligence" only
+#
+# Optimization Settings:
+# - priority: Lower number = higher priority (processed first). If rate limit hits, high-priority topics are guaranteed.
+# - max_pages: Optional override for this topic (defaults to api.max_pages)
+#
+# Expected API calls with early stopping: 3 topics × 2-3 pages = 6-9 calls (vs 30 without optimization)
+# This leaves plenty of buffer under the 50 requests per 12 hours limit
 news_sources:
   deep-learning:
     name: "Deep Learning"
-    title_query: "Deep Learning"
-    # max_pages: 10  # Optional: override global limit for this topic
-    related_keywords:
-      - "deep learning"
-      - "neural networks"
-      - "cnn"
-      - "rnn"
-      - "lstm"
-      - "transformer"
-      - "deep neural"
-      - "deep ai"
-      - "convolutional neural network"
-      - "recurrent neural network"
+    title_query: "Deep Learning"  # Exact phrase only: "Deep Learning" or "deep learning"
+    priority: 1  # Highest priority - processed first
+    # max_pages: 5  # Optional: override global limit for this topic
   
   machine-learning:
     name: "Machine Learning"
-    title_query: "Machine Learning"
-    related_keywords:
-      - "machine learning"
-      - "ml algorithm"
-      - "ml model"
-      - "ml system"
-      - "automated learning"
-      - "predictive analytics"
-      - "data science"
-      - "supervised learning"
-      - "unsupervised learning"
-      - "reinforcement learning"
+    title_query: "Machine Learning"  # Exact phrase only: "Machine Learning" or "machine learning"
+    priority: 2  # Medium priority
   
   artificial-intelligence:
     name: "Artificial Intelligence"
-    title_query: "Artificial intelligence"
-    related_keywords:
-      - "artificial intelligence"
-      - "ai system"
-      - "ai technology"
-      - "ai model"
-      - "ai algorithm"
-      - "ai research"
-      - "generative ai"
-      - "ai development"
-      - "machine intelligence"
-      - "cognitive computing"
+    title_query: "Artificial Intelligence"  # Exact phrase only: "Artificial Intelligence" or "artificial intelligence"
+    priority: 3  # Lower priority (will be skipped if quota runs low)
 

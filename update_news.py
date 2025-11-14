@@ -45,6 +45,10 @@ DEFAULT_TIMEOUT_SECONDS = 15
 DEFAULT_MAX_PAGE_SIZE = 100
 DEFAULT_MAX_PAGES = 5
 DEFAULT_RATE_LIMIT_DELAY_SECONDS = 1.0
+DEFAULT_TOPIC_DELAY_SECONDS = 2.0  # Delay between topics
+DEFAULT_MAX_RETRIES = 3  # Maximum retries for rate limit errors
+DEFAULT_RETRY_BASE_DELAY_SECONDS = 60  # Base delay for exponential backoff (1 minute)
+DEFAULT_MAX_API_CALLS = 45  # Maximum API calls per run (safety buffer under 50 limit)
 DEFAULT_LANGUAGE = "en"
 DEFAULT_SORT_BY = "publishedAt"
 DEFAULT_MAX_DESCRIPTION_LENGTH = 250
@@ -53,6 +57,11 @@ DEFAULT_MAX_ERROR_TEXT_LENGTH = 500
 DEFAULT_DEBUG_LOG_FILTERED_LIMIT = 3
 DEFAULT_METRICS_EXPORT_TO_JSON = True
 DEFAULT_METRICS_JSON_PATH = "_data/news_metrics.json"
+
+# Early stopping optimization defaults
+DEFAULT_MIN_ARTICLES_PER_TOPIC = 10  # Stop pagination when we have this many new articles
+DEFAULT_EARLY_STOP_DUPLICATE_THRESHOLD = 0.7  # Stop if 70%+ of articles are duplicates
+DEFAULT_TOPIC_PRIORITY = 999  # Default priority (lower = higher priority)
 
 # API Configuration
 NEWSAPI_BASE_URL = "https://newsapi.org/v2/everything"
@@ -248,6 +257,17 @@ def normalize_keywords(keywords: List[str], title_query: str) -> List[str]:
             normalized.append(keyword_lower)
     return normalized
 
+def article_matches_exact_phrase(article: Dict, exact_phrase: str, config: Dict) -> bool:
+    """
+    Check if article title contains the exact phrase (case-insensitive).
+    Returns True if the exact phrase is found in the title.
+    """
+    article_title = article.get("title", "").lower()
+    phrase_lower = exact_phrase.lower()
+    
+    # Check if the exact phrase appears in the title
+    return phrase_lower in article_title
+
 def article_matches_keywords(article: Dict, keywords: List[str], config: Dict) -> bool:
     """
     Check if article matches any of the related keywords in title or description.
@@ -261,10 +281,19 @@ def article_matches_keywords(article: Dict, keywords: List[str], config: Dict) -
             return True
     return False
 
-def process_article(article: Dict, keywords: List[str], seen_urls: set, config: Dict, metrics: MetricsTracker, topic: str) -> Optional[Dict]:
+def process_article(article: Dict, exact_phrase: str, seen_urls: set, config: Dict, metrics: MetricsTracker, topic: str, use_exact_phrase: bool = False) -> Optional[Dict]:
     """
-    Process a single article: validate, check keywords, and format.
+    Process a single article: validate, check exact phrase, and format.
     Returns formatted article dict or None if filtered out.
+    
+    Args:
+        article: Article dictionary from API
+        exact_phrase: The exact phrase to match (e.g., "Deep Learning")
+        seen_urls: Set of URLs already processed
+        config: Configuration dictionary
+        metrics: Metrics tracker
+        topic: Topic name
+        use_exact_phrase: If True, use exact phrase matching; otherwise use keyword matching (legacy)
     """
     article_url = article.get("url", "")
     article_title = article.get("title", "")
@@ -273,10 +302,20 @@ def process_article(article: Dict, keywords: List[str], seen_urls: set, config: 
     if not article_url or not article_title or article_url in seen_urls:
         return None
     
-    # Check if article matches keywords
-    if not article_matches_keywords(article, keywords, config):
-        metrics.record_article_filtered(topic)
-        return None
+    # Check if article matches exact phrase
+    if use_exact_phrase:
+        if not article_matches_exact_phrase(article, exact_phrase, config):
+            metrics.record_article_filtered(topic)
+            return None
+    else:
+        # Legacy keyword matching (for backward compatibility)
+        if isinstance(exact_phrase, list):
+            keywords = exact_phrase
+        else:
+            keywords = [exact_phrase.lower()]
+        if not article_matches_keywords(article, keywords, config):
+            metrics.record_article_filtered(topic)
+            return None
     
     # Article matches - format and return
     seen_urls.add(article_url)
@@ -300,11 +339,15 @@ def process_article(article: Dict, keywords: List[str], seen_urls: set, config: 
 # ============================================================================
 
 def build_api_params(topic_config: Dict, date_range: Tuple[str, str], api_key: str, config: Dict) -> Dict:
-    """Build API request parameters from configuration."""
+    """Build API request parameters from configuration with exact phrase matching."""
     title_query = topic_config.get("title_query", "")
     
+    # Use exact phrase matching by wrapping in quotes (NewsAPI supports this)
+    # This ensures we only get articles with the exact phrase
+    exact_phrase_query = f'"{title_query}"'
+    
     return {
-        "q": title_query,
+        "q": exact_phrase_query,
         "sortBy": get_config_value(config, 'api.sort_by', DEFAULT_SORT_BY),
         "language": get_config_value(config, 'api.language', DEFAULT_LANGUAGE),
         "pageSize": get_config_value(config, 'api.max_page_size', DEFAULT_MAX_PAGE_SIZE),
@@ -313,10 +356,11 @@ def build_api_params(topic_config: Dict, date_range: Tuple[str, str], api_key: s
         "to": date_range[1]
     }
 
-def make_api_request(url: str, params: Dict, config: Dict) -> Tuple[Optional[Dict], float, bool]:
+def make_api_request(url: str, params: Dict, config: Dict, retry_count: int = 0) -> Tuple[Optional[Dict], float, bool, bool]:
     """
-    Make API request and return response, response time, and success status.
-    Returns (response_data, response_time_ms, success).
+    Make API request with retry logic for rate limit errors.
+    Returns (response_data, response_time_ms, success, is_rate_limited).
+    is_rate_limited indicates if we hit a 429 error that should stop further requests.
     """
     timeout = get_config_value(config, 'api.timeout_seconds', DEFAULT_TIMEOUT_SECONDS)
     start_time = time.time()
@@ -325,10 +369,10 @@ def make_api_request(url: str, params: Dict, config: Dict) -> Tuple[Optional[Dic
         response = requests.get(url, params=params, timeout=timeout)
         response_time_ms = (time.time() - start_time) * 1000
         response.raise_for_status()
-        return response.json(), response_time_ms, True
+        return response.json(), response_time_ms, True, False
     except requests.exceptions.HTTPError as http_err:
         response_time_ms = (time.time() - start_time) * 1000
-        error_msg = f"HTTP error: {http_err}"
+        error_msg = f"HTTP error in request: {http_err}"
         status_code = http_err.response.status_code if hasattr(http_err, 'response') else None
         
         max_error_length = get_config_value(config, 'article_processing.max_error_text_length', DEFAULT_MAX_ERROR_TEXT_LENGTH)
@@ -337,6 +381,34 @@ def make_api_request(url: str, params: Dict, config: Dict) -> Tuple[Optional[Dic
         if status_code:
             print(f"   [ERROR] Status code: {status_code}")
         
+        # Handle rate limit errors (429) with retry logic
+        if status_code == 429:
+            max_retries = get_config_value(config, 'api.max_retries', DEFAULT_MAX_RETRIES)
+            retry_base_delay = get_config_value(config, 'api.retry_base_delay_seconds', DEFAULT_RETRY_BASE_DELAY_SECONDS)
+            
+            if hasattr(http_err, 'response'):
+                try:
+                    error_data = http_err.response.json()
+                    print(f"   [ERROR] API error response: {error_data}")
+                except:
+                    error_text = http_err.response.text[:max_error_length] if hasattr(http_err.response, 'text') else ""
+                    print(f"   [ERROR] Response text: {error_text}")
+            
+            # If we've exhausted retries, return rate limited flag
+            if retry_count >= max_retries:
+                print(f"   [ERROR] Rate limit exceeded. Maximum retries ({max_retries}) reached.")
+                print(f"   [WARNING] Stopping further API requests to avoid hitting rate limit.")
+                return None, response_time_ms, False, True
+            
+            # Exponential backoff: wait longer for each retry
+            wait_time = retry_base_delay * (2 ** retry_count)
+            print(f"   [WARNING] Rate limited (429). Waiting {wait_time} seconds before retry {retry_count + 1}/{max_retries}...")
+            time.sleep(wait_time)
+            
+            # Retry the request
+            return make_api_request(url, params, config, retry_count + 1)
+        
+        # For other HTTP errors, show error details but don't retry
         if hasattr(http_err, 'response'):
             try:
                 error_data = http_err.response.json()
@@ -345,18 +417,19 @@ def make_api_request(url: str, params: Dict, config: Dict) -> Tuple[Optional[Dic
                 error_text = http_err.response.text[:max_error_length] if hasattr(http_err.response, 'text') else ""
                 print(f"   [ERROR] Response text: {error_text}")
         
-        return None, response_time_ms, False
+        return None, response_time_ms, False, False
     except Exception as req_err:
         response_time_ms = (time.time() - start_time) * 1000
         print(f"   [ERROR] Request error: {req_err}")
         import traceback
         print(f"   [ERROR] Traceback: {traceback.format_exc()}")
-        return None, response_time_ms, False
+        return None, response_time_ms, False, False
 
-def fetch_articles_page(url: str, params: Dict, page: int, config: Dict, metrics: MetricsTracker, topic: str) -> Tuple[Optional[Dict], bool]:
+def fetch_articles_page(url: str, params: Dict, page: int, config: Dict, metrics: MetricsTracker, topic: str) -> Tuple[Optional[Dict], bool, bool]:
     """
     Fetch a single page of articles from NewsAPI with rate limiting.
-    Returns (response_data, success).
+    Returns (response_data, success, is_rate_limited).
+    is_rate_limited indicates if we hit a 429 error that should stop further requests.
     """
     # Apply rate limiting delay (except for first page)
     if page > 1:
@@ -371,23 +444,30 @@ def fetch_articles_page(url: str, params: Dict, page: int, config: Dict, metrics
     safe_params = {k: v for k, v in page_params.items() if k != "apiKey"}
     print(f"   [DEBUG] Fetching page {page} with params: {safe_params}")
     
-    response_data, response_time_ms, success = make_api_request(url, page_params, config)
+    response_data, response_time_ms, success, is_rate_limited = make_api_request(url, page_params, config)
     metrics.record_api_call(topic, response_time_ms, success)
     
-    return response_data, success
+    return response_data, success, is_rate_limited
 
 # ============================================================================
 # NEWS FETCHING (MAIN LOGIC)
 # ============================================================================
 
-def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsTracker) -> List[Dict]:
+def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsTracker, api_call_count: Dict) -> Tuple[List[Dict], bool]:
     """
     Fetch news from NewsAPI.org with pagination support.
-    Returns list of processed news articles.
+    Returns (list of processed news articles, is_rate_limited).
+    is_rate_limited indicates if we hit rate limit and should stop processing more topics.
     """
     if not api_key:
         print(f"[WARNING] No API key provided for {topic}. Skipping NewsAPI fetch.")
-        return []
+        return [], False
+    
+    # Check API call limit before making requests
+    max_api_calls = get_config_value(config, 'api.max_api_calls', DEFAULT_MAX_API_CALLS)
+    if api_call_count['total'] >= max_api_calls:
+        print(f"   [WARNING] Reached maximum API call limit ({max_api_calls}). Skipping {topic}.")
+        return [], False
     
     # Get topic configuration
     news_sources = get_config_value(config, 'news_sources', {})
@@ -396,19 +476,15 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
     
     if not title_query:
         print(f"[WARNING] No title_query found for topic {topic}")
-        return []
-    
-    # Prepare keywords
-    related_keywords = topic_config.get("related_keywords", [])
-    keywords = normalize_keywords(related_keywords, title_query)
+        return [], False
     
     # Calculate date range
     date_range = calculate_date_range(config)
     from_date, to_date = date_range
     
     print(f"   [DEBUG] Fetching from: {from_date} to {to_date}")
-    print(f"   [DEBUG] Search query: '{title_query}'")
-    print(f"   [DEBUG] Related keywords: {related_keywords}")
+    print(f"   [DEBUG] Search query: '{title_query}' (exact phrase only, case-insensitive)")
+    print(f"   [DEBUG] API URL: {get_config_value(config, 'api.base_url', NEWSAPI_BASE_URL)}")
     
     # Build API parameters
     url = get_config_value(config, 'api.base_url', NEWSAPI_BASE_URL)
@@ -419,20 +495,38 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
     page = 1
     # Allow per-topic max_pages override, fallback to global config
     max_pages = topic_config.get('max_pages') or get_config_value(config, 'api.max_pages', DEFAULT_MAX_PAGES)
+    # Limit pages based on remaining API calls
+    remaining_calls = max_api_calls - api_call_count['total']
+    max_pages = min(max_pages, remaining_calls)
+    
+    if max_pages <= 0:
+        print(f"   [WARNING] No API calls remaining. Skipping {topic}.")
+        return [], False
+    
     print(f"   [INFO] Maximum pages per topic: {max_pages} (max {max_pages} API requests for this topic)")
     
     try:
+        # Check if we can make the request
+        if api_call_count['total'] >= max_api_calls:
+            print(f"   [WARNING] API call limit reached. Skipping {topic}.")
+            return [], False
+        
         # Fetch first page
-        response_data, success = fetch_articles_page(url, params, page, config, metrics, topic)
+        api_call_count['total'] += 1
+        response_data, success, is_rate_limited = fetch_articles_page(url, params, page, config, metrics, topic)
+        
+        if is_rate_limited:
+            print(f"   [ERROR] Rate limit hit. Stopping further API requests.")
+            return [], True
         
         if not success or not response_data:
-            return []
+            return [], False
         
         # Check API response status
         if response_data.get("status") != "ok":
             error_message = response_data.get("message", "Unknown error")
             print(f"   [ERROR] NewsAPI returned error: {error_message}")
-            return []
+            return [], False
         
         total_results = response_data.get("totalResults", 0)
         articles = response_data.get("articles", [])
@@ -440,15 +534,12 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
         print(f"   [INFO] NewsAPI returned {total_results} total results, {len(articles)} articles in page {page}")
         
         if total_results == 0:
-            print(f"   [WARNING] No articles found. This might be due to:")
-            print(f"      - No articles matching '{title_query}' in the date range")
-            print(f"      - NewsAPI free tier limitations")
-            print(f"      - Date range restrictions")
-            return []
+            print(f"   [WARNING] No articles found for {topic} with exact phrase '{title_query}'")
+            return [], False
         
         # Process articles from first page
         for article in articles:
-            processed = process_article(article, keywords, seen_urls, config, metrics, topic)
+            processed = process_article(article, title_query, seen_urls, config, metrics, topic, use_exact_phrase=True)
             if processed:
                 news_items.append(processed)
         
@@ -456,10 +547,26 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
         max_page_size = get_config_value(config, 'api.max_page_size', DEFAULT_MAX_PAGE_SIZE)
         total_pages = min((total_results + max_page_size - 1) // max_page_size, max_pages)
         
+        # Early stopping configuration
+        min_articles_per_topic = get_config_value(config, 'api.min_articles_per_topic', DEFAULT_MIN_ARTICLES_PER_TOPIC)
+        early_stop_duplicate_threshold = get_config_value(config, 'api.early_stop_duplicate_threshold', DEFAULT_EARLY_STOP_DUPLICATE_THRESHOLD)
+        
         if total_pages > 1:
             print(f"   [INFO] Fetching additional pages (up to {total_pages} total pages)")
+            print(f"   [INFO] Early stopping: Will stop when we have {min_articles_per_topic} new articles or {int(early_stop_duplicate_threshold * 100)}%+ duplicates")
+            
             for page_num in range(2, total_pages + 1):
-                response_data, success = fetch_articles_page(url, params, page_num, config, metrics, topic)
+                # Check API call limit before each request
+                if api_call_count['total'] >= max_api_calls:
+                    print(f"   [WARNING] API call limit reached. Stopping pagination at page {page_num - 1}.")
+                    break
+                
+                api_call_count['total'] += 1
+                response_data, success, is_rate_limited = fetch_articles_page(url, params, page_num, config, metrics, topic)
+                
+                if is_rate_limited:
+                    print(f"   [ERROR] Rate limit hit. Stopping further API requests.")
+                    return news_items, True
                 
                 if not success or not response_data:
                     print(f"   [WARNING] Failed to fetch page {page_num}, stopping pagination")
@@ -471,10 +578,25 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
                 articles = response_data.get("articles", [])
                 print(f"   [INFO] Fetched {len(articles)} articles from page {page_num}")
                 
+                # Process articles and track new vs duplicates
+                new_articles_this_page = 0
                 for article in articles:
-                    processed = process_article(article, keywords, seen_urls, config, metrics, topic)
+                    processed = process_article(article, title_query, seen_urls, config, metrics, topic, use_exact_phrase=True)
                     if processed:
                         news_items.append(processed)
+                        new_articles_this_page += 1
+                
+                # Early stopping check 1: Do we have enough new articles?
+                if len(news_items) >= min_articles_per_topic:
+                    print(f"   [INFO] Early stopping: Found {len(news_items)} new articles (target: {min_articles_per_topic}). Stopping pagination.")
+                    break
+                
+                # Early stopping check 2: Are we getting too many duplicates?
+                if len(articles) > 0:
+                    duplicate_ratio = 1.0 - (new_articles_this_page / len(articles))
+                    if duplicate_ratio >= early_stop_duplicate_threshold:
+                        print(f"   [INFO] Early stopping: {int(duplicate_ratio * 100)}% duplicates on page {page_num} (threshold: {int(early_stop_duplicate_threshold * 100)}%). Stopping pagination.")
+                        break
         
         # Sort by date (newest first)
         news_items.sort(key=lambda x: x.get("date", ""), reverse=True)
@@ -487,13 +609,13 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
             print(f"      ✓ Added: {item['title'][:max_title_length]}...")
         
         print(f"   [INFO] Processed {len(news_items)} unique articles after filtering")
-        return news_items
+        return news_items, False
         
     except Exception as e:
         print(f"[ERROR] Unexpected error fetching from NewsAPI for {topic}: {e}")
         import traceback
         print(f"   [ERROR] Traceback: {traceback.format_exc()}")
-        return []
+        return [], False
 
 # ============================================================================
 # FILE OPERATIONS
@@ -616,10 +738,11 @@ def load_existing_news(topic: str) -> List[Dict]:
 # MAIN EXECUTION
 # ============================================================================
 
-def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, metrics: MetricsTracker) -> bool:
+def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, metrics: MetricsTracker, api_call_count: Dict) -> Tuple[bool, bool]:
     """
     Process a single topic: fetch news, merge with existing articles, filter by retention, and save to file.
-    Returns True if successful, False otherwise.
+    Returns (success, is_rate_limited).
+    is_rate_limited indicates if we hit rate limit and should stop processing more topics.
     """
     try:
         topic_name = topic_config.get("name", topic)
@@ -628,12 +751,17 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         # Load existing articles from file
         existing_articles = load_existing_news(topic)
         new_articles = []
+        is_rate_limited = False
         
         # Try to fetch from NewsAPI if key is available
         if api_key:
             try:
-                new_articles = fetch_from_newsapi(topic, api_key, config, metrics)
-                if new_articles:
+                new_articles, is_rate_limited = fetch_from_newsapi(topic, api_key, config, metrics, api_call_count)
+                if is_rate_limited:
+                    # Rate limit hit, stop processing more topics
+                    print(f"   [ERROR] Rate limit exceeded. Will stop processing remaining topics.")
+                    # Still save existing articles
+                elif new_articles:
                     title_query = topic_config.get("title_query", "")
                     print(f"   [OK] Found {len(new_articles)} new articles matching '{title_query}' or related keywords")
                 else:
@@ -642,7 +770,7 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
                 print(f"   [ERROR] Failed to fetch news for {topic}: {fetch_err}")
                 # Continue with existing articles if fetch fails
                 if not existing_articles:
-                    return False
+                    return False, False
         else:
             print(f"   [WARNING] Skipping {topic} (no API key)")
         
@@ -672,17 +800,17 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
                     print(f"   [INFO] Saved empty list to {topic}.yml (no articles found)")
             else:
                 print(f"   [ERROR] Failed to save news file for {topic}")
-                return False
+                return False, is_rate_limited
         except Exception as save_err:
             print(f"   [ERROR] Failed to save news file for {topic}: {save_err}")
-            return False
+            return False, is_rate_limited
         
-        return True
+        return True, is_rate_limited
         
     except Exception as topic_err:
         print(f"[ERROR] Unexpected error processing {topic}: {topic_err}")
         print(f"   [ERROR] Traceback: {traceback.format_exc()}")
-        return False
+        return False, False
 
 def main():
     """Main function to update all news files."""
@@ -717,10 +845,58 @@ def main():
         return
     
     error_count = 0
-    for topic, topic_config in news_sources.items():
-        success = process_topic(topic, topic_config, api_key, config, metrics)
+    api_call_count = {'total': 0}  # Track total API calls across all topics
+    max_api_calls = get_config_value(config, 'api.max_api_calls', DEFAULT_MAX_API_CALLS)
+    topic_delay = get_config_value(config, 'api.topic_delay_seconds', DEFAULT_TOPIC_DELAY_SECONDS)
+    
+    print(f"[INFO] API call limit: {max_api_calls} requests per run")
+    print(f"[INFO] Delay between topics: {topic_delay} seconds\n")
+    
+    # Sort topics by priority (lower number = higher priority)
+    # This ensures important topics are processed first, so if we hit rate limits,
+    # we at least have the most important topics updated
+    topics_sorted = sorted(
+        news_sources.items(),
+        key=lambda x: x[1].get('priority', DEFAULT_TOPIC_PRIORITY)
+    )
+    
+    if len(topics_sorted) > 1:
+        priorities = [t[1].get('priority', DEFAULT_TOPIC_PRIORITY) for t in topics_sorted]
+        if len(set(priorities)) > 1:
+            print(f"[INFO] Topics sorted by priority (lower = higher priority):")
+            for topic, topic_config in topics_sorted:
+                priority = topic_config.get('priority', DEFAULT_TOPIC_PRIORITY)
+                name = topic_config.get('name', topic)
+                print(f"   Priority {priority}: {name}")
+            print()
+    
+    for idx, (topic, topic_config) in enumerate(topics_sorted, 1):
+        # Add delay between topics (except before first topic)
+        if idx > 1 and topic_delay > 0:
+            print(f"[INFO] Waiting {topic_delay} seconds before next topic...\n")
+            time.sleep(topic_delay)
+        
+        success, is_rate_limited = process_topic(topic, topic_config, api_key, config, metrics, api_call_count)
         if not success:
             error_count += 1
+        
+        # Stop processing if we hit rate limit
+        if is_rate_limited:
+            print(f"\n[WARNING] Rate limit exceeded. Stopping processing of remaining topics.")
+            remaining_topics = len(news_sources) - idx
+            if remaining_topics > 0:
+                print(f"[INFO] {remaining_topics} topic(s) were skipped due to rate limiting.")
+            break
+        
+        # Stop if we've reached the API call limit
+        if api_call_count['total'] >= max_api_calls:
+            print(f"\n[WARNING] Reached maximum API call limit ({max_api_calls}). Stopping processing.")
+            remaining_topics = len(news_sources) - idx
+            if remaining_topics > 0:
+                print(f"[INFO] {remaining_topics} topic(s) were skipped to stay within API limits.")
+            break
+    
+    print(f"\n[INFO] Total API calls made: {api_call_count['total']}/{max_api_calls}")
     
     # Print summary
     print(f"\n{METRICS_SEPARATOR}")
