@@ -48,9 +48,16 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          # Pull latest changes to sync with remote
+          git pull origin master --no-edit || true
+          # Stage our news file changes
           git add _data/news/
+          # Commit the changes
           git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
-          # Pull latest changes and rebase if needed, then push
-          git pull --rebase origin master || git pull origin master --no-edit
-          git push origin master
+          # Push with retry: if push fails, pull and push again
+          git push origin master || {
+            echo "Push failed, pulling latest and retrying..."
+            git pull origin master --no-edit
+            git push origin master
+          }
 
