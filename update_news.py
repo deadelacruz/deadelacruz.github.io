@@ -381,32 +381,26 @@ def make_api_request(url: str, params: Dict, config: Dict, retry_count: int = 0)
         if status_code:
             print(f"   [ERROR] Status code: {status_code}")
         
-        # Handle rate limit errors (429) with retry logic
+        # Handle rate limit errors (429) - PERMANENT SOLUTION
+        # When quota is exhausted, retrying won't help. Stop immediately and use cached articles.
         if status_code == 429:
-            max_retries = get_config_value(config, 'api.max_retries', DEFAULT_MAX_RETRIES)
-            retry_base_delay = get_config_value(config, 'api.retry_base_delay_seconds', DEFAULT_RETRY_BASE_DELAY_SECONDS)
-            
             if hasattr(http_err, 'response'):
                 try:
                     error_data = http_err.response.json()
+                    error_message = error_data.get('message', 'Rate limit exceeded')
                     print(f"   [ERROR] API error response: {error_data}")
+                    print(f"   [INFO] Quota exhausted: {error_message}")
                 except:
                     error_text = http_err.response.text[:max_error_length] if hasattr(http_err.response, 'text') else ""
                     print(f"   [ERROR] Response text: {error_text}")
             
-            # If we've exhausted retries, return rate limited flag
-            if retry_count >= max_retries:
-                print(f"   [ERROR] Rate limit exceeded. Maximum retries ({max_retries}) reached.")
-                print(f"   [WARNING] Stopping further API requests to avoid hitting rate limit.")
-                return None, response_time_ms, False, True
-            
-            # Exponential backoff: wait longer for each retry
-            wait_time = retry_base_delay * (2 ** retry_count)
-            print(f"   [WARNING] Rate limited (429). Waiting {wait_time} seconds before retry {retry_count + 1}/{max_retries}...")
-            time.sleep(wait_time)
-            
-            # Retry the request
-            return make_api_request(url, params, config, retry_count + 1)
+            # PERMANENT FIX: Don't retry 429 errors - quota is exhausted, retrying won't help
+            # Instead, return immediately so we can use cached articles
+            print(f"   [WARNING] Rate limit (429) detected. Quota exhausted.")
+            print(f"   [INFO] Stopping all API requests. Will use cached articles if available.")
+            print(f"   [INFO] Quota resets every 12 hours (50 requests) or 24 hours (100 requests).")
+            print(f"   [INFO] Next run should work after quota reset period.")
+            return None, response_time_ms, False, True
         
         # For other HTTP errors, show error details but don't retry
         if hasattr(http_err, 'response'):
@@ -738,7 +732,7 @@ def load_existing_news(topic: str) -> List[Dict]:
 # MAIN EXECUTION
 # ============================================================================
 
-def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, metrics: MetricsTracker, api_call_count: Dict) -> Tuple[bool, bool]:
+def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, metrics: MetricsTracker, api_call_count: Dict, rate_limited_flag: Dict = None) -> Tuple[bool, bool]:
     """
     Process a single topic: fetch news, merge with existing articles, filter by retention, and save to file.
     Returns (success, is_rate_limited).
@@ -753,14 +747,19 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         new_articles = []
         is_rate_limited = False
         
-        # Try to fetch from NewsAPI if key is available
-        if api_key:
+        # Try to fetch from NewsAPI if key is available and we haven't hit rate limit
+        rate_limited = rate_limited_flag.get('value', False) if rate_limited_flag else False
+        if api_key and not rate_limited:
             try:
                 new_articles, is_rate_limited = fetch_from_newsapi(topic, api_key, config, metrics, api_call_count)
                 if is_rate_limited:
-                    # Rate limit hit, stop processing more topics
-                    print(f"   [ERROR] Rate limit exceeded. Will stop processing remaining topics.")
-                    # Still save existing articles
+                    # Rate limit hit - quota exhausted, stop making API calls
+                    if rate_limited_flag:
+                        rate_limited_flag['value'] = True
+                    print(f"   [WARNING] Rate limit (429) detected. Quota exhausted.")
+                    print(f"   [INFO] Stopping all further API requests.")
+                    print(f"   [INFO] Will use cached articles for this and remaining topics.")
+                    # Still save existing articles (graceful degradation)
                 elif new_articles:
                     title_query = topic_config.get("title_query", "")
                     print(f"   [OK] Found {len(new_articles)} new articles matching '{title_query}' or related keywords")
@@ -771,6 +770,8 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
                 # Continue with existing articles if fetch fails
                 if not existing_articles:
                     return False, False
+        elif rate_limited:
+            print(f"   [INFO] Skipping API call (rate limit detected). Using cached articles only.")
         else:
             print(f"   [WARNING] Skipping {topic} (no API key)")
         
@@ -848,6 +849,7 @@ def main():
     api_call_count = {'total': 0}  # Track total API calls across all topics
     max_api_calls = get_config_value(config, 'api.max_api_calls', DEFAULT_MAX_API_CALLS)
     topic_delay = get_config_value(config, 'api.topic_delay_seconds', DEFAULT_TOPIC_DELAY_SECONDS)
+    rate_limited_flag = {'value': False}  # Track if we hit rate limit globally (use dict for pass-by-reference)
     
     print(f"[INFO] API call limit: {max_api_calls} requests per run")
     print(f"[INFO] Delay between topics: {topic_delay} seconds\n")
@@ -876,17 +878,26 @@ def main():
             print(f"[INFO] Waiting {topic_delay} seconds before next topic...\n")
             time.sleep(topic_delay)
         
-        success, is_rate_limited = process_topic(topic, topic_config, api_key, config, metrics, api_call_count)
+        success, is_rate_limited = process_topic(topic, topic_config, api_key, config, metrics, api_call_count, rate_limited_flag)
         if not success:
             error_count += 1
         
-        # Stop processing if we hit rate limit
+        # Track rate limit status (but continue processing remaining topics with cached articles)
         if is_rate_limited:
-            print(f"\n[WARNING] Rate limit exceeded. Stopping processing of remaining topics.")
-            remaining_topics = len(news_sources) - idx
-            if remaining_topics > 0:
-                print(f"[INFO] {remaining_topics} topic(s) were skipped due to rate limiting.")
-            break
+            rate_limited_flag['value'] = True
+            if idx == 1:  # Only show message on first topic that hits 429
+                print(f"\n" + "=" * 70)
+                print(f"[WARNING] Rate Limit (429) Detected - Quota Exhausted")
+                print(f"=" * 70)
+                remaining_topics = len(topics_sorted) - idx
+                if remaining_topics > 0:
+                    print(f"[INFO] {remaining_topics} remaining topic(s) will use cached articles (no API calls).")
+                print(f"[INFO] Quota Information:")
+                print(f"   - Free tier: 50 requests every 12 hours")
+                print(f"   - Free tier: 100 requests per 24 hours")
+                print(f"[INFO] Next successful run: After quota reset period (12-24 hours)")
+                print(f"[INFO] Cached articles are still available and will be served.")
+                print(f"=" * 70 + "\n")
         
         # Stop if we've reached the API call limit
         if api_call_count['total'] >= max_api_calls:
@@ -900,9 +911,14 @@ def main():
     
     # Print summary
     print(f"\n{METRICS_SEPARATOR}")
-    if error_count == 0:
+    if error_count == 0 and api_call_count['total'] > 0:
         print("[OK] News update complete!")
         print("   News fetched dynamically from NewsAPI.")
+    elif rate_limited_flag['value']:
+        print("[INFO] News update complete (using cached articles)")
+        print("   Rate limit (429) detected - quota exhausted.")
+        print("   Cached articles are still available and being served.")
+        print("   Next run will fetch new articles after quota reset.")
     else:
         print(f"[WARNING] News update complete with {error_count} error(s)")
         print("   Some topics may not have been updated successfully.")
