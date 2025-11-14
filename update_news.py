@@ -416,7 +416,9 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
     news_items = []
     seen_urls = set()
     page = 1
-    max_pages = get_config_value(config, 'api.max_pages', DEFAULT_MAX_PAGES)
+    # Allow per-topic max_pages override, fallback to global config
+    max_pages = topic_config.get('max_pages') or get_config_value(config, 'api.max_pages', DEFAULT_MAX_PAGES)
+    print(f"   [INFO] Maximum pages per topic: {max_pages} (max {max_pages} API requests for this topic)")
     
     try:
         # Fetch first page
@@ -528,6 +530,30 @@ def update_news_file(topic: str, news_items: List[Dict]) -> bool:
         print(f"   [ERROR] Traceback: {traceback.format_exc()}")
         return False
 
+# -----------------------------------------------------------------------------
+# FALLBACK HELPERS
+# -----------------------------------------------------------------------------
+
+def load_existing_news(topic: str) -> List[Dict]:
+    """
+    Load existing news items from disk for a topic.
+    Returns list or empty list if file missing or unreadable.
+    """
+    file_path = os.path.join(DATA_DIR, f"{topic}.yml")
+    if not os.path.exists(file_path):
+        return []
+    
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f) or {}
+        news_items = data.get("news_items") or []
+        if news_items:
+            print(f"   [INFO] Loaded {len(news_items)} cached article(s) from {file_path}")
+        return news_items
+    except Exception as e:
+        print(f"   [WARNING] Failed to read existing news cache for {topic}: {e}")
+        return []
+
 # ============================================================================
 # MAIN EXECUTION
 # ============================================================================
@@ -542,6 +568,7 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         print(f"[INFO] Fetching news for {topic_name}...")
         
         news_items = []
+        cached_news = load_existing_news(topic)
         
         # Try to fetch from NewsAPI if key is available
         if api_key:
@@ -557,6 +584,11 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
                 return False
         else:
             print(f"   [WARNING] Skipping {topic} (no API key)")
+        
+        # If no fresh news was fetched but cached data exists, reuse cached data
+        if not news_items and cached_news:
+            news_items = cached_news
+            print(f"   [INFO] Using cached news for {topic} (API fetch produced no new items)")
         
         # Always update the news file (even if empty, to clear old data)
         try:

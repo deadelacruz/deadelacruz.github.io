@@ -1,9 +1,10 @@
-name: Update News Hourly
+name: Update News Every 12 Hours
 
 on:
   schedule:
-    # Run every hour at minute 0 (e.g., 1:00, 2:00, 3:00, etc. UTC)
-    - cron: '0 * * * *'
+    # Run every 12 hours at 00:00 and 12:00 UTC (aligns with NewsAPI 12-hour reset cycle)
+    # NewsAPI Developer plan: 50 requests per 12 hours, resets every 12 hours
+    - cron: '0 0,12 * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:

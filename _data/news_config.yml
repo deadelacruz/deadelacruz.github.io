@@ -6,7 +6,7 @@ api:
   base_url: "https://newsapi.org/v2/everything"
   timeout_seconds: 15
   max_page_size: 100  # NewsAPI maximum
-  max_pages: 5  # Maximum number of pages to fetch (prevents excessive API calls)
+  max_pages: 16  # Maximum number of pages per topic (16 requests × 3 topics = 48 total, under 50 limit per 12 hours)
   language: "en"
   sort_by: "publishedAt"
   rate_limit_delay_seconds: 1.0  # Delay between API calls to respect rate limits
@@ -30,10 +30,15 @@ metrics:
   json_output_path: "_data/news_metrics.json"  # Path for metrics JSON export
 
 # News Sources Configuration
+# Each topic can optionally override max_pages (e.g., max_pages: 16)
+# If not specified, uses the global api.max_pages setting (currently 16)
+# Total requests = 3 topics × 16 = 48 requests (under 50 limit per 12 hours)
+# Workflow runs every 12 hours to align with NewsAPI quota reset cycle
 news_sources:
   deep-learning:
     name: "Deep Learning"
     title_query: "Deep Learning"
+    # max_pages: 16  # Optional: override global limit for this topic
     related_keywords:
       - "deep learning"
       - "neural networks"
