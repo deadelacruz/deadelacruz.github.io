@@ -744,6 +744,8 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         
         # Load existing articles from file
         existing_articles = load_existing_news(topic)
+        if existing_articles:
+            print(f"   [INFO] Loaded {len(existing_articles)} cached article(s) from file")
         new_articles = []
         is_rate_limited = False
         
@@ -776,9 +778,14 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
             print(f"   [WARNING] Skipping {topic} (no API key)")
         
         # Merge existing articles with new articles (remove duplicates by URL)
+        # IMPORTANT: If API failed and we have cached articles, preserve them!
         if existing_articles or new_articles:
             merged_articles = merge_news_articles(existing_articles, new_articles)
             print(f"   [INFO] Merged {len(existing_articles)} existing + {len(new_articles)} new = {len(merged_articles)} total articles")
+        elif existing_articles:
+            # API failed but we have cached articles - use them!
+            merged_articles = existing_articles
+            print(f"   [INFO] API failed, using {len(existing_articles)} cached article(s)")
         else:
             merged_articles = []
         
@@ -791,19 +798,30 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
             filtered_articles = []
         
         # Save the merged and filtered articles
+        # IMPORTANT: Don't overwrite with empty list if we have cached articles!
         try:
-            success = update_news_file(topic, filtered_articles)
-            if success:
-                metrics.record_article_saved(topic, len(filtered_articles))
-                if filtered_articles:
-                    print(f"   [OK] Saved {len(filtered_articles)} articles to {topic}.yml")
+            # Only save if we have articles OR if this is a fresh start (no cached articles)
+            if filtered_articles or not existing_articles:
+                success = update_news_file(topic, filtered_articles)
+                if success:
+                    metrics.record_article_saved(topic, len(filtered_articles))
+                    if filtered_articles:
+                        print(f"   [OK] Saved {len(filtered_articles)} articles to {topic}.yml")
+                    else:
+                        print(f"   [INFO] No articles to save (no cached articles and API failed)")
                 else:
-                    print(f"   [INFO] Saved empty list to {topic}.yml (no articles found)")
+                    print(f"   [ERROR] Failed to save news file for {topic}")
+                    return False, is_rate_limited
             else:
-                print(f"   [ERROR] Failed to save news file for {topic}")
-                return False, is_rate_limited
+                # API failed but we have cached articles - preserve them, don't overwrite
+                print(f"   [INFO] Preserving {len(existing_articles)} cached article(s) (API failed, not overwriting)")
+                metrics.record_article_saved(topic, len(existing_articles))
         except Exception as save_err:
             print(f"   [ERROR] Failed to save news file for {topic}: {save_err}")
+            # If we have cached articles, still return success (graceful degradation)
+            if existing_articles:
+                print(f"   [INFO] Cached articles are still available despite save error")
+                return True, is_rate_limited
             return False, is_rate_limited
         
         return True, is_rate_limited
