@@ -96,10 +96,10 @@ def fetch_from_newsapi(topic, api_key=None):
         from_time_iso = from_time.strftime("%Y-%m-%d")
         to_time_iso = to_time.strftime("%Y-%m-%d")
         
-        # Use qInTitle to search specifically in article titles
-        # This ensures articles have the keyword in their title
+        # Use broader search (q) to get more results, then filter by title
+        # This ensures we get more articles while still maintaining relevance
         params = {
-            "qInTitle": title_query,  # Search ONLY in article titles/headlines
+            "q": title_query,  # Search in title and content (broader than qInTitle)
             "sortBy": "publishedAt",
             "language": "en",
             "pageSize": 100,  # Get maximum articles (NewsAPI max is 100)
@@ -109,7 +109,7 @@ def fetch_from_newsapi(topic, api_key=None):
         }
         
         print(f"   [DEBUG] Fetching from: {from_time_iso} to {to_time_iso}")
-        print(f"   [DEBUG] Search query: '{title_query}' (in title only)")
+        print(f"   [DEBUG] Search query: '{title_query}' (in title and content, will filter by title)")
         print(f"   [DEBUG] API URL: {url}")
         
         try:
@@ -144,32 +144,6 @@ def fetch_from_newsapi(topic, api_key=None):
             print(f"   [INFO] NewsAPI returned {total_results} total results, {len(articles)} articles in this page")
             
             if total_results == 0:
-                print(f"   [WARNING] No articles found with qInTitle. Trying broader search...")
-                # Fallback: try broader search if title-only search returns nothing
-                params_fallback = {
-                    "q": title_query,  # Search in title and content
-                    "sortBy": "publishedAt",
-                    "language": "en",
-                    "pageSize": 100,
-                    "apiKey": api_key,
-                    "from": from_time_iso,
-                    "to": to_time_iso
-                }
-                
-                try:
-                    response_fallback = requests.get(url, params=params_fallback, timeout=15)
-                    response_fallback.raise_for_status()
-                    data_fallback = response_fallback.json()
-                    
-                    if data_fallback.get("status") == "ok":
-                        total_results = data_fallback.get("totalResults", 0)
-                        articles = data_fallback.get("articles", [])
-                        print(f"   [INFO] Fallback search returned {total_results} total results, {len(articles)} articles")
-                        data = data_fallback
-                except Exception as fallback_err:
-                    print(f"   [WARNING] Fallback search failed: {fallback_err}")
-            
-            if total_results == 0:
                 print(f"   [WARNING] No articles found. This might be due to:")
                 print(f"      - No articles matching '{title_query}' in the last 30 days")
                 print(f"      - NewsAPI free tier limitations")
@@ -177,32 +151,48 @@ def fetch_from_newsapi(topic, api_key=None):
             
             # Process articles and filter by title
             # Filtering rule: If title INCLUDES the keyword, fetch it (applies to all topics)
+            # Uses case-insensitive matching to catch variations
             # 
             # For "Deep Learning" tab:
             #   ✓ "New Breakthrough in Deep Learning Research"
             #   ✓ "Deep Learning Models Show Promise"
+            #   ✓ "deep learning" (case variations)
             #   ✗ "Machine Learning Advances" (no "Deep Learning" in title)
             #
             # For "Machine Learning" tab:
             #   ✓ "Machine Learning Course for Engineers"
             #   ✓ "Advances in Machine Learning Algorithms"
+            #   ✓ "machine learning" (case variations)
             #   ✗ "Deep Learning Research" (no "Machine Learning" in title)
             #
             # For "Artificial Intelligence" tab:
             #   ✓ "Artificial Intelligence Revolution"
             #   ✓ "The Future of Artificial Intelligence"
+            #   ✓ "artificial intelligence" (case variations)
             #   ✗ "Machine Learning News" (no "Artificial intelligence" in title)
             title_query_lower = title_query.lower()
+            title_words = title_query_lower.split()  # Split into words for better matching
+            
             for article in articles:
                 article_url = article.get("url", "")
                 article_title = article.get("title", "")
+                article_title_lower = article_title.lower() if article_title else ""
                 
                 # Skip duplicates and ensure we have required fields
                 # Check if title INCLUDES the keyword (case-insensitive substring match)
+                # For multi-word queries, check if all words are present (more flexible)
+                title_matches = False
+                if len(title_words) > 1:
+                    # For multi-word phrases, check if all words are present
+                    title_matches = all(word in article_title_lower for word in title_words)
+                else:
+                    # For single word, simple substring match
+                    title_matches = title_query_lower in article_title_lower
+                
                 if (article_url and 
                     article_url not in seen_urls and 
                     article_title and
-                    title_query_lower in article_title.lower()):  # If title includes keyword, fetch it
+                    title_matches):  # If title matches keyword, fetch it
                     
                     seen_urls.add(article_url)
                     news_items.append({
@@ -213,9 +203,10 @@ def fetch_from_newsapi(topic, api_key=None):
                         "source": article.get("source", {}).get("name", "Unknown")
                     })
                     print(f"      ✓ Added: {article_title[:60]}...")
-                elif article_title and title_query_lower not in article_title.lower():
-                    # Log filtered out articles for debugging
-                    print(f"      ✗ Filtered (title doesn't contain '{title_query}'): {article_title[:60]}...")
+                elif article_title and not title_matches:
+                    # Log filtered out articles for debugging (only first few to avoid spam)
+                    if len(news_items) < 3:  # Only log first few filtered items
+                        print(f"      ✗ Filtered (title doesn't contain '{title_query}'): {article_title[:60]}...")
             
             # Sort by date and return all articles
             news_items.sort(key=lambda x: x["date"], reverse=True)
