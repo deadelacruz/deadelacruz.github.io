@@ -3,6 +3,7 @@ name: Update News Every 12 Hours
 on:
   schedule:
     # Run every 12 hours at 00:00 and 12:00 UTC (aligns with NewsAPI 12-hour reset cycle)
+    # Philippine Time (PHT, UTC+8): 8:00 AM and 8:00 PM daily
     # NewsAPI Developer plan: 50 requests per 12 hours, resets every 12 hours
     - cron: '0 0,12 * * *'
   workflow_dispatch: # Allow manual triggering
