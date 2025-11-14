@@ -1,1 +1,166 @@
-news_items: []
+news_items:
+- title: Time, space, memory and brain–body rhythms
+  description: Understanding how the brain represents experienced time and how representations
+    of space and time are integrated to form episodic memories has been a goal of
+    much neuroscientific research. In this Perspective, Buzsáki discusses classical
+    and contempo
+  url: https://www.nature.com/articles/s41583-025-00987-2
+  date: '2025-11-12'
+  source: Nature.com
+- title: Viral NblA proteins negatively affect oceanic cyanobacterial photosynthesis
+  description: Viral NblA accelerates the cyanophage infection cycle, directs degradation
+    of the host phycobilisome and other proteins, and reduces host photosynthetic
+    light-harvesting efficiency.
+  url: https://www.nature.com/articles/s41586-025-09656-x
+  date: '2025-11-12'
+  source: Nature.com
+- title: Short-term and long-term solar irradiance forecasting with advanced machine
+    learning techniques in Zafarana, Egypt
+  description: Scientific Reports - Short-term and long-term solar irradiance forecasting
+    with advanced machine learning techniques in Zafarana, Egypt
+  url: https://www.nature.com/articles/s41598-025-24853-4
+  date: '2025-11-12'
+  source: Nature.com
+- title: iPEX enables micrometre-resolution deep spatial proteomics via tissue expansion
+  description: Isotropic tissue magnification is integrated with matrix-assisted laser
+    desorption/ionization mass spectrometry imaging to enable untargeted spatial proteomics
+    at micrometre resolution and with high protein identification rates in multiple
+    tissue typ
+  url: https://www.nature.com/articles/s41586-025-09734-0
+  date: '2025-11-12'
+  source: Nature.com
+- title: Single-cell synaptome mapping of endogenous protein subpopulations in mammalian
+    brain
+  description: Synapses are diverse within a single neuron. Here, the authors present
+    a method for single-cell synaptome imaging of endogenous protein subpopulations
+    in the mouse brain, enabling spatial mapping of synapse diversity in protein localization
+    and turno
+  url: https://www.nature.com/articles/s41467-025-65813-w
+  date: '2025-11-11'
+  source: Nature.com
+- title: Following a cell’s every move
+  description: Identifying individual cells and tracking their movements over time
+    are two critically important tasks in bioimage analysis. We discuss a fresh wave
+    of tools that push these techniques toward peak performance.
+  url: https://www.nature.com/articles/s41592-025-02937-3
+  date: '2025-11-11'
+  source: Nature.com
+- title: A novel hybrid model integrating CEEMDAN decomposition, dispersion entropy
+    and LSTM for photovoltaic power forecasting and anomaly detection
+  description: Scientific Reports - A novel hybrid model integrating CEEMDAN decomposition,
+    dispersion entropy and LSTM for photovoltaic power forecasting and anomaly detection
+  url: https://www.nature.com/articles/s41598-025-23305-3
+  date: '2025-11-11'
+  source: Nature.com
+- title: Israeli forces kill three in Gaza as settlers attack in occupied West Bank
+  description: Israelis continue to attack Palestinians in West Bank and Gaza, as
+    death toll in the latter tops 69,000.
+  url: https://www.aljazeera.com/news/2025/11/11/israeli-forces-kill-three-in-gaza-as-settlers-attack-in-the-occupied-west-bank
+  date: '2025-11-11'
+  source: Al Jazeera English
+- title: The rise of Yann LeCun, the 65-year-old NYU professor who is planning to
+    leave Mark Zuckerberg’s highly paid team at Meta to launch his own AI startup
+  description: LeCun is a Turing Award winner and considered one of the pioneers of
+    modern artificial intelligence.
+  url: https://fortune.com/2025/11/11/who-is-yann-lecun-career-meta-ai-chief-scientist-nyu-turing/
+  date: '2025-11-11'
+  source: Fortune
+- title: Beyond the niche - unlocking the full potential of synthetic riboswitches
+  description: Synthetic riboswitches are a burgeoning regulatory tool in the field
+    of molecular biology. Here, the authors explore the unique features of synthetic
+    riboswitches, highlight key applications, assess current bottlenecks and limitations
+    and put them in
+  url: https://www.nature.com/articles/s41467-025-65808-7
+  date: '2025-11-10'
+  source: Nature.com
+- title: A call for 3D genomics submissions
+  description: Nature Genetics has joined forces with Nature Communications, Communications
+    Biology and Scientific Reports to create a Collection of papers on 3D genome organization.
+    We reflect on the field and invite submissions addressing fundamental unsolved
+    que
+  url: https://www.nature.com/articles/s41588-025-02439-0
+  date: '2025-11-10'
+  source: Nature.com
+- title: The First Amendment Won’t Go Quietly
+  description: Welcome to the third Red Scare.
+  url: https://www.theatlantic.com/ideas/2025/11/first-amendment-trump-free-speech-red-scare/684866/
+  date: '2025-11-10'
+  source: The Atlantic
+- title: AMC’s Thunder Road Could Be NASCAR’s Next Big Story
+  description: The network behind Breaking Bad is turning its lens on NASCAR’s roots
+    — where racing families, grudges, and Southern grit still fuel the story.
+  url: https://www.forbes.com/sites/gregengle/2025/11/09/amcs-thunder-road-could-be-nascars-next-big-story/
+  date: '2025-11-09'
+  source: Forbes
+- title: Turning undersea cables into a global monitoring system for seismic and environmental
+    hazards
+  description: EU researchers are exploring how undersea communication cables can
+    double-up as environmental and seismic sensors—a potential game-changer for early
+    warning systems.
+  url: https://phys.org/news/2025-11-undersea-cables-global-seismic-environmental.html
+  date: '2025-11-08'
+  source: Phys.Org
+- title: Multifunctionally diverse alkaline phosphatases of Alteromonas drive the
+    phosphorus cycle in the ocean
+  description: This study shows that Alteromonas is a key driver of phosphorus recycling
+    in the ocean and that its alkaline phosphatases are multifunctional—with different
+    families coexisting in one genome by adopting distinct functions and secretion
+    strategies.
+  url: https://www.nature.com/articles/s41467-025-64455-2
+  date: '2025-11-07'
+  source: Nature.com
+- title: Deep learning models simultaneously trained on multiple datasets improve
+    base-editing activity prediction
+  description: 'CRISPR base editing enables the precise introduction of single-nucleotide
+    mutations in the genome. Here, authors generated new adenine/cytosine base editor
+    dataset and proposed a deep-learning model CRISPRon-BE for base editor efficiency
+    prediction, '
+  url: https://www.nature.com/articles/s41467-025-65200-5
+  date: '2025-11-07'
+  source: Nature.com
+- title: Genetic basis of flavor complexity in sweet corn
+  description: Genomic, transcriptomic and metabolomic analyses from a population
+    of 295 diverse sweet-corn inbred lines provide insights into kernel quality formation
+    mechanisms and the divergence of sweet corn and field corn.
+  url: https://www.nature.com/articles/s41588-025-02401-0
+  date: '2025-11-07'
+  source: Nature.com
+- title: 'Monod: model-based discovery and integration through fitting stochastic
+    transcriptional dynamics to single-cell sequencing data'
+  description: Monod fits biophysically motivated models to single-cell transcriptomics
+    data, empowering multifaceted and integrative insights of gene expression dynamics,
+    stochasticity and regulation.
+  url: https://www.nature.com/articles/s41592-025-02832-x
+  date: '2025-11-07'
+  source: Nature.com
+- title: Memristor-based adaptive analog-to-digital conversion for efficient and accurate
+    compute-in-memory
+  description: Hong et al. report an adaptive memristor-based analog-to-digital converter
+    which leverages the programmable nature of memristors to implement optimal, data-aware
+    quantization boundaries directly in hardware, enabling a 15.1× improvement in
+    energy eff
+  url: https://www.nature.com/articles/s41467-025-65233-w
+  date: '2025-11-06'
+  source: Nature.com
+- title: Genomics of drug target prioritization for complex diseases
+  description: In this Review, Chen et al. discuss how the advancement and integration
+    of large-scale genetic resources, multi-omics data and sophisticated computational
+    tools are improving drug development pipelines.
+  url: https://www.nature.com/articles/s41576-025-00904-4
+  date: '2025-11-06'
+  source: Nature.com
+- title: Regulation of RNA-binding proteins by small biomolecules
+  description: RNA-binding proteins (RBPs) are essential for gene regulation. Recent
+    data reveal that small biomolecules (SBMs) such as sugars, nucleotides, metabolites
+    and drugs bind to RBPs and regulate their function. This Review discusses the
+    landscape of SBM-b
+  url: https://www.nature.com/articles/s41580-025-00914-4
+  date: '2025-11-06'
+  source: Nature.com
+- title: 'The prophet of American loneliness on the world that produced Trump and
+    his message to Gen Z: ‘You didn’t cause this problem, we caused this problem’'
+  description: Robert Putnam famously diagnosed America as "bowling alone" 25 years
+    ago. Things have just gotten lonelier since.
+  url: https://fortune.com/2025/11/06/robert-putnam-gen-z-trump-social-capital-respect-economy/
+  date: '2025-11-06'
+  source: Fortune
