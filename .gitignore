@@ -14,3 +14,20 @@ _site/
 vendor/
 
 .DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.coverage
+.coverage.*
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Test data and generated files
+_data/news_metrics.json
+_data/news/topic*.yml

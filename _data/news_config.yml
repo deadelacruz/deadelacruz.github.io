@@ -6,7 +6,7 @@ api:
   base_url: "https://newsapi.org/v2/everything"
   timeout_seconds: 15
   max_page_size: 100  # NewsAPI maximum
-  max_pages: 10  # Maximum number of pages per topic (fallback limit, early stopping will usually stop before this)
+  max_pages: 5  # Maximum number of pages per topic (fallback limit, early stopping will usually stop before this)
   language: "en"
   sort_by: "publishedAt"
   rate_limit_delay_seconds: 1.0  # Delay between API calls to respect rate limits
@@ -17,7 +17,7 @@ api:
   
   # Early Stopping Optimization (NEW - Reduces API calls significantly)
   # Stop pagination early when we have enough articles or too many duplicates
-  min_articles_per_topic: 10  # Stop pagination when we have this many new articles per topic
+  min_articles_per_topic: 15  # Stop pagination when we have this many new articles per topic
   early_stop_duplicate_threshold: 0.7  # Stop if 70%+ of articles on a page are duplicates (0.0-1.0)
 
 # Date Range Configuration
@@ -60,8 +60,9 @@ ui:
 # - priority: Lower number = higher priority (processed first). If rate limit hits, high-priority topics are guaranteed.
 # - max_pages: Optional override for this topic (defaults to api.max_pages)
 #
-# Expected API calls with early stopping: 3 topics × 2-3 pages = 6-9 calls (vs 30 without optimization)
+# Expected API calls with early stopping: 3 topics × 2-3 pages = 6-9 calls (vs 15 without optimization)
 # This leaves plenty of buffer under the 50 requests per 12 hours limit
+# Running twice daily (every 12 hours) maximizes use of free tier quota
 news_sources:
   deep-learning:
     name: "Deep Learning"

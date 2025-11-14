@@ -779,13 +779,18 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         
         # Merge existing articles with new articles (remove duplicates by URL)
         # IMPORTANT: If API failed and we have cached articles, preserve them!
-        if existing_articles or new_articles:
+        if existing_articles and new_articles:
+            # Both exist - merge them
             merged_articles = merge_news_articles(existing_articles, new_articles)
             print(f"   [INFO] Merged {len(existing_articles)} existing + {len(new_articles)} new = {len(merged_articles)} total articles")
         elif existing_articles:
             # API failed but we have cached articles - use them!
             merged_articles = existing_articles
             print(f"   [INFO] API failed, using {len(existing_articles)} cached article(s)")
+        elif new_articles:
+            # Only new articles (no cached)
+            merged_articles = new_articles
+            print(f"   [INFO] Using {len(new_articles)} new article(s)")
         else:
             merged_articles = []
         
