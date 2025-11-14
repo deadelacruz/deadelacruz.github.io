@@ -40,6 +40,7 @@ DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 # Default values (used if config file is missing)
 DEFAULT_LOOKBACK_DAYS = 30
 DEFAULT_EXCLUDE_TODAY_OFFSET = 1
+DEFAULT_RETENTION_DAYS = 60
 DEFAULT_TIMEOUT_SECONDS = 15
 DEFAULT_MAX_PAGE_SIZE = 100
 DEFAULT_MAX_PAGES = 5
@@ -498,6 +499,63 @@ def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsT
 # FILE OPERATIONS
 # ============================================================================
 
+def filter_articles_by_retention(news_items: List[Dict], retention_days: int) -> List[Dict]:
+    """
+    Filter out articles older than the retention period.
+    Returns list of articles within the retention period.
+    """
+    if not news_items or retention_days <= 0:
+        return news_items
+    
+    cutoff_date = (datetime.now(timezone.utc) - timedelta(days=retention_days)).date()
+    filtered_items = []
+    
+    for item in news_items:
+        article_date_str = item.get("date", "")
+        if not article_date_str:
+            continue
+        
+        try:
+            # Parse date string (format: YYYY-MM-DD)
+            article_date = datetime.strptime(article_date_str, DATE_FORMAT).date()
+            if article_date >= cutoff_date:
+                filtered_items.append(item)
+        except (ValueError, TypeError):
+            # If date parsing fails, keep the article (better to show than hide)
+            filtered_items.append(item)
+    
+    removed_count = len(news_items) - len(filtered_items)
+    if removed_count > 0:
+        print(f"   [INFO] Removed {removed_count} article(s) older than {retention_days} days")
+    
+    return filtered_items
+
+def merge_news_articles(existing_articles: List[Dict], new_articles: List[Dict]) -> List[Dict]:
+    """
+    Merge new articles with existing articles, removing duplicates by URL.
+    Returns merged list sorted by date (newest first).
+    """
+    # Create a dictionary keyed by URL for fast lookup
+    articles_dict = {}
+    
+    # Add existing articles first (preserve older articles)
+    for article in existing_articles:
+        url = article.get("url", "")
+        if url:
+            articles_dict[url] = article
+    
+    # Add/update with new articles (newer articles take precedence)
+    for article in new_articles:
+        url = article.get("url", "")
+        if url:
+            articles_dict[url] = article
+    
+    # Convert back to list and sort by date
+    merged_articles = list(articles_dict.values())
+    merged_articles.sort(key=lambda x: x.get("date", ""), reverse=True)
+    
+    return merged_articles
+
 def update_news_file(topic: str, news_items: List[Dict]) -> bool:
     """
     Update the YAML file for a specific topic with new news items.
@@ -560,43 +618,56 @@ def load_existing_news(topic: str) -> List[Dict]:
 
 def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, metrics: MetricsTracker) -> bool:
     """
-    Process a single topic: fetch news and save to file.
+    Process a single topic: fetch news, merge with existing articles, filter by retention, and save to file.
     Returns True if successful, False otherwise.
     """
     try:
         topic_name = topic_config.get("name", topic)
         print(f"[INFO] Fetching news for {topic_name}...")
         
-        news_items = []
-        cached_news = load_existing_news(topic)
+        # Load existing articles from file
+        existing_articles = load_existing_news(topic)
+        new_articles = []
         
         # Try to fetch from NewsAPI if key is available
         if api_key:
             try:
-                news_items = fetch_from_newsapi(topic, api_key, config, metrics)
-                if news_items:
+                new_articles = fetch_from_newsapi(topic, api_key, config, metrics)
+                if new_articles:
                     title_query = topic_config.get("title_query", "")
-                    print(f"   [OK] Found {len(news_items)} news articles matching '{title_query}' or related keywords")
+                    print(f"   [OK] Found {len(new_articles)} new articles matching '{title_query}' or related keywords")
                 else:
-                    print(f"   [WARNING] No articles found for {topic}")
+                    print(f"   [WARNING] No new articles found for {topic}")
             except Exception as fetch_err:
                 print(f"   [ERROR] Failed to fetch news for {topic}: {fetch_err}")
-                return False
+                # Continue with existing articles if fetch fails
+                if not existing_articles:
+                    return False
         else:
             print(f"   [WARNING] Skipping {topic} (no API key)")
         
-        # If no fresh news was fetched but cached data exists, reuse cached data
-        if not news_items and cached_news:
-            news_items = cached_news
-            print(f"   [INFO] Using cached news for {topic} (API fetch produced no new items)")
+        # Merge existing articles with new articles (remove duplicates by URL)
+        if existing_articles or new_articles:
+            merged_articles = merge_news_articles(existing_articles, new_articles)
+            print(f"   [INFO] Merged {len(existing_articles)} existing + {len(new_articles)} new = {len(merged_articles)} total articles")
+        else:
+            merged_articles = []
         
-        # Always update the news file (even if empty, to clear old data)
+        # Filter articles by retention period (remove articles older than retention_days)
+        retention_days = get_config_value(config, 'date_range.retention_days', DEFAULT_RETENTION_DAYS)
+        if merged_articles:
+            filtered_articles = filter_articles_by_retention(merged_articles, retention_days)
+            print(f"   [INFO] After retention filter ({retention_days} days): {len(filtered_articles)} articles remain")
+        else:
+            filtered_articles = []
+        
+        # Save the merged and filtered articles
         try:
-            success = update_news_file(topic, news_items)
+            success = update_news_file(topic, filtered_articles)
             if success:
-                metrics.record_article_saved(topic, len(news_items))
-                if news_items:
-                    print(f"   [OK] Saved {len(news_items)} articles to {topic}.yml")
+                metrics.record_article_saved(topic, len(filtered_articles))
+                if filtered_articles:
+                    print(f"   [OK] Saved {len(filtered_articles)} articles to {topic}.yml")
                 else:
                     print(f"   [INFO] Saved empty list to {topic}.yml (no articles found)")
             else:

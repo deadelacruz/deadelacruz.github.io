@@ -6,16 +6,17 @@ api:
   base_url: "https://newsapi.org/v2/everything"
   timeout_seconds: 15
   max_page_size: 100  # NewsAPI maximum
-  max_pages: 16  # Maximum number of pages per topic (16 requests × 3 topics = 48 total, under 50 limit per 12 hours)
+  max_pages: 10  # Maximum number of pages per topic (10 requests × 3 topics = 30 total, safe 20-request buffer under 50 limit per 12 hours)
   language: "en"
   sort_by: "publishedAt"
   rate_limit_delay_seconds: 1.0  # Delay between API calls to respect rate limits
 
 # Date Range Configuration
 date_range:
-  lookback_days: 30  # How many days back to search
+  lookback_days: 30  # How many days back to search from NewsAPI
   exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay
   exclude_today_offset_days: 1  # Days to exclude from today
+  retention_days: 60  # How many days to keep articles in UI (articles older than this will be removed)
 
 # Article Processing Configuration
 article_processing:
@@ -36,15 +37,15 @@ ui:
   show_all_option: true  # Show "Show All" button to display all articles at once
 
 # News Sources Configuration
-# Each topic can optionally override max_pages (e.g., max_pages: 16)
-# If not specified, uses the global api.max_pages setting (currently 16)
-# Total requests = 3 topics × 16 = 48 requests (under 50 limit per 12 hours)
+# Each topic can optionally override max_pages (e.g., max_pages: 10)
+# If not specified, uses the global api.max_pages setting (currently 10)
+# Total requests = 3 topics × 10 = 30 requests (safe 20-request buffer under 50 limit per 12 hours)
 # Workflow runs every 12 hours to align with NewsAPI quota reset cycle
 news_sources:
   deep-learning:
     name: "Deep Learning"
     title_query: "Deep Learning"
-    # max_pages: 16  # Optional: override global limit for this topic
+    # max_pages: 10  # Optional: override global limit for this topic
     related_keywords:
       - "deep learning"
       - "neural networks"
