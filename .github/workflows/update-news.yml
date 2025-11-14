@@ -1,20 +1,21 @@
-name: Update News Daily
+name: Update News Hourly
 
 on:
   schedule:
-    # Run daily at 9:00 AM Philippines Time (UTC+8) = 1:00 AM UTC
-    - cron: '0 1 * * *'
+    # Run every hour at minute 0 (e.g., 1:00, 2:00, 3:00, etc. UTC)
+    - cron: '0 * * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Required to push changes back to repository
     
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
 
       - name: Set up Python

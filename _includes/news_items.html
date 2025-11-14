@@ -54,8 +54,27 @@
     {% endfor %}
   </div>
   <p style="margin-top: 20px; font-style: italic; color: var(--main-text-color); opacity: 0.7;">
-    <em>Last updated: {{ "now" | date: "%B %d, %Y at %I:%M %p" }}</em>
+    <em>Last updated: <span id="philippines-time"></span></em>
   </p>
+  <script>
+    // Display time in Philippines timezone (PHT - UTC+8)
+    function updatePhilippinesTime() {
+      const options = { 
+        year: 'numeric', 
+        month: 'long', 
+        day: 'numeric', 
+        hour: 'numeric', 
+        minute: '2-digit',
+        hour12: true,
+        timeZone: 'Asia/Manila'
+      };
+      const formatted = new Date().toLocaleString('en-US', options);
+      document.getElementById('philippines-time').textContent = formatted;
+    }
+    updatePhilippinesTime();
+    // Update every minute
+    setInterval(updatePhilippinesTime, 60000);
+  </script>
 {% else %}
   <p>No news items available at this time. Please check back later.</p>
 {% endif %}

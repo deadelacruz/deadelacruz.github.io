@@ -1,7 +1,0 @@
-news_items:
-  - title: "Technology News from Verified Sources"
-    description: "Latest technology news from trusted sources. Run update_news.py to fetch current articles."
-    url: "#"
-    date: "2025-11-05"
-    source: "System"
-
