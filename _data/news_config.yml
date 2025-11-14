@@ -1,0 +1,78 @@
+# News Configuration
+# This file contains all configuration for news fetching including topics, keywords, and settings
+
+# API Configuration
+api:
+  base_url: "https://newsapi.org/v2/everything"
+  timeout_seconds: 15
+  max_page_size: 100  # NewsAPI maximum
+  max_pages: 5  # Maximum number of pages to fetch (prevents excessive API calls)
+  language: "en"
+  sort_by: "publishedAt"
+  rate_limit_delay_seconds: 1.0  # Delay between API calls to respect rate limits
+
+# Date Range Configuration
+date_range:
+  lookback_days: 30  # How many days back to search
+  exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay
+  exclude_today_offset_days: 1  # Days to exclude from today
+
+# Article Processing Configuration
+article_processing:
+  max_description_length: 250  # Maximum characters for article description
+  max_title_preview_length: 60  # Maximum characters for title preview in logs
+  max_error_text_length: 500  # Maximum characters for error text in logs
+  debug_log_filtered_limit: 3  # Only log first N filtered articles to avoid spam
+
+# Metrics Configuration
+metrics:
+  export_to_json: true  # Export metrics to JSON file
+  json_output_path: "_data/news_metrics.json"  # Path for metrics JSON export
+
+# News Sources Configuration
+news_sources:
+  deep-learning:
+    name: "Deep Learning"
+    title_query: "Deep Learning"
+    related_keywords:
+      - "deep learning"
+      - "neural networks"
+      - "cnn"
+      - "rnn"
+      - "lstm"
+      - "transformer"
+      - "deep neural"
+      - "deep ai"
+      - "convolutional neural network"
+      - "recurrent neural network"
+  
+  machine-learning:
+    name: "Machine Learning"
+    title_query: "Machine Learning"
+    related_keywords:
+      - "machine learning"
+      - "ml algorithm"
+      - "ml model"
+      - "ml system"
+      - "automated learning"
+      - "predictive analytics"
+      - "data science"
+      - "supervised learning"
+      - "unsupervised learning"
+      - "reinforcement learning"
+  
+  artificial-intelligence:
+    name: "Artificial Intelligence"
+    title_query: "Artificial intelligence"
+    related_keywords:
+      - "artificial intelligence"
+      - "ai system"
+      - "ai technology"
+      - "ai model"
+      - "ai algorithm"
+      - "ai research"
+      - "generative ai"
+      - "ai development"
+      - "machine intelligence"
+      - "cognitive computing"
+
