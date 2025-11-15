@@ -80,9 +80,8 @@ jobs:
       - name: Update last updated timestamp
         run: |
           # Create timestamp file with current time in Philippines timezone (UTC+8)
-          # Format: YYYY-MM-DD HH:MM:SS PHT
-          # Use TZ environment variable to ensure proper timezone conversion
-          timestamp=$(TZ='Asia/Manila' date +'%Y-%m-%d %H:%M:%S')" PHT"
+          # Format: YYYY-MM-DD HH:MM:SS +08:00 (Philippine Standard Time)
+          TZ='Asia/Manila' timestamp=$(date +'%Y-%m-%d %H:%M:%S')" +08:00"
           echo "last_updated: \"$timestamp\"" > _data/news_last_updated.yml
           echo "Updated timestamp: $timestamp"
 
