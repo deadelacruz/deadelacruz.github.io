@@ -58,16 +58,58 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Pull latest changes to sync with remote
-          git pull origin master --no-edit || true
+          # Configure pull strategy to use merge (not rebase) to avoid divergent branch errors
+          git config pull.rebase false
+          git config pull.ff false
+          
+          # Fetch latest changes from remote
+          echo "Fetching latest changes from remote..."
+          git fetch origin master
+          
+          # Stash our local changes temporarily to allow clean merge
+          echo "Stashing local news changes..."
+          git stash push -m "Temporary stash for news updates" _data/news/
+          
+          # Check if remote is ahead of local
+          REMOTE_AHEAD=$(git rev-list HEAD..origin/master --count 2>/dev/null || echo "0")
+          
+          if [ "$REMOTE_AHEAD" -gt 0 ]; then
+            echo "Remote is ahead by $REMOTE_AHEAD commits. Merging remote changes..."
+            # Merge remote changes first
+            if git merge origin/master --no-edit; then
+              echo "Merge completed successfully"
+            else
+              echo "Merge had conflicts, aborting merge and keeping remote version..."
+              git merge --abort || true
+              # If merge fails, we'll still apply our stashed changes on top
+            fi
+          else
+            echo "Local branch is up to date with remote"
+          fi
+          
+          # Restore our stashed changes (our news updates take priority)
+          echo "Restoring stashed news changes..."
+          if ! git stash pop; then
+            echo "Stash pop had conflicts, keeping our stashed version (new news updates)..."
+            # If there are conflicts, keep our stashed version (the new news updates)
+            # In stash pop context: --theirs = stashed changes (our new updates)
+            git checkout --theirs _data/news/ 2>/dev/null || true
+            git add _data/news/
+          fi
+          
           # Stage our news file changes
+          echo "Staging news file changes..."
           git add _data/news/
-          # Commit the changes
-          git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')" || exit 0
-          # Push with retry: if push fails, pull and push again
-          git push origin master || {
-            echo "Push failed, pulling latest and retrying..."
-            git pull origin master --no-edit
-            git push origin master
-          }
+          
+          # Check if we have changes to commit
+          if ! git diff --cached --quiet; then
+            echo "Committing local changes..."
+            git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')"
+          else
+            echo "No changes to commit after merge"
+          fi
+          
+          # Push to remote
+          echo "Pushing to remote..."
+          git push origin master
 
