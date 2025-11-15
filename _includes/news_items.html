@@ -97,14 +97,7 @@
     {% endif %}
     
     <p style="margin-top: 20px; font-style: italic; color: var(--main-text-color); opacity: 0.7;">
-      <em>Last updated: 
-        {% assign last_updated = site.data.news_last_updated.last_updated %}
-        {% if last_updated %}
-          {{ last_updated }}
-        {% else %}
-          <span id="philippines-time">Loading...</span>
-        {% endif %}
-      </em>
+      <em>Last updated: <span id="philippines-time">Loading...</span></em>
     </p>
   </div>
   
@@ -114,6 +107,10 @@
     const ENABLE_PAGINATION = {{ enable_pagination | default: true }};
     const TOTAL_ARTICLES = {{ total_articles }};
     const TOTAL_PAGES = Math.ceil(TOTAL_ARTICLES / ARTICLES_PER_PAGE);
+    
+    // Store last updated timestamp from Jekyll (if available)
+    {% assign last_updated = site.data.news_last_updated.last_updated %}
+    const LAST_UPDATED_TIMESTAMP = {% if last_updated %}"{{ last_updated }}"{% else %}null{% endif %};
     
     let currentPage = 1;
     let showAllMode = false;
@@ -127,12 +124,9 @@
         showAllArticles();
       }
       
-      // Initialize Philippines time display (fallback if timestamp file is missing)
-      const timeElement = document.getElementById('philippines-time');
-      if (timeElement && timeElement.textContent === 'Loading...') {
-        updatePhilippinesTime();
-        setInterval(updatePhilippinesTime, 60000);
-      }
+      // Always initialize Philippines time display (dynamically converts to PH time)
+      updatePhilippinesTime();
+      setInterval(updatePhilippinesTime, 60000); // Update every minute
     });
     
     function initializePagination() {
@@ -289,23 +283,95 @@
       showPage(currentPage);
     }
     
-    // Display time in Philippines timezone (PHT - UTC+8) - fallback only
+    // Display time in Philippines timezone (PHT - UTC+8) - dynamically formats timestamp in PH time
     function updatePhilippinesTime() {
       const timeElement = document.getElementById('philippines-time');
       if (!timeElement) return;
       
-      const options = { 
-        year: 'numeric', 
-        month: 'long', 
-        day: 'numeric', 
-        hour: 'numeric', 
-        minute: '2-digit',
-        second: '2-digit',
-        hour12: true,
-        timeZone: 'Asia/Manila'
-      };
-      const formatted = new Date().toLocaleString('en-US', options);
-      timeElement.textContent = formatted;
+      // If we have a timestamp from the YAML file, parse and display it in PH time format
+      if (LAST_UPDATED_TIMESTAMP) {
+        // Parse timestamp format: "2025-11-15 08:24:16 AM GMT +8" or "2025-11-15 12:47:02 PM GMT +8"
+        const timestampStr = LAST_UPDATED_TIMESTAMP.replace(' GMT +8', '').trim();
+        
+        try {
+          // Parse the timestamp (format: "YYYY-MM-DD HH:MM:SS AM/PM")
+          const parts = timestampStr.match(/(\d{4}-\d{2}-\d{2})\s+(\d{1,2}):(\d{2}):(\d{2})\s+(AM|PM)/i);
+          if (parts) {
+            const datePart = parts[1];
+            const hours = parts[2];
+            const minutes = parts[3];
+            const seconds = parts[4];
+            const ampm = parts[5].toUpperCase();
+            
+            // Convert to 24-hour format for Date parsing
+            let hour24 = parseInt(hours);
+            if (ampm === 'PM' && hour24 !== 12) hour24 += 12;
+            if (ampm === 'AM' && hour24 === 12) hour24 = 0;
+            
+            // Create date object treating the timestamp as PH time (UTC+8)
+            // We'll create it as UTC and then format it in PH timezone
+            const isoString = `${datePart}T${String(hour24).padStart(2, '0')}:${minutes}:${seconds}`;
+            const dateObj = new Date(isoString);
+            
+            if (!isNaN(dateObj.getTime())) {
+              // Format in Philippines timezone to ensure correct display
+              const options = { 
+                year: 'numeric', 
+                month: '2-digit', 
+                day: '2-digit', 
+                hour: 'numeric', 
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: true,
+                timeZone: 'Asia/Manila'
+              };
+              
+              const formatted = dateObj.toLocaleString('en-US', options);
+              // Convert from "MM/DD/YYYY, HH:MM:SS AM/PM" to "YYYY-MM-DD HH:MM:SS AM/PM GMT +8"
+              const dateParts = formatted.split(', ');
+              if (dateParts.length === 2) {
+                const [datePartFormatted, timePart] = dateParts;
+                const [month, day, year] = datePartFormatted.split('/');
+                timeElement.textContent = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')} ${timePart} GMT +8`;
+              } else {
+                // Fallback: use original timestamp
+                timeElement.textContent = LAST_UPDATED_TIMESTAMP;
+              }
+            } else {
+              // If parsing failed, display original timestamp
+              timeElement.textContent = LAST_UPDATED_TIMESTAMP;
+            }
+          } else {
+            // If format doesn't match, display original timestamp
+            timeElement.textContent = LAST_UPDATED_TIMESTAMP;
+          }
+        } catch (e) {
+          // If parsing fails, display original timestamp
+          timeElement.textContent = LAST_UPDATED_TIMESTAMP;
+        }
+      } else {
+        // No timestamp available, show current PH time
+        const now = new Date();
+        const options = { 
+          year: 'numeric', 
+          month: '2-digit', 
+          day: '2-digit', 
+          hour: 'numeric', 
+          minute: '2-digit',
+          second: '2-digit',
+          hour12: true,
+          timeZone: 'Asia/Manila'
+        };
+        const formatted = now.toLocaleString('en-US', options);
+        const dateParts = formatted.split(', ');
+        if (dateParts.length === 2) {
+          const [datePart, timePart] = dateParts;
+          const [month, day, year] = datePart.split('/');
+          timeElement.textContent = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')} ${timePart} GMT +8`;
+        } else {
+          timeElement.textContent = formatted;
+        }
+      }
     }
   </script>
 {% else %}
