@@ -22,3 +22,251 @@ news_items:
   url: https://www.adweek.com/brand-marketing/ai-ama-how-deep-learning-is-rewiring-advertising/
   date: '2025-11-12'
   source: Adweek
+- title: 'Deep learning-driven ultra-stretchable Kirigami metamaterials: Towards surface
+    texture modulation via buckling'
+  description: 'Soft Matter, 2025, Accepted ManuscriptDOI: 10.1039/D5SM00933B, PaperYunce
+    Zhang, Li Lin, Yafei Wang, Shurui Wang, Qiang Tao, Hongwei Liu, Qi Zhang, Changguo
+    WangKirigami demonstrates distinctive buckling instability behavior when subjected
+    to tensile'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/sm/d5sm00933b
+  date: '2025-11-12'
+  source: Royal Society of Chemistry
+- title: Automated C. elegans behavior analysis via deep learning-based detection
+    and tracking
+  description: Author summary Studying the behavior of the worm C. elegans is crucial
+    for understanding genetics and neurobiology, but manually tracking its movements
+    is slow and impractical for large experiments. To overcome this, we developed
+    an automated, high-s
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013707
+  date: '2025-11-11'
+  source: Plos.org
+- title: Hybrid deep learning framework for real-time fault detection in squirrel-cage
+    induction motors
+  description: The Fourth Industrial Revolution has heightened the demand for intelligent
+    and reliable predictive maintenance systems in industrial environments. This study
+    proposes a hybrid deep learning-based framework for real-time fault detection
+    in Squirrel-Ca
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336323
+  date: '2025-11-11'
+  source: Plos.org
+- title: 'Enhancing museum visitor forecasting using deep learning and sentiment analysis:
+    A transformer-based approach for sustainable management'
+  description: This study aims to develop a forecasting model that predicts the annual
+    number of museum visitors by integrating structured museum-related data and unstructured
+    sentiment data. While prior research has often relied on a single data type or
+    traditiona
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335623
+  date: '2025-11-11'
+  source: Plos.org
+- title: How Deep Learning Is Teaching Marketers to Think Smarter
+  description: This post was created in partnership with Cognitiv In marketing, AI
+    is most broadly known for developing creative assets and saving teams valuable
+    time. But given the wealth of available […]
+  url: https://www.adweek.com/brand-marketing/how-deep-learning-is-teaching-marketers-to-think-smarter/
+  date: '2025-11-10'
+  source: Adweek
+- title: 'BMR-YOLO: A deep learning approach for fall detection in complex environments'
+  description: Traditional fall detection methods face significant limitations in
+    complex environments, particularly under occlusion and poor lighting conditions.
+    To address these challenges and enhance the detection accuracy in intelligent
+    real-time monitoring sys
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335992
+  date: '2025-11-07'
+  source: Plos.org
+- title: Deep learning models simultaneously trained on multiple datasets improve
+    base-editing activity prediction
+  description: 'CRISPR base editing enables the precise introduction of single-nucleotide
+    mutations in the genome. Here, authors generated new adenine/cytosine base editor
+    dataset and proposed a deep-learning model CRISPRon-BE for base editor efficiency
+    prediction, '
+  url: https://www.nature.com/articles/s41467-025-65200-5
+  date: '2025-11-07'
+  source: Nature.com
+- title: Deep learning-based automated detection of supernumerary teeth in pediatric
+    panoramic radiographs
+  description: 'Introduction Supernumerary teeth are a common developmental anomaly
+    in pediatric patients, potentially leading to complications such as impaction,
+    crowding, and delayed eruption. Accurate and early detection is critical to prevent
+    these sequelae and '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335845
+  date: '2025-11-05'
+  source: Plos.org
+- title: 'Correction: A deep learning model for epidermal growth factor receptor prediction
+    using ensemble residual convolutional neural network'
+  description: 'Scientific Reports - Correction: A deep learning model for epidermal
+    growth factor receptor prediction using ensemble residual convolutional neural
+    network'
+  url: https://www.nature.com/articles/s41598-025-26793-5
+  date: '2025-11-05'
+  source: Nature.com
+- title: Iterative improvement of deep learning models using synthetic regulatory
+    genomics [METHOD]
+  description: 'Deep learning models can accurately reconstruct genome-wide epigenetic
+    tracks from the reference genome sequence alone. But it is unclear what predictive
+    power they have on sequence diverging from the reference, such as disease- and
+    trait-associated '
+  url: https://genome.cshlp.org/content/35/11/2539.short?rss=1
+  date: '2025-11-03'
+  source: Cshlp.org
+- title: 'United States AI in Medical Imaging Growth Analysis Report 2025: A $6.76
+    Billion Market by 2033, Growing at a CAGR of 32.8% Driven by Deep Learning Advances,
+    Rising Data Volumes, and Disease Burdens'
+  description: The U.S. AI in medical imaging market presents opportunities driven
+    by the need for enhanced diagnostic accuracy, increasing medical data, and support
+    from regulatory bodies. Growth is fueled by AI applications in deep learning and
+    NLP, targeting eff
+  url: https://www.globenewswire.com/news-release/2025/11/03/3178947/28124/en/United-States-AI-in-Medical-Imaging-Growth-Analysis-Report-2025-A-6-76-Billion-Market-by-2033-Growing-at-a-CAGR-of-32-8-Driven-by-Deep-Learning-Advances-Rising-Data-Volumes-and-Dis.html
+  date: '2025-11-03'
+  source: GlobeNewswire
+- title: Decoding the regulatory genome with large-scale deep learning
+  description: In this Journal Club, Peter Koo reflects on the 2021 publication of
+    Enformer and its impact on the use of deep learning for modelling the regulatory
+    genome.
+  url: https://www.nature.com/articles/s41576-025-00914-2
+  date: '2025-11-03'
+  source: Nature.com
+- title: Development and validation of a clinical wearable deep learning based continuous
+    inhospital deterioration prediction model
+  description: Standard monitoring of patients on surgical wards can lead to delays
+    in recognition of changes in health status and subsequent risk. Here, the authors
+    develop and validate a multi-modal machine learning-based framework using vitals
+    monitored continuo
+  url: https://www.nature.com/articles/s41467-025-65219-8
+  date: '2025-11-03'
+  source: Nature.com
+- title: 'Correction: Image recognition technology for bituminous concrete reservoir
+    panel cracks based on deep learning'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335901
+  date: '2025-10-31'
+  source: Plos.org
+- title: 想读Understanding Deep Learning
+  description: An authoritative, accessible, and up-to-date treatment of deep learning
+    that strikes a pragmatic mid...
+  url: https://book.douban.com/subject/36395283/
+  date: '2025-10-31'
+  source: Douban.com
+- title: A novel modality contribution confidence-enhanced multimodal deep learning
+    framework for multiomics data
+  description: Multimodal learning for classification tasks has recently gained significant
+    attention in bioinformatics. Current approaches primarily concentrate on devising
+    efficient deep learning architectures to capture features within and across modalities.
+    How
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06219-9
+  date: '2025-10-31'
+  source: Biomedcentral.com
+- title: A robust deep learning framework for RNA 5-methyluridine modification prediction
+    using integrated features
+  description: Background The discovery of RNA 5-methyluridine (m5U) modifications
+    is vital in computational biology due to their essential significance in different
+    biological processes. This study presents a powerful predictor named 5-meth-Uri,
+    which improves the
+  url: https://bmcbiol.biomedcentral.com/articles/10.1186/s12915-025-02433-2
+  date: '2025-10-31'
+  source: Biomedcentral.com
+- title: 'Characteristics of brain glucose metabolism in Parkinson’s disease patients
+    with freezing of gait: a study based on 18F-FDG PET imaging and deep learning'
+  description: Objective Freezing of gait (FOG) is a common gait disorder in the advanced
+    stages of Parkinson’s disease (PD), closely associated with impaired balance and
+    executive function. This study aimed to investigate specific changes in brain
+    glucose metaboli
+  url: https://bmcneurol.biomedcentral.com/articles/10.1186/s12883-025-04468-y
+  date: '2025-10-31'
+  source: Biomedcentral.com
+- title: Exploring the enantioselective synthesis mechanism of ammonium cations in
+    solution using deep learning potential
+  description: 'Phys. Chem. Chem. Phys., 2025, Advance ArticleDOI: 10.1039/D5CP03439F,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Hongqiang Cui, Da Zheng, Huiying Chu, Yan Li, Guohui LiWe '
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/cp/d5cp03439f
+  date: '2025-10-28'
+  source: Royal Society of Chemistry
+- title: "The ISLab Solution to the Algonauts Challenge 2025: A Multimodal Deep\n\
+    \ Learning Approach to Brain Response Prediction"
+  description: 'In this work, we present a network-specific approach for predicting
+    brain
+
+    responses to complex multimodal movies, leveraging the Yeo 7-network
+
+    parcellation of the Schaefer atlas. Rather than treating the brain as a
+
+    homogeneous system, we grouped the '
+  url: https://arxiv.org/abs/2508.06499
+  date: '2025-10-27'
+  source: Arxiv.org
+- title: Multi-view deep learning framework for the detection of chest X-rays compatible
+    with pediatric pulmonary tuberculosis
+  description: In this work, authors present an AI framework to detect pediatric tuberculosis
+    by using both frontal and lateral chest X-rays, showing robust performance across
+    several age groups and settings.
+  url: https://www.nature.com/articles/s41467-025-64391-1
+  date: '2025-10-27'
+  source: Nature.com
+- title: Similarity-based transfer learning with deep learning networks for accurate
+    CRISPR-Cas9 off-target prediction
+  description: Author summary CRISPR-Cas9 is a popular gene-editing technology that
+    allows researchers to modify an organism’s genomic DNA at precise locations. Significant
+    research efforts have been focusing on improving its precision and effectiveness,
+    with parti
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013606
+  date: '2025-10-24'
+  source: Plos.org
+- title: Deep learning speeds the search for new antibiotic scaffolds
+  description: A deep learning model trained on experimental data from high-throughput
+    screening identifies structurally novel antimicrobial compounds.
+  url: https://www.nature.com/articles/s41587-025-02806-6
+  date: '2025-10-24'
+  source: Nature.com
+- title: Iterative improvement of deep learning models using synthetic regulatory
+    genomics [METHOD]
+  description: 'Deep learning models can accurately reconstruct genome-wide epigenetic
+    tracks from the reference genome sequence alone. But it is unclear what predictive
+    power they have on sequence diverging from the reference, such as disease- and
+    trait-associated '
+  url: https://genome.cshlp.org/content/early/2025/10/20/gr.280540.125.short?rss=1
+  date: '2025-10-22'
+  source: Cshlp.org
+- title: Modeling protein–ligand interactions for drug discovery in the era of deep
+    learning
+  description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00415B, Review
+    ArticleYuzhe Wang, Yibo Li, Jiaxiao Chen, Luhua LaiIntegrating physics-based and
+    deep learning methods advances protein–ligand modeling, boosting accuracy, scalability,
+    and efficie'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/cs/d5cs00415b
+  date: '2025-10-20'
+  source: Royal Society of Chemistry
+- title: Deep learning spectral infrared digital holography for phase analysis of
+    shale characterization
+  description: 'J. Mater. Chem. A, 2025, Advance ArticleDOI: 10.1039/D5TA02840J, PaperXinyu
+    Li, Haochong Huang, Zhiyuan Zheng, Kunfeng QiuBy combining SWIR spectral holography
+    with Transformer models, this method quantitatively analyzes rock and mineral
+    structures t'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ta/d5ta02840j
+  date: '2025-10-20'
+  source: Royal Society of Chemistry
+- title: 'Cell Decoder: decoding cell identity with multi-scale explainable deep learning'
+  description: Background Cells are the fundamental units of life, and understanding
+    their diversity and functionality requires detailed characterization. The rise
+    of single-cell omics data enables this, yet current deep learning approaches lack
+    multi-scale interpr
+  url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03832-y
+  date: '2025-10-20'
+  source: Biomedcentral.com
+- title: Memorization bias impacts modeling of alternative conformational states of
+    solute carrier membrane proteins with methods from deep learning
+  description: Author summary The Solute Carrier (SLC) superfamily of integral membrane
+    proteins transport a wide array of small molecules across plasma and organelle
+    membranes, and function as important drug transporters and as viral receptors.
+    They populate diffe
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013590
+  date: '2025-10-17'
+  source: Plos.org
+- title: 'Deep learning models for ICU readmission prediction: a systematic review
+    and meta-analysis'
+  description: 'Intensive Care Unit (ICU) readmissions are associated with increased
+    morbidity, mortality, and healthcare costs. Therefore, determining an appropriate
+    timing of ICU discharge is critical. In this context, deep learning (DL) approaches
+    have attracted '
+  url: https://ccforum.biomedcentral.com/articles/10.1186/s13054-025-05642-x
+  date: '2025-10-17'
+  source: Biomedcentral.com
