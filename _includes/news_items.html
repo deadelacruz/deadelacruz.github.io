@@ -80,7 +80,7 @@
     {% if enable_pagination and total_articles > articles_per_page %}
       <div id="pagination-controls" style="margin-top: 30px; text-align: center;">
         <div style="margin-bottom: 15px; color: var(--main-text-color);">
-          <span id="pagination-info">Showing <span id="showing-from">1</span>-<span id="showing-to">{{ articles_per_page }}</span> of {{ total_articles }} articles</span>
+          <span id="pagination-info">Showing of <span id="total-articles-count">{{ total_articles }}</span> articles</span>
         </div>
         <div style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
           <button id="prev-btn" style="padding: 8px 16px; background-color: var(--link-color); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9em;" disabled>
@@ -191,9 +191,7 @@
         }
       });
       
-      // Update pagination info
-      document.getElementById('showing-from').textContent = startIndex + 1;
-      document.getElementById('showing-to').textContent = Math.min(endIndex, TOTAL_ARTICLES);
+      // Update pagination info (total articles count is already set, no need to update)
       
       // Update button states
       document.getElementById('prev-btn').disabled = currentPage === 1;
