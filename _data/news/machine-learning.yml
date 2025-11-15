@@ -151,3 +151,35 @@ news_items:
   url: https://pypi.org/project/homa/0.3.304/
   date: '2025-11-14'
   source: Pypi.org
+- title: 'CarbaDetector: a machine learning model for detecting carbapenemase-producing
+    Enterobacterales from disk diffusion tests'
+  description: Carbapenems are last-resort antibiotics, but resistance is rising due
+    to hydrolyzing enzymes called carbapenemases. The authors present a machine learning
+    algorithm and web-app to rapidly predict carbapenemase-production in Enterobacterales.
+  url: https://www.nature.com/articles/s41467-025-66183-z
+  date: '2025-11-14'
+  source: Nature.com
+- title: Machine learning teaches membranes to sort by chemical affinity
+  description: Ultrafiltration membranes used in pharmaceutical manufacturing and
+    other industrial processes have long relied on separating molecules by size. Now,
+    Cornell researchers have created porous materials that filter molecules by their
+    chemical makeup.
+  url: https://phys.org/news/2025-11-machine-membranes-chemical-affinity.html
+  date: '2025-11-13'
+  source: Phys.Org
+- title: High-precision analysis of 2D materials microstructures achieved using electron
+    microscopy and machine learning
+  description: 'A research team led by NIMS has, for the first time, produced nanoscale
+    images of two key features in an ultra-thin material: twist domains (areas where
+    one atomic layer is slightly rotated relative to another) and polarities (differences
+    in atomic o'
+  url: https://phys.org/news/2025-11-high-precision-analysis-2d-materials.html
+  date: '2025-11-13'
+  source: Phys.Org
+- title: Machine Learning Course for Engineers Updated With Agentic AI - Interview
+    Kickstart Program Taught By FAANG ML Experts
+  description: SANTA CLARA, CA, Nov.  13, 2025  (GLOBE NEWSWIRE) -- SANTA CLARA, CA
+    - November 13, 2025 -  -    As machine learning (ML) systems become increasingly......
+  url: https://www.globenewswire.com/news-release/2025/11/13/3187776/0/en/Machine-Learning-Course-for-Engineers-Updated-With-Agentic-AI-Interview-Kickstart-Program-Taught-By-FAANG-ML-Experts.html
+  date: '2025-11-13'
+  source: GlobeNewswire

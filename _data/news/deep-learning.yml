@@ -75,3 +75,17 @@ news_items:
   url: https://pypi.org/project/lighter/0.0.5/
   date: '2025-11-14'
   source: Pypi.org
+- title: Deep learning of thermodynamic laws from microscopic dynamics
+  description: We numerically show that a deep neural network (DNN) can learn macroscopic
+    thermodynamic laws purely from microscopic data. Using molecular dynamics simulations,
+    we generate the data of snapshot images of gas particles undergoing adiabatic
+    processes.
+  url: https://link.aps.org/doi/10.1103/p2z8-j69p
+  date: '2025-11-13'
+  source: Aps.org
+- title: 'AI AMA: How Deep Learning is Rewiring Advertising'
+  description: Cognitiv’s Jeremy Fain answers questions about AI in an Ask Me Anything
+    session at Brandweek.
+  url: https://www.adweek.com/brand-marketing/ai-ama-how-deep-learning-is-rewiring-advertising/
+  date: '2025-11-12'
+  source: Adweek
