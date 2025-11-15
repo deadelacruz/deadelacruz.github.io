@@ -110,13 +110,17 @@
     
     // Store last updated timestamp from Jekyll (if available)
     {% assign last_updated = site.data.news_last_updated.last_updated %}
-    const LAST_UPDATED_TIMESTAMP = {% if last_updated %}"{{ last_updated }}"{% else %}null{% endif %};
+    {% if last_updated %}
+      const LAST_UPDATED_TIMESTAMP = {{ last_updated | jsonify }};
+    {% else %}
+      const LAST_UPDATED_TIMESTAMP = null;
+    {% endif %}
     
     let currentPage = 1;
     let showAllMode = false;
     
     // Initialize pagination on page load
-    document.addEventListener('DOMContentLoaded', function() {
+    function initializePage() {
       if (ENABLE_PAGINATION && TOTAL_ARTICLES > ARTICLES_PER_PAGE) {
         initializePagination();
       } else {
@@ -127,7 +131,15 @@
       // Always initialize Philippines time display (dynamically converts to PH time)
       updatePhilippinesTime();
       setInterval(updatePhilippinesTime, 60000); // Update every minute
-    });
+    }
+    
+    // Run immediately if DOM is already loaded, otherwise wait for DOMContentLoaded
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializePage);
+    } else {
+      // DOM is already loaded
+      initializePage();
+    }
     
     function initializePagination() {
       showAllMode = false;
@@ -286,10 +298,18 @@
     // Display time in Philippines timezone (PHT - UTC+8) - dynamically formats timestamp in PH time
     function updatePhilippinesTime() {
       const timeElement = document.getElementById('philippines-time');
-      if (!timeElement) return;
+      if (!timeElement) {
+        console.warn('philippines-time element not found');
+        return;
+      }
+      
+      // Debug: log the timestamp value
+      if (typeof LAST_UPDATED_TIMESTAMP !== 'undefined') {
+        console.log('LAST_UPDATED_TIMESTAMP:', LAST_UPDATED_TIMESTAMP, 'Type:', typeof LAST_UPDATED_TIMESTAMP);
+      }
       
       // If we have a timestamp from the YAML file, parse and display it in PH time format
-      if (LAST_UPDATED_TIMESTAMP) {
+      if (LAST_UPDATED_TIMESTAMP && typeof LAST_UPDATED_TIMESTAMP === 'string' && LAST_UPDATED_TIMESTAMP.trim() !== '') {
         // Parse timestamp format: "2025-11-15 08:24:16 AM GMT +8" or "2025-11-15 12:47:02 PM GMT +8"
         const timestampStr = LAST_UPDATED_TIMESTAMP.replace(' GMT +8', '').trim();
         
@@ -333,20 +353,15 @@
                 const [datePartFormatted, timePart] = dateParts;
                 const [month, day, year] = datePartFormatted.split('/');
                 timeElement.textContent = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')} ${timePart} GMT +8`;
-              } else {
-                // Fallback: use original timestamp
-                timeElement.textContent = LAST_UPDATED_TIMESTAMP;
+                return; // Success, exit early
               }
-            } else {
-              // If parsing failed, display original timestamp
-              timeElement.textContent = LAST_UPDATED_TIMESTAMP;
             }
-          } else {
-            // If format doesn't match, display original timestamp
-            timeElement.textContent = LAST_UPDATED_TIMESTAMP;
           }
+          // If we get here, parsing failed - use original timestamp
+          timeElement.textContent = LAST_UPDATED_TIMESTAMP;
         } catch (e) {
           // If parsing fails, display original timestamp
+          console.warn('Error parsing timestamp:', e);
           timeElement.textContent = LAST_UPDATED_TIMESTAMP;
         }
       } else {
