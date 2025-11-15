@@ -8,6 +8,11 @@ on:
     - cron: '0 0,12 * * *'
   workflow_dispatch: # Allow manual triggering
 
+# Prevent concurrent runs to avoid divergent branches
+concurrency:
+  group: update-news
+  cancel-in-progress: false  # Let the current run finish, queue others
+
 jobs:
   update-news:
     runs-on: ubuntu-latest
@@ -29,6 +34,34 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+
+      - name: Pull latest changes before updating
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          # Configure pull strategy to use merge (not rebase)
+          git config pull.rebase false
+          git config pull.ff false
+          
+          # Fetch latest changes from remote
+          echo "Fetching latest changes from remote..."
+          git fetch origin master
+          
+          # Check if remote is ahead of local
+          REMOTE_AHEAD=$(git rev-list HEAD..origin/master --count 2>/dev/null || echo "0")
+          
+          if [ "$REMOTE_AHEAD" -gt 0 ]; then
+            echo "Remote is ahead by $REMOTE_AHEAD commits. Pulling and merging..."
+            # Pull and merge remote changes BEFORE making any local changes
+            git pull origin master --no-edit || {
+              echo "Merge conflict detected. Resolving by keeping remote version..."
+              git merge --abort || true
+              git reset --hard origin/master
+            }
+            echo "Successfully synced with remote"
+          else
+            echo "Local branch is already up to date with remote"
+          fi
 
       - name: Update news
         env:
@@ -56,60 +89,34 @@ jobs:
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          # Configure pull strategy to use merge (not rebase) to avoid divergent branch errors
-          git config pull.rebase false
-          git config pull.ff false
-          
-          # Fetch latest changes from remote
-          echo "Fetching latest changes from remote..."
-          git fetch origin master
-          
-          # Stash our local changes temporarily to allow clean merge
-          echo "Stashing local news changes..."
-          git stash push -m "Temporary stash for news updates" _data/news/
-          
-          # Check if remote is ahead of local
-          REMOTE_AHEAD=$(git rev-list HEAD..origin/master --count 2>/dev/null || echo "0")
-          
-          if [ "$REMOTE_AHEAD" -gt 0 ]; then
-            echo "Remote is ahead by $REMOTE_AHEAD commits. Merging remote changes..."
-            # Merge remote changes first
-            if git merge origin/master --no-edit; then
-              echo "Merge completed successfully"
-            else
-              echo "Merge had conflicts, aborting merge and keeping remote version..."
-              git merge --abort || true
-              # If merge fails, we'll still apply our stashed changes on top
-            fi
-          else
-            echo "Local branch is up to date with remote"
-          fi
-          
-          # Restore our stashed changes (our news updates take priority)
-          echo "Restoring stashed news changes..."
-          if ! git stash pop; then
-            echo "Stash pop had conflicts, keeping our stashed version (new news updates)..."
-            # If there are conflicts, keep our stashed version (the new news updates)
-            # In stash pop context: --theirs = stashed changes (our new updates)
-            git checkout --theirs _data/news/ 2>/dev/null || true
-            git add _data/news/
-          fi
-          
-          # Stage our news file changes
+          # Stage the news file changes
           echo "Staging news file changes..."
           git add _data/news/
           
-          # Check if we have changes to commit
-          if ! git diff --cached --quiet; then
-            echo "Committing local changes..."
-            git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')"
-          else
-            echo "No changes to commit after merge"
-          fi
+          # Commit the changes
+          echo "Committing changes..."
+          git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')"
           
-          # Push to remote
+          # Push to remote (with retry logic in case of race condition)
           echo "Pushing to remote..."
-          git push origin master
-
+          MAX_RETRIES=3
+          RETRY_COUNT=0
+          
+          while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+            if git push origin master; then
+              echo "Successfully pushed to remote"
+              break
+            else
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Push failed, pulling latest and retrying (attempt $RETRY_COUNT/$MAX_RETRIES)..."
+                git pull origin master --no-edit || git reset --hard origin/master
+                # Re-apply our changes if they were lost
+                git add _data/news/
+                git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')" || true
+              else
+                echo "Failed to push after $MAX_RETRIES attempts"
+                exit 1
+              fi
+            fi
+          done
