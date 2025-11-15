@@ -71,7 +71,7 @@ class TestFetchFromNewsapi:
                     "source": {"name": "Tech News"}
                 }
             ]
-        }, True, False)
+        }, True, False, False)
         
         mock_process.return_value = {
             "title": "Machine Learning News",
@@ -121,12 +121,12 @@ class TestFetchFromNewsapi:
                         "source": {"name": "Tech News"}
                     }
                 ]
-            }, True, False),
+            }, True, False, False),
             # Second page with error status
             ({
                 "status": "error",
                 "message": "Rate limit exceeded"
-            }, True, False)
+            }, True, False, False)
         ]
         
         mock_process.return_value = {"title": "ML Article 1", "date": "2025-01-15", "url": "1", "description": "", "source": ""}
@@ -170,7 +170,7 @@ class TestFetchFromNewsapi:
                         "source": {"name": "Tech News"}
                     }
                 ]
-            }, True, False),
+            }, True, False, False),
             # Second page
             ({
                 "status": "ok",
@@ -183,7 +183,7 @@ class TestFetchFromNewsapi:
                         "source": {"name": "Tech News"}
                     }
                 ]
-            }, True, False)
+            }, True, False, False)
         ]
         
         mock_process.side_effect = [
@@ -218,7 +218,7 @@ class TestFetchFromNewsapi:
         mock_fetch_page.return_value = ({
             "status": "error",
             "message": "Invalid API key"
-        }, True, False)
+        }, True, False, False)
         
         config = {
             "news_sources": {
@@ -243,7 +243,7 @@ class TestFetchFromNewsapi:
             "status": "ok",
             "totalResults": 0,
             "articles": []
-        }, True, False)
+        }, True, False, False)
         
         config = {
             "news_sources": {
@@ -264,7 +264,7 @@ class TestFetchFromNewsapi:
     @patch('update_news.fetch_articles_page')
     def test_fetch_from_newsapi_fetch_failure(self, mock_fetch_page):
         """Test handling fetch page failure."""
-        mock_fetch_page.return_value = (None, False, False)
+        mock_fetch_page.return_value = (None, False, False, False)
         
         config = {
             "news_sources": {
@@ -291,8 +291,8 @@ class TestFetchFromNewsapi:
                 "status": "ok",
                 "totalResults": 250,
                 "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
-            (None, False, False)  # Second page fails
+            }, True, False, False),
+            (None, False, False, False)  # Second page fails
         ]
         
         mock_process.return_value = {"title": "Test", "date": "2025-01-15", "url": "1", "description": "", "source": ""}
@@ -505,16 +505,16 @@ class TestFetchFromNewsapi:
                     "status": "ok",
                     "totalResults": 250,
                     "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-                }, True, False)
+                }, True, False, False)
             elif call_count[0] == 2:
                 # Second page - return success
                 return ({
                     "status": "ok",
                     "articles": [{"url": "2", "title": "Test2", "description": "test", "publishedAt": "2025-01-14T10:00:00Z", "source": {"name": "Test"}}]
-                }, True, False)
+                }, True, False, False)
             else:
                 # Should not reach here if break works
-                return (None, False, False)
+                return (None, False, False, False)
         
         mock_fetch_page.side_effect = fetch_side_effect
         # Mock process_article to return articles for both pages

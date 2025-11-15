@@ -22,6 +22,9 @@ from update_news import (
     update_news_file,
     process_topic,
     fetch_from_newsapi,
+    fetch_combined_from_newsapi,
+    build_combined_api_params,
+    route_article_to_topic,
     main,
     CONFIG_FILE
 )
@@ -152,11 +155,12 @@ class TestMakeApiRequestErrorHandling:
         params = {"q": "test"}
         config = {"article_processing": {"max_error_text_length": 500}}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is False
         assert response_data is None
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
     
     @patch('update_news.requests.get')
     def test_make_api_request_http_error_no_text(self, mock_get):
@@ -175,10 +179,11 @@ class TestMakeApiRequestErrorHandling:
         params = {"q": "test"}
         config = {}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is False
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
 
 
 class TestUpdateNewsFileErrorHandling:
@@ -445,12 +450,12 @@ class TestFetchFromNewsapiPagination:
                 "status": "ok",
                 "totalResults": 250,
                 "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
+            }, True, False, False),
             # Second page has error status
             ({
                 "status": "error",
                 "message": "Rate limit"
-            }, True, False)
+            }, True, False, False)
         ]
         
         mock_process.return_value = {"title": "Test", "date": "2025-01-15", "url": "1", "description": "", "source": ""}
@@ -538,18 +543,18 @@ class TestProcessArticleEdgeCases:
         assert "machine learning" in call_args[1]
 
 
-class TestMakeApiRequest429Error:
-    """Test make_api_request 429 error handling for 100% coverage."""
+class TestMakeApiRequestRateLimitError:
+    """Test make_api_request rate limit error handling for 100% coverage (dynamic detection)."""
     
     @patch('update_news.requests.get')
-    def test_make_api_request_429_with_exception(self, mock_get):
-        """Test make_api_request 429 error with exception in error parsing (lines 393-395)."""
+    def test_make_api_request_rate_limit_with_exception(self, mock_get):
+        """Test make_api_request rate limit error with exception in error parsing (dynamic detection)."""
         import requests
         mock_response = Mock()
-        mock_response.status_code = 429
+        mock_response.status_code = 400  # Any error status code
         # First call to json() succeeds, second call (in except block) raises exception
         mock_response.json.side_effect = Exception("Parse error")
-        mock_response.text = "Error text"
+        mock_response.text = "Rate limit exceeded"  # Error text contains rate limit indicator
         
         http_error = requests.exceptions.HTTPError()
         http_error.response = mock_response
@@ -559,11 +564,12 @@ class TestMakeApiRequest429Error:
         params = {"q": "test"}
         config = {"article_processing": {"max_error_text_length": 500}}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is False
         assert is_rate_limited is True
         assert response_data is None
+        assert is_result_limit_reached is False
     
     @patch('update_news.requests.get')
     def test_make_api_request_other_http_error_with_json(self, mock_get):
@@ -581,10 +587,11 @@ class TestMakeApiRequest429Error:
         params = {"q": "test"}
         config = {}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is False
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
 
 
 class TestFetchFromNewsapiApiLimits:
@@ -669,7 +676,7 @@ class TestFetchFromNewsapiApiLimits:
         """Test fetch_from_newsapi rate limit on first page (lines 513-514)."""
         mock_date.return_value = ("2025-01-01", "2025-01-15")
         mock_build.return_value = {"q": "test"}
-        mock_fetch.return_value = (None, False, True)  # is_rate_limited = True
+        mock_fetch.return_value = (None, False, True, False)  # is_rate_limited = True
         
         config = {
             "news_sources": {
@@ -691,7 +698,7 @@ class TestFetchFromNewsapiApiLimits:
         """Test fetch_from_newsapi when first page fetch fails (line 517)."""
         mock_date.return_value = ("2025-01-01", "2025-01-15")
         mock_build.return_value = {"q": "test"}
-        mock_fetch.return_value = (None, False, False)  # success = False
+        mock_fetch.return_value = (None, False, False, False)  # success = False
         
         config = {
             "news_sources": {
@@ -720,7 +727,7 @@ class TestFetchFromNewsapiApiLimits:
                 "status": "ok",
                 "totalResults": 250,
                 "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
+            }, True, False, False),
         ]
         mock_process.return_value = {"title": "Test", "date": "2025-01-15", "url": "1", "description": "", "source": ""}
         
@@ -756,8 +763,8 @@ class TestFetchFromNewsapiApiLimits:
                 "status": "ok",
                 "totalResults": 250,
                 "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
-            (None, False, True)  # Rate limited on second page
+            }, True, False, False),
+            (None, False, True, False)  # Rate limited on second page
         ]
         mock_process.return_value = {"title": "Test", "date": "2025-01-15", "url": "1", "description": "", "source": ""}
         
@@ -789,11 +796,11 @@ class TestFetchFromNewsapiApiLimits:
                 "status": "ok",
                 "totalResults": 250,
                 "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
+            }, True, False, False),
             ({
                 "status": "ok",
                 "articles": [{"url": "2", "title": "Test", "description": "test", "publishedAt": "2025-01-14T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
+            }, True, False, False),
         ]
         mock_process.side_effect = [
             {"title": "Test", "date": "2025-01-15", "url": "1", "description": "", "source": ""},
@@ -828,14 +835,14 @@ class TestFetchFromNewsapiApiLimits:
                 "status": "ok",
                 "totalResults": 250,
                 "articles": [{"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}]
-            }, True, False),
+            }, True, False, False),
             ({
                 "status": "ok",
                 "articles": [
                     {"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}},  # Duplicate
                     {"url": "1", "title": "Test", "description": "test", "publishedAt": "2025-01-15T10:00:00Z", "source": {"name": "Test"}}   # Duplicate
                 ]
-            }, True, False),
+            }, True, False, False),
         ]
         mock_process.return_value = None  # All duplicates, so process_article returns None
         
@@ -1084,7 +1091,7 @@ class TestProcessTopicEdgeCases:
             assert result is True
             assert is_rate_limited is True
             assert rate_limited_flag['value'] is True
-            assert "Rate limit (429) detected" in output
+            assert "Rate limit detected" in output or "Rate limit error detected" in output
         finally:
             sys.stdout = old_stdout
     
@@ -1372,7 +1379,7 @@ class TestMainFunction:
         try:
             main()
             output = sys.stdout.getvalue()
-            assert "Rate Limit (429) Detected" in output
+            assert "Rate Limit Detected" in output or "Rate limit detected" in output
             assert "Quota Exhausted" in output
             assert "remaining topic(s) will use cached articles" in output
         finally:
@@ -1464,7 +1471,7 @@ class TestMainFunction:
             main()
             output = sys.stdout.getvalue()
             assert "[INFO] News update complete (using cached articles)" in output
-            assert "Rate limit (429) detected" in output
+            assert "Rate limit detected" in output or "Rate limit error detected" in output
             assert "Cached articles are still available" in output
             assert "Next run will fetch new articles" in output
         finally:

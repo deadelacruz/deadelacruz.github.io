@@ -22,13 +22,13 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 - Topics are defined in `_data/news_config.yml` (Deep Learning, Machine Learning, Artificial Intelligence by default).  
 - **Exact phrase matching**: Searches for exact phrases only (e.g., "Deep Learning", "Machine Learning", "Artificial Intelligence") - case-insensitive.  
 - Articles are fetched with `update_news.py`, filtered by exact phrase matching, deduplicated, stored under `_data/news/*.yml`, and rendered by the Jekyll UI.  
-- **Rate limiting & retry logic**: Automatic retry with exponential backoff for 429 errors, API call tracking to prevent hitting limits, and delays between topics.  
+- **Rate limiting & retry logic**: Automatic retry with exponential backoff for rate limit errors (detected dynamically), API call tracking to prevent hitting limits, and delays between topics.  
 - Comprehensive logging, metrics (`_data/news_metrics.json`), and JSON/YAML outputs ensure transparency.
 
 ### How Fetching Works
 1. **Config** → `_data/news_config.yml` defines API settings, exact phrase queries, rate limiting, and output paths.  
 2. **CLI Wrapper** → `python -m update_news` (or `python update_news.py`) calls `run_cli()` which handles success/error exit codes.  
-3. **Rate Limiting** → Tracks API calls (default: max 45 per run), adds delays between topics, and retries with exponential backoff on 429 errors.  
+3. **Rate Limiting** → Tracks API calls (default: max 45 per run), adds delays between topics, and retries with exponential backoff on rate limit errors (detected dynamically).  
 4. **Metrics** → Execution stats are exported automatically and can be consumed by dashboards or CI.
 
 ---
@@ -79,7 +79,7 @@ Data lands in `_data/news/<topic>.yml`. Rebuild the Jekyll site to see the cards
 **Note**: The script automatically handles NewsAPI rate limits (50 requests per 12 hours for free tier) by:
 - Tracking total API calls and stopping before hitting the limit (default: 45 calls max)
 - Adding delays between topics (default: 2 seconds)
-- Retrying with exponential backoff on 429 errors (up to 3 retries)
+- Retrying with exponential backoff on rate limit errors (detected dynamically, up to 3 retries)
 - Preserving existing articles if rate limits are hit
 
 ---

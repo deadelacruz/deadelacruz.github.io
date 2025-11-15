@@ -4,28 +4,36 @@
 # API Configuration
 api:
   base_url: "https://newsapi.org/v2/everything"
-  timeout_seconds: 15
-  max_page_size: 100  # NewsAPI maximum
-  max_pages: 5  # Maximum number of pages per topic (fallback limit, early stopping will usually stop before this)
+  timeout_seconds: 15  # Request timeout in seconds (range: 1-60)
+  max_page_size: 100  # NewsAPI maximum (range: 1-100)
   language: "en"
   sort_by: "publishedAt"
-  rate_limit_delay_seconds: 1.0  # Delay between API calls to respect rate limits
-  topic_delay_seconds: 2.0  # Delay between topics to prevent hitting rate limits
-  max_api_calls: 45  # Maximum API calls per run (safety buffer under 50 limit per 12 hours)
-  max_retries: 3  # Maximum retries for rate limit errors (429)
-  retry_base_delay_seconds: 60  # Base delay for exponential backoff retries (1 minute)
+  max_api_calls: 45  # Maximum API calls per run (range: 1-50, safety buffer under 50 limit per 12 hours)
   
-  # Early Stopping Optimization (NEW - Reduces API calls significantly)
-  # Stop pagination early when we have enough articles or too many duplicates
-  min_articles_per_topic: 15  # Stop pagination when we have this many new articles per topic
-  early_stop_duplicate_threshold: 0.7  # Stop if 70%+ of articles on a page are duplicates (0.0-1.0)
+  # Pagination & Rate Limiting
+  max_pages: 5  # Maximum pages to fetch per topic when not using combined mode (range: 1-10, default: 5)
+  rate_limit_delay_seconds: 1.0  # Delay between page requests to avoid rate limits (range: 0-10, default: 1.0)
+  topic_delay_seconds: 2.0  # Delay between topics when using separate requests (range: 0-10, default: 2.0)
+  
+  # Early Stopping Optimization
+  # These settings help optimize API usage by stopping pagination early when enough articles are found
+  min_articles_per_topic: 10  # Stop pagination when we have this many new articles (range: 1-100, default: 10)
+  early_stop_duplicate_threshold: 0.7  # Stop if this percentage of articles are duplicates (range: 0.0-1.0, default: 0.7 = 70%)
+  
+  # Combined Request Optimization
+  # When enabled, combines all topics into a single API request using OR operator
+  # Benefits: Reduces API calls from N (one per topic) to 1, faster execution, lower rate limit risk
+  # Articles are automatically routed to the correct topic files based on which phrase they match
+  # IMPORTANT: Combined requests are limited to 1 page (100 results max total) to get balanced distribution across topics
+  # Results are automatically distributed across all topics based on what NewsAPI returns
+  combine_topics_in_single_request: true  # Set to true to use 1 request for all topics (max 100 results total), false for separate requests
 
 # Date Range Configuration
 date_range:
-  lookback_days: 30  # How many days back to search from NewsAPI (MAXIMUM for free tier - cannot go higher!)
+  lookback_days: 30  # How many days back to search from NewsAPI (range: 1-30, MAXIMUM for free tier - cannot go higher!)
   exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay (articles <24h old not available)
-  exclude_today_offset_days: 0  # Changed from 1 to 0: Now includes yesterday to get most recent articles possible
-  retention_days: 90  # How many days to keep articles in UI (increased to build cache over time)
+  exclude_today_offset_days: 0  # Query goes up to today, but due to 24-hour delay, most recent available articles are from yesterday (range: 0-7)
+  retention_days: 90  # How many days to keep articles in UI (range: 1-365, increased to build cache over time)
   # NOTE: NewsAPI free tier limitations:
   # - Only allows articles up to 30 days old
   # - Has 24-hour delay (articles <24h old not available)
@@ -34,10 +42,10 @@ date_range:
 
 # Article Processing Configuration
 article_processing:
-  max_description_length: 250  # Maximum characters for article description
-  max_title_preview_length: 60  # Maximum characters for title preview in logs
-  max_error_text_length: 500  # Maximum characters for error text in logs
-  debug_log_filtered_limit: 3  # Only log first N filtered articles to avoid spam
+  max_description_length: 250  # Maximum characters for article description (range: 50-1000)
+  max_title_preview_length: 60  # Maximum characters for title preview in logs (range: 20-200)
+  max_error_text_length: 500  # Maximum characters for error text in logs (range: 100-2000)
+  debug_log_filtered_limit: 3  # Only log first N filtered articles to avoid spam (range: 0-100)
 
 # Metrics Configuration
 metrics:
@@ -46,7 +54,7 @@ metrics:
 
 # UI Display Configuration
 ui:
-  articles_per_page: 20  # Number of articles to show per page (default: 20)
+  articles_per_page: 20  # Number of articles to show per page (range: 1-100, default: 20)
   enable_pagination: true  # Enable pagination (true) or show all articles (false)
   show_all_option: true  # Show "Show All" button to display all articles at once
 
@@ -56,27 +64,18 @@ ui:
 # - "Machine Learning" or "machine learning" only  
 # - "Artificial Intelligence" or "artificial intelligence" only
 #
-# Optimization Settings:
-# - priority: Lower number = higher priority (processed first). If rate limit hits, high-priority topics are guaranteed.
-# - max_pages: Optional override for this topic (defaults to api.max_pages)
-#
-# Expected API calls with early stopping: 3 topics × 2-3 pages = 6-9 calls (vs 15 without optimization)
-# This leaves plenty of buffer under the 50 requests per 12 hours limit
-# Running twice daily (every 12 hours) maximizes use of free tier quota
+# When combine_topics_in_single_request is enabled, all topics are automatically included in 1 API call.
+# Articles are automatically routed to the correct topic files based on which phrase they match.
 news_sources:
   deep-learning:
     name: "Deep Learning"
     title_query: "Deep Learning"  # Exact phrase only: "Deep Learning" or "deep learning"
-    priority: 1  # Highest priority - processed first
-    # max_pages: 5  # Optional: override global limit for this topic
   
   machine-learning:
     name: "Machine Learning"
     title_query: "Machine Learning"  # Exact phrase only: "Machine Learning" or "machine learning"
-    priority: 2  # Medium priority
   
   artificial-intelligence:
     name: "Artificial Intelligence"
     title_query: "Artificial Intelligence"  # Exact phrase only: "Artificial Intelligence" or "artificial intelligence"
-    priority: 3  # Lower priority (will be skipped if quota runs low)
 

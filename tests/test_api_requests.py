@@ -75,21 +75,22 @@ class TestMakeApiRequest:
         params = {"q": "test"}
         config = {}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is True
         assert response_data == {"status": "ok", "articles": []}
         assert response_time >= 0
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
         mock_get.assert_called_once()
     
     @patch('update_news.requests.get')
     def test_make_api_request_http_error(self, mock_get):
-        """Test API request with HTTP error."""
+        """Test API request with HTTP error (rate limit detected dynamically)."""
         import requests
         mock_response = Mock()
-        mock_response.status_code = 429
-        mock_response.json.return_value = {"message": "Rate limit exceeded"}
+        mock_response.status_code = 400  # Any error status code
+        mock_response.json.return_value = {"code": "rateLimitExceeded", "message": "Rate limit exceeded"}
         mock_response.text = "Rate limit exceeded"
         
         http_error = requests.exceptions.HTTPError()
@@ -100,12 +101,13 @@ class TestMakeApiRequest:
         params = {"q": "test"}
         config = {}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is False
         assert response_data is None
         assert response_time >= 0
-        assert is_rate_limited is True  # 429 errors return is_rate_limited=True
+        assert is_rate_limited is True  # Rate limit errors return is_rate_limited=True (detected dynamically)
+        assert is_result_limit_reached is False
     
     @patch('update_news.requests.get')
     def test_make_api_request_timeout(self, mock_get):
@@ -117,11 +119,12 @@ class TestMakeApiRequest:
         params = {"q": "test"}
         config = {}
         
-        response_data, response_time, success, is_rate_limited = make_api_request(url, params, config)
+        response_data, response_time, success, is_rate_limited, is_result_limit_reached = make_api_request(url, params, config)
         
         assert success is False
         assert response_data is None
         assert is_rate_limited is False  # Timeout is not a rate limit
+        assert is_result_limit_reached is False
     
     @patch('update_news.requests.get')
     def test_make_api_request_with_custom_timeout(self, mock_get):
@@ -149,7 +152,7 @@ class TestFetchArticlesPage:
     @patch('update_news.time.sleep')
     def test_fetch_articles_page_first_page(self, mock_sleep, mock_make_request):
         """Test fetching first page (no rate limiting)."""
-        mock_make_request.return_value = ({"status": "ok"}, 100.0, True, False)
+        mock_make_request.return_value = ({"status": "ok"}, 100.0, True, False, False)
         
         tracker = MetricsTracker()
         url = "https://api.example.com"
@@ -157,18 +160,19 @@ class TestFetchArticlesPage:
         config = {}
         topic = "machine-learning"
         
-        response_data, success, is_rate_limited = fetch_articles_page(url, params, 1, config, tracker, topic)
+        response_data, success, is_rate_limited, is_result_limit_reached = fetch_articles_page(url, params, 1, config, tracker, topic)
         
         assert success is True
         assert response_data == {"status": "ok"}
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
         mock_sleep.assert_not_called()  # No delay for first page
     
     @patch('update_news.make_api_request')
     @patch('update_news.time.sleep')
     def test_fetch_articles_page_with_rate_limiting(self, mock_sleep, mock_make_request):
         """Test fetching subsequent page with rate limiting."""
-        mock_make_request.return_value = ({"status": "ok"}, 100.0, True, False)
+        mock_make_request.return_value = ({"status": "ok"}, 100.0, True, False, False)
         
         tracker = MetricsTracker()
         url = "https://api.example.com"
@@ -176,17 +180,18 @@ class TestFetchArticlesPage:
         config = {"api": {"rate_limit_delay_seconds": 2.0}}
         topic = "machine-learning"
         
-        response_data, success, is_rate_limited = fetch_articles_page(url, params, 2, config, tracker, topic)
+        response_data, success, is_rate_limited, is_result_limit_reached = fetch_articles_page(url, params, 2, config, tracker, topic)
         
         assert success is True
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
         mock_sleep.assert_called_once_with(2.0)  # Should delay for page 2+
     
     @patch('update_news.make_api_request')
     @patch('update_news.time.sleep')
     def test_fetch_articles_page_rate_limit_disabled(self, mock_sleep, mock_make_request):
         """Test fetching with rate limiting disabled."""
-        mock_make_request.return_value = ({"status": "ok"}, 100.0, True, False)
+        mock_make_request.return_value = ({"status": "ok"}, 100.0, True, False, False)
         
         tracker = MetricsTracker()
         url = "https://api.example.com"
@@ -194,9 +199,10 @@ class TestFetchArticlesPage:
         config = {"api": {"rate_limit_delay_seconds": 0}}
         topic = "machine-learning"
         
-        response_data, success, is_rate_limited = fetch_articles_page(url, params, 2, config, tracker, topic)
+        response_data, success, is_rate_limited, is_result_limit_reached = fetch_articles_page(url, params, 2, config, tracker, topic)
         
         assert success is True
         assert is_rate_limited is False
+        assert is_result_limit_reached is False
         mock_sleep.assert_not_called()  # No delay when set to 0
 
