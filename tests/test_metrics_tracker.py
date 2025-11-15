@@ -7,10 +7,32 @@ import pytest
 import json
 import tempfile
 import time
+import logging
+from io import StringIO
+from contextlib import contextmanager
 
 # Add parent directory to path to import update_news
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from update_news import MetricsTracker
+import update_news
+
+
+@contextmanager
+def capture_logger_output():
+    """Context manager to capture logger output to a StringIO."""
+    old_handlers = update_news.logger.handlers[:]
+    old_level = update_news.logger.level
+    output = StringIO()
+    handler = logging.StreamHandler(output)
+    handler.setLevel(logging.DEBUG)
+    handler.setFormatter(logging.Formatter('[%(levelname)s] %(message)s'))
+    update_news.logger.handlers = [handler]
+    update_news.logger.setLevel(logging.DEBUG)
+    try:
+        yield output
+    finally:
+        update_news.logger.handlers = old_handlers
+        update_news.logger.setLevel(old_level)
 
 
 class TestMetricsTracker:
@@ -143,36 +165,23 @@ class TestMetricsTracker:
         tracker.record_article_filtered("test-topic")
         tracker.record_article_saved("test-topic", 5)
         
-        # Capture stdout
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             tracker.print_summary()
-            output = sys.stdout.getvalue()
-            assert "METRICS" in output
-            assert "test-topic" in output
-            assert "API Calls: 2" in output
-            assert "Avg Response Time" in output
-        finally:
-            sys.stdout = old_stdout
+            output_str = output.getvalue()
+            assert "METRICS" in output_str
+            assert "test-topic" in output_str
+            assert "API Calls: 2" in output_str
+            assert "Avg Response Time" in output_str
     
     def test_print_summary_empty_metrics(self):
         """Test print_summary with no metrics."""
         tracker = MetricsTracker()
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             tracker.print_summary()
-            output = sys.stdout.getvalue()
-            assert "METRICS" in output
-            assert "Total execution time" in output
-        finally:
-            sys.stdout = old_stdout
+            output_str = output.getvalue()
+            assert "METRICS" in output_str
+            assert "Total execution time" in output_str
 

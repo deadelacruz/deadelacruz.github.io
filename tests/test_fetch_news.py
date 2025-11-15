@@ -4,7 +4,10 @@ Unit tests for news fetching functionality.
 import os
 import sys
 import pytest
+import logging
 from unittest.mock import Mock, patch, MagicMock
+from io import StringIO
+from contextlib import contextmanager
 
 # Add parent directory to path to import update_news
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -13,6 +16,21 @@ from update_news import (
     MetricsTracker,
     DEFAULT_MAX_PAGES
 )
+import update_news
+
+
+@contextmanager
+def capture_logger_output():
+    """Context manager to capture logger output to a StringIO."""
+    old_handlers = update_news.logger.handlers[:]
+    output = StringIO()
+    handler = logging.StreamHandler(output)
+    handler.setFormatter(logging.Formatter('[%(levelname)s] %(message)s'))
+    update_news.logger.handlers = [handler]
+    try:
+        yield output
+    finally:
+        update_news.logger.handlers = old_handlers
 
 
 class TestFetchFromNewsapi:
@@ -364,20 +382,14 @@ class TestFetchFromNewsapi:
         metrics = MetricsTracker()
         api_call_count = ChangingApiCount()
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_from_newsapi("test-topic", "key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
+            output_str = output.getvalue()
             assert result == []
             assert is_rate_limited is False
-            assert "No API calls remaining" in output
+            assert "No API calls remaining" in output_str
             assert mock_fetch_page.call_count == 0
-        finally:
-            sys.stdout = old_stdout
     
     @patch('update_news.fetch_articles_page')
     @patch('update_news.calculate_date_range')
@@ -425,19 +437,13 @@ class TestFetchFromNewsapi:
         metrics = MetricsTracker()
         api_call_count = ChangingDict()
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_from_newsapi("test-topic", "key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
+            output_str = output.getvalue()
             # Should hit the check at line 504-506
-            assert "API call limit reached" in output or result == []
+            assert "API call limit reached" in output_str or result == []
             assert mock_fetch_page.call_count == 0
-        finally:
-            sys.stdout = old_stdout
     
     @patch('update_news.fetch_articles_page')
     @patch('update_news.process_article')
@@ -523,19 +529,13 @@ class TestFetchFromNewsapi:
             {"title": "Test2", "date": "2025-01-14", "url": "2", "description": "", "source": ""}
         ]
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_from_newsapi("test-topic", "key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
+            output_str = output.getvalue()
             # Should hit the check at line 554-556 when checking for page 3
             # The message should be: "API call limit reached. Stopping pagination at page 2."
-            assert "API call limit reached" in output or "Stopping pagination" in output
+            assert "API call limit reached" in output_str or "Stopping pagination" in output_str
             # Should only fetch 2 pages (first + second), not third
             assert mock_fetch_page.call_count == 2
-        finally:
-            sys.stdout = old_stdout
 

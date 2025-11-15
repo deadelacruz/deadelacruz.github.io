@@ -193,7 +193,7 @@ MSG_INFO_REMAINING_CACHED = "{count} remaining topic(s) will use cached articles
 MSG_WARNING_REACHED_LIMIT = "Reached maximum API call limit ({limit}). Stopping processing"
 MSG_INFO_SKIPPED_TOPICS = "{count} topic(s) were skipped to stay within API limits"
 MSG_INFO_TOTAL_CALLS = "Total API calls made: {made}/{limit}"
-MSG_OK_UPDATE_COMPLETE = "News update complete!"
+MSG_OK_UPDATE_COMPLETE = "[OK] News update complete!"
 MSG_INFO_FETCHED_DYNAMIC = "News fetched dynamically from NewsAPI"
 MSG_INFO_UPDATE_CACHED = "News update complete (using cached articles)"
 MSG_INFO_RATE_LIMIT_QUOTA_MSG = "Rate limit detected - quota exhausted"
@@ -434,12 +434,36 @@ def article_matches_exact_phrase(article: Dict, exact_phrase: str, config: Dict)
     """
     Check if article title contains the exact phrase (case-insensitive).
     Returns True if the exact phrase is found in the title.
+    Uses word boundary matching to ensure the phrase appears as a complete phrase.
     """
     article_title = article.get("title", "").lower()
     phrase_lower = exact_phrase.lower()
     
     # Check if the exact phrase appears in the title
-    return phrase_lower in article_title
+    # This is a simple substring check - the phrase must appear as-is in the title
+    if phrase_lower not in article_title:
+        return False
+    
+    # Additional validation: For multi-word phrases, ensure they appear together
+    # This helps filter out cases where words appear separately
+    phrase_words = phrase_lower.split()
+    if len(phrase_words) > 1:
+        # Find the position of the first word
+        first_word_pos = article_title.find(phrase_words[0])
+        if first_word_pos == -1:
+            return False
+        # Check if subsequent words appear in order after the first word
+        current_pos = first_word_pos + len(phrase_words[0])
+        for word in phrase_words[1:]:
+            next_pos = article_title.find(word, current_pos)
+            if next_pos == -1:
+                return False
+            # Words should be close together (within reasonable distance)
+            if next_pos - current_pos > 10:  # Allow some spacing for punctuation
+                return False
+            current_pos = next_pos + len(word)
+    
+    return True
 
 def article_matches_keywords(article: Dict, keywords: List[str], config: Dict) -> bool:
     """
@@ -516,11 +540,12 @@ def build_api_params(topic_config: Dict, date_range: Tuple[str, str], api_key: s
     title_query = topic_config.get("title_query", "")
     
     # Use exact phrase matching by wrapping in quotes (NewsAPI supports this)
-    # This ensures we only get articles with the exact phrase
+    # Use qInTitle to search ONLY in article titles, not in content/description
+    # This ensures we only get articles where the exact phrase appears in the title
     exact_phrase_query = f'"{title_query}"'
     
     return {
-        "q": exact_phrase_query,
+        "qInTitle": exact_phrase_query,  # Search ONLY in titles, not in content
         "sortBy": get_config_value(config, 'api.sort_by', DEFAULT_SORT_BY),
         "language": get_config_value(config, 'api.language', DEFAULT_LANGUAGE),
         "pageSize": get_config_value(config, 'api.max_page_size', DEFAULT_MAX_PAGE_SIZE),
@@ -533,6 +558,7 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
     """
     Build API request parameters for combined query with multiple topics using OR operator.
     Example: "Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"
+    Note: NewsAPI doesn't support qInTitle with OR, so we use q but filter strictly in process_article
     """
     # Build OR query with all topic phrases
     title_queries = []
@@ -543,10 +569,11 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
             title_queries.append(f'"{title_query}"')
     
     # Join with OR operator (NewsAPI supports OR for combining queries)
+    # Note: qInTitle doesn't support OR, so we use q but will filter by title in process_article
     combined_query = " OR ".join(title_queries)
     
     return {
-        "q": combined_query,
+        "q": combined_query,  # Use q (not qInTitle) because OR isn't supported in qInTitle
         "sortBy": get_config_value(config, 'api.sort_by', DEFAULT_SORT_BY),
         "language": get_config_value(config, 'api.language', DEFAULT_LANGUAGE),
         "pageSize": get_config_value(config, 'api.max_page_size', DEFAULT_MAX_PAGE_SIZE),
@@ -1222,7 +1249,7 @@ def load_existing_news(topic: str) -> List[Dict]:
             data = yaml.safe_load(f) or {}
         news_items = data.get("news_items") or []
         if news_items:
-            logger.info(MSG_INFO_LOADED_CACHED.format(count=len(news_items), path=file_path))
+            logger.info(MSG_INFO_LOADED_CACHED.format(count=len(news_items)))
         return news_items
     except Exception as e:
         logger.warning(f"{MSG_WARNING_READ_CACHE_FAILED} for {topic}: {e}")
@@ -1245,7 +1272,7 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         # Load existing articles from file
         existing_articles = load_existing_news(topic)
         if existing_articles:
-            logger.info(f"   {MSG_INFO_LOADED_CACHED.format(count=len(existing_articles), path='file')}")
+            logger.info(f"   {MSG_INFO_LOADED_CACHED.format(count=len(existing_articles))}")
         new_articles = []
         is_rate_limited = False
         

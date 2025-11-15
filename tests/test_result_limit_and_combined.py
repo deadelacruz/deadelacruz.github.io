@@ -5,8 +5,10 @@ Covers missing lines for 100% coverage.
 import os
 import sys
 import pytest
+import logging
 from unittest.mock import Mock, patch, MagicMock
 from io import StringIO
+from contextlib import contextmanager
 
 # Add parent directory to path to import update_news
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -18,6 +20,25 @@ from update_news import (
     fetch_from_newsapi,
     MetricsTracker,
 )
+import update_news
+
+
+@contextmanager
+def capture_logger_output():
+    """Context manager to capture logger output to a StringIO."""
+    old_handlers = update_news.logger.handlers[:]
+    old_level = update_news.logger.level
+    output = StringIO()
+    handler = logging.StreamHandler(output)
+    handler.setLevel(logging.DEBUG)
+    handler.setFormatter(logging.Formatter('[%(levelname)s] %(message)s'))
+    update_news.logger.handlers = [handler]
+    update_news.logger.setLevel(logging.DEBUG)
+    try:
+        yield output
+    finally:
+        update_news.logger.handlers = old_handlers
+        update_news.logger.setLevel(old_level)
 
 
 class TestResultLimitHandling:
@@ -257,18 +278,12 @@ class TestCombinedRequestFunctions:
         metrics = MetricsTracker()
         api_call_count = {'total': 0}
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_combined_from_newsapi(topics_config, "test-key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
-            assert "exceeds 100 limit" in output or "total results" in output
+            output_str = output.getvalue()
+            assert "exceeds 100 limit" in output_str or "total results" in output_str
             assert is_rate_limited is False
-        finally:
-            sys.stdout = old_stdout
     
     @patch('update_news.calculate_date_range')
     def test_fetch_combined_from_newsapi_no_api_key(self, mock_date):
@@ -351,19 +366,13 @@ class TestFetchFromNewsapiResultLimit:
         metrics = MetricsTracker()
         api_call_count = {'total': 0}
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_from_newsapi("test-topic", "key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
-            assert "Result limit reached, but processing" in output
+            output_str = output.getvalue()
+            assert "Result limit reached, but processing" in output_str
             assert is_rate_limited is False
             assert len(result) == 1
-        finally:
-            sys.stdout = old_stdout
     
     @patch('update_news.fetch_articles_page')
     @patch('update_news.calculate_date_range')
@@ -382,19 +391,13 @@ class TestFetchFromNewsapiResultLimit:
         metrics = MetricsTracker()
         api_call_count = {'total': 0}
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_from_newsapi("test-topic", "key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
-            assert "Result limit reached on first page" in output
+            output_str = output.getvalue()
+            assert "Result limit reached on first page" in output_str
             assert is_rate_limited is False
             assert len(result) == 0
-        finally:
-            sys.stdout = old_stdout
     
     @patch('update_news.fetch_articles_page')
     @patch('update_news.process_article')
@@ -423,17 +426,11 @@ class TestFetchFromNewsapiResultLimit:
         metrics = MetricsTracker()
         api_call_count = {'total': 0}
         
-        from io import StringIO
-        import sys
-        old_stdout = sys.stdout
-        sys.stdout = StringIO()
-        
-        try:
+        # Capture logger output
+        with capture_logger_output() as output:
             result, is_rate_limited = fetch_from_newsapi("test-topic", "key", config, metrics, api_call_count)
-            output = sys.stdout.getvalue()
-            assert "exceeds 100 limit" in output or "total results" in output
+            output_str = output.getvalue()
+            assert "exceeds 100 limit" in output_str or "total results" in output_str
             assert is_rate_limited is False
             assert len(result) >= 1  # May have duplicates, so check >= 1
-        finally:
-            sys.stdout = old_stdout
 

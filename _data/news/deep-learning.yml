@@ -1,34 +1,4 @@
 news_items:
-- title: saibyo 0.14.0
-  description: A Python package for video interpolation using deep learning.
-  url: https://pypi.org/project/saibyo/0.14.0/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: mmv-im2im 0.6.2
-  description: A python package for deep learning based image to image transformation
-  url: https://pypi.org/project/mmv-im2im/0.6.2/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: saibyo 0.13.0
-  description: A Python package for video interpolation using deep learning.
-  url: https://pypi.org/project/saibyo/0.13.0/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: saibyo 0.12.1
-  description: A Python package for video interpolation using deep learning.
-  url: https://pypi.org/project/saibyo/0.12.1/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: konfai 1.3.7
-  description: Modular and configurable Deep Learning framework with YAML and PyTorch
-  url: https://pypi.org/project/konfai/1.3.7/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: netron 8.7.4
-  description: Viewer for neural network, deep learning and machine learning models.
-  url: https://pypi.org/project/netron/8.7.4/
-  date: '2025-11-14'
-  source: Pypi.org
 - title: MRI-based 2.5D deep learning and radiomics effectively predicted microvascular
     invasion and Ki-67 expression in hepatocellular carcinoma
   description: Objective To develop and validate an integrated 2.5D deep learning
@@ -38,43 +8,6 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336579
   date: '2025-11-14'
   source: Plos.org
-- title: paddlepaddle 3.2.2
-  description: Parallel Distributed Deep Learning
-  url: https://pypi.org/project/paddlepaddle/3.2.2/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: homa 0.3.306
-  description: A curated list of machine learning and deep learning helpers.
-  url: https://pypi.org/project/homa/0.3.306/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: homa 0.3.305
-  description: A curated list of machine learning and deep learning helpers.
-  url: https://pypi.org/project/homa/0.3.305/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: homa 0.3.304
-  description: A curated list of machine learning and deep learning helpers.
-  url: https://pypi.org/project/homa/0.3.304/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: tf-keras-nightly 2.21.0.dev2025111410
-  description: Deep learning for humans.
-  url: https://pypi.org/project/tf-keras-nightly/2.21.0.dev2025111410/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: triton-ascend 3.2.0rc4
-  description: A language and compiler for custom Deep Learning operations on Ascend
-    hardwares
-  url: https://pypi.org/project/triton-ascend/3.2.0rc4/
-  date: '2025-11-14'
-  source: Pypi.org
-- title: lighter 0.0.5
-  description: YAML-based automated rapid prototyping framework for deep learning
-    experiments
-  url: https://pypi.org/project/lighter/0.0.5/
-  date: '2025-11-14'
-  source: Pypi.org
 - title: Deep learning of thermodynamic laws from microscopic dynamics
   description: We numerically show that a deep neural network (DNN) can learn macroscopic
     thermodynamic laws purely from microscopic data. Using molecular dynamics simulations,
