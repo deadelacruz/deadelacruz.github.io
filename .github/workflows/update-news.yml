@@ -77,6 +77,14 @@ jobs:
           fi
           python update_news.py
 
+      - name: Update last updated timestamp
+        run: |
+          # Create timestamp file with current time in Philippines timezone (UTC+8)
+          # Format: YYYY-MM-DD HH:MM:SS with timezone info
+          TZ='Asia/Manila' timestamp=$(date +'%Y-%m-%d %H:%M:%S %Z')
+          echo "last_updated: \"$timestamp\"" > _data/news_last_updated.yml
+          echo "Updated timestamp: $timestamp"
+
       - name: Check for changes
         id: verify-changed-files
         run: |
@@ -89,9 +97,9 @@ jobs:
       - name: Commit and push changes
         if: steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          # Stage the news file changes
-          echo "Staging news file changes..."
-          git add _data/news/
+          # Stage the news file changes and timestamp file
+          echo "Staging news file changes and timestamp..."
+          git add _data/news/ _data/news_last_updated.yml
           
           # Commit the changes
           echo "Committing changes..."
@@ -112,7 +120,7 @@ jobs:
                 echo "Push failed, pulling latest and retrying (attempt $RETRY_COUNT/$MAX_RETRIES)..."
                 git pull origin master --no-edit || git reset --hard origin/master
                 # Re-apply our changes if they were lost
-                git add _data/news/
+                git add _data/news/ _data/news_last_updated.yml
                 git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')" || true
               else
                 echo "Failed to push after $MAX_RETRIES attempts"
@@ -120,3 +128,18 @@ jobs:
               fi
             fi
           done
+      
+      - name: Commit timestamp only (if no news changes)
+        if: steps.verify-changed-files.outputs.changed == 'false'
+        run: |
+          # Even if no news changed, update the timestamp to show the workflow ran
+          echo "No news changes detected, but updating timestamp to show workflow execution..."
+          git add _data/news_last_updated.yml
+          
+          # Check if there are any changes to commit
+          if ! git diff --cached --quiet; then
+            git commit -m "Update news timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
+            git push origin master || echo "Failed to push timestamp, but continuing..."
+          else
+            echo "No timestamp changes to commit"
+          fi
