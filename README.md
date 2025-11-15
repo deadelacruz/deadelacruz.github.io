@@ -12,6 +12,7 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 | **Frontend** | HTML5, Sass/CSS3, JavaScript, jQuery, Bootstrap, Font Awesome, Google Fonts |
 | **Site Engine** | Jekyll 4.3.3 |
 | **Automation** | Python 3.11+, NewsAPI, YAML data files |
+| **Code Quality** | Pre-commit hooks, Black (code formatter), isort (import sorter), pytest (testing) |
 | **Tooling & Deploy** | GitHub Pages, GitHub Actions, Netlify/Vercel/Firebase (optional), Docker |
 
 ---
@@ -26,7 +27,6 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 - **Early stopping optimization**: Stops pagination early when enough articles are found or when duplicate threshold is reached, optimizing API usage.  
 - **Dynamic error handling**: Automatically detects and handles rate limit errors and result limit errors (free tier: 100 results max per query), gracefully stopping pagination while preserving available results.  
 - **Rate limiting & API tracking**: Tracks total API calls (default: max 45 per run), adds delays between topics/pages, and preserves existing articles if rate limits are hit.  
-- **Cleanup script**: `cleanup_news.py` removes articles that don't match exact phrases in their titles, ensuring data quality.  
 - Comprehensive logging, metrics (`_data/news_metrics.json`), and JSON/YAML outputs ensure transparency.
 
 ### How Fetching Works
@@ -60,6 +60,9 @@ bundle install
 # Python deps for automation + tests
 pip install -r requirements.txt
 
+# (Optional) Set up pre-commit hooks for code formatting
+pre-commit install
+
 # Serve site
 bundle exec jekyll serve --livereload
 # http://localhost:4000
@@ -83,9 +86,6 @@ export NEWSAPI_KEY="your-api-key"        # Linux / macOS
 python update_news.py
 # or just rely on the CLI wrapper
 python -m update_news
-
-# 5. (Optional) Clean up articles that don't match exact phrases
-python cleanup_news.py
 ```
 Data lands in `_data/news/<topic>.yml`. Rebuild the Jekyll site to see the cards update.
 
@@ -126,6 +126,28 @@ Test files:
 - `test_date_calculation.py` - Date range calculations
 - `test_coverage_complete.py` - Coverage completeness checks
 
+### Code Formatting
+
+The project uses **pre-commit hooks** to ensure consistent code formatting. Hooks run automatically on `git commit` and format code using **Black** and **isort**.
+
+```bash
+# Install pre-commit hooks (one-time setup)
+pre-commit install
+
+# Run hooks manually on all files
+pre-commit run --all-files
+
+# Run hooks on staged files only
+pre-commit run
+```
+
+The hooks will:
+- Format Python code with **Black** (100 character line length)
+- Sort imports with **isort** (configured to work with Black)
+- Check for trailing whitespace, YAML/JSON validity, and other common issues
+
+Configuration is in `.pre-commit-config.yaml`. To skip hooks for a commit, use `git commit --no-verify` (not recommended).
+
 ---
 
 ## 📦 Deployment
@@ -157,7 +179,6 @@ Test files:
   - **Rate limiting**: API call tracking (max 45 per run), delays between topics/pages, preserves cached articles
   - **Article routing**: In combined mode, articles automatically routed to correct topic files
   - **Article deduplication** and retention period filtering (default: 90 days)
-  - **Cleanup script**: `cleanup_news.py` removes articles that don't match exact phrases
   - **Comprehensive logging** & metrics (`_data/news_metrics.json`) with per-topic statistics
   - **Python CLI entry point** with graceful error handling and exit codes
   - **GitHub Actions automation** (runs every 12 hours, aligned with NewsAPI quota reset)

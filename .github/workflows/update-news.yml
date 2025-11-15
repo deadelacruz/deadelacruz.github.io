@@ -75,7 +75,7 @@ jobs:
           else
             echo "NEWSAPI_KEY is set (length: ${#NEWSAPI_KEY} characters)"
           fi
-          python update_news.py
+          python -m update_news
 
       - name: Update last updated timestamp
         run: |
