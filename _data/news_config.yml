@@ -57,9 +57,9 @@ metrics:
 
 # UI Display Configuration
 ui:
-  articles_per_page: 20  # Number of articles to show per page (range: 1-100, default: 20)
-  enable_pagination: true  # Enable pagination (true) or show all articles (false)
-  show_all_option: true  # Show "Show All" button to display all articles at once
+  articles_per_page: 20  # Number of articles to show per page (range: 1-100, default: 20) - Not used when pagination is disabled
+  enable_pagination: false  # Enable pagination (true) or show all articles (false)
+  show_all_option: false  # Show "Show All" button to display all articles at once - Not used when pagination is disabled
 
 # News Sources Configuration
 # Each topic searches for exact phrase only (case-insensitive)
