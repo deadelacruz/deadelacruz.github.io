@@ -20,6 +20,7 @@ import requests
 import time
 import traceback
 import logging
+import re
 from datetime import datetime, timedelta, timezone
 from typing import Dict, List, Optional, Tuple
 from collections import defaultdict
@@ -434,36 +435,23 @@ def article_matches_exact_phrase(article: Dict, exact_phrase: str, config: Dict)
     """
     Check if article title contains the exact phrase (case-insensitive).
     Returns True if the exact phrase is found in the title.
-    Uses word boundary matching to ensure the phrase appears as a complete phrase.
+    Uses regex word boundaries to ensure the phrase appears as a complete phrase.
+    For multi-word phrases, ensures words appear together as a contiguous unit.
     """
-    article_title = article.get("title", "").lower()
-    phrase_lower = exact_phrase.lower()
-    
-    # Check if the exact phrase appears in the title
-    # This is a simple substring check - the phrase must appear as-is in the title
-    if phrase_lower not in article_title:
+    article_title = article.get("title", "")
+    if not article_title:
         return False
     
-    # Additional validation: For multi-word phrases, ensure they appear together
-    # This helps filter out cases where words appear separately
-    phrase_words = phrase_lower.split()
-    if len(phrase_words) > 1:
-        # Find the position of the first word
-        first_word_pos = article_title.find(phrase_words[0])
-        if first_word_pos == -1:
-            return False
-        # Check if subsequent words appear in order after the first word
-        current_pos = first_word_pos + len(phrase_words[0])
-        for word in phrase_words[1:]:
-            next_pos = article_title.find(word, current_pos)
-            if next_pos == -1:
-                return False
-            # Words should be close together (within reasonable distance)
-            if next_pos - current_pos > 10:  # Allow some spacing for punctuation
-                return False
-            current_pos = next_pos + len(word)
+    # Escape special regex characters in the phrase
+    escaped_phrase = re.escape(exact_phrase)
     
-    return True
+    # For multi-word phrases, replace escaped spaces with \s+ to allow flexible whitespace
+    # but ensure words appear together. Use word boundaries on both sides.
+    # This ensures "Deep Learning" matches "Deep Learning" but not "Deep understanding of Learning"
+    # After re.escape(), spaces are escaped as '\ ', so we replace '\ ' (escaped space) with r'\s+'
+    pattern = r'\b' + escaped_phrase.replace('\\ ', r'\s+') + r'\b'
+    
+    return bool(re.search(pattern, article_title, re.IGNORECASE))
 
 def article_matches_keywords(article: Dict, keywords: List[str], config: Dict) -> bool:
     """
@@ -558,7 +546,12 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
     """
     Build API request parameters for combined query with multiple topics using OR operator.
     Example: "Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"
-    Note: NewsAPI doesn't support qInTitle with OR, so we use q but filter strictly in process_article
+    
+    IMPORTANT: NewsAPI limitation - qInTitle parameter doesn't support OR operator.
+    Therefore, we use 'q' parameter which searches in both title and content.
+    However, articles are still filtered strictly by title-only matching in process_article()
+    using article_matches_exact_phrase(), ensuring only title matches are included.
+    This approach allows us to make 1 API call instead of N calls while maintaining title-only filtering.
     """
     # Build OR query with all topic phrases
     title_queries = []
@@ -569,7 +562,7 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
             title_queries.append(f'"{title_query}"')
     
     # Join with OR operator (NewsAPI supports OR for combining queries)
-    # Note: qInTitle doesn't support OR, so we use q but will filter by title in process_article
+    # Note: qInTitle doesn't support OR, so we use q but filter strictly by title in process_article
     combined_query = " OR ".join(title_queries)
     
     return {
@@ -1069,10 +1062,6 @@ def fetch_combined_from_newsapi(topics_config: Dict[str, Dict], api_key: str, co
     max_pages = 1
     logger.info(MSG_INFO_COMBINED_MODE)
     
-    if max_pages <= 0:
-        logger.warning(f"{MSG_WARNING_NO_API_CALLS}. Skipping combined request.")
-        return topic_articles, False
-    
     try:
         # Check if we can make the request
         if api_call_count['total'] >= max_api_calls:
@@ -1200,6 +1189,68 @@ def merge_news_articles(existing_articles: List[Dict], new_articles: List[Dict])
     
     return merged_articles
 
+def merge_filter_and_save_articles(topic: str, topic_config: Dict, existing_articles: List[Dict], 
+                                   new_articles: List[Dict], config: Dict, metrics: MetricsTracker) -> Tuple[bool, int]:
+    """
+    Shared function to merge existing and new articles, filter by retention, and save to file.
+    Handles all the common logic for both individual and combined request modes.
+    
+    Returns (success, article_count) where article_count is the number of articles saved/preserved.
+    """
+    # Merge existing articles with new articles (remove duplicates by URL)
+    # IMPORTANT: If API failed and we have cached articles, preserve them!
+    if existing_articles and new_articles:
+        # Both exist - merge them
+        merged_articles = merge_news_articles(existing_articles, new_articles)
+        logger.info(MSG_INFO_MERGED_ARTICLES.format(existing=len(existing_articles), new=len(new_articles), total=len(merged_articles)))
+    elif existing_articles:
+        # API failed but we have cached articles - use them!
+        merged_articles = existing_articles
+        logger.info(MSG_INFO_API_FAILED_CACHED.format(count=len(existing_articles)))
+    elif new_articles:
+        # Only new articles (no cached)
+        merged_articles = new_articles
+        logger.info(MSG_INFO_USING_NEW.format(count=len(new_articles)))
+    else:
+        merged_articles = []
+    
+    # Filter articles by retention period (remove articles older than retention_days)
+    retention_days = get_config_value(config, 'date_range.retention_days', DEFAULT_RETENTION_DAYS)
+    if merged_articles:
+        filtered_articles = filter_articles_by_retention(merged_articles, retention_days)
+        logger.info(MSG_INFO_AFTER_RETENTION.format(days=retention_days, count=len(filtered_articles)))
+    else:
+        filtered_articles = []
+    
+    # Save the merged and filtered articles
+    # IMPORTANT: Don't overwrite with empty list if we have cached articles!
+    try:
+        # Only save if we have articles OR if this is a fresh start (no cached articles)
+        if filtered_articles or not existing_articles:
+            success = update_news_file(topic, filtered_articles)
+            if success:
+                metrics.record_article_saved(topic, len(filtered_articles))
+                if filtered_articles:
+                    logger.info(MSG_OK_SAVED.format(count=len(filtered_articles), file=f"{topic}.yml"))
+                else:
+                    logger.info(MSG_INFO_NO_ARTICLES_SAVE)
+                return True, len(filtered_articles)
+            else:
+                logger.error(f"{MSG_ERROR_SAVE_FAILED} for {topic}")
+                return False, 0
+        else:
+            # API failed but we have cached articles - preserve them, don't overwrite
+            logger.info(MSG_INFO_PRESERVING_CACHED.format(count=len(existing_articles)))
+            metrics.record_article_saved(topic, len(existing_articles))
+            return True, len(existing_articles)
+    except Exception as save_err:
+        logger.error(f"{MSG_ERROR_SAVE_FAILED} for {topic}: {save_err}")
+        # If we have cached articles, still return success (graceful degradation)
+        if existing_articles:
+            logger.info(MSG_INFO_CACHED_AVAILABLE)
+            return True, len(existing_articles)
+        return False, 0
+
 def update_news_file(topic: str, news_items: List[Dict]) -> bool:
     """
     Update the YAML file for a specific topic with new news items.
@@ -1304,56 +1355,11 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         else:
             logger.warning(MSG_WARNING_SKIPPING_NO_KEY.format(topic=topic))
         
-        # Merge existing articles with new articles (remove duplicates by URL)
-        # IMPORTANT: If API failed and we have cached articles, preserve them!
-        if existing_articles and new_articles:
-            # Both exist - merge them
-            merged_articles = merge_news_articles(existing_articles, new_articles)
-            logger.info(MSG_INFO_MERGED_ARTICLES.format(existing=len(existing_articles), new=len(new_articles), total=len(merged_articles)))
-        elif existing_articles:
-            # API failed but we have cached articles - use them!
-            merged_articles = existing_articles
-            logger.info(MSG_INFO_API_FAILED_CACHED.format(count=len(existing_articles)))
-        elif new_articles:
-            # Only new articles (no cached)
-            merged_articles = new_articles
-            logger.info(MSG_INFO_USING_NEW.format(count=len(new_articles)))
-        else:
-            merged_articles = []
-        
-        # Filter articles by retention period (remove articles older than retention_days)
-        retention_days = get_config_value(config, 'date_range.retention_days', DEFAULT_RETENTION_DAYS)
-        if merged_articles:
-            filtered_articles = filter_articles_by_retention(merged_articles, retention_days)
-            logger.info(MSG_INFO_AFTER_RETENTION.format(days=retention_days, count=len(filtered_articles)))
-        else:
-            filtered_articles = []
-        
-        # Save the merged and filtered articles
-        # IMPORTANT: Don't overwrite with empty list if we have cached articles!
-        try:
-            # Only save if we have articles OR if this is a fresh start (no cached articles)
-            if filtered_articles or not existing_articles:
-                success = update_news_file(topic, filtered_articles)
-                if success:
-                    metrics.record_article_saved(topic, len(filtered_articles))
-                    if filtered_articles:
-                        logger.info(MSG_OK_SAVED.format(count=len(filtered_articles), file=f"{topic}.yml"))
-                    else:
-                        logger.info(MSG_INFO_NO_ARTICLES_SAVE)
-                else:
-                    logger.error(f"{MSG_ERROR_SAVE_FAILED} for {topic}")
-                    return False, is_rate_limited
-            else:
-                # API failed but we have cached articles - preserve them, don't overwrite
-                logger.info(MSG_INFO_PRESERVING_CACHED.format(count=len(existing_articles)))
-                metrics.record_article_saved(topic, len(existing_articles))
-        except Exception as save_err:
-            logger.error(f"{MSG_ERROR_SAVE_FAILED} for {topic}: {save_err}")
-            # If we have cached articles, still return success (graceful degradation)
-            if existing_articles:
-                logger.info(MSG_INFO_CACHED_AVAILABLE)
-                return True, is_rate_limited
+        # Merge, filter, and save articles using shared function
+        success, article_count = merge_filter_and_save_articles(
+            topic, topic_config, existing_articles, new_articles, config, metrics
+        )
+        if not success:
             return False, is_rate_limited
         
         return True, is_rate_limited
@@ -1476,49 +1482,12 @@ def main():
             existing_articles = existing_articles_dict.get(topic, [])
             new_articles = new_articles_dict.get(topic, [])
             
-            # Merge existing articles with new articles
-            if existing_articles and new_articles:
-                merged_articles = merge_news_articles(existing_articles, new_articles)
-                logger.info(MSG_INFO_MERGED_ARTICLES.format(existing=len(existing_articles), new=len(new_articles), total=len(merged_articles)))
-            elif existing_articles:
-                merged_articles = existing_articles
-                logger.info(MSG_INFO_API_FAILED_CACHED.format(count=len(existing_articles)))
-            elif new_articles:
-                merged_articles = new_articles
-                logger.info(MSG_INFO_USING_NEW.format(count=len(new_articles)))
-            else:
-                merged_articles = []
-            
-            # Filter articles by retention period
-            retention_days = get_config_value(config, 'date_range.retention_days', DEFAULT_RETENTION_DAYS)
-            if merged_articles:
-                filtered_articles = filter_articles_by_retention(merged_articles, retention_days)
-                logger.info(MSG_INFO_AFTER_RETENTION.format(days=retention_days, count=len(filtered_articles)))
-            else:
-                filtered_articles = []
-            
-            # Save the merged and filtered articles
-            try:
-                if filtered_articles or not existing_articles:
-                    success = update_news_file(topic, filtered_articles)
-                    if success:
-                        metrics.record_article_saved(topic, len(filtered_articles))
-                        if filtered_articles:
-                            logger.info(MSG_OK_SAVED.format(count=len(filtered_articles), file=f"{topic}.yml"))
-                        else:
-                            logger.info(MSG_INFO_NO_ARTICLES_SAVE)
-                    else:
-                        logger.error(f"{MSG_ERROR_SAVE_FAILED} for {topic}")
-                        error_count += 1
-                else:
-                    logger.info(MSG_INFO_PRESERVING_CACHED.format(count=len(existing_articles)))
-                    metrics.record_article_saved(topic, len(existing_articles))
-            except Exception as save_err:
-                logger.error(f"{MSG_ERROR_SAVE_FAILED} for {topic}: {save_err}")
-                if existing_articles:
-                    logger.info(MSG_INFO_CACHED_AVAILABLE)
-                else:
-                    error_count += 1
+            # Merge, filter, and save articles using shared function
+            success, article_count = merge_filter_and_save_articles(
+                topic, topic_config, existing_articles, new_articles, config, metrics
+            )
+            if not success:
+                error_count += 1
         
         # Track rate limit status
         if is_rate_limited:

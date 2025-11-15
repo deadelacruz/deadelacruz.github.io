@@ -1946,6 +1946,59 @@ class TestMissingCoverageLines:
             assert "Rate Limit Detected" in output_str or "Quota Exhausted" in output_str or "Quota" in output_str
             assert "Quota Information" in output_str or "quota" in output_str.lower()
     
+    @patch('update_news.update_news_file')
+    @patch('update_news.filter_articles_by_retention')
+    @patch('update_news.load_existing_news')
+    @patch('update_news.load_config')
+    @patch.dict(os.environ, {'NEWSAPI_KEY': 'test-key'})
+    def test_main_combined_mode_rate_limited_before_fetch(self, mock_load_config, mock_load_news, 
+                                                          mock_filter, mock_update):
+        """Test main function when rate_limited is True before fetch (lines 1475-1476)."""
+        from update_news import main
+        import update_news
+        import inspect
+        import types
+        
+        mock_load_config.return_value = {
+            "news_sources": {
+                "topic1": {"name": "Topic 1", "title_query": "Topic 1"},
+                "topic2": {"name": "Topic 2", "title_query": "Topic 2"}
+            },
+            "api": {"combine_topics_in_single_request": True}
+        }
+        mock_load_news.return_value = []
+        mock_filter.return_value = []
+        mock_update.return_value = True
+        
+        # To test lines 1475-1476, we need rate_limited_flag['value'] = True
+        # before the check at line 1453. The flag is created at line 1411.
+        # We'll patch logger.info to modify the flag when it logs the "Combined request mode" message
+        # which happens after flag creation but before the check
+        flag_modified = {'done': False}
+        original_info = update_news.logger.info
+        
+        def patched_info(msg, *args, **kwargs):
+            # When we see the "Combined request mode" message, modify the flag
+            if not flag_modified['done'] and 'Combined request mode' in str(msg):
+                import sys
+                # Find the main function's frame
+                frame = sys._getframe(1)
+                while frame:
+                    if frame.f_code.co_name == 'main' and 'rate_limited_flag' in frame.f_locals:
+                        frame.f_locals['rate_limited_flag']['value'] = True
+                        flag_modified['done'] = True
+                        break
+                    frame = frame.f_back
+            return original_info(msg, *args, **kwargs)
+        
+        with patch.object(update_news.logger, 'info', side_effect=patched_info):
+            with capture_logger_output() as output:
+                main()
+                output_str = output.getvalue()
+                # Should hit the rate_limited branch (lines 1475-1476)
+                # The message is "Skipping API call (rate limit detected). Using cached articles only"
+                assert "Skipping API" in output_str or "skipping api" in output_str.lower()
+    
     def test_run_cli_keyboard_interrupt(self):
         """Test run_cli KeyboardInterrupt handling (lines 1578-1579)."""
         from update_news import run_cli

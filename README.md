@@ -10,8 +10,8 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 | Layer      | Tools |
 |-----------|-------|
 | **Frontend** | HTML5, Sass/CSS3, JavaScript, jQuery, Bootstrap, Font Awesome, Google Fonts |
-| **Site Engine** | Jekyll 4.3.x |
-| **Automation** | Python 3, NewsAPI, YAML data files |
+| **Site Engine** | Jekyll 4.3.3 |
+| **Automation** | Python 3.11+, NewsAPI, YAML data files |
 | **Tooling & Deploy** | GitHub Pages, GitHub Actions, Netlify/Vercel/Firebase (optional), Docker |
 
 ---
@@ -20,16 +20,24 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 
 - Pulls fresh AI/ML news from **100+ trusted outlets** (Reuters, MIT Tech Review, Nature, IEEE, etc.).  
 - Topics are defined in `_data/news_config.yml` (Deep Learning, Machine Learning, Artificial Intelligence by default).  
-- **Exact phrase matching**: Searches for exact phrases only (e.g., "Deep Learning", "Machine Learning", "Artificial Intelligence") - case-insensitive.  
+- **Exact phrase matching**: Searches for exact phrases only in article **titles** (e.g., "Deep Learning", "Machine Learning", "Artificial Intelligence") - case-insensitive, using NewsAPI's `qInTitle` parameter.  
 - Articles are fetched with `update_news.py`, filtered by exact phrase matching, deduplicated, stored under `_data/news/*.yml`, and rendered by the Jekyll UI.  
-- **Rate limiting & retry logic**: Automatic retry with exponential backoff for rate limit errors (detected dynamically), API call tracking to prevent hitting limits, and delays between topics.  
+- **Combined request mode** (enabled by default): Fetches all topics in a single API call using OR operator, reducing API calls from N to 1. Articles are automatically routed to the correct topic files based on which phrase they match.  
+- **Early stopping optimization**: Stops pagination early when enough articles are found or when duplicate threshold is reached, optimizing API usage.  
+- **Dynamic error handling**: Automatically detects and handles rate limit errors and result limit errors (free tier: 100 results max per query), gracefully stopping pagination while preserving available results.  
+- **Rate limiting & API tracking**: Tracks total API calls (default: max 45 per run), adds delays between topics/pages, and preserves existing articles if rate limits are hit.  
+- **Cleanup script**: `cleanup_news.py` removes articles that don't match exact phrases in their titles, ensuring data quality.  
 - Comprehensive logging, metrics (`_data/news_metrics.json`), and JSON/YAML outputs ensure transparency.
 
 ### How Fetching Works
-1. **Config** → `_data/news_config.yml` defines API settings, exact phrase queries, rate limiting, and output paths.  
+1. **Config** → `_data/news_config.yml` defines API settings, exact phrase queries (`title_query`), rate limiting, combined request mode, and output paths.  
 2. **CLI Wrapper** → `python -m update_news` (or `python update_news.py`) calls `run_cli()` which handles success/error exit codes.  
-3. **Rate Limiting** → Tracks API calls (default: max 45 per run), adds delays between topics, and retries with exponential backoff on rate limit errors (detected dynamically).  
-4. **Metrics** → Execution stats are exported automatically and can be consumed by dashboards or CI.
+3. **Request Mode** → 
+   - **Combined mode** (default): Fetches all topics in 1 API call using OR operator, limited to 1 page (100 results max total), articles automatically routed to topics.
+   - **Separate mode**: Fetches each topic individually with pagination support (up to 5 pages per topic), with delays between topics.
+4. **Rate Limiting** → Tracks API calls (default: max 45 per run), adds delays between topics/pages, dynamically detects rate limit errors, and preserves cached articles if limits are hit.  
+5. **Early Stopping** → Stops pagination when enough articles are found (default: 10) or when duplicate threshold is reached (default: 70%).  
+6. **Metrics** → Execution stats are exported automatically to `_data/news_metrics.json` and can be consumed by dashboards or CI.
 
 ---
 
@@ -37,7 +45,7 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 
 ### Prerequisites
 - Ruby ≥ 3.0 & Bundler ≥ 2.7  
-- Python 3.10+  
+- Python 3.11+ (3.11 recommended, 3.10+ supported)  
 - Git
 
 ### Install & Run
@@ -67,26 +75,33 @@ export NEWSAPI_KEY="your-api-key"        # Linux / macOS
 # 3. (Optional) Customize news_config.yml
 #    - Adjust exact phrase queries (title_query)
 #    - Configure rate limiting (max_api_calls, topic_delay_seconds)
-#    - Set retry behavior (max_retries, retry_base_delay_seconds)
+#    - Enable/disable combined request mode (combine_topics_in_single_request)
+#    - Configure early stopping (min_articles_per_topic, early_stop_duplicate_threshold)
+#    - Adjust pagination (max_pages, max_page_size)
 
 # 4. Update all topics
 python update_news.py
 # or just rely on the CLI wrapper
 python -m update_news
+
+# 5. (Optional) Clean up articles that don't match exact phrases
+python cleanup_news.py
 ```
 Data lands in `_data/news/<topic>.yml`. Rebuild the Jekyll site to see the cards update.
 
 **Note**: The script automatically handles NewsAPI rate limits (50 requests per 12 hours for free tier) by:
+- **Combined request mode** (default): Uses 1 API call for all topics, reducing rate limit risk
 - Tracking total API calls and stopping before hitting the limit (default: 45 calls max)
-- Adding delays between topics (default: 2 seconds)
-- Retrying with exponential backoff on rate limit errors (detected dynamically, up to 3 retries)
-- Preserving existing articles if rate limits are hit
+- Adding delays between topics/pages (default: 2 seconds between topics, 1 second between pages)
+- Dynamically detecting rate limit errors and preserving existing articles if limits are hit
+- Handling result limit errors (free tier: 100 results max per query) gracefully
+- Early stopping optimization to minimize API usage
 
 ---
 
 ## 🧪 Testing & Quality
 
-The repo ships with a full pytest suite (100% coverage) covering configuration parsing, exact phrase matching, metrics tracking, API integration, rate limiting, file I/O, and the CLI wrapper.
+The repo ships with a comprehensive pytest suite covering configuration parsing, exact phrase matching, metrics tracking, API integration, rate limiting, result limit handling, combined requests, file I/O, date calculations, and the CLI wrapper.
 
 ```bash
 # Install requirements first
@@ -99,7 +114,17 @@ pytest
 pytest --cov=update_news --cov-report=term-missing --cov-report=html
 ```
 
-See [`README_TESTING.md`](README_TESTING.md) for detailed guidance on structuring new tests and integrating them into CI.
+Test files:
+- `test_config_loading.py` - Configuration loading and parsing
+- `test_keyword_processing.py` - Exact phrase matching logic
+- `test_article_processing.py` - Article filtering and processing
+- `test_fetch_news.py` - News fetching logic
+- `test_api_requests.py` - API request handling
+- `test_result_limit_and_combined.py` - Result limits and combined request mode
+- `test_metrics_tracker.py` - Metrics tracking
+- `test_file_operations.py` - File I/O operations
+- `test_date_calculation.py` - Date range calculations
+- `test_coverage_complete.py` - Coverage completeness checks
 
 ---
 
@@ -109,8 +134,11 @@ See [`README_TESTING.md`](README_TESTING.md) for detailed guidance on structurin
 - **Other hosts** – the generated `_site` folder works out of the box on Netlify, Vercel, Firebase Hosting, etc.  
 - **Automation** – GitHub Actions workflow runs `python update_news.py` every 12 hours (aligned with NewsAPI quota reset cycle).  
   - Workflow file: `.github/workflows/update-news.yml`  
+  - Runs at 00:00 and 12:00 UTC (8:00 AM and 8:00 PM Philippine Time)  
   - Requires `NEWSAPI_KEY` secret in repository settings  
-  - Automatically commits and pushes updated news files
+  - Uses Python 3.11  
+  - Automatically commits and pushes updated news files  
+  - Handles merge conflicts gracefully, preserving news updates
 
 ---
 
@@ -122,14 +150,17 @@ See [`README_TESTING.md`](README_TESTING.md) for detailed guidance on structurin
 - Dark/light theme toggle  
 - RSS feed & social sharing  
 - **News System Features:**
-  - Exact phrase matching (case-insensitive) for precise article filtering
-  - Rate limiting with API call tracking to prevent quota exhaustion
-  - Automatic retry with exponential backoff on rate limit errors
-  - Delays between topics to respect API limits
-  - Article deduplication and retention period filtering
-  - Comprehensive logging & metrics (`_data/news_metrics.json`)
-  - Python CLI entry point with graceful error handling
-  - GitHub Actions automation (runs every 12 hours)
+  - **Exact phrase matching** (case-insensitive) in article titles only for precise filtering
+  - **Combined request mode** (default): Fetches all topics in 1 API call, reducing API usage from N to 1
+  - **Early stopping optimization**: Stops pagination when enough articles found or duplicate threshold reached
+  - **Dynamic error handling**: Automatically detects and handles rate limit and result limit errors
+  - **Rate limiting**: API call tracking (max 45 per run), delays between topics/pages, preserves cached articles
+  - **Article routing**: In combined mode, articles automatically routed to correct topic files
+  - **Article deduplication** and retention period filtering (default: 90 days)
+  - **Cleanup script**: `cleanup_news.py` removes articles that don't match exact phrases
+  - **Comprehensive logging** & metrics (`_data/news_metrics.json`) with per-topic statistics
+  - **Python CLI entry point** with graceful error handling and exit codes
+  - **GitHub Actions automation** (runs every 12 hours, aligned with NewsAPI quota reset)
 
 ---
 

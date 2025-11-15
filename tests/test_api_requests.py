@@ -32,7 +32,7 @@ class TestBuildApiParams:
         
         params = build_api_params(topic_config, date_range, api_key, config)
         
-        assert params["q"] == '"Machine Learning"'
+        assert params["qInTitle"] == '"Machine Learning"'
         assert params["from"] == "2025-01-01"
         assert params["to"] == "2025-01-31"
         assert params["apiKey"] == "test-key"
