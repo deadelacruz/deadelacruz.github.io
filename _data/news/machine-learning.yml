@@ -1,1 +1,153 @@
-news_items: []
+news_items:
+- title: RiskLabAI 1.0.5
+  description: Financial AI using Python, based on 'Advances in Financial Machine
+    Learning' and 'Machine Learning for Asset Managers'.
+  url: https://pypi.org/project/risklabai/1.0.5/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: RiskLabAI 1.0.4
+  description: Financial AI using Python, based on 'Advances in Financial Machine
+    Learning' and 'Machine Learning for Asset Managers'.
+  url: https://pypi.org/project/risklabai/1.0.4/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: RiskLabAI 1.0.3
+  description: Financial AI using Python, based on 'Advances in Financial Machine
+    Learning' and 'Machine Learning for Asset Managers'.
+  url: https://pypi.org/project/risklabai/1.0.3/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: qai-hub-models 0.41.1
+  description: Popular Machine Learning models optimized for Qualcomm chipsets.
+  url: https://pypi.org/project/qai-hub-models/0.41.1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: tetra-rp 0.16.1
+  description: A Python library for distributed inference and serving of machine learning
+    models
+  url: https://pypi.org/project/tetra-rp/0.16.1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: crypticorn 3.3.0
+  description: Maximise Your Crypto Trading Profits with Machine Learning
+  url: https://pypi.org/project/crypticorn/3.3.0/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: gridsearcher 1.1.4
+  description: GridSearcher simplifies running grid searches for machine learning
+    projects in Python, emphasizing parallel execution and GPU scheduling without
+    dependencies on SLURM or other workload managers.
+  url: https://pypi.org/project/gridsearcher/1.1.4/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: tetra-rp 0.16.0
+  description: A Python library for distributed inference and serving of machine learning
+    models
+  url: https://pypi.org/project/tetra-rp/0.16.0/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: tetra-rp 0.15.0
+  description: A Python library for distributed inference and serving of machine learning
+    models
+  url: https://pypi.org/project/tetra-rp/0.15.0/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: Machine Learning Discovers Quasars Acting as Lenses
+  description: Astronomers have used machine learning to discover seven new quasar
+    lens systems, arrangements where a quasar's host galaxy bends light from a more
+    distant galaxy behind it. The find more than doubles the number of known candidates
+    and demonstrates h
+  url: https://www.universetoday.com/articles/machine-learning-discovers-quasars-acting-as-lenses
+  date: '2025-11-14'
+  source: Universe Today
+- title: gradio 6.0.0.dev4
+  description: Python library for easily interacting with trained machine learning
+    models
+  url: https://pypi.org/project/gradio/6.0.0.dev4/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: netron 8.7.4
+  description: Viewer for neural network, deep learning and machine learning models.
+  url: https://pypi.org/project/netron/8.7.4/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: tf-nightly-tpu 2.21.0.dev20251114
+  description: TensorFlow is an open source machine learning framework for everyone.
+  url: https://pypi.org/project/tf-nightly-tpu/2.21.0.dev20251114/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: tf-nightly-cpu 2.21.0.dev20251114
+  description: TensorFlow is an open source machine learning framework for everyone.
+  url: https://pypi.org/project/tf-nightly-cpu/2.21.0.dev20251114/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: inference-sdk 0.60.1rc1
+  description: With no prior knowledge of machine learning or device-specific deployment,
+    you can deploy a computer vision model to a range of devices and environments
+    using Roboflow Inference.
+  url: https://pypi.org/project/inference-sdk/0.60.1rc1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: inference-gpu 0.60.1rc1
+  description: With no prior knowledge of machine learning or device-specific deployment,
+    you can deploy a computer vision model to a range of devices and environments
+    using Roboflow Inference.
+  url: https://pypi.org/project/inference-gpu/0.60.1rc1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: inference-cpu 0.60.1rc1
+  description: With no prior knowledge of machine learning or device-specific deployment,
+    you can deploy a computer vision model to a range of devices and environments
+    using Roboflow Inference.
+  url: https://pypi.org/project/inference-cpu/0.60.1rc1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: inference-cli 0.60.1rc1
+  description: With no prior knowledge of machine learning or device-specific deployment,
+    you can deploy a computer vision model to a range of devices and environments
+    using Roboflow Inference CLI.
+  url: https://pypi.org/project/inference-cli/0.60.1rc1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: inference 0.60.1rc1
+  description: With no prior knowledge of machine learning or device-specific deployment,
+    you can deploy a computer vision model to a range of devices and environments
+    using Roboflow Inference.
+  url: https://pypi.org/project/inference/0.60.1rc1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: Predicting 30-day and 1-year mortality in heart failure with preserved ejection
+    fraction (HFpEF)
+  description: Objectives To develop and compare prediction models for 30-day and
+    1-year mortality in Heart failure with preserved ejection fraction (HFpEF) using
+    EHR data, utilizing both traditional and machine learning (ML) techniques.   Background
+    HFpEF represen
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336809
+  date: '2025-11-14'
+  source: Plos.org
+- title: homa 0.3.306
+  description: A curated list of machine learning and deep learning helpers.
+  url: https://pypi.org/project/homa/0.3.306/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: comet-ml 3.54.1
+  description: Supercharging Machine Learning
+  url: https://pypi.org/project/comet-ml/3.54.1/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: homa 0.3.305
+  description: A curated list of machine learning and deep learning helpers.
+  url: https://pypi.org/project/homa/0.3.305/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: qconduit 0.0.4
+  description: A PyTorch-native quantum statevector plumbing library for quantum machine
+    learning
+  url: https://pypi.org/project/qconduit/0.0.4/
+  date: '2025-11-14'
+  source: Pypi.org
+- title: homa 0.3.304
+  description: A curated list of machine learning and deep learning helpers.
+  url: https://pypi.org/project/homa/0.3.304/
+  date: '2025-11-14'
+  source: Pypi.org
