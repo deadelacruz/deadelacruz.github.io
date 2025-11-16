@@ -1,4 +1,20 @@
 news_items:
+- title: Machine Learning Pipelines for the Design of Solid-State Electrolytes
+  description: 'Mater. Horiz., 2025, Accepted ManuscriptDOI: 10.1039/D5MH01525A, Review
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Vinamr Jain, Zhilong Wang, Fengqi YouThe development of solid-state
+    e'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/mh/d5mh01525a
+  date: '2025-11-15'
+  source: Royal Society of Chemistry
+- title: 'Bridging doping cation properties to lithium migration barriers in halide
+    electrolytes via machine learning: the determining role of migration channel geometry'
+  description: 'Chem. Commun., 2025, Accepted ManuscriptDOI: 10.1039/D5CC05616K, CommunicationChengkai
+    Yang, Tongmin Xu, Xuening Li, Zheyuan LiuIn this study, Li+ migration in Li3InCl6
+    is probed via lanthanide M site doping and machine learning. Multi-scale descript'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/cc/d5cc05616k
+  date: '2025-11-15'
+  source: Royal Society of Chemistry
 - title: Machine Learning Discovers Quasars Acting as Lenses
   description: Astronomers have used machine learning to discover seven new quasar
     lens systems, arrangements where a quasar's host galaxy bends light from a more
