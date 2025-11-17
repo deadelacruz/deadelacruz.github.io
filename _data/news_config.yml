@@ -29,7 +29,7 @@ api:
   # 
   # RECOMMENDED: Set to false for better results - each topic gets focused query and up to 500 articles (5 pages × 100)
   # With 3 topics, this uses 3 API calls (still well under the 45 limit) but provides much better article coverage
-  combine_topics_in_single_request: false  # Set to true to use 1 request for all topics (max 100 results total), false for separate requests
+  combine_topics_in_single_request: true  # Set to true to use 1 request for all topics (max 100 results total), false for separate requests
 
 # Date Range Configuration
 date_range:
