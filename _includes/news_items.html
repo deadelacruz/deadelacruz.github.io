@@ -23,6 +23,25 @@
 {% if news_data and news_data.news_items %}
   {% assign sorted_news = news_data.news_items | sort: "date" | reverse %}
   {% assign total_articles = sorted_news | size %}
+  {% assign initial_articles_per_page = site.data.news_config.ui.articles_per_page | default: 10 %}
+  {% assign articles_per_page_limit = initial_articles_per_page | plus: 0 %}
+  {% assign initial_display_count = initial_articles_per_page %}
+  {% if total_articles < articles_per_page_limit %}
+    {% assign initial_display_count = total_articles %}
+  {% endif %}
+  {% assign section_id = topic | default: 'news' %}
+  {% assign section_id = section_id | replace: '/', '_' %}
+  {% assign section_id = section_id | replace: '-', '_' %}
+  {% assign news_container_id = 'news-container-' | append: section_id %}
+  {% assign pagination_controls_id = 'pagination-controls-' | append: section_id %}
+  {% assign pagination_buttons_id = 'pagination-buttons-' | append: section_id %}
+  {% assign prev_btn_id = 'prev-btn-' | append: section_id %}
+  {% assign next_btn_id = 'next-btn-' | append: section_id %}
+  {% assign pagination_info_id = 'pagination-info-' | append: section_id %}
+  {% assign total_pages = total_articles | divided_by: articles_per_page_limit %}
+  {% if total_articles | modulo: articles_per_page_limit != 0 %}
+    {% assign total_pages = total_pages | plus: 1 %}
+  {% endif %}
   
   <style>
     .pagination-btn:hover:not(:disabled) {
@@ -42,35 +61,41 @@
   </style>
   
   <div class="news-container-wrapper">
-    {% comment %} News items container - pagination will be handled by JavaScript {% endcomment %}
-    <div id="news-container" class="news-container">
-      {% for item in sorted_news %}
-        <div class="news-item" data-article-index="{{ forloop.index0 }}" style="margin-bottom: 20px; padding: 15px; background-color: var(--card-background-color); border-radius: 8px; border-left: 4px solid var(--link-color);">
-          <h4 style="margin-top: 0; margin-bottom: 10px;">
-            <strong>{{ item.title | escape }}</strong>
-          </h4>
-          <p style="margin-bottom: 10px; color: var(--main-text-color);">
-            {{ item.description | escape }}
-          </p>
-          <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="color: var(--link-color); text-decoration: none;">
-            Read more →
-          </a>
-          {% if item.source %}
-            <span style="color: var(--main-text-color); opacity: 0.7; font-size: 0.9em; margin-left: 10px;">
-              | {{ item.source | escape }}
-            </span>
-          {% endif %}
-          {% if item.date %}
-            <span style="color: var(--main-text-color); opacity: 0.7; font-size: 0.9em; margin-left: 10px;">
-              {% comment %} Format date - Jekyll date filter handles YYYY-MM-DD format {% endcomment %}
-              {% assign formatted_date = item.date | date: "%B %d, %Y" %}
-              {% if formatted_date != item.date %}
-                ({{ formatted_date }})
-              {% else %}
-                ({{ item.date }})
+    {% comment %} News items container grouped per page - JS toggles pages {% endcomment %}
+    <div id="{{ news_container_id }}" class="news-container">
+      {% assign total_pages_minus_one = total_pages | minus: 1 %}
+      {% for page_index in (0..total_pages_minus_one) %}
+        {% assign page_offset = page_index | times: articles_per_page_limit %}
+        {% assign page_number = page_index | plus: 1 %}
+        <div class="news-page" data-page="{{ page_number }}" {% unless page_number == 1 %}style="display: none;"{% endunless %}>
+          {% for item in sorted_news limit:articles_per_page_limit offset:page_offset %}
+            <div class="news-item" data-article-index="{{ forloop.index0 | plus: page_offset }}" style="margin-bottom: 20px; padding: 15px; background-color: var(--card-background-color); border-radius: 8px; border-left: 4px solid var(--link-color);">
+              <h4 style="margin-top: 0; margin-bottom: 10px;">
+                <strong>{{ item.title | escape }}</strong>
+              </h4>
+              <p style="margin-bottom: 10px; color: var(--main-text-color);">
+                {{ item.description | escape }}
+              </p>
+              <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="color: var(--link-color); text-decoration: none;">
+                Read more →
+              </a>
+              {% if item.source %}
+                <span style="color: var(--main-text-color); opacity: 0.7; font-size: 0.9em; margin-left: 10px;">
+                  | {{ item.source | escape }}
+                </span>
               {% endif %}
-            </span>
-          {% endif %}
+              {% if item.date %}
+                <span style="color: var(--main-text-color); opacity: 0.7; font-size: 0.9em; margin-left: 10px;">
+                  {% assign formatted_date = item.date | date: "%B %d, %Y" %}
+                  {% if formatted_date != item.date %}
+                    ({{ formatted_date }})
+                  {% else %}
+                    ({{ item.date }})
+                  {% endif %}
+                </span>
+              {% endif %}
+            </div>
+          {% endfor %}
         </div>
       {% endfor %}
     </div>
@@ -78,16 +103,14 @@
     {% comment %} Pagination Controls {% endcomment %}
     {% assign enable_pagination = site.data.news_config.ui.enable_pagination %}
     {% if enable_pagination %}
-      <div id="pagination-controls" style="margin-top: 30px; margin-bottom: 20px; text-align: center;">
-        <div id="pagination-buttons" style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
-          <button id="prev-btn" class="pagination-btn" style="padding: 8px 16px; background-color: var(--link-color, #ca6521); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;" disabled>Previous</button>
-          <div id="page-numbers" style="display: flex; gap: 5px; flex-wrap: wrap; justify-content: center;"></div>
-          <button id="next-btn" class="pagination-btn" style="padding: 8px 16px; background-color: var(--link-color, #ca6521); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">Next</button>
+      <div id="{{ pagination_controls_id }}" style="margin-top: 30px; margin-bottom: 20px; text-align: center;">
+        <div id="{{ pagination_buttons_id }}" style="display: flex; justify-content: center; align-items: center; gap: 10px; flex-wrap: wrap;">
+          <button id="{{ prev_btn_id }}" class="pagination-btn" style="padding: 8px 16px; background-color: var(--link-color, #ca6521); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;" disabled>Previous</button>
+          <button id="{{ next_btn_id }}" class="pagination-btn" style="padding: 8px 16px; background-color: var(--link-color, #ca6521); color: white; border: none; border-radius: 4px; cursor: pointer; font-size: 14px;">Next</button>
         </div>
-        <div style="margin-top: 15px;">
-          <button id="show-all-btn" class="pagination-btn" style="padding: 8px 16px; background-color: transparent; color: var(--link-color, #ca6521); border: 1px solid var(--link-color, #ca6521); border-radius: 4px; cursor: pointer; font-size: 14px;">Show All</button>
+        <div id="{{ pagination_info_id }}" style="margin-top: 15px; color: var(--main-text-color); opacity: 0.7; font-size: 0.9em;">
+          Showing 1-{{ initial_display_count }} of {{ total_articles }} articles
         </div>
-        <div id="pagination-info" style="margin-top: 15px; color: var(--main-text-color); opacity: 0.7; font-size: 0.9em;"></div>
       </div>
     {% endif %}
     
@@ -106,248 +129,102 @@
   <script>
     {% assign enable_pagination = site.data.news_config.ui.enable_pagination %}
     {% if enable_pagination %}
-    // Pagination functionality - ensure DOM is ready
+    /* Pagination functionality - ensure DOM is ready */
     (function() {
       function initPagination() {
-        const newsItems = document.querySelectorAll('.news-item');
-        const totalArticles = newsItems.length;
-        
-        // If no articles, exit early
-        if (totalArticles === 0) return;
-        
-        let currentPage = 1;
-        let articlesPerPage = 12; // Default
-        let showAllMode = false;
-        
-        // Responsive articles per page
-        function getArticlesPerPage() {
-          const width = window.innerWidth;
-          if (width < 768) {
-            return 10; // Mobile
-          } else if (width < 1024) {
-            return 12; // Tablet
-          } else {
-            return 15; // Desktop
-          }
+        const newsContainer = document.getElementById('{{ news_container_id }}');
+        if (!newsContainer) {
+          console.warn('News container not found');
+          return;
         }
-        
-        // Update articles per page on resize
-        let resizeTimeout;
-        window.addEventListener('resize', function() {
-          clearTimeout(resizeTimeout);
-          resizeTimeout = setTimeout(function() {
-            if (!showAllMode) {
-              articlesPerPage = getArticlesPerPage();
-              currentPage = 1; // Reset to first page on resize
-              renderPage();
-            }
-          }, 250);
+
+        const totalArticles = {{ total_articles }};
+        const articlesPerPageSetting = Math.max({{ articles_per_page_limit }}, 1);
+        const pages = Array.from(newsContainer.querySelectorAll('.news-page'));
+        const totalPages = pages.length || Math.max(1, Math.ceil(totalArticles / articlesPerPageSetting));
+        console.log('[News Pagination] init', {
+          container: '{{ news_container_id }}',
+          totalArticles,
+          articlesPerPageSetting,
+          totalPages,
+          pagesFound: pages.length
         });
-        
-        // Initialize articles per page
-        articlesPerPage = getArticlesPerPage();
-        
-        const totalPages = Math.ceil(totalArticles / articlesPerPage);
-        const paginationControls = document.getElementById('pagination-controls');
-        const prevBtn = document.getElementById('prev-btn');
-        const nextBtn = document.getElementById('next-btn');
-        const showAllBtn = document.getElementById('show-all-btn');
-        const pageNumbers = document.getElementById('page-numbers');
-        const paginationInfo = document.getElementById('pagination-info');
-        
-        // Safety check - ensure buttons exist
-        if (!prevBtn || !nextBtn || !showAllBtn || !pageNumbers || !paginationInfo) {
+
+        if (totalArticles === 0 || pages.length === 0) return;
+
+        let currentPage = 1;
+        const articlesPerPage = articlesPerPageSetting;
+
+        const paginationControls = document.getElementById('{{ pagination_controls_id }}');
+        const prevBtn = document.getElementById('{{ prev_btn_id }}');
+        const nextBtn = document.getElementById('{{ next_btn_id }}');
+        const paginationInfo = document.getElementById('{{ pagination_info_id }}');
+        const paginationButtonsWrapper = document.getElementById('{{ pagination_buttons_id }}');
+
+        if (!prevBtn || !nextBtn || !paginationInfo) {
           console.warn('Pagination controls not found');
           return;
         }
-      
-      function showPage(page) {
-        const start = (page - 1) * articlesPerPage;
-        const end = start + articlesPerPage;
-        
-        newsItems.forEach((item, index) => {
-          if (index >= start && index < end) {
-            item.style.display = 'block';
-          } else {
-            item.style.display = 'none';
-          }
-        });
-      }
-      
-      function showAll() {
-        showAllMode = true;
-        newsItems.forEach(item => {
-          item.style.display = 'block';
-        });
-        if (paginationControls) {
-          paginationControls.style.display = 'none';
+
+        function renderPage() {
+          const newTotalPages = totalPages;
+
+          prevBtn.disabled = currentPage === 1;
+          nextBtn.disabled = currentPage >= newTotalPages;
+
+          const displayStart = (currentPage - 1) * articlesPerPage + 1;
+          const displayEnd = Math.min(currentPage * articlesPerPage, totalArticles);
+          paginationInfo.textContent = `Showing ${displayStart}-${displayEnd} of ${totalArticles} articles`;
+
+          pages.forEach((pageEl, index) => {
+            pageEl.style.display = (index === currentPage - 1) ? '' : 'none';
+          });
         }
-      }
-      
-      function renderPage() {
-        if (showAllMode) return;
-        
-        const newTotalPages = Math.ceil(totalArticles / articlesPerPage);
-        
-        // Update page numbers
-        pageNumbers.innerHTML = '';
-        const maxVisiblePages = 7;
-        let startPage = Math.max(1, currentPage - Math.floor(maxVisiblePages / 2));
-        let endPage = Math.min(newTotalPages, startPage + maxVisiblePages - 1);
-        
-        if (endPage - startPage < maxVisiblePages - 1) {
-          startPage = Math.max(1, endPage - maxVisiblePages + 1);
-        }
-        
-        if (startPage > 1) {
-          const firstBtn = document.createElement('button');
-          firstBtn.textContent = '1';
-          firstBtn.className = 'page-number-btn';
-          firstBtn.style.cssText = 'padding: 8px 12px; background-color: transparent; color: var(--link-color, #ca6521); border: 1px solid var(--link-color, #ca6521); border-radius: 4px; cursor: pointer; font-size: 14px;';
-          firstBtn.addEventListener('click', () => goToPage(1));
-          pageNumbers.appendChild(firstBtn);
-          
-          if (startPage > 2) {
-            const ellipsis = document.createElement('span');
-            ellipsis.textContent = '...';
-            ellipsis.style.cssText = 'padding: 8px 4px; color: var(--main-text-color);';
-            pageNumbers.appendChild(ellipsis);
-          }
-        }
-        
-        for (let i = startPage; i <= endPage; i++) {
-          const btn = document.createElement('button');
-          btn.textContent = i;
-          btn.className = 'page-number-btn';
-          if (i === currentPage) {
-            btn.style.cssText = 'padding: 8px 12px; background-color: var(--link-color, #ca6521); color: white; border: 1px solid var(--link-color, #ca6521); border-radius: 4px; cursor: pointer; font-size: 14px; font-weight: bold;';
-          } else {
-            btn.style.cssText = 'padding: 8px 12px; background-color: transparent; color: var(--link-color, #ca6521); border: 1px solid var(--link-color, #ca6521); border-radius: 4px; cursor: pointer; font-size: 14px;';
-          }
-          btn.addEventListener('click', () => goToPage(i));
-          pageNumbers.appendChild(btn);
-        }
-        
-        if (endPage < newTotalPages) {
-          if (endPage < newTotalPages - 1) {
-            const ellipsis = document.createElement('span');
-            ellipsis.textContent = '...';
-            ellipsis.style.cssText = 'padding: 8px 4px; color: var(--main-text-color);';
-            pageNumbers.appendChild(ellipsis);
-          }
-          
-          const lastBtn = document.createElement('button');
-          lastBtn.textContent = newTotalPages;
-          lastBtn.className = 'page-number-btn';
-          lastBtn.style.cssText = 'padding: 8px 12px; background-color: transparent; color: var(--link-color, #ca6521); border: 1px solid var(--link-color, #ca6521); border-radius: 4px; cursor: pointer; font-size: 14px;';
-          lastBtn.addEventListener('click', () => goToPage(newTotalPages));
-          pageNumbers.appendChild(lastBtn);
-        }
-        
-        // Update buttons
-        prevBtn.disabled = currentPage === 1;
-        nextBtn.disabled = currentPage >= newTotalPages;
-        
-        // Update info
-        const start = (currentPage - 1) * articlesPerPage + 1;
-        const end = Math.min(currentPage * articlesPerPage, totalArticles);
-        paginationInfo.textContent = `Showing ${start}-${end} of ${totalArticles} articles`;
-        
-        // Show current page
-        showPage(currentPage);
-      }
-      
-      function goToPage(page) {
-        currentPage = page;
-        renderPage();
-        // Scroll to top of news container
-        document.getElementById('news-container').scrollIntoView({ behavior: 'smooth', block: 'start' });
-      }
-      
-      prevBtn.addEventListener('click', () => {
-        if (currentPage > 1) {
-          goToPage(currentPage - 1);
-        }
-      });
-      
-      nextBtn.addEventListener('click', () => {
-        const newTotalPages = Math.ceil(totalArticles / articlesPerPage);
-        if (currentPage < newTotalPages) {
-          goToPage(currentPage + 1);
-        }
-      });
-      
-      showAllBtn.addEventListener('click', () => {
-        showAll();
-      });
-      
-        // Initialize pagination
-        if (totalPages > 1) {
+
+        function goToPage(page) {
+          currentPage = page;
           renderPage();
-        } else {
-          // If only one page or less, hide pagination controls
-          if (paginationControls) {
-            paginationControls.style.display = 'none';
+          const containerTop = newsContainer.getBoundingClientRect().top + window.pageYOffset - 20;
+          window.scrollTo({ top: Math.max(containerTop, 0), behavior: 'smooth' });
+          console.log('[News Pagination] goToPage -> page', page);
+        }
+
+        prevBtn.addEventListener('click', () => {
+          if (currentPage > 1) {
+            goToPage(currentPage - 1);
+          } else {
+            console.log('[News Pagination] Prev click ignored on first page');
           }
+        });
+
+        nextBtn.addEventListener('click', () => {
+          const newTotalPages = totalPages;
+          if (currentPage < newTotalPages) {
+            goToPage(currentPage + 1);
+          } else {
+            console.log('[News Pagination] Next click ignored on last page');
+          }
+        });
+
+        renderPage();
+        if (totalPages <= 1) {
+          if (paginationButtonsWrapper) {
+            paginationButtonsWrapper.style.display = 'none';
+          }
+          nextBtn.disabled = true;
         }
       }
-      
-      // Initialize when DOM is ready
+
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initPagination);
       } else {
-        // DOM already loaded
         initPagination();
       }
     })();
     {% endif %}
     
-    // Display time in Philippines timezone (PHT - UTC+8) - fallback only if Jekyll didn't render it
-    function updatePhilippinesTime() {
-      const timeElement = document.getElementById('philippines-time');
-      if (!timeElement) {
-        return;
-      }
-      
-      // Only update if it still says "Loading..." (meaning Jekyll didn't render the timestamp)
-      if (timeElement.textContent.trim() === 'Loading...') {
-        // No timestamp available from Jekyll, show current PH time
-        try {
-          const now = new Date();
-          const options = { 
-            year: 'numeric', 
-            month: '2-digit', 
-            day: '2-digit', 
-            hour: 'numeric', 
-            minute: '2-digit',
-            second: '2-digit',
-            hour12: true,
-            timeZone: 'Asia/Manila'
-          };
-          const formatted = now.toLocaleString('en-US', options);
-          const dateParts = formatted.split(', ');
-          if (dateParts.length === 2) {
-            const [datePart, timePart] = dateParts;
-            const [month, day, year] = datePart.split('/');
-            timeElement.textContent = `${year}-${month.padStart(2, '0')}-${day.padStart(2, '0')} ${timePart} GMT +8`;
-          } else {
-            timeElement.textContent = formatted + ' GMT +8';
-          }
-        } catch (e) {
-          // Fallback if time formatting fails
-          timeElement.textContent = new Date().toLocaleString('en-US', { timeZone: 'Asia/Manila' }) + ' GMT +8';
-        }
-      }
-      // If timestamp is already displayed (from Jekyll), do nothing
-    }
-    
-    // Initialize Philippines time display on page load
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', updatePhilippinesTime);
-    } else {
-      updatePhilippinesTime();
-    }
   </script>
+  
 {% else %}
   <p>No news items available at this time. Please check back later.</p>
 {% endif %}
