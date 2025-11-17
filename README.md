@@ -27,6 +27,7 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 - **Early stopping optimization**: Stops pagination early when enough articles are found or when duplicate threshold is reached, optimizing API usage.  
 - **Dynamic error handling**: Automatically detects and handles rate limit errors and result limit errors (free tier: 100 results max per query), gracefully stopping pagination while preserving available results.  
 - **Rate limiting & API tracking**: Tracks total API calls (default: max 45 per run), adds delays between topics/pages, and preserves existing articles if rate limits are hit.  
+- **Reader-friendly pagination**: The UI shows 10 articles per page by default (configurable via `_data/news_config.yml → ui.articles_per_page`) and provides Previous/Next controls that automatically scroll the reader back to the start of the news section when navigating between pages.  
 - Comprehensive logging, metrics (`_data/news_metrics.json`), and JSON/YAML outputs ensure transparency.
 
 ### How Fetching Works
@@ -80,7 +81,7 @@ export NEWSAPI_KEY="your-api-key"        # Linux / macOS
 #    - Configure rate limiting (max_api_calls, topic_delay_seconds)
 #    - Enable/disable combined request mode (combine_topics_in_single_request)
 #    - Configure early stopping (min_articles_per_topic, early_stop_duplicate_threshold)
-#    - Adjust pagination (max_pages, max_page_size)
+#    - Adjust pagination (max_pages, max_page_size, ui.articles_per_page)
 
 # 4. Update all topics
 python update_news.py

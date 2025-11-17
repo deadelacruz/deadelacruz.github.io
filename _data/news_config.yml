@@ -57,7 +57,7 @@ metrics:
 
 # UI Display Configuration
 ui:
-  articles_per_page: 12  # Default number of articles per page (responsive: mobile=10, tablet=12, desktop=15)
+  articles_per_page: 10 # Default number of articles per page
   enable_pagination: true  # Enable pagination (true) or show all articles (false)
   show_all_option: true  # Show "Show All" button to display all articles at once
 
