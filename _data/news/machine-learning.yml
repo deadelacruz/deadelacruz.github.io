@@ -1,4 +1,20 @@
 news_items:
+- title: Combining quantum chemistry, machine learning and rate theory for organic
+    luminescent materials
+  description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00959F, Review
+    ArticleRongrong Li, Qi Ou, Zhigang ShuaiThis review summarizes computational and
+    machine learning methods for predicting excited-state properties of organic luminescent
+    materials.T'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/cs/d5cs00959f
+  date: '2025-11-17'
+  source: Royal Society of Chemistry
+- title: Integrating machine learning and molecular dynamics simulation to decipher
+    the molecular network of dioxin-associated liposarcoma
+  description: Scientific Reports - Integrating machine learning and molecular dynamics
+    simulation to decipher the molecular network of dioxin-associated liposarcoma
+  url: https://www.nature.com/articles/s41598-025-25116-y
+  date: '2025-11-17'
+  source: Nature.com
 - title: 'unifiedml: A Unified Machine Learning Interface for R, is now on CRAN +
     Discussion about AI replacing humans'
   description: 'unifiedml is now available on CRAN. This package provides a consistent
