@@ -1,4 +1,13 @@
 news_items:
+- title: Harnessing artificial intelligence to advance CRISPR-based genome editing
+    technologies
+  description: CRISPR-based genome editing has revolutionized biotechnology, enabling
+    precise DNA modifications for research and therapy. The authors review how artificial
+    intelligence, including deep learning, is advancing genome editing by improving
+    guide RNA des
+  url: https://www.nature.com/articles/s41576-025-00907-1
+  date: '2025-11-18'
+  source: Nature.com
 - title: 'Meet the Little-Known Artificial Intelligence (AI) Stock Leading the S&P
     500 in 2025 (Hint: Not Nvidia)'
   description: 'Meet the Little-Known Artificial Intelligence (AI) Stock Leading the

@@ -1,4 +1,13 @@
 news_items:
+- title: 'AllergenAI: a deep learning model predicting allergenicity based on protein
+    sequence'
+  description: Innovations in protein engineering offer promising solutions for redesigning
+    allergenic proteins to minimize adverse reactions in sensitive individuals. Earlier
+    models for predicting allergenicity have relied on the knowledge of physicochemical
+    prope
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06302-1
+  date: '2025-11-18'
+  source: Biomedcentral.com
 - title: MRI-based 2.5D deep learning and radiomics effectively predicted microvascular
     invasion and Ki-67 expression in hepatocellular carcinoma
   description: Objective To develop and validate an integrated 2.5D deep learning
