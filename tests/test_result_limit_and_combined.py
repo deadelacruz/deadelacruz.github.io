@@ -154,22 +154,23 @@ class TestCombinedRequestFunctions:
             "machine-learning": {"title_query": "Machine Learning"},
             "artificial-intelligence": {"title_query": "Artificial Intelligence"}
         }
+        config = {}  # Config not used in matching logic, but required by function signature
         
         # Test matching article
         article1 = {"title": "New Deep Learning Breakthrough"}
-        assert route_article_to_topic(article1, topics_config) == "deep-learning"
+        assert route_article_to_topic(article1, topics_config, config) == "deep-learning"
         
         # Test non-matching article
         article2 = {"title": "Random News Article"}
-        assert route_article_to_topic(article2, topics_config) is None
+        assert route_article_to_topic(article2, topics_config, config) is None
         
         # Test case-insensitive matching
         article3 = {"title": "MACHINE LEARNING ADVANCES"}
-        assert route_article_to_topic(article3, topics_config) == "machine-learning"
+        assert route_article_to_topic(article3, topics_config, config) == "machine-learning"
         
         # Test article with no title
         article4 = {}
-        assert route_article_to_topic(article4, topics_config) is None
+        assert route_article_to_topic(article4, topics_config, config) is None
     
     @patch('update_news.fetch_articles_page')
     @patch('update_news.process_article')

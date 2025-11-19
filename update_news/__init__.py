@@ -575,18 +575,17 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
         "to": date_range[1]
     }
 
-def route_article_to_topic(article: Dict, topics_config: Dict[str, Dict]) -> Optional[str]:
+def route_article_to_topic(article: Dict, topics_config: Dict[str, Dict], config: Dict) -> Optional[str]:
     """
     Determine which topic an article belongs to based on which exact phrase it matches.
     Returns the topic key if a match is found, None otherwise.
     Articles are matched to the first topic whose phrase appears in the title.
+    Uses the same strict matching logic as process_article to ensure consistency.
     """
-    article_title = article.get("title", "").lower()
-    
-    # Check each topic's exact phrase (case-insensitive)
+    # Check each topic's exact phrase using the same strict matching as process_article
     for topic, topic_config in topics_config.items():
         title_query = topic_config.get("title_query", "")
-        if title_query and title_query.lower() in article_title:
+        if title_query and article_matches_exact_phrase(article, title_query, config):
             return topic
     
     return None
@@ -1094,7 +1093,7 @@ def fetch_combined_from_newsapi(topics_config: Dict[str, Dict], api_key: str, co
         # Process articles from first page - route to appropriate topics
         # Combined requests are limited to 1 page (100 results max) to get balanced distribution across topics
         for article in articles:
-            topic = route_article_to_topic(article, topics_config)
+            topic = route_article_to_topic(article, topics_config, config)
             if topic:
                 # Get the title_query for this topic for exact phrase matching
                 title_query = topics_config[topic].get("title_query", "")
