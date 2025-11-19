@@ -547,11 +547,10 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
     Build API request parameters for combined query with multiple topics using OR operator.
     Example: "Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"
     
-    IMPORTANT: NewsAPI limitation - qInTitle parameter doesn't support OR operator.
-    Therefore, we use 'q' parameter which searches in both title and content.
-    However, articles are still filtered strictly by title-only matching in process_article()
-    using article_matches_exact_phrase(), ensuring only title matches are included.
-    This approach allows us to make 1 API call instead of N calls while maintaining title-only filtering.
+    TESTING: Attempting to use qInTitle with OR operator to search only in titles.
+    If NewsAPI doesn't support OR in qInTitle, this will need to fall back to 'q' parameter.
+    Using qInTitle is more efficient as it returns only title matches, eliminating the need
+    for post-processing filtering.
     """
     # Build OR query with all topic phrases
     title_queries = []
@@ -561,12 +560,11 @@ def build_combined_api_params(topics_config: Dict[str, Dict], date_range: Tuple[
             # Wrap each phrase in quotes for exact matching
             title_queries.append(f'"{title_query}"')
     
-    # Join with OR operator (NewsAPI supports OR for combining queries)
-    # Note: qInTitle doesn't support OR, so we use q but filter strictly by title in process_article
+    # Join with OR operator - testing if NewsAPI supports OR in qInTitle
     combined_query = " OR ".join(title_queries)
     
     return {
-        "q": combined_query,  # Use q (not qInTitle) because OR isn't supported in qInTitle
+        "qInTitle": combined_query,  # TESTING: Try qInTitle with OR operator
         "sortBy": get_config_value(config, 'api.sort_by', DEFAULT_SORT_BY),
         "language": get_config_value(config, 'api.language', DEFAULT_LANGUAGE),
         "pageSize": get_config_value(config, 'api.max_page_size', DEFAULT_MAX_PAGE_SIZE),
