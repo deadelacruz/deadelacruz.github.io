@@ -1,4 +1,40 @@
 news_items:
+- title: 'Machine learning for genomic prediction of growth traits in aquaculture:
+    a case study of the Australasian snapper (Chrysophrys auratus)'
+  description: 'Background Chrysophrys auratus (family: Sparidae), commonly known
+    as Australasian snapper, is a warm-water species being developed as a candidate
+    for aquaculture in New Zealand. Genomic selection of elite snapper offers significant
+    potential to accel'
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06287-x
+  date: '2025-11-18'
+  source: Biomedcentral.com
+- title: 'scMFF: a machine learning framework with multiple feature fusion strategies
+    for cell type identification'
+  description: Accurate cell type classification is critical for downstream analysis
+    in single-cell RNA sequencing (scRNA-seq). Most existing methods rely on a single
+    type of feature representation—such as statistical, information theory, matrix
+    factorization, or d
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06309-8
+  date: '2025-11-18'
+  source: Biomedcentral.com
+- title: High-Throughput Screening of Janus t-phase TMXY Semiconducting Materials
+    for Thermoelectric Aided by Machine Learning
+  description: 'J. Mater. Chem. A, 2025, Accepted ManuscriptDOI: 10.1039/D5TA07151H,
+    PaperYou-Chao KONG, Zenghui Li, Pengcheng Shi, Xiaoshuang Li, Xiaohua Zhang, Xiyuan
+    FengThermoelectric (TE) materials are pivotal for sustainable energy harvesting
+    by converting was'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ta/d5ta07151h
+  date: '2025-11-18'
+  source: Royal Society of Chemistry
+- title: Machine learning-based discovery of informative SNPs for population assignment
+    through whole genome sequencing
+  description: Background Whole-genome sequencing (WGS) data contain a large proportion
+    of genetic information for farm animals, while machine learning algorithms offer
+    a powerful approach for discovering population-informative genetic markers for
+    population assign
+  url: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12322-1
+  date: '2025-11-18'
+  source: Biomedcentral.com
 - title: Combining quantum chemistry, machine learning and rate theory for organic
     luminescent materials
   description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00959F, Review
