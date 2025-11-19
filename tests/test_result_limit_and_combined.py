@@ -142,7 +142,7 @@ class TestCombinedRequestFunctions:
         
         params = build_combined_api_params(topics_config, date_range, api_key, config)
         
-        assert params["q"] == '"Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"'
+        assert params["qInTitle"] == '"Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"'
         assert params["from"] == "2025-01-01"
         assert params["to"] == "2025-01-31"
         assert params["apiKey"] == "test-key"
