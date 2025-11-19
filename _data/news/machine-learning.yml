@@ -51,6 +51,20 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-25116-y
   date: '2025-11-17'
   source: Nature.com
+- title: 'Correction: A machine learning approach for estimating forage maize yield
+    and quality in NW Spain'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337037
+  date: '2025-11-17'
+  source: Plos.org
+- title: Machine learning discovers quasars acting as lenses
+  description: Quasars acting as strong gravitational lenses are among the rarest
+    finds in astronomy. Out of nearly 300,000 quasars cataloged in the Sloan Digital
+    Sky Survey, only twelve candidates were identified, and just three confirmed.
+    These systems are except
+  url: https://phys.org/news/2025-11-machine-quasars-lenses.html
+  date: '2025-11-17'
+  source: Phys.Org
 - title: 'unifiedml: A Unified Machine Learning Interface for R, is now on CRAN +
     Discussion about AI replacing humans'
   description: 'unifiedml is now available on CRAN. This package provides a consistent

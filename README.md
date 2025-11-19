@@ -21,9 +21,9 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 
 - Pulls fresh AI/ML news from **100+ trusted outlets** (Reuters, MIT Tech Review, Nature, IEEE, etc.).  
 - Topics are defined in `_data/news_config.yml` (Deep Learning, Machine Learning, Artificial Intelligence by default).  
-- **Exact phrase matching**: Searches for exact phrases only in article **titles** (e.g., "Deep Learning", "Machine Learning", "Artificial Intelligence") - case-insensitive, using NewsAPI's `qInTitle` parameter.  
-- Articles are fetched with `update_news.py`, filtered by exact phrase matching, deduplicated, stored under `_data/news/*.yml`, and rendered by the Jekyll UI.  
-- **Combined request mode** (enabled by default): Fetches all topics in a single API call using OR operator, reducing API calls from N to 1. Articles are automatically routed to the correct topic files based on which phrase they match.  
+- **Exact phrase matching**: Searches for exact phrases only in article **titles** (e.g., "Deep Learning", "Machine Learning", "Artificial Intelligence") - case-insensitive, using NewsAPI's `qInTitle` parameter. This ensures only relevant articles are returned directly from the API, eliminating the need for post-processing filtering of content-only matches.  
+- Articles are fetched with `update_news.py`, validated by exact phrase matching (using strict word-boundary regex), deduplicated, stored under `_data/news/*.yml`, and rendered by the Jekyll UI.  
+- **Combined request mode** (enabled by default): Fetches all topics in a single API call using `qInTitle` parameter with OR operator (e.g., `"Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"`), reducing API calls from N to 1. Uses NewsAPI's `qInTitle` parameter which searches only in article titles, efficiently returning only relevant articles directly from the API without post-processing filtering. Articles are automatically routed to the correct topic files based on which phrase they match.  
 - **Early stopping optimization**: Stops pagination early when enough articles are found or when duplicate threshold is reached, optimizing API usage.  
 - **Dynamic error handling**: Automatically detects and handles rate limit errors and result limit errors (free tier: 100 results max per query), gracefully stopping pagination while preserving available results.  
 - **Rate limiting & API tracking**: Tracks total API calls (default: max 45 per run), adds delays between topics/pages, and preserves existing articles if rate limits are hit.  
@@ -34,8 +34,8 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 1. **Config** → `_data/news_config.yml` defines API settings, exact phrase queries (`title_query`), rate limiting, combined request mode, and output paths.  
 2. **CLI Wrapper** → `python -m update_news` (or `python update_news.py`) calls `run_cli()` which handles success/error exit codes.  
 3. **Request Mode** → 
-   - **Combined mode** (default): Fetches all topics in 1 API call using OR operator, limited to 1 page (100 results max total), articles automatically routed to topics.
-   - **Separate mode**: Fetches each topic individually with pagination support (up to 5 pages per topic), with delays between topics.
+   - **Combined mode** (default): Fetches all topics in 1 API call using `qInTitle` parameter with OR operator (e.g., `"Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"`), limited to 1 page (100 results max total). Returns only title matches directly from API, eliminating post-processing filtering. Articles automatically routed to topics.
+   - **Separate mode**: Fetches each topic individually using `qInTitle` parameter (single phrase per request) with pagination support (up to 5 pages per topic, 500 articles max per topic), with delays between topics.
 4. **Rate Limiting** → Tracks API calls (default: max 45 per run), adds delays between topics/pages, dynamically detects rate limit errors, and preserves cached articles if limits are hit.  
 5. **Early Stopping** → Stops pagination when enough articles are found (default: 10) or when duplicate threshold is reached (default: 70%).  
 6. **Metrics** → Execution stats are exported automatically to `_data/news_metrics.json` and can be consumed by dashboards or CI.
@@ -91,7 +91,7 @@ python -m update_news
 Data lands in `_data/news/<topic>.yml`. Rebuild the Jekyll site to see the cards update.
 
 **Note**: The script automatically handles NewsAPI rate limits (50 requests per 12 hours for free tier) by:
-- **Combined request mode** (default): Uses 1 API call for all topics, reducing rate limit risk
+- **Combined request mode** (default): Uses 1 API call for all topics using `qInTitle` parameter with OR operator, reducing rate limit risk and returning only relevant title matches directly from API
 - Tracking total API calls and stopping before hitting the limit (default: 45 calls max)
 - Adding delays between topics/pages (default: 2 seconds between topics, 1 second between pages)
 - Dynamically detecting rate limit errors and preserving existing articles if limits are hit
@@ -174,7 +174,7 @@ Configuration is in `.pre-commit-config.yaml`. To skip hooks for a commit, use `
 - RSS feed & social sharing  
 - **News System Features:**
   - **Exact phrase matching** (case-insensitive) in article titles only for precise filtering
-  - **Combined request mode** (default): Fetches all topics in 1 API call, reducing API usage from N to 1
+  - **Combined request mode** (default): Fetches all topics in 1 API call using `qInTitle` parameter with OR operator, reducing API usage from N to 1 and returning only title matches (no post-processing filtering needed)
   - **Early stopping optimization**: Stops pagination when enough articles found or duplicate threshold reached
   - **Dynamic error handling**: Automatically detects and handles rate limit and result limit errors
   - **Rate limiting**: API call tracking (max 45 per run), delays between topics/pages, preserves cached articles
