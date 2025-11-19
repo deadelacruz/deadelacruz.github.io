@@ -35,6 +35,21 @@ news_items:
   url: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12322-1
   date: '2025-11-18'
   source: Biomedcentral.com
+- title: 'New Sections on "Machine Learning on Knowledge Graphs" and "Language Models
+    and Knowledge Graphs" added to long-running survey: "Semantic Web: Past, Present,
+    and Future"'
+  description: No description available.
+  url: https://lists.w3.org/Archives/Public/semantic-web/2025Nov/0002.html
+  date: '2025-11-18'
+  source: W3.org
+- title: The privacy panic around machine learning is overblown
+  description: 'We often hear warnings about how machine learning (ML) models may
+    expose sensitive information tied to their training data. The concern is understandable.
+    If a model was trained on personal records, it may seem reasonable to assume that
+    releasing it '
+  url: https://10.51.0.111/2025/11/18/machine-learning-privacy-risk-training-data/
+  date: '2025-11-18'
+  source: '0.111'
 - title: Combining quantum chemistry, machine learning and rate theory for organic
     luminescent materials
   description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00959F, Review
