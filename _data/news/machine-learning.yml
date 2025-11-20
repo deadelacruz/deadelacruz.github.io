@@ -1,4 +1,12 @@
 news_items:
+- title: Senior/Staff Software Engineer, Machine Learning Infrastructure
+  description: Who We Are Nuro is a self-driving technology company on a mission to
+    make autonomy accessible to all. Founded in 2016, Nuro is building the world’s
+    most scalable driver, combining cutting-edge AI with automotive-grade hardware.
+    Nuro licenses its core
+  url: https://nlppeople.com/job/senior-staff-software-engineer-machine-learning-infrastructure/
+  date: '2025-11-19'
+  source: Nlppeople.com
 - title: 'Machine learning for genomic prediction of growth traits in aquaculture:
     a case study of the Australasian snapper (Chrysophrys auratus)'
   description: 'Background Chrysophrys auratus (family: Sparidae), commonly known
@@ -50,6 +58,49 @@ news_items:
   url: https://10.51.0.111/2025/11/18/machine-learning-privacy-risk-training-data/
   date: '2025-11-18'
   source: '0.111'
+- title: 3.3-billion-year-old life discovered using machine learning
+  description: The technique detected microbial activity in 3.3-billion-year-old South
+    African rocks and found molecular traces of oxygen-producing photosynthesis in
+    2.5-billion-year-old samples—pushing back the timeline for such life by more than
+    800 million years
+  url: https://www.thehindubusinessline.com/news/science/33-billion-year-old-life-discovered-using-machine-learning/article70296241.ece
+  date: '2025-11-18'
+  source: BusinessLine
+- title: 'Demand forecasting and inventory optimization of distribution equipment:
+    A fusion model based on genetic algorithm and machine learning'
+  description: To improve the intelligent and refined management level of power distribution
+    systems in equipment operation and maintenance as well as emergency support, this
+    work proposes an integrated “prediction-optimization” model that combines genetic
+    algorith
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336026
+  date: '2025-11-18'
+  source: Plos.org
+- title: Senior Machine Learning Engineer-EN
+  description: 'About This Role Who We Are:  • CAE Vision: Our vision is to be the
+    worldwide partner of choice in defense and security, and civil aviation by revolutionizing
+    our customers’ training and critical operations with digitally immersive solutions
+    to elevat'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-en/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
+    OPEN
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
+    OPEN
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-2/
+  date: '2025-11-18'
+  source: Nlppeople.com
 - title: Combining quantum chemistry, machine learning and rate theory for organic
     luminescent materials
   description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00959F, Review
@@ -80,6 +131,14 @@ news_items:
   url: https://phys.org/news/2025-11-machine-quasars-lenses.html
   date: '2025-11-17'
   source: Phys.Org
+- title: Machine Learning Engineer (NLP)- Only W2
+  description: US Citizens and Green card holders would be considered only on W2.
+    As part of the enterprise innovation labs, the ML Engineer is responsible for
+    technology innovation and the next generation AI automation platforms by employing
+    data analytics and var
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-only-w2/
+  date: '2025-11-17'
+  source: Nlppeople.com
 - title: 'unifiedml: A Unified Machine Learning Interface for R, is now on CRAN +
     Discussion about AI replacing humans'
   description: 'unifiedml is now available on CRAN. This package provides a consistent

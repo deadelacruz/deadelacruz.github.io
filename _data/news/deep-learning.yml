@@ -1,4 +1,13 @@
 news_items:
+- title: Denoising single-cell RNA-seq data with a deep learning-embedded statistical
+    framework
+  description: Background Single-cell RNA sequencing (scRNA-seq) provides extensive
+    opportunities to explore cellular heterogeneity but is often limited by substantial
+    technical noise and variability. The prevalence of zero counts, arising from both
+    biological vari
+  url: https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-025-06296-w
+  date: '2025-11-19'
+  source: Biomedcentral.com
 - title: 'AllergenAI: a deep learning model predicting allergenicity based on protein
     sequence'
   description: Innovations in protein engineering offer promising solutions for redesigning
