@@ -7,6 +7,18 @@ news_items:
   url: https://nlppeople.com/job/senior-staff-software-engineer-machine-learning-infrastructure/
   date: '2025-11-19'
   source: Nlppeople.com
+- title: Machine learning tool distinguishes signs of life from non-living compounds
+    in space samples
+  description: 'Los Angeles CA (SPX) Nov 19, 2025
+
+
+
+    Researchers developed LifeTracer, a machine learning framework, to analyze mass
+    spectrometry data from space and terrestrial samples. They used advanced two-dimensional
+    gas chromatography and high-resolution time-o'
+  url: https://www.spacedaily.com/reports/Machine_learning_tool_distinguishes_signs_of_life_from_non_living_compounds_in_space_samples_999.html
+  date: '2025-11-19'
+  source: Space Daily
 - title: 'Machine learning for genomic prediction of growth traits in aquaculture:
     a case study of the Australasian snapper (Chrysophrys auratus)'
   description: 'Background Chrysophrys auratus (family: Sparidae), commonly known
