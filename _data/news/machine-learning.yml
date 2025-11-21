@@ -1,4 +1,29 @@
 news_items:
+- title: Sr Machine Learning Scientist
+  description: The Company PayPal has been revolutionizing commerce globally for more
+    than 25 years. Creating innovative experiences that make moving money, selling,
+    and shopping simple, personalized, and secure, PayPal empowers consumers and businesses
+    in approxim
+  url: https://nlppeople.com/job/sr-machine-learning-scientist-7/
+  date: '2025-11-20'
+  source: Nlppeople.com
+- title: An Applied Machine Learning Framework For Waste Lithium-Ion Battery Leaching
+    With Integrated Preliminary Environmental And Economic Assessment
+  description: 'Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC04752H, PaperNicolas
+    Schaeffer, André F.M. Nogueira, Filipe H.B. Sosa, João A.P. Coutinho, Ana C. DiasTechnological
+    innovation has led to the widespread adoption of lithium-ion batteries (LIBs)
+    f'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc04752h
+  date: '2025-11-20'
+  source: Royal Society of Chemistry
+- title: Data Scientist (Applied Machine Learning)
+  description: NORY, Inc. is advancing the hospitality industry by doubling profitability,
+    lowering carbon footprints, and enhancing work environments. Driven by CEO Conor,
+    who previously scaled Mad Egg, Nory addresses challenges seen in traditional management
+    syst
+  url: https://nlppeople.com/job/data-scientist-applied-machine-learning-2/
+  date: '2025-11-20'
+  source: Nlppeople.com
 - title: Senior/Staff Software Engineer, Machine Learning Infrastructure
   description: Who We Are Nuro is a self-driving technology company on a mission to
     make autonomy accessible to all. Founded in 2016, Nuro is building the world’s
@@ -19,6 +44,14 @@ news_items:
   url: https://www.spacedaily.com/reports/Machine_learning_tool_distinguishes_signs_of_life_from_non_living_compounds_in_space_samples_999.html
   date: '2025-11-19'
   source: Space Daily
+- title: How Annotated Data Impacts Machine Learning Model Performance?
+  description: When discussing Artificial Intelligence (AI) or Machine Learning (ML),
+    individuals tend to talk about the algorithms, the neural networks and deep learning
+    models, as well as predictive analytics.What makes these models really read is,
+    however, far e
+  url: https://slashdot.org/submission/17342479/how-annotated-data-impacts-machine-learning-model-performance
+  date: '2025-11-19'
+  source: Slashdot.org
 - title: 'Machine learning for genomic prediction of growth traits in aquaculture:
     a case study of the Australasian snapper (Chrysophrys auratus)'
   description: 'Background Chrysophrys auratus (family: Sparidae), commonly known
@@ -111,6 +144,22 @@ news_items:
     diverse teams and take your career wherever you want it to go. Join EY and help
     to build a better wor'
   url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-2/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: Machine Learning Engineer for Financial Services
+  description: About Us We are a Machine Learning and Computer Vision startup founded
+    in 2020, headquartered in Dublin, Ireland, with an AI Lab in Milan, Italy. Our
+    expertise spans Machine Learning and Generative AI for financial services and
+    Computer Vision for li
+  url: https://nlppeople.com/job/machine-learning-engineer-for-financial-services-2/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: Machine Learning Engineer for Financial Services
+  description: About UsWe are a Machine Learning and Computer Vision startup founded
+    in 2020, headquartered in Dublin, Ireland, with an AI Lab in Milan, Italy.Our
+    expertise spans Machine Learning and Generative AI for financial services and
+    Computer Vision for life
+  url: https://nlppeople.com/job/machine-learning-engineer-for-financial-services/
   date: '2025-11-18'
   source: Nlppeople.com
 - title: Combining quantum chemistry, machine learning and rate theory for organic
