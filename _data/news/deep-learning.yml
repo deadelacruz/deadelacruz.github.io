@@ -1,4 +1,13 @@
 news_items:
+- title: Benchmarking deep learning methods for biologically conserved single-cell
+    integration
+  description: Background Advancements in single-cell RNA sequencing have enabled
+    the analysis of millions of cells, but integrating such data across samples and
+    methods while mitigating batch effects remains challenging. Deep learning approaches
+    address this by le
+  url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03869-z
+  date: '2025-11-20'
+  source: Biomedcentral.com
 - title: Denoising single-cell RNA-seq data with a deep learning-embedded statistical
     framework
   description: Background Single-cell RNA sequencing (scRNA-seq) provides extensive

@@ -1,4 +1,53 @@
 news_items:
+- title: Accelerated discovery of new organic photovoltaic dyes for OPVs using light
+    absorbance as the primary screening criterion via machine learning and DFT
+  description: 'RSC Adv., 2025, 15,45783-45798DOI: 10.1039/D5RA06776F, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Masar A. Awad, Afaf M. Kadhum, Azal S. Waheeb, Hussein A.
+    K. Kyhoiesh, Has'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra06776f
+  date: '2025-11-21'
+  source: Royal Society of Chemistry
+- title: Machine Learning Engineer
+  description: 'Machine Learning Engineer page is loaded## Machine Learning Engineerlocations:
+    London: Chester Cawley House: Manchester: Bristol Harboursidetime type: Full timeposted
+    on: Posted Todaytime left to apply: End Date: December 3, 2025 (13 days left to
+    app'
+  url: https://nlppeople.com/job/machine-learning-engineer-576/
+  date: '2025-11-21'
+  source: Nlppeople.com
+- title: Lead AI/Machine Learning Engineer
+  description: The Disney Decision Science + Integration (DDSI) is a consulting team
+    that supports clients across The Walt Disney Company, including Disney Experiences
+    (Parks & Resorts worldwide, Cruise Line, Consumer Products, etc.), Disney Entertainment
+    (ABC, The
+  url: https://nlppeople.com/job/lead-ai-machine-learning-engineer-2/
+  date: '2025-11-21'
+  source: Nlppeople.com
+- title: Research Scientist (Machine Learning)
+  description: We’re looking for a Research Scientist (Machine Learning) to join an
+    ambitious and interdisciplinary team applying AI to transform drug discovery and
+    accelerate the development of life-changing medicines. This is a chance to work
+    on cutting-edge ML r
+  url: https://nlppeople.com/job/research-scientist-machine-learning-9/
+  date: '2025-11-21'
+  source: Nlppeople.com
+- title: Comparison of machine learning models for mapping Arecanut based agroforestry
+    system in Goa by enhancing precision and efficiency
+  description: Scientific Reports - Comparison of machine learning models for mapping
+    Arecanut based agroforestry system in Goa by enhancing precision and efficiency
+  url: https://www.nature.com/articles/s41598-025-27845-6
+  date: '2025-11-21'
+  source: Nature.com
+- title: Identification of potential anti-biofilm agents targeting LasR in Pseudomonas
+    aeruginosa through machine learning-driven screening, molecular docking, and dynamics
+    simulations
+  description: Scientific Reports - Identification of potential anti-biofilm agents
+    targeting LasR in Pseudomonas aeruginosa through machine learning-driven screening,
+    molecular docking, and dynamics simulations
+  url: https://www.nature.com/articles/s41598-025-29151-7
+  date: '2025-11-21'
+  source: Nature.com
 - title: Sr Machine Learning Scientist
   description: The Company PayPal has been revolutionizing commerce globally for more
     than 25 years. Creating innovative experiences that make moving money, selling,
@@ -34,6 +83,40 @@ news_items:
   url: https://www.globenewswire.com/news-release/2025/11/20/3191675/28124/en/Diagnostic-Labs-Market-Research-and-Forecast-2025-2030-Rising-Chronic-Diseases-Fuel-Demand-Automation-Advances-Efficiency-AI-and-Machine-Learning-Revolutionize-Function-Testing.html
   date: '2025-11-20'
   source: GlobeNewswire
+- title: 'Albumin-corrected anion gap as a predictor of 28-day mortality in acute
+    respiratory distress syndrome: A machine learning-based retrospective study'
+  description: Background Acute Respiratory Distress Syndrome (ARDS) remains a critical
+    condition associated with high mortality rates, prolonged hospitalization, and
+    reduced quality of life despite advances in critical care. The albumin-corrected
+    anion gap (ACAG),
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336662
+  date: '2025-11-20'
+  source: Plos.org
+- title: 'Forecasting urban air quality in Paris using ensemble machine learning:
+    A scalable framework for environmental management'
+  description: Urban air pollution poses a significant threat to public health and
+    urban sustainability in megacities like Paris. We cast forecasting as a short-term,
+    next-hour prediction task for PM2.5, NO, and CO, using hourly meteorology and
+    recent pollutant his
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336897
+  date: '2025-11-20'
+  source: Plos.org
+- title: Machine Learning Engineer/Researcher – 2026 Graduate Programme
+  description: ') for more information.Machine Learning Engineer/Researcher – 2026
+    Graduate Programme page is loaded## Machine Learning Engineer/Researcher – 2026
+    Graduate Programmelocations: Crawley, United Kingdomtime type: Full timeposted
+    on: Posted Todayjob requ'
+  url: https://nlppeople.com/job/machine-learning-engineer-researcher-2026-graduate-programme/
+  date: '2025-11-20'
+  source: Nlppeople.com
+- title: Machine Learning Operations-Engineer II
+  description: 'Job Description Sponsorship Notice: At this time, we are unable to
+    offer employment sponsorship for this position. This includes, but is not limited
+    to, H-1B, TN, L1, and OPT visa types. Why GM Financial Technology Innovation isn’t
+    just a talking poi'
+  url: https://nlppeople.com/job/machine-learning-operations-engineer-ii/
+  date: '2025-11-20'
+  source: Nlppeople.com
 - title: Senior/Staff Software Engineer, Machine Learning Infrastructure
   description: Who We Are Nuro is a self-driving technology company on a mission to
     make autonomy accessible to all. Founded in 2016, Nuro is building the world’s
