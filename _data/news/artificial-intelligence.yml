@@ -1,4 +1,12 @@
 news_items:
+- title: Artificial intelligence pioneers the double-strangeness factory
+  description: Unambiguous identification of double-strangeness hypernuclei is a challenging
+    task in nuclear physics. Here, the AUs demonstrate identification of 13ΛΛ-B hypernuclei
+    from an AI pipeline applied to the analysis of nuclear emulsion data from the
+    JPARC-
+  url: https://www.nature.com/articles/s41467-025-66517-x
+  date: '2025-11-22'
+  source: Nature.com
 - title: Trump considers order to override state regulations on artificial intelligence
   description: The Trump White House is reportedly drafting an executive order that
     would override state regulations on artificial intelligence. The order would establish
@@ -26,6 +34,31 @@ news_items:
   url: https://www.memeorandum.com/251120/p113
   date: '2025-11-21'
   source: Memeorandum.com
+- title: 3 Reasons Why Nvidia Just Silenced Artificial Intelligence (AI) Doubters
+  description: 'Key Points
+
+    -
+
+    Nvidia continues to deliver jaw-dropping results.
+
+    -
+
+    The company is converting over half of its revenue into bottom-line profit.
+
+    -
+
+    Nvidia''s stock still has a reasonable valuation.
+
+    The pressure was on earlier this week for the most valuabl'
+  url: https://biztoc.com/x/3a2399069058b76b
+  date: '2025-11-21'
+  source: Biztoc.com
+- title: Warren Buffett Sold $3.2 Billion of Apple and Piled $4.3 Billion Into This
+    Hot Artificial Intelligence (AI) Stock
+  description: No description available.
+  url: https://biztoc.com/x/a27fb82452f47ede
+  date: '2025-11-21'
+  source: Biztoc.com
 - title: Teachers and parents weigh benefits and risks of artificial intelligence
     in schools
   description: Artificial intelligence is rapidly being integrated into many facets
