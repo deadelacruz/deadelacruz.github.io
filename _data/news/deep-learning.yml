@@ -1,4 +1,14 @@
 news_items:
+- title: Construction and effectiveness test of multimodal data fusion prediction
+    model for intracranial infection after severe craniocerebral injury in children
+    based on deep learning
+  description: Objective To develop and validate a multimodal data fusion prediction
+    model based on deep learning for the early postoperative identification of intracranial
+    infection in pediatric patients with severe traumatic brain injury (TBI). Methods
+    A total of
+  url: https://bmcneurol.biomedcentral.com/articles/10.1186/s12883-025-04502-z
+  date: '2025-11-22'
+  source: Biomedcentral.com
 - title: Benchmarking deep learning methods for biologically conserved single-cell
     integration
   description: Background Advancements in single-cell RNA sequencing have enabled
