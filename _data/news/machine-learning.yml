@@ -1,4 +1,13 @@
 news_items:
+- title: 'IIT Madras to offer free Machine Learning course in 2026: How to enrol,
+    what you will learn, who should apply'
+  description: IIT Madras’ free 2026 ‘Introduction to Machine Learning’ course offers
+    a concept-driven, maths-backed path into AI. Across 12 weeks, it revises probability
+    and linear algebra, then moves through regression, SVMs, neural networks, trees,
+    ensembles, cl
+  url: https://timesofindia.indiatimes.com/education/news/iit-madras-to-offer-free-machine-learning-course-in-2026-how-to-enrol-what-you-will-learn-who-should-apply/articleshow/125516086.cms
+  date: '2025-11-23'
+  source: The Times of India
 - title: Accelerated discovery of new organic photovoltaic dyes for OPVs using light
     absorbance as the primary screening criterion via machine learning and DFT
   description: 'RSC Adv., 2025, 15,45783-45798DOI: 10.1039/D5RA06776F, Paper Open
@@ -48,6 +57,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-29151-7
   date: '2025-11-21'
   source: Nature.com
+- title: 'GSpyNetTreeS: a machine learning solution for glitch localization in time
+    and frequency'
+  description: Data from ground-based gravitational wave detectors are often contaminated
+    by non-Gaussian instrumental artifacts or detector noise transients. Unbiased
+    source property estimation relies on the ability to correctly identify and characterize
+    these art
+  url: https://arxiv.org/abs/2511.16861
+  date: '2025-11-21'
+  source: Arxiv.org
 - title: Sr Machine Learning Scientist
   description: The Company PayPal has been revolutionizing commerce globally for more
     than 25 years. Creating innovative experiences that make moving money, selling,
