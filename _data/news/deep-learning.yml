@@ -1,4 +1,12 @@
 news_items:
+- title: 'Helixer: ab initio prediction of primary eukaryotic gene models combining
+    deep learning and a hidden Markov model'
+  description: By leveraging both deep learning and hidden Markov models, Helixer
+    achieves broad taxonomic coverage for ab initio gene annotation of eukaryotic
+    genomes from fungi, plants, vertebrates and invertebrates.
+  url: https://www.nature.com/articles/s41592-025-02939-1
+  date: '2025-11-24'
+  source: Nature.com
 - title: Construction and effectiveness test of multimodal data fusion prediction
     model for intracranial infection after severe craniocerebral injury in children
     based on deep learning
