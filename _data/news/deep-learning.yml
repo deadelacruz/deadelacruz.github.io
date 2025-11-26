@@ -7,6 +7,15 @@ news_items:
   url: https://www.nature.com/articles/s41592-025-02939-1
   date: '2025-11-24'
   source: Nature.com
+- title: 'Domain-Randomized Deep Learning for Neuroimage Analysis: Selecting Training
+    Strategies, Navigating Challenges, and Maximizing Benefits'
+  description: Deep learning has revolutionized neuroimage analysis by delivering
+    unprecedented speed and accuracy. However, the narrow scope of many training datasets
+    constrains model robustness and generalizability. This challenge is particularly
+    acute in magneti
+  url: https://ieeexplore.ieee.org/document/11265787
+  date: '2025-11-24'
+  source: Ieee.org
 - title: Construction and effectiveness test of multimodal data fusion prediction
     model for intracranial infection after severe craniocerebral injury in children
     based on deep learning
