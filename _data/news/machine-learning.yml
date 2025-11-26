@@ -33,6 +33,12 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2025/ay/d5ay01299f
   date: '2025-11-25'
   source: Royal Society of Chemistry
+- title: The 5 FREE Must-Read Books for Every Machine Learning Engineer
+  description: Learn the theory, math, and engineering behind machine learning with
+    these highly recommended free books.
+  url: https://www.kdnuggets.com/the-5-free-must-read-books-for-every-machine-learning-engineer
+  date: '2025-11-25'
+  source: Kdnuggets.com
 - title: Atomistic Simulation Study of Diamond Doping Based on Machine Learning Potential
   description: 'Phys. Chem. Chem. Phys., 2025, Accepted ManuscriptDOI: 10.1039/D5CP03568F,
     PaperYiheng Yan, Yaochen Yu, Junwei Hu, Xuecheng Sun, Qinlan Luo, Zengyong Chu,
