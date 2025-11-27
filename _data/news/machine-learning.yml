@@ -1,4 +1,26 @@
 news_items:
+- title: Performance investigation of Xanthan gum polymer flooding for enhanced oil
+    recovery using machine learning models
+  description: Scientific Reports - Performance investigation of Xanthan gum polymer
+    flooding for enhanced oil recovery using machine learning models
+  url: https://www.nature.com/articles/s41598-025-30156-5
+  date: '2025-11-26'
+  source: Nature.com
+- title: Gender effects and racial biases in mate selection as revealed by machine
+    learning
+  description: Scientific Reports - Gender effects and racial biases in mate selection
+    as revealed by machine learning
+  url: https://www.nature.com/articles/s41598-025-25028-x
+  date: '2025-11-26'
+  source: Nature.com
+- title: Towards advanced mineral identification for future space mining applications
+    employing LIBS and machine learning
+  description: 'J. Anal. At. Spectrom., 2026, Accepted ManuscriptDOI: 10.1039/D5JA00377F,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Homa Saeidfirozeh, Ashwin Kumar Myakalwar, Pavlína Šebo'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d5ja00377f
+  date: '2025-11-26'
+  source: Royal Society of Chemistry
 - title: Machine Learning Guidelines for Designing Next-Generation Nanocomposite Membranes
     for CO₂ Capture
   description: 'Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC05552K, Critical
@@ -39,6 +61,12 @@ news_items:
   url: https://www.kdnuggets.com/the-5-free-must-read-books-for-every-machine-learning-engineer
   date: '2025-11-25'
   source: Kdnuggets.com
+- title: 'Correction: MT-MAG: Accurate and interpretable machine learning for complete
+    or partial taxonomic assignments of metagenomeassembled genomes'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337752
+  date: '2025-11-25'
+  source: Plos.org
 - title: Atomistic Simulation Study of Diamond Doping Based on Machine Learning Potential
   description: 'Phys. Chem. Chem. Phys., 2025, Accepted ManuscriptDOI: 10.1039/D5CP03568F,
     PaperYiheng Yan, Yaochen Yu, Junwei Hu, Xuecheng Sun, Qinlan Luo, Zengyong Chu,
@@ -97,6 +125,15 @@ news_items:
   url: https://www.globenewswire.com/news-release/2025/11/24/3193586/28124/en/AI-Agents-Global-Markets-Technology-and-Applications-Research-Report-2025-2030-Analysis-of-Advancements-in-Machine-Learning-Natural-Language-Processing-Digital-Transformation-and-I.html
   date: '2025-11-24'
   source: GlobeNewswire
+- title: Artificial Intelligence and Physical Security Analyst – AI & Machine Learning
+    Focus
+  description: Here at Siemens, we take pride in enabling sustainable progress through
+    technology. We do this through empowering customers by combining the real and
+    digital worlds. Improving how we live, work, and move today and for the next generation!
+    We know tha
+  url: https://nlppeople.com/job/artificial-intelligence-and-physical-security-analyst-ai-machine-learning-focus/
+  date: '2025-11-24'
+  source: Nlppeople.com
 - title: 'IIT Madras to offer free Machine Learning course in 2026: How to enrol,
     what you will learn, who should apply'
   description: IIT Madras’ free 2026 ‘Introduction to Machine Learning’ course offers

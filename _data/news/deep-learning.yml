@@ -1,4 +1,33 @@
 news_items:
+- title: Glasses-free 3D display with ultrawide viewing range using deep learning
+  description: A glasses-free three-dimensional display, which is as large as a conventional
+    desktop screen and has a viewing angle larger than 100°, is achieved by an artificial
+    intelligence-powered optimization algorithm, which adapts the virtual images sent
+    arou
+  url: https://www.nature.com/articles/s41586-025-09752-y
+  date: '2025-11-26'
+  source: Nature.com
+- title: The remote sensing method for large-scale asphalt pavement aging assessment
+    with automated sample generation and deep learning
+  description: Scientific Reports - The remote sensing method for large-scale asphalt
+    pavement aging assessment with automated sample generation and deep learning
+  url: https://www.nature.com/articles/s41598-025-29966-4
+  date: '2025-11-26'
+  source: Nature.com
+- title: 'Correction: Deep learning assisted LDPC decoding for 5G IoT networks in
+    fading environments'
+  description: 'Scientific Reports - Correction: Deep learning assisted LDPC decoding
+    for 5G IoT networks in fading environments'
+  url: https://www.nature.com/articles/s41598-025-29260-3
+  date: '2025-11-26'
+  source: Nature.com
+- title: Deep learning classification of INSV-associated weeds in Monterey county
+    using a curated RGB image dataset
+  description: Scientific Reports - Deep learning classification of INSV-associated
+    weeds in Monterey county using a curated RGB image dataset
+  url: https://www.nature.com/articles/s41598-025-29552-8
+  date: '2025-11-26'
+  source: Nature.com
 - title: 'Helixer: ab initio prediction of primary eukaryotic gene models combining
     deep learning and a hidden Markov model'
   description: By leveraging both deep learning and hidden Markov models, Helixer
