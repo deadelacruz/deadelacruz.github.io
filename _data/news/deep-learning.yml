@@ -1,4 +1,13 @@
 news_items:
+- title: A deep learning-based multiscale integration of spatial omics with tumor
+    morphology
+  description: 'Spatial transcriptomics technologies are still too restrictive for
+    widespread clinical use, and methods that have been designed to bridge them with
+    histopathology carry important limitations. Here, the authors develop MISO, a
+    deep learning framework '
+  url: https://www.nature.com/articles/s41467-025-66691-y
+  date: '2025-11-27'
+  source: Nature.com
 - title: Glasses-free 3D display with ultrawide viewing range using deep learning
   description: A glasses-free three-dimensional display, which is as large as a conventional
     desktop screen and has a viewing angle larger than 100°, is achieved by an artificial

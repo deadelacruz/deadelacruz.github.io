@@ -21,6 +21,24 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d5ja00377f
   date: '2025-11-26'
   source: Royal Society of Chemistry
+- title: 'Predicting arthritis risk with machine learning: Insights from the 2023
+    National Health Interview Survey data'
+  description: Arthritis, a common chronic disease encompassing multiple subtypes
+    of osteoarthritis and rheumatoid arthritis, was explored in this study as a risk-related
+    factor based on data from the 2023 U.S. National Health Interview Survey (NHIS).
+    The study inc
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336018
+  date: '2025-11-26'
+  source: Plos.org
+- title: 'Machine learning meets maternal health: Uncovering spatial blind spots in
+    antenatal care quality in Bangladesh'
+  description: 'Background High-quality antenatal care (ANC) is defined as four or
+    more antenatal visits with at least one to a medically trained provider, measurement
+    of weight and blood pressure, testing of blood and urine, and receipt of information
+    on potential '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337643
+  date: '2025-11-26'
+  source: Plos.org
 - title: Machine Learning Guidelines for Designing Next-Generation Nanocomposite Membranes
     for CO₂ Capture
   description: 'Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC05552K, Critical
