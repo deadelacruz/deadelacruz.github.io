@@ -1,4 +1,11 @@
 news_items:
+- title: 'Deep learning for microbial life detection in deep subseafloor samples:
+    objective cell recognition'
+  description: 'Scientific Reports - Deep learning for microbial life detection in
+    deep subseafloor samples: objective cell recognition'
+  url: https://www.nature.com/articles/s41598-025-29239-0
+  date: '2025-11-28'
+  source: Nature.com
 - title: A deep learning-based multiscale integration of spatial omics with tumor
     morphology
   description: 'Spatial transcriptomics technologies are still too restrictive for
