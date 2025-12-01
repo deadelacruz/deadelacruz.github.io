@@ -15,6 +15,15 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-66691-y
   date: '2025-11-27'
   source: Nature.com
+- title: Integrative characterization of the topography of V4 neural codes using deep
+    learning approaches
+  description: Area V4 is a mid-level stage of the macaque ventral visual stream,
+    known to encode intermediate visual features such as color, curvature, corners,
+    texture, three-dimensional (3D) solids, and local form. Classical neurophysiological
+    studies have typic
+  url: https://arxiv.org/abs/2511.22050
+  date: '2025-11-27'
+  source: Arxiv.org
 - title: Glasses-free 3D display with ultrawide viewing range using deep learning
   description: A glasses-free three-dimensional display, which is as large as a conventional
     desktop screen and has a viewing angle larger than 100°, is achieved by an artificial
@@ -44,6 +53,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-29552-8
   date: '2025-11-26'
   source: Nature.com
+- title: Deep Learning Architectures for Code-Modulated Visual Evoked Potentials Detection
+  description: Non-invasive Brain-Computer Interfaces (BCIs) based on Code-Modulated
+    Visual Evoked Potentials (C-VEPs) require highly robust decoding methods to address
+    temporal variability and session-dependent noise in EEG signals. This study proposes
+    and evaluat
+  url: https://arxiv.org/abs/2511.21940
+  date: '2025-11-26'
+  source: Arxiv.org
 - title: 'Helixer: ab initio prediction of primary eukaryotic gene models combining
     deep learning and a hidden Markov model'
   description: By leveraging both deep learning and hidden Markov models, Helixer
