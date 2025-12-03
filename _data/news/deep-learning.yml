@@ -1,4 +1,14 @@
 news_items:
+- title: Comparing deep learning CNN method with traditional MRI-based hippocampal
+    segmentation and volumetry for early Alzheimer’s disease diagnosis across diverse
+    populations
+  description: The advent of artificial intelligence (AI) driven software has impacted
+    numerous aspects of medicine, leading to automated algorithms that assist in performing
+    feature extraction, making measurements on diagnostic imaging, and aiding in diagnosing
+    di
+  url: https://www.nature.com/articles/s41598-025-29366-8
+  date: '2025-12-02'
+  source: Nature.com
 - title: 'Deep learning for microbial life detection in deep subseafloor samples:
     objective cell recognition'
   description: 'Scientific Reports - Deep learning for microbial life detection in

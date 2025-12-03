@@ -1,4 +1,37 @@
 news_items:
+- title: 'Correction: Machine learning reveals limited predictive value of clinical
+    factors for asthma exacerbations'
+  description: 'Scientific Reports - Correction: Machine learning reveals limited
+    predictive value of clinical factors for asthma exacerbations'
+  url: https://www.nature.com/articles/s41598-025-30215-x
+  date: '2025-12-02'
+  source: Nature.com
+- title: Rapid quality assessment of organic fertilizers using fused FTIR and LIBS
+    spectroscopy with machine learning
+  description: 'Anal. Methods, 2025, Accepted ManuscriptDOI: 10.1039/D5AY01786F, PaperXuebin
+    Xu, Fei Ma, Changwen Du, Jianmin ZhouOrganic fertilizers are vital for sustainable
+    agriculture, but conventional quality assessment methods are often time-consuming
+    and cost'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ay/d5ay01786f
+  date: '2025-12-02'
+  source: Royal Society of Chemistry
+- title: An explainable machine learning framework for multi-objective carbon reduction
+    targeting material operational seasonal emissions in building retrofits
+  description: Scientific Reports - An explainable machine learning framework for
+    multi-objective carbon reduction targeting material operational seasonal emissions
+    in building retrofits
+  url: https://www.nature.com/articles/s41598-025-29418-z
+  date: '2025-12-02'
+  source: Nature.com
+- title: 'Bridging Scales: Machine Learning for the Rational Design and Modelling
+    of Shape Memory Polymers'
+  description: 'Soft Matter, 2025, Accepted ManuscriptDOI: 10.1039/D5SM00980D, Perspective
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Cheng Yan, Giulia ScaletShape memory polymers (SMPs) are
+    a class of stimul'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/sm/d5sm00980d
+  date: '2025-12-02'
+  source: Royal Society of Chemistry
 - title: AI / Machine Learning Junior / Senior / Lead
   description: About Us Catalyst Labs is a leading talent agency with a specialized
     vertical in Applied AI, Machine Learning, and Data Science. We stand out as an
@@ -46,6 +79,34 @@ news_items:
   url: https://timesofindia.indiatimes.com/education/where-curiosity-meets-code-post-graduate-program-in-ai-and-machine-learning-by-berkeley-executive-education/articleshow/125688635.cms
   date: '2025-12-01'
   source: The Times of India
+- title: Apple's SVP Machine Learning and AI Strategy, John Giannandrea, to step down
+  description: 'See the rest of the story here.
+
+
+    thefly.com provides the latest financial news as it breaks. Known as a leader
+    in market intelligence, The Fly''s real-time, streaming news feed keeps individual
+    investors, professional money managers, active traders, a'
+  url: https://thefly.com/permalinks/entry.php/id4248151/AAPL;MSFT;GOOG;GOOGL-Apples-SVP-Machine-Learning-and-AI-Strategy-John-Giannandrea-to-step-down
+  date: '2025-12-01'
+  source: Thefly.com
+- title: 'Predictive Analytics in Healthcare Analysis Report 2025: A $39.98 Billion
+    Market by 2030, Driven by AI and Machine Learning Innovations and 39% Provider
+    Investment in Outcome-Forecasting Tools'
+  description: Main opportunities in predictive analytics for healthcare involve leveraging
+    AI and machine learning to improve patient outcomes, identify disease trends,
+    and enhance clinical decisions. A shift towards preventive care supports market
+    growth, althoug
+  url: https://www.globenewswire.com/news-release/2025/12/01/3197113/28124/en/Predictive-Analytics-in-Healthcare-Analysis-Report-2025-A-39-98-Billion-Market-by-2030-Driven-by-AI-and-Machine-Learning-Innovations-and-39-Provider-Investment-in-Outcome-Forecasti.html
+  date: '2025-12-01'
+  source: GlobeNewswire
+- title: 'Comment on “Using genomic data and machine learning to predict antibiotic
+    resistance: A tutorial paper”'
+  description: A recent study by Faye Orcales and colleagues proposes a teaching curriculum
+    on supervised machine learning applied to genomics data aimed at predicting antibiotic
+    resistance. The article describes a traditional machine learning pipeline step-by-step
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013673
+  date: '2025-12-01'
+  source: Plos.org
 - title: Machine Learning Engineer, Amazon General Intelligence (AGI)
   description: 'Machine Learning Engineer, Amazon General Intelligence (AGI) Job ID:
     3003288 | Amazon.com Services LLC The Artificial General Intelligence (AGI) team
