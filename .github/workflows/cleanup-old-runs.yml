@@ -1,0 +1,369 @@
+name: Cleanup Old Workflow Runs
+
+on:
+  schedule:
+    # Run daily at 2:00 AM UTC (10:00 AM Philippine Time)
+    # Adjust the schedule as needed
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual triggering
+    inputs:
+      keep_runs:
+        description: 'Number of recent runs to keep for each workflow'
+        required: false
+        default: '10'
+        type: string
+  workflow_run:
+    # Trigger automatically after target workflows complete
+    # Supports both "Update News Every 12 Hours" and "pages build and deployment"
+    workflows: 
+      - "Update News Every 12 Hours"
+      - "pages build and deployment"
+    types:
+      - completed
+    branches:
+      - master
+
+# Prevent concurrent runs to avoid conflicts
+concurrency:
+  group: cleanup-old-runs
+  cancel-in-progress: false  # Let current run finish, queue others
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write  # Required to delete workflow runs
+      contents: read  # Required to read repository info
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set keep runs value
+        id: set-keep-runs
+        run: |
+          KEEP_RUNS="${{ inputs.keep_runs }}"
+          
+          # Default to 10 if empty
+          if [ -z "$KEEP_RUNS" ]; then
+            KEEP_RUNS="10"
+          fi
+          
+          # Validate that it's a positive integer
+          if ! echo "$KEEP_RUNS" | grep -qE '^[1-9][0-9]*$'; then
+            echo "⚠️  Invalid keep_runs value: '$KEEP_RUNS'. Must be a positive integer."
+            echo "   Using default value: 10"
+            KEEP_RUNS="10"
+          fi
+          
+          # Ensure it's not too large (safety check)
+          if [ "$KEEP_RUNS" -gt 100 ]; then
+            echo "⚠️  keep_runs value ($KEEP_RUNS) is very large. Consider using a smaller value."
+            echo "   Proceeding with value: $KEEP_RUNS"
+          fi
+          
+          echo "keep_runs=$KEEP_RUNS" >> $GITHUB_OUTPUT
+          echo "✓ Will keep the last $KEEP_RUNS runs for each workflow"
+
+      - name: Determine trigger source and target workflows
+        id: determine-targets
+        run: |
+          # Detect how this workflow was triggered
+          TRIGGER_TYPE="unknown"
+          TARGET_WORKFLOW=""
+          SKIP_CLEANUP="false"
+          
+          # Check if triggered by workflow_run
+          if [ -n "${{ github.event.workflow_run.name }}" ]; then
+            TRIGGER_TYPE="workflow_run"
+            TRIGGERING_WORKFLOW="${{ github.event.workflow_run.name }}"
+            TRIGGERING_STATUS="${{ github.event.workflow_run.conclusion }}"
+            
+            echo "🔍 Triggered by workflow_run: $TRIGGERING_WORKFLOW"
+            echo "   Workflow status: $TRIGGERING_STATUS"
+            
+            # Only proceed with cleanup if the triggering workflow succeeded
+            # This prevents cleanup after failed runs, keeping failed runs for debugging
+            if [ "$TRIGGERING_STATUS" != "success" ]; then
+              echo "⚠️  Triggering workflow did not succeed (status: $TRIGGERING_STATUS)"
+              echo "   Skipping cleanup to preserve failed runs for debugging"
+              SKIP_CLEANUP="true"
+              echo "skip_cleanup=true" >> $GITHUB_OUTPUT
+              echo "trigger_type=$TRIGGER_TYPE" >> $GITHUB_OUTPUT
+              echo "target_workflow=none" >> $GITHUB_OUTPUT
+              echo "triggering_workflow=$TRIGGERING_WORKFLOW" >> $GITHUB_OUTPUT
+              exit 0
+            fi
+            
+            echo "✓ Triggering workflow succeeded, proceeding with cleanup"
+            
+            # Determine which workflow to clean based on the triggering workflow
+            if [ "$TRIGGERING_WORKFLOW" = "Update News Every 12 Hours" ]; then
+              TARGET_WORKFLOW="update_news"
+              echo "✓ Will clean up: Update News workflow only"
+            elif [ "$TRIGGERING_WORKFLOW" = "pages build and deployment" ]; then
+              TARGET_WORKFLOW="pages"
+              echo "✓ Will clean up: Pages workflow only"
+            else
+              echo "⚠️  Unknown triggering workflow: $TRIGGERING_WORKFLOW"
+              TARGET_WORKFLOW="both"
+            fi
+          elif [ "${{ github.event_name }}" = "schedule" ]; then
+            TRIGGER_TYPE="schedule"
+            TARGET_WORKFLOW="both"
+            echo "🔍 Triggered by schedule: Will clean up both workflows"
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            TRIGGER_TYPE="manual"
+            TARGET_WORKFLOW="both"
+            echo "🔍 Triggered manually: Will clean up both workflows"
+          else
+            TRIGGER_TYPE="unknown"
+            TARGET_WORKFLOW="both"
+            echo "⚠️  Unknown trigger type: ${{ github.event_name }}"
+            echo "   Defaulting to clean up both workflows"
+          fi
+          
+          echo "trigger_type=$TRIGGER_TYPE" >> $GITHUB_OUTPUT
+          echo "target_workflow=$TARGET_WORKFLOW" >> $GITHUB_OUTPUT
+          echo "skip_cleanup=$SKIP_CLEANUP" >> $GITHUB_OUTPUT
+          
+          if [ -n "$TRIGGERING_WORKFLOW" ]; then
+            echo "triggering_workflow=$TRIGGERING_WORKFLOW" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Get workflow IDs
+        id: get-workflows
+        run: |
+          echo "Fetching workflow information..."
+          
+          # Helper function to find workflow by file path or name
+          # Supports multiple search strategies for flexible workflow discovery
+          find_workflow() {
+            local file_path="$1"
+            local workflow_name="$2"
+            local display_name="$3"
+            local search_pattern="$4"  # Optional: regex pattern for case-insensitive search
+            
+            echo "Looking for $display_name workflow..."
+            
+            # Strategy 1: Try by file path first
+            if [ -n "$file_path" ]; then
+              local response=$(curl -s \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$file_path")
+              
+              local workflow_id=$(echo "$response" | jq -r '.id // empty')
+              
+              if [ -n "$workflow_id" ] && [ "$workflow_id" != "null" ]; then
+                echo "  ✓ Found $display_name workflow ID by file path: $workflow_id"
+                echo "$workflow_id"
+                return 0
+              fi
+            fi
+            
+            # Strategy 2: Try by exact name match
+            if [ -n "$workflow_name" ]; then
+              echo "  ⚠ Not found by file path, trying by exact name..."
+              local all_workflows=$(curl -s \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/${{ github.repository }}/actions/workflows")
+              
+              local workflow_id=$(echo "$all_workflows" | jq -r ".workflows[] | select(.name == \"$workflow_name\") | .id" | head -n1)
+              
+              if [ -n "$workflow_id" ] && [ "$workflow_id" != "null" ]; then
+                echo "  ✓ Found $display_name workflow ID by exact name: $workflow_id"
+                echo "$workflow_id"
+                return 0
+              fi
+            fi
+            
+            # Strategy 3: Try by regex pattern (case-insensitive search)
+            if [ -n "$search_pattern" ]; then
+              echo "  ⚠ Not found by exact name, trying pattern search..."
+              if [ -z "$all_workflows" ]; then
+                all_workflows=$(curl -s \
+                  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                  -H "Accept: application/vnd.github.v3+json" \
+                  "https://api.github.com/repos/${{ github.repository }}/actions/workflows")
+              fi
+              
+              local workflow_id=$(echo "$all_workflows" | jq -r ".workflows[] | select(.name | test(\"$search_pattern\")) | .id" | head -n1)
+              
+              if [ -n "$workflow_id" ] && [ "$workflow_id" != "null" ]; then
+                echo "  ✓ Found $display_name workflow ID by pattern search: $workflow_id"
+                echo "$workflow_id"
+                return 0
+              fi
+            fi
+            
+            # Not found
+            echo "  ✗ Warning: Could not find $display_name workflow ID"
+            echo ""
+            return 1
+          }
+          
+          # Find Update News workflow
+          UPDATE_NEWS_WORKFLOW_ID=$(find_workflow "update-news.yml" "Update News Every 12 Hours" "Update News")
+          
+          # Find Pages workflow using extended function with multiple strategies
+          PAGES_WORKFLOW_ID=$(find_workflow "build-jekyll.yml" "pages build and deployment" "Pages" "(?i)(pages|deployment)")
+          
+          # Save workflow IDs as outputs
+          echo "update_news_id=$UPDATE_NEWS_WORKFLOW_ID" >> $GITHUB_OUTPUT
+          echo "pages_id=$PAGES_WORKFLOW_ID" >> $GITHUB_OUTPUT
+
+      - name: Cleanup workflow runs
+        id: cleanup-runs
+        if: steps.determine-targets.outputs.skip_cleanup != 'true'
+        run: |
+          KEEP_RUNS="${{ steps.set-keep-runs.outputs.keep_runs }}"
+          TARGET_WORKFLOW="${{ steps.determine-targets.outputs.target_workflow }}"
+          
+          echo "🎯 Cleanup target: $TARGET_WORKFLOW"
+          echo ""
+          
+          # Helper function to cleanup a workflow
+          cleanup_workflow() {
+            local workflow_id="$1"
+            local workflow_name="$2"
+            
+            if [ -z "$workflow_id" ] || [ "$workflow_id" = "null" ]; then
+              echo "⚠️  Skipping $workflow_name (workflow ID not found)"
+              return 0
+            fi
+            
+            echo "🧹 Cleaning up $workflow_name workflow runs (keeping last $KEEP_RUNS runs)..."
+            
+            # Get workflow runs (first page, 100 per page)
+            RUNS_RESPONSE=$(curl -s \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$workflow_id/runs?per_page=100")
+            
+            # Check if we got a valid response
+            TOTAL_COUNT=$(echo "$RUNS_RESPONSE" | jq -r '.total_count // 0')
+            echo "Total runs found: $TOTAL_COUNT"
+            
+            if [ "$TOTAL_COUNT" -le "$KEEP_RUNS" ]; then
+              echo "✓ Only $TOTAL_COUNT runs found, which is less than or equal to $KEEP_RUNS. Nothing to delete."
+              return 0
+            fi
+            
+            # Extract run IDs, skipping the first KEEP_RUNS
+            RUN_IDS=$(echo "$RUNS_RESPONSE" | jq -r ".workflow_runs[$KEEP_RUNS:] | .[].id")
+            
+            DELETED_COUNT=0
+            FAILED_COUNT=0
+            
+            for RUN_ID in $RUN_IDS; do
+              if [ -n "$RUN_ID" ] && [ "$RUN_ID" != "null" ]; then
+                echo "Deleting run ID: $RUN_ID"
+                HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
+                  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                  -H "Accept: application/vnd.github.v3+json" \
+                  "https://api.github.com/repos/${{ github.repository }}/actions/runs/$RUN_ID")
+                
+                if [ "$HTTP_CODE" = "204" ]; then
+                  DELETED_COUNT=$((DELETED_COUNT + 1))
+                  echo "  ✓ Successfully deleted run $RUN_ID"
+                else
+                  FAILED_COUNT=$((FAILED_COUNT + 1))
+                  echo "  ✗ Failed to delete run $RUN_ID (HTTP $HTTP_CODE)"
+                fi
+                
+                # Small delay to avoid rate limiting
+                sleep 0.3
+              fi
+            done
+            
+            echo ""
+            echo "📊 Summary: Deleted $DELETED_COUNT old $workflow_name workflow runs"
+            if [ "$FAILED_COUNT" -gt 0 ]; then
+              echo "⚠️  Failed to delete $FAILED_COUNT runs"
+            fi
+            echo ""
+          }
+          
+          # Conditionally cleanup workflows based on trigger source
+          UPDATE_NEWS_ID="${{ steps.get-workflows.outputs.update_news_id }}"
+          PAGES_ID="${{ steps.get-workflows.outputs.pages_id }}"
+          
+          if [ "$TARGET_WORKFLOW" = "update_news" ]; then
+            # Only cleanup Update News workflow
+            cleanup_workflow "$UPDATE_NEWS_ID" "Update News"
+          elif [ "$TARGET_WORKFLOW" = "pages" ]; then
+            # Only cleanup Pages workflow
+            cleanup_workflow "$PAGES_ID" "Pages"
+          elif [ "$TARGET_WORKFLOW" = "both" ]; then
+            # Cleanup both workflows (scheduled or manual trigger)
+            cleanup_workflow "$UPDATE_NEWS_ID" "Update News"
+            cleanup_workflow "$PAGES_ID" "Pages"
+          else
+            echo "⚠️  Unknown target workflow: $TARGET_WORKFLOW"
+            echo "   Defaulting to clean up both workflows"
+            cleanup_workflow "$UPDATE_NEWS_ID" "Update News"
+            cleanup_workflow "$PAGES_ID" "Pages"
+          fi
+
+      - name: Summary
+        run: |
+          KEEP_RUNS="${{ steps.set-keep-runs.outputs.keep_runs }}"
+          TRIGGER_TYPE="${{ steps.determine-targets.outputs.trigger_type }}"
+          TARGET_WORKFLOW="${{ steps.determine-targets.outputs.target_workflow }}"
+          TRIGGERING_WORKFLOW="${{ steps.determine-targets.outputs.triggering_workflow }}"
+          SKIP_CLEANUP="${{ steps.determine-targets.outputs.skip_cleanup }}"
+          
+          echo "## Cleanup Summary" >> $GITHUB_STEP_SUMMARY
+          
+          # Check if cleanup was skipped
+          if [ "$SKIP_CLEANUP" = "true" ]; then
+            echo "⏭️  Cleanup skipped" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Reason:** Triggering workflow (\`$TRIGGERING_WORKFLOW\`) did not succeed" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "Failed workflow runs are preserved for debugging purposes. Cleanup will run automatically after successful workflow completions." >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
+          
+          echo "✅ Cleanup workflow completed successfully" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          # Describe trigger source
+          if [ "$TRIGGER_TYPE" = "workflow_run" ]; then
+            echo "**Triggered by:** \`$TRIGGERING_WORKFLOW\` workflow completion (successful)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            if [ "$TARGET_WORKFLOW" = "update_news" ]; then
+              echo "**Cleaned up:** Update News workflow only" >> $GITHUB_STEP_SUMMARY
+            elif [ "$TARGET_WORKFLOW" = "pages" ]; then
+              echo "**Cleaned up:** Pages workflow only" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "**Cleaned up:** Both workflows" >> $GITHUB_STEP_SUMMARY
+            fi
+          elif [ "$TRIGGER_TYPE" = "schedule" ]; then
+            echo "**Triggered by:** Scheduled run (daily at 2:00 AM UTC)" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Cleaned up:** Both workflows" >> $GITHUB_STEP_SUMMARY
+          elif [ "$TRIGGER_TYPE" = "manual" ]; then
+            echo "**Triggered by:** Manual dispatch" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Cleaned up:** Both workflows" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**Triggered by:** $TRIGGER_TYPE" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Cleaned up:** Both workflows" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Runs kept:** Last $KEEP_RUNS runs per workflow" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "---" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "This workflow automatically cleans up old runs:" >> $GITHUB_STEP_SUMMARY
+          echo "- **After successful workflow completion:** Immediately after \`Update News Every 12 Hours\` or \`pages build and deployment\` completes successfully" >> $GITHUB_STEP_SUMMARY
+          echo "- **Scheduled:** Daily at 2:00 AM UTC (maintenance cleanup for both workflows)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Manual:** Can be triggered manually with custom \`keep_runs\` value" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "> **Note:** Failed workflow runs are preserved for debugging. Cleanup only runs after successful completions." >> $GITHUB_STEP_SUMMARY
+
