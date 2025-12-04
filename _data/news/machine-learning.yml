@@ -1,4 +1,503 @@
 news_items:
+- title: Red Hat OpenShift Service on AWS supports Capacity Reservations and Capacity
+    Blocks for Machine Learning
+  description: Red Hat OpenShift Service on AWS (ROSA) is a fully managed application
+    platform that offers a more seamless experience for building, deploying, and scaling
+    applications. For machine learning (ML) workloads, ROSA now supports On-Demand
+    Capacity Reserv
+  url: https://www.redhat.com/en/blog/red-hat-openshift-service-aws-rosa-now-supports-demand-capacity-reservations-ml-workloads
+  date: '2025-12-03'
+  source: Redhat.com
+- title: Development of liquid biopsy for screening colorectal cancer through the
+    combination of an antibody microarray-based metal-enhanced sandwich immunofluorescent
+    assay of cytokines with machine learning
+  description: 'Analyst, 2026, Advance ArticleDOI: 10.1039/D5AN01041A, PaperWanyu
+    Zhang, Shasha Li, Xudong Sun, Zhenxin WangThe simultaneous determination of the
+    expression levels of multiple inflammation-associated cytokines in blood holds
+    great promise for the ear'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01041a
+  date: '2025-12-03'
+  source: Royal Society of Chemistry
+- title: 'Correction: Machine learning reveals limited predictive value of clinical
+    factors for asthma exacerbations'
+  description: 'Scientific Reports - Correction: Machine learning reveals limited
+    predictive value of clinical factors for asthma exacerbations'
+  url: https://www.nature.com/articles/s41598-025-30215-x
+  date: '2025-12-02'
+  source: Nature.com
+- title: Rapid quality assessment of organic fertilizers using fused FTIR and LIBS
+    spectroscopy with machine learning
+  description: 'Anal. Methods, 2025, Accepted ManuscriptDOI: 10.1039/D5AY01786F, PaperXuebin
+    Xu, Fei Ma, Changwen Du, Jianmin ZhouOrganic fertilizers are vital for sustainable
+    agriculture, but conventional quality assessment methods are often time-consuming
+    and cost'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ay/d5ay01786f
+  date: '2025-12-02'
+  source: Royal Society of Chemistry
+- title: An explainable machine learning framework for multi-objective carbon reduction
+    targeting material operational seasonal emissions in building retrofits
+  description: Scientific Reports - An explainable machine learning framework for
+    multi-objective carbon reduction targeting material operational seasonal emissions
+    in building retrofits
+  url: https://www.nature.com/articles/s41598-025-29418-z
+  date: '2025-12-02'
+  source: Nature.com
+- title: 'Bridging Scales: Machine Learning for the Rational Design and Modelling
+    of Shape Memory Polymers'
+  description: 'Soft Matter, 2025, Accepted ManuscriptDOI: 10.1039/D5SM00980D, Perspective
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Cheng Yan, Giulia ScaletShape memory polymers (SMPs) are
+    a class of stimul'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/sm/d5sm00980d
+  date: '2025-12-02'
+  source: Royal Society of Chemistry
+- title: AI / Machine Learning Junior / Senior / Lead
+  description: About Us Catalyst Labs is a leading talent agency with a specialized
+    vertical in Applied AI, Machine Learning, and Data Science. We stand out as an
+    agency thats deeply embedded in our clients recruitment operations. We collaborate
+    directly with Found
+  url: https://nlppeople.com/job/ai-machine-learning-junior-senior-lead/
+  date: '2025-12-01'
+  source: Nlppeople.com
+- title: Distinguishing liquid crystalline nematic variants by machine learning
+  description: 'Soft Matter, 2025, Accepted ManuscriptDOI: 10.1039/D5SM01070E, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Alexander R Quinn, Rebecca Walker, Naila Tufaha, John M.
+    D. Storey'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/sm/d5sm01070e
+  date: '2025-12-01'
+  source: Royal Society of Chemistry
+- title: Lead Machine Learning Engineer – ML/AI
+  description: Lead Machine Learning Engineer – ML/AI At Capital One, we are changing
+    banking for good by creating responsible and reliable AI-powered systems. Our
+    investments in technology infrastructure and world-class talent — along with our
+    deep experience in m
+  url: https://nlppeople.com/job/lead-machine-learning-engineer-ml-ai-2/
+  date: '2025-12-01'
+  source: Nlppeople.com
+- title: 'NERHF: a hybrid machine learning-driven efficient credit risk control framework'
+  description: 'Scientific Reports - NERHF: a hybrid machine learning-driven efficient
+    credit risk control framework'
+  url: https://www.nature.com/articles/s41598-025-30905-6
+  date: '2025-12-01'
+  source: Nature.com
+- title: 'Machine learning for risk stratification in the emergency department (MARS-ED):
+    a randomized controlled trial'
+  description: 'Here the authors report a randomized controlled trial showing that
+    a previously developed artificial intelligence model estimates patient mortality
+    risk as accurately as doctors and standard risk scores, but did not change clinical
+    care decisions in '
+  url: https://www.nature.com/articles/s41467-025-66947-7
+  date: '2025-12-01'
+  source: Nature.com
+- title: 'Where curiosity meets code: Post Graduate Program in AI and Machine Learning
+    by Berkeley Executive Education'
+  description: 'Education News: Every decade has its defining skill: the 2000s were
+    shaped by software, the 2010s by data, and the 2020s by AI. Today, the people
+    who understand artif.'
+  url: https://timesofindia.indiatimes.com/education/where-curiosity-meets-code-post-graduate-program-in-ai-and-machine-learning-by-berkeley-executive-education/articleshow/125688635.cms
+  date: '2025-12-01'
+  source: The Times of India
+- title: Apple's SVP Machine Learning and AI Strategy, John Giannandrea, to step down
+  description: 'See the rest of the story here.
+
+
+    thefly.com provides the latest financial news as it breaks. Known as a leader
+    in market intelligence, The Fly''s real-time, streaming news feed keeps individual
+    investors, professional money managers, active traders, a'
+  url: https://thefly.com/permalinks/entry.php/id4248151/AAPL;MSFT;GOOG;GOOGL-Apples-SVP-Machine-Learning-and-AI-Strategy-John-Giannandrea-to-step-down
+  date: '2025-12-01'
+  source: Thefly.com
+- title: 'Predictive Analytics in Healthcare Analysis Report 2025: A $39.98 Billion
+    Market by 2030, Driven by AI and Machine Learning Innovations and 39% Provider
+    Investment in Outcome-Forecasting Tools'
+  description: Main opportunities in predictive analytics for healthcare involve leveraging
+    AI and machine learning to improve patient outcomes, identify disease trends,
+    and enhance clinical decisions. A shift towards preventive care supports market
+    growth, althoug
+  url: https://www.globenewswire.com/news-release/2025/12/01/3197113/28124/en/Predictive-Analytics-in-Healthcare-Analysis-Report-2025-A-39-98-Billion-Market-by-2030-Driven-by-AI-and-Machine-Learning-Innovations-and-39-Provider-Investment-in-Outcome-Forecasti.html
+  date: '2025-12-01'
+  source: GlobeNewswire
+- title: 'Comment on “Using genomic data and machine learning to predict antibiotic
+    resistance: A tutorial paper”'
+  description: A recent study by Faye Orcales and colleagues proposes a teaching curriculum
+    on supervised machine learning applied to genomics data aimed at predicting antibiotic
+    resistance. The article describes a traditional machine learning pipeline step-by-step
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013673
+  date: '2025-12-01'
+  source: Plos.org
+- title: Machine Learning Engineer, Amazon General Intelligence (AGI)
+  description: 'Machine Learning Engineer, Amazon General Intelligence (AGI) Job ID:
+    3003288 | Amazon.com Services LLC The Artificial General Intelligence (AGI) team
+    is looking for a passionate, talented, and inventive Machine Learning Engineer
+    (MLE) to play a pivot'
+  url: https://nlppeople.com/job/machine-learning-engineer-amazon-general-intelligence-agi/
+  date: '2025-11-30'
+  source: Nlppeople.com
+- title: 'United States Graphics Processing Unit (GPU) Research Report 2025: A $136.07
+    Billion Market by 2033 from $19 Billion in 2024, Driven by Gaming Industry Expansion,
+    and AI and Machine Learning'
+  description: The United States GPU market is projected to skyrocket from US$ 19.03
+    billion in 2024 to US$ 136.07 billion by 2033, achieving a CAGR of 24.43% from
+    2025. This growth is driven by rising demands in gaming, AI, and data-intensive
+    applications. Key sec
+  url: https://www.globenewswire.com/news-release/2025/11/28/3196156/28124/en/United-States-Graphics-Processing-Unit-GPU-Research-Report-2025-A-136-07-Billion-Market-by-2033-from-19-Billion-in-2024-Driven-by-Gaming-Industry-Expansion-and-AI-and-Machine-Learn.html
+  date: '2025-11-28'
+  source: GlobeNewswire
+- title: North America Automated Machine Learning Market Report 2025-2033 by Offering,
+    Enterprise Size, Deployment Mode, Application, End Use, Countries and Company
+    Analysis
+  description: 'The North America Automated Machine Learning (AutoML) Market is projected
+    to grow from US$ 1.02 billion in 2024 to US$ 13 billion by 2033, with a CAGR of
+    32.66%. Key growth drivers include rising demand for AI-driven solutions, a shortage
+    of skilled '
+  url: https://www.globenewswire.com/news-release/2025/11/28/3196050/28124/en/North-America-Automated-Machine-Learning-Market-Report-2025-2033-by-Offering-Enterprise-Size-Deployment-Mode-Application-End-Use-Countries-and-Company-Analysis.html
+  date: '2025-11-28'
+  source: GlobeNewswire
+- title: New observational auditing framework takes aim at machine learning privacy
+    leaks
+  description: Machine learning (ML) privacy concerns continue to surface, as audits
+    show that models can reveal parts of the labels (the user’s choice, expressed
+    preference, or the result of an action) used during training. A new research paper
+    explores a differen
+  url: https://www.helpnetsecurity.com/2025/11/28/machine-learning-privacy-audit-checks/
+  date: '2025-11-28'
+  source: Help Net Security
+- title: Artificial Intelligence / Machine Learning (AI / ML) Mid-Career Systems Engineer
+  description: 'REQUIRED QUALIFICATIONS: • A High School Diploma or GED plus twelve
+    (12) years of general systems engineering experience, OR • Bachelor’s degree in
+    a qualified engineering field or a related discipline from an accredited college
+    or university plus se'
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-ai-ml-mid-career-systems-engineer/
+  date: '2025-11-28'
+  source: Nlppeople.com
+- title: 'Human Vaccines Strategic Business Analysis Report 2025: Market to Reach
+    $71.4 Billion by 2030 - Growing Integration of AI and Machine Learning in Vaccine
+    Development'
+  description: Opportunities in the human vaccines market include leveraging innovations
+    like mRNA technology to enhance vaccine efficacy and safety. Rising global health
+    awareness and demand in emerging markets, fueled by urbanization and international
+    travel, als
+  url: https://www.globenewswire.com/news-release/2025/11/27/3195727/28124/en/Human-Vaccines-Strategic-Business-Analysis-Report-2025-Market-to-Reach-71-4-Billion-by-2030-Growing-Integration-of-AI-and-Machine-Learning-in-Vaccine-Development.html
+  date: '2025-11-27'
+  source: GlobeNewswire
+- title: Performance investigation of Xanthan gum polymer flooding for enhanced oil
+    recovery using machine learning models
+  description: Scientific Reports - Performance investigation of Xanthan gum polymer
+    flooding for enhanced oil recovery using machine learning models
+  url: https://www.nature.com/articles/s41598-025-30156-5
+  date: '2025-11-26'
+  source: Nature.com
+- title: Gender effects and racial biases in mate selection as revealed by machine
+    learning
+  description: Scientific Reports - Gender effects and racial biases in mate selection
+    as revealed by machine learning
+  url: https://www.nature.com/articles/s41598-025-25028-x
+  date: '2025-11-26'
+  source: Nature.com
+- title: Towards advanced mineral identification for future space mining applications
+    employing LIBS and machine learning
+  description: 'J. Anal. At. Spectrom., 2026, Accepted ManuscriptDOI: 10.1039/D5JA00377F,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Homa Saeidfirozeh, Ashwin Kumar Myakalwar, Pavlína Šebo'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d5ja00377f
+  date: '2025-11-26'
+  source: Royal Society of Chemistry
+- title: 'Predicting arthritis risk with machine learning: Insights from the 2023
+    National Health Interview Survey data'
+  description: Arthritis, a common chronic disease encompassing multiple subtypes
+    of osteoarthritis and rheumatoid arthritis, was explored in this study as a risk-related
+    factor based on data from the 2023 U.S. National Health Interview Survey (NHIS).
+    The study inc
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336018
+  date: '2025-11-26'
+  source: Plos.org
+- title: 'Machine learning meets maternal health: Uncovering spatial blind spots in
+    antenatal care quality in Bangladesh'
+  description: 'Background High-quality antenatal care (ANC) is defined as four or
+    more antenatal visits with at least one to a medically trained provider, measurement
+    of weight and blood pressure, testing of blood and urine, and receipt of information
+    on potential '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337643
+  date: '2025-11-26'
+  source: Plos.org
+- title: Machine Learning Guidelines for Designing Next-Generation Nanocomposite Membranes
+    for CO₂ Capture
+  description: 'Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC05552K, Critical
+    ReviewDoaa Sallam, Basamat S Shaheen, Nageh AllamSince the Industrial Revolution,
+    atmospheric carbon dioxide (CO₂) levels have increased by nearly 40%, emphasizing
+    the urgent nee'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc05552k
+  date: '2025-11-25'
+  source: Royal Society of Chemistry
+- title: Machine learning high-throughput screening of rare earth SACs with different
+    coordination Environments for HER
+  description: 'Chem. Commun., 2025, Accepted ManuscriptDOI: 10.1039/D5CC05978J, CommunicationMeiling
+    Liu, Qiming Fu, Zhong Wei, Gouse Peera Shaik, Chao LiuHigh-throughput screening
+    of all rare earth SACs was conducted using ML to evaluate their HER performance.
+    DFT'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/cc/d5cc05978j
+  date: '2025-11-25'
+  source: Royal Society of Chemistry
+- title: Feasibility of accelerometer-based prediction of postural balance in schoolchildren
+    using machine learning models
+  description: Scientific Reports - Feasibility of accelerometer-based prediction
+    of postural balance in schoolchildren using machine learning models
+  url: https://www.nature.com/articles/s41598-025-30160-9
+  date: '2025-11-25'
+  source: Nature.com
+- title: End-to-End Workflows for Liquid Biopsy Biotyping Analysis Using Combined
+    MALDI MS and Machine Learning Approach
+  description: 'Anal. Methods, 2025, Accepted ManuscriptDOI: 10.1039/D5AY01299F, Technical
+    Note Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Lukáš Pečinka, Jaromíra Pantučková, Monika Vlachová, Lukáš
+    Moráň, Ter'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ay/d5ay01299f
+  date: '2025-11-25'
+  source: Royal Society of Chemistry
+- title: The 5 FREE Must-Read Books for Every Machine Learning Engineer
+  description: Learn the theory, math, and engineering behind machine learning with
+    these highly recommended free books.
+  url: https://www.kdnuggets.com/the-5-free-must-read-books-for-every-machine-learning-engineer
+  date: '2025-11-25'
+  source: Kdnuggets.com
+- title: 'Correction: MT-MAG: Accurate and interpretable machine learning for complete
+    or partial taxonomic assignments of metagenomeassembled genomes'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337752
+  date: '2025-11-25'
+  source: Plos.org
+- title: Atomistic Simulation Study of Diamond Doping Based on Machine Learning Potential
+  description: 'Phys. Chem. Chem. Phys., 2025, Accepted ManuscriptDOI: 10.1039/D5CP03568F,
+    PaperYiheng Yan, Yaochen Yu, Junwei Hu, Xuecheng Sun, Qinlan Luo, Zengyong Chu,
+    Jiayu Dai, Haiyang NiuDiamond is regarded as a highly promising semiconductor
+    material due to i'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/cp/d5cp03568f
+  date: '2025-11-24'
+  source: Royal Society of Chemistry
+- title: NIKE, Inc. Innovation AI & Machine Learning Graduate Intern
+  description: WHO YOU’LL WORK WITH This internship is part of Nike’s Advanced Product
+    Intelligence team, a group within the Advanced Innovation Collective, that focuses
+    on building intelligent capabilities for designers, engineers, and creators to
+    reimagine the fu
+  url: https://nlppeople.com/job/nike-inc-innovation-ai-machine-learning-graduate-intern/
+  date: '2025-11-24'
+  source: Nlppeople.com
+- title: Prediction of the crystal structure of avadomide using machine learning potentials
+    and crystal engineering
+  description: 'CrystEngComm, 2025, Accepted ManuscriptDOI: 10.1039/D5CE00849B, PaperFaezeh
+    Bahrami, Alireza Salimi, Zahrasadat M Abardeh, Artem R. OganovToday, machine learning
+    (ML) and crystal structure prediction (CSP) are principal tools in computational
+    materia'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ce/d5ce00849b
+  date: '2025-11-24'
+  source: Royal Society of Chemistry
+- title: 'Daily Deal: The Complete Machine Learning Bundle'
+  description: Dive into the world of self-driving cars, speech recognition technology,
+    and more with the Complete Machine Learning Bundle. Over 10 courses, you will
+    learn about pattern recognition and prediction, and how to harness the power of
+    machine learning to
+  url: https://slashdot.org/firehose.pl?op=view&amp;id=180195099
+  date: '2025-11-24'
+  source: Slashdot.org
+- title: Machine Learning Interview Prep For FAANG ML Jobs - Interview Kickstart Updates
+    ML Engineer Interview Process
+  description: SANTA CLARA, CA, Nov.  24, 2025  (GLOBE NEWSWIRE) -- SANTA CLARA, CA
+    - November 24, 2025 -  -    Interview Kickstart, a U.S.-based upskilling platform...
+  url: https://www.globenewswire.com/news-release/2025/11/24/3193835/0/en/Machine-Learning-Interview-Prep-For-FAANG-ML-Jobs-Interview-Kickstart-Updates-ML-Engineer-Interview-Process.html
+  date: '2025-11-24'
+  source: GlobeNewswire
+- title: 'Daily Deal: The Complete Machine Learning Bundle'
+  description: Dive into the world of self-driving cars, speech recognition technology,
+    and more with the Complete Machine Learning Bundle. Over 10 courses, you will
+    learn about pattern recognition and prediction, and how to harness the power of
+    machine learning to
+  url: https://www.techdirt.com/2025/11/24/daily-deal-the-complete-machine-learning-bundle-2/
+  date: '2025-11-24'
+  source: Techdirt
+- title: 'AI Agents Global Markets, Technology, and Applications Research Report 2025-2030:
+    Analysis of Advancements in Machine Learning, Natural Language Processing, Digital
+    Transformation and Industry 4.0'
+  description: AI agents present vast opportunities in productivity, customer service,
+    and personalized user interaction across industries. Key growth drivers include
+    advancements in real-time data processing, contextual awareness, and integration
+    capabilities with
+  url: https://www.globenewswire.com/news-release/2025/11/24/3193586/28124/en/AI-Agents-Global-Markets-Technology-and-Applications-Research-Report-2025-2030-Analysis-of-Advancements-in-Machine-Learning-Natural-Language-Processing-Digital-Transformation-and-I.html
+  date: '2025-11-24'
+  source: GlobeNewswire
+- title: Artificial Intelligence and Physical Security Analyst – AI & Machine Learning
+    Focus
+  description: Here at Siemens, we take pride in enabling sustainable progress through
+    technology. We do this through empowering customers by combining the real and
+    digital worlds. Improving how we live, work, and move today and for the next generation!
+    We know tha
+  url: https://nlppeople.com/job/artificial-intelligence-and-physical-security-analyst-ai-machine-learning-focus/
+  date: '2025-11-24'
+  source: Nlppeople.com
+- title: 'IIT Madras to offer free Machine Learning course in 2026: How to enrol,
+    what you will learn, who should apply'
+  description: IIT Madras’ free 2026 ‘Introduction to Machine Learning’ course offers
+    a concept-driven, maths-backed path into AI. Across 12 weeks, it revises probability
+    and linear algebra, then moves through regression, SVMs, neural networks, trees,
+    ensembles, cl
+  url: https://timesofindia.indiatimes.com/education/news/iit-madras-to-offer-free-machine-learning-course-in-2026-how-to-enrol-what-you-will-learn-who-should-apply/articleshow/125516086.cms
+  date: '2025-11-23'
+  source: The Times of India
+- title: Accelerated discovery of new organic photovoltaic dyes for OPVs using light
+    absorbance as the primary screening criterion via machine learning and DFT
+  description: 'RSC Adv., 2025, 15,45783-45798DOI: 10.1039/D5RA06776F, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Masar A. Awad, Afaf M. Kadhum, Azal S. Waheeb, Hussein A.
+    K. Kyhoiesh, Has'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra06776f
+  date: '2025-11-21'
+  source: Royal Society of Chemistry
+- title: Machine Learning Engineer
+  description: 'Machine Learning Engineer page is loaded## Machine Learning Engineerlocations:
+    London: Chester Cawley House: Manchester: Bristol Harboursidetime type: Full timeposted
+    on: Posted Todaytime left to apply: End Date: December 3, 2025 (13 days left to
+    app'
+  url: https://nlppeople.com/job/machine-learning-engineer-576/
+  date: '2025-11-21'
+  source: Nlppeople.com
+- title: Lead AI/Machine Learning Engineer
+  description: The Disney Decision Science + Integration (DDSI) is a consulting team
+    that supports clients across The Walt Disney Company, including Disney Experiences
+    (Parks & Resorts worldwide, Cruise Line, Consumer Products, etc.), Disney Entertainment
+    (ABC, The
+  url: https://nlppeople.com/job/lead-ai-machine-learning-engineer-2/
+  date: '2025-11-21'
+  source: Nlppeople.com
+- title: Research Scientist (Machine Learning)
+  description: We’re looking for a Research Scientist (Machine Learning) to join an
+    ambitious and interdisciplinary team applying AI to transform drug discovery and
+    accelerate the development of life-changing medicines. This is a chance to work
+    on cutting-edge ML r
+  url: https://nlppeople.com/job/research-scientist-machine-learning-9/
+  date: '2025-11-21'
+  source: Nlppeople.com
+- title: Comparison of machine learning models for mapping Arecanut based agroforestry
+    system in Goa by enhancing precision and efficiency
+  description: Scientific Reports - Comparison of machine learning models for mapping
+    Arecanut based agroforestry system in Goa by enhancing precision and efficiency
+  url: https://www.nature.com/articles/s41598-025-27845-6
+  date: '2025-11-21'
+  source: Nature.com
+- title: Identification of potential anti-biofilm agents targeting LasR in Pseudomonas
+    aeruginosa through machine learning-driven screening, molecular docking, and dynamics
+    simulations
+  description: Scientific Reports - Identification of potential anti-biofilm agents
+    targeting LasR in Pseudomonas aeruginosa through machine learning-driven screening,
+    molecular docking, and dynamics simulations
+  url: https://www.nature.com/articles/s41598-025-29151-7
+  date: '2025-11-21'
+  source: Nature.com
+- title: 'GSpyNetTreeS: a machine learning solution for glitch localization in time
+    and frequency'
+  description: Data from ground-based gravitational wave detectors are often contaminated
+    by non-Gaussian instrumental artifacts or detector noise transients. Unbiased
+    source property estimation relies on the ability to correctly identify and characterize
+    these art
+  url: https://arxiv.org/abs/2511.16861
+  date: '2025-11-21'
+  source: Arxiv.org
+- title: Sr Machine Learning Scientist
+  description: The Company PayPal has been revolutionizing commerce globally for more
+    than 25 years. Creating innovative experiences that make moving money, selling,
+    and shopping simple, personalized, and secure, PayPal empowers consumers and businesses
+    in approxim
+  url: https://nlppeople.com/job/sr-machine-learning-scientist-7/
+  date: '2025-11-20'
+  source: Nlppeople.com
+- title: An Applied Machine Learning Framework For Waste Lithium-Ion Battery Leaching
+    With Integrated Preliminary Environmental And Economic Assessment
+  description: 'Green Chem., 2025, Accepted ManuscriptDOI: 10.1039/D5GC04752H, PaperNicolas
+    Schaeffer, André F.M. Nogueira, Filipe H.B. Sosa, João A.P. Coutinho, Ana C. DiasTechnological
+    innovation has led to the widespread adoption of lithium-ion batteries (LIBs)
+    f'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/gc/d5gc04752h
+  date: '2025-11-20'
+  source: Royal Society of Chemistry
+- title: Data Scientist (Applied Machine Learning)
+  description: NORY, Inc. is advancing the hospitality industry by doubling profitability,
+    lowering carbon footprints, and enhancing work environments. Driven by CEO Conor,
+    who previously scaled Mad Egg, Nory addresses challenges seen in traditional management
+    syst
+  url: https://nlppeople.com/job/data-scientist-applied-machine-learning-2/
+  date: '2025-11-20'
+  source: Nlppeople.com
+- title: 'Diagnostic Labs Market Research and Forecast 2025-2030: Rising Chronic Diseases
+    Fuel Demand, Automation Advances Efficiency, AI and Machine Learning Revolutionize
+    Function Testing'
+  description: The Diagnostic Labs Market is poised for growth due to rising chronic
+    disease prevalence, aging populations, and advancements in technology. Key opportunities
+    include leveraging AI for better data analysis, enhancing automation for increased
+    efficien
+  url: https://www.globenewswire.com/news-release/2025/11/20/3191675/28124/en/Diagnostic-Labs-Market-Research-and-Forecast-2025-2030-Rising-Chronic-Diseases-Fuel-Demand-Automation-Advances-Efficiency-AI-and-Machine-Learning-Revolutionize-Function-Testing.html
+  date: '2025-11-20'
+  source: GlobeNewswire
+- title: 'Albumin-corrected anion gap as a predictor of 28-day mortality in acute
+    respiratory distress syndrome: A machine learning-based retrospective study'
+  description: Background Acute Respiratory Distress Syndrome (ARDS) remains a critical
+    condition associated with high mortality rates, prolonged hospitalization, and
+    reduced quality of life despite advances in critical care. The albumin-corrected
+    anion gap (ACAG),
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336662
+  date: '2025-11-20'
+  source: Plos.org
+- title: 'Forecasting urban air quality in Paris using ensemble machine learning:
+    A scalable framework for environmental management'
+  description: Urban air pollution poses a significant threat to public health and
+    urban sustainability in megacities like Paris. We cast forecasting as a short-term,
+    next-hour prediction task for PM2.5, NO, and CO, using hourly meteorology and
+    recent pollutant his
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336897
+  date: '2025-11-20'
+  source: Plos.org
+- title: Machine Learning Engineer/Researcher – 2026 Graduate Programme
+  description: ') for more information.Machine Learning Engineer/Researcher – 2026
+    Graduate Programme page is loaded## Machine Learning Engineer/Researcher – 2026
+    Graduate Programmelocations: Crawley, United Kingdomtime type: Full timeposted
+    on: Posted Todayjob requ'
+  url: https://nlppeople.com/job/machine-learning-engineer-researcher-2026-graduate-programme/
+  date: '2025-11-20'
+  source: Nlppeople.com
+- title: Machine Learning Operations-Engineer II
+  description: 'Job Description Sponsorship Notice: At this time, we are unable to
+    offer employment sponsorship for this position. This includes, but is not limited
+    to, H-1B, TN, L1, and OPT visa types. Why GM Financial Technology Innovation isn’t
+    just a talking poi'
+  url: https://nlppeople.com/job/machine-learning-operations-engineer-ii/
+  date: '2025-11-20'
+  source: Nlppeople.com
+- title: Senior/Staff Software Engineer, Machine Learning Infrastructure
+  description: Who We Are Nuro is a self-driving technology company on a mission to
+    make autonomy accessible to all. Founded in 2016, Nuro is building the world’s
+    most scalable driver, combining cutting-edge AI with automotive-grade hardware.
+    Nuro licenses its core
+  url: https://nlppeople.com/job/senior-staff-software-engineer-machine-learning-infrastructure/
+  date: '2025-11-19'
+  source: Nlppeople.com
+- title: Machine learning tool distinguishes signs of life from non-living compounds
+    in space samples
+  description: 'Los Angeles CA (SPX) Nov 19, 2025
+
+
+
+    Researchers developed LifeTracer, a machine learning framework, to analyze mass
+    spectrometry data from space and terrestrial samples. They used advanced two-dimensional
+    gas chromatography and high-resolution time-o'
+  url: https://www.spacedaily.com/reports/Machine_learning_tool_distinguishes_signs_of_life_from_non_living_compounds_in_space_samples_999.html
+  date: '2025-11-19'
+  source: Space Daily
+- title: How Annotated Data Impacts Machine Learning Model Performance?
+  description: When discussing Artificial Intelligence (AI) or Machine Learning (ML),
+    individuals tend to talk about the algorithms, the neural networks and deep learning
+    models, as well as predictive analytics.What makes these models really read is,
+    however, far e
+  url: https://slashdot.org/submission/17342479/how-annotated-data-impacts-machine-learning-model-performance
+  date: '2025-11-19'
+  source: Slashdot.org
 - title: 'Machine learning for genomic prediction of growth traits in aquaculture:
     a case study of the Australasian snapper (Chrysophrys auratus)'
   description: 'Background Chrysophrys auratus (family: Sparidae), commonly known
@@ -35,6 +534,80 @@ news_items:
   url: https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-025-12322-1
   date: '2025-11-18'
   source: Biomedcentral.com
+- title: 'New Sections on "Machine Learning on Knowledge Graphs" and "Language Models
+    and Knowledge Graphs" added to long-running survey: "Semantic Web: Past, Present,
+    and Future"'
+  description: No description available.
+  url: https://lists.w3.org/Archives/Public/semantic-web/2025Nov/0002.html
+  date: '2025-11-18'
+  source: W3.org
+- title: The privacy panic around machine learning is overblown
+  description: 'We often hear warnings about how machine learning (ML) models may
+    expose sensitive information tied to their training data. The concern is understandable.
+    If a model was trained on personal records, it may seem reasonable to assume that
+    releasing it '
+  url: https://10.51.0.111/2025/11/18/machine-learning-privacy-risk-training-data/
+  date: '2025-11-18'
+  source: '0.111'
+- title: 3.3-billion-year-old life discovered using machine learning
+  description: The technique detected microbial activity in 3.3-billion-year-old South
+    African rocks and found molecular traces of oxygen-producing photosynthesis in
+    2.5-billion-year-old samples—pushing back the timeline for such life by more than
+    800 million years
+  url: https://www.thehindubusinessline.com/news/science/33-billion-year-old-life-discovered-using-machine-learning/article70296241.ece
+  date: '2025-11-18'
+  source: BusinessLine
+- title: 'Demand forecasting and inventory optimization of distribution equipment:
+    A fusion model based on genetic algorithm and machine learning'
+  description: To improve the intelligent and refined management level of power distribution
+    systems in equipment operation and maintenance as well as emergency support, this
+    work proposes an integrated “prediction-optimization” model that combines genetic
+    algorith
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336026
+  date: '2025-11-18'
+  source: Plos.org
+- title: Senior Machine Learning Engineer-EN
+  description: 'About This Role Who We Are:  • CAE Vision: Our vision is to be the
+    worldwide partner of choice in defense and security, and civil aviation by revolutionizing
+    our customers’ training and critical operations with digitally immersive solutions
+    to elevat'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-en/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
+    OPEN
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
+    OPEN
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-2/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: Machine Learning Engineer for Financial Services
+  description: About Us We are a Machine Learning and Computer Vision startup founded
+    in 2020, headquartered in Dublin, Ireland, with an AI Lab in Milan, Italy. Our
+    expertise spans Machine Learning and Generative AI for financial services and
+    Computer Vision for li
+  url: https://nlppeople.com/job/machine-learning-engineer-for-financial-services-2/
+  date: '2025-11-18'
+  source: Nlppeople.com
+- title: Machine Learning Engineer for Financial Services
+  description: About UsWe are a Machine Learning and Computer Vision startup founded
+    in 2020, headquartered in Dublin, Ireland, with an AI Lab in Milan, Italy.Our
+    expertise spans Machine Learning and Generative AI for financial services and
+    Computer Vision for life
+  url: https://nlppeople.com/job/machine-learning-engineer-for-financial-services/
+  date: '2025-11-18'
+  source: Nlppeople.com
 - title: Combining quantum chemistry, machine learning and rate theory for organic
     luminescent materials
   description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00959F, Review
@@ -65,6 +638,14 @@ news_items:
   url: https://phys.org/news/2025-11-machine-quasars-lenses.html
   date: '2025-11-17'
   source: Phys.Org
+- title: Machine Learning Engineer (NLP)- Only W2
+  description: US Citizens and Green card holders would be considered only on W2.
+    As part of the enterprise innovation labs, the ML Engineer is responsible for
+    technology innovation and the next generation AI automation platforms by employing
+    data analytics and var
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-only-w2/
+  date: '2025-11-17'
+  source: Nlppeople.com
 - title: 'unifiedml: A Unified Machine Learning Interface for R, is now on CRAN +
     Discussion about AI replacing humans'
   description: 'unifiedml is now available on CRAN. This package provides a consistent
