@@ -138,13 +138,15 @@ jobs:
           
           # Helper function to find workflow by file path or name
           # Supports multiple search strategies for flexible workflow discovery
+          # Log messages go to stderr (>&2) so they're visible but not captured
+          # Only the workflow ID is sent to stdout for capture
           find_workflow() {
             local file_path="$1"
             local workflow_name="$2"
             local display_name="$3"
             local search_pattern="$4"  # Optional: regex pattern for case-insensitive search
             
-            echo "Looking for $display_name workflow..."
+            echo "Looking for $display_name workflow..." >&2
             
             # Strategy 1: Try by file path first
             if [ -n "$file_path" ]; then
@@ -156,7 +158,8 @@ jobs:
               local workflow_id=$(echo "$response" | jq -r '.id // empty')
               
               if [ -n "$workflow_id" ] && [ "$workflow_id" != "null" ]; then
-                echo "  ✓ Found $display_name workflow ID by file path: $workflow_id"
+                echo "  ✓ Found $display_name workflow ID by file path: $workflow_id" >&2
+                # Only output the workflow ID to stdout (for capture)
                 echo "$workflow_id"
                 return 0
               fi
@@ -164,7 +167,7 @@ jobs:
             
             # Strategy 2: Try by exact name match
             if [ -n "$workflow_name" ]; then
-              echo "  ⚠ Not found by file path, trying by exact name..."
+              echo "  ⚠ Not found by file path, trying by exact name..." >&2
               local all_workflows=$(curl -s \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
@@ -173,7 +176,8 @@ jobs:
               local workflow_id=$(echo "$all_workflows" | jq -r ".workflows[] | select(.name == \"$workflow_name\") | .id" | head -n1)
               
               if [ -n "$workflow_id" ] && [ "$workflow_id" != "null" ]; then
-                echo "  ✓ Found $display_name workflow ID by exact name: $workflow_id"
+                echo "  ✓ Found $display_name workflow ID by exact name: $workflow_id" >&2
+                # Only output the workflow ID to stdout (for capture)
                 echo "$workflow_id"
                 return 0
               fi
@@ -181,7 +185,7 @@ jobs:
             
             # Strategy 3: Try by regex pattern (case-insensitive search)
             if [ -n "$search_pattern" ]; then
-              echo "  ⚠ Not found by exact name, trying pattern search..."
+              echo "  ⚠ Not found by exact name, trying pattern search..." >&2
               if [ -z "$all_workflows" ]; then
                 all_workflows=$(curl -s \
                   -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
@@ -192,14 +196,17 @@ jobs:
               local workflow_id=$(echo "$all_workflows" | jq -r ".workflows[] | select(.name | test(\"$search_pattern\")) | .id" | head -n1)
               
               if [ -n "$workflow_id" ] && [ "$workflow_id" != "null" ]; then
-                echo "  ✓ Found $display_name workflow ID by pattern search: $workflow_id"
+                echo "  ✓ Found $display_name workflow ID by pattern search: $workflow_id" >&2
+                # Only output the workflow ID to stdout (for capture)
                 echo "$workflow_id"
                 return 0
               fi
             fi
             
             # Not found
-            echo "  ✗ Warning: Could not find $display_name workflow ID"
+            echo "  ✗ Warning: Could not find $display_name workflow ID" >&2
+            echo "" >&2
+            # Return empty string to stdout (not found)
             echo ""
             return 1
           }
