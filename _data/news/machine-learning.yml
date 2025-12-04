@@ -18,6 +18,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01041a
   date: '2025-12-03'
   source: Royal Society of Chemistry
+- title: Traffic Modeling Using Machine Learning
+  description: When I explain the difference between lab (aka synthetic) and field
+    data to people, one of the things I mention is that the lab allows for testing
+    under repeatable, controlled conditions. Each test run offers an apples-to-apples
+    comparison with previ
+  url: https://calendar.perfplanet.com/2025/traffic-modeling-using-machine-learning/
+  date: '2025-12-03'
+  source: Perfplanet.com
 - title: 'Correction: Machine learning reveals limited predictive value of clinical
     factors for asthma exacerbations'
   description: 'Scientific Reports - Correction: Machine learning reveals limited
