@@ -1,4 +1,23 @@
 news_items:
+- title: Red Hat OpenShift Service on AWS supports Capacity Reservations and Capacity
+    Blocks for Machine Learning
+  description: Red Hat OpenShift Service on AWS (ROSA) is a fully managed application
+    platform that offers a more seamless experience for building, deploying, and scaling
+    applications. For machine learning (ML) workloads, ROSA now supports On-Demand
+    Capacity Reserv
+  url: https://www.redhat.com/en/blog/red-hat-openshift-service-aws-rosa-now-supports-demand-capacity-reservations-ml-workloads
+  date: '2025-12-03'
+  source: Redhat.com
+- title: Development of liquid biopsy for screening colorectal cancer through the
+    combination of an antibody microarray-based metal-enhanced sandwich immunofluorescent
+    assay of cytokines with machine learning
+  description: 'Analyst, 2026, Advance ArticleDOI: 10.1039/D5AN01041A, PaperWanyu
+    Zhang, Shasha Li, Xudong Sun, Zhenxin WangThe simultaneous determination of the
+    expression levels of multiple inflammation-associated cytokines in blood holds
+    great promise for the ear'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01041a
+  date: '2025-12-03'
+  source: Royal Society of Chemistry
 - title: 'Correction: Machine learning reveals limited predictive value of clinical
     factors for asthma exacerbations'
   description: 'Scientific Reports - Correction: Machine learning reveals limited
@@ -144,6 +163,14 @@ news_items:
   url: https://www.helpnetsecurity.com/2025/11/28/machine-learning-privacy-audit-checks/
   date: '2025-11-28'
   source: Help Net Security
+- title: Artificial Intelligence / Machine Learning (AI / ML) Mid-Career Systems Engineer
+  description: 'REQUIRED QUALIFICATIONS: • A High School Diploma or GED plus twelve
+    (12) years of general systems engineering experience, OR • Bachelor’s degree in
+    a qualified engineering field or a related discipline from an accredited college
+    or university plus se'
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-ai-ml-mid-career-systems-engineer/
+  date: '2025-11-28'
+  source: Nlppeople.com
 - title: 'Human Vaccines Strategic Business Analysis Report 2025: Market to Reach
     $71.4 Billion by 2030 - Growing Integration of AI and Machine Learning in Vaccine
     Development'
