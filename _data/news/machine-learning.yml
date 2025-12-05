@@ -1,4 +1,20 @@
 news_items:
+- title: 'Machine Learning to Design Metal-Organic Frameworks: Progress and Challenges
+    from a Data Efficiency Perspective'
+  description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D5MH01467K, Review
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Diego Gomez-Gualdron, Tatiane Gercina de Vilas, Katheri'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/mh/d5mh01467k
+  date: '2025-12-04'
+  source: Royal Society of Chemistry
+- title: Machine Learning, Staff Engineer
+  description: 'You Are: You are a highly skilled and experienced software engineer,
+    passionate about the intersection of artificial intelligence, machine learning,
+    and electronic design automation (EDA). Your expertise is complemented by a strong
+    foundation in soft'
+  url: https://nlppeople.com/job/machine-learning-staff-engineer-4/
+  date: '2025-12-04'
+  source: Nlppeople.com
 - title: Red Hat OpenShift Service on AWS supports Capacity Reservations and Capacity
     Blocks for Machine Learning
   description: Red Hat OpenShift Service on AWS (ROSA) is a fully managed application

@@ -1,4 +1,13 @@
 news_items:
+- title: Deep learning-based object detection of restorative dental instruments with
+    potential implications for workflow automation and infection control in dental
+    supply units
+  description: Scientific Reports - Deep learning-based object detection of restorative
+    dental instruments with potential implications for workflow automation and infection
+    control in dental supply units
+  url: https://www.nature.com/articles/s41598-025-30774-z
+  date: '2025-12-04'
+  source: Nature.com
 - title: Comparing deep learning CNN method with traditional MRI-based hippocampal
     segmentation and volumetry for early Alzheimer’s disease diagnosis across diverse
     populations
