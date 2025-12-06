@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  
+    
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/blog/categories/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/artificial-intelligence/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/contact/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/deep-learning/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/feed.xml</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/blog/categories/guides/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/gallery/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/get-started/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/blog/categories/jekyll/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/machine-learning/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/assets/css/main.css</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/gallery/mountains.html</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/blog/categories/sample_category/</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/sitemap.xml</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/robots.txt</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+    
+  <url>
+    <loc>/assets/css/main.css.map</loc>
+    <lastmod>2025-12-06T13:40:07+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+    
+  
+</urlset>
+
