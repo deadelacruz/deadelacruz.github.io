@@ -34,6 +34,15 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-engineer-nlp-119/
   date: '2025-12-05'
   source: Nlppeople.com
+- title: Edgi-Talk machine learning development kit features Infineon PSOC Edge E84
+    Edge AI SoC (Crowdfunding)
+  description: Edgi-Talk is a machine learning platform/development kit powered by
+    an Infineon PSOC Edge E84 Arm Cortex-M55/M33 SoC featuring Arm Helium, an Arm
+    Ethos-U55 micro NPU, and an ultra-low-power NNLite neural network accelerator,
+    all of which enable AI/ML
+  url: https://www.cnx-software.com/2025/12/05/edgi-talk-machine-learning-platform-features-infineon-psoc-edge-e84-soc/
+  date: '2025-12-05'
+  source: CNX Software
 - title: 'Machine Learning to Design Metal-Organic Frameworks: Progress and Challenges
     from a Data Efficiency Perspective'
   description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D5MH01467K, Review
