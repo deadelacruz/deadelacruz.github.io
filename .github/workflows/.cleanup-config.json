@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "_comment": "Workflow retention configuration for automatic cleanup",
+  "_instructions": "Set the number of recent runs to keep per workflow. Workflows not listed use the 'default' value.",
+  "retention": {
+    "Cleanup Old Workflow Runs": 1,
+    "pages build and deployment": 1,
+    "Update News Every 12 Hours": 1,
+    "Greetings": 1
+  },
+  "default": 10
+}
+
