@@ -1,4 +1,13 @@
 news_items:
+- title: Accurate single-domain scaffolding of three nonoverlapping protein epitopes
+    using deep learning
+  description: A deep-learning-based de novo design strategy was developed that enables
+    simultaneous scaffolding of three distinct epitopes derived from respiratory syncytial
+    virus within small single-domain immunogens. Crystallographic analyses confirmed
+    precise p
+  url: https://www.nature.com/articles/s41589-025-02083-z
+  date: '2025-12-05'
+  source: Nature.com
 - title: Deep learning-based object detection of restorative dental instruments with
     potential implications for workflow automation and infection control in dental
     supply units

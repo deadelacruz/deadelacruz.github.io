@@ -1,4 +1,39 @@
 news_items:
+- title: 'Correction: Theoretical study of large-scale graphene on the Cu(111) surface
+    using machine learning potential'
+  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP90209F,
+    Correction Open Access &nbsp This article is licensed under a Creative Commons
+    Attribution 3.0 Unported Licence.Jingli Han, Rubén Cabello, Jordi Bonet Ruiz,
+    Alexandra Elena Plesu '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp90209f
+  date: '2025-12-05'
+  source: Royal Society of Chemistry
+- title: 'The carbon cost of materials discovery: Can machine learning really accelerate
+    the discovery of new photovoltaics?'
+  description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D5MH01404B, Communication
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Matthew Walker, Keith ButlerComputational screening has become
+    a power'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/mh/d5mh01404b
+  date: '2025-12-05'
+  source: Royal Society of Chemistry
+- title: Unravelling Lone Pair Induced Bonding Effects on Thermal Conductivity in
+    Metal Chalcogenides using Machine Learning Potentials
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08916F,
+    PaperHarpriya Minhas, Rahul Kumar Sharma, Biswarup PathakChemical bonding plays
+    a critical role in phonon dynamics and lattice thermal conductivity (κL), essential
+    for designing mat'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08916f
+  date: '2025-12-05'
+  source: Royal Society of Chemistry
+- title: Machine Learning Engineer (NLP)
+  description: 'JOB TITLE: Machine Learning Engineer (NLP) JOB LOCATION: St. Petersburgh,
+    FL (Hybrid) WAGE RANGE*: $100-110/hr. JOB NUMBER: 36593999 JOB DESCRIPTION: Duties
+    • Develop and maintain Python-based applications, APIs, and automation scripts.
+    • Collaborate'
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-119/
+  date: '2025-12-05'
+  source: Nlppeople.com
 - title: 'Machine Learning to Design Metal-Organic Frameworks: Progress and Challenges
     from a Data Efficiency Perspective'
   description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D5MH01467K, Review
@@ -13,6 +48,59 @@ news_items:
     and electronic design automation (EDA). Your expertise is complemented by a strong
     foundation in soft'
   url: https://nlppeople.com/job/machine-learning-staff-engineer-4/
+  date: '2025-12-04'
+  source: Nlppeople.com
+- title: 'JMIR Mental Health - Differentiating Pediatric Bipolar Disorder, Attention-Deficit/Hyperactivity
+    Disorder, and Other Psychopathologies Using Self-Reported Mood and Energy Data
+    and Actigraphy Findings: Correlation and Machine Learning–Based Prediction of
+    M'
+  description: 'Background: Distinguishing pediatric bipolar disorder (BD) from ADHD
+    is challenging due to overlapping fluctuations in mood, energy, and activity.
+    Combining objective actigraphy with self-reported mood/energy may aid differential
+    diagnosis and risk m'
+  url: https://mental.jmir.org/2025/1/e78163
+  date: '2025-12-04'
+  source: Jmir.org
+- title: 'Data Center Rack Power Distribution Unit (PDU) Business Report 2025-2030:
+    Growth of AI and Machine Learning Workloads Drives Demand for High-Power PDUs
+    in Data Centers with GPU-Intensive Applications'
+  description: The Data Center Rack PDU market offers opportunities driven by the
+    rise of hyperscale data centers, demand for energy efficiency, and technological
+    advancements in smart PDUs. Key growth areas include increased adoption in data-intensive
+    applications
+  url: https://www.globenewswire.com/news-release/2025/12/04/3199942/28124/en/Data-Center-Rack-Power-Distribution-Unit-PDU-Business-Report-2025-2030-Growth-of-AI-and-Machine-Learning-Workloads-Drives-Demand-for-High-Power-PDUs-in-Data-Centers-with-GPU-Intens.html
+  date: '2025-12-04'
+  source: GlobeNewswire
+- title: Identification and validation of palmitoylation-related signature genes based
+    on machine learning for prostate cancer
+  description: Prostate cancer (PCa) remains a leading cause of cancer-related mortality
+    in men, with challenges in diagnosis and treatment due to tumor heterogeneity.
+    This study identifies palmitoylation-related signature genes as potential diagnostic
+    and therapeu
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338407
+  date: '2025-12-04'
+  source: Plos.org
+- title: 'Temporal shifts in prognostic factors for 90- and 180-day outcomes after
+    stroke thrombolysis: A machine learning analysis'
+  description: Introduction Prognostication at 90 and 180 days after thrombolysis
+    for acute ischemic stroke (AIS) is critical, yet the temporal evolution of key
+    predictors remains inadequately understood. The utility of machine learning for
+    systematically comparing
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338011
+  date: '2025-12-04'
+  source: Plos.org
+- title: 5 Critical Feature Engineering Mistakes That Kill Machine Learning Projects
+  description: Check out this comprehensive guide to building production-ready features
+    that actually work.
+  url: https://www.kdnuggets.com/5-critical-feature-engineering-mistakes-that-kill-machine-learning-projects
+  date: '2025-12-04'
+  source: Kdnuggets.com
+- title: Senior Machine Learning Software Engineer in Applied Physics
+  description: Join our dynamic team at nTop, where we’re revolutionizing the engineering
+    landscape with our innovative technology. We’re seeking a Senior Machine Learning
+    Software Engineer in Applied Physics to contribute to cutting-edge projects that
+    greatly enha
+  url: https://nlppeople.com/job/senior-machine-learning-software-engineer-in-applied-physics/
   date: '2025-12-04'
   source: Nlppeople.com
 - title: Red Hat OpenShift Service on AWS supports Capacity Reservations and Capacity
