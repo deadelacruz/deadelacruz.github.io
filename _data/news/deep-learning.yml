@@ -1,4 +1,17 @@
 news_items:
+- title: A novel two-stage deep learning approach for lung cancer using enhanced ResNet50
+    segmentation and LungSwarmNet classification
+  description: Scientific Reports - A novel two-stage deep learning approach for lung
+    cancer using enhanced ResNet50 segmentation and LungSwarmNet classification
+  url: https://www.nature.com/articles/s41598-025-31000-6
+  date: '2025-12-06'
+  source: Nature.com
+- title: Accurate Mediterranean Sea forecasting via graph-based deep learning
+  description: Scientific Reports - Accurate Mediterranean Sea forecasting via graph-based
+    deep learning
+  url: https://www.nature.com/articles/s41598-025-31177-w
+  date: '2025-12-06'
+  source: Nature.com
 - title: Accurate single-domain scaffolding of three nonoverlapping protein epitopes
     using deep learning
   description: A deep-learning-based de novo design strategy was developed that enables
@@ -8,6 +21,24 @@ news_items:
   url: https://www.nature.com/articles/s41589-025-02083-z
   date: '2025-12-05'
   source: Nature.com
+- title: 'Graph-enhanced deep learning for diabetic retinopathy diagnosis: A quality-aware
+    and uncertainty-driven approach'
+  description: Author summary Diabetic retinopathy is a diabetes-induced severe eye
+    condition that leads to permanent blindness if not treated at an early stage.
+    In this study, we introduce a new method that uses pre-trained models to extract
+    features, which are th
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013745
+  date: '2025-12-05'
+  source: Plos.org
+- title: 'Benchmarking interpretability of deep learning for predictive genomics:
+    Recall, precision, and variability of feature attribution'
+  description: Author summary Understanding which genetic variants contribute most
+    significantly to complex traits such as human height is crucial for advancing
+    genomic research. Deep neural networks (DNNs) offer powerful predictive capabilities
+    for these traits, b
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013784
+  date: '2025-12-05'
+  source: Plos.org
 - title: Deep learning-based object detection of restorative dental instruments with
     potential implications for workflow automation and infection control in dental
     supply units

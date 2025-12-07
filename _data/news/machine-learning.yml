@@ -1,4 +1,21 @@
 news_items:
+- title: 'Accelerating Solid-State Battery Design: Predicting Ionic Conductivity with
+    Machine Learning Potentials'
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA07245J,
+    PaperAilian Wang, Xiaoyan Fu, Panfeng Ji, Jinzhe Ma, Zhongwei Zhang, Peijun HuAchieving
+    high ionic conductivity in solid-state electrolytes (SSEs) is critical for nextgeneration
+    bat'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta07245j
+  date: '2025-12-06'
+  source: Royal Society of Chemistry
+- title: Analysis of cultivated land changes and driving factors in the Alar Reclamation
+    Area (1990–2019) based on multi-temporal Landsat data and machine learning algorithms
+  description: Scientific Reports - Analysis of cultivated land changes and driving
+    factors in the Alar Reclamation Area (1990–2019) based on multi-temporal Landsat
+    data and machine learning algorithms
+  url: https://www.nature.com/articles/s41598-025-29175-z
+  date: '2025-12-06'
+  source: Nature.com
 - title: 'Correction: Theoretical study of large-scale graphene on the Cu(111) surface
     using machine learning potential'
   description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP90209F,
@@ -43,6 +60,15 @@ news_items:
   url: https://www.cnx-software.com/2025/12/05/edgi-talk-machine-learning-platform-features-infineon-psoc-edge-e84-soc/
   date: '2025-12-05'
   source: CNX Software
+- title: Classification of chronic pain and spinal cord stimulation response using
+    machine learning in magnetoencephalography data
+  description: Background Due to the complexity of pain, involving physical, psychological,
+    emotional and social aspects, we are still unable to objectively quantify or fully
+    understand this subjective experience. An increasing number of studies have attempted
+    to i
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337726
+  date: '2025-12-05'
+  source: Plos.org
 - title: 'Machine Learning to Design Metal-Organic Frameworks: Progress and Challenges
     from a Data Efficiency Perspective'
   description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D5MH01467K, Review
