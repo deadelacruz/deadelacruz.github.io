@@ -1,4 +1,11 @@
 news_items:
+- title: Indonesia strengthens implementation of deep learning in schools
+  description: "The Ministry of Primary and Secondary Education (Kemendikdasmen) held\
+    \ Deep Learning Training for school principals and basic education teachers.\r\
+    \n\r\nThe ..."
+  url: https://en.antaranews.com/news/395485/indonesia-strengthens-implementation-of-deep-learning-in-schools
+  date: '2025-12-07'
+  source: Antaranews.com
 - title: A novel two-stage deep learning approach for lung cancer using enhanced ResNet50
     segmentation and LungSwarmNet classification
   description: Scientific Reports - A novel two-stage deep learning approach for lung

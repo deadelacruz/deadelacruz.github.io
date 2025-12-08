@@ -31,6 +31,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-29175-z
   date: '2025-12-06'
   source: Nature.com
+- title: 'Accelerating solid-state battery design: predicting ionic conductivity with
+    machine learning potentials'
+  description: 'J. Mater. Chem. A, 2025, Advance ArticleDOI: 10.1039/D5TA07245J, PaperAilian
+    Wang, Xiaoyan Fu, Panfeng Ji, Jinzhe Ma, Zhongwei Zhang, P. HuAchieving high ionic
+    conductivity in solid-state electrolytes (SSEs) is critical for next-generation
+    batteries,'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ta/d5ta07245j
+  date: '2025-12-06'
+  source: Royal Society of Chemistry
 - title: 'Correction: Theoretical study of large-scale graphene on the Cu(111) surface
     using machine learning potential'
   description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP90209F,
