@@ -12,6 +12,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-31177-w
   date: '2025-12-06'
   source: Nature.com
+- title: Two GTX 580s in SLI are responsible for the AI we have today — Nvidia's Huang
+    revealed that the invention of deep learning began with two flagship Fermi GPUs
+    in 2012
+  description: Nvidia CEO Jensen Huang revealed in a recent Joe Rogan podcast that
+    the inventors behind deep learning ran the world's first machine learning network
+    on a pair of GTX 580s in SLI in 2012.
+  url: https://www.tomshardware.com/tech-industry/artificial-intelligence/two-gtx-580s-in-sli-are-responsible-for-the-ai-we-have-today-nvidias-huang-revealed-that-the-invention-of-deep-learning-began-with-two-flagship-fermi-gpus-in-2012
+  date: '2025-12-06'
+  source: Tom's Hardware UK
 - title: Accurate single-domain scaffolding of three nonoverlapping protein epitopes
     using deep learning
   description: A deep-learning-based de novo design strategy was developed that enables

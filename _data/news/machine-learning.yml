@@ -1,4 +1,19 @@
 news_items:
+- title: PSoC Edge E84-Based Handheld Runs RT-Thread for Local Machine Learning
+  description: RT-Thread has launched a Crowd Supply campaign for the Edgi-Talk, a
+    handheld reference platform built for hardware-accelerated machine learning. Based
+    on Infineon’s PSoC Edge E84 architecture, it targets smart home, wearable, and
+    industrial interface
+  url: https://linuxgizmos.com/psoc-edge-e84-based-handheld-runs-rt-thread-for-local-machine-learning/
+  date: '2025-12-07'
+  source: Linuxgizmos.com
+- title: Machine learning guided virtual screening of FDA approved drugs targeting
+    GSK-3β in Alzheimer’s disease
+  description: Scientific Reports - Machine learning guided virtual screening of FDA
+    approved drugs targeting GSK-3β in Alzheimer’s disease
+  url: https://www.nature.com/articles/s41598-025-28605-2
+  date: '2025-12-07'
+  source: Nature.com
 - title: 'Accelerating Solid-State Battery Design: Predicting Ionic Conductivity with
     Machine Learning Potentials'
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA07245J,
