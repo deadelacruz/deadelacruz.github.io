@@ -1,4 +1,17 @@
 news_items:
+- title: Intelligent retinal disease detection using deep learning
+  description: Scientific Reports - Intelligent retinal disease detection using deep
+    learning
+  url: https://www.nature.com/articles/s41598-025-28376-w
+  date: '2025-12-08'
+  source: Nature.com
+- title: A multi-task deep learning approach for landslide displacement prediction
+    with applications in early warning systems
+  description: Scientific Reports - A multi-task deep learning approach for landslide
+    displacement prediction with applications in early warning systems
+  url: https://www.nature.com/articles/s41598-025-29084-1
+  date: '2025-12-08'
+  source: Nature.com
 - title: Indonesia strengthens implementation of deep learning in schools
   description: "The Ministry of Primary and Secondary Education (Kemendikdasmen) held\
     \ Deep Learning Training for school principals and basic education teachers.\r\

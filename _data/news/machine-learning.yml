@@ -1,4 +1,42 @@
 news_items:
+- title: Arbitrary control over multimode wave propagation for machine learning
+  description: Photonic processors are limited by the bulkiness of discrete components
+    and wiring complexity. An experiment now demonstrates a reprogrammable two-dimensional
+    waveguide that performs neural network inference through multimode wave propagation.
+  url: https://www.nature.com/articles/s41567-025-03094-2
+  date: '2025-12-08'
+  source: Nature.com
+- title: Optimize a chain convenience store location prediction model by using MTS-machine
+    learning methodology
+  description: Scientific Reports - Optimize a chain convenience store location prediction
+    model by using MTS-machine learning methodology
+  url: https://www.nature.com/articles/s41598-025-30650-w
+  date: '2025-12-08'
+  source: Nature.com
+- title: Artificial Intelligence/Machine Learning (AI/MI) Engineer Skill Level 2
+  description: Kaizen Approach is currently seeking an Artificial Intelligence/Machine
+    Learning (AI/ML) Engineer to design, create, test, and deploy AI/ML algorithms
+    addressing complex business challenges. In this role, you’ll develop AI/ML models
+    that can learn an
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-ai-mi-engineer-skill-level-2/
+  date: '2025-12-08'
+  source: Nlppeople.com
+- title: Machine learning-based prediction and mechanistic insight into PFAS adsorption
+    on carbon-based materials
+  description: 'RSC Adv., 2025, 15,48450-48462DOI: 10.1039/D5RA07898A, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Yanliang Lu, Fangfang Ding, Guchun Wang, Yabin Li, Zhitao Guo,
+    Peiyao Pang, Baojun Wang,'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra07898a
+  date: '2025-12-08'
+  source: Royal Society of Chemistry
+- title: Dynamic solar irradiance estimation for vehicle thermal management using
+    a multi-modal machine learning framework
+  description: Scientific Reports - Dynamic solar irradiance estimation for vehicle
+    thermal management using a multi-modal machine learning framework
+  url: https://www.nature.com/articles/s41598-025-31719-2
+  date: '2025-12-08'
+  source: Nature.com
 - title: PSoC Edge E84-Based Handheld Runs RT-Thread for Local Machine Learning
   description: RT-Thread has launched a Crowd Supply campaign for the Edgi-Talk, a
     handheld reference platform built for hardware-accelerated machine learning. Based
