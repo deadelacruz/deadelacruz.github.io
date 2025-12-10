@@ -1,4 +1,47 @@
 news_items:
+- title: AI​/Machine Learning Engineer NLP​/LLM
+  description: 'Position: AI/ Machine Learning Engineer NLP / LLM – Contract AI/ Machine
+    Learning Engineer (NLP / LLM) – ContractDuration: 6 monthsRate: Up to £500 per
+    dayIR35: OutsideLocation: Fully Remote (occasional ad-hoc travel to office)The
+    Role:A leading Regu'
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-nlp-llm/
+  date: '2025-12-09'
+  source: Nlppeople.com
+- title: Implementing N-terminomics and machine learning to probe Nt-arginylation
+  description: Cataloguing Nt-arginylated proteins is prone to false positives. Here,
+    the authors use MS-based fine-tuned LLM models with molecular proxies-physically
+    identical yet known false positives-to discriminate true sites. They further track
+    the modificatio
+  url: https://www.nature.com/articles/s41467-025-66883-6
+  date: '2025-12-09'
+  source: Nature.com
+- title: 'Prediction of the phase transition temperatures of functional nanostructured
+    liquid crystals: machine learning method based on small data for the design of
+    self-assembled materials'
+  description: 'Nanoscale, 2025, Accepted ManuscriptDOI: 10.1039/D5NR04714E, PaperShingo
+    Takegawa, Haruka Tobita, Yasuhiko Igarashi, Yuya Oaki, Takashi KatoHere we demonstrate
+    the prediction of the isotropization temperatures of nanostructured ionic liquid
+    crystals '
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/nr/d5nr04714e
+  date: '2025-12-09'
+  source: Royal Society of Chemistry
+- title: Advances and innovations in machine learning-based spectral detection methods
+    for trace organic pollutants
+  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D5AN00903K, Tutorial
+    Reviewyiheng qin, Qiannan Duan, Haoyu Wang, yonghui bai, yihao qin, Liulu Yao,
+    Fan Song, Mingzhe Wu, Jianchao LeeThe rapid and sensitive detection of trace organic
+    pollutants in wate'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an00903k
+  date: '2025-12-09'
+  source: Royal Society of Chemistry
+- title: Senior Data Scientist (Applied Machine Learning)
+  description: Let’s fix hospitality, for good. Hospitality is tough – margins are
+    thin, waste is high, and teams are stretched. But it doesn’t have to be this hard.
+    That’s why we built Nory. Our CEO, Conor, knows the pain first-hand. After founding
+    and scaling Mad
+  url: https://nlppeople.com/job/senior-data-scientist-applied-machine-learning-2/
+  date: '2025-12-09'
+  source: Nlppeople.com
 - title: Arbitrary control over multimode wave propagation for machine learning
   description: Photonic processors are limited by the bulkiness of discrete components
     and wiring complexity. An experiment now demonstrates a reprogrammable two-dimensional
@@ -37,6 +80,33 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-31719-2
   date: '2025-12-08'
   source: Nature.com
+- title: SCOTUS Scraps Recentive’s Petition Seeking Clarity on Eligibility for Machine
+    Learning Claims
+  description: The U.S. Supreme Court today declined to grant a petition filed by
+    Recentive Analytics, Inc. asking the Court to weigh in on whether the U.S. Court
+    of Appeals for the Federal Circuit’s (CAFC’s) approach to patent eligibility for
+    machine learning clai
+  url: https://ipwatchdog.com/2025/12/08/scotus-scraps-recentives-petition-seeking-clarity-eligibility-machine-learning-claims/
+  date: '2025-12-08'
+  source: IPWatchdog.com
+- title: 'Machine Learning Course for Software Engineers: Interview Kickstart Launches
+    Structured 8-Month ML Program for Career Transition'
+  description: SANTA CLARA, CA, Dec. 08, 2025 (GLOBE NEWSWIRE) -- Software engineers
+    are increasingly seeking structured pathways to transition into machine learning
+    roles as companies expand their use of artificial intelligence across product
+    development, infrastr
+  url: https://www.globenewswire.com/news-release/2025/12/08/3201826/0/en/Machine-Learning-Course-for-Software-Engineers-Interview-Kickstart-Launches-Structured-8-Month-ML-Program-for-Career-Transition.html
+  date: '2025-12-08'
+  source: GlobeNewswire
+- title: 'Molecular mechanisms of lipid metabolism abnormalities driving sepsis and
+    atrial fibrillation: A Systematic study based on bioinformatics and machine learning'
+  description: Background Sepsis and atrial fibrillation are complex, life-threatening
+    medical conditions affecting approximately 49 million individuals globally, characterized
+    by exceptionally high mortality rates. Lipid metabolism abnormalities play a critical
+    ro
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338511
+  date: '2025-12-08'
+  source: Plos.org
 - title: PSoC Edge E84-Based Handheld Runs RT-Thread for Local Machine Learning
   description: RT-Thread has launched a Crowd Supply campaign for the Edgi-Talk, a
     handheld reference platform built for hardware-accelerated machine learning. Based

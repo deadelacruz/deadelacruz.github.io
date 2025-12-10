@@ -12,6 +12,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-29084-1
   date: '2025-12-08'
   source: Nature.com
+- title: Forecasting China’s shipping indices based on modal decomposition and optimized
+    deep learning integrated model
+  description: 'This study proposes an innovative hybrid forecasting model, VMD-CPSO-BiLSTM,
+    which significantly enhances the prediction accuracy of shipping indices in China’s
+    maritime sector. The model employs a sophisticated three-phase methodology: (1)
+    decomposi'
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0336906
+  date: '2025-12-08'
+  source: Plos.org
 - title: Indonesia strengthens implementation of deep learning in schools
   description: "The Ministry of Primary and Secondary Education (Kemendikdasmen) held\
     \ Deep Learning Training for school principals and basic education teachers.\r\
