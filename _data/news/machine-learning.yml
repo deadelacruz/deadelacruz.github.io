@@ -1,4 +1,20 @@
 news_items:
+- title: Machine learning analysis of oral solid dosage formulation solubility variations
+    by adjusting pressure and temperature
+  description: Scientific Reports - Machine learning analysis of oral solid dosage
+    formulation solubility variations by adjusting pressure and temperature
+  url: https://www.nature.com/articles/s41598-025-31759-8
+  date: '2025-12-10'
+  source: Nature.com
+- title: 'Reading the immune clock: a machine learning model predicts mouse immune
+    age from cellular patterns'
+  description: The immune system undergoes significant changes with age. However,
+    protein level characterization of these age-associated changes is limited. Here,
+    the authors develop a machine learning (ML) model to predict changes in immune
+    cell composition across
+  url: https://www.nature.com/articles/s41467-025-67393-1
+  date: '2025-12-10'
+  source: Nature.com
 - title: AI​/Machine Learning Engineer NLP​/LLM
   description: 'Position: AI/ Machine Learning Engineer NLP / LLM – Contract AI/ Machine
     Learning Engineer (NLP / LLM) – ContractDuration: 6 monthsRate: Up to £500 per
@@ -49,6 +65,21 @@ news_items:
   url: https://www.globenewswire.com/news-release/2025/12/09/3202141/0/en/Leading-Online-Platform-Updates-Machine-Learning-ML-Interview-Prep-Course-Interview-Kickstart-Program-Enrollment-Jumps-With-New-AI-ML-Roles-at-FAANG-Companies.html
   date: '2025-12-09'
   source: GlobeNewswire
+- title: 'Correction: Identifying key physiological and clinical factors for traumatic
+    brain injury patient management using network analysis and machine learning'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338553
+  date: '2025-12-09'
+  source: Plos.org
+- title: Identifying influential determinants of women’s empowerment in Bangladesh
+    using machine learning algorithms
+  description: Background and objectives Women’s empowerment is a vital issue in lower-middle-income
+    developing countries like Bangladesh, where it plays a pivotal role in advancing
+    development across the nation. Thus, this study aimed to identify the influential
+    d
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338037
+  date: '2025-12-09'
+  source: Plos.org
 - title: Arbitrary control over multimode wave propagation for machine learning
   description: Photonic processors are limited by the bulkiness of discrete components
     and wiring complexity. An experiment now demonstrates a reprogrammable two-dimensional

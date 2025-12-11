@@ -1,4 +1,20 @@
 news_items:
+- title: Early diagnosis of alzheimer’s disease using PET imaging and deep learning
+    with comparative data augmentation techniques
+  description: Scientific Reports - Early diagnosis of alzheimer’s disease using PET
+    imaging and deep learning with comparative data augmentation techniques
+  url: https://www.nature.com/articles/s41598-025-28866-x
+  date: '2025-12-10'
+  source: Nature.com
+- title: Can artificial intelligence and face recognition using deep learning detect
+    emotions in children with autism?
+  description: 'Background/Objectives This study aimed to evaluate the performance
+    of deep learning models for recognizing facial expressions of children with autism
+    through face recognition technologies.   Methods Conducted between November 2024
+    and February 2025, '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338701
+  date: '2025-12-09'
+  source: Plos.org
 - title: Intelligent retinal disease detection using deep learning
   description: Scientific Reports - Intelligent retinal disease detection using deep
     learning
