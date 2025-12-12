@@ -17,6 +17,23 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-31996-x
   date: '2025-12-11'
   source: Nature.com
+- title: Learnings from Cultivating Machine Learning Engineers as a Team Manager
+  description: 'As an AI team manager, Vivek Gupta stays broadly informed to guide
+    AI experts effectively and drive the team. Engineers need feedback on both technical
+    and interpersonal skills, Gupta mentioned at Dev Summit Boston. He stresses learning
+    time, asking '
+  url: https://www.infoq.com/news/2025/12/machine-learning-engineers/
+  date: '2025-12-11'
+  source: InfoQ.com
+- title: '"Emerging AI and Machine Learning Technologies Revolutionize Diagnostic
+    Accuracy in Endoscope Imaging"'
+  description: 'The Endoscope Image Processor Market offers opportunities in AI-driven
+    diagnostics, remote collaboration via cloud and edge computing, and new imaging
+    modalities for precise interventions. Regional strategies and modular architectures
+    enhance market '
+  url: https://www.globenewswire.com/news-release/2025/12/11/3203669/28124/en/Emerging-AI-and-Machine-Learning-Technologies-Revolutionize-Diagnostic-Accuracy-in-Endoscope-Imaging.html
+  date: '2025-12-11'
+  source: GlobeNewswire
 - title: Machine learning analysis of oral solid dosage formulation solubility variations
     by adjusting pressure and temperature
   description: Scientific Reports - Machine learning analysis of oral solid dosage
