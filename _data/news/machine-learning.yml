@@ -1,4 +1,22 @@
 news_items:
+- title: Technical Program Manager, Machine Learning, Program Management Office, Execution
+    Readiness
+  description: 'Note: By applying to this position you will have an opportunity to
+    share your preferred working location from the following: Dublin, Ireland; London,
+    UK. Minimum qualifications: • Bachelor’s degree in Engineering, Construction Management,
+    or equivale'
+  url: https://nlppeople.com/job/technical-program-manager-machine-learning-program-management-office-execution-readiness/
+  date: '2025-12-11'
+  source: Nlppeople.com
+- title: Prediction of pavement performance via smatrphone vibration-induced unevenness
+    signature using machine learning
+  description: 'Pavement performance evaluation plays a crucial role in guiding decisions
+    related to the maintenance and rehabilitation of roads, ensuring their sustained
+    optimal performance over an extended period. Contemporary smartphones come equipped
+    with ample '
+  url: https://www.nature.com/articles/s41598-025-31996-x
+  date: '2025-12-11'
+  source: Nature.com
 - title: Machine learning analysis of oral solid dosage formulation solubility variations
     by adjusting pressure and temperature
   description: Scientific Reports - Machine learning analysis of oral solid dosage
@@ -15,6 +33,40 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-67393-1
   date: '2025-12-10'
   source: Nature.com
+- title: AMD’s RDNA 4 Cards Get FSR Redstone, Bringing Machine Learning To Upscaling
+  description: AMD's FSR Redstone is made up of several features including FSR Radiance
+    Caching, FSR Ray Regeneration, FSR Frame Generation and FSR Upscaling 4.  Of the
+    four, FSR Upscaling 4 is not really…
+  url: https://pcper.com/2025/12/amds-rdna-4-cards-get-fsr-redstone-bringing-machine-learning-to-upscaling/
+  date: '2025-12-10'
+  source: PC Perspective
+- title: 'Sim Racing AI Evolution: From Scripts to Machine Learning'
+  description: 'The sim racing AI evolution is one of the most dramatic shifts the
+    genre has ever seen. For decades, AI opponents were little more than […]
+
+    The post Sim Racing AI Evolution: From Scripts to Machine Learning appeared first
+    on Inside Sim Racing.'
+  url: https://isrtv.com/sim-racing-ai-evolution/
+  date: '2025-12-10'
+  source: Isrtv.com
+- title: Improved predictive formulae for wave overtopping at sloped breakwaters using
+    interpretable machine learning models
+  description: Accurate prediction of mean wave overtopping discharge is essential
+    for the safe and cost-effective design of coastal defence structures. While traditional
+    empirical, physical, and numerical models remain important, Machine Learning (ML)
+    has recently
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0337830
+  date: '2025-12-10'
+  source: Plos.org
+- title: Development of machine learning models for prediction of current and future
+    dementia
+  description: Dementia is among the most distressing and burdensome health challenges
+    in aging populations. Treatment efficacy is limited; however, early diagnosis
+    can delay or prevent disease progression. Previous machine learning-based prediction
+    models have lim
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0330213
+  date: '2025-12-10'
+  source: Plos.org
 - title: AI​/Machine Learning Engineer NLP​/LLM
   description: 'Position: AI/ Machine Learning Engineer NLP / LLM – Contract AI/ Machine
     Learning Engineer (NLP / LLM) – ContractDuration: 6 monthsRate: Up to £500 per
