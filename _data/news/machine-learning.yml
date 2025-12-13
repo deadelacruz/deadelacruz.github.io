@@ -1,4 +1,53 @@
 news_items:
+- title: Passive determination of anisotropic compressive strength of 3D printed concrete
+    using multiple neural networks enhanced with explainable machine learning (XML)
+  description: Scientific Reports - Passive determination of anisotropic compressive
+    strength of 3D printed concrete using multiple neural networks enhanced with explainable
+    machine learning (XML)
+  url: https://www.nature.com/articles/s41598-025-11068-w
+  date: '2025-12-12'
+  source: Nature.com
+- title: Machine Learning and Data Engineering Tutor and Marker
+  description: 'Job Introduction Machine Learning and Data Engineering Tutor and Marker
+    Here at BPP Education Group we pride ourselves on providing the best possible
+    learner experience, with our specialised team of tutors working closely with our
+    students to ensure '
+  url: https://nlppeople.com/job/machine-learning-and-data-engineering-tutor-and-marker/
+  date: '2025-12-12'
+  source: Nlppeople.com
+- title: Machine Learning Operations Specialist
+  description: 'Join a global community of talented professionals to shape the future
+    of AI. Earn up to $15 USD/hr and additional rewards based on quality of submission.
+    Outlier is committed to improving the intelligence & safety of AI models. Owned
+    and operated by '
+  url: https://nlppeople.com/job/machine-learning-operations-specialist/
+  date: '2025-12-12'
+  source: Nlppeople.com
+- title: Machine Learning Research Engineer – NLP / LLM
+  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
+    for a Machine Learning Research Engineer to work on researching and investigating
+    new concepts for an industry-leading, machine-learning software company in Cambridge,
+    UK. This '
+  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm/
+  date: '2025-12-12'
+  source: Nlppeople.com
+- title: Machine learning and bioinformatics framework integration reveal potential
+    characteristic genes related to immune cell infiltration in post-traumatic stress
+    disorder
+  description: Scientific Reports - Machine learning and bioinformatics framework
+    integration reveal potential characteristic genes related to immune cell infiltration
+    in post-traumatic stress disorder
+  url: https://www.nature.com/articles/s41598-025-31663-1
+  date: '2025-12-12'
+  source: Nature.com
+- title: Machine Learning Operations Specialist
+  description: 'Join a global community of talented professionals to shape the future
+    of AI. Earn up to $15 USD/hr and additional rewards based on quality of submission.
+    Outlier is committed to improving the intelligence & safety of AI models. Owned
+    and operated by '
+  url: https://nlppeople.com/job/machine-learning-operations-specialist-2/
+  date: '2025-12-12'
+  source: Nlppeople.com
 - title: Technical Program Manager, Machine Learning, Program Management Office, Execution
     Readiness
   description: 'Note: By applying to this position you will have an opportunity to
@@ -34,6 +83,47 @@ news_items:
   url: https://www.globenewswire.com/news-release/2025/12/11/3203669/28124/en/Emerging-AI-and-Machine-Learning-Technologies-Revolutionize-Diagnostic-Accuracy-in-Endoscope-Imaging.html
   date: '2025-12-11'
   source: GlobeNewswire
+- title: 'Bank of America’s AI Blueprint: How Aditya Mehra Is Shaping Responsible
+    Machine Learning'
+  description: Financial institutions are entering a new phase of AI maturity, a new
+    era that will be defined by scale, governance, and measurable outcomes. As banks
+    double down on their investment in advanced analytics and machine learning, they
+    will face a challe
+  url: https://finovate.com/bank-of-americas-ai-blueprint-how-aditya-mehra-is-shaping-responsible-machine-learning/
+  date: '2025-12-11'
+  source: Finovate.com
+- title: 'Machine Learning in Clojure with libpython‑clj: Using Bayesian Networks
+    for Smarter, Interpretable AI [Series 2]'
+  description: This is the second part of our Machine Learning in Clojure with libpython‑clj
+    series. If you missed Series 1, we covered how Clojure can use Python’s ML libraries
+    through libpython‑clj. In this article, we focus on Bayesian Networks. We will
+    show how
+  url: https://flexiana.com/hidden/2025/12/machine-learning-in-clojure-with-libpython‑clj-using-bayesian-networks-for-smarter-interpretable-ai-series-2
+  date: '2025-12-11'
+  source: Flexiana.com
+- title: 10 GitHub Repositories to Master Machine Learning Deployment
+  description: Master the essential skill of deploying machine learning models with
+    courses, projects, examples, resources, and interview questions.
+  url: https://www.kdnuggets.com/10-github-repositories-to-master-machine-learning-deployment
+  date: '2025-12-11'
+  source: Kdnuggets.com
+- title: M-polynomial driven machine learning models for predicting physicochemical
+    properties of antibiotics
+  description: 'Accurate prediction of the physicochemical properties of drug compounds
+    is critical for the development of effective and safe antibiotics. In this study,
+    we employ advanced machine learning techniques to address this challenge, using
+    input data that '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338093
+  date: '2025-12-11'
+  source: Plos.org
+- title: Mid-Level Software Developer (Machine Learning)
+  description: Full-time Huntsville, AL About Us Trideum Corporation is a 100% employee-owned
+    company, committed to embracing the world’s toughest challenges with a servant’s
+    heart. Through dedicated hard work and commitment, we provide distinctive quality
+    and unpa
+  url: https://nlppeople.com/job/mid-level-software-developer-machine-learning/
+  date: '2025-12-11'
+  source: Nlppeople.com
 - title: Machine learning analysis of oral solid dosage formulation solubility variations
     by adjusting pressure and temperature
   description: Scientific Reports - Machine learning analysis of oral solid dosage

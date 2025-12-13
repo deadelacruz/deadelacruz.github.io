@@ -1,4 +1,30 @@
 news_items:
+- title: Real-time concrete strength monitoring using piezoelectric sensors and deep
+    learning
+  description: Traditional concrete testing can be labour-intensive and limited in
+    accuracy, consistency, and real-time applicability. The study uses piezoelectric
+    sensors and deep learning for real-time monitoring of concrete strength, interpreting
+    signals to achi
+  url: https://www.nature.com/articles/s41467-025-67168-8
+  date: '2025-12-12'
+  source: Nature.com
+- title: How to launch a Deep Learning VM on Google Cloud
+  description: Setting up a local Deep Learning environment can be a headache. Between
+    managing CUDA drivers, resolving Python library conflicts, and ensuring you have
+    enough GPU power, you often spend more time configuring than coding. Google Cloud
+    and Canonical w
+  url: "\n      https://ubuntu.com/blog/how-to-launch-a-deep-learning-vm-on-google-cloud"
+  date: '2025-12-11'
+  source: Ubuntu.com
+- title: A deep learning approach for time-consistent cell cycle phase prediction
+    from microscopy data
+  description: Author summary The cell cycle is a fundamental biological process involving
+    distinct stages of growth, DNA replication, and division. Understanding which
+    stage a cell is in can help researchers study many biological phenomena, including
+    how cells res
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013800
+  date: '2025-12-11'
+  source: Plos.org
 - title: Early diagnosis of alzheimer’s disease using PET imaging and deep learning
     with comparative data augmentation techniques
   description: Scientific Reports - Early diagnosis of alzheimer’s disease using PET
