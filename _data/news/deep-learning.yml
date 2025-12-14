@@ -1,4 +1,13 @@
 news_items:
+- title: Photovoltaic power interval prediction with conditional error dependency
+    using Bayesian optimized deep learning
+  description: 'Accurate photovoltaic (PV) power forecasting serves as a critical
+    foundation for economic dispatch and reliable grid operation. To address the inherent
+    uncertainty in PV power generation, this study proposes a short-term PV power
+    interval prediction '
+  url: https://www.nature.com/articles/s41598-025-19602-6
+  date: '2025-12-13'
+  source: Nature.com
 - title: Real-time concrete strength monitoring using piezoelectric sensors and deep
     learning
   description: Traditional concrete testing can be labour-intensive and limited in

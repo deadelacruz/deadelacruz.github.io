@@ -1,4 +1,11 @@
 news_items:
+- title: Interpretable wrapper-based machine learning framework for predicting patellofemoral
+    pain syndrome using minimal clinical tests
+  description: Scientific Reports - Interpretable wrapper-based machine learning framework
+    for predicting patellofemoral pain syndrome using minimal clinical tests
+  url: https://www.nature.com/articles/s41598-025-31362-x
+  date: '2025-12-13'
+  source: Nature.com
 - title: Passive determination of anisotropic compressive strength of 3D printed concrete
     using multiple neural networks enhanced with explainable machine learning (XML)
   description: Scientific Reports - Passive determination of anisotropic compressive
@@ -48,6 +55,31 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-operations-specialist-2/
   date: '2025-12-12'
   source: Nlppeople.com
+- title: India Emerges as a Global Leader in Machine Learning–Enabled Scientific Research,
+    New Report Finds - The Tribune
+  description: 'New Delhi [India], December 12: India has emerged as one of the world’s
+    most dynamic and rapidly advancing centers for machine learning (ML)–enabled scientific
+    research, according to the newly released ML Global Impact Report 2025 by Marktechpost.
+    Ne'
+  url: https://www.tribuneindia.com/news/business/india-emerges-as-a-global-leader-in-machine-learning-enabled-scientific-research-new-report-finds-2-2/
+  date: '2025-12-12'
+  source: The Tribune India
+- title: Machine learning-guided identification and simulation-based validation of
+    potent JAK3 inhibitors for cancer therapy
+  description: 'Janus kinase 3 (JAK3) is a hematopoietic-specific kinase implicated
+    in cytokine signaling and immune dysregulation and has recently been associated
+    with cancer progression. However, selective and potent JAK3 inhibitors remain
+    underdeveloped. In this '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338777
+  date: '2025-12-12'
+  source: Plos.org
+- title: Can scientists detect life without knowing what it looks like? Research using
+    machine learning offers a new way
+  description: A new machine learning model explores the boundary between biological
+    and nonbiological chemistry.
+  url: https://theconversation.com/can-scientists-detect-life-without-knowing-what-it-looks-like-research-using-machine-learning-offers-a-new-way-271066
+  date: '2025-12-12'
+  source: The Conversation Africa
 - title: Technical Program Manager, Machine Learning, Program Management Office, Execution
     Readiness
   description: 'Note: By applying to this position you will have an opportunity to
