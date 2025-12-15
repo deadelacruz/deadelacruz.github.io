@@ -34,6 +34,14 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-67168-8
   date: '2025-12-12'
   source: Nature.com
+- title: Multiscale Causal Geometric Deep Learning for Modeling Brain Structure
+  description: Multimodal MRI offers complementary multi-scale information to characterize
+    the brain structure. However, it remains challenging to effectively integrate
+    multimodal MRI while achieving neuroscience interpretability. Here we propose
+    to use Laplacian h
+  url: https://arxiv.org/abs/2512.11738
+  date: '2025-12-12'
+  source: Arxiv.org
 - title: How to launch a Deep Learning VM on Google Cloud
   description: Setting up a local Deep Learning environment can be a headache. Between
     managing CUDA drivers, resolving Python library conflicts, and ensuring you have
