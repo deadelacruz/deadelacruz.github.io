@@ -1,4 +1,21 @@
 news_items:
+- title: Intelligent cybersecurity management in industrial IoT system using attribute
+    reduction with collaborative deep learning enabled false data injection attack
+    detection approach
+  description: Scientific Reports - Intelligent cybersecurity management in industrial
+    IoT system using attribute reduction with collaborative deep learning enabled
+    false data injection attack detection approach
+  url: https://www.nature.com/articles/s41598-025-32035-5
+  date: '2025-12-14'
+  source: Nature.com
+- title: Superior transplant recipient outcome prediction and pathology assessment
+    using rapid deep learning applied to procurement kidney biopsies
+  description: Scientific Reports - Superior transplant recipient outcome prediction
+    and pathology assessment using rapid deep learning applied to procurement kidney
+    biopsies
+  url: https://www.nature.com/articles/s41598-025-31667-x
+  date: '2025-12-14'
+  source: Nature.com
 - title: Photovoltaic power interval prediction with conditional error dependency
     using Bayesian optimized deep learning
   description: 'Accurate photovoltaic (PV) power forecasting serves as a critical
