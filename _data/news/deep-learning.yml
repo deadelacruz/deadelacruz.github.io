@@ -1,4 +1,11 @@
 news_items:
+- title: Deep learning-based detection of power transmission lines using YOLOv4 and
+    YOLOv8
+  description: Scientific Reports - Deep learning-based detection of power transmission
+    lines using YOLOv4 and YOLOv8
+  url: https://www.nature.com/articles/s41598-025-32200-w
+  date: '2025-12-15'
+  source: Nature.com
 - title: Intelligent cybersecurity management in industrial IoT system using attribute
     reduction with collaborative deep learning enabled false data injection attack
     detection approach

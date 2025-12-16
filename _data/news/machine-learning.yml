@@ -1,4 +1,45 @@
 news_items:
+- title: 'First-principles and machine learning investigation of the structural and
+    optoelectronic properties of dodecaphenylyne: a novel carbon allotrope'
+  description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D5NR02744F, PaperKleuton
+    A. L. Lima, José A. S. Laranjeira, Nicolas F. Martins, Julio R. Sambrano, Alexandre
+    C. Dias, Luiz A. Ribeiro Junior, Douglas S. GalvãoDodecaphenylyne (DP), a novel
+    2D carbon allotr'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d5nr02744f
+  date: '2025-12-15'
+  source: Royal Society of Chemistry
+- title: Advanced predictive modeling of municipal solid waste management using robust
+    machine learning
+  description: Scientific Reports - Advanced predictive modeling of municipal solid
+    waste management using robust machine learning
+  url: https://www.nature.com/articles/s41598-025-27237-w
+  date: '2025-12-15'
+  source: Nature.com
+- title: Understanding machine learning weather prediction by designing a cost-efficient
+    model with knowledge-oriented modules
+  description: Scientific Reports - Understanding machine learning weather prediction
+    by designing a cost-efficient model with knowledge-oriented modules
+  url: https://www.nature.com/articles/s41598-025-32366-3
+  date: '2025-12-15'
+  source: Nature.com
+- title: Interpretable machine learning integrated with TD-DFT descriptors and SHAP
+    analysis for predicting the maximum absorption wavelength of azo dyes
+  description: 'RSC Adv., 2025, 15,50065-50075DOI: 10.1039/D5RA07578E, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Yonghao Fang, Changqing Cao, Dong Yin, Gang Luo, Yanmin Cheng,
+    Qing WangTh'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra07578e
+  date: '2025-12-15'
+  source: Royal Society of Chemistry
+- title: Dynamic origins of cation-modulated stability in tin-based perovskites revealed
+    through combined fine-tuned machine learning interatomic potentials and experiments
+  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D5TA08448B, PaperYu-Ting
+    Tai, Cheng-Hsien Tu, Ming-Yao Wang, Zih-Lie Huang, Cheng-Hsien Yeh, Vincent Wing-hei
+    Lau, Chuan-Feng Shih, Hong-Kang TianFine-tuned MLIP-MD reveals cation-dependent
+    degrada'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08448b
+  date: '2025-12-15'
+  source: Royal Society of Chemistry
 - title: Interpretable wrapper-based machine learning framework for predicting patellofemoral
     pain syndrome using minimal clinical tests
   description: Scientific Reports - Interpretable wrapper-based machine learning framework
