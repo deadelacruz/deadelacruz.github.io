@@ -1,4 +1,26 @@
 news_items:
+- title: A pooled Cell Painting CRISPR screening platform enables de novo inference
+    of gene function by self-supervised deep learning
+  description: Sivanandan, Leitmann, and colleagues present the CellPaint-POSH platform,
+    which combines pooled CRISPR screening with Cell Painting. Using self-supervised
+    deep learning on cell images, the method enables discovery of gene function and
+    biological netw
+  url: https://www.nature.com/articles/s41467-025-66778-6
+  date: '2025-12-16'
+  source: Nature.com
+- title: The impact of pre-processing techniques on deep learning breast image segmentation
+  description: Scientific Reports - The impact of pre-processing techniques on deep
+    learning breast image segmentation
+  url: https://www.nature.com/articles/s41598-025-30724-9
+  date: '2025-12-16'
+  source: Nature.com
+- title: A robust deep learning approach for rock discontinuity identification from
+    large scale 3D point clouds
+  description: Scientific Reports - A robust deep learning approach for rock discontinuity
+    identification from large scale 3D point clouds
+  url: https://www.nature.com/articles/s41598-025-31137-4
+  date: '2025-12-16'
+  source: Nature.com
 - title: Deep learning-based detection of power transmission lines using YOLOv4 and
     YOLOv8
   description: Scientific Reports - Deep learning-based detection of power transmission
@@ -6,6 +28,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-32200-w
   date: '2025-12-15'
   source: Nature.com
+- title: A Deep Learning Model of Mental Rotation Informed by Interactive VR Experiments
+  description: Mental rotation -- the ability to compare objects seen from different
+    viewpoints -- is a fundamental example of mental simulation and spatial world
+    modelling in humans. Here we propose a mechanistic model of human mental rotation,
+    leveraging advances
+  url: https://arxiv.org/abs/2512.13517
+  date: '2025-12-15'
+  source: Arxiv.org
 - title: Intelligent cybersecurity management in industrial IoT system using attribute
     reduction with collaborative deep learning enabled false data injection attack
     detection approach

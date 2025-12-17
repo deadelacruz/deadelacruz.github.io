@@ -1,4 +1,22 @@
 news_items:
+- title: Interpretable Machine Learning Framework for Predicting the Reactivity of
+    Trifluoromethylating Reagents
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03702F,
+    PaperVaneet Saini, Shivansh KanwarThe incorporation of a trifluoromethyl (-CF3)
+    group into organic frameworks profoundly influences their physicochemical and
+    biological proper'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03702f
+  date: '2025-12-16'
+  source: Royal Society of Chemistry
+- title: Integrating experimental data and machine learning models for solubility
+    prediction of yellow 23 in supercritical carbon dioxide
+  description: 'RSC Adv., 2025, 15,50494-50506DOI: 10.1039/D5RA08456C, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Seyed Ali Sajadian, Amir Hossein Sheikhshoaei, Nadia Esfandiari,
+    Adel Noub'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra08456c
+  date: '2025-12-16'
+  source: Royal Society of Chemistry
 - title: 'First-principles and machine learning investigation of the structural and
     optoelectronic properties of dodecaphenylyne: a novel carbon allotrope'
   description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D5NR02744F, PaperKleuton
