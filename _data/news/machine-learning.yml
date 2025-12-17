@@ -17,6 +17,15 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra08456c
   date: '2025-12-16'
   source: Royal Society of Chemistry
+- title: Forecasting Excessive Anesthesia Depth Using EEG α-Spindle Dynamics and Machine
+    Learning
+  description: Objectives. Accurately predicting transitions to anesthetic drugs overdosage
+    is a critical challenge in general anesthesia as it requires the identification
+    of EEG indicators relevant for anticipating the evolution of the depth of anesthesia.
+    Methods
+  url: https://arxiv.org/abs/2512.14160
+  date: '2025-12-16'
+  source: Arxiv.org
 - title: 'First-principles and machine learning investigation of the structural and
     optoelectronic properties of dodecaphenylyne: a novel carbon allotrope'
   description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D5NR02744F, PaperKleuton
