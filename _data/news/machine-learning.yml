@@ -311,6 +311,15 @@ news_items:
   url: https://nlppeople.com/job/mid-level-software-developer-machine-learning/
   date: '2025-12-11'
   source: Nlppeople.com
+- title: 'Machine Learning in Clojure with libpython‑clj: Using Bayesian Networks
+    for Smarter, Interpretable AI [Series 2]'
+  description: This is the second part of our Machine Learning in Clojure with libpython‑clj
+    series. If you missed Series 1, we covered how Clojure can use Python’s ML libraries
+    through libpython‑clj. In this article, we focus on Bayesian Networks. We will
+    show how
+  url: https://flexiana.com/hidden/2025/12/machine-learning-in-clojure-with-libpython-clj-using-bayesian-networks-for-smarter-interpretable-ai-series-2
+  date: '2025-12-11'
+  source: Flexiana.com
 - title: Machine learning analysis of oral solid dosage formulation solubility variations
     by adjusting pressure and temperature
   description: Scientific Reports - Machine learning analysis of oral solid dosage
