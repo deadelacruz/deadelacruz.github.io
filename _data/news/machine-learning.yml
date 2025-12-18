@@ -1,4 +1,37 @@
 news_items:
+- title: Machine Learning Engineer New Grad 2024-2025 -Remote
+  description: 'About Quora: Quora’s mission is to grow and share the world’s knowledge.
+    To do so, we have two knowledge sharing products: • Quora: a global knowledge
+    sharing platform with over 400M monthly unique visitors, bringing people together
+    to share insights'
+  url: https://nlppeople.com/job/machine-learning-engineer-new-grad-2024-2025-remote/
+  date: '2025-12-17'
+  source: Nlppeople.com
+- title: Machine Learning Scientist II – Content Intelligence
+  description: At Booking.com, data drives our decisions. Technology is at our core
+    and innovation is everywhere. But our company is more than datasets, lines of
+    code or A/B tests. We’re the thrill of the first night in a new place. The excitement
+    of the next morni
+  url: https://nlppeople.com/job/machine-learning-scientist-ii-content-intelligence/
+  date: '2025-12-17'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer (CV/NLP/Multimodal/LLM) -E-commerce Governance
+  description: 'This job listing in King – WA has been recently added. Tallo will
+    add a summary here for this job shortly. Company: TikTok Qualifications: Language
+    requirements: Specific requirements: Educational level: Level of experience (years):
+    Senior (5+ years '
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-cv-nlp-multimodal-llm-e-commerce-governance/
+  date: '2025-12-17'
+  source: Nlppeople.com
+- title: 'Photocatalytic dye degradation and antibacterial activity of gold nanoparticles:
+    a DFT and machine learning study'
+  description: 'RSC Adv., 2025, 15,50582-50596DOI: 10.1039/D5RA08168H, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.M. Yasmin Begum, Mukta Sharma, M. V. Arularasu, P. Vinitha, V.
+    Vetrivelan, Geetha Kandas'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra08168h
+  date: '2025-12-17'
+  source: Royal Society of Chemistry
 - title: Interpretable Machine Learning Framework for Predicting the Reactivity of
     Trifluoromethylating Reagents
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03702F,
@@ -26,6 +59,30 @@ news_items:
   url: https://arxiv.org/abs/2512.14160
   date: '2025-12-16'
   source: Arxiv.org
+- title: 'The Machine Learning Engineer’s Checklist: Best Practices for Reliable Models'
+  description: In this article, you will learn a practical, research-informed checklist
+    of best practices that help machine learning engineers build systems that remain
+    reliable long after deployment.
+  url: https://machinelearningmastery.com/the-machine-learning-engineers-checklist-best-practices-for-reliable-models/
+  date: '2025-12-16'
+  source: Machinelearningmastery.com
+- title: Biased sampling driven by bacterial population structure confounds machine
+    learning prediction of antimicrobial resistance
+  description: Machine learning methods have emerged as promising tools to predict
+    antimicrobial resistance (AMR) and uncover resistance determinants from genomic
+    data. This study shows that sampling biases driven by population structure severely
+    undermine the accu
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003539
+  date: '2025-12-16'
+  source: Plos.org
+- title: Machine Learning Researcher
+  description: Skills Alliance is supporting a cutting edge technology company at
+    the intersection of artificial intelligence and medical imaging. As a Machine
+    Learning Researcher, you will contribute to the development of novel algorithms
+    and production-ready syst
+  url: https://nlppeople.com/job/machine-learning-researcher-44/
+  date: '2025-12-16'
+  source: Nlppeople.com
 - title: 'First-principles and machine learning investigation of the structural and
     optoelectronic properties of dodecaphenylyne: a novel carbon allotrope'
   description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D5NR02744F, PaperKleuton

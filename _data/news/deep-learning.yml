@@ -21,6 +21,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-31137-4
   date: '2025-12-16'
   source: Nature.com
+- title: Linguists should learn to love speech-based deep learning models
+  description: Futrell and Mahowald present a useful framework bridging technology-oriented
+    deep learning systems and explanation-oriented linguistic theories. Unfortunately,
+    the target article's focus on generative text-based LLMs fundamentally limits
+    fruitful int
+  url: https://arxiv.org/abs/2512.14506
+  date: '2025-12-16'
+  source: Arxiv.org
 - title: Deep learning-based detection of power transmission lines using YOLOv4 and
     YOLOv8
   description: Scientific Reports - Deep learning-based detection of power transmission

@@ -1,4 +1,13 @@
 news_items:
+- title: An artificial intelligence-based diagnosis system for the identification
+    of helminth parasitic infections in Mithun and allied bovines
+  description: This study presents a novel deep learning approach addressing the critical
+    shortage of veterinary expertise in India’s North Eastern Hill (NEH) region through
+    automated identification of parasitic infections in livestock. We developed a
+    Convolutional
+  url: https://www.nature.com/articles/s41598-025-32775-4
+  date: '2025-12-17'
+  source: Nature.com
 - title: 3 Dividend-Paying Artificial Intelligence Stocks to Buy in 2026
   description: 'Key Points
 
@@ -66,6 +75,37 @@ news_items:
   url: https://www.cbc.ca/news/canada/manitoba/iles-de-chenes-data-centre-ai-natural-gas-9.7017266
   date: '2025-12-16'
   source: CBC News
+- title: 'Satyajit Das: AI – Artificial Intelligence or Absolute Insanity?'
+  description: "Satyajit Das: AI – Artificial Intelligence or Absolute Insanity?\n\
+    \ \nAuthored by Satyajit Das via NakedCapitalism.com,\nAI is tracing the familiar,\
+    \ weary boom and bust trajectory identified in 1837 by Lord Overstone of quiescence,\
+    \ improvement, confidenc"
+  url: https://biztoc.com/x/c26a2ed6238207f3
+  date: '2025-12-16'
+  source: Biztoc.com
+- title: 'Prediction: This Popular Artificial Intelligence Stock Will Fall Hard in
+    2026'
+  description: 'Key Points
+
+    -
+
+    Palantir is growing its business at a rapid pace.
+
+    -
+
+    There are several years'' worth of rapid growth baked into Palantir''s stock price.
+
+    There is no shortage of popular artificial intelligence (AI) stocks. The AI investment
+    theme has booste'
+  url: https://biztoc.com/x/9621eb780a9b4bc5
+  date: '2025-12-16'
+  source: Biztoc.com
+- title: 'Prediction: This Popular Artificial Intelligence Stock Will Fall Hard in
+    2026'
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_dc231337-c75b-43fc-bbb0-a713448c4442
+  date: '2025-12-16'
+  source: Yahoo Entertainment
 - title: Artificial Intelligence And The Roads To Escalation
   description: Unless the new tech is understood and controlled, AI could raise the
     danger of a clash with China.
