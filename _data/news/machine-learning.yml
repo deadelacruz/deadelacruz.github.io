@@ -1,4 +1,31 @@
 news_items:
+- title: Prediction and Interpretability Analysis for Properties of Energetic Ionic
+    Salts Based on Machine Learning
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04092B,
+    PaperXiaoyu Feng, Linhu Pan, Zikang Chen, Ruihui Wang, Xiurong Yang, Siwei Song,
+    Yi Wang, Qinghua ZhangAs a significant subset of energetic materials, energetic
+    ionic salts (E'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04092b
+  date: '2025-12-18'
+  source: Royal Society of Chemistry
+- title: Integrative machine learning-guided in silico and in vitro approach reveals
+    selective small molecule inhibitors targeting mutant IDH1
+  description: 'RSC Adv., 2025, 15,50944-50962DOI: 10.1039/D5RA06290J, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Mayank Bajaj, Rohit Kumar, Vishal Pandey, Shahnawaz Parvez, Hemanth
+    Kumar Tanneru, Polam'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra06290j
+  date: '2025-12-18'
+  source: Royal Society of Chemistry
+- title: Machine learning-informed one-pot biodiesel synthesis from an optimally formulated
+    mixed non-edible oil feedstock over magnetic sulfonated biobased catalyst
+  description: 'RSC Adv., 2025, 15,50856-50880DOI: 10.1039/D5RA07881D, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Paschal Enyinnaya Ohale, Andrew Nosakhare Amenaghawon, Thomas
+    Okpo Kimble Audu, Favour U'
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra07881d
+  date: '2025-12-18'
+  source: Royal Society of Chemistry
 - title: Machine Learning Engineer New Grad 2024-2025 -Remote
   description: 'About Quora: Quora’s mission is to grow and share the world’s knowledge.
     To do so, we have two knowledge sharing products: • Quora: a global knowledge
@@ -32,6 +59,31 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra08168h
   date: '2025-12-17'
   source: Royal Society of Chemistry
+- title: Here’s how to add AMD’s new Machine Learning powered Frame Gen “FSR Redstone”
+    to (almost) any game using Optiscaler
+  description: Earlier this month, AMD rolled out its FSR Redstone suite of ML-enhanced
+    features, including FSR Ray Regeneration, Neural Radiance Caching, and crucially,
+    an upgrade to its Frame Generation solution courtesy of a new machine learning
+    algorithm that a
+  url: https://wccftech.com/heres-how-to-add-amd-fsr-redstone-frame-gen-to-almost-any-game-using-optiscaler/
+  date: '2025-12-17'
+  source: Wccftech
+- title: Track machine learning experiments with MLflow on Amazon SageMaker using
+    Snowflake integration
+  description: In this post, we demonstrate how to integrate Amazon SageMaker managed
+    MLflow as a central repository to log these experiments and provide a unified
+    system for monitoring their progress.
+  url: https://aws.amazon.com/blogs/machine-learning/track-machine-learning-experiments-with-mlflow-on-amazon-sagemaker-using-snowflake-integration/
+  date: '2025-12-17'
+  source: Amazon.com
+- title: Machine Learning Software Engineer 248846
+  description: 'Job Title: Machine Learning Engineer Contract to hire Hybrid Remote
+    in Valencia, CA – 3x per week onsite $90/hr W2 Normal Hours M-F Off every other
+    Friday About the Role We are seeking a Machine Learning Engineer with strong production-level
+    Python d'
+  url: https://nlppeople.com/job/machine-learning-software-engineer-248846/
+  date: '2025-12-17'
+  source: Nlppeople.com
 - title: Interpretable Machine Learning Framework for Predicting the Reactivity of
     Trifluoromethylating Reagents
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03702F,
@@ -81,6 +133,14 @@ news_items:
     Learning Researcher, you will contribute to the development of novel algorithms
     and production-ready syst
   url: https://nlppeople.com/job/machine-learning-researcher-44/
+  date: '2025-12-16'
+  source: Nlppeople.com
+- title: Machine Learning Expert
+  description: Allgemeine Angaben Standort IE – Dublin – Point Village Land Irland
+    Job Kategorien Support Positions Work Style On Site Jobbeschreibung TELUS Digital
+    is building a high-impact team of Machine Learning Experts working alongside Policy
+    Enforcement spec
+  url: https://nlppeople.com/job/machine-learning-expert-3/
   date: '2025-12-16'
   source: Nlppeople.com
 - title: 'First-principles and machine learning investigation of the structural and
