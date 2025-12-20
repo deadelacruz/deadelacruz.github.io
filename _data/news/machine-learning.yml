@@ -1,4 +1,42 @@
 news_items:
+- title: Insight into the temperature-dependent lattice thermal properties of CeO2
+    stabilized ZrO2 by machine learning force field
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03311J,
+    PaperLinpo Yang, Jia Wei, Yinglin SongThe lattice thermal conductivity (LTC) and
+    related properties of the ZrO2-CeO2 system are critically important for industrial
+    application'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03311j
+  date: '2025-12-19'
+  source: Royal Society of Chemistry
+- title: Coupling geometric morphometrics and machine learning for mandibular sex
+    estimation in Late Pleistocene and Late Modern populations
+  description: Scientific Reports - Coupling geometric morphometrics and machine learning
+    for mandibular sex estimation in Late Pleistocene and Late Modern populations
+  url: https://www.nature.com/articles/s41598-025-31365-8
+  date: '2025-12-19'
+  source: Nature.com
+- title: Deciphering the molecular basis of skin color variation through transcriptomics
+    and machine learning
+  description: Scientific Reports - Deciphering the molecular basis of skin color
+    variation through transcriptomics and machine learning
+  url: https://www.nature.com/articles/s41598-025-24933-5
+  date: '2025-12-19'
+  source: Nature.com
+- title: Machine learning enables scalable and systematic hierarchical virus taxonomy
+  description: vConTACT3 enables multirank, large-scale classification of eukaryotic
+    and prokaryotic viruses.
+  url: https://www.nature.com/articles/s41587-025-02946-9
+  date: '2025-12-19'
+  source: Nature.com
+- title: Optimization of compression ratio in LHR engine fueled with nano Al2O3-emulsified
+    biodiesel using RSM and machine learning
+  description: 'RSC Adv., 2025, 15,51178-51197DOI: 10.1039/D5RA06361B, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Radha Krishna Gopidesi, Kautkar Nitin Uttamrao, Channa Keshava
+    Naik N., Premkartikkumar '
+  url: https://pubs.rsc.org/en/content/articlelanding/2025/ra/d5ra06361b
+  date: '2025-12-19'
+  source: Royal Society of Chemistry
 - title: Prediction and Interpretability Analysis for Properties of Energetic Ionic
     Salts Based on Machine Learning
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04092B,
@@ -33,6 +71,32 @@ news_items:
   url: https://www.thehindubusinessline.com/brandhub/pr-release/neutrinos-wins-ai-and-machine-learning-innovation-award-at-insurinnovator-connect-vietnam-2025/article70410255.ece
   date: '2025-12-18'
   source: BusinessLine
+- title: 'Machine Learning Powered Naughty List: A Festive Jumping Rivers Story'
+  description: 'Introduction Ho ho ho!  The holiday season is here, and at Jumping
+    Rivers, we’re decking the halls with data, not just tinsel. While elves are busy
+    checking their lists twice, we thought: why not bring a little machine learning
+    magic to Christmas? Af'
+  url: https://www.r-bloggers.com/2025/12/machine-learning-powered-naughty-list-a-festive-jumping-rivers-story/
+  date: '2025-12-18'
+  source: R-bloggers.com
+- title: Mechanistically informed machine learning links non-canonical TCA cycle activity
+    to Warburg metabolism and hallmarks of malignancy
+  description: Author summary A non-canonical variant of the TCA cycle that bypasses
+    several steps of the mitochondrial TCA cycle has recently been identified. This
+    cycle involves exporting mitochondrial citrate to the cytoplasm, converting it
+    to oxaloacetate and t
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013384
+  date: '2025-12-18'
+  source: Plos.org
+- title: Geospatial modeling and forecasting of urban land use change using Google
+    Earth Engine and machine learning
+  description: 'Urban expansion and Land Use Land Cover (LULC) change pose critical
+    challenges for sustainable urban planning and risks to food security. This study
+    analyzes multi-temporal Landsat imagery from 1990 to 2020 for five major cities,
+    Islamabad, Karachi, '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338920
+  date: '2025-12-18'
+  source: Plos.org
 - title: Machine Learning Engineer New Grad 2024-2025 -Remote
   description: 'About Quora: Quora’s mission is to grow and share the world’s knowledge.
     To do so, we have two knowledge sharing products: • Quora: a global knowledge

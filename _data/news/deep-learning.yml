@@ -1,4 +1,14 @@
 news_items:
+- title: Nitrilotriacetic acid functionalized gold nanopillars enable stochastic detection
+    and deep learning analysis of prolines and hydroxyprolines by surface enhanced
+    Raman spectroscopy
+  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D5NR04125B, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Yuan Zhang, Kuo Zhan, Peilin Xin, Yingqi Zhao, Ibrar Alam,
+    Shubo Wang, Aliaksandr '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d5nr04125b
+  date: '2025-12-19'
+  source: Royal Society of Chemistry
 - title: A pooled Cell Painting CRISPR screening platform enables de novo inference
     of gene function by self-supervised deep learning
   description: Sivanandan, Leitmann, and colleagues present the CellPaint-POSH platform,
