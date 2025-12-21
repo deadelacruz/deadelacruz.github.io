@@ -1,4 +1,13 @@
 news_items:
+- title: Advanced customer churn prediction for a music streaming digital marketing
+    service using attention graph-based deep learning approach
+  description: 'Customer churn poses a persistent threat to the sustainability of
+    music streaming platforms, where user disengagement often occurs unpredictably.
+    Most existing churn prediction methods fail to integrate relational dependencies
+    among users or address '
+  url: https://www.nature.com/articles/s41598-025-28357-z
+  date: '2025-12-20'
+  source: Nature.com
 - title: Nitrilotriacetic acid functionalized gold nanopillars enable stochastic detection
     and deep learning analysis of prolines and hydroxyprolines by surface enhanced
     Raman spectroscopy
@@ -9,6 +18,15 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d5nr04125b
   date: '2025-12-19'
   source: Royal Society of Chemistry
+- title: Zero-shot deep learning for the annotation of unknown eDNA sequences using
+    co-occurrences and phylogenetic embeddings
+  description: Author summary The analysis of environmental DNA (eDNA) samples is
+    hindered by the difficulties in assigning DNA sequences to species, which arise
+    from incomplete reference databases. We use deep learning techniques to perform
+    taxonomic assignments e
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013776
+  date: '2025-12-19'
+  source: Plos.org
 - title: A pooled Cell Painting CRISPR screening platform enables de novo inference
     of gene function by self-supervised deep learning
   description: Sivanandan, Leitmann, and colleagues present the CellPaint-POSH platform,
