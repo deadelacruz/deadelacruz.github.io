@@ -1,4 +1,13 @@
 news_items:
+- title: Interpretable machine learning based on the Charlson comorbidity index predicts
+    28-day mortality in acute hypercapnic respiratory failure
+  description: Acute hypercapnic respiratory failure (AHRF) is a major cause of mortality
+    in intensive care units (ICUs). Early identification of high-risk patients with
+    poor prognosis is crucial, as timely and effective interventions can significantly
+    improve surv
+  url: https://www.nature.com/articles/s41598-025-33251-9
+  date: '2025-12-21'
+  source: Nature.com
 - title: Insight into the temperature-dependent lattice thermal properties of CeO2
     stabilized ZrO2 by machine learning force field
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03311J,
