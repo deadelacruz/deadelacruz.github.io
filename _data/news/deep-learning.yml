@@ -6,6 +6,15 @@ news_items:
   url: https://prtimes.jp/main/html/rd/p/000000518.000051586.html
   date: '2025-12-23'
   source: Prtimes.jp
+- title: Deep Learning Classification of EEG Responses to Multi-Dimensional Transcranial
+    Electrical Stimulation
+  description: A major shortcoming of medical practice is the lack of an objective
+    measure of conscious level. Impairment of consciousness is common, e.g. following
+    brain injury and seizures, which can also interfere with sensory processing and
+    volitional responses
+  url: https://arxiv.org/abs/2512.20319
+  date: '2025-12-23'
+  source: Arxiv.org
 - title: The 3 Deep Learning Stocks That Could Be Worth 50% More by 2027
   description: No description available.
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5cfe89e5-c739-4167-946f-e7375fbec2d5
