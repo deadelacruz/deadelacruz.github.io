@@ -1,4 +1,29 @@
 news_items:
+- title: Node-Equivariant Message Passing for Efficient and Accurate Machine Learning
+    Interatomic Potentials
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC07248D, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Yaolong Zhang, Hua GuoMachine learned interatomic potentials,
+    particularly'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc07248d
+  date: '2025-12-23'
+  source: Royal Society of Chemistry
+- title: 'Mechanism-informed machine learning for rational catalyst design: application
+    to regioselectivity of allyl acetate hydroformylation'
+  description: 'Catal. Sci. Technol., 2026, Advance ArticleDOI: 10.1039/D5CY01398D,
+    PaperMinhua Zhang, Yuzhe Sun, Yifei Chen, Lingtao Wang, Kai Song, Hao GongBy extracting
+    interpretable electronic and geometric descriptors, this mechanism-informed ML
+    model quantitat'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cy/d5cy01398d
+  date: '2025-12-23'
+  source: Royal Society of Chemistry
+- title: Multimodal machine learning for 5-year mortality prediction after percutaneous
+    coronary intervention
+  description: Scientific Reports - Multimodal machine learning for 5-year mortality
+    prediction after percutaneous coronary intervention
+  url: https://www.nature.com/articles/s41598-025-32734-z
+  date: '2025-12-23'
+  source: Nature.com
 - title: 'AI''s blind spots: These 10 spots are reserved for human judgment and cannot
     be imitated through machine learning'
   description: ​Artificial intelligence falters in domains demanding moral judgment,
@@ -17,6 +42,49 @@ news_items:
   url: https://m.economictimes.com/news/india/ais-blind-spots-these-10-spots-are-reserved-exclusively-for-human-judgment-and-cannot-be-imitated-through-machine-learning/the-ai-blindspots/slideshow/126121672.cms
   date: '2025-12-22'
   source: Economictimes.com
+- title: 'Machine Learning in Clojure with libpython‑clj: Unlocking Causal Insights
+    Using Microsoft’s EconML [Series 3]'
+  description: '“Beyond A/B testing: causal inference meets functional programming.”
+    In the first two parts of this series, we kept our core in Clojure while still
+    using the best of Python. ╰┈➤ Series 1: In the first part, we explore how libpython-clj
+    lets you use P'
+  url: https://flexiana.com/hidden/2025/12/machine-learning-in-clojure-with-libpython-clj-unlocking-causal-insights-using-microsofts-econml-series-3
+  date: '2025-12-22'
+  source: Flexiana.com
+- title: 'Machine Learning in Clojure with libpython‑clj: Unlocking Causal Insights
+    Using Microsoft’s EconML [Series 3]'
+  description: '“Beyond A/B testing: causal inference meets functional programming.”
+    In the first two parts of this series, we kept our core in Clojure while still
+    using the best of Python. ╰┈➤ Series 1: In the first part, we explore how libpython-clj
+    lets you use P'
+  url: https://flexiana.com/news/2025/12/machine-learning-in-clojure-with-libpython-clj-unlocking-causal-insights-using-microsofts-econml-series-3
+  date: '2025-12-22'
+  source: Flexiana.com
+- title: 3 Smart Ways to Encode Categorical Features for Machine Learning
+  description: The primary goal of feature engineering, and specifically encoding,
+    is to act as a translator and it's job is to convert qualitative labels into quantitative,
+    numerical features without losing the underlying meaning or relationships.
+  url: https://machinelearningmastery.com/3-smart-ways-to-encode-categorical-features-for-machine-learning/
+  date: '2025-12-22'
+  source: Machinelearningmastery.com
+- title: 'Machine Learning in Clojure with libpython-clj: Bridging Functional Elegance
+    and Python’s ML Power [Series 1]'
+  description: Python is the default choice for machine learning. But many teams using
+    functional languages wonder if they have to switch. At Flexiana, we prioritize
+    Clojure, but we also use Python. With libpython-clj, Clojure can tap into Python’s
+    machine learning
+  url: https://flexiana.com/hidden/2025/12/machine-learning-in-clojure-with-libpython-clj-bridging-functional-elegance-and-pythons-ml-power-series-1
+  date: '2025-12-22'
+  source: Flexiana.com
+- title: 'Machine Learning in Clojure with libpython-clj: Bridging Functional Elegance
+    and Python’s ML Power [Series 1]'
+  description: Python is the default choice for machine learning. But many teams using
+    functional languages wonder if they have to switch. At Flexiana, we prioritize
+    Clojure, but we also use Python. With libpython-clj, Clojure can tap into Python’s
+    machine learning
+  url: https://flexiana.com/news/software-development/2025/12/machine-learning-in-clojure-with-libpython-clj-bridging-functional-elegance-and-pythons-ml-power-series-1
+  date: '2025-12-22'
+  source: Flexiana.com
 - title: Interpretable machine learning based on the Charlson comorbidity index predicts
     28-day mortality in acute hypercapnic respiratory failure
   description: Acute hypercapnic respiratory failure (AHRF) is a major cause of mortality
