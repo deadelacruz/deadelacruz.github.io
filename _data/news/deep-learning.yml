@@ -1,4 +1,18 @@
 news_items:
+- title: 'Deep learning-based disease detection in potato and mango leaves: a comparative
+    study of CNN, AlexNet, ResNet, and EfficientNet'
+  description: 'Scientific Reports - Deep learning-based disease detection in potato
+    and mango leaves: a comparative study of CNN, AlexNet, ResNet, and EfficientNet'
+  url: https://www.nature.com/articles/s41598-025-32607-5
+  date: '2025-12-24'
+  source: Nature.com
+- title: A hybrid ensemble deep learning framework with novel metaheuristic optimization
+    for scalable malicious website detection
+  description: Scientific Reports - A hybrid ensemble deep learning framework with
+    novel metaheuristic optimization for scalable malicious website detection
+  url: https://www.nature.com/articles/s41598-025-33695-z
+  date: '2025-12-24'
+  source: Nature.com
 - title: 【叡啓大学】受講者募集！2025年度公開講座 「深層学習（Deep Learning）を活用したエネルギーマネジメント入門―生成AIで学ぶ電力需要予測―」
   description: '[広島県公立大学法人]
 
@@ -15,6 +29,26 @@ news_items:
   url: https://arxiv.org/abs/2512.20319
   date: '2025-12-23'
   source: Arxiv.org
+- title: 'Show HN: Deep Learning (Global Linear Solvers), Polyharmonic Splines (No
+    SGD)'
+  description: 'Article URL: https://github.com/xolod7/polyharmonic-cascade
+
+    Comments URL: https://news.ycombinator.com/item?id=46365851
+
+    Points: 1
+
+    # Comments: 1'
+  url: https://github.com/xolod7/polyharmonic-cascade
+  date: '2025-12-23'
+  source: Github.com
+- title: Brand public opinion data analysis method based on deep learning
+  description: With the rapid development of Internet information technology and digital
+    technology, various network platforms and media are showing a vigorous growth
+    momentum. The powerful power of online public opinion has an immeasurable impact
+    on brand awarenes
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339563
+  date: '2025-12-23'
+  source: Plos.org
 - title: The 3 Deep Learning Stocks That Could Be Worth 50% More by 2027
   description: No description available.
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5cfe89e5-c739-4167-946f-e7375fbec2d5

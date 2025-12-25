@@ -1,4 +1,12 @@
 news_items:
+- title: Predicting the HER Activity of SACs on MXenes with Simple Features and Interpretable
+    Machine Learning Models
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA07143G,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Chandra Chowdhury, Matteo Lovato, Giovanni Di Liberto, Franc'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta07143g
+  date: '2025-12-24'
+  source: Royal Society of Chemistry
 - title: Node-Equivariant Message Passing for Efficient and Accurate Machine Learning
     Interatomic Potentials
   description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC07248D, Edge
@@ -24,6 +32,21 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-32734-z
   date: '2025-12-23'
   source: Nature.com
+- title: 'The AI Engineering Bible for Developers: Essential Programming Languages,
+    Machine Learning, LLMs, Prompts & Agentic AI. Future Proof Your Career In the
+    Artificial Intelligence Age'
+  description: https://www.amazon.com/gp/product...th=1&psc=1
+  url: https://slickdeals.net/f/19011106-the-ai-engineering-bible-for-developers-essential-programming-languages-machine-learning-llms-prompts-agentic-ai-future-proof-your-career-in-the-artificial-intelligence-age
+  date: '2025-12-23'
+  source: Slickdeals.net
+- title: Applied Machine Learning Lead
+  description: 'We believe in better. And we make it happen. Better content. Better
+    products. And better careers. Working in Tech, Product or Data at Sky is about
+    building the next and the new. From broadband to broadcast, streaming to mobile,
+    SkyQ to Sky Glass, we '
+  url: https://nlppeople.com/job/applied-machine-learning-lead-2/
+  date: '2025-12-23'
+  source: Nlppeople.com
 - title: 'AI''s blind spots: These 10 spots are reserved for human judgment and cannot
     be imitated through machine learning'
   description: ​Artificial intelligence falters in domains demanding moral judgment,
@@ -85,6 +108,14 @@ news_items:
   url: https://flexiana.com/news/software-development/2025/12/machine-learning-in-clojure-with-libpython-clj-bridging-functional-elegance-and-pythons-ml-power-series-1
   date: '2025-12-22'
   source: Flexiana.com
+- title: Senior Machine Learning Developer
+  description: Senior Machine Learning Engineer As a Capital One Machine Learning
+    Engineer (MLE), you’ll be part of an Agile team dedicated to productionizing machine
+    learning applications and systems at scale. You’ll participate in the detailed
+    technical design, d
+  url: https://nlppeople.com/job/senior-machine-learning-developer-2/
+  date: '2025-12-22'
+  source: Nlppeople.com
 - title: Interpretable machine learning based on the Charlson comorbidity index predicts
     28-day mortality in acute hypercapnic respiratory failure
   description: Acute hypercapnic respiratory failure (AHRF) is a major cause of mortality
@@ -94,6 +125,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-33251-9
   date: '2025-12-21'
   source: Nature.com
+- title: Machine Learning Engineer
+  description: 'Senior Machine Learning Engineer (Generative AI / LLMs) Location:
+    Fully Remote (UK-based) Salary: £75,000 – £100,000 (depending on experience) The
+    Role We’re hiring a Senior Machine Learning Engineer to lead the design and productionisation
+    of Genera'
+  url: https://nlppeople.com/job/machine-learning-engineer-578/
+  date: '2025-12-21'
+  source: Nlppeople.com
 - title: Insight into the temperature-dependent lattice thermal properties of CeO2
     stabilized ZrO2 by machine learning force field
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03311J,
