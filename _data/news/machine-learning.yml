@@ -1,4 +1,37 @@
 news_items:
+- title: Machine learning-assisted kinetic matching model for rational electrode design
+    in aqueous zinc-ion batteries
+  description: Aqueous zinc-ion batteries are safe and affordable but limited by incompatible
+    electrode kinetics. Here, authors present a machine learning framework that resolves
+    this mismatch, enabling the rational design of durable and stretchable zinc-ion
+    batter
+  url: https://www.nature.com/articles/s41467-025-67996-8
+  date: '2025-12-25'
+  source: Nature.com
+- title: Senior Software Engineer – Machine Learning
+  description: At SolarWinds, we’re a people-first company. Our purpose is to enrich
+    the lives of the people we serve—including our employees, customers, shareholders,
+    partners, and communities. Join us in our mission to help customers accelerate
+    business transform
+  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-31/
+  date: '2025-12-25'
+  source: Nlppeople.com
+- title: Senior AI Agent Engineer (Machine Learning)
+  description: Job Description The Agentic Tribe is revolutionizing the chatbot and
+    voice assistance landscape with Gen3, a cutting-edge AI Agent system that’s pushing
+    the boundaries of conversational AI. Gen3 is not your typical chatbot; it’s a
+    goal-oriented, dyna
+  url: https://nlppeople.com/job/senior-ai-agent-engineer-machine-learning-2/
+  date: '2025-12-25'
+  source: Nlppeople.com
+- title: 'Machine Learning: Natural Language Processing Engineer'
+  description: About Primordial Labs We’re building the next generation interface
+    for commanding autonomous systems in the real world. Our core product, Anura,
+    translates spoken or typed intent into structured actions across drones, sensors,
+    and mission software—en
+  url: https://nlppeople.com/job/machine-learning-natural-language-processing-engineer-2/
+  date: '2025-12-25'
+  source: Nlppeople.com
 - title: Predicting the HER Activity of SACs on MXenes with Simple Features and Interpretable
     Machine Learning Models
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA07143G,
