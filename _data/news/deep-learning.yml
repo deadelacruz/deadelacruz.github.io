@@ -1,4 +1,16 @@
 news_items:
+- title: 'Retraction: Can artificial intelligence and face recognition using deep
+    learning detect emotions in children with autism?'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340338
+  date: '2025-12-26'
+  source: Plos.org
+- title: 'Retraction: A deep learning-based ensemble for autism spectrum disorder
+    diagnosis using facial images'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340328
+  date: '2025-12-26'
+  source: Plos.org
 - title: 'Deep learning-based disease detection in potato and mango leaves: a comparative
     study of CNN, AlexNet, ResNet, and EfficientNet'
   description: 'Scientific Reports - Deep learning-based disease detection in potato

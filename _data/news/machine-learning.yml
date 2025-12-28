@@ -1,4 +1,20 @@
 news_items:
+- title: 'Identifying key genes for European canker resistance in apple: machine learning
+    and gene expression profiling of quantitative disease resistance'
+  description: 'Scientific Reports - Identifying key genes for European canker resistance
+    in apple: machine learning and gene expression profiling of quantitative disease
+    resistance'
+  url: https://www.nature.com/articles/s41598-025-33478-6
+  date: '2025-12-27'
+  source: Nature.com
+- title: Machine learning-based prediction of glioma grading
+  description: Objective Gliomas are among the most common and heterogeneous primary
+    tumours of the central nervous system. Accurate grading is essential for treatment
+    planning and prognosis, yet conventional histopathological approaches are limited
+    by subjectivity
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314831
+  date: '2025-12-26'
+  source: Plos.org
 - title: Machine learning-assisted kinetic matching model for rational electrode design
     in aqueous zinc-ion batteries
   description: Aqueous zinc-ion batteries are safe and affordable but limited by incompatible
