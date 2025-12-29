@@ -61,6 +61,12 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339563
   date: '2025-12-23'
   source: Plos.org
+- title: A bitwise reproducible deep learning framework
+  description: A library for reproducible deep learning. Contribute to microsoft/RepDL
+    development by creating an account on GitHub.
+  url: https://github.com/microsoft/RepDL
+  date: '2025-12-22'
+  source: Github.com
 - title: The 3 Deep Learning Stocks That Could Be Worth 50% More by 2027
   description: No description available.
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5cfe89e5-c739-4167-946f-e7375fbec2d5

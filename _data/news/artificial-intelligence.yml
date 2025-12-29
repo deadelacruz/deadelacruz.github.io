@@ -1,4 +1,13 @@
 news_items:
+- title: 'AI dissonance: Politics over artificial intelligence is a phenomenon that
+    can’t be wished away'
+  description: Lobbying over regulation will intensify in the West amid friction between
+    businesses and governments over the regulation of artificial intelligence. In
+    India, where AI adoption is likely to split opinion, will probably see other forms
+    of dissonance.
+  url: https://www.livemint.com/opinion/columns/ai-regulation-politics-artificial-intelligence-2025-2026-businesses-governments-friction-india-ai-adoption-west-us-eu-11766651677151.html
+  date: '2025-12-28'
+  source: Livemint
 - title: 'Year Ender 2025: From DeepSeek to Agentic AI, 10 major developments that
     changed Artificial Intelligence in 2025'
   description: '2025 Year Ender: Artificial intelligence crossed a decisive threshold
@@ -27,6 +36,14 @@ news_items:
   url: https://www.theatlantic.com/ideas/2025/12/aphorisms-artificial-intelligence/685406/
   date: '2025-12-26'
   source: The Atlantic
+- title: Are We Ready to Be Governed by Artificial Intelligence?
+  description: Artificial Intelligence (AI) overlords are a common trope in science-fiction
+    dystopias, but the reality looks much more prosaic. The technologies of artificial
+    intelligence are already pervading many aspects of democratic government, affecting
+    our li
+  url: https://www.schneier.com/blog/archives/2025/12/are-we-ready-to-be-governed-by-artificial-intelligence.html
+  date: '2025-12-26'
+  source: Schneier.com
 - title: 'Artificial Intelligence In Marketing Market Competition Analysis 2025: How
     Players Are Shaping Growth'
   description: The Business Research Company’s Artificial Intelligence In Marketing
