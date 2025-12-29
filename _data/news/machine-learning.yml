@@ -1,4 +1,12 @@
 news_items:
+- title: Development and implementation of explainable AI-based machine learning models
+    for predicting hospital stay and treatment costs in cardiovascular patients
+  description: Scientific Reports - Development and implementation of explainable
+    AI-based machine learning models for predicting hospital stay and treatment costs
+    in cardiovascular patients
+  url: https://www.nature.com/articles/s41598-025-33005-7
+  date: '2025-12-28'
+  source: Nature.com
 - title: 'Identifying key genes for European canker resistance in apple: machine learning
     and gene expression profiling of quantitative disease resistance'
   description: 'Scientific Reports - Identifying key genes for European canker resistance
