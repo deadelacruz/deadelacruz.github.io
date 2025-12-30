@@ -1,4 +1,27 @@
 news_items:
+- title: Lead Machine Learning Engineer
+  description: Lead Machine Learning Engineer At Capital One, we are changing banking
+    for good by creating responsible and reliable AI-powered systems. Our investments
+    in technology infrastructure and world-class talent — along with our deep experience
+    in machine l
+  url: https://nlppeople.com/job/lead-machine-learning-engineer-19/
+  date: '2025-12-29'
+  source: Nlppeople.com
+- title: 'SmartEM: machine learning-guided electron microscopy'
+  description: SmartEM is a ‘smart’ pipeline for electron microscopy-based data acquisition
+    for connectomics. In order to efficiently image large datasets, the approach involves
+    imaging at short pixel dwell times and identifying problematic regions that are
+    then im
+  url: https://www.nature.com/articles/s41592-025-02929-3
+  date: '2025-12-29'
+  source: Nature.com
+- title: An integrative computational approach for identification of NLRP3 inhibitors
+    through machine learning, docking, dynamics and DFT analysis
+  description: Scientific Reports - An integrative computational approach for identification
+    of NLRP3 inhibitors through machine learning, docking, dynamics and DFT analysis
+  url: https://www.nature.com/articles/s41598-025-34068-2
+  date: '2025-12-29'
+  source: Nature.com
 - title: Development and implementation of explainable AI-based machine learning models
     for predicting hospital stay and treatment costs in cardiovascular patients
   description: Scientific Reports - Development and implementation of explainable

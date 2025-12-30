@@ -1,4 +1,13 @@
 news_items:
+- title: Navigating the future of assisted reproductive technology with micro-robotics,
+    nanobiosensors and artificial intelligence
+  description: 'Technological developments in reproductive medicine, driven by the
+    convergence of micro-robotics and nanosensors, along with decision-making aided
+    by artificial intelligence, are enabling precise manipulation, gamete selection,
+    embryo assessment and '
+  url: https://www.nature.com/articles/s41565-025-02093-x
+  date: '2025-12-29'
+  source: Nature.com
 - title: 'AI dissonance: Politics over artificial intelligence is a phenomenon that
     can’t be wished away'
   description: Lobbying over regulation will intensify in the West amid friction between
@@ -8,6 +17,15 @@ news_items:
   url: https://www.livemint.com/opinion/columns/ai-regulation-politics-artificial-intelligence-2025-2026-businesses-governments-friction-india-ai-adoption-west-us-eu-11766651677151.html
   date: '2025-12-28'
   source: Livemint
+- title: 'BSc Data Science vs BTech in Artificial Intelligence: Which tech degree
+    should you choose today?'
+  description: Class 12 students aspiring for IT careers face a choice between BSc
+    Data Science and BTech AI. Data Science focuses on analyzing information for decision-making,
+    while AI emphasizes building intelligent systems. Both offer strong career paths,
+    but di
+  url: https://timesofindia.indiatimes.com/education/news/bsc-data-science-vs-btech-in-artificial-intelligence-which-tech-degree-should-you-choose-today/articleshow/126216649.cms
+  date: '2025-12-28'
+  source: The Times of India
 - title: 'Year Ender 2025: From DeepSeek to Agentic AI, 10 major developments that
     changed Artificial Intelligence in 2025'
   description: '2025 Year Ender: Artificial intelligence crossed a decisive threshold
