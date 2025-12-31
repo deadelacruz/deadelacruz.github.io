@@ -1,4 +1,37 @@
 news_items:
+- title: Machine Learning Manager
+  description: Isomorphic Labs is applying frontier AI to help unlock deeper scientific
+    insights, faster breakthroughs, and life-changing medicines with an ambition to
+    solve all disease. The future is coming. A future enabled and enriched by the
+    incredible power of
+  url: https://nlppeople.com/job/machine-learning-manager-19/
+  date: '2025-12-30'
+  source: Nlppeople.com
+- title: Evaluating machine learning efficiency and accuracy for real time flash flood
+    mapping
+  description: Flash floods endanger communities and ecosystems in rugged regions,
+    but precise prediction is difficult due to environmental complexity. This study
+    evaluates six machine learning algorithms for flash flood mapping in Iran’s Dez
+    Basin, a region growin
+  url: https://www.nature.com/articles/s41598-025-34037-9
+  date: '2025-12-30'
+  source: Nature.com
+- title: Machine Learning Geoscientist
+  description: We are looking for the right people — people who want to innovate,
+    achieve, grow and lead. We attract and retain the best talent by investing in
+    our employees and empowering them to develop themselves and their careers. Experience
+    the challenges, rew
+  url: https://nlppeople.com/job/machine-learning-geoscientist/
+  date: '2025-12-30'
+  source: Nlppeople.com
+- title: Integrating machine learning and molecular docking to elucidate the mechanism
+    of atrial fibrillation induced by di(2-ethylhexyl) phthalate
+  description: Scientific Reports - Integrating machine learning and molecular docking
+    to elucidate the mechanism of atrial fibrillation induced by di(2-ethylhexyl)
+    phthalate
+  url: https://www.nature.com/articles/s41598-025-31839-9
+  date: '2025-12-30'
+  source: Nature.com
 - title: Lead Machine Learning Engineer
   description: Lead Machine Learning Engineer At Capital One, we are changing banking
     for good by creating responsible and reliable AI-powered systems. Our investments
@@ -22,6 +55,32 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-34068-2
   date: '2025-12-29'
   source: Nature.com
+- title: 'Correction: Machine learning-based phenotypic imaging to characterise the
+    targetable biology of Plasmodium falciparum male gametocytes for the development
+    of transmission-blocking antimalarials'
+  description: No description available.
+  url: https://journals.plos.org/plospathogens/article?id=10.1371/journal.ppat.1013814
+  date: '2025-12-29'
+  source: Plos.org
+- title: 'Lymphocytes and related inflammatory factors as predictors of metabolic
+    syndrome risk in shift workers: A machine learning approach based on large-scale
+    population data'
+  description: Background Metabolic syndrome (MetS) is characterized by chronic inflammation
+    and can be worsened by circadian disruption, which is common among shift work.
+    Machine learning can predict the risk of MetS in shift workers using inflammatory
+    biomarkers.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339673
+  date: '2025-12-29'
+  source: Plos.org
+- title: Lecturer / Senior Lecturer in Artificial Intelligence (Machine Learning,
+    NLP, Reinforcement Learning, and AI Security) (AS13303) – Bath, BA2 7AY
+  description: Lecturer / Senior Lecturer in Artificial Intelligence (Machine Learning,
+    NLP, Reinforcement Learning, and AI Security) (AS13303) – Bath, BA2 7AY The Department
+    of Computer Science wishes to appoint academics to strengthen our growing Artificial
+    Intel
+  url: https://nlppeople.com/job/lecturer-senior-lecturer-in-artificial-intelligence-machine-learning-nlp-reinforcement-learning-and-ai-security-as13303-bath-ba2-7ay/
+  date: '2025-12-29'
+  source: Nlppeople.com
 - title: Development and implementation of explainable AI-based machine learning models
     for predicting hospital stay and treatment costs in cardiovascular patients
   description: Scientific Reports - Development and implementation of explainable
@@ -38,6 +97,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-33478-6
   date: '2025-12-27'
   source: Nature.com
+- title: GRADUATE AI AND MACHINE LEARNING ENGINEER
+  description: 'Career Opportunities: Graduate AI and Machine Learning Engineer (10980)
+    Requisition ID10980-Posted – Years of Experience (2) -Technology- Where (1) -Job
+    Graduate AI and Machine Learning Engineer About Threepipe Reply: Threepipe Reply
+    is an award-winn'
+  url: https://nlppeople.com/job/graduate-ai-and-machine-learning-engineer/
+  date: '2025-12-27'
+  source: Nlppeople.com
 - title: Machine learning-based prediction of glioma grading
   description: Objective Gliomas are among the most common and heterogeneous primary
     tumours of the central nervous system. Accurate grading is essential for treatment
@@ -46,6 +113,14 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314831
   date: '2025-12-26'
   source: Plos.org
+- title: Machine learning specialist computer
+  description: 'Job Description: Machine Learning Specialist (Computer Vision) Profile:
+    Safe Intelligence is on a mission to make AI safe and reliable for anyone to use.
+    To help us succeed, our team is looking for Machine Learning Specialists, and
+    we’re hoping it’s '
+  url: https://nlppeople.com/job/machine-learning-specialist-computer/
+  date: '2025-12-26'
+  source: Nlppeople.com
 - title: Machine learning-assisted kinetic matching model for rational electrode design
     in aqueous zinc-ion batteries
   description: Aqueous zinc-ion batteries are safe and affordable but limited by incompatible

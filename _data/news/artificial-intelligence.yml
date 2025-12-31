@@ -1,4 +1,12 @@
 news_items:
+- title: Leveraging insights from neuroscience to build adaptive artificial intelligence
+  description: Adaptive intelligence envisions AI that, like animals, learns online,
+    generalizes and adapts quickly. This Perspective reviews biological foundations,
+    progress in AI and brain-inspired strategies for building flexible and adaptive
+    AI algorithms.
+  url: https://www.nature.com/articles/s41593-025-02169-w
+  date: '2025-12-30'
+  source: Nature.com
 - title: Navigating the future of assisted reproductive technology with micro-robotics,
     nanobiosensors and artificial intelligence
   description: 'Technological developments in reproductive medicine, driven by the
@@ -34,6 +42,53 @@ news_items:
   url: https://slashdot.org/firehose.pl?op=view&amp;id=180472565
   date: '2025-12-29'
   source: Slashdot.org
+- title: Are We Ready to Be Governed by Artificial Intelligence?
+  description: Experts Bruce Schneier and Nathan Sanders explore how Artificial Intelligence
+    is already shaping the executive, judicial, and legislative branches, showing
+    that we are already, at least in part, governed by AI—with more likely to come.
+  url: https://www.merionwest.com/are-we-ready-to-be-governed-by-arti/
+  date: '2025-12-29'
+  source: Merionwest.com
+- title: 'Selected Articles: Artificial Intelligence in Support of Israeli Intelligence.
+    The Planning of Genocide. “What Will Gaza Look Like in the Future”'
+  description: 'Artificial Intelligence in Support of Israeli Intelligence. The Planning
+    of Genocide. “What Will Gaza Look Like in the Future”
+
+    By Prof Michel Chossudovsky, December 29, 2025
+
+    Using artificial intelligence, this is the “political simulation” of “what G'
+  url: https://www.globalresearch.ca/selected-articles-artificial-intelligence-support-israeli-intelligence-planning-genocide-gaza/5910508
+  date: '2025-12-29'
+  source: Globalresearch.ca
+- title: Artificial Intelligence, Artificial Insemination, Artificial Reality
+  description: 'To make a copy of ‘nature’ and then to replace actual nature with
+    this copy, is the long standing grand plan of the deep state cult.
+
+    The post Artificial Intelligence, Artificial Insemination, Artificial Reality
+    appeared first on Global Research.'
+  url: https://www.globalresearch.ca/artificial-intelligence-artificial-insemination-artificial-reality/5910573
+  date: '2025-12-29'
+  source: Globalresearch.ca
+- title: 'AI user posts ''ChatGPT Wrapped'', claims she''s spent 99 days of 2025 speaking
+    to artificial intelligence: ''The concept of sending a chatbot over 2000 messages
+    a day'''
+  description: "Once upon a time, the internet used to promise that it would expand\
+    \ our knowledge; now, it seems to be making us dumber than ever.\r\nIt may be\
+    \ true that many people have been stupid online since the technology was in its\
+    \ infancy, but it has to be said"
+  url: https://cheezburger.com/43794693/ai-user-posts-chatgpt-wrapped-claims-shes-spent-99-days-of-2025-speaking-to-artificial-intelligence
+  date: '2025-12-29'
+  source: Cheezburger.com
+- title: 'AI user posts ''ChatGPT Wrapped'', claims she''s spent 99 days in 2025 speaking
+    to artificial intelligence: ''The concept of sending a chatbot over 2000 messages
+    a day'''
+  description: "Once upon a time, the internet used to promise that it would expand\
+    \ our knowledge; now, it seems to be making us dumber than ever.\r\nIt may be\
+    \ true that many people have been stupid online since the technology was in its\
+    \ infancy, but it has to be said"
+  url: https://cheezburger.com/43794693/ai-user-posts-chatgpt-wrapped-claims-shes-spent-99-days-in-2025-speaking-to-artificial-intelligence
+  date: '2025-12-29'
+  source: Cheezburger.com
 - title: 'AI dissonance: Politics over artificial intelligence is a phenomenon that
     can’t be wished away'
   description: Lobbying over regulation will intensify in the West amid friction between

@@ -1,4 +1,13 @@
 news_items:
+- title: Prediction of urban heat island intensity based on multiple linear regression
+    and deep learning
+  description: The rapid urbanization process has led to many prominent environmental
+    issues in urban areas, resulting from a drastic change in land use. The Urban
+    Heat Island (UHI) effect is of particular concern because it has a significant
+    impact on the livabili
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339782
+  date: '2025-12-29'
+  source: Plos.org
 - title: 'Retraction: Can artificial intelligence and face recognition using deep
     learning detect emotions in children with autism?'
   description: No description available.
