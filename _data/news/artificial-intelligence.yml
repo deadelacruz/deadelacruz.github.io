@@ -1,4 +1,25 @@
 news_items:
+- title: 'More than 40% of Walmart’s software already integrates artificial intelligence:
+    what this means for retail'
+  description: Artificial intelligence is now part of Walmart's DNA. With over 40%
+    of its new software based on AI, the company is leading a quiet revolution in
+    retail.
+  url: https://www.merca20.com/more-than-40-of-walmarts-software-already-integrates-artificial-intelligence-what-this-means-for-retail/
+  date: '2025-12-31'
+  source: Merca20.com
+- title: Meta buys startup Manus in latest move to advance its artificial intelligence
+    efforts
+  description: Meta buys startup Manus in latest move to advance its artificial intelligence
+    effortsocregister.com
+  url: https://www.ocregister.com/2025/12/30/meta-manus/
+  date: '2025-12-31'
+  source: OCRegister
+- title: Meta buys Singapore startup Manus in latest move to advance its artificial
+    intelligence efforts
+  description: Meta reportedly closed the deal at more than $2 billion.
+  url: https://www.bostonherald.com/2025/12/30/meta-manus/
+  date: '2025-12-31'
+  source: Boston Herald
 - title: Leveraging insights from neuroscience to build adaptive artificial intelligence
   description: Adaptive intelligence envisions AI that, like animals, learns online,
     generalizes and adapts quickly. This Perspective reviews biological foundations,
@@ -19,6 +40,47 @@ news_items:
   url: https://www.businessinsider.com/biggest-ai-deals-acquisitions-of-the-year-2025-12
   date: '2025-12-30'
   source: Business Insider
+- title: Neuro-Symbolic Artificial Intelligence
+  description: Advancing toward artificial general intelligence may require unifying
+    symbolic reasoning with neural learning. Combining explicit, rule-based knowledge
+    representation with adaptive, weight-based models offers capabilities neither
+    approach achieves al
+  url: https://elearningindustry.com/neuro-symbolic-artificial-intelligence
+  date: '2025-12-30'
+  source: Elearningindustry.com
+- title: Meta buys startup Manus in latest move to advance its artificial intelligence
+    efforts
+  description: Meta is buying artificial intelligence startup Manus, as the owner
+    of Facebook and Instagram continues a push to amp-up AI offerings across its platforms
+  url: https://abcnews.go.com/Technology/wireStory/meta-buys-startup-manus-latest-move-advance-artificial-128783025
+  date: '2025-12-30'
+  source: ABC News
+- title: Meta buys startup Manus in latest move to advance its artificial intelligence
+    efforts
+  description: 'DETROIT (AP) — Meta is buying artificial intelligence startup Manus,
+    as the owner of Facebook and Instagram continues an aggressive push to amp up
+    AI offerings across its platforms. The California tech giant declined to disclose
+    financial details of '
+  url: https://financialpost.com/pmn/meta-buys-startup-manus-in-latest-move-to-advance-its-artificial-intelligence-efforts-2
+  date: '2025-12-30'
+  source: Financial Post
+- title: Meta buys startup Manus in latest move to advance its artificial intelligence
+    efforts
+  description: 'DETROIT (AP) — Meta is buying artificial intelligence startup Manus,
+    as the owner of Facebook and Instagram continues an aggressive push to amp up
+    AI offerings across its platforms. The California tech giant declined to disclose
+    financial details of '
+  url: https://financialpost.com/pmn/meta-buys-startup-manus-in-latest-move-to-advance-its-artificial-intelligence-efforts
+  date: '2025-12-30'
+  source: Financial Post
+- title: Meta buys startup Manus in latest move to advance its artificial intelligence
+    efforts
+  description: Meta is buying artificial intelligence startup Manus, as the owner
+    of Facebook and Instagram continues an aggressive push to amp up AI offerings
+    across its...
+  url: https://finance.yahoo.com/news/meta-buys-startup-manus-latest-160203104.html
+  date: '2025-12-30'
+  source: Yahoo Entertainment
 - title: Navigating the future of assisted reproductive technology with micro-robotics,
     nanobiosensors and artificial intelligence
   description: 'Technological developments in reproductive medicine, driven by the

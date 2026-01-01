@@ -1,4 +1,29 @@
 news_items:
+- title: Machine learning reveals drivers of cold-related illness during energy infrastructure
+    attacks in Wartime Ukraine
+  description: 'During the Russian invasion of Ukraine, targeted attacks on energy
+    infrastructure exposed civilians to heightened cold-related health risks. This
+    study aimed to: (1) characterize respiratory infections and cold-related injuries
+    during the conflict; ('
+  url: https://www.nature.com/articles/s41598-025-32344-9
+  date: '2025-12-31'
+  source: Nature.com
+- title: Domain oriented universal machine learning potential enables fast exploration
+    of chemical space of battery electrolytes
+  description: Efficient modeling of battery electrolytes is limited by the accuracy-cost
+    trade-off. Here, authors develop a universal machine learning potential to accurately
+    calculate transport and solvation properties across a broad chemical space.
+  url: https://www.nature.com/articles/s41467-025-67982-0
+  date: '2025-12-31'
+  source: Nature.com
+- title: Scalable photonic reservoir computing for parallel machine learning tasks
+  description: Neuromorphic computing processes data faster and with less energy than
+    electronics. Here, authors demonstrate a reconfigurable photonic reservoir computer
+    that performs multiple machine learning tasks in parallel at ultrafast rates while
+    using extrem
+  url: https://www.nature.com/articles/s41467-025-67983-z
+  date: '2025-12-31'
+  source: Nature.com
 - title: Machine Learning Manager
   description: Isomorphic Labs is applying frontier AI to help unlock deeper scientific
     insights, faster breakthroughs, and life-changing medicines with an ambition to
@@ -89,6 +114,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-33005-7
   date: '2025-12-28'
   source: Nature.com
+- title: Senior Machine Learning Engineer – NLP
+  description: Our client is at the forefront of AI-driven innovation and is seeking
+    a highly skilled Senior Machine Learning Engineer specializing in Natural Language
+    Processing (NLP) to join our distributed team. This role is critical for developing
+    and deploying
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-41/
+  date: '2025-12-28'
+  source: Nlppeople.com
 - title: 'Identifying key genes for European canker resistance in apple: machine learning
     and gene expression profiling of quantitative disease resistance'
   description: 'Scientific Reports - Identifying key genes for European canker resistance

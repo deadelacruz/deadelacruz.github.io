@@ -1,4 +1,24 @@
 news_items:
+- title: A novel deep learning approach for intrusion detection in maritime radar
+    networks
+  description: Scientific Reports - A novel deep learning approach for intrusion detection
+    in maritime radar networks
+  url: https://www.nature.com/articles/s41598-025-34353-0
+  date: '2025-12-31'
+  source: Nature.com
+- title: SARCDNet-an enhanced deep learning network for change detection from bi-temporal
+    SAR images
+  description: Scientific Reports - SARCDNet-an enhanced deep learning network for
+    change detection from bi-temporal SAR images
+  url: https://www.nature.com/articles/s41598-025-31488-y
+  date: '2025-12-31'
+  source: Nature.com
+- title: Epidemic dynamics prediction using fractional SIRD and deep learning
+  description: Scientific Reports - Epidemic dynamics prediction using fractional
+    SIRD and deep learning
+  url: https://www.nature.com/articles/s41598-025-34299-3
+  date: '2025-12-31'
+  source: Nature.com
 - title: Prediction of urban heat island intensity based on multiple linear regression
     and deep learning
   description: The rapid urbanization process has led to many prominent environmental
