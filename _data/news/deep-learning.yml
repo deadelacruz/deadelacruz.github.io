@@ -19,6 +19,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-34299-3
   date: '2025-12-31'
   source: Nature.com
+- title: 'Deep learning for deep learning performance: How much data is needed for
+    segmentation in biomedical imaging?'
+  description: 'Deep learning (DL) models are widely adopted in biomedical imaging,
+    where image segmentation is increasingly recognized as a quantitative tool for
+    extracting clinically meaningful information. However, model performance critically
+    depends on dataset '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339064
+  date: '2025-12-31'
+  source: Plos.org
 - title: Prediction of urban heat island intensity based on multiple linear regression
     and deep learning
   description: The rapid urbanization process has led to many prominent environmental
