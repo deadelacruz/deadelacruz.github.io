@@ -25,6 +25,27 @@ news_items:
   url: https://www.nature.com/articles/s41568-025-00897-6
   date: '2026-01-02'
   source: Nature.com
+- title: Gradient Descent:The Engine of Machine Learning Optimization
+  description: 'This article is the first entry in our series on visualizing the foundations
+    of machine learning, focusing on the engine of machine learning optimization:
+    gradient descent.'
+  url: https://machinelearningmastery.com/gradient-descentthe-engine-of-machine-learning-optimization/
+  date: '2026-01-02'
+  source: Machinelearningmastery.com
+- title: 'AI and Machine Learning in Java: TensorFlow, DJL, and Enterprise AI'
+  description: '1. Introduction: Java’s Unexpected ML Renaissance While Python dominates
+    ML research and experimentation, production deployment tells a different story.
+    As of 2025, 68% of applications run on Java or the JVM, and enterprises invested
+    in Java ecosyste'
+  url: https://www.javacodegeeks.com/2026/01/ai-and-machine-learning-in-java-tensorflow-djl-and-enterprise-ai.html
+  date: '2026-01-02'
+  source: Javacodegeeks.com
+- title: 'GitHub - harvard-edge/cs249r_book: Collaborative book Machine Learning Systems'
+  description: Introduction to Machine Learning Systems. Contribute to harvard-edge/cs249r_book
+    development by creating an account on GitHub.
+  url: https://github.com/harvard-edge/cs249r_book
+  date: '2026-01-02'
+  source: Github.com
 - title: Machine learning reveals drivers of cold-related illness during energy infrastructure
     attacks in Wartime Ukraine
   description: 'During the Russian invasion of Ukraine, targeted attacks on energy
