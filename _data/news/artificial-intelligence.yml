@@ -1,4 +1,12 @@
 news_items:
+- title: Artificial intelligence-driven approaches for materials design and discovery
+  description: Computational approaches to materials design promise to accelerate
+    the discovery of materials with superior functionalities. This Review presents
+    key computational advances in materials design over the past few decades, highlighting
+    the paradigm shif
+  url: https://www.nature.com/articles/s41563-025-02403-7
+  date: '2026-01-02'
+  source: Nature.com
 - title: Artificial intelligence ends the dangerous cycle of delayed patient care
     [PODCAST]
   description: Orthopedic surgeon Kevin J. Campbell discusses his article "Health
@@ -15,6 +23,49 @@ news_items:
   url: https://nypost.com/2026/01/01/business/nvidia-ceo-jensen-huang-brings-ai-cred-to-ces/
   date: '2026-01-01'
   source: New York Post
+- title: Canada’s spy watchdog to review security agencies’ use of artificial intelligence
+  description: 'Canada’s spy watchdog is examining the use and governance of artificial
+    intelligence in national security activities.
+
+    The National Security and Intelligence Review Agency has informed key federal
+    ministers and organizations of the study, which will l'
+  url: https://biztoc.com/x/9d418740da54b00d
+  date: '2026-01-01'
+  source: Biztoc.com
+- title: 'Better Artificial Intelligence Stock: Figma vs. UiPath'
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0e0c30d8-e94f-48b7-b40f-a37a682b0f6c
+  date: '2026-01-01'
+  source: Yahoo Entertainment
+- title: Berkshire Is Selling Apple Stock and Buying This Other Magnificent Artificial
+    Intelligence (AI) Stock Instead
+  description: No description available.
+  url: https://biztoc.com/x/4d1354ad36abc389
+  date: '2026-01-01'
+  source: Biztoc.com
+- title: This Artificial Intelligence Stock Could Be the Biggest Bargain Buy of 2026
+  description: 'Key Points
+
+    -
+
+    Micron Technology has remarkable earnings growth potential.
+
+    -
+
+    It is benefiting from the favorable dynamics of the memory market, particularly
+    due to the AI infrastructure buildout.
+
+    Artificial intelligence (AI) stocks delivered another ye'
+  url: https://biztoc.com/x/f49a47c7452da916
+  date: '2026-01-01'
+  source: Biztoc.com
+- title: ' Generative AI(Artificial Intelligence): The Smart Technology That Creates,
+    Not Just Calculates'
+  description: 'Explore Generative AI: the smart tech transforming software development!
+    Learn how it creates code, images, & more, boosting productivity for C#/.NET developers.'
+  url: https://www.c-sharpcorner.com/article/generative-aiartificial-intelligence-the-smart-technology-that-creates-no/
+  date: '2026-01-01'
+  source: C-sharpcorner.com
 - title: 'More than 40% of Walmart’s software already integrates artificial intelligence:
     what this means for retail'
   description: Artificial intelligence is now part of Walmart's DNA. With over 40%

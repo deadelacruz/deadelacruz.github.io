@@ -1,4 +1,30 @@
 news_items:
+- title: An Integrated High-Throughput Screening Framework for Perovskite Light-Emitting
+    Diodes Passivators Based on Machine Learning
+  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D5TC04133C,
+    PaperFei Yuan, Haiyan Li, Yujia Gao, Jingcheng Deng, Jian Ma, Weiguang Xie, Tingting
+    ShiEfficient passivator screening is essential for mitigating defects in perovskite
+    optoelectron'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d5tc04133c
+  date: '2026-01-02'
+  source: Royal Society of Chemistry
+- title: Computational optimization of MASnI3 perovskite solar cells using SCAPS-1D
+    simulations and machine learning techniques
+  description: 'RSC Adv., 2026, 16,1172-1192DOI: 10.1039/D5RA07200J, Paper Open Access
+    &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Benjer Islam, Tanvir Mahtab Khan, Md. Mountasir Rahaman,
+    Sheikh Rashel Al Ah'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra07200j
+  date: '2026-01-02'
+  source: Royal Society of Chemistry
+- title: Convergence of machine learning and genomics for precision oncology
+  description: In this Perspective, Reardon et al. explore how integrating machine
+    learning into next-generation sequencing (NGS)-based molecular diagnostic workflows
+    can enhance precision oncology. They discuss the benefits, challenges and responsible
+    implementati
+  url: https://www.nature.com/articles/s41568-025-00897-6
+  date: '2026-01-02'
+  source: Nature.com
 - title: Machine learning reveals drivers of cold-related illness during energy infrastructure
     attacks in Wartime Ukraine
   description: 'During the Russian invasion of Ukraine, targeted attacks on energy
@@ -33,6 +59,15 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339453
   date: '2025-12-31'
   source: Plos.org
+- title: Senior Machine Learning Engineer, Multimodal AI, Computer Vision and Graphics
+    – PhD Early Career
+  description: We’re looking for a Senior Machine Learning Engineer to join our team
+    in San Mateo, CA. As a Senior Machine Learning Engineer, you will be responsible
+    for developing and deploying machine learning models to improve the user experience
+    on our platform
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-multimodal-ai-computer-vision-and-graphics-phd-early-career/
+  date: '2025-12-31'
+  source: Nlppeople.com
 - title: Machine Learning Manager
   description: Isomorphic Labs is applying frontier AI to help unlock deeper scientific
     insights, faster breakthroughs, and life-changing medicines with an ambition to
@@ -66,6 +101,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-31839-9
   date: '2025-12-30'
   source: Nature.com
+- title: Senior Machine Learning Engineer – NLP
+  description: Our client, a trailblazer in artificial intelligence and emerging technologies,
+    is seeking a highly skilled Senior Machine Learning Engineer specializing in Natural
+    Language Processing (NLP) to join their innovative research and development team.
+    Thi
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-42/
+  date: '2025-12-30'
+  source: Nlppeople.com
 - title: Lead Machine Learning Engineer
   description: Lead Machine Learning Engineer At Capital One, we are changing banking
     for good by creating responsible and reliable AI-powered systems. Our investments
