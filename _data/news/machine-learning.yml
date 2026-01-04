@@ -1,4 +1,13 @@
 news_items:
+- title: Efficient and optimized blood cancer detection using engineered graphene-based
+    silicon–TiN–silicon multilayered plasmonic sensor design with behaviour prediction
+    using machine learning
+  description: Scientific Reports - Efficient and optimized blood cancer detection
+    using engineered graphene-based silicon–TiN–silicon multilayered plasmonic sensor
+    design with behaviour prediction...
+  url: https://www.nature.com/articles/s41598-025-33885-9
+  date: '2026-01-03'
+  source: Nature.com
 - title: An Integrated High-Throughput Screening Framework for Perovskite Light-Emitting
     Diodes Passivators Based on Machine Learning
   description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D5TC04133C,
@@ -46,6 +55,33 @@ news_items:
   url: https://github.com/harvard-edge/cs249r_book
   date: '2026-01-02'
   source: Github.com
+- title: GAN-enhanced machine learning and metabolic modeling identify reprogramming
+    in pancreatic cancer
+  description: Author summary Pancreatic cancer is one of the deadliest forms of cancer,
+    with most patients surviving less than five years after diagnosis. One major challenge
+    in studying this disease is understanding how cancer cells rewire their metabolism—the
+    ch
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013862
+  date: '2026-01-02'
+  source: Plos.org
+- title: 'Predicting severe stunting and its determinants among under-five in Eastern
+    African Countries: A machine learning algorithms'
+  description: Introduction Severe stunting is one of the primary public health challenges
+    in LMIC including Eastern African Countries, which affects millions of children.
+    In addition, it was a major contributor for mortality and related complication
+    of children ag
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340221
+  date: '2026-01-02'
+  source: Plos.org
+- title: A non-invasive urinary diagnostic signature for diabetic kidney disease revealed
+    by machine learning and single-cell analysis
+  description: Background Diabetic kidney disease (DKD) poses a significant health
+    burden with inadequate diagnostic sensitivity. This study develops non-invasive
+    biomarkers by integrating urinary and renal single-cell sequencing with machine
+    learning.   Methods Th
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340096
+  date: '2026-01-02'
+  source: Plos.org
 - title: Machine learning reveals drivers of cold-related illness during energy infrastructure
     attacks in Wartime Ukraine
   description: 'During the Russian invasion of Ukraine, targeted attacks on energy
