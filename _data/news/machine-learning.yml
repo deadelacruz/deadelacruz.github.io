@@ -1,4 +1,13 @@
 news_items:
+- title: Discovery of novel polymyxin E adjuvants against Acinetobacter baumannii
+    guided by a stacking-based machine learning model
+  description: 'RSC Med. Chem., 2026, Accepted ManuscriptDOI: 10.1039/D5MD00768B,
+    Research ArticleYuce Chen, Kunkun Shen, Ting Lin, Daijie Chen, Zhong Li, Yuheng
+    Yang, Xiaoyong XuThe rapid spread of antibiotic resistance poses an escalating
+    global health crisis. Pol'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/md/d5md00768b
+  date: '2026-01-04'
+  source: Royal Society of Chemistry
 - title: Efficient and optimized blood cancer detection using engineered graphene-based
     silicon–TiN–silicon multilayered plasmonic sensor design with behaviour prediction
     using machine learning
