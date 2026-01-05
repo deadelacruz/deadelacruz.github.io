@@ -8,6 +8,12 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-29443-y
   date: '2026-01-04'
   source: Nature.com
+- title: How artificial intelligence is helping students study seals
+  description: Processing drone data can take hours, but an AI tool is doing the job
+    within a matter a seconds.
+  url: https://www.bbc.com/news/articles/cy0736nd382o
+  date: '2026-01-04'
+  source: BBC News
 - title: Artificial intelligence unlocks silver screen for people with disabilities
   description: The screening hall fell quiet as the film began. Soon, a steady narration
     described the gestures, expressions and moments that could not be seen by people
