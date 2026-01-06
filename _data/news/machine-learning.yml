@@ -1,4 +1,28 @@
 news_items:
+- title: Development of a multimodal magnetic resonance imaging-based machine learning
+    prediction model for flight cadets
+  description: Scientific Reports - Development of a multimodal magnetic resonance
+    imaging-based machine learning prediction model for flight cadets
+  url: https://www.nature.com/articles/s41598-025-33610-6
+  date: '2026-01-05'
+  source: Nature.com
+- title: Machine learning framework reveals a concordant cell-state landscape across
+    single-cell datasets
+  description: Comprehensively resolving the cell state landscape requires integrating
+    single-cell omics data from diverse studies. We developed CONCORD, a contrastive
+    learning framework that leverages principled mini-batch sampling to learn denoised,
+    batch-integra
+  url: https://www.nature.com/articles/s41587-025-02978-1
+  date: '2026-01-05'
+  source: Nature.com
+- title: Combining Chemical, Geometric, and Novel Topological Features to Develop
+    Generalizable Machine Learning Models for Predicting Mechanically Stable MOFs
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08080K,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Akash Ball, Changhwan Oh, Gozel Dovranova, Heather KulikMeta'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08080k
+  date: '2026-01-05'
+  source: Royal Society of Chemistry
 - title: Discovery of novel polymyxin E adjuvants against Acinetobacter baumannii
     guided by a stacking-based machine learning model
   description: 'RSC Med. Chem., 2026, Accepted ManuscriptDOI: 10.1039/D5MD00768B,
@@ -8,6 +32,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/md/d5md00768b
   date: '2026-01-04'
   source: Royal Society of Chemistry
+- title: Army Establishes New AI, Machine Learning Career Path for Officers
+  description: WASHINGTON – The U.S. Army has established a new career pathway for
+    officers to specialize in artificial intelligence and machine learning (AI/ML),
+    formally designating the 49B AI/ML Officer as an official area of concentration.
+    It advances the Army’
+  url: https://soldiersystems.net/2026/01/04/army-establishes-new-ai-machine-learning-career-path-for-officers/
+  date: '2026-01-04'
+  source: Soldiersystems.net
 - title: Efficient and optimized blood cancer detection using engineered graphene-based
     silicon–TiN–silicon multilayered plasmonic sensor design with behaviour prediction
     using machine learning

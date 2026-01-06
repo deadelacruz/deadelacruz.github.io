@@ -1,4 +1,22 @@
 news_items:
+- title: Two-Tier heuristic search for ransomware-as-a-service based cyberattack défense
+    analysis using explainable Bayesian deep learning model
+  description: Data security assurance is essential owing to the improving popularity
+    of cloud computing and its extensive usage through several industries, particularly
+    in light of the increasing number of cyber-security attacks. Ransomware-as-a-service
+    (RaaS) att
+  url: https://www.nature.com/articles/s41598-025-96083-7
+  date: '2026-01-05'
+  source: Nature.com
+- title: Deep learning and superoscillatory speckles empowered multimode fiber probe
+    for in situ nano-displacement detection and micro-imaging
+  description: This work introduces an in-situ nano-displacement measurement system
+    via a multimode fiber probe with superoscillatory speckles and deep learning.
+    It achieves 10 nm resolution and 99.95% accuracy for wafers, non-contact sensing
+    in confined spaces.
+  url: https://www.nature.com/articles/s41467-025-67942-8
+  date: '2026-01-05'
+  source: Nature.com
 - title: Application and accuracy analysis of different facial regions based on deep
     learning in the diagnosis of hypertension
   description: Scientific Reports - Application and accuracy analysis of different
