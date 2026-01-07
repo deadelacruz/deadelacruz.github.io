@@ -1,4 +1,10 @@
 news_items:
+- title: Knowledge graph-enhanced deep learning for pharmaceutical demand forecasting
+  description: Scientific Reports - Knowledge graph-enhanced deep learning for pharmaceutical
+    demand forecasting
+  url: https://www.nature.com/articles/s41598-026-35113-4
+  date: '2026-01-06'
+  source: Nature.com
 - title: Two-Tier heuristic search for ransomware-as-a-service based cyberattack défense
     analysis using explainable Bayesian deep learning model
   description: Data security assurance is essential owing to the improving popularity
@@ -17,6 +23,15 @@ news_items:
   url: https://www.nature.com/articles/s41467-025-67942-8
   date: '2026-01-05'
   source: Nature.com
+- title: MMSpa is a deep learning-based tool that enhances the identification of spatial
+    domains in spatial transcriptomics studies
+  description: Accurately extracting domain-related information from spatial locations
+    and gene expression is a challenge in spatial transcriptomics analysis. This study
+    develops a masked graph attention autoencoder framework called MMSpa that enhances
+    spatial doma
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003580
+  date: '2026-01-05'
+  source: Plos.org
 - title: Application and accuracy analysis of different facial regions based on deep
     learning in the diagnosis of hypertension
   description: Scientific Reports - Application and accuracy analysis of different

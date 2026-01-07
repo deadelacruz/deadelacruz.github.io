@@ -1,4 +1,28 @@
 news_items:
+- title: 'Machine Learning and AI Empowering Metal-Organic Frameworks: Synthesis,
+    Performance Prediction and Therapeutic Application'
+  description: 'Dalton Trans., 2026, Accepted ManuscriptDOI: 10.1039/D5DT02184G, PerspectiveJian-Qiang
+    Liu, Ran Chen, Yuanwei He, Zitao Chen, Haodong Ruan, Ying Pan, Alireza Nezamzadeh-Ejhieh,
+    Chengyu LuMachine learning (ML), a subset of artificial intelligence(AI),'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/dt/d5dt02184g
+  date: '2026-01-06'
+  source: Royal Society of Chemistry
+- title: Machine Learning (NLP) – 4 Months – West London (Hybrid)
+  description: What You’ll Do • Conduct cutting-edge research to tackle real-world
+    AI challenges. • Develop high-quality code and documentation to ensure reproducible
+    and impactful research. • Review state-of-the-art research papers and create prototype
+    solutions t
+  url: https://nlppeople.com/job/machine-learning-nlp-4-months-west-london-hybrid-3/
+  date: '2026-01-06'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer, NLP
+  description: We are looking for a Senior Machine Learning Engineer to join our growing
+    engineering team. You’re the perfect fit for this role if you are passionate about
+    solving problems in NLP, have a great appreciation for science and want to transform
+    how it i
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-40/
+  date: '2026-01-06'
+  source: Nlppeople.com
 - title: Development of a multimodal magnetic resonance imaging-based machine learning
     prediction model for flight cadets
   description: Scientific Reports - Development of a multimodal magnetic resonance
@@ -23,6 +47,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08080k
   date: '2026-01-05'
   source: Royal Society of Chemistry
+- title: '[Bioinformatics] Machine Learning for Protein Science and Engineering'
+  description: Recent years have seen significant breakthroughs at the intersection
+    of machine learning and protein science. Tools such as AlphaFold have revolutionized
+    protein structure prediction. They are also enabling variant effect prediction
+    and functional an
+  url: https://cshperspectives.cshlp.org/content/18/1/a041877.short?rss=1
+  date: '2026-01-05'
+  source: Cshlp.org
 - title: Discovery of novel polymyxin E adjuvants against Acinetobacter baumannii
     guided by a stacking-based machine learning model
   description: 'RSC Med. Chem., 2026, Accepted ManuscriptDOI: 10.1039/D5MD00768B,
@@ -49,6 +81,18 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-33885-9
   date: '2026-01-03'
   source: Nature.com
+- title: 'Python examples for ‘Beyond Nelson-Siegel and splines: A model- agnostic
+    Machine Learning framework for discount curve calibration, interpolation and extrapolation’'
+  description: 'Using yieldcurveml in Python examples for ''Beyond Nelson-Siegel and
+    splines: A model- agnostic Machine Learning framework for discount curve calibration,
+    interpolation and extrapolation''
+
+
+
+    Continue reading: Python examples for ‘Beyond Nelson-Siegel a'
+  url: https://www.r-bloggers.com/2026/01/python-examples-for-beyond-nelson-siegel-and-splines-a-model-agnostic-machine-learning-framework-for-discount-curve-calibration-interpolation-and-extrapolation/
+  date: '2026-01-03'
+  source: R-bloggers.com
 - title: An Integrated High-Throughput Screening Framework for Perovskite Light-Emitting
     Diodes Passivators Based on Machine Learning
   description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D5TC04133C,
