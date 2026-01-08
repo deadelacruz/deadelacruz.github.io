@@ -1,4 +1,39 @@
 news_items:
+- title: 'Probing the longest λmax of azo compounds in near infrared absorption via
+    integrating protonation, antiaromaticity and substituents: a combined DFT and
+    machine learning study'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03494A,
+    PaperShuwen Chen, Yuan Gao, Wenhao Wang, Jun ZhuThe photoisomerism of azo switches
+    using light in the near-IR region (NIR, 780-1400 nm) is highly preferable for
+    the applicatio'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03494a
+  date: '2026-01-07'
+  source: Royal Society of Chemistry
+- title: Hybrid CFD and machine learning analysis of CO2 enhanced oil recovery in
+    naturally fractured reservoirs
+  description: CO2 based Enhanced Oil Recovery (EOR) in unconventional reservoirs
+    is an emerging technology. Scientific research efforts are directed towards understanding
+    the propagation of CO2 front due to the complex interplay between CO2 injection
+    and saturatio
+  url: https://www.nature.com/articles/s41598-025-34786-7
+  date: '2026-01-07'
+  source: Nature.com
+- title: Uncertainty-aware machine learning to predict non-cancer human toxicity for
+    the global chemicals market
+  description: Uncertainty-aware machine learning models predict human toxicity for
+    more than 100,000 chemicals, highlighting potency and uncertainty hotspots to
+    guide safer use and to focus efforts to improve prediction confidence.
+  url: https://www.nature.com/articles/s41467-025-67374-4
+  date: '2026-01-07'
+  source: Nature.com
+- title: AI Machine Learning Engineer
+  description: 'Note: If you are CURRENTLY employed at Children’s and/or have an active
+    badge or network access, STOP here. Submit your application via Workday using
+    the Career App (Find Jobs). Work Shift Day Work Day(s) Friday, Monday, Thursday,
+    Tuesday, Wednesday '
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-21/
+  date: '2026-01-07'
+  source: Nlppeople.com
 - title: 'Machine Learning and AI Empowering Metal-Organic Frameworks: Synthesis,
     Performance Prediction and Therapeutic Application'
   description: 'Dalton Trans., 2026, Accepted ManuscriptDOI: 10.1039/D5DT02184G, PerspectiveJian-Qiang
