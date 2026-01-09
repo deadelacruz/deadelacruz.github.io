@@ -1,4 +1,31 @@
 news_items:
+- title: 'Infrared spectroscopy-assisted predicting of impurities in chemicals using
+    machine learning: towards smart self-driving laboratories'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04214C,
+    PaperAnastasiia M. Kutskaia, Konstantin RodyginThe changeable nature of chemicals
+    requires constant monitoring. In a self-driving laboratory, manual revision of
+    chemicals shou'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04214c
+  date: '2026-01-08'
+  source: Royal Society of Chemistry
+- title: 'Exploring the impact of operating parameters and catalyst design on propane
+    catalytic oxidation: a machine learning perspective'
+  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP03539B,
+    PaperYuekun Jing, Jingang Zhao, Yixuan Song, Xiao Liu, Fang Liu, Taoyang ZouWe
+    integrate a database, machine learning models, and SHAP analysis to guide the
+    design of efficient ca'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03539b
+  date: '2026-01-08'
+  source: Royal Society of Chemistry
+- title: 'Dynamic Protein Structures in Solution: Decoding the Amide I Band with 2D-IR
+    Spectral Libraries and Machine Learning'
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC09973K, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Amy Farmer, Kelly Brown, Sophie E.T. Kendall-Price, Partha
+    Malakar, Gregor'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc09973k
+  date: '2026-01-08'
+  source: Royal Society of Chemistry
 - title: 'Probing the longest λmax of azo compounds in near infrared absorption via
     integrating protonation, antiaromaticity and substituents: a combined DFT and
     machine learning study'
@@ -34,6 +61,32 @@ news_items:
   url: https://nlppeople.com/job/ai-machine-learning-engineer-21/
   date: '2026-01-07'
   source: Nlppeople.com
+- title: Unbiased inference for echocardiogram urgency prediction using double machine
+    learning
+  description: The increased utilization of echocardiography in clinical practice
+    has witnessed a substantial rise, underscoring its pivotal role as a diagnostic
+    tool for various cardiovascular conditions. However, due to the relative scarcity
+    of echocardiography t
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338922
+  date: '2026-01-07'
+  source: Plos.org
+- title: 'Machine learning-based prediction of the axial load capacity of UHPC strengthened
+    reinforced concrete columns: A comparative analysis'
+  description: This study develops and evaluates machine learning (ML) models to predict
+    the axial load capacity (Pu) of reinforced concrete (RC) columns strengthened
+    with ultra-high-performance concrete (UHPC) jackets. A comprehensive experimental
+    database contain
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338120
+  date: '2026-01-07'
+  source: Plos.org
+- title: Prediction, interpolation and extrapolation of the bonding strength between
+    FRP bars and UHPC with machine learning
+  description: Li, Jia, Wang, Zhengju, Wang, Zhengchen, Li, Jin and Wang, Yi (2026)
+    Prediction, interpolation and extrapolation of the bonding strength between FRP
+    bars and UHPC with machine learning. Engineering Structures, 348. ISSN 0141-0296
+  url: https://eprints.lse.ac.uk/130860/
+  date: '2026-01-07'
+  source: Lse.ac.uk
 - title: 'Machine Learning and AI Empowering Metal-Organic Frameworks: Synthesis,
     Performance Prediction and Therapeutic Application'
   description: 'Dalton Trans., 2026, Accepted ManuscriptDOI: 10.1039/D5DT02184G, PerspectiveJian-Qiang
@@ -75,6 +128,14 @@ news_items:
   url: https://newatlas.com/marine/smart-sea-machine-learning-sea-collisions/
   date: '2026-01-06'
   source: New Atlas
+- title: Machine Learning Engineer, Level 4
+  description: Snap Inc is a technology company. We believe the camera presents the
+    greatest opportunity to improve the way people live and communicate. Snap contributes
+    to human progress by empowering people to express themselves, live in the moment,
+    learn about t
+  url: https://nlppeople.com/job/machine-learning-engineer-level-4/
+  date: '2026-01-06'
+  source: Nlppeople.com
 - title: Development of a multimodal magnetic resonance imaging-based machine learning
     prediction model for flight cadets
   description: Scientific Reports - Development of a multimodal magnetic resonance
