@@ -1,4 +1,22 @@
 news_items:
+- title: 'Deep Learning for RNA Secondary Structure Determination: Gauging Generalizability
+    and Broadening the Scope of Traditional Methods [Perspective]'
+  description: The diverse regulatory functions, protein production capacity, and
+    stability of natural and synthetic RNAs are closely tied to their ability to fold
+    into intricate structures. Determining RNA structure is thus fundamental to RNA
+    biology and bioengine
+  url: https://rnajournal.cshlp.org/content/early/2026/01/09/rna.080846.125.short?rss=1
+  date: '2026-01-09'
+  source: Cshlp.org
+- title: Machine learning analysis based on deep learning for fatigue diagnostics
+    in carbon fiber reinforced polymers
+  description: Fatigue-induced degradation in Carbon Fiber Reinforced Polymer (CFRP)
+    structures poses a critical challenge in long-term structural health monitoring
+    (SHM) applications. In this study, a hybrid deep learning framework is proposed
+    for fatigue state cl
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340904
+  date: '2026-01-09'
+  source: Plos.org
 - title: A deep learning framework for species-level identification of root-knot nematodes
     using perineal pattern images
   description: The use of machine learning is an emerging approach in precision agriculture,

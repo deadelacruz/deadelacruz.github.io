@@ -33,6 +33,21 @@ news_items:
   url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-3/
   date: '2026-01-09'
   source: Nlppeople.com
+- title: 'Correction: Predicting hypertension and identifying most important factors
+    among married women in Bangladesh using machine learning approach'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340871
+  date: '2026-01-09'
+  source: Plos.org
+- title: Establishment of an amino acid metabolism related signature for prognostic
+    and therapeutic sensitivity prediction in breast cancer by machine learning
+  description: Amino acid metabolism plays a critical role in tumor growth and immune
+    regulation, yet its comprehensive function in breast cancer remains underexplored.
+    We developed an amino acid metabolism–related gene signature (AAMRGS) to predict
+    prognosis and t
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340586
+  date: '2026-01-09'
+  source: Plos.org
 - title: 'Infrared spectroscopy-assisted predicting of impurities in chemicals using
     machine learning: towards smart self-driving laboratories'
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04214C,
