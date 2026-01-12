@@ -9,6 +9,23 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-30327-4
   date: '2026-01-11'
   source: Nature.com
+- title: 'Show HN: Machine Learning Interactive Visualizations'
+  description: "This is a freemium collection of interactive diagrams covering major\
+    \ topics in deep learning.Topics include basics, activation functions, initialization\
+    \ methods, optimizers, layer types, \narchitectures and loss functions\n\nComments\
+    \ URL: https://news.y"
+  url: https://www.mlmaxima.xyz/
+  date: '2026-01-11'
+  source: Mlmaxima.xyz
+- title: 'BTech AI vs. BTech Machine Learning: Which degree is better for today’s
+    tech careers?'
+  description: Students are increasingly drawn to AI and Machine Learning engineering
+    degrees. While both fields involve computers and data, BTech AI focuses on intelligent
+    systems and problem-solving, encompassing areas like robotics and language processing.
+    BTech
+  url: https://timesofindia.indiatimes.com/education/news/btech-ai-vs-btech-machine-learning-which-degree-is-better-for-todays-tech-careers/articleshow/126461336.cms
+  date: '2026-01-11'
+  source: The Times of India
 - title: Unveiling sodium storage mechanisms in hard carbon via machine learning-driven
     simulations with accurate site occupation identification
   description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC07068F, Edge
