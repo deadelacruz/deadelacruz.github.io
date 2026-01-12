@@ -1,4 +1,14 @@
 news_items:
+- title: 'Research on the coupling mechanism between green space morphology and the
+    urban heat island effect based on machine learning: a case study of Dali City,
+    China'
+  description: Green space configurations represent a critical pathway for mitigating
+    the urban heat island (UHI) effect. However, the underlying mechanistic link between
+    green space morphology and UHI dynamics remains underexplored. This study investigates
+    the rel
+  url: https://www.nature.com/articles/s41598-025-30327-4
+  date: '2026-01-11'
+  source: Nature.com
 - title: Unveiling sodium storage mechanisms in hard carbon via machine learning-driven
     simulations with accurate site occupation identification
   description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC07068F, Edge
