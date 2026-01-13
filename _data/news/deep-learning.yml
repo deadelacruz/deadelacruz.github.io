@@ -1,4 +1,10 @@
 news_items:
+- title: Deep learning-based assessment of periapical radiographic image quality
+  description: Scientific Reports - Deep learning-based assessment of periapical radiographic
+    image quality
+  url: https://www.nature.com/articles/s41598-026-35100-9
+  date: '2026-01-12'
+  source: Nature.com
 - title: 'Deep Learning for RNA Secondary Structure Determination: Gauging Generalizability
     and Broadening the Scope of Traditional Methods [Perspective]'
   description: The diverse regulatory functions, protein production capacity, and
