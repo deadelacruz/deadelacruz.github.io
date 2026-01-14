@@ -1,4 +1,40 @@
 news_items:
+- title: Machine learning prediction of multiple distinct high-affinity chemotypes
+    for α-synuclein fibrils
+  description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06228D, Communication
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Xinning Li, Ryann M. Perez, Zhude Tu, Robert H. Mach, Sam
+    Giannakoulias, E'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d5cc06228d
+  date: '2026-01-13'
+  source: Royal Society of Chemistry
+- title: 'The interlocking process in molecular machines explained by a combined approach:
+    the nudged elastic band method and a machine learning potential'
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC08303F, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Lucio Peña-Zarate, Alberto Vela, Jorge TiburcioEngineering
+    molecular machi'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc08303f
+  date: '2026-01-13'
+  source: Royal Society of Chemistry
+- title: 'XPEAK: An XRD-Driven Machine Learning Platform for Predicting the Catalyst-Enhanced
+    Dehydrogenation Peak Temperature of MgH₂'
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08221H,
+    PaperWeijie Yang, Zhuoran Xu, Jiongyang Li, Leping Zhang, Man Shu, Jianghao Cai,
+    Tongao Yao, Xiaotian Tang, Yuxuan Liu, Shiwen Luo, Xuqiang Shao, Wenjing Wang,
+    Zhengyang GaoMgH₂ off'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08221h
+  date: '2026-01-13'
+  source: Royal Society of Chemistry
+- title: Prediction of the low-temperature properties of electrolyte solvents for
+    lithium-ion batteries via machine learning
+  description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D5NR03942H, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Jiechen Guo, Yifan Chai, Cancan Hong, Hao Liu, Lijing Xie,
+    Tianle Wang, '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d5nr03942h
+  date: '2026-01-13'
+  source: Royal Society of Chemistry
 - title: Machine Learning Engineer
   description: What you can expect Join our Workforce Engagement Management (WEM)
     team to solve real-world challenges at scale using cutting-edge AI/ML techniques.
@@ -15,6 +51,21 @@ news_items:
   url: https://nlppeople.com/job/senior-lead-machine-learning-engineer-big-data-and-machine-learning/
   date: '2026-01-12'
   source: Nlppeople.com
+- title: Air pollution macro-regions identification using machine learning and spatio-temporal
+    analysis
+  description: 'Air pollution caused by suspended particulate matter (PM) remains
+    one of the key environmental challenges in Poland, particularly in the context
+    of public health and spatial planning. This study presents a spatio-temporal analysis
+    based on data from '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340191
+  date: '2026-01-12'
+  source: Plos.org
+- title: Machine learning improves earnings forecast accuracy by 7%
+  description: A new research paper shows the approach performs significantly better
+    than the random-walk forecasting method.
+  url: https://www.cfo.com/news/ai-enabled-methodology-improves-earnings-forecast-accuracy-by-7-Oliver-Binz/808889/
+  date: '2026-01-12'
+  source: CFO Magazine
 - title: 'Research on the coupling mechanism between green space morphology and the
     urban heat island effect based on machine learning: a case study of Dali City,
     China'

@@ -1,4 +1,12 @@
 news_items:
+- title: High-accuracy brain tumor detection method based on deep learning
+  description: Brain tumors remain among the most fatal diseases of the central nervous
+    system, and early diagnosis is vital for improving patient survival outcomes.
+    However, conventional diagnostic approaches relying on manual interpretation of
+    MRI scans by radiol
+  url: https://www.nature.com/articles/s41598-026-35783-0
+  date: '2026-01-13'
+  source: Nature.com
 - title: Deep learning-based assessment of periapical radiographic image quality
   description: Scientific Reports - Deep learning-based assessment of periapical radiographic
     image quality
