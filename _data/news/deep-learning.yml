@@ -1,4 +1,22 @@
 news_items:
+- title: Deep learning-driven microfluidic chip architecture design for intelligent
+    particle motion control
+  description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC01185J, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Hongxia Li, Xuhui Chen, Du Qiao, Xue Zhang, Jiang Zhang,
+    Jianan Zou, '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc01185j
+  date: '2026-01-14'
+  source: Royal Society of Chemistry
+- title: Comprehensive mapping of RNA modification dynamics and crosstalk via deep
+    learning and nanopore direct RNA-sequencing
+  description: RNA modifications influence gene regulation, but global mapping was
+    limited. Here, the authors introduce ORCA, a deep learning framework using nanopore
+    RNA sequencing to detect multiple modification types, revealing isoform-specific
+    patterns and regu
+  url: https://www.nature.com/articles/s41467-026-68419-y
+  date: '2026-01-14'
+  source: Nature.com
 - title: High-accuracy brain tumor detection method based on deep learning
   description: Brain tumors remain among the most fatal diseases of the central nervous
     system, and early diagnosis is vital for improving patient survival outcomes.
@@ -7,6 +25,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-35783-0
   date: '2026-01-13'
   source: Nature.com
+- title: A physics-inspired memory-augmented deep learning framework for magnetic
+    core loss prediction
+  description: Accurate prediction of magnetic core loss is a key challenge for improving
+    the efficiency and reliability of power electronic systems. Traditional empirical
+    models such as the Steinmetz equation are only applicable to sinusoidal steady-state
+    conditio
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339490
+  date: '2026-01-13'
+  source: Plos.org
 - title: Deep learning-based assessment of periapical radiographic image quality
   description: Scientific Reports - Deep learning-based assessment of periapical radiographic
     image quality
