@@ -7,6 +7,13 @@ news_items:
   url: https://nlppeople.com/job/artificial-intelligence-machine-learning-engineer-12/
   date: '2026-01-14'
   source: Nlppeople.com
+- title: 'Uncertainty in Machine Learning: Probability & Noise'
+  description: Our series on visualizing the foundations of machine learning continues
+    with our latest entry, which covers uncertainty, probability, and noise in machine
+    learning.
+  url: https://machinelearningmastery.com/uncertainty-in-machine-learning-probability-noise/
+  date: '2026-01-14'
+  source: Machinelearningmastery.com
 - title: Machine learning prediction of multiple distinct high-affinity chemotypes
     for α-synuclein fibrils
   description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06228D, Communication
