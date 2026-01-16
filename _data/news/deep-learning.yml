@@ -895,21 +895,3 @@ news_items:
   url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03832-y
   date: '2025-10-20'
   source: Biomedcentral.com
-- title: Memorization bias impacts modeling of alternative conformational states of
-    solute carrier membrane proteins with methods from deep learning
-  description: Author summary The Solute Carrier (SLC) superfamily of integral membrane
-    proteins transport a wide array of small molecules across plasma and organelle
-    membranes, and function as important drug transporters and as viral receptors.
-    They populate diffe
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013590
-  date: '2025-10-17'
-  source: Plos.org
-- title: 'Deep learning models for ICU readmission prediction: a systematic review
-    and meta-analysis'
-  description: 'Intensive Care Unit (ICU) readmissions are associated with increased
-    morbidity, mortality, and healthcare costs. Therefore, determining an appropriate
-    timing of ICU discharge is critical. In this context, deep learning (DL) approaches
-    have attracted '
-  url: https://ccforum.biomedcentral.com/articles/10.1186/s13054-025-05642-x
-  date: '2025-10-17'
-  source: Biomedcentral.com

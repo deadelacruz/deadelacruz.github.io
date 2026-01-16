@@ -1,4 +1,45 @@
 news_items:
+- title: 'Accelerating OLED development with machine learning: advances and prospects'
+  description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06175J, HighlightXumian
+    Qiao, Changgang Huang, Fan Ni, Longzhen QiuThis Highlight summarizes recent advances
+    in machine learning-accelerated organic light-emitting diode development, with
+    a focus o'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d5cc06175j
+  date: '2026-01-15'
+  source: Royal Society of Chemistry
+- title: Cross-well machine learning prediction of sonic logs in Newfoundland and
+    Labrador
+  description: Scientific Reports - Cross-well machine learning prediction of sonic
+    logs in Newfoundland and Labrador
+  url: https://www.nature.com/articles/s41598-026-36053-9
+  date: '2026-01-15'
+  source: Nature.com
+- title: Optimized CatBoost machine learning (OCML) for DDoS detection in cloud virtual
+    machines with time-series and adversarial robustness
+  description: Distributed Denial of Service (DDoS) attacks represent one of the most
+    strategically executed and severe threats in cloud computing, often leading to
+    substantial data loss and significant financial damage for both cloud service
+    providers and their us
+  url: https://www.nature.com/articles/s41598-025-33851-5
+  date: '2026-01-15'
+  source: Nature.com
+- title: From Synthesis to Machine Learning Validation for the Thermoelectric Zintl
+    Phase Ba1-xEuxZn2-yAlySb2 System
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08713A,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Yunjeong Lee, Aziz Ahmed, Jihyun Lee, Tae-Soo You, Kang Min '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08713a
+  date: '2026-01-15'
+  source: Royal Society of Chemistry
+- title: 'Medicinal chemistry meets nanotechnology: machine learning assisted colorimetric
+    sensing platform for oxalic acid based on drug mediated copper oxide nanoparticles'
+  description: 'RSC Adv., 2026, 16,3458-3468DOI: 10.1039/D5RA08862C, Paper Open Access
+    &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Muhammad Ishtiaq Jan, Abda Khatoon, Wei Sun, Naeem Khan,
+    Sajid Ali, Ibrahim '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra08862c
+  date: '2026-01-15'
+  source: Royal Society of Chemistry
 - title: Artificial Intelligence Machine Learning Engineer
   description: 'Department: Data Technology Job Status: Full-Time FLSA Status: Salary-Exempt
     Reports To: Data Architecture Manager Location: Hybrid/The Woodlands, TX Amount
@@ -14,6 +55,14 @@ news_items:
   url: https://machinelearningmastery.com/uncertainty-in-machine-learning-probability-noise/
   date: '2026-01-14'
   source: Machinelearningmastery.com
+- title: 'Avoiding Overfitting, Class Imbalance, & Feature Scaling Issues: The Machine
+    Learning Practitioner’s Notebook'
+  description: 'Machine learning practitioners encounter three persistent challenges
+    that can undermine model performance: overfitting, class imbalance, and feature
+    scaling issues.'
+  url: https://www.kdnuggets.com/avoiding-overfitting-class-imbalance-feature-scaling-issues-the-machine-learning-practitioners-notebook
+  date: '2026-01-14'
+  source: Kdnuggets.com
 - title: Machine learning prediction of multiple distinct high-affinity chemotypes
     for α-synuclein fibrils
   description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06228D, Communication
@@ -70,6 +119,14 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340931
   date: '2026-01-13'
   source: Plos.org
+- title: Artificial Intelligence/Machine Learning (AI/ML) Engineer
+  description: 'This job listing in Howard – MD has been recently added. Tallo will
+    add a summary here for this job shortly. Company: Base-2 Solutions, LLC. | ClearanceJobs.com
+    Qualifications: Language requirements: Specific requirements: Educational level:
+    Level of'
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-ai-ml-engineer-4/
+  date: '2026-01-13'
+  source: Nlppeople.com
 - title: Machine Learning Engineer
   description: What you can expect Join our Workforce Engagement Management (WEM)
     team to solve real-world challenges at scale using cutting-edge AI/ML techniques.
