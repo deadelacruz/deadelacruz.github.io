@@ -1,4 +1,10 @@
 news_items:
+- title: The Complete Guide to Data Augmentation for Machine Learning
+  description: Suppose you’ve built your machine learning model, run the experiments,
+    and stared at the results wondering what went wrong.
+  url: https://machinelearningmastery.com/the-complete-guide-to-data-augmentation-for-machine-learning/
+  date: '2026-01-16'
+  source: Machinelearningmastery.com
 - title: 'Accelerating OLED development with machine learning: advances and prospects'
   description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06175J, HighlightXumian
     Qiao, Changgang Huang, Fan Ni, Longzhen QiuThis Highlight summarizes recent advances

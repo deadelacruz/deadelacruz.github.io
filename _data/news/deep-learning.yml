@@ -1,4 +1,10 @@
 news_items:
+- title: 'Show HN: GitHub – Burn – Rust tensor library and deep learning framework'
+  description: Burn is a next generation tensor library and Deep Learning Framework
+    that doesn't compromise on flexibility, efficiency and portability. - tracel-ai/burn
+  url: https://github.com/tracel-ai/burn
+  date: '2026-01-16'
+  source: Github.com
 - title: 'Burn 0.20 Released: Rust-Based Deep Learning With Speedy Perf Across CPUs
     & GPUs'
   description: A significant update to Burn was released today, the MIT and Apache
