@@ -1,4 +1,13 @@
 news_items:
+- title: 'Burn 0.20 Released: Rust-Based Deep Learning With Speedy Perf Across CPUs
+    & GPUs'
+  description: A significant update to Burn was released today, the MIT and Apache
+    2.0 licensed tensor library and deep learning framework written in the Rust programming
+    language. Burn 0.20 brings some low-level changes as it continues to strive to
+    deliver high pe
+  url: https://www.phoronix.com/news/Burn-0.20-Released
+  date: '2026-01-15'
+  source: Phoronix
 - title: Deep learning-driven microfluidic chip architecture design for intelligent
     particle motion control
   description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC01185J, Paper
