@@ -5,6 +5,42 @@ news_items:
   url: https://machinelearningmastery.com/the-complete-guide-to-data-augmentation-for-machine-learning/
   date: '2026-01-16'
   source: Machinelearningmastery.com
+- title: 'Tech word of the day: Machine Learning - The AI technology that learns and
+    makes life smarter'
+  description: 'Machine learning (ML), a branch of AI, empowers computers to learn
+    from data and improve performance without explicit programming. This technology,
+    driven by increasing computing power and data availability, is transforming industries
+    from streaming '
+  url: https://economictimes.indiatimes.com/news/international/us/tech-word-of-the-day-machine-learning-the-ai-technology-that-learns-and-makes-life-smarter/articleshow/126584532.cms
+  date: '2026-01-16'
+  source: The Times of India
+- title: Identification of cell senescence-related genes in spontaneous preterm birth
+    based on bioinformatics analysis and machine learning
+  description: Spontaneous premature birth (SPTB) is a common pregnancy complication;
+    however, few studies have explored cell senescence-related markers in SPTB. Bioinformatics
+    and machine learning approaches were used to predict potential biomarkers associated
+    wit
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340809
+  date: '2026-01-16'
+  source: Plos.org
+- title: Predicting grain growth kinetic in steels using machine learning and XAI
+    for mechanical properties
+  description: Understanding and controlling grain growth kinetics in steels is crucial
+    for optimizing mechanical properties during thermomechanical processing. However,
+    traditional empirical models often fail to account for the complex, nonlinear
+    interactions betw
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341053
+  date: '2026-01-16'
+  source: Plos.org
+- title: Machine learning and network pharmacology identify keloid biomarkers (AMPH,
+    TNFRSF9) and therapeutic targets (IL6, HAS2) for aloe-derived quercetin
+  description: 'Objective This study aimed to identify diagnostic biomarkers for keloid
+    and explore potential therapeutic agents from traditional Chinese medicine (TCM)
+    by integrating network pharmacology approaches. Specifically, we sought to uncover
+    key molecular '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340960
+  date: '2026-01-16'
+  source: Plos.org
 - title: 'Accelerating OLED development with machine learning: advances and prospects'
   description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06175J, HighlightXumian
     Qiao, Changgang Huang, Fan Ni, Longzhen QiuThis Highlight summarizes recent advances
