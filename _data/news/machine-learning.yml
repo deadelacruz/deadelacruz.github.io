@@ -1,4 +1,11 @@
 news_items:
+- title: Machine learning integrating MRI and clinical features predicts early recurrence
+    of hepatocellular carcinoma after resection
+  description: Scientific Reports - Machine learning integrating MRI and clinical
+    features predicts early recurrence of hepatocellular carcinoma after resection
+  url: https://www.nature.com/articles/s41598-026-36261-3
+  date: '2026-01-18'
+  source: Nature.com
 - title: The Complete Guide to Data Augmentation for Machine Learning
   description: Suppose you’ve built your machine learning model, run the experiments,
     and stared at the results wondering what went wrong.

@@ -1,4 +1,11 @@
 news_items:
+- title: Research on deep learning architecture optimization method for intelligent
+    scheduling of structural space
+  description: Scientific Reports - Research on deep learning architecture optimization
+    method for intelligent scheduling of structural space
+  url: https://www.nature.com/articles/s41598-025-32015-9
+  date: '2026-01-18'
+  source: Nature.com
 - title: 'Show HN: GitHub – Burn – Rust tensor library and deep learning framework'
   description: Burn is a next generation tensor library and Deep Learning Framework
     that doesn't compromise on flexibility, efficiency and portability. - tracel-ai/burn
@@ -884,29 +891,3 @@ news_items:
   url: https://genome.cshlp.org/content/early/2025/10/20/gr.280540.125.short?rss=1
   date: '2025-10-22'
   source: Cshlp.org
-- title: Modeling protein–ligand interactions for drug discovery in the era of deep
-    learning
-  description: 'Chem. Soc. Rev., 2025, Advance ArticleDOI: 10.1039/D5CS00415B, Review
-    ArticleYuzhe Wang, Yibo Li, Jiaxiao Chen, Luhua LaiIntegrating physics-based and
-    deep learning methods advances protein–ligand modeling, boosting accuracy, scalability,
-    and efficie'
-  url: https://pubs.rsc.org/en/content/articlelanding/2025/cs/d5cs00415b
-  date: '2025-10-20'
-  source: Royal Society of Chemistry
-- title: Deep learning spectral infrared digital holography for phase analysis of
-    shale characterization
-  description: 'J. Mater. Chem. A, 2025, Advance ArticleDOI: 10.1039/D5TA02840J, PaperXinyu
-    Li, Haochong Huang, Zhiyuan Zheng, Kunfeng QiuBy combining SWIR spectral holography
-    with Transformer models, this method quantitatively analyzes rock and mineral
-    structures t'
-  url: https://pubs.rsc.org/en/content/articlelanding/2025/ta/d5ta02840j
-  date: '2025-10-20'
-  source: Royal Society of Chemistry
-- title: 'Cell Decoder: decoding cell identity with multi-scale explainable deep learning'
-  description: Background Cells are the fundamental units of life, and understanding
-    their diversity and functionality requires detailed characterization. The rise
-    of single-cell omics data enables this, yet current deep learning approaches lack
-    multi-scale interpr
-  url: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-025-03832-y
-  date: '2025-10-20'
-  source: Biomedcentral.com
