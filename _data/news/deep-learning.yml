@@ -56,6 +56,15 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339490
   date: '2026-01-13'
   source: Plos.org
+- title: 'Self-Nomination: Deep Learning for Decentralized CSI Feedback Reduction
+    in MU-MIMO Systems'
+  description: 'This paper introduces a novel deep learning-based user-side feedback
+    reduction framework, termed <italic xmlns:mml="http://www.w3.org/1998/Math/MathML"
+    xmlns:xlink="http://www.w3.org/1999/xlink">self-nomination</i>. The goal of self-nomination
+    is to '
+  url: https://ieeexplore.ieee.org/document/11351314
+  date: '2026-01-13'
+  source: Ieee.org
 - title: Deep learning-based assessment of periapical radiographic image quality
   description: Scientific Reports - Deep learning-based assessment of periapical radiographic
     image quality
