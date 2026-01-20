@@ -1,4 +1,39 @@
 news_items:
+- title: Predictive design of stretchable electrodes with strain-insensitive performance
+    via robotics- and machine learning-integrated workflow
+  description: Stretchable electrodes are essential for wearable electronics and soft
+    robots, yet their performance always degrades under strain. Here, authors use
+    robotics- and machine learning integrated workflow to design microtextured nanocomposites
+    for strain-
+  url: https://www.nature.com/articles/s41467-026-68484-3
+  date: '2026-01-19'
+  source: Nature.com
+- title: Senior Machine Learning Engineer
+  description: Senior Machine Learning Engineer As a Capital One Machine Learning
+    Engineer (MLE), you’ll be part of an Agile team dedicated to productionizing machine
+    learning applications and systems at scale. You’ll participate in the detailed
+    technical design, d
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-249/
+  date: '2026-01-19'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
+    OPEN
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-4/
+  date: '2026-01-19'
+  source: Nlppeople.com
+- title: Decoding polyethylene formation in Cr/PNP catalyzed ethylene oligomerization
+    via experimentally guided machine learning
+  description: 'Chem. Sci., 2026, Advance ArticleDOI: 10.1039/D5SC07894F, Edge Article
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Youcai Zhu, Yue Mu, Xiaoke Shi, Long Chen, Shu Yang, Li Sun,
+    Zhe'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc07894f
+  date: '2026-01-19'
+  source: Royal Society of Chemistry
 - title: Machine learning integrating MRI and clinical features predicts early recurrence
     of hepatocellular carcinoma after resection
   description: Scientific Reports - Machine learning integrating MRI and clinical
@@ -6,6 +41,22 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-36261-3
   date: '2026-01-18'
   source: Nature.com
+- title: Machine Learning Engineer – Tools & Frameworks AI
+  description: Our team of applied ML scientists and engineers works to enhance the
+    experience and productivity of software development at Apple. Our team applies
+    state-of-the-art ML models to solve real-world problems in software quality and
+    development workflows.
+  url: https://nlppeople.com/job/machine-learning-engineer-tools-frameworks-ai/
+  date: '2026-01-18'
+  source: Nlppeople.com
+- title: Remote Machine Learning Architect
+  description: This position is posted by Jobgether on behalf of a partner company.
+    We are currently looking for a Machine Learning Architect – REMOTE. In this role,
+    you will leverage your extensive experience in cloud environments, specifically
+    AWS, to help our cu
+  url: https://nlppeople.com/job/remote-machine-learning-architect/
+  date: '2026-01-17'
+  source: Nlppeople.com
 - title: The Complete Guide to Data Augmentation for Machine Learning
   description: Suppose you’ve built your machine learning model, run the experiments,
     and stared at the results wondering what went wrong.
@@ -48,6 +99,14 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340960
   date: '2026-01-16'
   source: Plos.org
+- title: Machine Learning Engineer – AI Trainer
+  description: 'Join the DataAnnotation team and contribute to developing cutting-edge
+    AI systems, while enjoying the flexibility of remote work and setting your own
+    schedule. We are looking for a proficient Machine Learning Engineer to help advance
+    AI development. '
+  url: https://nlppeople.com/job/machine-learning-engineer-ai-trainer/
+  date: '2026-01-16'
+  source: Nlppeople.com
 - title: 'Accelerating OLED development with machine learning: advances and prospects'
   description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06175J, HighlightXumian
     Qiao, Changgang Huang, Fan Ni, Longzhen QiuThis Highlight summarizes recent advances
