@@ -1,4 +1,11 @@
 news_items:
+- title: Deep Learning Chipset Market Size to Grow USD 202.79 Billion by 2035 | Report
+    by SNS Insider
+  description: Global Deep Learning Chipset Market Size, Share By Chip Type, Technology,
+    End-Use Industry, and Deployment / Application and Region | Forecast 2026-2035...
+  url: https://www.globenewswire.com/news-release/2026/01/19/3221082/0/en/Deep-Learning-Chipset-Market-Size-to-Grow-USD-202-79-Billion-by-2035-Report-by-SNS-Insider.html
+  date: '2026-01-19'
+  source: GlobeNewswire
 - title: Research on deep learning architecture optimization method for intelligent
     scheduling of structural space
   description: Scientific Reports - Research on deep learning architecture optimization
@@ -891,12 +898,3 @@ news_items:
   url: https://www.nature.com/articles/s41587-025-02806-6
   date: '2025-10-24'
   source: Nature.com
-- title: Iterative improvement of deep learning models using synthetic regulatory
-    genomics [METHOD]
-  description: 'Deep learning models can accurately reconstruct genome-wide epigenetic
-    tracks from the reference genome sequence alone. But it is unclear what predictive
-    power they have on sequence diverging from the reference, such as disease- and
-    trait-associated '
-  url: https://genome.cshlp.org/content/early/2025/10/20/gr.280540.125.short?rss=1
-  date: '2025-10-22'
-  source: Cshlp.org

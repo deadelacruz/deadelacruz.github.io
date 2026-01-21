@@ -1,4 +1,22 @@
 news_items:
+- title: Identification of sensorineural hearing loss subtypes using unsupervised
+    machine learning and assessment of their replicability
+  description: 'Despite nearly 20% of the global population experiencing hearing loss,
+    there remains limited insight into the underlying subtypes of its most prevalent
+    cause, sensorineural hearing loss (SNHL). This understanding is crucial for effective
+    therapeutic '
+  url: https://www.nature.com/articles/s41598-025-33815-9
+  date: '2026-01-20'
+  source: Nature.com
+- title: Optical Photothermal Infrared (OPTIR) spectroscopy assisted by machine learning
+    for lactic acid bacteria identification at strain level
+  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D5AN01093D, PaperPaul
+    Lagneaux, Nathan Widjaja, Bastien Lagneaux, Thi Kim Chi Nguyen, Hélène Licandro,
+    Pascale Winckler, Yves WachéLactic acid bacteria (LAB) are widely used in food,
+    health, and biotechn'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01093d
+  date: '2026-01-20'
+  source: Royal Society of Chemistry
 - title: Predictive design of stretchable electrodes with strain-insensitive performance
     via robotics- and machine learning-integrated workflow
   description: Stretchable electrodes are essential for wearable electronics and soft
@@ -34,6 +52,22 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc07894f
   date: '2026-01-19'
   source: Royal Society of Chemistry
+- title: Machine learning specialist computer
+  description: Machine Learning Specialist (Computer Vision) Safe Intelligence is
+    on a mission to make AI safe and reliable for anyone to use. In this role, you’ll
+    play a leading role in helping customers with their ML validation challenges and
+    in helping drive our
+  url: https://nlppeople.com/job/machine-learning-specialist-computer-2/
+  date: '2026-01-19'
+  source: Nlppeople.com
+- title: Machine Learning (NLP) – 4 Months – West London (Hybrid)
+  description: What You’ll Do • * Conduct cutting-edge research to tackle real-world
+    AI challenges. • Develop high-quality code and documentation to ensure reproducible
+    and impactful research. • Review state-of-the-art research papers and create prototype
+    solutions
+  url: https://nlppeople.com/job/machine-learning-nlp-4-months-west-london-hybrid-4/
+  date: '2026-01-19'
+  source: Nlppeople.com
 - title: Machine learning integrating MRI and clinical features predicts early recurrence
     of hepatocellular carcinoma after resection
   description: Scientific Reports - Machine learning integrating MRI and clinical
@@ -47,6 +81,14 @@ news_items:
     state-of-the-art ML models to solve real-world problems in software quality and
     development workflows.
   url: https://nlppeople.com/job/machine-learning-engineer-tools-frameworks-ai/
+  date: '2026-01-18'
+  source: Nlppeople.com
+- title: Senior Software Engineer – Machine Learning
+  description: Arm’s Machine Learning (ML) Group is seeking a highly motivated and
+    creative Senior Software Engineer with good C++ skills to join a team of brilliant
+    engineers located in Cambridge, UK, building ML software and compiler technology.
+    This role present
+  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-32/
   date: '2026-01-18'
   source: Nlppeople.com
 - title: Remote Machine Learning Architect
