@@ -17,6 +17,13 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01093d
   date: '2026-01-20'
   source: Royal Society of Chemistry
+- title: The Machine Learning Practitioner’s Guide to Model Deployment with FastAPI
+  description: 'If you’ve trained a machine learning model, a common question comes
+    up: “How do we actually use it?” This is where many machine learning practitioners
+    get stuck.'
+  url: https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
+  date: '2026-01-20'
+  source: Machinelearningmastery.com
 - title: Predictive design of stretchable electrodes with strain-insensitive performance
     via robotics- and machine learning-integrated workflow
   description: Stretchable electrodes are essential for wearable electronics and soft
