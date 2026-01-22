@@ -1,4 +1,31 @@
 news_items:
+- title: Broadband solar absorber and high-temperature thermal emitter based on deep
+    learning optimization and design
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08912C,
+    PaperQingyun He, Zhimin Liu, Zao Yi, fengqi zhouNowadays, the efficient use of
+    the huge energy of the solar spectrum is expected to solve the current energy
+    crisis to a certain exte'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08912c
+  date: '2026-01-21'
+  source: Royal Society of Chemistry
+- title: Deep learning-based no-reference image quality assessment framework for Cryptosporidium
+    spp. and Giardia spp
+  description: Image Quality Assessment (IQA) plays a critical role in image-based
+    decision-making systems, especially in domains requiring high diagnostic precision.
+    Effective feature information is a prerequisite for the high performance of machine
+    learning metho
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341160
+  date: '2026-01-20'
+  source: Plos.org
+- title: SVASCilia is an open-source, deep learning-based tool for 3D analysis of
+    cochlear hair cell stereocilia bundles
+  description: Cochlear hair cell stereocilia bundles are vital for hearing, but their
+    3D morphology remains unclear due to their complex organisation. This study develops
+    an open-source, deep learning-based tool called VASCilia that automates the high-throughput
+    a
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003591
+  date: '2026-01-20'
+  source: Plos.org
 - title: Deep Learning Chipset Market Size to Grow USD 202.79 Billion by 2035 | Report
     by SNS Insider
   description: Global Deep Learning Chipset Market Size, Share By Chip Type, Technology,

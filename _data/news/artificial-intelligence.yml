@@ -41,6 +41,14 @@ news_items:
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4f55ac72-7ce0-4ce3-a5ec-c185197b60e8
   date: '2026-01-20'
   source: Yahoo Entertainment
+- title: How much do legal leaders trust artificial intelligence in high-stakes decisions?
+    New study sheds light
+  description: Only 37% of legal leaders trust the use of generative artificial intelligence
+    in high-stakes decisions, showing limited confidence in its ability to interpret
+    complex issues, according to a new study of 500 legal and business leaders.
+  url: https://www.abajournal.com/news/article/new-study-shares-insight-into-in-house-perspective-on-ai
+  date: '2026-01-20'
+  source: Abajournal.com
 - title: Adapting quality function deployment to translate patient feedback into prioritized
     technical requirements for healthcare artificial intelligence
   description: Scientific Reports - Adapting quality function deployment to translate

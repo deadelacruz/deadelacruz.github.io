@@ -1,4 +1,19 @@
 news_items:
+- title: An online interpretable machine learning model for predicting cardiometabolic
+    multimorbidity risk in patients with type 2 diabetes mellitus
+  description: Scientific Reports - An online interpretable machine learning model
+    for predicting cardiometabolic multimorbidity risk in patients with type 2 diabetes
+    mellitus
+  url: https://www.nature.com/articles/s41598-026-36923-2
+  date: '2026-01-21'
+  source: Nature.com
+- title: A machine learning approach for predicting osmotic coefficients and deriving
+    activity coefficients in alkyl ammonium salts
+  description: Scientific Reports - A machine learning approach for predicting osmotic
+    coefficients and deriving activity coefficients in alkyl ammonium salts
+  url: https://www.nature.com/articles/s41598-026-36758-x
+  date: '2026-01-21'
+  source: Nature.com
 - title: Identification of sensorineural hearing loss subtypes using unsupervised
     machine learning and assessment of their replicability
   description: 'Despite nearly 20% of the global population experiencing hearing loss,
@@ -24,6 +39,14 @@ news_items:
   url: https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
   date: '2026-01-20'
   source: Machinelearningmastery.com
+- title: Senior Machine Learning Engineer – SAIL
+  description: 'At the SEI AI Division, we conduct research in applied artificial
+    intelligence and the engineering questions related to the practical design and
+    implementation of AI technologies and systems. We currently lead a community-wide
+    movement to mature the '
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-sail/
+  date: '2026-01-20'
+  source: Nlppeople.com
 - title: Predictive design of stretchable electrodes with strain-insensitive performance
     via robotics- and machine learning-integrated workflow
   description: Stretchable electrodes are essential for wearable electronics and soft
@@ -73,6 +96,30 @@ news_items:
     and impactful research. • Review state-of-the-art research papers and create prototype
     solutions
   url: https://nlppeople.com/job/machine-learning-nlp-4-months-west-london-hybrid-4/
+  date: '2026-01-19'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer, Express AI Foundations
+  description: JOB LEVEL P40 EMPLOYEE ROLE Individual Contributor The Opportunity
+    Adobe Express enables all users, whether individuals or large organizations, to
+    effortlessly produce impressive content. The AI Foundations team constructs a
+    flexible, scalable AI fra
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-express-ai-foundations/
+  date: '2026-01-19'
+  source: Nlppeople.com
+- title: Senior Software Engineer – Machine Learning & Cloud Technologies
+  description: 'Job Title: Senior Software Engineer – Machine Learning & Cloud Technologies
+    Job Category: Engineering Time Type: Full time Minimum Clearance Required to Start:
+    TS/SCI with Polygraph Employee Type: Regular Percentage of Travel Required: Up
+    to 50% Type'
+  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-cloud-technologies/
+  date: '2026-01-19'
+  source: Nlppeople.com
+- title: Research Scientist 4 – Machine Learning and Inference Research (LLM Post-Training)
+  description: 'Netflix is one of the world’s leading entertainment services, with
+    over 300 million paid memberships in over 190 countries enjoying TV series, films
+    and games across a wide variety of genres and languages. Members can play, pause
+    and resume watching '
+  url: https://nlppeople.com/job/research-scientist-4-machine-learning-and-inference-research-llm-post-training/
   date: '2026-01-19'
   source: Nlppeople.com
 - title: Machine learning integrating MRI and clinical features predicts early recurrence
