@@ -59,6 +59,15 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339296
   date: '2026-01-21'
   source: Plos.org
+- title: Machine learning-enhanced non-amnestic Alzheimer's disease diagnosis from
+    MRI and clinical features
+  description: Alzheimer's disease (AD), defined as an abnormal buildup of amyloid
+    plaques and tau tangles in the brain can be diagnosed with high accuracy based
+    on protein biomarkers via PET or CSF analysis. However, due to the invasive nature
+    of biomarker collect
+  url: https://arxiv.org/abs/2601.15530
+  date: '2026-01-21'
+  source: Arxiv.org
 - title: Identification of sensorineural hearing loss subtypes using unsupervised
     machine learning and assessment of their replicability
   description: 'Despite nearly 20% of the global population experiencing hearing loss,
