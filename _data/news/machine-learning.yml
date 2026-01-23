@@ -1,4 +1,40 @@
 news_items:
+- title: Training and external validation of machine learning supervised prognostic
+    models of upper tract urothelial cancer (UTUC) after nephroureterectomy
+  description: The European association of Urology (EAU) suggests a prognostic stratification
+    of Upper Tract Urothelial Cancer (UTUC) based on high and low risk patients, with
+    Radical nephroureterectomy (RNU) and bladder cuff resection being the gold standard
+    for t
+  url: https://www.nature.com/articles/s41598-025-29043-w
+  date: '2026-01-22'
+  source: Nature.com
+- title: Machine Learning Optimized LIBS Spectral Feature Extraction for Indoor Carbon
+    Concentration Dynamics and Forecasting
+  description: 'J. Anal. At. Spectrom., 2026, Accepted ManuscriptDOI: 10.1039/D5JA00477B,
+    PaperNuerbiye Aizezi, Yanpeng Ye, Asiri Iroshan, Yuzhu LiuDomestic energy use
+    and indoor human activities generate substantial carbon emissions, making accurate
+    monitoring of i'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d5ja00477b
+  date: '2026-01-22'
+  source: Royal Society of Chemistry
+- title: Machine learning for individual epigenetic fingerprints as predictors of
+    well-being in young adults
+  description: The crisis in youth mental health has intensified, especially after
+    the COVID-19 pandemic. Traditional assessment tools like the Perceived Stress
+    Scale and Highly Sensitive Person (HSP) index provide valuable insights. However,
+    to address the multifa
+  url: https://www.nature.com/articles/s41598-026-36561-8
+  date: '2026-01-22'
+  source: Nature.com
+- title: 'M-Count: an application that uses machine learning object detection and
+    color thresholding to count settled mussel larvae'
+  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D5AY01759A, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Lance W. Miller, Navaj Nune, Thomas B. LeFevre, Clare N.
+    Hermanson, Joseph D. '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01759a
+  date: '2026-01-22'
+  source: Royal Society of Chemistry
 - title: An online interpretable machine learning model for predicting cardiometabolic
     multimorbidity risk in patients with type 2 diabetes mellitus
   description: Scientific Reports - An online interpretable machine learning model
@@ -14,6 +50,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-36758-x
   date: '2026-01-21'
   source: Nature.com
+- title: Identification of hypoxia- and mitophagy-related diagnostic biomarkers for
+    ulcerative colitis based on bioinformatic analysis and machine learning
+  description: Background Ulcerative colitis (UC) is a chronic nonspecific inflammatory
+    bowel disease of unknown etiology that is associated with a significant risk of
+    progression to colorectal cancer. The aim of this study was to systematically
+    identify hypoxia- a
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339296
+  date: '2026-01-21'
+  source: Plos.org
 - title: Identification of sensorineural hearing loss subtypes using unsupervised
     machine learning and assessment of their replicability
   description: 'Despite nearly 20% of the global population experiencing hearing loss,
@@ -279,6 +324,15 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/01/15/3220034/0/en/Martinrea-International-Inc-Announces-Investment-in-Polyalgorithm-Machine-Learning-Inc.html
   date: '2026-01-15'
   source: GlobeNewswire
+- title: AWS Deadline Cloud now supports machine learning training using Foundry Nuke
+    CopyCat
+  description: Today, AWS Deadline Cloud announces integration with Foundry Nuke CopyCat,
+    allowing you to run machine learning training jobs for visual effects in the cloud.
+    AWS Deadline Cloud is a fully managed service that simplifies render management
+    for compute
+  url: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-machine-learning-training
+  date: '2026-01-15'
+  source: Amazon.com
 - title: Artificial Intelligence Machine Learning Engineer
   description: 'Department: Data Technology Job Status: Full-Time FLSA Status: Salary-Exempt
     Reports To: Data Architecture Manager Location: Hybrid/The Woodlands, TX Amount
