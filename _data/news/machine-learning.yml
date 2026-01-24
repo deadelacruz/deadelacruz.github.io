@@ -26,6 +26,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03408f
   date: '2026-01-23'
   source: Royal Society of Chemistry
+- title: 'Machine Learning with Clojure: Benefits & Perspectives'
+  description: Why is Clojure starting to catch people’s attention for machine learning,
+    even in a world where Python still dominates? It is 2026 the buzz around machine
+    learning has died down a bit. People are no longer chasing the next big thing;
+    they just want t
+  url: https://flexiana.com/machine-learning-architecture/machine-learning-with-clojure-benefits-perspectives
+  date: '2026-01-23'
+  source: Flexiana.com
 - title: Training and external validation of machine learning supervised prognostic
     models of upper tract urothelial cancer (UTUC) after nephroureterectomy
   description: The European association of Urology (EAU) suggests a prognostic stratification

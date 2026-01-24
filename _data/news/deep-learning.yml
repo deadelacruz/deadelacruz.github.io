@@ -8,6 +8,13 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-68356-w
   date: '2026-01-23'
   source: Nature.com
+- title: 'Geometric Deep Learning: Neural Networks in Spherical, Hyperbolic, and Non-Euclidean
+    Spaces | HackerNoon'
+  description: Learn about hierarchical structures in hyperbolic space, rotations
+    in spherical geometry, and Lie group transformations.
+  url: https://hackernoon.com/geometric-deep-learning-neural-networks-in-spherical-hyperbolic-and-non-euclidean-spaces
+  date: '2026-01-23'
+  source: hackernoon.com
 - title: 'Deep Learning From Operation Sindoor: Five Takeaways From a Four-Day War'
   description: Tensions between India and Pakistan — two countries that President
     Donald Trump claimed had been fighting for 1,500 years — escalated rapidly over
