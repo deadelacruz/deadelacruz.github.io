@@ -1,4 +1,13 @@
 news_items:
+- title: The role of low-complexity repeats in RNA–RNA interactions and a deep learning
+    framework for duplex prediction
+  description: Interactions between long RNA molecules play essential roles in shaping
+    gene regulation. Here, the authors show that low-complexity repeats drive stable
+    contacts between RNAs and present RIME, a deep learning model that improves the
+    prediction of the
+  url: https://www.nature.com/articles/s41467-026-68356-w
+  date: '2026-01-23'
+  source: Nature.com
 - title: 'Deep Learning From Operation Sindoor: Five Takeaways From a Four-Day War'
   description: Tensions between India and Pakistan — two countries that President
     Donald Trump claimed had been fighting for 1,500 years — escalated rapidly over

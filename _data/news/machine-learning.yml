@@ -1,4 +1,31 @@
 news_items:
+- title: 'Same but Different: How Permutation Degeneracy Enhances Machine Learning
+    in Single-Atom Catalyst Discovery'
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA09024E,
+    PaperZhengda Chen, Jianhua Wang, Xing Fan, Guoxin Zhang, Yupeng Wei, Mengxiao
+    Han, Yu Hong Huang, Yongfeng Wang, Haiping LinAccurately predicting the catalytic
+    performance of single'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta09024e
+  date: '2026-01-23'
+  source: Royal Society of Chemistry
+- title: 'Rheological analysis in food processing: factors, applications, and future
+    outlooks with machine learning integration'
+  description: 'RSC Adv., 2026, 16,5040-5063DOI: 10.1039/D5RA07499A, Review Article
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Yang Chen, Honglin Zhu, Yihang Feng, Yi Wang, Xinhao Wang,
+    Weimin Z'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra07499a
+  date: '2026-01-23'
+  source: Royal Society of Chemistry
+- title: Machine learning-based XANES analysis for predicting the local structure
+    and valence in amorphous silicon suboxides
+  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP03408F,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Yu Fujikata, Hiroki Sugisawa, Teruyasu MizoguchiDeep-learning
+    analysis o'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03408f
+  date: '2026-01-23'
+  source: Royal Society of Chemistry
 - title: Training and external validation of machine learning supervised prognostic
     models of upper tract urothelial cancer (UTUC) after nephroureterectomy
   description: The European association of Urology (EAU) suggests a prognostic stratification
@@ -35,6 +62,45 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay01759a
   date: '2026-01-22'
   source: Royal Society of Chemistry
+- title: How Machine Learning Improves Satellite Object Tracking
+  description: Machine learning helps space agencies and companies monitor satellites
+    more accurately and avoid dangerous orbital collisions.
+  url: https://www.smartdatacollective.com/how-machine-learning-improves-satellite-object-tracking/
+  date: '2026-01-22'
+  source: Smartdatacollective.com
+- title: 'Machine Learning and AI for Absolute Beginners: The Ultimate Guide to AI
+    and Machine Learning for Newcomers eBook: Free'
+  description: Published by Packt. You'd pay $19 for it elsewhere. Deal ends February
+    24. Shop Now at TradePub
+  url: https://www.dealnews.com/Machine-Learning-and-AI-for-Absolute-Beginners-The-Ultimate-Guide-to-AI-and-Machine-Learning-for-Newcomers-eBook-Free/21804831.html
+  date: '2026-01-22'
+  source: Dealnews.com
+- title: Machine learning–powered Android Trojans bypass script-based Ad Click detection
+  description: A new Android click-fraud trojan family uses TensorFlow ML to visually
+    detect and tap ads, bypassing traditional script-based click techniques. Researchers
+    at cybersecurity firm Dr.Web discovered a new Android click-fraud trojan family
+    that uses Tens
+  url: https://securityaffairs.com/187215/malware/machine-learning-powered-android-trojans-bypass-script-based-ad-click-detection.html
+  date: '2026-01-22'
+  source: Securityaffairs.com
+- title: Machine learning-based prediction of diabetic retinopathy from pupillary
+    abnormalities in a South Indian population
+  description: 'Diabetic retinopathy (DR) is a common complication of diabetes that
+    can lead to vision loss. Early detection and prevention of DR is crucial to reduce
+    the burden of this disease. The purpose of this study was to build a prediction
+    model for DR using '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340802
+  date: '2026-01-22'
+  source: Plos.org
+- title: 'Assessing in-hospital mortality risk in ICU lung cancer patients using machine
+    learning: An analysis based on the MIMIC-IV database'
+  description: Background Patients with advanced lung cancer admitted to the intensive
+    care unit (ICU) face a substantially elevated risk of in-hospital mortality. Early
+    identification of high-risk individuals is essential to support timely clinical
+    decision-making
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341259
+  date: '2026-01-22'
+  source: Plos.org
 - title: An online interpretable machine learning model for predicting cardiometabolic
     multimorbidity risk in patients with type 2 diabetes mellitus
   description: Scientific Reports - An online interpretable machine learning model
