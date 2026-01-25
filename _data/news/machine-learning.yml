@@ -34,6 +34,14 @@ news_items:
   url: https://flexiana.com/machine-learning-architecture/machine-learning-with-clojure-benefits-perspectives
   date: '2026-01-23'
   source: Flexiana.com
+- title: 'Machine Learning for RNA Secondary Structure Prediction: a review of current
+    methods and challenges [Review]'
+  description: Predicting the secondary structure of RNA is a core challenge in computational
+    biology, essential for understanding molecular function and designing novel therapeutics.
+    The field has evolved from foundational but accuracy-limited thermodynamic approa
+  url: https://rnajournal.cshlp.org/content/early/2026/01/23/rna.080840.125.short?rss=1
+  date: '2026-01-23'
+  source: Cshlp.org
 - title: Training and external validation of machine learning supervised prognostic
     models of upper tract urothelial cancer (UTUC) after nephroureterectomy
   description: The European association of Urology (EAU) suggests a prognostic stratification
