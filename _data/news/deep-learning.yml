@@ -931,24 +931,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2025/cp/d5cp03439f
   date: '2025-10-28'
   source: Royal Society of Chemistry
-- title: "The ISLab Solution to the Algonauts Challenge 2025: A Multimodal Deep\n\
-    \ Learning Approach to Brain Response Prediction"
-  description: 'In this work, we present a network-specific approach for predicting
-    brain
-
-    responses to complex multimodal movies, leveraging the Yeo 7-network
-
-    parcellation of the Schaefer atlas. Rather than treating the brain as a
-
-    homogeneous system, we grouped the '
-  url: https://arxiv.org/abs/2508.06499
-  date: '2025-10-27'
-  source: Arxiv.org
-- title: Multi-view deep learning framework for the detection of chest X-rays compatible
-    with pediatric pulmonary tuberculosis
-  description: In this work, authors present an AI framework to detect pediatric tuberculosis
-    by using both frontal and lateral chest X-rays, showing robust performance across
-    several age groups and settings.
-  url: https://www.nature.com/articles/s41467-025-64391-1
-  date: '2025-10-27'
-  source: Nature.com

@@ -8,6 +8,15 @@ news_items:
   url: https://www.javacodegeeks.com/2026/01/free-ebooks-machine-learning-and-ai-for-absolute-beginners-unified-secops-playbook-four-more-best-selling-titles.html
   date: '2026-01-24'
   source: Javacodegeeks.com
+- title: 'Reshaping Parasitology Diagnostics with Machine Learning: A Path Toward
+    Equity in Global Health'
+  description: 'Purpose of review: This review examines how artificial intelligence
+    (AI), deep learning, robotic microscopy, and other emerging digital technologies
+    are reshaping parasitology diagnostics. We aimed to evaluate recent advances,
+    technological opportuni'
+  url: https://link.springer.com/article/10.1007/s40588-026-00265-4
+  date: '2026-01-24'
+  source: Springer.com
 - title: 'Same but Different: How Permutation Degeneracy Enhances Machine Learning
     in Single-Atom Catalyst Discovery'
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA09024E,
@@ -3535,60 +3544,3 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-operations-engineer-4/
   date: '2025-10-28'
   source: Nlppeople.com
-- title: Comparison of serum lactate and lactate-derived ratios as prognostic biomarkers
-    in pediatric dengue shock syndrome using supervised machine learning models
-  description: Background Dengue shock syndrome (DSS), with critical complications
-    encompassing mechanical ventilation (MV), dengue-associated acute liver failure
-    (PALF), and encephalitis, is associated with high mortality in children. Although
-    serum lactate is a r
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335022
-  date: '2025-10-27'
-  source: Plos.org
-- title: Leveraging spatial data infrastructure for machine learning based building
-    energy performance prediction
-  description: The calculation, management and maintenance of energy performance of
-    buildings (EPBs) are significant in increasing energy efficiency in buildings
-    and reducing greenhouse gas emissions since it is estimated that approximately
-    one third of energy cons
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0335531
-  date: '2025-10-27'
-  source: Plos.org
-- title: Machine learning saves £4.4M in UK.gov work and pensions fraud detection
-  description: 'Poor data standards across government hamper scaling, says Parliament
-    spending watchdog
-
-    The UK government''s Department for Work and Pensions (DWP) has saved £4.4 million
-    over three years by using machine learning to tackle fraud, according to the Nat'
-  url: https://biztoc.com/x/b6297f81f633c234
-  date: '2025-10-27'
-  source: Biztoc.com
-- title: Machine learning saves £4.4M in UK.gov work and pensions fraud detection
-  description: Poor data standards across government hamper scaling, says Parliament
-    spending watchdog The UK government's Department for Work and Pensions (DWP) has
-    saved £4.4 million over three years by using machine learning to tackle fraud,
-    according to the Nat
-  url: https://www.theregister.com/2025/10/27/dwp_machine_learning_savings/
-  date: '2025-10-27'
-  source: Theregister.com
-- title: "Neural Recording Power Optimization Through Machine Learning Guided\n Resolution\
-    \ Reconfiguration"
-  description: 'Neural recording implants are a crucial tool for both neuroscience
-    research
-
-    and enabling new clinical applications. The power consumption of high channel
-
-    count implants is dominated by the circuits used to amplify and digitize neural
-
-    signals. Since c'
-  url: https://arxiv.org/abs/2510.22924
-  date: '2025-10-27'
-  source: Arxiv.org
-- title: Predicting the quantum yield of 1O2 generation for pteridines and fluoroquinolones
-    using machine learning
-  description: 'Phys. Chem. Chem. Phys., 2025, Advance ArticleDOI: 10.1039/D5CP02333E,
-    PaperPlaton P. Chebotaev, Andrey A. BuglakFluoroquinolones are antibiotics, whereas
-    pterins are pigments. Both are well-known for their high photochemical activity:
-    upon UV-vis ex'
-  url: https://pubs.rsc.org/en/content/articlelanding/2025/cp/d5cp02333e
-  date: '2025-10-27'
-  source: Royal Society of Chemistry
