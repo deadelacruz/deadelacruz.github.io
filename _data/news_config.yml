@@ -33,9 +33,9 @@ api:
 
 # Date Range Configuration
 date_range:
-  lookback_days: 29  # How many days back to search from NewsAPI (29 avoids occasional free-tier boundary errors)
+  lookback_days: 28  # Keep this safely within free-tier historical range limits.
   exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay (articles <24h old not available)
-  exclude_today_offset_days: 0  # Query goes up to today, but due to 24-hour delay, most recent available articles are from yesterday (range: 0-7)
+  exclude_today_offset_days: 1  # Query up to yesterday for better free-tier compatibility (range: 0-7)
   retention_days: 90  # How many days to keep articles in UI (range: 1-365, increased to build cache over time)
   # NOTE: NewsAPI free tier limitations:
   # - Only allows articles up to 30 days old
