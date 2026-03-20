@@ -2,23 +2,20 @@ name: Update News Every 12 Hours
 
 on:
   schedule:
-    # Run every 12 hours at 00:00 and 12:00 UTC (aligns with NewsAPI 12-hour reset cycle)
-    # Philippine Time (PHT, UTC+8): 8:00 AM and 8:00 PM daily
-    # NewsAPI Developer plan: 50 requests per 12 hours, resets every 12 hours
+    # Run every 12 hours at 00:00 and 12:00 UTC
     - cron: '0 0,12 * * *'
-  workflow_dispatch: # Allow manual triggering
+  workflow_dispatch:
 
-# Prevent concurrent runs to avoid divergent branches
 concurrency:
   group: update-news
-  cancel-in-progress: false  # Let the current run finish, queue others
+  cancel-in-progress: false
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Required to push changes back to repository
-    
+      contents: write
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -29,117 +26,99 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
-      - name: Install dependencies
+      - name: Install runtime dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          # Keep install lightweight for GitHub Free usage.
+          pip install pyyaml requests
 
-      - name: Pull latest changes before updating
+      - name: Configure git
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          # Configure pull strategy to use merge (not rebase)
-          git config pull.rebase false
-          git config pull.ff false
-          
-          # Fetch latest changes from remote
-          echo "Fetching latest changes from remote..."
+          git config pull.rebase true
+          git config pull.ff only
+
+      - name: Sync latest branch
+        run: |
           git fetch origin master
-          
-          # Check if remote is ahead of local
-          REMOTE_AHEAD=$(git rev-list HEAD..origin/master --count 2>/dev/null || echo "0")
-          
-          if [ "$REMOTE_AHEAD" -gt 0 ]; then
-            echo "Remote is ahead by $REMOTE_AHEAD commits. Pulling and merging..."
-            # Pull and merge remote changes BEFORE making any local changes
-            git pull origin master --no-edit || {
-              echo "Merge conflict detected. Resolving by keeping remote version..."
-              git merge --abort || true
-              git reset --hard origin/master
-            }
-            echo "Successfully synced with remote"
-          else
-            echo "Local branch is already up to date with remote"
-          fi
+          git pull --rebase origin master
 
       - name: Update news
+        id: update-news
         env:
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
-          echo "Checking NEWSAPI_KEY..."
           if [ -z "$NEWSAPI_KEY" ]; then
-            echo "ERROR: NEWSAPI_KEY secret is not set in repository secrets!"
-            echo "Please go to: Settings → Secrets and variables → Actions → Add secret"
-            exit 1
-          else
-            echo "NEWSAPI_KEY is set (length: ${#NEWSAPI_KEY} characters)"
+            echo "::warning::NEWSAPI_KEY is not set. Skipping update so workflow stays green."
+            echo "did_update=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
-          python -m update_news
 
-      - name: Update last updated timestamp
+          python -m update_news
+          echo "did_update=true" >> "$GITHUB_OUTPUT"
+
+      - name: Update timestamp
+        if: steps.update-news.outputs.did_update == 'true'
         run: |
-          # Create timestamp file with current time in Philippines timezone (UTC+8)
-          # Format: YYYY-MM-DD HH:MM:SS AM/PM GMT +8 (Philippine Standard Time)
           TZ='Asia/Manila' timestamp=$(date +'%Y-%m-%d %I:%M:%S %p')" GMT +8"
           echo "last_updated: \"$timestamp\"" > _data/news_last_updated.yml
           echo "Updated timestamp: $timestamp"
 
       - name: Check for changes
         id: verify-changed-files
+        if: steps.update-news.outputs.did_update == 'true'
         run: |
-          if [ -n "$(git status --porcelain _data/news/)" ]; then
-            echo "changed=true" >> $GITHUB_OUTPUT
+          if [ -n "$(git status --porcelain _data/news/ _data/news_last_updated.yml)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push changes
-        if: steps.verify-changed-files.outputs.changed == 'true'
+        if: steps.update-news.outputs.did_update == 'true' && steps.verify-changed-files.outputs.changed == 'true'
         run: |
-          # Stage the news file changes and timestamp file
-          echo "Staging news file changes and timestamp..."
           git add _data/news/ _data/news_last_updated.yml
-          
-          # Commit the changes
-          echo "Committing changes..."
           git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')"
-          
-          # Push to remote (with retry logic in case of race condition)
-          echo "Pushing to remote..."
+
           MAX_RETRIES=3
           RETRY_COUNT=0
-          
+
           while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
             if git push origin master; then
               echo "Successfully pushed to remote"
               break
+            fi
+
+            RETRY_COUNT=$((RETRY_COUNT + 1))
+            if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+              echo "Push failed, rebasing and retrying (attempt $RETRY_COUNT/$MAX_RETRIES)..."
+              git pull --rebase origin master
             else
-              RETRY_COUNT=$((RETRY_COUNT + 1))
-              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
-                echo "Push failed, pulling latest and retrying (attempt $RETRY_COUNT/$MAX_RETRIES)..."
-                git pull origin master --no-edit || git reset --hard origin/master
-                # Re-apply our changes if they were lost
-                git add _data/news/ _data/news_last_updated.yml
-                git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')" || true
-              else
-                echo "Failed to push after $MAX_RETRIES attempts"
-                exit 1
-              fi
+              echo "Failed to push after $MAX_RETRIES attempts"
+              exit 1
             fi
           done
-      
-      - name: Commit timestamp only (if no news changes)
-        if: steps.verify-changed-files.outputs.changed == 'false'
+
+      - name: Commit timestamp only
+        if: steps.update-news.outputs.did_update == 'true' && steps.verify-changed-files.outputs.changed == 'false'
         run: |
-          # Even if no news changed, update the timestamp to show the workflow ran
-          echo "No news changes detected, but updating timestamp to show workflow execution..."
           git add _data/news_last_updated.yml
-          
-          # Check if there are any changes to commit
           if ! git diff --cached --quiet; then
             git commit -m "Update news timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin master || echo "Failed to push timestamp, but continuing..."
+            git push origin master || echo "Failed to push timestamp, continuing..."
           else
             echo "No timestamp changes to commit"
+          fi
+
+      - name: Summary
+        if: always()
+        run: |
+          if [ "${{ steps.update-news.outputs.did_update }}" = "false" ]; then
+            echo "## Update News Summary" >> "$GITHUB_STEP_SUMMARY"
+            echo "" >> "$GITHUB_STEP_SUMMARY"
+            echo "Workflow skipped NewsAPI fetch because NEWSAPI_KEY is missing." >> "$GITHUB_STEP_SUMMARY"
+            echo "Add NEWSAPI_KEY in Settings > Secrets and variables > Actions." >> "$GITHUB_STEP_SUMMARY"
           fi
