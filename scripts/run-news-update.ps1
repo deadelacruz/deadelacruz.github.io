@@ -55,7 +55,7 @@ function Invoke-External {
         [switch]$AllowFailure
     )
 
-    Write-Log -Message $Description
+    [void](Write-Log -Message $Description)
     & $FilePath @Arguments
     $exitCode = $LASTEXITCODE
 
@@ -63,7 +63,7 @@ function Invoke-External {
         throw "$Description failed with exit code $exitCode."
     }
 
-    return $exitCode
+    return [int]$exitCode
 }
 
 function Get-CurrentBranch {

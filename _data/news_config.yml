@@ -33,7 +33,7 @@ api:
 
 # Date Range Configuration
 date_range:
-  lookback_days: 30  # How many days back to search from NewsAPI (range: 1-30, MAXIMUM for free tier - cannot go higher!)
+  lookback_days: 29  # How many days back to search from NewsAPI (29 avoids occasional free-tier boundary errors)
   exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay (articles <24h old not available)
   exclude_today_offset_days: 0  # Query goes up to today, but due to 24-hour delay, most recent available articles are from yesterday (range: 0-7)
   retention_days: 90  # How many days to keep articles in UI (range: 1-365, increased to build cache over time)
@@ -81,4 +81,3 @@ news_sources:
   artificial-intelligence:
     name: "Artificial Intelligence"
     title_query: "Artificial Intelligence"  # Exact phrase only: "Artificial Intelligence" or "artificial intelligence"
-
