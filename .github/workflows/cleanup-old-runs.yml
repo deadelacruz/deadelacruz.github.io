@@ -209,6 +209,7 @@ jobs:
       - name: Discover all workflows dynamically
         id: discover-workflows
         run: |
+          set -euo pipefail
           echo "Dynamically discovering all workflows in the repository..."
           echo ""
 
@@ -218,7 +219,7 @@ jobs:
 
           # Page through ALL workflows so repositories with >100 workflows are fully covered.
           while true; do
-            PAGE_RESPONSE=$(curl -s \
+            PAGE_RESPONSE=$(curl -fsS \
               -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
               -H "Accept: application/vnd.github.v3+json" \
               "https://api.github.com/repos/${{ github.repository }}/actions/workflows?per_page=100&page=$PAGE")
@@ -267,6 +268,7 @@ jobs:
         id: cleanup-runs
         if: steps.determine-targets.outputs.skip_cleanup != 'true'
         run: |
+          set -euo pipefail
           TARGET_WORKFLOW_ID="${{ steps.determine-targets.outputs.target_workflow_id }}"
           TARGET_WORKFLOW_NAME="${{ steps.determine-targets.outputs.target_workflow_name }}"
           TRIGGER_TYPE="${{ steps.determine-targets.outputs.trigger_type }}"
@@ -351,7 +353,7 @@ jobs:
             # First collect all run IDs (across all pages), then delete.
             # This avoids page-shift skips caused by deleting while paginating.
             while true; do
-              RUNS_RESPONSE=$(curl -s \
+              RUNS_RESPONSE=$(curl -fsS \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
                 "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$workflow_id/runs?per_page=100&page=$PAGE")
@@ -395,7 +397,7 @@ jobs:
             for ((idx=KEEP_RUNS; idx<COLLECTED_COUNT; idx++)); do
               RUN_ID="${ALL_RUN_IDS[$idx]}"
               echo "  Deleting run ID: $RUN_ID"
-              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
+              HTTP_CODE=$(curl -sS -o /dev/null -w "%{http_code}" -X DELETE \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
                 "https://api.github.com/repos/${{ github.repository }}/actions/runs/$RUN_ID")

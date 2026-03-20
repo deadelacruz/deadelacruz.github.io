@@ -141,6 +141,18 @@ class TestMetricsTracker:
         
         assert result is True
         assert os.path.exists(json_path)
+
+    def test_export_to_json_with_filename_only_path(self, tmp_path, monkeypatch):
+        """Test export when output path has no parent directory component."""
+        tracker = MetricsTracker()
+        tracker.record_api_call("machine-learning", 120.0, True)
+        monkeypatch.chdir(tmp_path)
+
+        json_name = "metrics.json"
+        result = tracker.export_to_json(json_name)
+
+        assert result is True
+        assert (tmp_path / json_name).exists()
     
     def test_multiple_topics(self):
         """Test tracking metrics for multiple topics."""

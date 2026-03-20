@@ -380,7 +380,9 @@ class MetricsTracker:
     def export_to_json(self, file_path: str) -> bool:
         """Export metrics to JSON file."""
         try:
-            os.makedirs(os.path.dirname(file_path), exist_ok=True)
+            directory = os.path.dirname(file_path)
+            if directory:
+                os.makedirs(directory, exist_ok=True)
             with open(file_path, 'w', encoding='utf-8') as f:
                 json.dump(self.to_dict(), f, indent=2, ensure_ascii=False)
             logger.info(MSG_INFO_METRICS_EXPORTED.format(path=file_path))

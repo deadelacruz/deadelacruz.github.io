@@ -113,11 +113,30 @@ jobs:
         env:
           DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
+          set -euo pipefail
           BRANCH="${GITHUB_REF_NAME:-$DEFAULT_BRANCH}"
           git add _data/news_last_updated.yml
           if ! git diff --cached --quiet; then
             git commit -m "Update news timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin "$BRANCH" || echo "Failed to push timestamp, continuing..."
+
+            MAX_RETRIES=3
+            RETRY_COUNT=0
+
+            while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
+              if git push origin "$BRANCH"; then
+                echo "Successfully pushed timestamp update"
+                break
+              fi
+
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
+                echo "Timestamp push failed, rebasing and retrying (attempt $RETRY_COUNT/$MAX_RETRIES)..."
+                git pull --rebase origin "$BRANCH"
+              else
+                echo "Failed to push timestamp after $MAX_RETRIES attempts"
+                exit 1
+              fi
+            done
           else
             echo "No timestamp changes to commit"
           fi

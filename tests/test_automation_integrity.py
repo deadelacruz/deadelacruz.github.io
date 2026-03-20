@@ -41,6 +41,14 @@ def test_update_news_workflow_sets_timezone_on_date_command():
     assert "timestamp=$(TZ='Asia/Manila' date +" in content
 
 
+def test_update_news_timestamp_push_does_not_swallow_failures():
+    """Timestamp-only push path should fail after retries, not silently continue."""
+    content = _read(WORKFLOWS_DIR / "update-news.yml")
+    assert 'git push origin "$BRANCH" || echo "Failed to push timestamp, continuing..."' not in content
+    assert "MAX_RETRIES=3" in content
+    assert "Failed to push timestamp after $MAX_RETRIES attempts" in content
+
+
 def test_cleanup_workflow_does_not_listen_to_itself():
     """Cleanup workflow must never include itself in workflow_run triggers."""
     workflow = yaml.safe_load(_read(WORKFLOWS_DIR / "cleanup-old-runs.yml"))
@@ -70,6 +78,14 @@ def test_cleanup_workflow_paginates_workflow_discovery():
     content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
     assert "actions/workflows?per_page=100&page=$PAGE" in content
     assert "ALL_WORKFLOWS_JSON='[]'" in content
+
+
+def test_cleanup_workflow_uses_fail_fast_and_strict_curl():
+    """Cleanup should fail on API fetch errors instead of silently no-oping."""
+    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
+    assert content.count("set -euo pipefail") >= 2
+    assert "PAGE_RESPONSE=$(curl -fsS \\" in content
+    assert "RUNS_RESPONSE=$(curl -fsS \\" in content
 
 
 def test_cleanup_summary_text_matches_trigger_scope():
@@ -104,6 +120,20 @@ def test_setup_task_defaults_to_interactive_with_optional_s4u():
     assert "[switch]$UseS4U" in content
     assert "-LogonType Interactive" in content
     assert "if ($UseS4U)" in content
+
+
+def test_author_external_links_with_blank_target_include_noopener():
+    """External links opened in a new tab should include rel protections."""
+    content = _read(REPO_ROOT / "_includes" / "author.html")
+    assert 'target="_blank"' in content
+    assert 'rel="noopener noreferrer"' in content
+
+
+def test_precommit_excludes_vendor_assets():
+    """Pre-commit should not rewrite vendored bower assets."""
+    content = _read(REPO_ROOT / ".pre-commit-config.yaml")
+    assert "exclude:" in content
+    assert "assets/bower_components/" in content
 
 
 def test_readme_has_no_common_mojibake_sequences():
