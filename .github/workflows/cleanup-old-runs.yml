@@ -22,12 +22,12 @@ on:
         type: string
   workflow_run:
     # Trigger automatically after workflows complete successfully
-    # Note: GitHub Actions requires at least one workflow name here, but the cleanup
-    # logic is fully dynamic and will discover and clean ALL workflows automatically
+    # Note: GitHub Actions requires at least one workflow name here, and a workflow
+    # cannot listen to itself.
+    # Cleanup logic is fully dynamic and will discover and clean ALL workflows automatically.
     # When triggered, it cleans up ALL workflows (not just the one that triggered it)
     # This ensures any workflow you add in the future will be automatically cleaned up
     workflows: 
-      - "Cleanup Old Workflow Runs"  # Self-trigger for scheduled runs
       - "Update News Every 12 Hours"
       - "pages build and deployment"
       - "Greetings"
@@ -499,4 +499,3 @@ jobs:
           echo "  \"default\": 10" >> $GITHUB_STEP_SUMMARY
           echo "}" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
-

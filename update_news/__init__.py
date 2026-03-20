@@ -590,6 +590,14 @@ def route_article_to_topic(article: Dict, topics_config: Dict[str, Dict], config
     
     return None
 
+def _redact_api_key_in_text(text: str) -> str:
+    """Redact NewsAPI keys from log text to avoid leaking secrets."""
+    if not text:
+        return text
+    redacted = re.sub(r'([?&]apiKey=)[^&\s]+', r'\1REDACTED', text, flags=re.IGNORECASE)
+    redacted = re.sub(r'("apiKey"\s*:\s*")[^"]+(")', r'\1REDACTED\2', redacted, flags=re.IGNORECASE)
+    return redacted
+
 def _is_result_limit_error(error_code: str, error_message: str, error_text: str) -> bool:
     """Check if error indicates result limit (100 results max for free tier)."""
     return (
@@ -715,7 +723,7 @@ def make_api_request(url: str, params: Dict, config: Dict, retry_count: int = 0)
         status_code = http_err.response.status_code if hasattr(http_err, 'response') else None
         max_error_length = get_config_value(config, 'article_processing.max_error_text_length', DEFAULT_MAX_ERROR_TEXT_LENGTH)
         
-        logger.error(f"{MSG_ERROR_HTTP}: {http_err}")
+        logger.error(f"{MSG_ERROR_HTTP}: {_redact_api_key_in_text(str(http_err))}")
         if status_code:
             logger.error(f"{MSG_ERROR_STATUS_CODE}: {status_code}")
         
@@ -1465,6 +1473,7 @@ def main():
                         logger.warning(f"\n{MSG_WARNING_NO_NEW_ANY}")
             except Exception as fetch_err:
                 logger.error(f"{MSG_ERROR_FETCH_COMBINED}: {fetch_err}")
+                error_count += 1
                 new_articles_dict = {topic: [] for topic in topics_config_dict.keys()}
         elif rate_limited:
             logger.info(MSG_INFO_SKIPPING_API)
@@ -1541,8 +1550,10 @@ def main():
     logger.info(MSG_INFO_TOTAL_CALLS.format(made=api_call_count['total'], limit=max_api_calls))
     
     # Print summary
+    total_api_errors = sum(topic_stats.get('api_errors', 0) for topic_stats in metrics.topic_metrics.values())
+    total_errors = error_count + total_api_errors
     logger.info(f"\n{METRICS_SEPARATOR}")
-    if error_count == 0 and api_call_count['total'] > 0:
+    if total_errors == 0 and api_call_count['total'] > 0:
         logger.info(MSG_OK_UPDATE_COMPLETE)
         logger.info(f"   {MSG_INFO_FETCHED_DYNAMIC}")
     elif rate_limited_flag['value']:
@@ -1551,7 +1562,7 @@ def main():
         logger.info(f"   {MSG_INFO_CACHED_SERVED}")
         logger.info(f"   {MSG_INFO_NEXT_RUN_RESET}")
     else:
-        logger.warning(MSG_WARNING_UPDATE_ERRORS.format(count=error_count))
+        logger.warning(MSG_WARNING_UPDATE_ERRORS.format(count=total_errors))
         logger.warning(f"   {MSG_WARNING_SOME_FAILED}")
     logger.info(f"{METRICS_SEPARATOR}")
     

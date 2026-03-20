@@ -183,7 +183,13 @@ try {
     $triggerEvening = New-ScheduledTaskTrigger -Daily -At "20:00"
     $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew
     $userId = "$env:USERDOMAIN\$env:USERNAME"
-    $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType Interactive -RunLevel Limited
+    try {
+        $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType S4U -RunLevel Limited
+        Write-SetupLog -Message "Using S4U logon type so task can run even when you are logged out."
+    } catch {
+        Write-SetupLog -Level "WARN" -Message "S4U logon type is unavailable on this machine. Falling back to Interactive."
+        $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType Interactive -RunLevel Limited
+    }
 
     Register-ScheduledTask `
         -TaskName $TaskName `

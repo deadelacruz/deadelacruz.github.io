@@ -7,6 +7,7 @@ param(
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = "Stop"
+$script:LastExternalExitCode = 0
 
 if (-not $RepoRoot) {
     $scriptRoot = Split-Path -Parent $MyInvocation.MyCommand.Path
@@ -57,13 +58,12 @@ function Invoke-External {
 
     [void](Write-Log -Message $Description)
     & $FilePath @Arguments
-    $exitCode = $LASTEXITCODE
+    $script:LastExternalExitCode = [int]$LASTEXITCODE
+    $exitCode = $script:LastExternalExitCode
 
     if (-not $AllowFailure -and $exitCode -ne 0) {
         throw "$Description failed with exit code $exitCode."
     }
-
-    return [int]$exitCode
 }
 
 function Get-CurrentBranch {
@@ -199,7 +199,8 @@ try {
 
     Invoke-External -FilePath $gitExe -Arguments @("fetch", "origin", $Branch) -Description "Fetching latest remote commits"
 
-    $pullCode = Invoke-External -FilePath $gitExe -Arguments @("pull", "--ff-only", "origin", $Branch) -Description "Pulling latest commits (fast-forward)" -AllowFailure
+    Invoke-External -FilePath $gitExe -Arguments @("pull", "--ff-only", "origin", $Branch) -Description "Pulling latest commits (fast-forward)" -AllowFailure
+    $pullCode = $script:LastExternalExitCode
     if ($pullCode -ne 0) {
         Write-Log -Level "WARN" -Message "Fast-forward pull failed. Retrying with rebase."
         Invoke-External -FilePath $gitExe -Arguments @("pull", "--rebase", "origin", $Branch) -Description "Pulling latest commits (rebase fallback)"
@@ -232,7 +233,8 @@ try {
     $maxPushAttempts = 3
     $pushSuccessful = $false
     for ($attempt = 1; $attempt -le $maxPushAttempts; $attempt++) {
-        $pushCode = Invoke-External -FilePath $gitExe -Arguments @("push", "origin", $Branch) -Description "Pushing commit to origin (attempt $attempt/$maxPushAttempts)" -AllowFailure
+        Invoke-External -FilePath $gitExe -Arguments @("push", "origin", $Branch) -Description "Pushing commit to origin (attempt $attempt/$maxPushAttempts)" -AllowFailure
+        $pushCode = $script:LastExternalExitCode
         if ($pushCode -eq 0) {
             $pushSuccessful = $true
             break
