@@ -163,6 +163,45 @@ Configuration is in `.pre-commit-config.yaml`. To skip hooks for a commit, use `
   - Automatically commits and pushes updated news files  
   - Handles merge conflicts gracefully, preserving news updates
 
+### Local Windows Scheduler (No GitHub Actions Billing)
+
+If GitHub Actions is unavailable on your account, you can run the same update flow locally every 12 hours using Windows Task Scheduler.
+
+Requirements:
+- Git installed and available on PATH
+- Python installed
+- This repository cloned with git (must contain a `.git` folder)
+- A NewsAPI key
+
+Setup command (from repo root):
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\setup-local-news-task.ps1 -NewsApiKey "YOUR_NEWSAPI_KEY"
+```
+
+What setup does:
+- Creates/updates `.venv`
+- Installs dependencies from `requirements.txt`
+- Registers scheduled task `UpdateNewsEvery12HoursLocal`
+- Runs at `08:00` and `20:00` local machine time
+- Writes logs to `logs/news-update.log`
+
+Manual run once:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\run-news-update.ps1
+```
+
+Remove scheduled task:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\scripts\remove-local-news-task.ps1
+```
+
+Notes:
+- The runner only commits `_data/news/*` and `_data/news_last_updated.yml`.
+- If you have other uncommitted changes, it safely skips the run to avoid interfering with your work.
+
 ---
 
 ## ✨ Features
