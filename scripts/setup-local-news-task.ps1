@@ -183,7 +183,7 @@ try {
     $triggerEvening = New-ScheduledTaskTrigger -Daily -At "20:00"
     $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew
     $userId = "$env:USERDOMAIN\$env:USERNAME"
-    $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType InteractiveToken -RunLevel Limited
+    $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType Interactive -RunLevel Limited
 
     Register-ScheduledTask `
         -TaskName $TaskName `
