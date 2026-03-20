@@ -1,4 +1,254 @@
 news_items:
+- title: Autoscience builds automated research lab for machine learning models with
+    $14M
+  description: Artificial intelligence startup Autoscience Institute has launched
+    with $14 million in seed funding to automate research into new machine learning
+    models. Instead of simply building yet another machine learning model, Autoscience
+    is developing an aut
+  url: https://siliconangle.com/2026/03/19/autoscience-builds-automated-research-lab-machine-learning-models-14m/
+  date: '2026-03-19'
+  source: SiliconANGLE News
+- title: Genomic evolution of SARS-CoV-2 delta variants pre- and post-omicron emergence
+    using alignment-free machine learning models
+  description: The SARS-CoV-2 Delta variant (B.1.617.2), initially classified as a
+    variant of concern due to its enhanced transmissibility and vaccine-escape mutations,
+    underwent further genomic changes following the emergence of the Omicron variant
+    (B.1.1.529). Th
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345259
+  date: '2026-03-19'
+  source: Plos.org
+- title: Gene expression and metadata based identification of key genes for lung cancer,
+    COPD, and IPF using machine learning and statistical models
+  description: Lung cancer (LC) is one of the most prevalent and deadly cancers globally,
+    presenting a major public health challenge. Patients with chronic obstructive
+    pulmonary disease (COPD) and idiopathic pulmonary fibrosis (IPF) are at a significantly
+    higher ri
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344666
+  date: '2026-03-19'
+  source: Plos.org
+- title: 'Expression of Concern: Enhanced surface plasmon resonance biosensor with
+    graphene-black phosphorus heterostructure for ultra-high sensitivity refractive
+    index detection with machine learning for behaviour prediction'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345133
+  date: '2026-03-19'
+  source: Plos.org
+- title: 'Interview: Huy Dao, director of data and machine learning platform, Booking.com'
+  description: Effective use of technology has already delivered significant cost
+    savings at the online travel giant, and greater use of AI and machine learning
+    promises to bring even greater opportunities to improve
+  url: https://www.computerweekly.com/news/366640174/Interview-Huy-Dao-director-of-data-and-machine-learning-platform-Bookingcom
+  date: '2026-03-19'
+  source: ComputerWeekly.com
+- title: A Combined First-Principles and Machine Learning Study of Phase Stability
+    and Thermoelectric Properties in ZrSiPt
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04318B,
+    PaperN Serir, M Khenata, Rabah Khenata, H R Jappor, D Singh, Sh Rab, H. Meradji,
+    S. Bin-Omran, Souraya Goumri-SaidZrSiPt is an interesting ternary compound that
+    has two differ'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04318b
+  date: '2026-03-19'
+  source: Royal Society of Chemistry
+- title: 'Accelerating Organic Luminescent Material Discovery: From Quantum Chemical
+    Calculations to Machine Learning'
+  description: 'Chem. Commun., 2026, Accepted ManuscriptDOI: 10.1039/D6CC00685J, Feature
+    ArticleYi Zeng, Shichen Zhang, Wen-Yu Guo, Xiao-Yan ZhengOrganic luminescent materials
+    have gathered significant attentions for their pivotal roles in optoelectronic
+    devices, ch'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc00685j
+  date: '2026-03-19'
+  source: Royal Society of Chemistry
+- title: Walmart Secures Machine Learning Patents for Pricing Items
+  description: Walmart has secured U.S. patents for two systems that would use machine
+    learning to inform the company’s pricing, the Financial Times reported Wednesday
+    (March 18). One patent is for a “system and method for dynamically and automatically
+    updating ite
+  url: https://www.pymnts.com/walmart/2026/walmart-secures-machine-learning-patents-for-pricing-items/
+  date: '2026-03-18'
+  source: pymnts.com
+- title: 2026 Data Scientist to Machine Learning Engineer Career Transition Guide
+    Released – Build Production AI Systems by Interview Kickstart
+  description: SANTA CLARA, CA, March 18, 2026 (GLOBE NEWSWIRE) -- Interview Kickstart
+    Releases In-Depth Career Transitions Guide on Moving from Data Scientist to Machine
+    Learning Engineer as Demand for Production AI Talent Accelerates.
+  url: https://www.globenewswire.com/news-release/2026/03/18/3258438/0/en/2026-Data-Scientist-to-Machine-Learning-Engineer-Career-Transition-Guide-Released-Build-Production-AI-Systems-by-Interview-Kickstart.html
+  date: '2026-03-18'
+  source: GlobeNewswire
+- title: 7 Readability Features for Your Next Machine Learning Model
+  description: Unlike fully structured tabular data, preparing text data for machine
+    learning models typically entails tasks like tokenization, embeddings, or sentiment
+    analysis.
+  url: https://machinelearningmastery.com/7-readability-features-for-your-next-machine-learning-model/
+  date: '2026-03-18'
+  source: Machinelearningmastery.com
+- title: TransUnion Strengthens Device Security with New Machine Learning Capabilities
+  description: Enhancements Strengthen Device Intelligence to Protect Consumers and
+    Businesses in an Evolving Threat Landscape Enhancements Strengthen Device Intelligence
+    to Protect Consumers and Businesses in an Evolving Threat Landscape
+  url: https://www.globenewswire.com/news-release/2026/03/18/3258133/0/en/TransUnion-Strengthens-Device-Security-with-New-Machine-Learning-Capabilities.html
+  date: '2026-03-18'
+  source: GlobeNewswire
+- title: Machine learning-guided scalable manufacturing of high-efficiency perovskite
+    solar modules
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA10235A,
+    PaperYuchen Bu, Junjie Gu, Yu Shen, Bairu Li, Cheng Hu, Jianning Ding, Long LuoThe
+    transition from lab-scale demonstrations to industrial production of perovskite
+    photovoltaics face'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta10235a
+  date: '2026-03-18'
+  source: Royal Society of Chemistry
+- title: A machine learning-assisted Cu-MOF/OPD/RB triple-emission ratiometric fluorescence
+    sensing platform for the detection and discrimination of glutathione
+  description: 'Analyst, 2026, Advance ArticleDOI: 10.1039/D6AN00116E, PaperShiwen
+    Wu, Shuqi Wang, Hui Xie, Yaxin Li, Hongzhi Lu, Shuzhen Zheng, Shuai Sun, Shoufang
+    XuPreparation of a Cu-MOF and the construction of a triple-emission ratiometric
+    fluorescent probe (A)'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00116e
+  date: '2026-03-18'
+  source: Royal Society of Chemistry
+- title: 'Machine Learning-Driven Multidimensional Tea Profiling from a Single SERS
+    Spectrum: Toward Practical Application'
+  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D6AN00093B, PaperJincheng
+    Ni, Yanyan Lu, Xuewen Chen, Haoming Bao, Yu Qiao, Shuai Zhang, Daoshuan Ding,
+    Jiamei Jin, Huaiyuan Zhao, Qian Zhao, Jinhua Wang, Hongwen Zhang, Weiping CaiMultidimensional
+    tea p'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00093b
+  date: '2026-03-18'
+  source: Royal Society of Chemistry
+- title: 'Machine learning-driven QSAR models for prediction of Metabolic mechanisms
+    and Thyroid hormone disrupting effects of emerging pollutants in human body: a
+    case study of Bisphenol analogues'
+  description: 'Environ. Sci.: Processes Impacts, 2026, Accepted ManuscriptDOI: 10.1039/D5EM00891C,
+    PaperZijian Wang, Qingzhu Zhang, Wenxing Wang, Qiao WangResearch on theoretical
+    prediction methods for the reaction mechanisms and thyroid hormone disrupting
+    effects '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/em/d5em00891c
+  date: '2026-03-18'
+  source: Royal Society of Chemistry
+- title: Resonate and New Blue Interactive Win Best Use of Analytics and Machine Learning
+    in Online Fundraising at Annual Reed Awards
+  description: 'Resonate and New Blue Interactive win the Reed Award for Best Use
+    of Analytics/ML in Fundraising: 277% targeting lift, 64% more raised per email....'
+  url: https://www.globenewswire.com/news-release/2026/03/17/3257485/0/en/Resonate-and-New-Blue-Interactive-Win-Best-Use-of-Analytics-and-Machine-Learning-in-Online-Fundraising-at-Annual-Reed-Awards.html
+  date: '2026-03-17'
+  source: GlobeNewswire
+- title: Machine learning identifies novel signatures of antifungal drug resistance
+    in Saccharomycotina yeasts
+  description: Author summary Resistance to drugs is a major challenge in the treatment
+    of fungal infections. Many fungi are naturally resistant to antifungal drugs,
+    but the genetic variants involved are poorly characterized. We employed machine
+    learning, structura
+  url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012091
+  date: '2026-03-17'
+  source: Plos.org
+- title: Explaining urban street perception inequities between residents and tourists
+    using interpretable machine learning
+  description: 'Understanding how different social groups perceive urban streets is
+    essential for inclusive and sustainable urban design. This study proposes an interpretable
+    and scalable machine learning framework that integrates Street View Images with
+    subjective '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345073
+  date: '2026-03-17'
+  source: Plos.org
+- title: 'AI vs. Machine Learning: Understanding the Differences and Real-World Applications'
+  description: Discover the key differences between artificial intelligence and machine
+    learning, explore real-world applications, and learn how to get started with AI
+    and ML technologies.
+  url: https://www.databricks.com/blog/ai-vs-machine-learning
+  date: '2026-03-17'
+  source: Databricks.com
+- title: How to Get Started with Machine Learning (2026 Implementation Guide)
+  description: 'Practical 2026 ML implementation guide: build your architecture, prepare
+    data, choose tools, and execute your first machine learning projects.'
+  url: https://flexiana.com/machine-learning-architecture/how-to-get-started-with-machine-learning-currentyear-implementation-guide
+  date: '2026-03-17'
+  source: Flexiana.com
+- title: 10 free AI and Machine Learning books you can read online in 2026
+  description: As interest in artificial intelligence continues to grow, several researchers
+    and universities have made high-quality AI and machine learning books freely available
+    online. These resources allow students and professionals to explore topics such
+    as de
+  url: https://timesofindia.indiatimes.com/education/news/10-free-ai-and-machine-learning-books-you-can-read-online-in-2026/articleshow/129625426.cms
+  date: '2026-03-17'
+  source: The Times of India
+- title: Machine Learning-Augmented Lateral Flow Assays for Point-of-Care Infectious
+    Disease Diagnostics
+  description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC01124H, Critical
+    Review Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Cagla Parmaksizoglu, Isil Cakiroglu, Nazente Atçeken, Eden '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc01124h
+  date: '2026-03-17'
+  source: Royal Society of Chemistry
+- title: 'Correction: Mechanism of RGD-conjugated nanodevice binding to its target
+    protein integrin αVβ3 by atomistic molecular dynamics and machine learning'
+  description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D6NR90037B, Correction
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Giulia Frigerio, Edoardo Donadoni, Paulo Siani, Jacopo Vertemara,
+    Stefano Motta, '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr90037b
+  date: '2026-03-17'
+  source: Royal Society of Chemistry
+- title: 'Correction: Machine learning for prompt estimation of macroseismic intensity
+    from seismometric data in Italy'
+  description: 'Scientific Reports - Correction: Machine learning for prompt estimation
+    of macroseismic intensity from seismometric data in Italy'
+  url: https://www.nature.com/articles/s41598-026-44475-8
+  date: '2026-03-17'
+  source: Nature.com
+- title: Machine learning-driven single-cell phenotyping in size-controlled microenvironments
+    via parallel deterministic droplet microfluidics
+  description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC00839E, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Sangmin Lee, Steven O''donnell, Zhangli Peng, Jae-Won ShinUnderstandin'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc00839e
+  date: '2026-03-17'
+  source: Royal Society of Chemistry
+- title: Micro-SORS and machine learning for the non-invasive reference-free study
+    of subsurface pigment degradation
+  description: 'Analyst, 2026, Advance ArticleDOI: 10.1039/D5AN01176K, PaperA. Lux,
+    J. Schlanz, A. Botteon, L. Monico, P. Matousek, R. I. Dima, C. Conti, P. StrobbiaThe
+    study presents the development of micro-spatially offset Raman spectroscopy (micro-SORS)
+    methods '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01176k
+  date: '2026-03-17'
+  source: Royal Society of Chemistry
+- title: 'Correction: Towards advanced mineral identification for future space mining
+    applications employing LIBS and machine learning'
+  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA90012G,
+    Correction Open Access &nbsp This article is licensed under a Creative Commons
+    Attribution 3.0 Unported Licence.Homa Saeidfirozeh, Ashwin Kumar Myakalwar, Pavlína
+    Šeborová, Ján Žab'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja90012g
+  date: '2026-03-17'
+  source: Royal Society of Chemistry
+- title: 'Machine learning for RNA secondary structure prediction: a review of current
+    methods and challenges [PERSPECTIVE]'
+  description: Predicting the secondary structure of RNA is a core challenge in computational
+    biology, essential for understanding molecular function and designing novel therapeutics.
+    The field has evolved from foundational but accuracy-limited thermodynamic approa
+  url: https://rnajournal.cshlp.org/content/32/4/443.short?rss=1
+  date: '2026-03-16'
+  source: Cshlp.org
+- title: 'BCMI-Driven Motion Control Detection: EEG-Based Machine Learning and Interaction
+    Entropy for High-Order Brain Networks'
+  description: This study investigates the cognitive motor control detection and the
+    underlying neuroregulatory mechanisms during music-assisted simulated driving.
+    Using a dynamic higher-order network model constructed with EEG-based cross-information
+    entropy, we q
+  url: https://arxiv.org/abs/2603.15208
+  date: '2026-03-16'
+  source: Arxiv.org
+- title: A Visual Introduction to Machine Learning
+  description: 'Article URL: https://r2d3.us/visual-intro-to-machine-learning-part-1/
+
+    Comments URL: https://news.ycombinator.com/item?id=47386116
+
+    Points: 3
+
+    # Comments: 0'
+  url: https://r2d3.us/visual-intro-to-machine-learning-part-1/
+  date: '2026-03-15'
+  source: R2d3.us
 - title: '[FREE EBOOKS] Machine Learning and AI for Absolute Beginners, Unified SecOps
     Playbook & Four More Best Selling Titles'
   description: 'Hello fellow geeks, Fresh offers await you on our Information Technology

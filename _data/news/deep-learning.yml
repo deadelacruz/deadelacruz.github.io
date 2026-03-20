@@ -1,4 +1,62 @@
 news_items:
+- title: 'TransCNN: a hybrid deep learning model for detecting honey adulteration
+    by LED-induced fluorescence spectroscopy'
+  description: 'Anal. Methods, 2026, Advance ArticleDOI: 10.1039/D5AY02014J, PaperZhijian
+    Liu, Lanjun Sun, Xiongfei Meng, Le Li, Lin WangA hybrid TransCNN model integrates
+    convolutional feature extraction with transformer-based global attention, enabling
+    rapid and a'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d5ay02014j
+  date: '2026-03-19'
+  source: Royal Society of Chemistry
+- title: 'SiaCon-DetNet with HySHO: a cutting-edge transformer-based deep learning
+    framework for emotion-aware facial recognition'
+  description: 'Scientific Reports - SiaCon-DetNet with HySHO: a cutting-edge transformer-based
+    deep learning framework for emotion-aware facial recognition'
+  url: https://www.nature.com/articles/s41598-026-41890-9
+  date: '2026-03-19'
+  source: Nature.com
+- title: Canine gait analysis using inertial sensors and deep learning for orthopedic
+    and neurological disorders
+  description: Scientific Reports - Canine gait analysis using inertial sensors and
+    deep learning for orthopedic and neurological disorders
+  url: https://www.nature.com/articles/s41598-026-40717-x
+  date: '2026-03-18'
+  source: Nature.com
+- title: Multimodal ion-gated transistor based on 2D superionic conductor for in-memory
+    computing in deep learning
+  description: The authors report a CdPS3-Li multimodal ion-gated transistor that
+    combines linear, non-volatile electrical states with light-driven nonlinear synaptic
+    responses, enabling both multiply-accumulate operations and activation functions
+    within a single d
+  url: https://www.nature.com/articles/s41467-026-70587-w
+  date: '2026-03-18'
+  source: Nature.com
+- title: 'Retraction Note: LungGANDetectAI: a GAN-augmented and attention-guided deep
+    learning framework for accurate and explainable lung cancer detection'
+  description: 'Scientific Reports - Retraction Note: LungGANDetectAI: a GAN-augmented
+    and attention-guided deep learning framework for accurate and explainable lung
+    cancer detection'
+  url: https://www.nature.com/articles/s41598-026-44623-0
+  date: '2026-03-17'
+  source: Nature.com
+- title: 'Deep learning for RNA secondary structure determination: gauging generalizability
+    and broadening the scope of traditional methods [PERSPECTIVE]'
+  description: The diverse regulatory functions, protein production capacity, and
+    stability of natural and synthetic RNAs are closely tied to their ability to fold
+    into intricate structures. Determining RNA structure is thus fundamental to RNA
+    biology and bioengine
+  url: https://rnajournal.cshlp.org/content/32/4/428.short?rss=1
+  date: '2026-03-16'
+  source: Cshlp.org
+- title: 'Deep learning–driven image captioning: Progress through transformers and
+    large language models'
+  description: This paper provides a novel deep learning model for captioning of images
+    by using an advanced vision transformer architecture with a powerful LLM. Proposed
+    models show a significant improvement over traditional CNN-RNN hybrids and existing
+    transforme
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345012
+  date: '2026-03-16'
+  source: Plos.org
 - title: The role of low-complexity repeats in RNA–RNA interactions and a deep learning
     framework for duplex prediction
   description: Interactions between long RNA molecules play essential roles in shaping
