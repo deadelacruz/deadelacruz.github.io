@@ -1,4 +1,4 @@
-name: Cleanup Old Workflow Runs
+﻿name: Cleanup Old Workflow Runs
 
 # This workflow automatically discovers and cleans up old workflow runs.
 # Retention is configured per-workflow via .github/workflows/.cleanup-config.json
@@ -24,9 +24,9 @@ on:
     # Trigger automatically after workflows complete successfully
     # Note: GitHub Actions requires at least one workflow name here, and a workflow
     # cannot listen to itself.
-    # Cleanup logic is fully dynamic and will discover and clean ALL workflows automatically.
-    # When triggered, it cleans up ALL workflows (not just the one that triggered it)
-    # This ensures any workflow you add in the future will be automatically cleaned up
+    # Workflow-run triggers are limited to the workflow names listed below.
+    # Once triggered, cleanup logic discovers and cleans ALL workflows dynamically.
+    # Scheduled/manual runs are still the catch-all path for every workflow.
     workflows: 
       - "Update News Every 12 Hours"
       - "pages build and deployment"
@@ -58,11 +58,11 @@ jobs:
         run: |
           CONFIG_FILE=".github/workflows/.cleanup-config.json"
           
-          echo "📋 Loading retention configuration from $CONFIG_FILE..."
+          echo " Loading retention configuration from $CONFIG_FILE..."
           
           # Check if config file exists
           if [ ! -f "$CONFIG_FILE" ]; then
-            echo "⚠️  Configuration file not found: $CONFIG_FILE"
+            echo "  Configuration file not found: $CONFIG_FILE"
             echo "   Using default retention: 10 runs per workflow"
             echo "default_retention=10" >> $GITHUB_OUTPUT
             echo "config_valid=false" >> $GITHUB_OUTPUT
@@ -71,7 +71,7 @@ jobs:
           
           # Validate JSON syntax
           if ! jq empty "$CONFIG_FILE" 2>/dev/null; then
-            echo "⚠️  Invalid JSON in configuration file: $CONFIG_FILE"
+            echo "  Invalid JSON in configuration file: $CONFIG_FILE"
             echo "   Using default retention: 10 runs per workflow"
             echo "default_retention=10" >> $GITHUB_OUTPUT
             echo "config_valid=false" >> $GITHUB_OUTPUT
@@ -83,7 +83,7 @@ jobs:
           
           # Validate default is a positive integer
           if ! echo "$DEFAULT_RETENTION" | grep -qE '^[1-9][0-9]*$'; then
-            echo "⚠️  Invalid default retention value: '$DEFAULT_RETENTION'. Using 10 instead."
+            echo "  Invalid default retention value: '$DEFAULT_RETENTION'. Using 10 instead."
             DEFAULT_RETENTION="10"
           fi
           
@@ -94,27 +94,27 @@ jobs:
           echo "config_json=$(echo "$CONFIG_B64")" >> $GITHUB_OUTPUT
           echo "config_valid=true" >> $GITHUB_OUTPUT
           
-          echo "✓ Configuration loaded successfully"
+          echo " Configuration loaded successfully"
           echo "  Default retention: $DEFAULT_RETENTION runs"
           
           # Display per-workflow retention rules
           echo ""
-          echo "📋 Per-workflow retention rules:"
+          echo " Per-workflow retention rules:"
           jq -r '.retention | to_entries[] | "  - \(.key): \(.value) runs"' "$CONFIG_FILE" 2>/dev/null || echo "  (No custom rules defined)"
           
           # Validate all retention values in config
           echo ""
-          echo "🔍 Validating retention values..."
+          echo " Validating retention values..."
           INVALID_COUNT=0
           while IFS='|' read -r workflow_name retention_value; do
             if ! echo "$retention_value" | grep -qE '^[1-9][0-9]*$'; then
-              echo "  ⚠️  Invalid retention for '$workflow_name': '$retention_value' (will use default)"
+              echo "    Invalid retention for '$workflow_name': '$retention_value' (will use default)"
               INVALID_COUNT=$((INVALID_COUNT + 1))
             fi
           done < <(jq -r '.retention | to_entries[] | "\(.key)|\(.value)"' "$CONFIG_FILE" 2>/dev/null)
           
           if [ "$INVALID_COUNT" -eq 0 ]; then
-            echo "  ✓ All retention values are valid"
+            echo "   All retention values are valid"
           fi
 
       - name: Set manual keep runs override (if provided)
@@ -126,17 +126,17 @@ jobs:
           if [ -n "$MANUAL_KEEP_RUNS" ]; then
             # Validate that it's a positive integer
             if ! echo "$MANUAL_KEEP_RUNS" | grep -qE '^[1-9][0-9]*$'; then
-              echo "⚠️  Invalid keep_runs value: '$MANUAL_KEEP_RUNS'. Must be a positive integer."
+              echo "  Invalid keep_runs value: '$MANUAL_KEEP_RUNS'. Must be a positive integer."
               echo "   Ignoring manual override, using configuration file values"
               echo "has_override=false" >> $GITHUB_OUTPUT
             else
               echo "has_override=true" >> $GITHUB_OUTPUT
               echo "override_value=$MANUAL_KEEP_RUNS" >> $GITHUB_OUTPUT
-              echo "✓ Manual override provided: Will keep $MANUAL_KEEP_RUNS runs for ALL workflows"
+              echo " Manual override provided: Will keep $MANUAL_KEEP_RUNS runs for ALL workflows"
             fi
           else
             echo "has_override=false" >> $GITHUB_OUTPUT
-            echo "✓ Using configuration file retention values"
+            echo " Using configuration file retention values"
           fi
 
       - name: Determine trigger source and target workflows
@@ -155,13 +155,13 @@ jobs:
             TRIGGERING_WORKFLOW_ID="${{ github.event.workflow_run.id }}"
             TRIGGERING_STATUS="${{ github.event.workflow_run.conclusion }}"
             
-            echo "🔍 Triggered by workflow_run: $TRIGGERING_WORKFLOW (ID: $TRIGGERING_WORKFLOW_ID)"
+            echo " Triggered by workflow_run: $TRIGGERING_WORKFLOW (ID: $TRIGGERING_WORKFLOW_ID)"
             echo "   Workflow status: $TRIGGERING_STATUS"
             
             # Only proceed with cleanup if the triggering workflow succeeded
             # This prevents cleanup after failed runs, keeping failed runs for debugging
             if [ "$TRIGGERING_STATUS" != "success" ]; then
-              echo "⚠️  Triggering workflow did not succeed (status: $TRIGGERING_STATUS)"
+              echo "  Triggering workflow did not succeed (status: $TRIGGERING_STATUS)"
               echo "   Skipping cleanup to preserve failed runs for debugging"
               SKIP_CLEANUP="true"
               echo "skip_cleanup=true" >> $GITHUB_OUTPUT
@@ -172,28 +172,28 @@ jobs:
               exit 0
             fi
             
-            echo "✓ Triggering workflow succeeded, proceeding with cleanup"
+            echo " Triggering workflow succeeded, proceeding with cleanup"
             
             # Clean up ALL workflows dynamically (not just the triggering one)
             # This ensures that any workflow you run manually will trigger cleanup for all workflows
             TARGET_WORKFLOW_ID=""
             TARGET_WORKFLOW_NAME="all"
-            echo "✓ Will dynamically discover and clean up ALL workflows in the repository"
+            echo " Will dynamically discover and clean up ALL workflows in the repository"
           elif [ "${{ github.event_name }}" = "schedule" ]; then
             TRIGGER_TYPE="schedule"
             TARGET_WORKFLOW_ID=""
             TARGET_WORKFLOW_NAME="all"
-            echo "🔍 Triggered by schedule: Will dynamically discover and clean up ALL workflows"
+            echo " Triggered by schedule: Will dynamically discover and clean up ALL workflows"
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             TRIGGER_TYPE="manual"
             TARGET_WORKFLOW_ID=""
             TARGET_WORKFLOW_NAME="all"
-            echo "🔍 Triggered manually: Will dynamically discover and clean up ALL workflows"
+            echo " Triggered manually: Will dynamically discover and clean up ALL workflows"
           else
             TRIGGER_TYPE="unknown"
             TARGET_WORKFLOW_ID=""
             TARGET_WORKFLOW_NAME="all"
-            echo "⚠️  Unknown trigger type: ${{ github.event_name }}"
+            echo "  Unknown trigger type: ${{ github.event_name }}"
             echo "   Defaulting to clean up all workflows"
           fi
           
@@ -209,7 +209,7 @@ jobs:
       - name: Discover all workflows dynamically
         id: discover-workflows
         run: |
-          echo "🔍 Dynamically discovering all workflows in the repository..."
+          echo " Dynamically discovering all workflows in the repository..."
           echo ""
           
           # Fetch all workflows from the repository
@@ -220,7 +220,7 @@ jobs:
           
           # Extract workflow count
           TOTAL_WORKFLOWS=$(echo "$ALL_WORKFLOWS" | jq -r '.total_count // 0')
-          echo "📊 Found $TOTAL_WORKFLOWS workflow(s) in the repository"
+          echo " Found $TOTAL_WORKFLOWS workflow(s) in the repository"
           echo ""
           
           # Create a JSON array of all workflow IDs and names
@@ -228,7 +228,7 @@ jobs:
           WORKFLOWS_JSON=$(echo "$ALL_WORKFLOWS" | jq -c '[.workflows[] | {id: .id, name: .name, path: .path}]')
           
           # Display discovered workflows
-          echo "📋 Discovered workflows:"
+          echo " Discovered workflows:"
           echo "$ALL_WORKFLOWS" | jq -r '.workflows[] | "  - \(.name) (ID: \(.id), Path: \(.path))"'
           echo ""
           
@@ -237,7 +237,7 @@ jobs:
           echo "workflows_json=$(echo "$WORKFLOWS_JSON" | base64 -w 0)" >> $GITHUB_OUTPUT
           echo "total_workflows=$TOTAL_WORKFLOWS" >> $GITHUB_OUTPUT
           
-          echo "✓ Workflow discovery complete"
+          echo " Workflow discovery complete"
 
       - name: Cleanup workflow runs
         id: cleanup-runs
@@ -263,7 +263,7 @@ jobs:
             CONFIG_JSON="{}"
           fi
           
-          echo "🎯 Cleanup mode: $TRIGGER_TYPE"
+          echo " Cleanup mode: $TRIGGER_TYPE"
           if [ -n "$TARGET_WORKFLOW_ID" ] && [ "$TARGET_WORKFLOW_ID" != "" ]; then
             echo "   Target: Single workflow (ID: $TARGET_WORKFLOW_ID, Name: $TARGET_WORKFLOW_NAME)"
           else
@@ -271,9 +271,9 @@ jobs:
           fi
           
           if [ "$HAS_OVERRIDE" = "true" ]; then
-            echo "   ⚠️  Manual override active: ALL workflows will keep $OVERRIDE_VALUE runs"
+            echo "     Manual override active: ALL workflows will keep $OVERRIDE_VALUE runs"
           else
-            echo "   📋 Using per-workflow retention from configuration file"
+            echo "    Using per-workflow retention from configuration file"
           fi
           echo ""
           
@@ -309,39 +309,56 @@ jobs:
             local workflow_name="$2"
             
             if [ -z "$workflow_id" ] || [ "$workflow_id" = "null" ] || [ "$workflow_id" = "" ]; then
-              echo "⚠️  Skipping workflow (invalid ID)"
+              echo "Skipping workflow (invalid ID)"
               return 0
             fi
             
             # Get the retention value for this specific workflow
             local KEEP_RUNS=$(get_retention_for_workflow "$workflow_name")
             
-            echo "🧹 Cleaning up '$workflow_name' workflow runs (keeping last $KEEP_RUNS runs)..."
-            
-            # Get workflow runs (first page, 100 per page)
-            RUNS_RESPONSE=$(curl -s \
-              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              -H "Accept: application/vnd.github.v3+json" \
-              "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$workflow_id/runs?per_page=100")
-            
-            # Check if we got a valid response
-            TOTAL_COUNT=$(echo "$RUNS_RESPONSE" | jq -r '.total_count // 0')
-            echo "  Total runs found: $TOTAL_COUNT"
-            
-            if [ "$TOTAL_COUNT" -le "$KEEP_RUNS" ]; then
-              echo "  ✓ Only $TOTAL_COUNT runs found, which is less than or equal to $KEEP_RUNS. Nothing to delete."
-              echo ""
-              return 0
-            fi
-            
-            # Extract run IDs, skipping the first KEEP_RUNS
-            RUN_IDS=$(echo "$RUNS_RESPONSE" | jq -r ".workflow_runs[$KEEP_RUNS:] | .[].id")
+            echo "Cleaning up '$workflow_name' workflow runs (keeping last $KEEP_RUNS runs)..."
             
             DELETED_COUNT=0
             FAILED_COUNT=0
+            PROCESSED_COUNT=0
+            PAGE=1
+            TOTAL_COUNT=0
             
-            for RUN_ID in $RUN_IDS; do
-              if [ -n "$RUN_ID" ] && [ "$RUN_ID" != "null" ]; then
+            # Page through all workflow runs so cleanup works even when there are >100 runs.
+            while true; do
+              RUNS_RESPONSE=$(curl -s \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$workflow_id/runs?per_page=100&page=$PAGE")
+              
+              if [ "$PAGE" -eq 1 ]; then
+                TOTAL_COUNT=$(echo "$RUNS_RESPONSE" | jq -r '.total_count // 0')
+                echo "  Total runs found: $TOTAL_COUNT"
+                
+                if [ "$TOTAL_COUNT" -le "$KEEP_RUNS" ]; then
+                  echo "  Only $TOTAL_COUNT runs found, which is less than or equal to $KEEP_RUNS. Nothing to delete."
+                  echo ""
+                  return 0
+                fi
+              fi
+              
+              PAGE_RUN_COUNT=$(echo "$RUNS_RESPONSE" | jq -r '.workflow_runs | length')
+              if [ "$PAGE_RUN_COUNT" -eq 0 ]; then
+                break
+              fi
+              
+              PAGE_RUN_IDS=$(echo "$RUNS_RESPONSE" | jq -r '.workflow_runs[].id')
+              
+              for RUN_ID in $PAGE_RUN_IDS; do
+                if [ -z "$RUN_ID" ] || [ "$RUN_ID" = "null" ]; then
+                  continue
+                fi
+                
+                PROCESSED_COUNT=$((PROCESSED_COUNT + 1))
+                if [ "$PROCESSED_COUNT" -le "$KEEP_RUNS" ]; then
+                  continue
+                fi
+                
                 echo "  Deleting run ID: $RUN_ID"
                 HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
                   -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
@@ -350,21 +367,27 @@ jobs:
                 
                 if [ "$HTTP_CODE" = "204" ]; then
                   DELETED_COUNT=$((DELETED_COUNT + 1))
-                  echo "    ✓ Successfully deleted run $RUN_ID"
+                  echo "    Successfully deleted run $RUN_ID"
                 else
                   FAILED_COUNT=$((FAILED_COUNT + 1))
-                  echo "    ✗ Failed to delete run $RUN_ID (HTTP $HTTP_CODE)"
+                  echo "    Failed to delete run $RUN_ID (HTTP $HTTP_CODE)"
                 fi
                 
                 # Small delay to avoid rate limiting
                 sleep 0.3
+              done
+              
+              if [ "$PAGE_RUN_COUNT" -lt 100 ]; then
+                break
               fi
+              
+              PAGE=$((PAGE + 1))
             done
             
             echo ""
-            echo "  📊 Summary: Deleted $DELETED_COUNT old '$workflow_name' workflow runs"
+            echo "  Summary: Deleted $DELETED_COUNT old '$workflow_name' workflow runs"
             if [ "$FAILED_COUNT" -gt 0 ]; then
-              echo "  ⚠️  Failed to delete $FAILED_COUNT runs"
+              echo "  Failed to delete $FAILED_COUNT runs"
             fi
             echo ""
           }
@@ -372,11 +395,11 @@ jobs:
           # Determine which workflows to clean up
           if [ -n "$TARGET_WORKFLOW_ID" ] && [ "$TARGET_WORKFLOW_ID" != "" ]; then
             # Clean up only the triggering workflow
-            echo "🎯 Cleaning up single workflow: $TARGET_WORKFLOW_NAME"
+            echo " Cleaning up single workflow: $TARGET_WORKFLOW_NAME"
             cleanup_workflow "$TARGET_WORKFLOW_ID" "$TARGET_WORKFLOW_NAME"
           else
             # Clean up ALL discovered workflows
-            echo "🎯 Cleaning up ALL discovered workflows..."
+            echo " Cleaning up ALL discovered workflows..."
             echo ""
             
             TOTAL_WORKFLOWS_CLEANED=0
@@ -398,14 +421,14 @@ jobs:
               TOTAL_WORKFLOWS_CLEANED=$((TOTAL_WORKFLOWS_CLEANED + 1))
             done
             
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-            echo "🎉 Completed cleanup for $TOTAL_WORKFLOWS_CLEANED workflow(s)"
-            echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+            echo ""
+            echo " Completed cleanup for $TOTAL_WORKFLOWS_CLEANED workflow(s)"
+            echo ""
             
             if [ "$HAS_OVERRIDE" = "true" ]; then
-              echo "ℹ️  Note: Manual override was active - all workflows used retention value: $OVERRIDE_VALUE"
+              echo "  Note: Manual override was active - all workflows used retention value: $OVERRIDE_VALUE"
             else
-              echo "ℹ️  Note: Per-workflow retention values from configuration file were applied"
+              echo "  Note: Per-workflow retention values from configuration file were applied"
             fi
           fi
 
@@ -419,7 +442,7 @@ jobs:
           
           # Check if cleanup was skipped
           if [ "$SKIP_CLEANUP" = "true" ]; then
-            echo "⏭️  Cleanup skipped" >> $GITHUB_STEP_SUMMARY
+            echo "  Cleanup skipped" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             echo "**Reason:** Triggering workflow (\`$TRIGGERING_WORKFLOW\`) did not succeed" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
@@ -427,7 +450,7 @@ jobs:
             exit 0
           fi
           
-          echo "✅ Cleanup workflow completed successfully" >> $GITHUB_STEP_SUMMARY
+          echo " Cleanup workflow completed successfully" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           
           # Describe trigger source
@@ -475,16 +498,16 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "---" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "## 🚀 Fully Dynamic Cleanup with Per-Workflow Retention" >> $GITHUB_STEP_SUMMARY
+          echo "##  Fully Dynamic Cleanup with Per-Workflow Retention" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "This workflow **automatically discovers and cleans up ALL workflows** in your repository:" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **🔍 Dynamic Discovery:** Automatically finds all workflows - no manual configuration needed" >> $GITHUB_STEP_SUMMARY
-          echo "- **📋 Per-Workflow Retention:** Configure custom retention per workflow in \`.github/workflows/.cleanup-config.json\`" >> $GITHUB_STEP_SUMMARY
-          echo "- **🔄 After Any Workflow:** Triggers after common workflows complete successfully" >> $GITHUB_STEP_SUMMARY
-          echo "- **⏰ Scheduled:** Twice daily at 2:00 AM and 2:00 PM UTC (10:00 AM and 10:00 PM Philippine Time)" >> $GITHUB_STEP_SUMMARY
-          echo "- **👆 Manual:** Can be triggered manually with optional \`keep_runs\` override (applies to all workflows)" >> $GITHUB_STEP_SUMMARY
-          echo "- **🆕 Future-Proof:** Any new workflow you add will be automatically included - just add it to the config file for custom retention!" >> $GITHUB_STEP_SUMMARY
+          echo "- ** Dynamic Discovery:** Automatically finds all workflows - no manual configuration needed" >> $GITHUB_STEP_SUMMARY
+          echo "- ** Per-Workflow Retention:** Configure custom retention per workflow in \`.github/workflows/.cleanup-config.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "- ** After Listed Workflows:** Triggers after listed workflows complete successfully" >> $GITHUB_STEP_SUMMARY
+          echo "- ** Scheduled:** Twice daily at 2:00 AM and 2:00 PM UTC (10:00 AM and 10:00 PM Philippine Time)" >> $GITHUB_STEP_SUMMARY
+          echo "- ** Manual:** Can be triggered manually with optional \`keep_runs\` override (applies to all workflows)" >> $GITHUB_STEP_SUMMARY
+          echo "- ** Future-Proof:** Any new workflow you add will be automatically included - just add it to the config file for custom retention!" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "> **Note:** Failed workflow runs are preserved for debugging. Cleanup only runs after successful completions." >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
@@ -500,3 +523,4 @@ jobs:
           echo "  \"default\": 10" >> $GITHUB_STEP_SUMMARY
           echo "}" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
+

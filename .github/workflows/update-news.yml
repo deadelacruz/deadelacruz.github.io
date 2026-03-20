@@ -66,7 +66,7 @@ jobs:
       - name: Update timestamp
         if: steps.update-news.outputs.did_update == 'true'
         run: |
-          TZ='Asia/Manila' timestamp=$(date +'%Y-%m-%d %I:%M:%S %p')" GMT +8"
+          timestamp=$(TZ='Asia/Manila' date +'%Y-%m-%d %I:%M:%S %p')" GMT +8"
           echo "last_updated: \"$timestamp\"" > _data/news_last_updated.yml
           echo "Updated timestamp: $timestamp"
 

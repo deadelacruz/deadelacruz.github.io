@@ -35,6 +35,12 @@ def test_update_news_workflow_uses_news_only_change_gate():
     assert "_data/news_last_updated.yml)" not in content
 
 
+def test_update_news_workflow_sets_timezone_on_date_command():
+    """Timestamp generation should set TZ directly on date command."""
+    content = _read(WORKFLOWS_DIR / "update-news.yml")
+    assert "timestamp=$(TZ='Asia/Manila' date +" in content
+
+
 def test_cleanup_workflow_does_not_listen_to_itself():
     """Cleanup workflow must never include itself in workflow_run triggers."""
     workflow = yaml.safe_load(_read(WORKFLOWS_DIR / "cleanup-old-runs.yml"))
@@ -49,6 +55,20 @@ def test_cleanup_invalid_count_uses_non_subshell_loop():
     content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
     assert "done < <(" in content
     assert "| while IFS='|'" not in content
+
+
+def test_cleanup_workflow_paginates_run_fetches():
+    """Cleanup should fetch all run pages, not only the first 100 runs."""
+    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
+    assert "page=$PAGE" in content
+    assert "PROCESSED_COUNT" in content
+
+
+def test_cleanup_summary_text_matches_trigger_scope():
+    """Summary copy should not claim trigger coverage beyond listed workflows."""
+    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
+    assert "After Listed Workflows" in content
+    assert "After Any Workflow" not in content
 
 
 def test_actions_are_sha_pinned_in_primary_workflows():
