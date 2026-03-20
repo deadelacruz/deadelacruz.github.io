@@ -209,35 +209,59 @@ jobs:
       - name: Discover all workflows dynamically
         id: discover-workflows
         run: |
-          echo " Dynamically discovering all workflows in the repository..."
+          echo "Dynamically discovering all workflows in the repository..."
           echo ""
-          
-          # Fetch all workflows from the repository
-          ALL_WORKFLOWS=$(curl -s \
-            -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            "https://api.github.com/repos/${{ github.repository }}/actions/workflows?per_page=100")
-          
-          # Extract workflow count
-          TOTAL_WORKFLOWS=$(echo "$ALL_WORKFLOWS" | jq -r '.total_count // 0')
-          echo " Found $TOTAL_WORKFLOWS workflow(s) in the repository"
-          echo ""
-          
-          # Create a JSON array of all workflow IDs and names
-          # This will be used for cleanup
-          WORKFLOWS_JSON=$(echo "$ALL_WORKFLOWS" | jq -c '[.workflows[] | {id: .id, name: .name, path: .path}]')
-          
+
+          PAGE=1
+          TOTAL_WORKFLOWS=0
+          ALL_WORKFLOWS_JSON='[]'
+
+          # Page through ALL workflows so repositories with >100 workflows are fully covered.
+          while true; do
+            PAGE_RESPONSE=$(curl -s \
+              -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+              -H "Accept: application/vnd.github.v3+json" \
+              "https://api.github.com/repos/${{ github.repository }}/actions/workflows?per_page=100&page=$PAGE")
+
+            if [ "$PAGE" -eq 1 ]; then
+              TOTAL_WORKFLOWS=$(echo "$PAGE_RESPONSE" | jq -r '.total_count // 0')
+              echo "Found $TOTAL_WORKFLOWS workflow(s) in the repository"
+              echo ""
+            fi
+
+            PAGE_WORKFLOWS_JSON=$(echo "$PAGE_RESPONSE" | jq -c '.workflows // []')
+            PAGE_WORKFLOW_COUNT=$(echo "$PAGE_WORKFLOWS_JSON" | jq 'length')
+
+            if [ "$PAGE_WORKFLOW_COUNT" -eq 0 ]; then
+              break
+            fi
+
+            ALL_WORKFLOWS_JSON=$(jq -cn \
+              --argjson current "$ALL_WORKFLOWS_JSON" \
+              --argjson page "$PAGE_WORKFLOWS_JSON" \
+              '$current + $page')
+
+            if [ "$PAGE_WORKFLOW_COUNT" -lt 100 ]; then
+              break
+            fi
+
+            PAGE=$((PAGE + 1))
+          done
+
+          # Create a compact JSON array with only fields used by cleanup.
+          WORKFLOWS_JSON=$(echo "$ALL_WORKFLOWS_JSON" | jq -c '[.[] | {id: .id, name: .name, path: .path}]')
+
           # Display discovered workflows
-          echo " Discovered workflows:"
-          echo "$ALL_WORKFLOWS" | jq -r '.workflows[] | "  - \(.name) (ID: \(.id), Path: \(.path))"'
+          echo "Discovered workflows:"
+          echo "$WORKFLOWS_JSON" | jq -r '.[] | "  - \(.name) (ID: \(.id), Path: \(.path))"'
           echo ""
-          
+
           # Save workflows JSON for use in cleanup step
           # Using base64 encoding to handle special characters and multi-line content
           echo "workflows_json=$(echo "$WORKFLOWS_JSON" | base64 -w 0)" >> $GITHUB_OUTPUT
           echo "total_workflows=$TOTAL_WORKFLOWS" >> $GITHUB_OUTPUT
-          
-          echo " Workflow discovery complete"
+
+          echo "Workflow discovery complete"
 
       - name: Cleanup workflow runs
         id: cleanup-runs
@@ -318,70 +342,74 @@ jobs:
             
             echo "Cleaning up '$workflow_name' workflow runs (keeping last $KEEP_RUNS runs)..."
             
-            DELETED_COUNT=0
-            FAILED_COUNT=0
-            PROCESSED_COUNT=0
-            PAGE=1
-            TOTAL_COUNT=0
-            
-            # Page through all workflow runs so cleanup works even when there are >100 runs.
+            local DELETED_COUNT=0
+            local FAILED_COUNT=0
+            local PAGE=1
+            local TOTAL_COUNT=0
+            local -a ALL_RUN_IDS=()
+
+            # First collect all run IDs (across all pages), then delete.
+            # This avoids page-shift skips caused by deleting while paginating.
             while true; do
               RUNS_RESPONSE=$(curl -s \
                 -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
                 -H "Accept: application/vnd.github.v3+json" \
                 "https://api.github.com/repos/${{ github.repository }}/actions/workflows/$workflow_id/runs?per_page=100&page=$PAGE")
-              
+
               if [ "$PAGE" -eq 1 ]; then
                 TOTAL_COUNT=$(echo "$RUNS_RESPONSE" | jq -r '.total_count // 0')
                 echo "  Total runs found: $TOTAL_COUNT"
-                
+
                 if [ "$TOTAL_COUNT" -le "$KEEP_RUNS" ]; then
                   echo "  Only $TOTAL_COUNT runs found, which is less than or equal to $KEEP_RUNS. Nothing to delete."
                   echo ""
                   return 0
                 fi
               fi
-              
+
               PAGE_RUN_COUNT=$(echo "$RUNS_RESPONSE" | jq -r '.workflow_runs | length')
               if [ "$PAGE_RUN_COUNT" -eq 0 ]; then
                 break
               fi
-              
-              PAGE_RUN_IDS=$(echo "$RUNS_RESPONSE" | jq -r '.workflow_runs[].id')
-              
-              for RUN_ID in $PAGE_RUN_IDS; do
-                if [ -z "$RUN_ID" ] || [ "$RUN_ID" = "null" ]; then
-                  continue
+
+              while IFS= read -r RUN_ID; do
+                if [ -n "$RUN_ID" ] && [ "$RUN_ID" != "null" ]; then
+                  ALL_RUN_IDS+=("$RUN_ID")
                 fi
-                
-                PROCESSED_COUNT=$((PROCESSED_COUNT + 1))
-                if [ "$PROCESSED_COUNT" -le "$KEEP_RUNS" ]; then
-                  continue
-                fi
-                
-                echo "  Deleting run ID: $RUN_ID"
-                HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
-                  -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-                  -H "Accept: application/vnd.github.v3+json" \
-                  "https://api.github.com/repos/${{ github.repository }}/actions/runs/$RUN_ID")
-                
-                if [ "$HTTP_CODE" = "204" ]; then
-                  DELETED_COUNT=$((DELETED_COUNT + 1))
-                  echo "    Successfully deleted run $RUN_ID"
-                else
-                  FAILED_COUNT=$((FAILED_COUNT + 1))
-                  echo "    Failed to delete run $RUN_ID (HTTP $HTTP_CODE)"
-                fi
-                
-                # Small delay to avoid rate limiting
-                sleep 0.3
-              done
-              
+              done < <(echo "$RUNS_RESPONSE" | jq -r '.workflow_runs[].id')
+
               if [ "$PAGE_RUN_COUNT" -lt 100 ]; then
                 break
               fi
-              
+
               PAGE=$((PAGE + 1))
+            done
+
+            local COLLECTED_COUNT=${#ALL_RUN_IDS[@]}
+            if [ "$COLLECTED_COUNT" -le "$KEEP_RUNS" ]; then
+              echo "  Only $COLLECTED_COUNT run IDs collected, nothing to delete."
+              echo ""
+              return 0
+            fi
+
+            for ((idx=KEEP_RUNS; idx<COLLECTED_COUNT; idx++)); do
+              RUN_ID="${ALL_RUN_IDS[$idx]}"
+              echo "  Deleting run ID: $RUN_ID"
+              HTTP_CODE=$(curl -s -o /dev/null -w "%{http_code}" -X DELETE \
+                -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
+                -H "Accept: application/vnd.github.v3+json" \
+                "https://api.github.com/repos/${{ github.repository }}/actions/runs/$RUN_ID")
+
+              if [ "$HTTP_CODE" = "204" ]; then
+                DELETED_COUNT=$((DELETED_COUNT + 1))
+                echo "    Successfully deleted run $RUN_ID"
+              else
+                FAILED_COUNT=$((FAILED_COUNT + 1))
+                echo "    Failed to delete run $RUN_ID (HTTP $HTTP_CODE)"
+              fi
+
+              # Small delay to avoid rate limiting
+              sleep 0.3
             done
             
             echo ""

@@ -78,27 +78,38 @@ function Get-CurrentBranch {
     return $branchName
 }
 
-function Get-GitStatusPaths {
+function Get-GitChangedPaths {
     param([Parameter(Mandatory = $true)][string]$GitExe)
-    $statusLines = & $GitExe status --porcelain
-    if ($LASTEXITCODE -ne 0) {
-        throw "Unable to read git status."
-    }
+    $allPaths = @()
 
-    $paths = @()
-    foreach ($line in $statusLines) {
-        if ($line.Length -lt 4) {
-            continue
-        }
-        $path = $line.Substring(3).Trim()
-        if ($path -match " -> ") {
-            $path = ($path -split " -> ")[-1].Trim()
-        }
-        if ($path) {
-            $paths += $path
-        }
+    # Unstaged tracked changes
+    $unstagedPaths = & $GitExe diff --name-only
+    if ($LASTEXITCODE -ne 0) {
+        throw "Unable to read unstaged git changes."
     }
-    return $paths
+    $allPaths += $unstagedPaths
+
+    # Staged tracked changes
+    $stagedPaths = & $GitExe diff --cached --name-only
+    if ($LASTEXITCODE -ne 0) {
+        throw "Unable to read staged git changes."
+    }
+    $allPaths += $stagedPaths
+
+    # Untracked files
+    $untrackedPaths = & $GitExe ls-files --others --exclude-standard
+    if ($LASTEXITCODE -ne 0) {
+        throw "Unable to read untracked git changes."
+    }
+    $allPaths += $untrackedPaths
+
+    # Normalize path separators and de-duplicate.
+    return @(
+        $allPaths |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+            ForEach-Object { $_.Trim().Replace('\', '/') } |
+            Sort-Object -Unique
+    )
 }
 
 function Is-AllowedWorkingTreePath {
@@ -178,8 +189,8 @@ try {
         throw "NEWSAPI_KEY is missing. Set it in user environment before running this task."
     }
 
-    $statusPaths = Get-GitStatusPaths -GitExe $gitExe
-    $blockedPaths = @($statusPaths | Where-Object { -not (Is-AllowedWorkingTreePath -Path $_) })
+    $changedPaths = Get-GitChangedPaths -GitExe $gitExe
+    $blockedPaths = @($changedPaths | Where-Object { -not (Is-AllowedWorkingTreePath -Path $_) })
     if ($blockedPaths.Count -gt 0) {
         Write-Log -Level "WARN" -Message "Skipping run. Found non-news working tree changes:"
         foreach ($path in $blockedPaths) {

@@ -58,10 +58,18 @@ def test_cleanup_invalid_count_uses_non_subshell_loop():
 
 
 def test_cleanup_workflow_paginates_run_fetches():
-    """Cleanup should fetch all run pages, not only the first 100 runs."""
+    """Cleanup should page all runs and delete from a collected snapshot."""
     content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
-    assert "page=$PAGE" in content
-    assert "PROCESSED_COUNT" in content
+    assert "runs?per_page=100&page=$PAGE" in content
+    assert "ALL_RUN_IDS" in content
+    assert "for ((idx=KEEP_RUNS; idx<COLLECTED_COUNT; idx++))" in content
+
+
+def test_cleanup_workflow_paginates_workflow_discovery():
+    """Workflow discovery must include pagination to handle >100 workflows."""
+    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
+    assert "actions/workflows?per_page=100&page=$PAGE" in content
+    assert "ALL_WORKFLOWS_JSON='[]'" in content
 
 
 def test_cleanup_summary_text_matches_trigger_scope():

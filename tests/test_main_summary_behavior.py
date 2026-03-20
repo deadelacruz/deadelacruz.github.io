@@ -5,7 +5,13 @@ import os
 from unittest.mock import patch
 
 import update_news
-from update_news import main, MSG_INFO_NO_API_CALLS, MSG_OK_UPDATE_COMPLETE, MSG_WARNING_UPDATE_ERRORS
+from update_news import (
+    main,
+    MSG_INFO_NO_API_CALLS,
+    MSG_OK_UPDATE_COMPLETE,
+    MSG_INFO_UPDATE_CACHED,
+    MSG_WARNING_UPDATE_ERRORS,
+)
 
 
 def test_main_no_api_calls_and_no_errors_is_not_reported_as_failure():
@@ -49,3 +55,42 @@ def test_main_no_api_calls_and_no_errors_is_not_reported_as_failure():
     # Ensure success summary is printed for the no-API-call success path.
     assert any(MSG_OK_UPDATE_COMPLETE in str(call.args[0]) for call in mock_info.call_args_list if call.args)
     assert any(MSG_INFO_NO_API_CALLS in str(call.args[0]) for call in mock_info.call_args_list if call.args)
+
+
+def test_main_error_summary_wins_even_when_rate_limited():
+    """When both errors and rate limiting happen, summary should remain warning-based."""
+    config = {
+        "api": {
+            "combine_topics_in_single_request": False,
+            "max_api_calls": 45,
+            "topic_delay_seconds": 0,
+        },
+        "date_range": {
+            "lookback_days": 1,
+            "exclude_today": True,
+            "exclude_today_offset_days": 1,
+            "retention_days": 30,
+        },
+        "metrics": {"export_to_json": False},
+        "news_sources": {
+            "demo-topic": {
+                "name": "Demo Topic",
+                "title_query": "Demo",
+            }
+        },
+    }
+
+    with patch.dict(os.environ, {"NEWSAPI_KEY": "demo-key"}, clear=False):
+        with patch("update_news.load_config", return_value=config), \
+             patch("update_news.process_topic", return_value=(False, True)), \
+             patch.object(update_news.logger, "warning") as mock_warning, \
+             patch.object(update_news.logger, "info") as mock_info:
+            main()
+
+    expected_warning = MSG_WARNING_UPDATE_ERRORS.format(count=1)
+    assert any(expected_warning in str(call.args[0]) for call in mock_warning.call_args_list if call.args)
+    assert not any(
+        MSG_INFO_UPDATE_CACHED in str(call.args[0])
+        for call in (mock_warning.call_args_list + mock_info.call_args_list)
+        if call.args
+    )

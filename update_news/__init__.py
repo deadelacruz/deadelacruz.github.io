@@ -1554,20 +1554,24 @@ def main():
     total_api_errors = sum(topic_stats.get('api_errors', 0) for topic_stats in metrics.topic_metrics.values())
     total_errors = error_count + total_api_errors
     logger.info(f"\n{METRICS_SEPARATOR}")
-    if rate_limited_flag['value']:
+    if total_errors > 0:
+        logger.warning(MSG_WARNING_UPDATE_ERRORS.format(count=total_errors))
+        logger.warning(f"   {MSG_WARNING_SOME_FAILED}")
+        if rate_limited_flag['value']:
+            logger.warning(f"   {MSG_INFO_RATE_LIMIT_QUOTA_MSG}")
+            logger.warning(f"   {MSG_INFO_CACHED_SERVED}")
+            logger.warning(f"   {MSG_INFO_NEXT_RUN_RESET}")
+    elif rate_limited_flag['value']:
         logger.info(MSG_INFO_UPDATE_CACHED)
         logger.info(f"   {MSG_INFO_RATE_LIMIT_QUOTA_MSG}")
         logger.info(f"   {MSG_INFO_CACHED_SERVED}")
         logger.info(f"   {MSG_INFO_NEXT_RUN_RESET}")
-    elif total_errors == 0:
+    else:
         logger.info(MSG_OK_UPDATE_COMPLETE)
         if api_call_count['total'] > 0:
             logger.info(f"   {MSG_INFO_FETCHED_DYNAMIC}")
         else:
             logger.info(f"   {MSG_INFO_NO_API_CALLS}")
-    else:
-        logger.warning(MSG_WARNING_UPDATE_ERRORS.format(count=total_errors))
-        logger.warning(f"   {MSG_WARNING_SOME_FAILED}")
     logger.info(f"{METRICS_SEPARATOR}")
     
     # Print metrics
