@@ -42,6 +42,20 @@ show_author_education_details: true
 
 # Experiences
 author_work_experiences:
+            - company_name: Metrobank
+              company_logo: Metrobank.png
+              company_url: https://www.metrobank.com.ph/home
+              designation: Senior Fullstack Java Developer
+              description: |-
+                - Application Development: Write high-quality, clean code for both frontend and backend systems, specifically using Java 8+, Spring Boot, and modern JavaScript frameworks (React, Angular, or Vue)
+                - Microservices & API Development: Design and implement REST APIs and microservices to support digital banking applications
+                - System Integration & Design: Collaborate with backend/frontend developers to provide end-to-end solutions, including documentation of system designs and technical specifications
+                - Database Management: Manage database integration and write complex queries using SQL (Oracle/MySQL) and NoSQL databases (MongoDB, Redis)
+                - Testing and Quality Assurance: Conduct unit testing, system integration testing (SIT), and user acceptance testing (UAT) to ensure application stability.
+                - DevOps & Deployment: Utilize DevOps tools such as Git, Jenkins, Docker, and Kubernetes for CI/CD processes
+                - Collaboration & Agile Practices: Work in an Agile/Scrum environment, liaising with stakeholders, business analysts, and product owners to meet project timelines and requirements
+                - Security & Compliance: Ensure all developments adhere to bank security guidelines and data privacy regulations
+              visibility: true
             - company_name: TradeX Network Inc.
               company_logo: TradeX.jpg
               company_url: https://web.facebook.com/ascentsolutions.ph.inc
@@ -93,21 +107,6 @@ author_work_experiences:
                 - Identify bottlenecks and issues to devise solution and optimization to address the problem using Jenkins
                 - Provide maintenance and production support to the existing application
               visibility: true
-            - company_name: Metrobank
-              company_logo: Metrobank.png
-              company_url: https://www.metrobank.com.ph/home
-              designation: Senior Fullstack Java Developer
-              description: |-
-                - Application Development: Write high-quality, clean code for both frontend and backend systems, specifically using Java 8+, Spring Boot, and modern JavaScript frameworks (React, Angular, or Vue)
-                - Microservices & API Development: Design and implement REST APIs and microservices to support digital banking applications
-                - System Integration & Design: Collaborate with backend/frontend developers to provide end-to-end solutions, including documentation of system designs and technical specifications
-                - Database Management: Manage database integration and write complex queries using SQL (Oracle/MySQL) and NoSQL databases (MongoDB, Redis)
-                - Testing and Quality Assurance: Conduct unit testing, system integration testing (SIT), and user acceptance testing (UAT) to ensure application stability.
-                - DevOps & Deployment: Utilize DevOps tools such as Git, Jenkins, Docker, and Kubernetes for CI/CD processes
-                - Collaboration & Agile Practices: Work in an Agile/Scrum environment, liaising with stakeholders, business analysts, and product owners to meet project timelines and requirements
-                - Security & Compliance: Ensure all developments adhere to bank security guidelines and data privacy regulations
-              visibility: true
-
 # Education
 author_education_details:
               - college_logo: philsca.png
@@ -186,4 +185,3 @@ author_skills:
   - name: SQL/NoSQL Databases
     level: 85
     visibility: true
-
