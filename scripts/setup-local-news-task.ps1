@@ -4,6 +4,7 @@ param(
     [string]$RepoRoot = "",
     [string]$Branch = "",
     [string]$NewsApiKey = "",
+    [switch]$UseS4U,
     [switch]$SkipVenvSetup,
     [switch]$RunNow
 )
@@ -183,12 +184,18 @@ try {
     $triggerEvening = New-ScheduledTaskTrigger -Daily -At "20:00"
     $settings = New-ScheduledTaskSettingsSet -StartWhenAvailable -MultipleInstances IgnoreNew
     $userId = "$env:USERDOMAIN\$env:USERNAME"
-    try {
-        $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType S4U -RunLevel Limited
-        Write-SetupLog -Message "Using S4U logon type so task can run even when you are logged out."
-    } catch {
-        Write-SetupLog -Level "WARN" -Message "S4U logon type is unavailable on this machine. Falling back to Interactive."
+    if ($UseS4U) {
+        try {
+            $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType S4U -RunLevel Limited
+            Write-SetupLog -Message "Using S4U logon type so task can run even when you are logged out."
+        } catch {
+            Write-SetupLog -Level "WARN" -Message "S4U logon type is unavailable on this machine. Falling back to Interactive."
+            $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType Interactive -RunLevel Limited
+        }
+    } else {
         $principal = New-ScheduledTaskPrincipal -UserId $userId -LogonType Interactive -RunLevel Limited
+        Write-SetupLog -Message "Using Interactive logon type for reliable git credential access."
+        Write-SetupLog -Message "Tip: re-run setup with -UseS4U if you need runs while logged out."
     }
 
     Register-ScheduledTask `

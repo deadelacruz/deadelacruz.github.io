@@ -8,10 +8,10 @@ name: "Jekyll CI"
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [master]
+    branches: [master, main]
   pull_request:
     # The branches below must be a subset of the branches above
-    branches: [master]
+    branches: [master, main]
   # Triggers the workflow on push or pull request events but only for the main branch
   schedule:
     # Runs at 6am UTC every Monday
@@ -26,12 +26,12 @@ jobs:
     # Check that the Jekyll can actually build
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Build the site in the jekyll-docker container
         run: |
           docker run \
           -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jvconseil/jekyll-docker:4.3.3 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+          jvconseil/jekyll-docker@sha256:302ca25df72692e495b73ad3ac33220c0736379b64f100a2e8639bd63d6e46b2 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
       # - name: Build the site in the jekyll/builder container
       #   run: |
@@ -52,9 +52,9 @@ jobs:
     # Check markdown files are markdown-lint compliant
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
       - name: Lint markdown files with markdown-lint
-        uses: articulate/actions-markdownlint@v1.1.0
+        uses: articulate/actions-markdownlint@0192c450a5120d08c221e46b971885fec45e5d02 # v1.1.0
         with:
           # Includes some specific rules to ignore
           config: .github/workflows/markdownlint-config.json

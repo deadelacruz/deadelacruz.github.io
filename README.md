@@ -1,12 +1,10 @@
-# David Edward Dela Cruz – Portfolio Website
-
+﻿# David Edward Dela Cruz - Portfolio Website
 A modern developer portfolio powered by **Jekyll** on the frontend and a fully tested **Python news automation** pipeline on the backend.  
 It ships with a dynamic news system, blog, gallery, and deployment tooling that makes it easy to keep content fresh.
 
 ---
 
-## 🚀 Tech Stack
-
+## Tech Stack
 | Layer      | Tools |
 |-----------|-------|
 | **Frontend** | HTML5, Sass/CSS3, JavaScript, jQuery, Bootstrap, Font Awesome, Google Fonts |
@@ -17,8 +15,7 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 
 ---
 
-## 📰 Dynamic News System
-
+## Dynamic News System
 - Pulls fresh AI/ML news from **100+ trusted outlets** (Reuters, MIT Tech Review, Nature, IEEE, etc.).  
 - Topics are defined in `_data/news_config.yml` (Deep Learning, Machine Learning, Artificial Intelligence by default).  
 - **Exact phrase matching**: Searches for exact phrases only in article **titles** (e.g., "Deep Learning", "Machine Learning", "Artificial Intelligence") - case-insensitive, using NewsAPI's `qInTitle` parameter. This ensures only relevant articles are returned directly from the API, eliminating the need for post-processing filtering of content-only matches.  
@@ -27,25 +24,24 @@ It ships with a dynamic news system, blog, gallery, and deployment tooling that 
 - **Early stopping optimization**: Stops pagination early when enough articles are found or when duplicate threshold is reached, optimizing API usage.  
 - **Dynamic error handling**: Automatically detects and handles rate limit errors and result limit errors (free tier: 100 results max per query), gracefully stopping pagination while preserving available results.  
 - **Rate limiting & API tracking**: Tracks total API calls (default: max 45 per run), adds delays between topics/pages, and preserves existing articles if rate limits are hit.  
-- **Reader-friendly pagination**: The UI shows 10 articles per page by default (configurable via `_data/news_config.yml → ui.articles_per_page`) and provides Previous/Next controls that automatically scroll the reader back to the start of the news section when navigating between pages.  
+- **Reader-friendly pagination**: The UI shows 10 articles per page by default (configurable via `_data/news_config.yml -> ui.articles_per_page`) and provides Previous/Next controls that automatically scroll the reader back to the start of the news section when navigating between pages.  
 - Comprehensive logging, metrics (`_data/news_metrics.json`), and JSON/YAML outputs ensure transparency.
 
 ### How Fetching Works
-1. **Config** → `_data/news_config.yml` defines API settings, exact phrase queries (`title_query`), rate limiting, combined request mode, and output paths.  
-2. **CLI Wrapper** → `python -m update_news` (or `python update_news.py`) calls `run_cli()` which handles success/error exit codes.  
-3. **Request Mode** → 
+1. **Config** -> `_data/news_config.yml` defines API settings, exact phrase queries (`title_query`), rate limiting, combined request mode, and output paths.  
+2. **CLI Wrapper** -> `python -m update_news` (or `python update_news.py`) calls `run_cli()` which handles success/error exit codes.  
+3. **Request Mode** -> 
    - **Combined mode** (default): Fetches all topics in 1 API call using `qInTitle` parameter with OR operator (e.g., `"Deep Learning" OR "Machine Learning" OR "Artificial Intelligence"`), limited to 1 page (100 results max total). Returns only title matches directly from API, eliminating post-processing filtering. Articles automatically routed to topics.
    - **Separate mode**: Fetches each topic individually using `qInTitle` parameter (single phrase per request) with pagination support (up to 5 pages per topic, 500 articles max per topic), with delays between topics.
-4. **Rate Limiting** → Tracks API calls (default: max 45 per run), adds delays between topics/pages, dynamically detects rate limit errors, and preserves cached articles if limits are hit.  
-5. **Early Stopping** → Stops pagination when enough articles are found (default: 10) or when duplicate threshold is reached (default: 70%).  
-6. **Metrics** → Execution stats are exported automatically to `_data/news_metrics.json` and can be consumed by dashboards or CI.
+4. **Rate Limiting** -> Tracks API calls (default: max 45 per run), adds delays between topics/pages, dynamically detects rate limit errors, and preserves cached articles if limits are hit.  
+5. **Early Stopping** -> Stops pagination when enough articles are found (default: 10) or when duplicate threshold is reached (default: 70%).  
+6. **Metrics** -> Execution stats are exported automatically to `_data/news_metrics.json` and can be consumed by dashboards or CI.
 
 ---
 
-## 🛠️ Local Development
-
+## Local Development
 ### Prerequisites
-- Ruby ≥ 3.0 & Bundler ≥ 2.7  
+- Ruby >= 3.0 & Bundler >= 2.7  
 - Python 3.11+ (3.11 recommended, 3.10+ supported)  
 - Git
 
@@ -77,11 +73,11 @@ export NEWSAPI_KEY="your-api-key"        # Linux / macOS
 # PowerShell: $env:NEWSAPI_KEY="your-api-key"
 
 # 3. (Optional) Customize news_config.yml
-#    - Adjust exact phrase queries (title_query)
-#    - Configure rate limiting (max_api_calls, topic_delay_seconds)
-#    - Enable/disable combined request mode (combine_topics_in_single_request)
-#    - Configure early stopping (min_articles_per_topic, early_stop_duplicate_threshold)
-#    - Adjust pagination (max_pages, max_page_size, ui.articles_per_page)
+# - Adjust exact phrase queries (title_query)
+# - Configure rate limiting (max_api_calls, topic_delay_seconds)
+# - Enable/disable combined request mode (combine_topics_in_single_request)
+# - Configure early stopping (min_articles_per_topic, early_stop_duplicate_threshold)
+# - Adjust pagination (max_pages, max_page_size, ui.articles_per_page)
 
 # 4. Update all topics
 python update_news.py
@@ -100,8 +96,7 @@ Data lands in `_data/news/<topic>.yml`. Rebuild the Jekyll site to see the cards
 
 ---
 
-## 🧪 Testing & Quality
-
+## Testing and Quality
 The repo ships with a comprehensive pytest suite covering configuration parsing, exact phrase matching, metrics tracking, API integration, rate limiting, result limit handling, combined requests, file I/O, date calculations, and the CLI wrapper.
 
 ```bash
@@ -151,11 +146,10 @@ Configuration is in `.pre-commit-config.yaml`. To skip hooks for a commit, use `
 
 ---
 
-## 📦 Deployment
-
-- **GitHub Pages** (default) – build via GitHub Actions.  
-- **Other hosts** – the generated `_site` folder works out of the box on Netlify, Vercel, Firebase Hosting, etc.  
-- **Automation** – GitHub Actions workflow runs `python update_news.py` every 12 hours (aligned with NewsAPI quota reset cycle).  
+## Deployment
+- **GitHub Pages** (default) - build via GitHub Actions.  
+- **Other hosts** - the generated `_site` folder works out of the box on Netlify, Vercel, Firebase Hosting, etc.  
+- **Automation** - GitHub Actions workflow runs `python update_news.py` every 12 hours (aligned with NewsAPI quota reset cycle).  
   - Workflow file: `.github/workflows/update-news.yml`  
   - Runs at 00:00 and 12:00 UTC (8:00 AM and 8:00 PM Philippine Time)  
   - Requires `NEWSAPI_KEY` secret in repository settings  
@@ -177,6 +171,8 @@ Setup command (from repo root):
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\setup-local-news-task.ps1 -NewsApiKey "YOUR_NEWSAPI_KEY"
+# Optional for logged-out runs (can be less reliable for git credentialed pushes on some machines):
+# powershell -ExecutionPolicy Bypass -File .\scripts\setup-local-news-task.ps1 -NewsApiKey "YOUR_NEWSAPI_KEY" -UseS4U
 ```
 
 What setup does:
@@ -204,8 +200,7 @@ Notes:
 
 ---
 
-## ✨ Features
-
+## Features
 - Responsive, SEO-optimized portfolio + blog  
 - Dynamic news widgets per topic  
 - Gallery + project showcase  
@@ -225,8 +220,7 @@ Notes:
 
 ---
 
-## 👤 Author
-
+## Author
 **David Edward Dela Cruz**  
 - Site: [deadelacruz.github.io](https://deadelacruz.github.io)  
 - Email: david22edward@gmail.com  
@@ -234,6 +228,6 @@ Notes:
 
 ---
 
-## 📄 License
-
+## License
 MIT License
+

@@ -3,16 +3,17 @@ name: Build and Deploy to Github Pages
 on:
   push:
     branches:
+      - main
       - master # Here source code branch is `master`, it could be other branch
 
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       # Use GitHub Actions' cache to cache dependencies on servers
-      - uses: actions/cache@v4
+      - uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4
         with:
           path: |
             .asdf/**
@@ -23,8 +24,8 @@ jobs:
 
       # Use GitHub Deploy Action to build and deploy to Github
       # For latest version: `jeffreytse/jekyll-deploy-action@master`
-      - uses: jeffreytse/jekyll-deploy-action@v0.6.0
+      - uses: jeffreytse/jekyll-deploy-action@c1329290ab1cf2df48661ec1bea92e1d6990025b # v0.6.0
         with:
           provider: "github" # Default is github
-          token: ${{ secrets.GITHUB_TOKEN }} # It's your Personal Access Token(PAT)
+          token: ${{ secrets.GITHUB_TOKEN }} # Built-in token from GitHub Actions
           branch: "gh-pages" # Default is gh-pages for github provider

@@ -18,12 +18,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: '3.11'
           cache: 'pip'
@@ -42,9 +42,12 @@ jobs:
           git config pull.ff only
 
       - name: Sync latest branch
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git fetch origin master
-          git pull --rebase origin master
+          BRANCH="${GITHUB_REF_NAME:-$DEFAULT_BRANCH}"
+          git fetch origin "$BRANCH"
+          git pull --rebase origin "$BRANCH"
 
       - name: Update news
         id: update-news
@@ -68,18 +71,21 @@ jobs:
           echo "Updated timestamp: $timestamp"
 
       - name: Check for changes
-        id: verify-changed-files
+        id: verify-news-changed-files
         if: steps.update-news.outputs.did_update == 'true'
         run: |
-          if [ -n "$(git status --porcelain _data/news/ _data/news_last_updated.yml)" ]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+          if [ -n "$(git status --porcelain _data/news/)" ]; then
+            echo "news_changed=true" >> "$GITHUB_OUTPUT"
           else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "news_changed=false" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Commit and push changes
-        if: steps.update-news.outputs.did_update == 'true' && steps.verify-changed-files.outputs.changed == 'true'
+        if: steps.update-news.outputs.did_update == 'true' && steps.verify-news-changed-files.outputs.news_changed == 'true'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
+          BRANCH="${GITHUB_REF_NAME:-$DEFAULT_BRANCH}"
           git add _data/news/ _data/news_last_updated.yml
           git commit -m "Auto-update news: $(date +'%Y-%m-%d %H:%M:%S')"
 
@@ -87,7 +93,7 @@ jobs:
           RETRY_COUNT=0
 
           while [ $RETRY_COUNT -lt $MAX_RETRIES ]; do
-            if git push origin master; then
+            if git push origin "$BRANCH"; then
               echo "Successfully pushed to remote"
               break
             fi
@@ -95,7 +101,7 @@ jobs:
             RETRY_COUNT=$((RETRY_COUNT + 1))
             if [ $RETRY_COUNT -lt $MAX_RETRIES ]; then
               echo "Push failed, rebasing and retrying (attempt $RETRY_COUNT/$MAX_RETRIES)..."
-              git pull --rebase origin master
+              git pull --rebase origin "$BRANCH"
             else
               echo "Failed to push after $MAX_RETRIES attempts"
               exit 1
@@ -103,12 +109,15 @@ jobs:
           done
 
       - name: Commit timestamp only
-        if: steps.update-news.outputs.did_update == 'true' && steps.verify-changed-files.outputs.changed == 'false'
+        if: steps.update-news.outputs.did_update == 'true' && steps.verify-news-changed-files.outputs.news_changed == 'false'
+        env:
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
+          BRANCH="${GITHUB_REF_NAME:-$DEFAULT_BRANCH}"
           git add _data/news_last_updated.yml
           if ! git diff --cached --quiet; then
             git commit -m "Update news timestamp: $(date +'%Y-%m-%d %H:%M:%S')"
-            git push origin master || echo "Failed to push timestamp, continuing..."
+            git push origin "$BRANCH" || echo "Failed to push timestamp, continuing..."
           else
             echo "No timestamp changes to commit"
           fi

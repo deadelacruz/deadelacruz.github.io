@@ -34,6 +34,7 @@ on:
     types:
       - completed
     branches:
+      - main
       - master
 
 # Prevent concurrent runs to avoid conflicts
@@ -50,7 +51,7 @@ jobs:
     
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Load retention configuration
         id: load-config
@@ -105,12 +106,12 @@ jobs:
           echo ""
           echo "🔍 Validating retention values..."
           INVALID_COUNT=0
-          jq -r '.retention | to_entries[] | "\(.key)|\(.value)"' "$CONFIG_FILE" 2>/dev/null | while IFS='|' read -r workflow_name retention_value; do
+          while IFS='|' read -r workflow_name retention_value; do
             if ! echo "$retention_value" | grep -qE '^[1-9][0-9]*$'; then
               echo "  ⚠️  Invalid retention for '$workflow_name': '$retention_value' (will use default)"
               INVALID_COUNT=$((INVALID_COUNT + 1))
             fi
-          done
+          done < <(jq -r '.retention | to_entries[] | "\(.key)|\(.value)"' "$CONFIG_FILE" 2>/dev/null)
           
           if [ "$INVALID_COUNT" -eq 0 ]; then
             echo "  ✓ All retention values are valid"
