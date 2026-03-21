@@ -1,4 +1,32 @@
 news_items:
+- title: New Report “How To Transition from Software Engineer to ML Engineer” – Interview
+    Kickstart Publishes Roadmap for Tech Professionals Looking To Move Into Machine
+    Learning Roles
+  description: SANTA CLARA, CA, March 20, 2026 (GLOBE NEWSWIRE) -- Artificial intelligence
+    is rapidly reshaping the global software industry, with machine learning capabilities
+    becoming a foundational requirement for modern applications. From intelligent
+    recommenda
+  url: https://www.globenewswire.com/news-release/2026/03/20/3259835/0/en/New-Report-How-To-Transition-from-Software-Engineer-to-ML-Engineer-Interview-Kickstart-Publishes-Roadmap-for-Tech-Professionals-Looking-To-Move-Into-Machine-Learning-Roles.html
+  date: '2026-03-20'
+  source: GlobeNewswire
+- title: Forecasting auditor’s going concern opinion using with hybrid robust machine
+    learning model
+  description: The importance of forecasting company bankruptcies makes the auditor’s
+    reporting of the going concern opinion (GCO) a focal point for interested parties.
+    Therefore, researchers have recently turned to predicting GCO using various machine
+    learning (ML
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345071
+  date: '2026-03-20'
+  source: Plos.org
+- title: Machine learning-guided screening of phase-stable high-entropy Na cathodes
+    to enable EVs and low-cost charging storage systems
+  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA00306K, PaperAhhyun
+    Jeong, Seungpyo Kang, Taeseo Ko, JunHo Song, Yerim Jung, Woojin Shin, Jiwon Sun,
+    Kyoungmin MinWe propose a high-throughput computational screening framework that
+    integrates '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00306k
+  date: '2026-03-20'
+  source: Royal Society of Chemistry
 - title: Autoscience builds automated research lab for machine learning models with
     $14M
   description: Artificial intelligence startup Autoscience Institute has launched
