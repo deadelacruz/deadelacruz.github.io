@@ -1,24 +1,10 @@
 {% comment %} Extract topic from page permalink {% endcomment %}
 {% assign topic = page.permalink | remove: '/' | replace: '-', '_' %}
-{% assign news_data = null %}
-
-{% comment %} Map topic to corresponding data file {% endcomment %}
-{% case topic %}
-  {% when 'deep_learning' %}
-    {% assign news_data = site.data.news.deep-learning %}
-  {% when 'machine_learning' %}
-    {% assign news_data = site.data.news.machine-learning %}
-  {% when 'artificial_intelligence' %}
-    {% assign news_data = site.data.news.artificial-intelligence %}
-  {% when 'technology' %}
-    {% assign news_data = site.data.news.technology %}
-  {% when 'science' %}
-    {% assign news_data = site.data.news.science %}
-  {% when 'business' %}
-    {% assign news_data = site.data.news.business %}
-  {% when 'health' %}
-    {% assign news_data = site.data.news.health %}
-{% endcase %}
+{% assign topic_data_key = topic | replace: '_', '-' %}
+{% assign news_data = site.data.news[topic_data_key] %}
+{% if news_data == nil %}
+  {% assign news_data = site.data.news[topic] %}
+{% endif %}
 
 {% if news_data and news_data.news_items %}
   {% assign sorted_news = news_data.news_items | sort: "date" | reverse %}

@@ -72,6 +72,7 @@ DEFAULT_MAX_ERROR_TEXT_LENGTH = 500
 DEFAULT_DEBUG_LOG_FILTERED_LIMIT = 3
 DEFAULT_METRICS_EXPORT_TO_JSON = True
 DEFAULT_METRICS_JSON_PATH = "_data/news_metrics.json"
+COMBINED_METRICS_TOPIC = "combined_request"
 
 # Early stopping optimization defaults
 DEFAULT_MIN_ARTICLES_PER_TOPIC = 10  # Stop pagination when we have this many new articles
@@ -1080,9 +1081,10 @@ def fetch_combined_from_newsapi(topics_config: Dict[str, Dict], api_key: str, co
         
         # Fetch first page
         api_call_count['total'] += 1
-        # Use first topic name for metrics (combined request)
-        first_topic = list(topics_config.keys())[0]
-        response_data, success, is_rate_limited, is_result_limit_reached = fetch_articles_page(url, params, page, config, metrics, first_topic)
+        # Track combined-request API metrics under a dedicated bucket
+        response_data, success, is_rate_limited, is_result_limit_reached = fetch_articles_page(
+            url, params, page, config, metrics, COMBINED_METRICS_TOPIC
+        )
         
         # Process API response
         response_data, should_stop = _process_api_response(response_data, success, is_rate_limited, is_result_limit_reached, page)
@@ -1379,8 +1381,8 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         logger.error(f"{MSG_ERROR_TRACEBACK}: {traceback.format_exc()}")
         return False, False
 
-def main():
-    """Main function to update all news files."""
+def main() -> int:
+    """Main function to update all news files. Returns process exit code."""
     metrics = MetricsTracker()
     
     logger.info(MSG_INFO_STARTING)
@@ -1409,7 +1411,7 @@ def main():
     
     if not news_sources:
         logger.error(MSG_ERROR_NO_SOURCES)
-        return
+        return 1
     
     error_count = 0
     api_call_count = {'total': 0}  # Track total API calls across all topics
@@ -1554,7 +1556,7 @@ def main():
     
     # Print summary
     total_api_errors = sum(topic_stats.get('api_errors', 0) for topic_stats in metrics.topic_metrics.values())
-    total_errors = error_count + total_api_errors
+    total_errors = error_count
     logger.info(f"\n{METRICS_SEPARATOR}")
     if total_errors > 0:
         logger.warning(MSG_WARNING_UPDATE_ERRORS.format(count=total_errors))
@@ -1574,6 +1576,8 @@ def main():
             logger.info(f"   {MSG_INFO_FETCHED_DYNAMIC}")
         else:
             logger.info(f"   {MSG_INFO_NO_API_CALLS}")
+    if total_api_errors > 0:
+        logger.info(f"   API request errors observed: {total_api_errors} (see metrics summary)")
     logger.info(f"{METRICS_SEPARATOR}")
     
     # Print metrics
@@ -1585,11 +1589,13 @@ def main():
         json_path = get_config_value(config, 'metrics.json_output_path', DEFAULT_METRICS_JSON_PATH)
         metrics.export_to_json(json_path)
 
+    return 0
+
 def run_cli():
     """Entry point wrapper that handles CLI execution and exit codes."""
     try:
-        main()
-        sys.exit(0)
+        exit_code = main()
+        sys.exit(exit_code if isinstance(exit_code, int) else 0)
     except KeyboardInterrupt:
         logger.info(f"\n{MSG_INFO_INTERRUPTED}")
         sys.exit(1)
