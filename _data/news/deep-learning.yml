@@ -1,4 +1,39 @@
 news_items:
+- title: Overcoming extrapolation challenges of deep learning by incorporating physics
+    in protein sequence-function modeling
+  description: Author summary Deep learning has fundamentally transformed science
+    and research in recent years. Yet, many problems in biophysics and biochemistry
+    remain inaccessible to traditional deep learning due to a lack of large training
+    data. Incorporating ph
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013728
+  date: '2026-03-25'
+  source: Plos.org
+- title: 'Transformer-based deep learning model for real-time prediction of intraoperative
+    hypotension using dynamic time-series vital signs: A retrospective study'
+  description: In this retrospective study, Shouqiang Zhu, Weihai Shi and developed
+    a deep learning model for real-time prediction on intraoperative hypotension using
+    dynamic time-series vital signs from a Chinese cohort.
+  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005024
+  date: '2026-03-25'
+  source: Plos.org
+- title: 'Automated detection of physical contact events in youth ice hockey: a player-centric
+    deep learning approach'
+  description: Youth ice hockey lacks scalable, automated tools to quantify collision
+    exposure and efficiently identify candidate head-impact events from routine game
+    video. This study presents a player-centric, video-based pipeline for detecting
+    physical contact e
+  url: https://www.nature.com/articles/s41598-026-44805-w
+  date: '2026-03-25'
+  source: Nature.com
+- title: Integration of alternative fragmentation techniques into standard LC-MS workflows
+    using a single deep learning model enhances proteome coverage
+  description: 'An integrated mass spectrometry platform enabling automated collision-,
+    electron- and photon-based fragmentation techniques is presented. A deep learning-based
+    model trained to predict spectra across all dissociation methods further enhances
+    protein '
+  url: https://www.nature.com/articles/s41592-026-03042-9
+  date: '2026-03-23'
+  source: Nature.com
 - title: A low-latency deep learning framework for volcanic ash cloud nowcasting using
     geostationary satellite imagery
   description: Scientific Reports - A low-latency deep learning framework for volcanic
@@ -380,54 +415,4 @@ news_items:
   description: No description available.
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340328
   date: '2025-12-26'
-  source: Plos.org
-- title: 'Deep learning-based disease detection in potato and mango leaves: a comparative
-    study of CNN, AlexNet, ResNet, and EfficientNet'
-  description: 'Scientific Reports - Deep learning-based disease detection in potato
-    and mango leaves: a comparative study of CNN, AlexNet, ResNet, and EfficientNet'
-  url: https://www.nature.com/articles/s41598-025-32607-5
-  date: '2025-12-24'
-  source: Nature.com
-- title: A hybrid ensemble deep learning framework with novel metaheuristic optimization
-    for scalable malicious website detection
-  description: Scientific Reports - A hybrid ensemble deep learning framework with
-    novel metaheuristic optimization for scalable malicious website detection
-  url: https://www.nature.com/articles/s41598-025-33695-z
-  date: '2025-12-24'
-  source: Nature.com
-- title: 【叡啓大学】受講者募集！2025年度公開講座 「深層学習（Deep Learning）を活用したエネルギーマネジメント入門―生成AIで学ぶ電力需要予測―」
-  description: '[広島県公立大学法人]
-
-    [画像1: https://prcdn.freetls.fastly.net/release_image/51586/518/51586-518-eb98c96c99307f8a36738451b50199d3-720x437.jpg?width=536&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&am...'
-  url: https://prtimes.jp/main/html/rd/p/000000518.000051586.html
-  date: '2025-12-23'
-  source: Prtimes.jp
-- title: Deep Learning Classification of EEG Responses to Multi-Dimensional Transcranial
-    Electrical Stimulation
-  description: A major shortcoming of medical practice is the lack of an objective
-    measure of conscious level. Impairment of consciousness is common, e.g. following
-    brain injury and seizures, which can also interfere with sensory processing and
-    volitional responses
-  url: https://arxiv.org/abs/2512.20319
-  date: '2025-12-23'
-  source: Arxiv.org
-- title: 'Show HN: Deep Learning (Global Linear Solvers), Polyharmonic Splines (No
-    SGD)'
-  description: 'Article URL: https://github.com/xolod7/polyharmonic-cascade
-
-    Comments URL: https://news.ycombinator.com/item?id=46365851
-
-    Points: 1
-
-    # Comments: 1'
-  url: https://github.com/xolod7/polyharmonic-cascade
-  date: '2025-12-23'
-  source: Github.com
-- title: Brand public opinion data analysis method based on deep learning
-  description: With the rapid development of Internet information technology and digital
-    technology, various network platforms and media are showing a vigorous growth
-    momentum. The powerful power of online public opinion has an immeasurable impact
-    on brand awarenes
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339563
-  date: '2025-12-23'
   source: Plos.org

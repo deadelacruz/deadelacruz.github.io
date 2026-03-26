@@ -1,4 +1,112 @@
 news_items:
+- title: 'Modeling diarrhea in children under five in Somaliland: A machine learning
+    analysis using SLDHS 2020 data'
+  description: Background Diarrhea remains a leading cause of morbidity and mortality
+    among children under five years of age, particularly in low- and middle-income
+    countries. This study investigated the prevalence and determinants of diarrhea
+    in Somaliland using n
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345482
+  date: '2026-03-25'
+  source: Plos.org
+- title: AI agents are flashy, but machine learning still pays the bills
+  description: As agent hype fades, machine learning quietly proves it’s still essential.
+  url: https://www.techradar.com/pro/ai-agents-are-flashy-but-machine-learning-still-pays-the-bills
+  date: '2026-03-25'
+  source: TechRadar
+- title: Estimation of surface PM2.5 over the Indo-Gangetic Basin using MERRA-2 reanalysis
+    and machine learning
+  description: Fine particulate matter (PM2.5) is a significant air pollutant in the
+    Indo Gangetic Basin (IGB), where levels frequently exceed national and WHO air
+    quality standards. Ground observations from 183 CPCB automatic stations, along
+    with MERRA-2 reanalysi
+  url: https://www.nature.com/articles/s41598-026-37934-9
+  date: '2026-03-25'
+  source: Nature.com
+- title: Unlocking azobenzene isomerization mechanisms via an LLM agent-driven workflow
+    integrating simulation, experiment, and machine learning
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC08794E, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Yixi Shen, Ledu Wang, Yan Huang, Xiaolong Zhang, Meng Huang,'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc08794e
+  date: '2026-03-25'
+  source: Royal Society of Chemistry
+- title: 'Machine learning for predicting colorectal cancer-specific mortality: the
+    role of socioeconomic inequalities in public policy'
+  description: 'Delpino, F. M., Friebel, R. ORCID logo , Tustumi, F., Siqueira, M.
+    M., Pereira, G. R., Teivelis, M. P., Correa, L. H. & Wolosker, N. (2026). Machine
+    learning for predicting colorectal cancer-specific mortality: the role of socioeconomic
+    inequalities '
+  url: https://researchonline.lse.ac.uk/id/eprint/137745/
+  date: '2026-03-24'
+  source: Lse.ac.uk
+- title: 'Wild mushroom consumption susceptibility among Chinese university students:
+    A machine learning study'
+  description: Objectives To investigate factors associated with susceptibility to
+    wild mushroom consumption using machine learning approaches and identify key predictors
+    for targeted intervention development.   Methods A cross-sectional survey of 216
+    Chinese unive
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345659
+  date: '2026-03-24'
+  source: Plos.org
+- title: Improving the composition of donor milk using machine learning and optimisation
+    techniques
+  description: Background and aims The macronutrient composition of donor human milk
+    (DHM) can vary substantially due to several factors such as maternal age, diet,
+    and lactation duration. However, consistent macronutrient levels in DHM facilitate
+    the administratio
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345653
+  date: '2026-03-24'
+  source: Plos.org
+- title: Machine Learning Aided Design of Reversible MXene Electrocatalysts for Li-Air
+    Batteries
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA00850J,
+    PaperSandeep Das, Souvik Manna, Amitabha Das, Brindaban Modak, Biswarup PathakLi-air
+    batteries (LABs) are noted for their remarkable potential to deliver high energy
+    density. Howeve'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00850j
+  date: '2026-03-24'
+  source: Royal Society of Chemistry
+- title: What is Machine Learning Pipeline?
+  description: Automate ML model building, training, & deployment with a Machine Learning
+    Pipeline. Streamline workflow, enhance data management, & boost efficiency. Learn
+    how!
+  url: https://www.c-sharpcorner.com/article/what-is-machine-learning-pipeline/
+  date: '2026-03-23'
+  source: C-sharpcorner.com
+- title: 'Opportunistic screening data for early prediction of GDM in Northern Chinese
+    women: a multicenter machine learning study'
+  description: 'Zhai, H., Che, L., Xu, T., Li, N., Li, C., Xin, J., Zhang, X., Liu,
+    Y., Li, Y., Ma, Z. & +1 more...Li, Y. (2026). Opportunistic screening data for
+    early prediction of GDM in Northern Chinese women: a multicenter machine learning
+    study. Scientific Rep'
+  url: https://researchonline.lse.ac.uk/id/eprint/137722/
+  date: '2026-03-23'
+  source: Lse.ac.uk
+- title: Molecular dynamics simulation of nitrogen diffusion in iron and iron nitrides
+    using ab initio data trained machine learning potentials
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00172F,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Peijie FENG, Lele Aditya Dilip, Minhyeok Lee, Yiguang Ju,
+    Yuji Suzuk'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00172f
+  date: '2026-03-23'
+  source: Royal Society of Chemistry
+- title: Machine learning modelling of a nonlinear environmental index with sensitivity
+    analysis for groundwater assessment
+  description: Scientific Reports - Machine learning modelling of a nonlinear environmental
+    index with sensitivity analysis for groundwater assessment
+  url: https://www.nature.com/articles/s41598-026-44906-6
+  date: '2026-03-23'
+  source: Nature.com
+- title: 'Correction: Estimation of sexual dimorphism of adult human mandibles of
+    South Indian origin using non-metric parameters and machine learning classification
+    algorithms'
+  description: 'Scientific Reports - Correction: Estimation of sexual dimorphism of
+    adult human mandibles of South Indian origin using non-metric parameters and machine
+    learning classification algorithms'
+  url: https://www.nature.com/articles/s41598-026-44683-2
+  date: '2026-03-23'
+  source: Nature.com
 - title: Mechanical properties analysis of geopolymer concrete based on the sugarcane
     bagasse ash using machine learning
   description: Geopolymer concrete (GPC) became the substitute for conventional Portland
@@ -1409,93 +1517,4 @@ news_items:
     we’re hoping it’s '
   url: https://nlppeople.com/job/machine-learning-specialist-computer/
   date: '2025-12-26'
-  source: Nlppeople.com
-- title: Machine learning-assisted kinetic matching model for rational electrode design
-    in aqueous zinc-ion batteries
-  description: Aqueous zinc-ion batteries are safe and affordable but limited by incompatible
-    electrode kinetics. Here, authors present a machine learning framework that resolves
-    this mismatch, enabling the rational design of durable and stretchable zinc-ion
-    batter
-  url: https://www.nature.com/articles/s41467-025-67996-8
-  date: '2025-12-25'
-  source: Nature.com
-- title: Senior Software Engineer – Machine Learning
-  description: At SolarWinds, we’re a people-first company. Our purpose is to enrich
-    the lives of the people we serve—including our employees, customers, shareholders,
-    partners, and communities. Join us in our mission to help customers accelerate
-    business transform
-  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-31/
-  date: '2025-12-25'
-  source: Nlppeople.com
-- title: Senior AI Agent Engineer (Machine Learning)
-  description: Job Description The Agentic Tribe is revolutionizing the chatbot and
-    voice assistance landscape with Gen3, a cutting-edge AI Agent system that’s pushing
-    the boundaries of conversational AI. Gen3 is not your typical chatbot; it’s a
-    goal-oriented, dyna
-  url: https://nlppeople.com/job/senior-ai-agent-engineer-machine-learning-2/
-  date: '2025-12-25'
-  source: Nlppeople.com
-- title: 'Machine Learning: Natural Language Processing Engineer'
-  description: About Primordial Labs We’re building the next generation interface
-    for commanding autonomous systems in the real world. Our core product, Anura,
-    translates spoken or typed intent into structured actions across drones, sensors,
-    and mission software—en
-  url: https://nlppeople.com/job/machine-learning-natural-language-processing-engineer-2/
-  date: '2025-12-25'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer | London, UK
-  description: '£55,000 – 65,000 GBP Hybrid WORKING Location: Central London, Greater
-    London – United Kingdom Type: Permanent Senior Machine Learning Engineer – National
-    Security (London, Hybrid) Salary: Up to £65,000 per year + £7,000 DV clearance
-    bonus (tax-free, '
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-london-uk/
-  date: '2025-12-25'
-  source: Nlppeople.com
-- title: Predicting the HER Activity of SACs on MXenes with Simple Features and Interpretable
-    Machine Learning Models
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA07143G,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Chandra Chowdhury, Matteo Lovato, Giovanni Di Liberto, Franc'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta07143g
-  date: '2025-12-24'
-  source: Royal Society of Chemistry
-- title: Node-Equivariant Message Passing for Efficient and Accurate Machine Learning
-    Interatomic Potentials
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC07248D, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Yaolong Zhang, Hua GuoMachine learned interatomic potentials,
-    particularly'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc07248d
-  date: '2025-12-23'
-  source: Royal Society of Chemistry
-- title: 'Mechanism-informed machine learning for rational catalyst design: application
-    to regioselectivity of allyl acetate hydroformylation'
-  description: 'Catal. Sci. Technol., 2026, Advance ArticleDOI: 10.1039/D5CY01398D,
-    PaperMinhua Zhang, Yuzhe Sun, Yifei Chen, Lingtao Wang, Kai Song, Hao GongBy extracting
-    interpretable electronic and geometric descriptors, this mechanism-informed ML
-    model quantitat'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cy/d5cy01398d
-  date: '2025-12-23'
-  source: Royal Society of Chemistry
-- title: Multimodal machine learning for 5-year mortality prediction after percutaneous
-    coronary intervention
-  description: Scientific Reports - Multimodal machine learning for 5-year mortality
-    prediction after percutaneous coronary intervention
-  url: https://www.nature.com/articles/s41598-025-32734-z
-  date: '2025-12-23'
-  source: Nature.com
-- title: 'The AI Engineering Bible for Developers: Essential Programming Languages,
-    Machine Learning, LLMs, Prompts & Agentic AI. Future Proof Your Career In the
-    Artificial Intelligence Age'
-  description: https://www.amazon.com/gp/product...th=1&psc=1
-  url: https://slickdeals.net/f/19011106-the-ai-engineering-bible-for-developers-essential-programming-languages-machine-learning-llms-prompts-agentic-ai-future-proof-your-career-in-the-artificial-intelligence-age
-  date: '2025-12-23'
-  source: Slickdeals.net
-- title: Applied Machine Learning Lead
-  description: 'We believe in better. And we make it happen. Better content. Better
-    products. And better careers. Working in Tech, Product or Data at Sky is about
-    building the next and the new. From broadband to broadcast, streaming to mobile,
-    SkyQ to Sky Glass, we '
-  url: https://nlppeople.com/job/applied-machine-learning-lead-2/
-  date: '2025-12-23'
   source: Nlppeople.com
