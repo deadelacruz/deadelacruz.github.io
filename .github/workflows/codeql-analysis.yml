@@ -26,7 +26,7 @@ jobs:
     # Check that the Jekyll can actually build
     steps:
       - name: Checkout repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Build the site in the jekyll-docker container
         run: |
           docker run \
@@ -52,7 +52,7 @@ jobs:
     # Check markdown files are markdown-lint compliant
     steps:
       - name: Checkout repository
-        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
       - name: Lint markdown files with markdown-lint
         uses: articulate/actions-markdownlint@0192c450a5120d08c221e46b971885fec45e5d02 # v1.1.0
         with:
