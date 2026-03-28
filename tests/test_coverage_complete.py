@@ -1219,7 +1219,7 @@ class TestMainFunction:
     @patch('update_news.process_topic')
     @patch('update_news.load_config')
     @patch.dict(os.environ, {'NEWSAPI_KEY': 'test-key'})
-    def test_main_with_api_key(self, mock_load_config, mock_process_topic):
+    def test_main_with_api_key(self, mock_load_config, mock_process_topic, tmp_path):
         """Test main function with API key."""
         mock_load_config.return_value = {
             "news_sources": {
@@ -1230,7 +1230,7 @@ class TestMainFunction:
             },
             "metrics": {
                 "export_to_json": True,
-                "json_output_path": "test_metrics.json"
+                "json_output_path": str(tmp_path / "test_metrics.json")
             }
         }
         mock_process_topic.return_value = (True, False)

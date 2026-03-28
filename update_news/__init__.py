@@ -516,12 +516,24 @@ def process_article(article: Dict, exact_phrase: str, seen_urls: set, config: Di
     raw_description = article.get("description") or ""
     description = raw_description[:max_desc_length] if raw_description else MSG_DEFAULT_DESCRIPTION
     
+    published_at = article.get("publishedAt")
+    if isinstance(published_at, str) and published_at:
+        article_date = published_at[:10]
+    else:
+        article_date = datetime.now(timezone.utc).strftime(DATE_FORMAT)
+
+    source_data = article.get("source")
+    if isinstance(source_data, dict):
+        source_name = source_data.get("name") or MSG_DEFAULT_SOURCE
+    else:
+        source_name = MSG_DEFAULT_SOURCE
+
     return {
         "title": article_title,
         "description": description,
         "url": article_url,
-        "date": article.get("publishedAt", datetime.now(timezone.utc).isoformat())[:10],
-        "source": article.get("source", {}).get("name", MSG_DEFAULT_SOURCE)
+        "date": article_date,
+        "source": source_name
     }
 
 # ============================================================================

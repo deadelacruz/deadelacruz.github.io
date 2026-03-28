@@ -32,4 +32,5 @@ build/
 # Test data and generated files
 _data/news_metrics.json
 _data/news/topic*.yml
+test_metrics.json
 logs/

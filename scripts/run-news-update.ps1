@@ -78,38 +78,48 @@ function Get-CurrentBranch {
     return $branchName
 }
 
-function Get-GitChangedPaths {
+function Get-GitWorkingTreeState {
     param([Parameter(Mandatory = $true)][string]$GitExe)
-    $allPaths = @()
+    $trackedPaths = @()
 
     # Unstaged tracked changes
     $unstagedPaths = & $GitExe diff --name-only
     if ($LASTEXITCODE -ne 0) {
         throw "Unable to read unstaged git changes."
     }
-    $allPaths += $unstagedPaths
+    $trackedPaths += $unstagedPaths
 
     # Staged tracked changes
     $stagedPaths = & $GitExe diff --cached --name-only
     if ($LASTEXITCODE -ne 0) {
         throw "Unable to read staged git changes."
     }
-    $allPaths += $stagedPaths
+    $trackedPaths += $stagedPaths
 
     # Untracked files
     $untrackedPaths = & $GitExe ls-files --others --exclude-standard
     if ($LASTEXITCODE -ne 0) {
         throw "Unable to read untracked git changes."
     }
-    $allPaths += $untrackedPaths
 
     # Normalize path separators and de-duplicate.
-    return @(
-        $allPaths |
+    $normalizedTracked = @(
+        $trackedPaths |
             Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
             ForEach-Object { $_.Trim().Replace('\', '/') } |
             Sort-Object -Unique
     )
+    $normalizedUntracked = @(
+        $untrackedPaths |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+            ForEach-Object { $_.Trim().Replace('\', '/') } |
+            Sort-Object -Unique
+    )
+
+    return [PSCustomObject]@{
+        TrackedPaths = $normalizedTracked
+        UntrackedPaths = $normalizedUntracked
+    }
 }
 
 function Is-AllowedWorkingTreePath {
@@ -189,14 +199,24 @@ try {
         throw "NEWSAPI_KEY is missing. Set it in user environment before running this task."
     }
 
-    $changedPaths = Get-GitChangedPaths -GitExe $gitExe
-    $blockedPaths = @($changedPaths | Where-Object { -not (Is-AllowedWorkingTreePath -Path $_) })
-    if ($blockedPaths.Count -gt 0) {
-        Write-Log -Level "WARN" -Message "Skipping run. Found non-news working tree changes:"
-        foreach ($path in $blockedPaths) {
+    $workingTreeState = Get-GitWorkingTreeState -GitExe $gitExe
+    $blockedTrackedPaths = @($workingTreeState.TrackedPaths | Where-Object { -not (Is-AllowedWorkingTreePath -Path $_) })
+    if ($blockedTrackedPaths.Count -gt 0) {
+        Write-Log -Level "WARN" -Message "Stopping run. Found non-news tracked changes:"
+        foreach ($path in $blockedTrackedPaths) {
             Write-Log -Level "WARN" -Message " - $path"
         }
-        exit 0
+        Write-Log -Level "ERROR" -Message "Abort to avoid mixing unrelated tracked edits with automated news updates."
+        exit 1
+    }
+
+    $blockedUntrackedPaths = @($workingTreeState.UntrackedPaths | Where-Object { -not (Is-AllowedWorkingTreePath -Path $_) })
+    if ($blockedUntrackedPaths.Count -gt 0) {
+        Write-Log -Level "WARN" -Message "Ignoring non-news untracked files:"
+        foreach ($path in $blockedUntrackedPaths) {
+            Write-Log -Level "WARN" -Message " - $path"
+        }
+        Write-Log -Level "WARN" -Message "Continuing because untracked files are not committed by this automation."
     }
 
     $gitUserName = (& $gitExe config user.name).Trim()

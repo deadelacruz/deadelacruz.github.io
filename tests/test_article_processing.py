@@ -166,3 +166,42 @@ class TestProcessArticle:
         assert result is not None
         assert result["description"] == "No description available."
 
+    def test_process_article_handles_none_published_at(self):
+        """Test article with publishedAt=None falls back to today's date safely."""
+        from update_news import MetricsTracker
+        tracker = MetricsTracker()
+        seen_urls = set()
+
+        article = {
+            "url": "https://example.com/article-none-date",
+            "title": "Deep Learning News",
+            "description": "Some description",
+            "publishedAt": None,
+            "source": {"name": "Tech News"}
+        }
+
+        result = process_article(article, ["deep learning"], seen_urls, {}, tracker, "deep-learning")
+
+        assert result is not None
+        assert result["date"]
+        assert len(result["date"]) == 10
+
+    def test_process_article_handles_none_source(self):
+        """Test article with source=None falls back to default source safely."""
+        from update_news import MetricsTracker
+        tracker = MetricsTracker()
+        seen_urls = set()
+
+        article = {
+            "url": "https://example.com/article-none-source",
+            "title": "Deep Learning News",
+            "description": "Some description",
+            "publishedAt": "2026-03-29T12:00:00Z",
+            "source": None
+        }
+
+        result = process_article(article, ["deep learning"], seen_urls, {}, tracker, "deep-learning")
+
+        assert result is not None
+        assert result["source"] == "Unknown"
+

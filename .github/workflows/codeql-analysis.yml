@@ -1,8 +1,7 @@
-# For most projects, this workflow file will not need changing; you simply need
-# to commit it to your repository. You may wish to alter this file to override
-# the set of languages analyzed, or to provide custom queries or build logic.
+# Repository quality checks for Jekyll build and markdown lint.
+# This workflow does not run CodeQL analysis.
 
-name: "Jekyll CI"
+name: "Jekyll and Markdown CI"
 
 # Controls when the workflow will run
 on:
