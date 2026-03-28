@@ -336,55 +336,30 @@ class TestCombinedRequestFunctions:
         
         assert is_rate_limited is True
     
+    @patch('update_news.fetch_articles_page')
     @patch('update_news.calculate_date_range')
-    @patch('update_news._validate_api_request', return_value=True)
-    def test_fetch_combined_from_newsapi_max_pages_zero(self, mock_validate, mock_date):
-        """Test fetch_combined_from_newsapi when max_pages <= 0 (lines 1066-1067)."""
+    def test_fetch_combined_from_newsapi_max_pages_zero(self, mock_date, mock_fetch):
+        """Test combined mode remains single-page without mutating source files."""
         mock_date.return_value = ("2025-01-01", "2025-01-15")
+        mock_fetch.return_value = ({
+            "status": "ok",
+            "totalResults": 200,
+            "articles": []
+        }, True, False, False)
         topics_config = {
             "deep-learning": {"name": "Deep Learning", "title_query": "Deep Learning"}
         }
         config = {}
         metrics = MetricsTracker()
         api_call_count = {'total': 0}
-        
-        # To test max_pages <= 0, we need to execute the real code with max_pages = 0
-        # The only reliable way is to temporarily modify the source file
-        import update_news
-        import os
-        import sys
-        
-        # Get the source file path
-        source_file = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'update_news.py')
-        
-        # Read original source
-        with open(source_file, 'r', encoding='utf-8') as f:
-            original_source = f.read()
-        
-        # Modify source: replace max_pages = 1 with max_pages = 0
-        modified_source = original_source.replace('    max_pages = 1', '    max_pages = 0', 1)
-        
-        try:
-            # Write modified source
-            with open(source_file, 'w', encoding='utf-8') as f:
-                f.write(modified_source)
-            
-            # Reload the module to get the modified code
-            import importlib
-            importlib.reload(update_news)
-            
-            # Now test with the modified code
-            result, is_rate_limited = update_news.fetch_combined_from_newsapi(
-                topics_config, "test-key", config, metrics, api_call_count
-            )
-            assert len(result.get("deep-learning", [])) == 0
-            assert is_rate_limited is False
-        finally:
-            # Restore original source
-            with open(source_file, 'w', encoding='utf-8') as f:
-                f.write(original_source)
-            # Reload the module to restore original code
-            importlib.reload(update_news)
+
+        result, is_rate_limited = fetch_combined_from_newsapi(
+            topics_config, "test-key", config, metrics, api_call_count
+        )
+        assert len(result.get("deep-learning", [])) == 0
+        assert is_rate_limited is False
+        # Combined mode should only fetch one page by design.
+        assert mock_fetch.call_count == 1
     
     @patch('update_news.calculate_date_range')
     def test_fetch_combined_from_newsapi_api_limit_inside_try(self, mock_date):

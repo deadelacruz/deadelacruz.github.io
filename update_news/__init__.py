@@ -22,7 +22,7 @@ import traceback
 import logging
 import re
 from datetime import datetime, timedelta, timezone
-from typing import Dict, List, Optional, Tuple
+from typing import Dict, List, Optional, Tuple, Union
 from collections import defaultdict
 
 # Fix encoding for Windows console
@@ -142,6 +142,7 @@ MSG_OK_UPDATED = "Updated {path} with {count} news items"
 MSG_ERROR_UPDATE_FAILED = "Failed to update news file"
 MSG_INFO_LOADED_CACHED = "Loaded {count} cached article(s)"
 MSG_WARNING_READ_CACHE_FAILED = "Failed to read existing news cache"
+MSG_ERROR_CACHE_UNREADABLE = "Cannot safely update {topic}: existing cache file is unreadable"
 MSG_INFO_FETCHING_NEWS = "Fetching news for {name}"
 MSG_WARNING_RATE_LIMIT_DETECTED = "Rate limit detected. Quota exhausted"
 MSG_INFO_STOPPING_FURTHER = "Stopping all further API requests"
@@ -1298,14 +1299,15 @@ def update_news_file(topic: str, news_items: List[Dict]) -> bool:
 # FALLBACK HELPERS
 # -----------------------------------------------------------------------------
 
-def load_existing_news(topic: str) -> List[Dict]:
+def load_existing_news(topic: str, return_status: bool = False) -> Union[List[Dict], Tuple[List[Dict], bool]]:
     """
     Load existing news items from disk for a topic.
     Returns list or empty list if file missing or unreadable.
+    If return_status is True, returns (news_items, cache_read_ok).
     """
     file_path = os.path.join(DATA_DIR, f"{topic}.yml")
     if not os.path.exists(file_path):
-        return []
+        return ([], True) if return_status else []
     
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
@@ -1313,10 +1315,10 @@ def load_existing_news(topic: str) -> List[Dict]:
         news_items = data.get("news_items") or []
         if news_items:
             logger.info(MSG_INFO_LOADED_CACHED.format(count=len(news_items)))
-        return news_items
+        return (news_items, True) if return_status else news_items
     except Exception as e:
         logger.warning(f"{MSG_WARNING_READ_CACHE_FAILED} for {topic}: {e}")
-        return []
+        return ([], False) if return_status else []
 
 # ============================================================================
 # MAIN EXECUTION
@@ -1333,7 +1335,15 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         logger.info(MSG_INFO_FETCHING_NEWS.format(name=topic_name))
         
         # Load existing articles from file
-        existing_articles = load_existing_news(topic)
+        loaded_cache = load_existing_news(topic, return_status=True)
+        if isinstance(loaded_cache, tuple):
+            existing_articles, cache_read_ok = loaded_cache
+        else:
+            # Backward-compatible fallback for mocked tests.
+            existing_articles, cache_read_ok = loaded_cache or [], True
+        if not cache_read_ok:
+            logger.error(MSG_ERROR_CACHE_UNREADABLE.format(topic=topic))
+            return False, False
         if existing_articles:
             logger.info(f"   {MSG_INFO_LOADED_CACHED.format(count=len(existing_articles))}")
         new_articles = []
@@ -1449,8 +1459,16 @@ def main() -> int:
         
         # Load existing articles for all topics
         existing_articles_dict = {}
+        cache_read_status = {}
         for topic, topic_config in topics_list:
-            existing_articles_dict[topic] = load_existing_news(topic)
+            loaded_cache = load_existing_news(topic, return_status=True)
+            if isinstance(loaded_cache, tuple):
+                existing_articles, cache_read_ok = loaded_cache
+            else:
+                # Backward-compatible fallback for mocked tests.
+                existing_articles, cache_read_ok = loaded_cache or [], True
+            existing_articles_dict[topic] = existing_articles
+            cache_read_status[topic] = cache_read_ok
             if existing_articles_dict[topic]:
                 topic_name = topic_config.get("name", topic)
                 logger.info(MSG_INFO_LOADED_CACHED_TOPIC.format(count=len(existing_articles_dict[topic]), name=topic_name))
@@ -1491,6 +1509,10 @@ def main() -> int:
         for topic, topic_config in topics_list:
             topic_name = topic_config.get("name", topic)
             logger.info(f"\n{MSG_INFO_PROCESSING.format(name=topic_name)}")
+            if not cache_read_status.get(topic, True):
+                logger.error(MSG_ERROR_CACHE_UNREADABLE.format(topic=topic))
+                error_count += 1
+                continue
             
             existing_articles = existing_articles_dict.get(topic, [])
             new_articles = new_articles_dict.get(topic, [])

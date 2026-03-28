@@ -88,7 +88,7 @@ jobs:
           fi
           
           # Read the entire config as base64 for later use
-          CONFIG_B64=$(cat "$CONFIG_FILE" | base64 -w 0)
+          CONFIG_B64=$(base64 < "$CONFIG_FILE" | tr -d '\n')
           
           echo "default_retention=$DEFAULT_RETENTION" >> $GITHUB_OUTPUT
           echo "config_json=$(echo "$CONFIG_B64")" >> $GITHUB_OUTPUT
@@ -259,7 +259,8 @@ jobs:
 
           # Save workflows JSON for use in cleanup step
           # Using base64 encoding to handle special characters and multi-line content
-          echo "workflows_json=$(echo "$WORKFLOWS_JSON" | base64 -w 0)" >> $GITHUB_OUTPUT
+          WORKFLOWS_JSON_B64=$(echo "$WORKFLOWS_JSON" | base64 | tr -d '\n')
+          echo "workflows_json=$WORKFLOWS_JSON_B64" >> $GITHUB_OUTPUT
           echo "total_workflows=$TOTAL_WORKFLOWS" >> $GITHUB_OUTPUT
 
           echo "Workflow discovery complete"
@@ -315,7 +316,7 @@ jobs:
             
             # Try to get per-workflow retention from config
             if [ "$CONFIG_VALID" = "true" ]; then
-              local retention=$(echo "$CONFIG_JSON" | jq -r ".retention.\"$workflow_name\" // empty")
+              local retention=$(echo "$CONFIG_JSON" | jq -r --arg workflow_name "$workflow_name" '.retention[$workflow_name] // empty')
               if [ -n "$retention" ] && [ "$retention" != "null" ] && [ "$retention" != "" ]; then
                 # Validate the retention value
                 if echo "$retention" | grep -qE '^[1-9][0-9]*$'; then
@@ -433,23 +434,23 @@ jobs:
             echo ""
             
             TOTAL_WORKFLOWS_CLEANED=0
-            TOTAL_DELETED=0
-            
             # Loop through all discovered workflows
             WORKFLOW_COUNT=$(echo "$WORKFLOWS_JSON" | jq 'length')
-            
-            for i in $(seq 0 $((WORKFLOW_COUNT - 1))); do
-              WORKFLOW_ID=$(echo "$WORKFLOWS_JSON" | jq -r ".[$i].id")
-              WORKFLOW_NAME=$(echo "$WORKFLOWS_JSON" | jq -r ".[$i].name")
-              
-              # Skip if invalid workflow
-              if [ -z "$WORKFLOW_ID" ] || [ "$WORKFLOW_ID" = "null" ]; then
-                continue
-              fi
-              
-              cleanup_workflow "$WORKFLOW_ID" "$WORKFLOW_NAME"
-              TOTAL_WORKFLOWS_CLEANED=$((TOTAL_WORKFLOWS_CLEANED + 1))
-            done
+
+            if [ "$WORKFLOW_COUNT" -gt 0 ]; then
+              while IFS= read -r WORKFLOW_ROW; do
+                WORKFLOW_ID=$(echo "$WORKFLOW_ROW" | jq -r '.id')
+                WORKFLOW_NAME=$(echo "$WORKFLOW_ROW" | jq -r '.name')
+                
+                # Skip if invalid workflow
+                if [ -z "$WORKFLOW_ID" ] || [ "$WORKFLOW_ID" = "null" ]; then
+                  continue
+                fi
+                
+                cleanup_workflow "$WORKFLOW_ID" "$WORKFLOW_NAME"
+                TOTAL_WORKFLOWS_CLEANED=$((TOTAL_WORKFLOWS_CLEANED + 1))
+              done < <(echo "$WORKFLOWS_JSON" | jq -c '.[]')
+            fi
             
             echo ""
             echo " Completed cleanup for $TOTAL_WORKFLOWS_CLEANED workflow(s)"

@@ -10,7 +10,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   automated testing, CI/CD, and performance optimization. I help teams deliver
   reliable, scalable software that ships fast and runs smoothly in production.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://deadelacruz.github.io" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -30,7 +30,7 @@ author: David Edward Dela Cruz
 author_bio: Hi, my nickname is Dave.
 author_email: "david22edward@gmail.com"
 author_location: Philippines
-author_website_url: "deadelacruz.github.io"
+author_website_url: "https://deadelacruz.github.io"
 typewrite-text: I build scalable Java microservices, APIs, and modern web apps.
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 

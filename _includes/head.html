@@ -124,8 +124,6 @@
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/nanobar/nanobar.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/bower_components/typewrite/dist/typewrite.min.js"></script>
   <script src="{{site.url}}{{site.baseurl}}/assets/js/on-scroll-progress.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.1/moment.min.js"></script>
-  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
  <!-- for Mathjax support -->
   {% if page.usemathjax %}
@@ -134,7 +132,7 @@
       TeX: { equationNumbers: { autoNumber: "AMS" } }
       });
    </script>
-   <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
   {% endif %}
 
   <!-- Github Button script removed -->
@@ -147,8 +145,4 @@
 
   <!-- Buy-me-a-coffee widgets removed -->
 
-  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 </head>

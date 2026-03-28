@@ -98,3 +98,69 @@ def test_forms_do_not_use_target_blank():
     newsletter_form = (repo_root / "_includes" / "newsletter_subscription.html").read_text(encoding="utf-8")
     assert 'target="_blank"' not in contact_form
     assert 'target="_blank"' not in newsletter_form
+
+
+def test_unreadable_cache_does_not_continue_topic_processing():
+    """Finding #1 follow-up: unreadable cache should fail fast to avoid destructive overwrite."""
+    topic_config = {"name": "Demo Topic", "title_query": "Demo"}
+    metrics = MetricsTracker()
+    api_call_count = {"total": 0}
+    rate_limited_flag = {"value": False}
+
+    with patch("update_news.load_existing_news", return_value=([], False)), \
+         patch("update_news.fetch_from_newsapi") as mock_fetch:
+        success, is_rate_limited = update_news.process_topic(
+            "demo-topic", topic_config, "demo-key", {}, metrics, api_call_count, rate_limited_flag
+        )
+
+    assert success is False
+    assert is_rate_limited is False
+    mock_fetch.assert_not_called()
+
+
+def test_profile_links_and_site_url_are_https():
+    """Finding #2/#3: ensure site/social links use secure URLs."""
+    repo_root = Path(__file__).resolve().parents[1]
+    config = (repo_root / "_config.yml").read_text(encoding="utf-8")
+    about_me = (repo_root / "_layouts" / "about-me.html").read_text(encoding="utf-8")
+
+    assert 'url: "https://deadelacruz.github.io"' in config
+    assert 'author_website_url: "https://deadelacruz.github.io"' in config
+    assert "http://twitter.com/" not in about_me
+    assert "http://facebook.com/" not in about_me
+    assert "http://instagram.com/" not in about_me
+    assert "http://medium.com/" not in about_me
+    assert "http://github.com/" not in about_me
+    assert "http://behance.net/" not in about_me
+    assert "http://linkedin.com/" not in about_me
+    assert "http://t.me/" not in about_me
+
+
+def test_head_removes_legacy_html_and_deprecated_script_sources():
+    """Finding #4/#5: head include should not inject html tags or deprecated script URLs."""
+    repo_root = Path(__file__).resolve().parents[1]
+    head = (repo_root / "_includes" / "head.html").read_text(encoding="utf-8")
+
+    assert '<html class="no-js' not in head
+    assert "cdn.mathjax.org" not in head
+    assert "moment.js/2.20.1" not in head
+    assert "cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js" in head
+
+
+def test_cleanup_workflow_uses_safe_retention_lookup_and_iteration():
+    """Finding #7: cleanup workflow should avoid fragile jq interpolation and seq loop iteration."""
+    repo_root = Path(__file__).resolve().parents[1]
+    cleanup = (repo_root / ".github" / "workflows" / "cleanup-old-runs.yml").read_text(encoding="utf-8")
+
+    assert 'jq -r --arg workflow_name "$workflow_name" \'.retention[$workflow_name] // empty\'' in cleanup
+    assert "for i in $(seq 0 $((WORKFLOW_COUNT - 1))); do" not in cleanup
+    assert "done < <(echo \"$WORKFLOWS_JSON\" | jq -c '.[]')" in cleanup
+
+
+def test_combined_mode_test_no_longer_self_modifies_source_file():
+    """Finding #6: tests should not rewrite source files during execution."""
+    repo_root = Path(__file__).resolve().parents[1]
+    combined_tests = (repo_root / "tests" / "test_result_limit_and_combined.py").read_text(encoding="utf-8")
+
+    assert "with open(source_file, 'w'" not in combined_tests
+    assert "modified_source =" not in combined_tests
