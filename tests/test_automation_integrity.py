@@ -49,52 +49,6 @@ def test_update_news_timestamp_push_does_not_swallow_failures():
     assert "Failed to push timestamp after $MAX_RETRIES attempts" in content
 
 
-def test_cleanup_workflow_does_not_listen_to_itself():
-    """Cleanup workflow must never include itself in workflow_run triggers."""
-    workflow = yaml.safe_load(_read(WORKFLOWS_DIR / "cleanup-old-runs.yml"))
-    triggers = workflow.get("on", workflow.get(True, {}))
-    workflow_run = triggers.get("workflow_run", {})
-    workflow_names = workflow_run.get("workflows", [])
-    assert "Cleanup Old Workflow Runs" not in workflow_names
-
-
-def test_cleanup_invalid_count_uses_non_subshell_loop():
-    """Retention validation must not use a pipe-based while loop that loses state."""
-    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
-    assert "done < <(" in content
-    assert "| while IFS='|'" not in content
-
-
-def test_cleanup_workflow_paginates_run_fetches():
-    """Cleanup should page all runs and delete from a collected snapshot."""
-    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
-    assert "runs?per_page=100&page=$PAGE" in content
-    assert "ALL_RUN_IDS" in content
-    assert "for ((idx=KEEP_RUNS; idx<COLLECTED_COUNT; idx++))" in content
-
-
-def test_cleanup_workflow_paginates_workflow_discovery():
-    """Workflow discovery must include pagination to handle >100 workflows."""
-    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
-    assert "actions/workflows?per_page=100&page=$PAGE" in content
-    assert "ALL_WORKFLOWS_JSON='[]'" in content
-
-
-def test_cleanup_workflow_uses_fail_fast_and_strict_curl():
-    """Cleanup should fail on API fetch errors instead of silently no-oping."""
-    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
-    assert content.count("set -euo pipefail") >= 2
-    assert "PAGE_RESPONSE=$(curl -fsS \\" in content
-    assert "RUNS_RESPONSE=$(curl -fsS \\" in content
-
-
-def test_cleanup_summary_text_matches_trigger_scope():
-    """Summary copy should not claim trigger coverage beyond listed workflows."""
-    content = _read(WORKFLOWS_DIR / "cleanup-old-runs.yml")
-    assert "After Listed Workflows" in content
-    assert "After Any Workflow" not in content
-
-
 def test_actions_are_sha_pinned_in_primary_workflows():
     """Pin actions to full SHAs for supply-chain hardening."""
     sha_pattern = re.compile(r"@([0-9a-f]{40})(\s|$)")
@@ -103,7 +57,6 @@ def test_actions_are_sha_pinned_in_primary_workflows():
         WORKFLOWS_DIR / "update-news.yml",
         WORKFLOWS_DIR / "build-jekyll.yml",
         WORKFLOWS_DIR / "codeql-analysis.yml",
-        WORKFLOWS_DIR / "cleanup-old-runs.yml",
         WORKFLOWS_DIR / "greetings.yml",
     ]
 

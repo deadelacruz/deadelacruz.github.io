@@ -147,16 +147,6 @@ def test_head_removes_legacy_html_and_deprecated_script_sources():
     assert "cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js" in head
 
 
-def test_cleanup_workflow_uses_safe_retention_lookup_and_iteration():
-    """Finding #7: cleanup workflow should avoid fragile jq interpolation and seq loop iteration."""
-    repo_root = Path(__file__).resolve().parents[1]
-    cleanup = (repo_root / ".github" / "workflows" / "cleanup-old-runs.yml").read_text(encoding="utf-8")
-
-    assert 'jq -r --arg workflow_name "$workflow_name" \'.retention[$workflow_name] // empty\'' in cleanup
-    assert "for i in $(seq 0 $((WORKFLOW_COUNT - 1))); do" not in cleanup
-    assert "done < <(echo \"$WORKFLOWS_JSON\" | jq -c '.[]')" in cleanup
-
-
 def test_combined_mode_test_no_longer_self_modifies_source_file():
     """Finding #6: tests should not rewrite source files during execution."""
     repo_root = Path(__file__).resolve().parents[1]
