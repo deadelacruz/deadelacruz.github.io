@@ -1,4 +1,35 @@
 news_items:
+- title: A unified deep learning framework integrating OpenStreetMap for multi-domain
+    urban planning tasks
+  description: Scientific Reports - A unified deep learning framework integrating
+    OpenStreetMap for multi-domain urban planning tasks
+  url: https://www.nature.com/articles/s41598-026-45927-x
+  date: '2026-03-27'
+  source: Nature.com
+- title: Incorporating valuable prior knowledge to improve deep learning prediction
+    of genetic perturbation responses [METHOD]
+  description: Genetic perturbation response prediction plays a critical role in virtual
+    cell research, yet the performance of current deep learning models still leaves
+    room for improvement. In this study, we present a prior-guided response inference
+    model (PRIM) t
+  url: https://genome.cshlp.org/content/early/2026/03/26/gr.281523.125.short?rss=1
+  date: '2026-03-26'
+  source: Cshlp.org
+- title: Enhancing autonomous agriculture control systems in greenhouses for sustainable
+    resource usage using deep learning techniques
+  description: Greenhouse climate control is essential for optimizing crop growth
+    while minimizing resource consumption in controlled environment agriculture. Traditional
+    rule-based and fixed-action strategies often struggle to achieve a balance between
+    these objec
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344946
+  date: '2026-03-26'
+  source: Plos.org
+- title: 'LogoXpertNet: a novel lightweight logo classification using deep learning'
+  description: 'Scientific Reports - LogoXpertNet: a novel lightweight logo classification
+    using deep learning'
+  url: https://www.nature.com/articles/s41598-026-45682-z
+  date: '2026-03-26'
+  source: Nature.com
 - title: Overcoming extrapolation challenges of deep learning by incorporating physics
     in protein sequence-function modeling
   description: Author summary Deep learning has fundamentally transformed science
@@ -25,6 +56,23 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-44805-w
   date: '2026-03-25'
   source: Nature.com
+- title: 'CommUNext: Deep Learning-Based Cross-Band and Multi-Directional Signal Prediction'
+  description: Sixth-generation (6G) networks are envisioned to achieve full-band
+    cognition by jointly utilizing spectrum resources from Frequency Range 1 (FR1)
+    to Frequency Range 3 (FR3, 7–24 GHz). Realizing this vision faces two challenges.
+    First, physics-based r
+  url: https://ieeexplore.ieee.org/document/11456335
+  date: '2026-03-25'
+  source: Ieee.org
+- title: Deep Learning-Based Dynamic Environment Reconstruction for Vehicular ISAC
+    Scenarios
+  description: Integrated Sensing and Communication (ISAC) technology plays a critical
+    role in future intelligent transportation systems, by enabling vehicles to perceive
+    and reconstruct the surrounding environment through reuse of wireless signals,
+    thereby reducin
+  url: https://ieeexplore.ieee.org/document/11456331
+  date: '2026-03-25'
+  source: Ieee.org
 - title: Integration of alternative fragmentation techniques into standard LC-MS workflows
     using a single deep learning model enhances proteome coverage
   description: 'An integrated mass spectrometry platform enabling automated collision-,
@@ -403,16 +451,4 @@ news_items:
     impact on the livabili
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339782
   date: '2025-12-29'
-  source: Plos.org
-- title: 'Retraction: Can artificial intelligence and face recognition using deep
-    learning detect emotions in children with autism?'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340338
-  date: '2025-12-26'
-  source: Plos.org
-- title: 'Retraction: A deep learning-based ensemble for autism spectrum disorder
-    diagnosis using facial images'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340328
-  date: '2025-12-26'
   source: Plos.org

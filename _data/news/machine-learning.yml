@@ -1,4 +1,47 @@
 news_items:
+- title: Machine learning-based prediction of peptide aggregation during chemical
+    synthesis
+  description: Solid-phase peptide synthesis enables the study of countless peptides,
+    but aggregation during synthesis hinders production of many sequences of interest.
+    Now, machine learning models enable prior identification of aggregation-prone
+    sequences, and hig
+  url: https://www.nature.com/articles/s41557-026-02119-4
+  date: '2026-03-27'
+  source: Nature.com
+- title: Soil classification in the Sudan Savanna using sentinel products and topographic
+    information with machine learning models
+  description: Scientific Reports - Soil classification in the Sudan Savanna using
+    sentinel products and topographic information with machine learning models
+  url: https://www.nature.com/articles/s41598-026-46259-6
+  date: '2026-03-27'
+  source: Nature.com
+- title: Decoding physical mechanisms governing elastic moduli in inorganic materials
+    through interpretable machine learning
+  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA00098C, PaperXinglu
+    Zhang, Hongwei Yang, Wenxia Li, Juan DuInterpretable ML with 34 key features predicts
+    shear (G) and bulk (K) moduli (R2 = 0.892/0.949), reveals the physical origins,
+    and unc'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00098c
+  date: '2026-03-27'
+  source: Royal Society of Chemistry
+- title: DFT and Machine Learning Insights into Ru(II) Complex-Catalyzed Transfer
+    Hydrogenation
+  description: 'Org. Chem. Front., 2026, Accepted ManuscriptDOI: 10.1039/D6QO00178E,
+    Research ArticleGui-Xiang Zhou, Cheng HouTransfer hydrogenation (TH), as a mild
+    reduction strategy that avoids the use of high-pressure molecular hydrogen, has
+    attracted significant'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/qo/d6qo00178e
+  date: '2026-03-27'
+  source: Royal Society of Chemistry
+- title: Machine learning potential-assisted design of thermoelectricvperformance
+    in anharmonic CsPbBr3 and CsPbI3†
+  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00498A,
+    PaperYuanyuan Chen, Shuo Cao, Yu Bao, KeKe Song, Ping Qian, Yanjing SuThe structural
+    stability and thermoelectric properties of halide perovskites were investigated
+    using a combinat'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00498a
+  date: '2026-03-26'
+  source: Royal Society of Chemistry
 - title: 'Modeling diarrhea in children under five in Somaliland: A machine learning
     analysis using SLDHS 2020 data'
   description: Background Diarrhea remains a leading cause of morbidity and mortality
@@ -1485,36 +1528,4 @@ news_items:
     and deploying
   url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-41/
   date: '2025-12-28'
-  source: Nlppeople.com
-- title: 'Identifying key genes for European canker resistance in apple: machine learning
-    and gene expression profiling of quantitative disease resistance'
-  description: 'Scientific Reports - Identifying key genes for European canker resistance
-    in apple: machine learning and gene expression profiling of quantitative disease
-    resistance'
-  url: https://www.nature.com/articles/s41598-025-33478-6
-  date: '2025-12-27'
-  source: Nature.com
-- title: GRADUATE AI AND MACHINE LEARNING ENGINEER
-  description: 'Career Opportunities: Graduate AI and Machine Learning Engineer (10980)
-    Requisition ID10980-Posted – Years of Experience (2) -Technology- Where (1) -Job
-    Graduate AI and Machine Learning Engineer About Threepipe Reply: Threepipe Reply
-    is an award-winn'
-  url: https://nlppeople.com/job/graduate-ai-and-machine-learning-engineer/
-  date: '2025-12-27'
-  source: Nlppeople.com
-- title: Machine learning-based prediction of glioma grading
-  description: Objective Gliomas are among the most common and heterogeneous primary
-    tumours of the central nervous system. Accurate grading is essential for treatment
-    planning and prognosis, yet conventional histopathological approaches are limited
-    by subjectivity
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0314831
-  date: '2025-12-26'
-  source: Plos.org
-- title: Machine learning specialist computer
-  description: 'Job Description: Machine Learning Specialist (Computer Vision) Profile:
-    Safe Intelligence is on a mission to make AI safe and reliable for anyone to use.
-    To help us succeed, our team is looking for Machine Learning Specialists, and
-    we’re hoping it’s '
-  url: https://nlppeople.com/job/machine-learning-specialist-computer/
-  date: '2025-12-26'
   source: Nlppeople.com
