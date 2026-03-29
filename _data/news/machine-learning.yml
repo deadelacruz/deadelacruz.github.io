@@ -1,4 +1,26 @@
 news_items:
+- title: New Study Uses Advanced Machine Learning To Determine How Ancient Species
+    Left The Ocean And Then Returned To It Millions Of Years Later
+  description: Life finds a way to survive, even if that means going back to the oceans.
+  url: http://twistedsifter.com/2026/03/new-study-uses-advanced-machine-learning-to-determine-how-ancient-species-left-the-ocean-and-then-returned-to-it-millions-of-years-later/
+  date: '2026-03-28'
+  source: Twistedsifter.com
+- title: A hybrid machine learning approach for predicting the flexural strength of
+    concrete reinforced with waste aluminium fibres
+  description: The reutilization of industrial waste in concrete offers an effective
+    pathway toward sustainable construction. In this study, waste aluminium fibres
+    are investigated as an alternative reinforcement material, and a novel hybrid
+    stacking ensemble model
+  url: https://www.nature.com/articles/s41598-026-41961-x
+  date: '2026-03-28'
+  source: Nature.com
+- title: Machine learning-predicted chromatin organization landscape across pediatric
+    tumors
+  description: Scientific Reports - Machine learning-predicted chromatin organization
+    landscape across pediatric tumors
+  url: https://www.nature.com/articles/s41598-026-44925-3
+  date: '2026-03-28'
+  source: Nature.com
 - title: Machine learning-based prediction of peptide aggregation during chemical
     synthesis
   description: Solid-phase peptide synthesis enables the study of countless peptides,
@@ -1512,20 +1534,4 @@ news_items:
     Intel
   url: https://nlppeople.com/job/lecturer-senior-lecturer-in-artificial-intelligence-machine-learning-nlp-reinforcement-learning-and-ai-security-as13303-bath-ba2-7ay/
   date: '2025-12-29'
-  source: Nlppeople.com
-- title: Development and implementation of explainable AI-based machine learning models
-    for predicting hospital stay and treatment costs in cardiovascular patients
-  description: Scientific Reports - Development and implementation of explainable
-    AI-based machine learning models for predicting hospital stay and treatment costs
-    in cardiovascular patients
-  url: https://www.nature.com/articles/s41598-025-33005-7
-  date: '2025-12-28'
-  source: Nature.com
-- title: Senior Machine Learning Engineer – NLP
-  description: Our client is at the forefront of AI-driven innovation and is seeking
-    a highly skilled Senior Machine Learning Engineer specializing in Natural Language
-    Processing (NLP) to join our distributed team. This role is critical for developing
-    and deploying
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-41/
-  date: '2025-12-28'
   source: Nlppeople.com
