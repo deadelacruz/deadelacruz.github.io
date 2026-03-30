@@ -1,4 +1,12 @@
 news_items:
+- title: Exploring how deep learning decodes anomalous diffusion via Grad-CAM
+  description: Using Grad-CAM with ResNets, this study probes how deep learning classifies
+    anomalous diffusion from raw trajectories. The method reveals trajectory segments
+    and multiscale features driving predictions, improving interpretability and robustness
+    to me
+  url: https://www.nature.com/articles/s41467-026-71229-x
+  date: '2026-03-29'
+  source: Nature.com
 - title: A unified deep learning framework integrating OpenStreetMap for multi-domain
     urban planning tasks
   description: Scientific Reports - A unified deep learning framework integrating
@@ -442,13 +450,4 @@ news_items:
     depends on dataset '
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339064
   date: '2025-12-31'
-  source: Plos.org
-- title: Prediction of urban heat island intensity based on multiple linear regression
-    and deep learning
-  description: The rapid urbanization process has led to many prominent environmental
-    issues in urban areas, resulting from a drastic change in land use. The Urban
-    Heat Island (UHI) effect is of particular concern because it has a significant
-    impact on the livabili
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339782
-  date: '2025-12-29'
   source: Plos.org
