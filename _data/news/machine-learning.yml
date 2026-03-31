@@ -53,6 +53,21 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-46896-x
   date: '2026-03-30'
   source: Nature.com
+- title: Prediction of Aqueous Stable Lead-Free Hybrid Halide Perovskites for Efficient
+    Solar Water Splitting Using Machine Learning and Molecular Dynamics
+  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00296J,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Mahalaxmi M C, Madhana Gopal, Tumpa Sadhukhan, Athira Nambia'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00296j
+  date: '2026-03-30'
+  source: Royal Society of Chemistry
+- title: Clustering in Machine Learning
+  description: 'Explore clustering in machine learning: group data based on similarity
+    without labels. Discover hard, soft, centroid, density, and hierarchical methods.
+    Uncover hidden patterns!'
+  url: https://www.c-sharpcorner.com/article/clustering-in-machine-learning/
+  date: '2026-03-30'
+  source: C-sharpcorner.com
 - title: New Study Uses Advanced Machine Learning To Determine How Ancient Species
     Left The Ocean And Then Returned To It Millions Of Years Later
   description: Life finds a way to survive, even if that means going back to the oceans.
