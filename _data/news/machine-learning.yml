@@ -1,4 +1,58 @@
 news_items:
+- title: AI in Drug Discovery Market to Hit USD 10.29 Bn by 2031 with Quantum Machine
+    Learning Advancing Rapidly at 27%+ CAGR - Mordor Intelligence Report
+  description: 'The artificial intelligence in drug discovery market is being shaped
+    by the growing need to address complex diseases and streamline research pipelines.
+    North America accounted for a significant share of 43.54% in 2025. The artificial
+    intelligence in '
+  url: https://www.globenewswire.com/news-release/2026/03/30/3264774/0/en/AI-in-Drug-Discovery-Market-to-Hit-USD-10-29-Bn-by-2031-with-Quantum-Machine-Learning-Advancing-Rapidly-at-27-CAGR-Mordor-Intelligence-Report.html
+  date: '2026-03-30'
+  source: GlobeNewswire
+- title: 'Advanced machine learning approaches for predicting neglected tropical disease
+    co-endemicity in Kenya: A focus on soil-transmitted helminths, schistosomiasis,
+    and lymphatic filariasis'
+  description: Author summary NTDs are a diverse group of communicable diseases affecting
+    1.5 billion people globally. In Africa, where about 39% of the world’s NTD burden
+    occurs, this study effectively used machine learning (ML) models to identify,
+    map and forecas
+  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014156
+  date: '2026-03-30'
+  source: Plos.org
+- title: 'Editorial Note: Machine learning-driven Diabetes Health Tracer (DHT): Optimizing
+    prognosis using RaSK_GraDe and RaSK_GraDeL models'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346001
+  date: '2026-03-30'
+  source: Plos.org
+- title: We analyzed Philly street scenes and identified signs of gentrification using
+    machine learning trained on longtime residents’ observations
+  description: Researchers are using machine learning models to identify gentrification
+    in imagery. Community insights help keep the models on track
+  url: https://theconversation.com/we-analyzed-philly-street-scenes-and-identified-signs-of-gentrification-using-machine-learning-trained-on-longtime-residents-observations-277704
+  date: '2026-03-30'
+  source: The Conversation Africa
+- title: Thunder Compute – Rent on-demand GPU instances for AI and machine learning
+    workflows
+  description: Rent on-demand GPU instances for AI and machine learning workflows
+  url: https://betalist.com/startups/thunder-compute
+  date: '2026-03-30'
+  source: Betalist.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: Job Description At JPMorgan Chase, AI and technology promote our global
+    operations with unmatched scale and speed. We invest over $18 billion annually
+    in innovation, data leverage, and security to shape the future for our clients,
+    communities, and em
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-2/
+  date: '2026-03-30'
+  source: Nlppeople.com
+- title: Gene expression and machine learning techniques uncover corneal biomarkers
+    associated with oxidative stress in the myopia progression
+  description: Scientific Reports - Gene expression and machine learning techniques
+    uncover corneal biomarkers associated with oxidative stress in the myopia progression
+  url: https://www.nature.com/articles/s41598-026-46896-x
+  date: '2026-03-30'
+  source: Nature.com
 - title: New Study Uses Advanced Machine Learning To Determine How Ancient Species
     Left The Ocean And Then Returned To It Millions Of Years Later
   description: Life finds a way to survive, even if that means going back to the oceans.
@@ -55,6 +109,22 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/qo/d6qo00178e
   date: '2026-03-27'
   source: Royal Society of Chemistry
+- title: Research Engineer – Perception and Machine Learning
+  description: We are seeking Research Engineers to serve as technical pillars within
+    the Surreal Team. In this role, you will move beyond algorithm implementation
+    to architecting the systems that power always-on contextual AI. This position
+    sits at the intersectio
+  url: https://nlppeople.com/job/research-engineer-perception-and-machine-learning/
+  date: '2026-03-27'
+  source: Nlppeople.com
+- title: Sr. Machine Learning/AI Engineer
+  description: 'WHO WE ARE: Financial Independence Group (FIG) is one of the nation’s
+    largest Finance and Insurance Marketing Organizations (FMO & IMO) in the country,
+    partnering with thousands of financial professionals in all 50 states. FIG seeks
+    to expand the ava'
+  url: https://nlppeople.com/job/sr-machine-learning-ai-engineer/
+  date: '2026-03-27'
+  source: Nlppeople.com
 - title: Machine learning potential-assisted design of thermoelectricvperformance
     in anharmonic CsPbBr3 and CsPbI3†
   description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00498A,
@@ -64,6 +134,23 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00498a
   date: '2026-03-26'
   source: Royal Society of Chemistry
+- title: Associate – Artificial Intelligence and Machine Learning Technical Risk,
+    Enterprise Services Risk, Cyber Risk & Analysis
+  description: Associate – Artificial Intelligence and Machine Learning Technical
+    Risk, Enterprise Services Risk, Cyber Risk & Analysis The Enterprise Services
+    Risk organization is expanding with a focus on attracting innovative, pioneering,
+    collaborative, and high
+  url: https://nlppeople.com/job/associate-artificial-intelligence-and-machine-learning-technical-risk-enterprise-services-risk-cyber-risk-analysis/
+  date: '2026-03-26'
+  source: Nlppeople.com
+- title: Sr. Lead, Machine Learning Engineer (Enterprise Platforms Technology)
+  description: Sr. Lead, Machine Learning Engineer (Enterprise Platforms Technology)
+    As a Capital One Machine Learning Engineer (MLE), you’ll be part of an Agile team
+    dedicated to productionizing machine learning applications and systems at scale.
+    You’ll participat
+  url: https://nlppeople.com/job/sr-lead-machine-learning-engineer-enterprise-platforms-technology/
+  date: '2026-03-26'
+  source: Nlppeople.com
 - title: 'Modeling diarrhea in children under five in Somaliland: A machine learning
     analysis using SLDHS 2020 data'
   description: Background Diarrhea remains a leading cause of morbidity and mortality
@@ -1444,45 +1531,4 @@ news_items:
     on our platform
   url: https://nlppeople.com/job/senior-machine-learning-engineer-multimodal-ai-computer-vision-and-graphics-phd-early-career/
   date: '2025-12-31'
-  source: Nlppeople.com
-- title: Machine Learning Manager
-  description: Isomorphic Labs is applying frontier AI to help unlock deeper scientific
-    insights, faster breakthroughs, and life-changing medicines with an ambition to
-    solve all disease. The future is coming. A future enabled and enriched by the
-    incredible power of
-  url: https://nlppeople.com/job/machine-learning-manager-19/
-  date: '2025-12-30'
-  source: Nlppeople.com
-- title: Evaluating machine learning efficiency and accuracy for real time flash flood
-    mapping
-  description: Flash floods endanger communities and ecosystems in rugged regions,
-    but precise prediction is difficult due to environmental complexity. This study
-    evaluates six machine learning algorithms for flash flood mapping in Iran’s Dez
-    Basin, a region growin
-  url: https://www.nature.com/articles/s41598-025-34037-9
-  date: '2025-12-30'
-  source: Nature.com
-- title: Machine Learning Geoscientist
-  description: We are looking for the right people — people who want to innovate,
-    achieve, grow and lead. We attract and retain the best talent by investing in
-    our employees and empowering them to develop themselves and their careers. Experience
-    the challenges, rew
-  url: https://nlppeople.com/job/machine-learning-geoscientist/
-  date: '2025-12-30'
-  source: Nlppeople.com
-- title: Integrating machine learning and molecular docking to elucidate the mechanism
-    of atrial fibrillation induced by di(2-ethylhexyl) phthalate
-  description: Scientific Reports - Integrating machine learning and molecular docking
-    to elucidate the mechanism of atrial fibrillation induced by di(2-ethylhexyl)
-    phthalate
-  url: https://www.nature.com/articles/s41598-025-31839-9
-  date: '2025-12-30'
-  source: Nature.com
-- title: Senior Machine Learning Engineer – NLP
-  description: Our client, a trailblazer in artificial intelligence and emerging technologies,
-    is seeking a highly skilled Senior Machine Learning Engineer specializing in Natural
-    Language Processing (NLP) to join their innovative research and development team.
-    Thi
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-42/
-  date: '2025-12-30'
   source: Nlppeople.com
