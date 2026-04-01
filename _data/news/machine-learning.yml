@@ -8,6 +8,13 @@ news_items:
   url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004770
   date: '2026-03-31'
   source: Plos.org
+- title: Supervised Machine Learning
+  description: 'Explore supervised machine learning: algorithms, types (classification
+    & regression), real-world examples, advantages, and disadvantages. Learn how it
+    works!'
+  url: https://www.c-sharpcorner.com/article/supervised-machine-learning/
+  date: '2026-03-31'
+  source: C-sharpcorner.com
 - title: AI in Drug Discovery Market to Hit USD 10.29 Bn by 2031 with Quantum Machine
     Learning Advancing Rapidly at 27%+ CAGR - Mordor Intelligence Report
   description: 'The artificial intelligence in drug discovery market is being shaped
