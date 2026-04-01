@@ -1,4 +1,13 @@
 news_items:
+- title: 'Machine learning assisted differentiation of low acuity patients at dispatch:
+    The MADLAD randomized controlled trial'
+  description: In this randomized clinical trial, Douglas Nils Spangler and colleagues
+    assess the potential of a machine learning (ML)–based triage tool to improve emergency
+    triage by supporting dispatchers in identifying patients at high risk of deterioration
+    in r
+  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004770
+  date: '2026-03-31'
+  source: Plos.org
 - title: AI in Drug Discovery Market to Hit USD 10.29 Bn by 2031 with Quantum Machine
     Learning Advancing Rapidly at 27%+ CAGR - Mordor Intelligence Report
   description: 'The artificial intelligence in drug discovery market is being shaped
@@ -68,6 +77,32 @@ news_items:
   url: https://www.c-sharpcorner.com/article/clustering-in-machine-learning/
   date: '2026-03-30'
   source: C-sharpcorner.com
+- title: Unraveling defect-mediated ion transport behavior in antiperovskite solid-state
+    electrolyte via machine learning molecular dynamics simulations
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04975J,
+    PaperLirong Xia, Kehao Zhang, Yong PeiAnti-perovskite (AP) solid-state electrolytes
+    (SSE) have emerged as promising candidates for high-safety solid-state batteries
+    due to the'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04975j
+  date: '2026-03-30'
+  source: Royal Society of Chemistry
+- title: Prediction of gas chromatographic retention times of narcotic and hazardous
+    drugs in blood using QSRR and machine learning models
+  description: 'RSC Adv., 2026, 16,17322-17336DOI: 10.1039/D5RA10111E, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Mohamed Abu Shuheil, Ahmed Aldulaimi, Subhashree Ray, Talal Aziz
+    Qassem, Gunjan Garg, Re'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra10111e
+  date: '2026-03-30'
+  source: Royal Society of Chemistry
+- title: Data Scientist (Artificial Intelligence / Machine Learning)
+  description: 'Position Type : Full time Type Of Hire : Experienced (relevant combo
+    of work and education) At FIS, our technology and our people are moving forward.
+    We advance the way the world pays, banks and invests. We believe in building inclusive,
+    diverse team'
+  url: https://nlppeople.com/job/data-scientist-artificial-intelligence-machine-learning-5/
+  date: '2026-03-29'
+  source: Nlppeople.com
 - title: New Study Uses Advanced Machine Learning To Determine How Ancient Species
     Left The Ocean And Then Returned To It Millions Of Years Later
   description: Life finds a way to survive, even if that means going back to the oceans.
@@ -1504,46 +1539,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340096
   date: '2026-01-02'
   source: Plos.org
-- title: Machine learning reveals drivers of cold-related illness during energy infrastructure
-    attacks in Wartime Ukraine
-  description: 'During the Russian invasion of Ukraine, targeted attacks on energy
-    infrastructure exposed civilians to heightened cold-related health risks. This
-    study aimed to: (1) characterize respiratory infections and cold-related injuries
-    during the conflict; ('
-  url: https://www.nature.com/articles/s41598-025-32344-9
-  date: '2025-12-31'
-  source: Nature.com
-- title: Domain oriented universal machine learning potential enables fast exploration
-    of chemical space of battery electrolytes
-  description: Efficient modeling of battery electrolytes is limited by the accuracy-cost
-    trade-off. Here, authors develop a universal machine learning potential to accurately
-    calculate transport and solvation properties across a broad chemical space.
-  url: https://www.nature.com/articles/s41467-025-67982-0
-  date: '2025-12-31'
-  source: Nature.com
-- title: Scalable photonic reservoir computing for parallel machine learning tasks
-  description: Neuromorphic computing processes data faster and with less energy than
-    electronics. Here, authors demonstrate a reconfigurable photonic reservoir computer
-    that performs multiple machine learning tasks in parallel at ultrafast rates while
-    using extrem
-  url: https://www.nature.com/articles/s41467-025-67983-z
-  date: '2025-12-31'
-  source: Nature.com
-- title: A hybrid machine learning model for pulmonary tuberculosis forecasting of
-    Chongqing with adjacent-region data
-  description: Pulmonary Tuberculosis (PTB) remains a serious infectious disease and
-    a major global public health problem. Accurate prediction of PTB epidemics is
-    essential to support health authorities in developing effective prevention and
-    control strategies. Thi
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339453
-  date: '2025-12-31'
-  source: Plos.org
-- title: Senior Machine Learning Engineer, Multimodal AI, Computer Vision and Graphics
-    – PhD Early Career
-  description: We’re looking for a Senior Machine Learning Engineer to join our team
-    in San Mateo, CA. As a Senior Machine Learning Engineer, you will be responsible
-    for developing and deploying machine learning models to improve the user experience
-    on our platform
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-multimodal-ai-computer-vision-and-graphics-phd-early-career/
-  date: '2025-12-31'
-  source: Nlppeople.com
