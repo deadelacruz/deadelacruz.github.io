@@ -1,4 +1,12 @@
 news_items:
+- title: Manifold topological deep learning for biomedical data
+  description: The study introduces manifold topological deep learning (MTDL) that
+    extends topological deep learning to data on differentiable manifolds through
+    de Rham-Hodge theory. MTDL outperforms competing methods on various biomedical
+    imaging benchmarks.
+  url: https://www.nature.com/articles/s41467-026-71392-1
+  date: '2026-04-01'
+  source: Nature.com
 - title: Exploring how deep learning decodes anomalous diffusion via Grad-CAM
   description: Using Grad-CAM with ResNets, this study probes how deep learning classifies
     anomalous diffusion from raw trajectories. The method reveals trajectory segments
@@ -413,12 +421,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-30936-z
   date: '2026-01-03'
   source: Nature.com
-- title: MediaGo and hipto Win Two Les Cas d'Or Honors for Deep Learning-Driven Insurance
-    Lead Generation
-  description: SAN FRANCISCO, Jan. 1, 2026 /PRNewswire/ -- MediaGo, a leading global
-    intelligent advertising platform, and hipto, a leading lead-generation specialist
-    in France, have won two honors at Les Cas d'Or, one of France's most influential
-    digital marketing
-  url: https://www.prnewswire.co.uk/news-releases/mediago-and-hipto-win-two-les-cas-dor-honors-for-deep-learning-driven-insurance-lead-generation-302651252.html
-  date: '2026-01-01'
-  source: PR Newswire UK
