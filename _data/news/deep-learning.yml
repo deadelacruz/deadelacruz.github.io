@@ -1,4 +1,19 @@
 news_items:
+- title: 'Retraction: An inherently interpretable deep learning model for local explanations
+    using visual concepts'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346306
+  date: '2026-04-02'
+  source: Plos.org
+- title: A hybrid bio-inspired model for predicting urban air pollution using deep
+    learning
+  description: Accurate prediction of urban air quality is vital for protecting public
+    health and the environment. The current challenges in air quality prediction models
+    include noisy data, missing data, interactions of pollutants, temporal and spatial
+    variations,
+  url: https://www.nature.com/articles/s41598-026-40726-w
+  date: '2026-04-02'
+  source: Nature.com
 - title: Manifold topological deep learning for biomedical data
   description: The study introduces manifold topological deep learning (MTDL) that
     extends topological deep learning to data on differentiable manifolds through
