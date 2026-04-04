@@ -48,8 +48,9 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
 
-          if git ls-remote --exit-code origin gh-pages > /dev/null 2>&1; then
-            git worktree add _deploy origin/gh-pages
+          if git ls-remote --exit-code --heads origin gh-pages > /dev/null 2>&1; then
+            git fetch origin gh-pages:refs/remotes/origin/gh-pages
+            git worktree add -B gh-pages _deploy origin/gh-pages
           else
             git worktree add -b gh-pages _deploy
           fi
