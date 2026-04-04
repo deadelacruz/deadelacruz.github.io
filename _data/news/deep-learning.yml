@@ -1,4 +1,10 @@
 news_items:
+- title: Single-channel EEG-based seizure prediction using deep learning
+  description: Scientific Reports - Single-channel EEG-based seizure prediction using
+    deep learning
+  url: https://www.nature.com/articles/s41598-026-44670-7
+  date: '2026-04-03'
+  source: Nature.com
 - title: 'Retraction: An inherently interpretable deep learning model for local explanations
     using visual concepts'
   description: No description available.
@@ -429,10 +435,3 @@ news_items:
   url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003580
   date: '2026-01-05'
   source: Plos.org
-- title: Application and accuracy analysis of different facial regions based on deep
-    learning in the diagnosis of hypertension
-  description: Scientific Reports - Application and accuracy analysis of different
-    facial regions based on deep learning in the diagnosis of hypertension
-  url: https://www.nature.com/articles/s41598-025-30936-z
-  date: '2026-01-03'
-  source: Nature.com

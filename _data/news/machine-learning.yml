@@ -1,4 +1,60 @@
 news_items:
+- title: Sony buys machine learning firm behind volumetric 3D images to level-up PlayStation
+    tech
+  description: Sony Interactive Entertainment has acquired ML experts behind AI-powered
+    volumetric 3D photos Cinemersive Labs to help bolster its PlayStation games tech.Continue
+    reading at TweakTown
+  url: https://www.tweaktown.com/news/110848/sony-buys-machine-learning-firm-behind-volumetric-3d-images-to-level-up-playstation-tech/index.html
+  date: '2026-04-03'
+  source: TweakTown
+- title: Comparative evaluation of machine learning models for predicting Cimbex quadrimaculata
+    population density across multiple problem formulations
+  description: 'The high variability and nonlinear relationships between environmental
+    variables (such as temperature, relative humidity, and altitude) in ecological
+    datasets prevent classical statistical models from obtaining accurate predictions.
+    This study aimed '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346494
+  date: '2026-04-03'
+  source: Plos.org
+- title: 'Identifying researcher characteristics driving growth in Japanese University-originated
+    deep-tech startups: A machine learning approach'
+  description: Active involvement of researchers with strong outputs is essential
+    for growth of deep-tech university-originated startups. We used the University-Originated
+    Venture Database to link total funding amount with researchers’ publication metrics
+    and KAKEN
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346137
+  date: '2026-04-03'
+  source: Plos.org
+- title: What Is Overfitting in Machine Learning and How to Prevent It?
+  description: Learn how to identify and prevent overfitting in machine learning models.
+    Improve accuracy and reliability with techniques like regularization and cross-validation.
+  url: https://www.c-sharpcorner.com/article/what-is-overfitting-in-machine-learning-and-how-to-prevent-it/
+  date: '2026-04-03'
+  source: C-sharpcorner.com
+- title: AI and Machine Learning Solutions Specialist
+  description: 'Join Us: We are embarking on an exciting new era in Data & AI that
+    promises to transform industries and society at large. At Accenture, we’re committed
+    to leading the charge with a clear vision: to empower clients in optimizing and
+    reinventing their '
+  url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist/
+  date: '2026-04-03'
+  source: Nlppeople.com
+- title: Machine learning based prediction of platelet concentration from ROTEM measurements
+  description: 'Viscoelastic testing is an established standard in modern coagulation
+    medicine, reducing transfusion needs. However, it does not provide direct information
+    on platelet count. Here, we present a machine learning approach to predict platelet
+    count and '
+  url: https://www.nature.com/articles/s41598-026-45743-3
+  date: '2026-04-03'
+  source: Nature.com
+- title: Machine Learning Research Engineer – NLP / LLM
+  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
+    for a Machine Learning Research Engineer to work on researching and investigating
+    new concepts for an industry-leading, machine-learning software company in Cambridge,
+    UK. This '
+  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-7/
+  date: '2026-04-03'
+  source: Nlppeople.com
 - title: 'A machine learning model for post-operative sepsis prediction in acute surgical
     patients: a multi-centre, prospective study'
   description: The aim of this study was to develop and validate a machine learning
@@ -40,6 +96,22 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-43482-z
   date: '2026-04-02'
   source: Nature.com
+- title: Senior Machine Learning Engineer – National Security
+  description: 'Location: London or Gloucestershire We’re looking for a Senior Machine
+    Learning Engineer to join a supportive, multidisciplinary team developing AI/ML
+    systems to solve critical National Security challenges. As a Senior Machine Learning
+    Engineer, you’'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-national-security/
+  date: '2026-04-02'
+  source: Nlppeople.com
+- title: AI / Machine Learning Engineer (m/w/d)
+  description: Job DescriptionJob DescriptionAI / Machine Learning Engineer San Diego,
+    CA In-office | Full-TimeAbout the Opportunity Our client, a fast-growing AI solutions
+    and advisory firm, is seeking an AI / Machine Learning Engineer to help design,
+    build, and s
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-m-w-d/
+  date: '2026-04-02'
+  source: Nlppeople.com
 - title: Transition From Data Scientist to Machine Learning Engineer 2026 Guide -
     Interview Kickstart Publishes New Career Guide
   description: SANTA CLARA, CA, April  01, 2026  (GLOBE NEWSWIRE) -- SANTA CLARA,
@@ -1539,24 +1611,3 @@ news_items:
   url: https://soldiersystems.net/2026/01/04/army-establishes-new-ai-machine-learning-career-path-for-officers/
   date: '2026-01-04'
   source: Soldiersystems.net
-- title: Efficient and optimized blood cancer detection using engineered graphene-based
-    silicon–TiN–silicon multilayered plasmonic sensor design with behaviour prediction
-    using machine learning
-  description: Scientific Reports - Efficient and optimized blood cancer detection
-    using engineered graphene-based silicon–TiN–silicon multilayered plasmonic sensor
-    design with behaviour prediction...
-  url: https://www.nature.com/articles/s41598-025-33885-9
-  date: '2026-01-03'
-  source: Nature.com
-- title: 'Python examples for ‘Beyond Nelson-Siegel and splines: A model- agnostic
-    Machine Learning framework for discount curve calibration, interpolation and extrapolation’'
-  description: 'Using yieldcurveml in Python examples for ''Beyond Nelson-Siegel and
-    splines: A model- agnostic Machine Learning framework for discount curve calibration,
-    interpolation and extrapolation''
-
-
-
-    Continue reading: Python examples for ‘Beyond Nelson-Siegel a'
-  url: https://www.r-bloggers.com/2026/01/python-examples-for-beyond-nelson-siegel-and-splines-a-model-agnostic-machine-learning-framework-for-discount-curve-calibration-interpolation-and-extrapolation/
-  date: '2026-01-03'
-  source: R-bloggers.com
