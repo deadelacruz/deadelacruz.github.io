@@ -55,7 +55,7 @@ jobs:
             git worktree add -b gh-pages _deploy
           fi
 
-          rsync -av --delete _site/ _deploy/
+          rsync -av --delete --exclude='.git' _site/ _deploy/
           touch _deploy/.nojekyll
 
           cd _deploy
