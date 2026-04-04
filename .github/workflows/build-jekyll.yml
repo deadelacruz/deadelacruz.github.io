@@ -5,12 +5,15 @@ on:
     branches:
       - main
       - master
+  workflow_run:
+    workflows:
+      - Update News Every 12 Hours
+    types:
+      - completed
   workflow_dispatch:
 
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: write
 
 concurrency:
   group: pages
@@ -18,13 +21,13 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+        with:
+          fetch-depth: 0
 
       - name: Set up Ruby
         uses: ruby/setup-ruby@3ff19f5e2baf30647122352b96108b1fbe250c64 # v1.299.0
@@ -36,33 +39,30 @@ jobs:
           JEKYLL_ENV: production
         run: bundle exec jekyll build --trace --destination _site
 
-      # Equivalent archive format expected by deploy-pages, but uploaded with upload-artifact v7.
-      - name: Prepare Pages artifact
+      - name: Deploy to gh-pages branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: |
-          tar \
-            --dereference --hard-dereference \
-            --directory "_site" \
-            -cvf "$RUNNER_TEMP/artifact.tar" \
-            --exclude=.git \
-            --exclude=.github \
-            --exclude=".[^/]*" \
-            .
+          set -euo pipefail
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
 
-      - name: Upload Pages artifact
-        uses: actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f # v7.0.0
-        with:
-          name: github-pages
-          path: ${{ runner.temp }}/artifact.tar
-          retention-days: 1
-          if-no-files-found: error
+          if git ls-remote --exit-code origin gh-pages > /dev/null 2>&1; then
+            git worktree add _deploy origin/gh-pages
+          else
+            git worktree add -b gh-pages _deploy
+          fi
 
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0
+          rsync -av --delete _site/ _deploy/
+          touch _deploy/.nojekyll
+
+          cd _deploy
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to deploy."
+            exit 0
+          fi
+
+          git commit -m "Deploy site: $(date -u +'%Y-%m-%d %H:%M:%S UTC')"
+          git push "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:gh-pages
