@@ -1,4 +1,20 @@
 news_items:
+- title: Microsoft is automatically updating Windows 11 24H2 to 25H2 using machine
+    learning
+  description: The forced update is part of a larger Windows update plan, designed
+    to phase out the older 24H2 version before it reaches end of life.Continue reading
+    at TweakTown
+  url: https://www.tweaktown.com/news/110874/microsoft-is-automatically-updating-windows-11-24h2-to-25h2-using-machine-learning/index.html
+  date: '2026-04-04'
+  source: TweakTown
+- title: Microsoft to force updates to Windows 11 25H2 for PCs with older OS versions
+    — 'intelligent' update system uses machine learning to determine when a device
+    is ready
+  description: Windows 11 24H2 systems are being upgraded to 25H2 automatically, as
+    Microsoft aims to streamline updates before support ends.
+  url: https://www.tomshardware.com/software/windows/microsoft-forces-updates-to-windows-11-25h2-update-for-pcs-running-on-24h2
+  date: '2026-04-04'
+  source: Tom's Hardware UK
 - title: Sony buys machine learning firm behind volumetric 3D images to level-up PlayStation
     tech
   description: Sony Interactive Entertainment has acquired ML experts behind AI-powered
@@ -1594,20 +1610,3 @@ news_items:
   url: https://cshperspectives.cshlp.org/content/18/1/a041877.short?rss=1
   date: '2026-01-05'
   source: Cshlp.org
-- title: Discovery of novel polymyxin E adjuvants against Acinetobacter baumannii
-    guided by a stacking-based machine learning model
-  description: 'RSC Med. Chem., 2026, Accepted ManuscriptDOI: 10.1039/D5MD00768B,
-    Research ArticleYuce Chen, Kunkun Shen, Ting Lin, Daijie Chen, Zhong Li, Yuheng
-    Yang, Xiaoyong XuThe rapid spread of antibiotic resistance poses an escalating
-    global health crisis. Pol'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/md/d5md00768b
-  date: '2026-01-04'
-  source: Royal Society of Chemistry
-- title: Army Establishes New AI, Machine Learning Career Path for Officers
-  description: WASHINGTON – The U.S. Army has established a new career pathway for
-    officers to specialize in artificial intelligence and machine learning (AI/ML),
-    formally designating the 49B AI/ML Officer as an official area of concentration.
-    It advances the Army’
-  url: https://soldiersystems.net/2026/01/04/army-establishes-new-ai-machine-learning-career-path-for-officers/
-  date: '2026-01-04'
-  source: Soldiersystems.net
