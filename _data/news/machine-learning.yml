@@ -22,6 +22,13 @@ news_items:
   url: https://healthtolongevity.com/article/10864/machine-learning-predicts-fatigue-patterns-in-elite-womens-handball-players
   date: '2026-04-04'
   source: Healthtolongevity.com
+- title: Microsoft to force updates to Windows 11 25H2 for PCs with older Windows
+    11 OS versions — 'intelligent' update system uses machine learning to determine
+    when a device is ready
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1cd161e5-93a9-43c5-b8b1-e671848e549e
+  date: '2026-04-04'
+  source: Yahoo Entertainment
 - title: Sony buys machine learning firm behind volumetric 3D images to level-up PlayStation
     tech
   description: Sony Interactive Entertainment has acquired ML experts behind AI-powered
@@ -1585,35 +1592,3 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-engineer-level-4/
   date: '2026-01-06'
   source: Nlppeople.com
-- title: Development of a multimodal magnetic resonance imaging-based machine learning
-    prediction model for flight cadets
-  description: Scientific Reports - Development of a multimodal magnetic resonance
-    imaging-based machine learning prediction model for flight cadets
-  url: https://www.nature.com/articles/s41598-025-33610-6
-  date: '2026-01-05'
-  source: Nature.com
-- title: Machine learning framework reveals a concordant cell-state landscape across
-    single-cell datasets
-  description: Comprehensively resolving the cell state landscape requires integrating
-    single-cell omics data from diverse studies. We developed CONCORD, a contrastive
-    learning framework that leverages principled mini-batch sampling to learn denoised,
-    batch-integra
-  url: https://www.nature.com/articles/s41587-025-02978-1
-  date: '2026-01-05'
-  source: Nature.com
-- title: Combining Chemical, Geometric, and Novel Topological Features to Develop
-    Generalizable Machine Learning Models for Predicting Mechanically Stable MOFs
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08080K,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Akash Ball, Changhwan Oh, Gozel Dovranova, Heather KulikMeta'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08080k
-  date: '2026-01-05'
-  source: Royal Society of Chemistry
-- title: '[Bioinformatics] Machine Learning for Protein Science and Engineering'
-  description: Recent years have seen significant breakthroughs at the intersection
-    of machine learning and protein science. Tools such as AlphaFold have revolutionized
-    protein structure prediction. They are also enabling variant effect prediction
-    and functional an
-  url: https://cshperspectives.cshlp.org/content/18/1/a041877.short?rss=1
-  date: '2026-01-05'
-  source: Cshlp.org

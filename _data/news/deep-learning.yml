@@ -408,30 +408,3 @@ news_items:
   url: https://thefly.com/permalinks/entry.php/id4264875/MGNI-Magnite-Cognitiv-announce-deep-learning-integration
   date: '2026-01-06'
   source: Thefly.com
-- title: Two-Tier heuristic search for ransomware-as-a-service based cyberattack défense
-    analysis using explainable Bayesian deep learning model
-  description: Data security assurance is essential owing to the improving popularity
-    of cloud computing and its extensive usage through several industries, particularly
-    in light of the increasing number of cyber-security attacks. Ransomware-as-a-service
-    (RaaS) att
-  url: https://www.nature.com/articles/s41598-025-96083-7
-  date: '2026-01-05'
-  source: Nature.com
-- title: Deep learning and superoscillatory speckles empowered multimode fiber probe
-    for in situ nano-displacement detection and micro-imaging
-  description: This work introduces an in-situ nano-displacement measurement system
-    via a multimode fiber probe with superoscillatory speckles and deep learning.
-    It achieves 10 nm resolution and 99.95% accuracy for wafers, non-contact sensing
-    in confined spaces.
-  url: https://www.nature.com/articles/s41467-025-67942-8
-  date: '2026-01-05'
-  source: Nature.com
-- title: MMSpa is a deep learning-based tool that enhances the identification of spatial
-    domains in spatial transcriptomics studies
-  description: Accurately extracting domain-related information from spatial locations
-    and gene expression is a challenge in spatial transcriptomics analysis. This study
-    develops a masked graph attention autoencoder framework called MMSpa that enhances
-    spatial doma
-  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003580
-  date: '2026-01-05'
-  source: Plos.org
