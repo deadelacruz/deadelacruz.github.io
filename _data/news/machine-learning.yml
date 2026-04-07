@@ -1,4 +1,64 @@
 news_items:
+- title: 'Identifying minimal risk factors for adolescent suicidal ideation and suicide
+    attempts: A machine learning-optimized approach'
+  description: 'This study aimed to develop and validate a machine learning (ML) model
+    to identify the minimal risk factors for adolescent suicidal behaviors, including
+    suicidal ideation and suicide attempts. Data from the Korea Youth Risk Behavior
+    Web-based Survey '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346050
+  date: '2026-04-06'
+  source: Plos.org
+- title: 'MLXN: Machine Learning for X-ray and Neutron Scattering'
+  description: Building on the success of previous meetings—in-person workshops at
+    Lawrence Berkeley National Lab (2023) and Technische Universität München (2024),
+    followed by MLXN25, last year's online 24-hour event that brought together researchers,
+    practitioners
+  url: https://www.nist.gov/news-events/events/2026/04/mlxn-machine-learning-x-ray-and-neutron-scattering
+  date: '2026-04-06'
+  source: Nist.gov
+- title: Machine learning-driven drug repurposing for HER2-positive breast cancer
+  description: 'Breast cancer, particularly the Human Epidermal Growth Factor Receptor
+    2 (HER2)-positive subtype, remains a significant clinical challenge due to its
+    aggressive nature and the frequent development of resistance to targeted therapy.
+    In this study, we '
+  url: https://www.nature.com/articles/s41598-026-45361-z
+  date: '2026-04-06'
+  source: Nature.com
+- title: 'Prediction of primary glaucoma: development and validation of multiple machine
+    learning models'
+  description: To develop and validate a machine learning model by combining blood
+    markers with retinal structural parameters to predict the risk of primary glaucoma
+    and provide a risk assessment tool for early detection of primary glaucoma. A
+    case–control study wa
+  url: https://www.nature.com/articles/s41598-026-45340-4
+  date: '2026-04-06'
+  source: Nature.com
+- title: Intelligent performance prediction of nanoparticle-enhanced automotive radiator
+    cooling using CFD and machine learning
+  description: Active thermal control of automotive engines is vital for improving
+    performance, robustness and conventional coolants like water and air frequently
+    bring insufficient heat dissipation. To counterpart this ill effect, the propose
+    study examines and in
+  url: https://www.nature.com/articles/s41598-026-43497-6
+  date: '2026-04-06'
+  source: Nature.com
+- title: Prediction of unconfined compressive strength of fly ash and waste paper
+    sludge stabilized clayey soil using explainable machine learning
+  description: Sustainable stabilization of problematic clayey soils with industrial
+    by-products has recently become a topic of considerable interest because of the
+    environmental and economic issues relating to traditional binders. This paper
+    examines the interacti
+  url: https://www.nature.com/articles/s41598-026-47096-3
+  date: '2026-04-06'
+  source: Nature.com
+- title: AI and Machine Learning Solutions Specialist
+  description: 'Join Us: We are embarking on an exciting new era in Data & AI that
+    promises to transform industries and society at large. At Accenture, we’re committed
+    to leading the charge with a clear vision: to empower clients in optimizing and
+    reinventing their '
+  url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-2/
+  date: '2026-04-05'
+  source: Nlppeople.com
 - title: Microsoft is automatically updating Windows 11 24H2 to 25H2 using machine
     learning
   description: The forced update is part of a larger Windows update plan, designed
@@ -140,6 +200,15 @@ news_items:
     and advisory firm, is seeking an AI / Machine Learning Engineer to help design,
     build, and s
   url: https://nlppeople.com/job/ai-machine-learning-engineer-m-w-d/
+  date: '2026-04-02'
+  source: Nlppeople.com
+- title: Assistant Professor, Computer Science – Artificial Intelligence/Machine Learning
+    (Tenure-Track)
+  description: Teaches undergraduate and graduate courses with a focus in machine
+    learning and its applications in artificial intelligence, NLM, GenAI, computer
+    graphics, networking, cybersecurity, IoT, robotics, HCI, databases, software engineering,
+    etc. in The Sc
+  url: https://nlppeople.com/job/assistant-professor-computer-science-artificial-intelligence-machine-learning-tenure-track/
   date: '2026-04-02'
   source: Nlppeople.com
 - title: Transition From Data Scientist to Machine Learning Engineer 2026 Guide -
@@ -1543,52 +1612,3 @@ news_items:
   url: https://eprints.lse.ac.uk/130860/
   date: '2026-01-07'
   source: Lse.ac.uk
-- title: 'Machine Learning and AI Empowering Metal-Organic Frameworks: Synthesis,
-    Performance Prediction and Therapeutic Application'
-  description: 'Dalton Trans., 2026, Accepted ManuscriptDOI: 10.1039/D5DT02184G, PerspectiveJian-Qiang
-    Liu, Ran Chen, Yuanwei He, Zitao Chen, Haodong Ruan, Ying Pan, Alireza Nezamzadeh-Ejhieh,
-    Chengyu LuMachine learning (ML), a subset of artificial intelligence(AI),'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/dt/d5dt02184g
-  date: '2026-01-06'
-  source: Royal Society of Chemistry
-- title: Machine Learning (NLP) – 4 Months – West London (Hybrid)
-  description: What You’ll Do • Conduct cutting-edge research to tackle real-world
-    AI challenges. • Develop high-quality code and documentation to ensure reproducible
-    and impactful research. • Review state-of-the-art research papers and create prototype
-    solutions t
-  url: https://nlppeople.com/job/machine-learning-nlp-4-months-west-london-hybrid-3/
-  date: '2026-01-06'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer, NLP
-  description: We are looking for a Senior Machine Learning Engineer to join our growing
-    engineering team. You’re the perfect fit for this role if you are passionate about
-    solving problems in NLP, have a great appreciation for science and want to transform
-    how it i
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-40/
-  date: '2026-01-06'
-  source: Nlppeople.com
-- title: 'Gentrification from the sky: using remote sensing and machine learning for
-    urban change detection'
-  description: 'Alfaro, Javier, Šćepanović, Sanja, Law, Stephen and Quercia, Daniele
-    (2025) Gentrification from the sky: using remote sensing and machine learning
-    for urban change detection. In: Urban Book Series. Urban Book Series. Springer
-    Science and Business Med'
-  url: https://eprints.lse.ac.uk/130850/
-  date: '2026-01-06'
-  source: Lse.ac.uk
-- title: AI co-pilot uses machine learning to reduce deadly sea collisions
-  description: If you want to spoil a sailor's day, then a ship collision is the way
-    to do it. That's why Texas A&M University has come up with its Ship collision
-    avoidance of Machine learning And Radar Technology for Stationary Entities and
-    Avoidance (SMART-SEA).C
-  url: https://newatlas.com/marine/smart-sea-machine-learning-sea-collisions/
-  date: '2026-01-06'
-  source: New Atlas
-- title: Machine Learning Engineer, Level 4
-  description: Snap Inc is a technology company. We believe the camera presents the
-    greatest opportunity to improve the way people live and communicate. Snap contributes
-    to human progress by empowering people to express themselves, live in the moment,
-    learn about t
-  url: https://nlppeople.com/job/machine-learning-engineer-level-4/
-  date: '2026-01-06'
-  source: Nlppeople.com
