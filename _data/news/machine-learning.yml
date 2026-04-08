@@ -1,4 +1,38 @@
 news_items:
+- title: 'CO Coadsorption Effects on Water-Gas Shift Reaction over Cu Clusters on
+    Cu(111): Insights from Machine Learning Force Field and Microkinetic Modeling'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP05031F,
+    PaperMuhammad Fadhlan Anshor, Harry H. Halim, Yoshitada MorikawaCO-induced Cu
+    clustering has been observed experimentally and theoretically, yet its catalytic
+    implications rem'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp05031f
+  date: '2026-04-07'
+  source: Royal Society of Chemistry
+- title: Sam Altman’s Coworkers Say He Can Barely Code and Misunderstands Basic Machine
+    Learning Concepts
+  description: '"I think there''s a small but real chance he''s eventually remembered
+    as a Bernie Madoff- or Sam Bankman-Fried-level scammer."
+
+    The post Sam Altman’s Coworkers Say He Can Barely Code and Misunderstands Basic
+    Machine Learning Concepts appeared first on F'
+  url: http://futurism.com/artificial-intelligence/sam-altman-technical-coding
+  date: '2026-04-07'
+  source: Futurism
+- title: Microsoft to force updates to Windows 11 25H2 for PCs with older Windows
+    11 OS versions — 'intelligent' update system uses machine learning to determine
+  description: Windows 11 24H2 systems are being upgraded to 25H2 automatically, as
+    Microsoft aims to streamline updates before support ends.
+  url: https://slashdot.org/firehose.pl?op=view&amp;id=181401678
+  date: '2026-04-07'
+  source: Slashdot.org
+- title: 'Retraction Note: Machine learning framework for oxytetracycline removal
+    using nanostructured cupric oxide supported on magnetic chitosan alginate biocomposite'
+  description: 'Scientific Reports - Retraction Note: Machine learning framework for
+    oxytetracycline removal using nanostructured cupric oxide supported on magnetic
+    chitosan alginate biocomposite'
+  url: https://www.nature.com/articles/s41598-026-46854-7
+  date: '2026-04-07'
+  source: Nature.com
 - title: 'Identifying minimal risk factors for adolescent suicidal ideation and suicide
     attempts: A machine learning-optimized approach'
   description: 'This study aimed to develop and validate a machine learning (ML) model
@@ -69,12 +103,28 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d5ja00500k
   date: '2026-04-06'
   source: Royal Society of Chemistry
+- title: Senior Machine Learning Engineer – Global
+  description: 'We believe in better. And we make it happen. Better content. Better
+    products. And better careers. Working in Tech, Product or Data at Sky is about
+    building the next and the new. From broadband to broadcast, streaming to mobile,
+    SkyQ to Sky Glass, we '
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-global/
+  date: '2026-04-06'
+  source: Nlppeople.com
 - title: AI and Machine Learning Solutions Specialist
   description: 'Join Us: We are embarking on an exciting new era in Data & AI that
     promises to transform industries and society at large. At Accenture, we’re committed
     to leading the charge with a clear vision: to empower clients in optimizing and
     reinventing their '
   url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-2/
+  date: '2026-04-05'
+  source: Nlppeople.com
+- title: Applied AI & Machine Learning Associate – Markets Operations
+  description: Job Description Join us to shape the future of banking through cutting-edge
+    AI and machine learning. You’ll collaborate with a dynamic team of data scientists,
+    engineers, and product managers to create impactful products for our operations
+    teams. Thi
+  url: https://nlppeople.com/job/applied-ai-machine-learning-associate-markets-operations/
   date: '2026-04-05'
   source: Nlppeople.com
 - title: Microsoft is automatically updating Windows 11 24H2 to 25H2 using machine
@@ -1569,64 +1619,3 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/01/08/3215538/0/en/Argobio-launches-Enodia-with-20-7-million-seed-financing-to-advance-a-small-molecule-platform-for-targeted-protein-degradation-enabled-by-proteomics-and-machine-learning.html
   date: '2026-01-08'
   source: GlobeNewswire
-- title: 'Probing the longest λmax of azo compounds in near infrared absorption via
-    integrating protonation, antiaromaticity and substituents: a combined DFT and
-    machine learning study'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP03494A,
-    PaperShuwen Chen, Yuan Gao, Wenhao Wang, Jun ZhuThe photoisomerism of azo switches
-    using light in the near-IR region (NIR, 780-1400 nm) is highly preferable for
-    the applicatio'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03494a
-  date: '2026-01-07'
-  source: Royal Society of Chemistry
-- title: Hybrid CFD and machine learning analysis of CO2 enhanced oil recovery in
-    naturally fractured reservoirs
-  description: CO2 based Enhanced Oil Recovery (EOR) in unconventional reservoirs
-    is an emerging technology. Scientific research efforts are directed towards understanding
-    the propagation of CO2 front due to the complex interplay between CO2 injection
-    and saturatio
-  url: https://www.nature.com/articles/s41598-025-34786-7
-  date: '2026-01-07'
-  source: Nature.com
-- title: Uncertainty-aware machine learning to predict non-cancer human toxicity for
-    the global chemicals market
-  description: Uncertainty-aware machine learning models predict human toxicity for
-    more than 100,000 chemicals, highlighting potency and uncertainty hotspots to
-    guide safer use and to focus efforts to improve prediction confidence.
-  url: https://www.nature.com/articles/s41467-025-67374-4
-  date: '2026-01-07'
-  source: Nature.com
-- title: AI Machine Learning Engineer
-  description: 'Note: If you are CURRENTLY employed at Children’s and/or have an active
-    badge or network access, STOP here. Submit your application via Workday using
-    the Career App (Find Jobs). Work Shift Day Work Day(s) Friday, Monday, Thursday,
-    Tuesday, Wednesday '
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-21/
-  date: '2026-01-07'
-  source: Nlppeople.com
-- title: Unbiased inference for echocardiogram urgency prediction using double machine
-    learning
-  description: The increased utilization of echocardiography in clinical practice
-    has witnessed a substantial rise, underscoring its pivotal role as a diagnostic
-    tool for various cardiovascular conditions. However, due to the relative scarcity
-    of echocardiography t
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338922
-  date: '2026-01-07'
-  source: Plos.org
-- title: 'Machine learning-based prediction of the axial load capacity of UHPC strengthened
-    reinforced concrete columns: A comparative analysis'
-  description: This study develops and evaluates machine learning (ML) models to predict
-    the axial load capacity (Pu) of reinforced concrete (RC) columns strengthened
-    with ultra-high-performance concrete (UHPC) jackets. A comprehensive experimental
-    database contain
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0338120
-  date: '2026-01-07'
-  source: Plos.org
-- title: Prediction, interpolation and extrapolation of the bonding strength between
-    FRP bars and UHPC with machine learning
-  description: Li, Jia, Wang, Zhengju, Wang, Zhengchen, Li, Jin and Wang, Yi (2026)
-    Prediction, interpolation and extrapolation of the bonding strength between FRP
-    bars and UHPC with machine learning. Engineering Structures, 348. ISSN 0141-0296
-  url: https://eprints.lse.ac.uk/130860/
-  date: '2026-01-07'
-  source: Lse.ac.uk

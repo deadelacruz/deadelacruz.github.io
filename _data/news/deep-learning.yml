@@ -1,4 +1,14 @@
 news_items:
+- title: Deep learning-based differential diagnosis of major depression and bipolar
+    disorder using microglia-cellular sensors and patient-derived small extracellular
+    vesicles
+  description: 'The diagnosis of major depressive disorder (MDD) and bipolar disorder
+    (BD) relies on symptom-based evaluations. Both MDD as well as BD present episodes
+    of depressed mood, often leading to misdiagnosis and treatment delays. Our study
+    presents a novel '
+  url: https://www.nature.com/articles/s41598-026-47476-9
+  date: '2026-04-07'
+  source: Nature.com
 - title: Scene classification in dance art using deep learning with squeeze and excitation
     networks and the Advanced Beluga Whale Optimization Algorithm
   description: Automation of scene classification within artistic domains has become
