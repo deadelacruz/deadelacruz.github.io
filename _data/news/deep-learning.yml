@@ -1,4 +1,12 @@
 news_items:
+- title: Multiomics and deep learning dissect regulatory syntax in human development
+  description: The Human Development Multiomic Atlas catalogues single-cell accessibility
+    and gene expression data from human fetal cells across 12 organs, enabling the
+    inference of syntactic rules for motifs that govern cell-type-specific transcription
+    factor bind
+  url: https://www.nature.com/articles/s41586-026-10326-9
+  date: '2026-04-08'
+  source: Nature.com
 - title: Deep learning-based differential diagnosis of major depression and bipolar
     disorder using microglia-cellular sensors and patient-derived small extracellular
     vesicles
@@ -369,36 +377,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340904
   date: '2026-01-09'
   source: Plos.org
-- title: A deep learning framework for species-level identification of root-knot nematodes
-    using perineal pattern images
-  description: The use of machine learning is an emerging approach in precision agriculture,
-    including pest identification, disease diagnostics, and soil health monitoring.
-    Root-knot nematodes (Meloidogyne spp.) are a key group of soil-dwelling metazoans
-    that cause
-  url: https://www.nature.com/articles/s41598-025-33143-y
-  date: '2026-01-08'
-  source: Nature.com
-- title: Bayesian deep learning for probabilistic aquifer vulnerability and uncertainty
-    prediction
-  description: Groundwater is the planet’s largest distributed store of freshwater
-    and a critical buffer against drought. Yet aquifers are still managed largely
-    with static, deterministic vulnerability indices that neither capture nonlinear
-    hydrogeological interact
-  url: https://www.nature.com/articles/s41598-025-32612-8
-  date: '2026-01-08'
-  source: Nature.com
-- title: Comparative Machine Learning and Deep Learning Frameworks for Robust Carcinogenicity
-    Prediction and Activity Cliffs Analysis
-  description: 'Environ. Sci.: Processes Impacts, 2026, Accepted ManuscriptDOI: 10.1039/D5EM01001B,
-    PaperArkaprava Banerjee, Vinay Kumar, Kunal RoyA large number of industrial chemicals
-    are known to possess carcinogenic properties in humans. In this study, we develo'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/em/d5em01001b
-  date: '2026-01-08'
-  source: Royal Society of Chemistry
-- title: 'Correction: Optimized deep learning for brain tumor detection: a hybrid
-    approach with attention mechanisms and clinical explainability'
-  description: 'Scientific Reports - Correction: Optimized deep learning for brain
-    tumor detection: a hybrid approach with attention mechanisms and clinical explainability'
-  url: https://www.nature.com/articles/s41598-025-29967-3
-  date: '2026-01-08'
-  source: Nature.com

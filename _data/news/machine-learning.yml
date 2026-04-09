@@ -1,4 +1,11 @@
 news_items:
+- title: How to Build a Machine Learning Model from Scratch in C#?
+  description: Learn how to build machine learning models from scratch in C# using
+    ML.NET! This step-by-step guide covers sentiment analysis and model deployment
+    for .NET apps.
+  url: https://www.c-sharpcorner.com/article/how-to-build-a-machine-learning-model-from-scratch-in-c-sharp/
+  date: '2026-04-08'
+  source: C-sharpcorner.com
 - title: 'CO Coadsorption Effects on Water-Gas Shift Reaction over Cu Clusters on
     Cu(111): Insights from Machine Learning Force Field and Microkinetic Modeling'
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP05031F,
@@ -1567,55 +1574,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340586
   date: '2026-01-09'
   source: Plos.org
-- title: 'Infrared spectroscopy-assisted predicting of impurities in chemicals using
-    machine learning: towards smart self-driving laboratories'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04214C,
-    PaperAnastasiia M. Kutskaia, Konstantin RodyginThe changeable nature of chemicals
-    requires constant monitoring. In a self-driving laboratory, manual revision of
-    chemicals shou'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04214c
-  date: '2026-01-08'
-  source: Royal Society of Chemistry
-- title: 'Exploring the impact of operating parameters and catalyst design on propane
-    catalytic oxidation: a machine learning perspective'
-  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP03539B,
-    PaperYuekun Jing, Jingang Zhao, Yixuan Song, Xiao Liu, Fang Liu, Taoyang ZouWe
-    integrate a database, machine learning models, and SHAP analysis to guide the
-    design of efficient ca'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03539b
-  date: '2026-01-08'
-  source: Royal Society of Chemistry
-- title: 'Dynamic Protein Structures in Solution: Decoding the Amide I Band with 2D-IR
-    Spectral Libraries and Machine Learning'
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC09973K, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Amy Farmer, Kelly Brown, Sophie E.T. Kendall-Price, Partha
-    Malakar, Gregor'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc09973k
-  date: '2026-01-08'
-  source: Royal Society of Chemistry
-- title: Automated Machine Learning Market to Grow at a Robust CAGR of 45.90%, Crossing
-    USD 35.5 Billion by 2032 Amid Rapid Enterprise AI Adoption | AnalystView Market
-    Insights
-  description: The global Automated Machine Learning (AutoML) market is valued at
-    US$ 1,730.54 million in 2024, growing at a robust CAGR of 45.90%....
-  url: https://www.globenewswire.com/news-release/2026/01/08/3215160/0/en/Automated-Machine-Learning-Market-to-Grow-at-a-Robust-CAGR-of-45-90-Crossing-USD-35-5-Billion-by-2032-Amid-Rapid-Enterprise-AI-Adoption-AnalystView-Market-Insights.html
-  date: '2026-01-08'
-  source: GlobeNewswire
-- title: Interview Kickstart's New Advanced Machine Learning and Agentic AI Program
-    2026 Helps Software Engineers Transition To Top ML and AI Roles
-  description: SANTA CLARA, CA, Jan.  08, 2026  (GLOBE NEWSWIRE) -- SANTA CLARA, CA
-    - January 08, 2026 -  -    As organizations plan for 2026, a clear structural
-    shift is...
-  url: https://www.globenewswire.com/news-release/2026/01/08/3215623/0/en/Interview-Kickstart-s-New-Advanced-Machine-Learning-and-Agentic-AI-Program-2026-Helps-Software-Engineers-Transition-To-Top-ML-and-AI-Roles.html
-  date: '2026-01-08'
-  source: GlobeNewswire
-- title: Argobio launches Enodia with €20.7 million seed financing to advance a small
-    molecule platform for targeted protein degradation enabled by proteomics and machine
-    learning
-  description: Argobio successfully facilitated fundraising and syndication process,
-    following its earlier role in creating and pre-seed funding Enodia  Financing
-    co-led...
-  url: https://www.globenewswire.com/news-release/2026/01/08/3215538/0/en/Argobio-launches-Enodia-with-20-7-million-seed-financing-to-advance-a-small-molecule-platform-for-targeted-protein-degradation-enabled-by-proteomics-and-machine-learning.html
-  date: '2026-01-08'
-  source: GlobeNewswire
