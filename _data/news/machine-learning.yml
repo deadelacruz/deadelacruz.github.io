@@ -1,4 +1,25 @@
 news_items:
+- title: 'Data Pipelines for Machine Learning: From Ingestion to Training (2026 Guide)'
+  description: A complete 2026 guide to machine learning data pipelines—covering ingestion,
+    processing, and training for scalable, production-ready ML systems.
+  url: https://flexiana.com/machine-learning-architecture/data-pipelines-for-machine-learning-from-ingestion-to-training-2026-guide
+  date: '2026-04-09'
+  source: Flexiana.com
+- title: Machine Learning Built MLOps Trained NLP Models
+  description: Are you interested in building software that creates meaningful social
+    impact? Every solution this company develops is deployed directly to production,
+    delivering tangible, real-world benefits within the healthcare sector. This Irish
+    software company
+  url: https://nlppeople.com/job/machine-learning-built-mlops-trained-nlp-models/
+  date: '2026-04-09'
+  source: Nlppeople.com
+- title: 'Correction: Predicting camouflage treatment outcomes in skeletal class III
+    malocclusion using machine learning'
+  description: 'Scientific Reports - Correction: Predicting camouflage treatment outcomes
+    in skeletal class III malocclusion using machine learning'
+  url: https://www.nature.com/articles/s41598-026-47457-y
+  date: '2026-04-09'
+  source: Nature.com
 - title: How to Build a Machine Learning Model from Scratch in C#?
   description: Learn how to build machine learning models from scratch in C# using
     ML.NET! This step-by-step guide covers sentiment analysis and model deployment
@@ -1534,52 +1555,3 @@ news_items:
   url: https://timesofindia.indiatimes.com/education/news/btech-ai-vs-btech-machine-learning-which-degree-is-better-for-todays-tech-careers/articleshow/126461336.cms
   date: '2026-01-11'
   source: The Times of India
-- title: Unveiling sodium storage mechanisms in hard carbon via machine learning-driven
-    simulations with accurate site occupation identification
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC07068F, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Zhaoming Wang, Guanghui Shi, Guanghui Wang, Man Wang, Feng
-    D'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc07068f
-  date: '2026-01-09'
-  source: Royal Society of Chemistry
-- title: Principal AI-Machine Learning Engineer
-  description: The Principal Artificial Intelligence & Machine Learning Engineer I/Scientist
-    I works within the Artificial Intelligence Operations and Data Science Services
-    group (AIOS) in the Informatics & Analytics department of Dana‑Farber Cancer Institute
-    – a t
-  url: https://nlppeople.com/job/principal-ai-machine-learning-engineer/
-  date: '2026-01-09'
-  source: Nlppeople.com
-- title: Principal/Senior Principal Machine Learning Engineer, Generative AI
-  description: Autodesk is leading the transformation of the AEC industry by integrating
-    AI technology into its products. The Principal Machine Learning Engineer will
-    develop cutting-edge foundation models and generative AI tools, collaborating
-    with various teams t
-  url: https://nlppeople.com/job/principal-senior-principal-machine-learning-engineer-generative-ai/
-  date: '2026-01-09'
-  source: Nlppeople.com
-- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
-    OPEN
-  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
-    with confidence. We’ll help you succeed in a globally connected powerhouse of
-    diverse teams and take your career wherever you want it to go. Join EY and help
-    to build a better wor'
-  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-3/
-  date: '2026-01-09'
-  source: Nlppeople.com
-- title: 'Correction: Predicting hypertension and identifying most important factors
-    among married women in Bangladesh using machine learning approach'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340871
-  date: '2026-01-09'
-  source: Plos.org
-- title: Establishment of an amino acid metabolism related signature for prognostic
-    and therapeutic sensitivity prediction in breast cancer by machine learning
-  description: Amino acid metabolism plays a critical role in tumor growth and immune
-    regulation, yet its comprehensive function in breast cancer remains underexplored.
-    We developed an amino acid metabolism–related gene signature (AAMRGS) to predict
-    prognosis and t
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340586
-  date: '2026-01-09'
-  source: Plos.org
