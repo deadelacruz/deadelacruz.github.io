@@ -37,6 +37,15 @@ news_items:
   url: https://nlppeople.com/job/senior-machine-learning-engineer-intelligent-foundations-and-experiences-ifx-richmond-va-usa/
   date: '2026-04-10'
   source: Nlppeople.com
+- title: Interpretable Machine Learning Model-Driven Electrochemical Impedance Spectroscopic
+    Analysis for Determination of Nitrate, Nitrite Ammonium Ions in Water
+  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D5AN01279A, PaperReji
+    K, Vishnuraj Ramakrishnan, Adithyakrishna Narayanaswamy, Vishnuvarthan Rajagopal,
+    S. Vishnu, Murali RangarajanRapid developments in materials chemistry and data-driven
+    approaches ha'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01279a
+  date: '2026-04-10'
+  source: Royal Society of Chemistry
 - title: 'Data Pipelines for Machine Learning: From Ingestion to Training (2026 Guide)'
   description: A complete 2026 guide to machine learning data pipelines—covering ingestion,
     processing, and training for scalable, production-ready ML systems.
