@@ -1,4 +1,42 @@
 news_items:
+- title: 'François Chollet: AGI progress is accelerating towards 2030, symbolic models
+    will reshape machine learning, and coding agents are revolutionizing automation
+    | Y Combinator Startup Podcast'
+  description: 'New AGI lab aims to revolutionize machine learning with symbolic models,
+    moving beyond traditional deep learning.
+
+    The post François Chollet: AGI progress is accelerating towards 2030, symbolic
+    models will reshape machine learning, and coding agents a'
+  url: https://cryptobriefing.com/francois-chollet-agi-progress-is-accelerating-towards-2030-symbolic-models-will-reshape-machine-learning-and-coding-agents-are-revolutionizing-automation-y-combinator-startup-podcast/
+  date: '2026-04-10'
+  source: Crypto Briefing
+- title: Advanced machine learning-guided optimization platform for high-yield soluble
+    expression of Pseudomonas aeruginosa exotoxin A in engineered Escherichia coli
+    strains
+  description: 'Background The recombinant production of Pseudomonas aeruginosa exotoxin
+    A (ETA), a critical component for immunotoxin development, remains hindered by
+    its complex disulfide bond architecture, cytotoxicity, and aggregation propensity.
+    Despite recent '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347213
+  date: '2026-04-10'
+  source: Plos.org
+- title: Machine Learning Engineer II – Full-time
+  description: '**Job Description:** TTI Consumer Power Tools, Inc., has an opening
+    in its Anderson, SC corporate office for a **Electrical Machine Learning (ML)
+    Engineer II** that will report into the Sr. Director of Engineering. Come join
+    the Engineering team at t'
+  url: https://nlppeople.com/job/machine-learning-engineer-ii-full-time/
+  date: '2026-04-10'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer – Intelligent Foundations and Experiences
+    (IFX) | Richmond, VA, USA
+  description: 'Senior Machine Learning Engineer – Intelligent Foundations and Experiences
+    (IFX) {“description”: “Senior Machine Learning Engineer – Intelligent Foundations
+    and Experiences (IFX) As a Capital One Machine Learning Engineer (MLE), you’ll
+    be part of an '
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-intelligent-foundations-and-experiences-ifx-richmond-va-usa/
+  date: '2026-04-10'
+  source: Nlppeople.com
 - title: 'Data Pipelines for Machine Learning: From Ingestion to Training (2026 Guide)'
   description: A complete 2026 guide to machine learning data pipelines—covering ingestion,
     processing, and training for scalable, production-ready ML systems.
@@ -20,6 +58,23 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-47457-y
   date: '2026-04-09'
   source: Nature.com
+- title: 'Machine Learning Framework to Predict Glass Transition Temperature in Natural
+    Deep Eutectic Solvents: A Step toward Green Functional Materials'
+  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC01009A, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Durbek Usmanov, Priyanka Yadav, Gerardo M. Casanola-Martin,
+    Akshat'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc01009a
+  date: '2026-04-09'
+  source: Royal Society of Chemistry
+- title: AI/Machine Learning Engineer (3 month contract)
+  description: 'Description We are recruiting for a Contract AI/ML Engineer to join
+    us ASAP for a duration of three months. Ideally based in a commutable distance
+    to Manchester. Who We Are: AND Digital are a tech company focused on accelerating
+    digital delivery and '
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-3-month-contract/
+  date: '2026-04-09'
+  source: Nlppeople.com
 - title: How to Build a Machine Learning Model from Scratch in C#?
   description: Learn how to build machine learning models from scratch in C# using
     ML.NET! This step-by-step guide covers sentiment analysis and model deployment

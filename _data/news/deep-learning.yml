@@ -1,4 +1,14 @@
 news_items:
+- title: Hybrid feature selection for IoMT based intrusion detection system for integrating
+    mutual information filtering with deep learning based accelerated metaheuristic
+    optimization
+  description: The rapid development of the Internet of Medical Things (IoMT) has
+    significantly expanded the cybersecurity attack perimeter of healthcare systems
+    (HCS). Security measures for mitigating intrusions in HCS have direct patient
+    safety benefits beyond th
+  url: https://www.nature.com/articles/s41598-026-47264-5
+  date: '2026-04-10'
+  source: Nature.com
 - title: An interpretable deep learning framework for predictive modeling of postoperative
     infections in ICU patients
   description: A significant proportion of intensive care unit (ICU) patients undergo
