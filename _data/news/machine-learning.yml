@@ -1,4 +1,13 @@
 news_items:
+- title: 'Predicting copper leaching from slag: an interpretable machine learning
+    approach under oxidative sulfuric acid conditions'
+  description: 'RSC Adv., 2026, 16,19320-19333DOI: 10.1039/D6RA01571A, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Sung-Jin Kim, Song-Sae Kang, Kyong-Nam Pae, Song-Il Pak, Hyon-Il
+    Jo, Ryong-Jin KimAn int'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01571a
+  date: '2026-04-12'
+  source: Royal Society of Chemistry
 - title: 'François Chollet: AGI progress is accelerating towards 2030, symbolic models
     will reshape machine learning, and coding agents are revolutionizing automation
     | Y Combinator Startup Podcast'
