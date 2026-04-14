@@ -1,4 +1,36 @@
 news_items:
+- title: 'Synergistic Enhancement of Hydrogen Evolution on MoS2 by Sulfur Vacancy
+    and Transition Metal Doping: A DFT and Machine Learning Study'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00688D,
+    PaperXin Fan, Xiaocheng Zhou, Yafei LiTwo-dimensional (2D) MoS2 has emerged as
+    a low-cost and efficient electrocatalyst for the hydrogen evolution reaction (HER).
+    Although sul'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00688d
+  date: '2026-04-13'
+  source: Royal Society of Chemistry
+- title: 'PoPI: A machine learning-based consensus mechanism for blockchain-enabled
+    IoT systems'
+  description: Internet of Things (IoT) enables seamless connectivity and intelligent
+    automation across diverse domains, from healthcare and agriculture to smart cities
+    and industrial systems. However, conventional IoT architectures often rely on
+    centralized server
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347124
+  date: '2026-04-13'
+  source: Plos.org
+- title: Forecasting toxic metal concentrations in an inland sea ecosystem with machine
+    learning algorithms
+  description: Scientific Reports - Forecasting toxic metal concentrations in an inland
+    sea ecosystem with machine learning algorithms
+  url: https://www.nature.com/articles/s41598-026-48252-5
+  date: '2026-04-13'
+  source: Nature.com
+- title: 'Retraction Note: Predictive modelling and identification of key risk factors
+    for stroke using machine learning'
+  description: 'Scientific Reports - Retraction Note: Predictive modelling and identification
+    of key risk factors for stroke using machine learning'
+  url: https://www.nature.com/articles/s41598-026-47902-y
+  date: '2026-04-13'
+  source: Nature.com
 - title: 'Predicting copper leaching from slag: an interpretable machine learning
     approach under oxidative sulfuric acid conditions'
   description: 'RSC Adv., 2026, 16,19320-19333DOI: 10.1039/D6RA01571A, Paper Open
@@ -8,6 +40,34 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01571a
   date: '2026-04-12'
   source: Royal Society of Chemistry
+- title: Importance of Consistent and Well-Dispersed Catalyst Datasets for Machine
+    Learning in Oxidative Coupling of Methane
+  description: 'Catal. Sci. Technol., 2026, Accepted ManuscriptDOI: 10.1039/D6CY00228E,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Hinata Sudo, Yoshiki Hasukawa, Rensuke Koiwai, Fernando G'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cy/d6cy00228e
+  date: '2026-04-12'
+  source: Royal Society of Chemistry
+- title: '`mlS3` — A Unified S3 Machine Learning Interface in R'
+  description: 'Introduction to `mlS3` — A Unified S3 Machine Learning Interface in
+    R
+
+
+
+    Continue reading: `mlS3` — A Unified S3 Machine Learning Interface in R'
+  url: https://www.r-bloggers.com/2026/04/mls3-a-unified-s3-machine-learning-interface-in-r/
+  date: '2026-04-12'
+  source: R-bloggers.com
+- title: Machine Learning Frameworks in R
+  description: 'R’s ecosystem offers a rich selection of machine learning frameworks,
+    each with distinct design philosophies and strengths. This post is a side-by-side
+    comparison of five ML frameworks in R that provide unified interfaces over multiple
+    algorithms...
+
+    '
+  url: https://www.r-bloggers.com/2026/04/machine-learning-frameworks-in-r/
+  date: '2026-04-11'
+  source: R-bloggers.com
 - title: 'François Chollet: AGI progress is accelerating towards 2030, symbolic models
     will reshape machine learning, and coding agents are revolutionizing automation
     | Y Combinator Startup Podcast'
@@ -1506,67 +1566,3 @@ news_items:
   url: https://www.kdnuggets.com/avoiding-overfitting-class-imbalance-feature-scaling-issues-the-machine-learning-practitioners-notebook
   date: '2026-01-14'
   source: Kdnuggets.com
-- title: Machine learning prediction of multiple distinct high-affinity chemotypes
-    for α-synuclein fibrils
-  description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06228D, Communication
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Xinning Li, Ryann M. Perez, Zhude Tu, Robert H. Mach, Sam
-    Giannakoulias, E'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d5cc06228d
-  date: '2026-01-13'
-  source: Royal Society of Chemistry
-- title: 'The interlocking process in molecular machines explained by a combined approach:
-    the nudged elastic band method and a machine learning potential'
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC08303F, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Lucio Peña-Zarate, Alberto Vela, Jorge TiburcioEngineering
-    molecular machi'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc08303f
-  date: '2026-01-13'
-  source: Royal Society of Chemistry
-- title: 'XPEAK: An XRD-Driven Machine Learning Platform for Predicting the Catalyst-Enhanced
-    Dehydrogenation Peak Temperature of MgH₂'
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08221H,
-    PaperWeijie Yang, Zhuoran Xu, Jiongyang Li, Leping Zhang, Man Shu, Jianghao Cai,
-    Tongao Yao, Xiaotian Tang, Yuxuan Liu, Shiwen Luo, Xuqiang Shao, Wenjing Wang,
-    Zhengyang GaoMgH₂ off'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08221h
-  date: '2026-01-13'
-  source: Royal Society of Chemistry
-- title: Prediction of the low-temperature properties of electrolyte solvents for
-    lithium-ion batteries via machine learning
-  description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D5NR03942H, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Jiechen Guo, Yifan Chai, Cancan Hong, Hao Liu, Lijing Xie,
-    Tianle Wang, '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d5nr03942h
-  date: '2026-01-13'
-  source: Royal Society of Chemistry
-- title: How to Read a Machine Learning Research Paper in 2026
-  description: I spent years feeling exhausted and confused by research papers until
-    I learned how researchers actually read them. This is that method.
-  url: https://machinelearningmastery.com/how-to-read-a-machine-learning-research-paper-in-2026/
-  date: '2026-01-13'
-  source: Machinelearningmastery.com
-- title: Busway Introduces Lower-Cost AML and KYC Screening Platform Using Machine
-    Learning
-  description: Company applies machine learning and automation to lower KYC screening
-    expenses for financial institutions Company applies machine learning and automation
-    to lower KYC screening expenses for financial institutions
-  url: https://www.globenewswire.com/news-release/2026/01/13/3218155/0/en/Busway-Introduces-Lower-Cost-AML-and-KYC-Screening-Platform-Using-Machine-Learning.html
-  date: '2026-01-13'
-  source: GlobeNewswire
-- title: 'Correction: Correction: A machine learning approach for estimating forage
-    maize yield and quality in NW Spain'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340931
-  date: '2026-01-13'
-  source: Plos.org
-- title: Artificial Intelligence/Machine Learning (AI/ML) Engineer
-  description: 'This job listing in Howard – MD has been recently added. Tallo will
-    add a summary here for this job shortly. Company: Base-2 Solutions, LLC. | ClearanceJobs.com
-    Qualifications: Language requirements: Specific requirements: Educational level:
-    Level of'
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-ai-ml-engineer-4/
-  date: '2026-01-13'
-  source: Nlppeople.com

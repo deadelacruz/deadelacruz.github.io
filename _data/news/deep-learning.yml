@@ -1,4 +1,21 @@
 news_items:
+- title: 'Designing universal causal deep learning models: the case of infinite-dimensional
+    dynamical systems from stochastic analysis'
+  description: 'Galimberti, L., Kratsios, A. & Livieri, G. ORCID logo (2026). Designing
+    universal causal deep learning models: the case of infinite-dimensional dynamical
+    systems from stochastic analysis. Constructive Approximation, https://doi.org/10.1007/s00365-026'
+  url: https://researchonline.lse.ac.uk/id/eprint/137962/
+  date: '2026-04-13'
+  source: Lse.ac.uk
+- title: Fast and accurate extraction of microwave filter coupling matrix via physics-informed
+    deep learning
+  description: Tuning microwave filters presents a significant challenge owing to
+    their inherent complexity. An accurate determination of the coupling matrix from
+    the target S-parameters plays a crucial role in both filter tuning and design
+    optimization. This study
+  url: https://www.nature.com/articles/s41598-026-46255-w
+  date: '2026-04-13'
+  source: Nature.com
 - title: Combining structural modeling and deep learning to calculate the E. coli
     protein interactome and functional networks
   description: We report on the integration of three methods that predict, on a proteome-wide
@@ -371,29 +388,3 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-68419-y
   date: '2026-01-14'
   source: Nature.com
-- title: High-accuracy brain tumor detection method based on deep learning
-  description: Brain tumors remain among the most fatal diseases of the central nervous
-    system, and early diagnosis is vital for improving patient survival outcomes.
-    However, conventional diagnostic approaches relying on manual interpretation of
-    MRI scans by radiol
-  url: https://www.nature.com/articles/s41598-026-35783-0
-  date: '2026-01-13'
-  source: Nature.com
-- title: A physics-inspired memory-augmented deep learning framework for magnetic
-    core loss prediction
-  description: Accurate prediction of magnetic core loss is a key challenge for improving
-    the efficiency and reliability of power electronic systems. Traditional empirical
-    models such as the Steinmetz equation are only applicable to sinusoidal steady-state
-    conditio
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339490
-  date: '2026-01-13'
-  source: Plos.org
-- title: 'Self-Nomination: Deep Learning for Decentralized CSI Feedback Reduction
-    in MU-MIMO Systems'
-  description: 'This paper introduces a novel deep learning-based user-side feedback
-    reduction framework, termed <italic xmlns:mml="http://www.w3.org/1998/Math/MathML"
-    xmlns:xlink="http://www.w3.org/1999/xlink">self-nomination</i>. The goal of self-nomination
-    is to '
-  url: https://ieeexplore.ieee.org/document/11351314
-  date: '2026-01-13'
-  source: Ieee.org
