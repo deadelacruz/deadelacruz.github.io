@@ -31,6 +31,35 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-47902-y
   date: '2026-04-13'
   source: Nature.com
+- title: 'Alkaline Earth Metal Binding with N-Heterocyclic Carbenes: Machine Learning-Assisted
+    Screening of Metal-Ligand Interactions'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04363H,
+    PaperSaurabh Singh Negi, Puneet GuptaN-heterocyclic carbenes (NHCs) are very versatile
+    ligands known for their strong σ-donating ability and stability, making them suitable
+    fo'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04363h
+  date: '2026-04-13'
+  source: Royal Society of Chemistry
+- title: 'Designing transferable transition state guided collective variable via interpretable
+    machine learning model for enhanced sampling: A case study on polymer collapse
+    transition'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04134A,
+    PaperSaikat Dhibar, Biman JanaEnhanced sampling methods enable the mechanistic
+    study of complex biophysical processes in atomistic resolution, addressing the
+    key timescale lim'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04134a
+  date: '2026-04-13'
+  source: Royal Society of Chemistry
+- title: 'Species Identification of Animal Glue Adhesives on Polychrome Cultural Heritage:
+    An Integrated Analytical Approach Combining Gel Sampling, ATR-FTIR Spectroscopy,
+    and Machine Learning'
+  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D6AY00017G, Technical
+    NoteXinyu Xie, Wanru Wang, Qin Huang, Wenyuan Zhang, Xinyue Zhu, Xiaoyan Liu,
+    Haixia ZhangAccurate identification of protein adhesive sources in polychrome
+    relics is critical '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00017g
+  date: '2026-04-13'
+  source: Royal Society of Chemistry
 - title: 'Predicting copper leaching from slag: an interpretable machine learning
     approach under oxidative sulfuric acid conditions'
   description: 'RSC Adv., 2026, 16,19320-19333DOI: 10.1039/D6RA01571A, Paper Open
