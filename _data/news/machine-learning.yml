@@ -1,4 +1,20 @@
 news_items:
+- title: Thermodynamically consistent machine learning model for excess Gibbs energy
+  description: This work introduces HANNA, a strictly consistent machine learning
+    model for predicting phase equilibria and other thermodynamic properties of multi-component
+    mixtures only from the molecular structure.
+  url: https://www.nature.com/articles/s41467-026-71430-y
+  date: '2026-04-14'
+  source: Nature.com
+- title: Machine learning driven discovery of low modulus biomedical titanium alloys
+    for additive manufacturing
+  description: Researchers combined CALPHAD, machine learning, and multi-objective
+    optimisation to design an AM-specific titanium alloy for implant and orthopaedic
+    applications. Laser powder bed fusion produced low-stiffness (~43 GPa), high-ductility
+    (~31%) compone
+  url: https://www.nature.com/articles/s41467-026-71927-6
+  date: '2026-04-14'
+  source: Nature.com
 - title: 'Synergistic Enhancement of Hydrogen Evolution on MoS2 by Sulfur Vacancy
     and Transition Metal Doping: A DFT and Machine Learning Study'
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00688D,
@@ -1572,26 +1588,3 @@ news_items:
   url: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-machine-learning-training
   date: '2026-01-15'
   source: Amazon.com
-- title: Artificial Intelligence Machine Learning Engineer
-  description: 'Department: Data Technology Job Status: Full-Time FLSA Status: Salary-Exempt
-    Reports To: Data Architecture Manager Location: Hybrid/The Woodlands, TX Amount
-    of Travel Required: Less than 10% Work Schedule: Monday – Friday, 8 a.m. – 5 p.m.
-    Positions S'
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-engineer-12/
-  date: '2026-01-14'
-  source: Nlppeople.com
-- title: 'Uncertainty in Machine Learning: Probability & Noise'
-  description: Our series on visualizing the foundations of machine learning continues
-    with our latest entry, which covers uncertainty, probability, and noise in machine
-    learning.
-  url: https://machinelearningmastery.com/uncertainty-in-machine-learning-probability-noise/
-  date: '2026-01-14'
-  source: Machinelearningmastery.com
-- title: 'Avoiding Overfitting, Class Imbalance, & Feature Scaling Issues: The Machine
-    Learning Practitioner’s Notebook'
-  description: 'Machine learning practitioners encounter three persistent challenges
-    that can undermine model performance: overfitting, class imbalance, and feature
-    scaling issues.'
-  url: https://www.kdnuggets.com/avoiding-overfitting-class-imbalance-feature-scaling-issues-the-machine-learning-practitioners-notebook
-  date: '2026-01-14'
-  source: Kdnuggets.com

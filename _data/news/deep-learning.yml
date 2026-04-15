@@ -1,4 +1,13 @@
 news_items:
+- title: 'Hi-Compass: a depth-aware deep learning framework for predicting cell-type-specific
+    3D genome organization from single-cell to spatial resolution'
+  description: Cell-type-specific 3D genome maps are hard to generate experimentally.
+    Here, the authors develop Hi-Compass, a deep-learning framework that predicts
+    chromatin interactions from accessibility data across variable sequencing depths,
+    recovering chromati
+  url: https://www.nature.com/articles/s41467-026-71877-z
+  date: '2026-04-14'
+  source: Nature.com
 - title: 'Designing universal causal deep learning models: the case of infinite-dimensional
     dynamical systems from stochastic analysis'
   description: 'Galimberti, L., Kratsios, A. & Livieri, G. ORCID logo (2026). Designing
@@ -370,21 +379,3 @@ news_items:
   url: https://www.phoronix.com/news/Burn-0.20-Released
   date: '2026-01-15'
   source: Phoronix
-- title: Deep learning-driven microfluidic chip architecture design for intelligent
-    particle motion control
-  description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC01185J, Paper
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Hongxia Li, Xuhui Chen, Du Qiao, Xue Zhang, Jiang Zhang,
-    Jianan Zou, '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc01185j
-  date: '2026-01-14'
-  source: Royal Society of Chemistry
-- title: Comprehensive mapping of RNA modification dynamics and crosstalk via deep
-    learning and nanopore direct RNA-sequencing
-  description: RNA modifications influence gene regulation, but global mapping was
-    limited. Here, the authors introduce ORCA, a deep learning framework using nanopore
-    RNA sequencing to detect multiple modification types, revealing isoform-specific
-    patterns and regu
-  url: https://www.nature.com/articles/s41467-026-68419-y
-  date: '2026-01-14'
-  source: Nature.com
