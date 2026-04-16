@@ -1,4 +1,28 @@
 news_items:
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-4/
+  date: '2026-04-15'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: Job Description At JPMorgan Chase, AI and technology promote our global
+    operations with unmatched scale and speed. We invest over $18 billion annually
+    in innovation, data leverage, and security to shape the future for our clients,
+    communities, and em
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-5/
+  date: '2026-04-15'
+  source: Nlppeople.com
+- title: Predicting post-stroke functional outcome using explainable machine learning
+    and integrated data
+  description: Scientific Reports - Predicting post-stroke functional outcome using
+    explainable machine learning and integrated data
+  url: https://www.nature.com/articles/s41598-026-47814-x
+  date: '2026-04-15'
+  source: Nature.com
 - title: Thermodynamically consistent machine learning model for excess Gibbs energy
   description: This work introduces HANNA, a strictly consistent machine learning
     model for predicting phase equilibria and other thermodynamic properties of multi-component
@@ -15,6 +39,14 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-71927-6
   date: '2026-04-14'
   source: Nature.com
+- title: Senior / Staff Machine Learning Ops Engineer
+  description: Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical
+    AI. With a world-class team, we’re unlocking the next era of autonomous transportation
+    with technology that’s powering commercial autonomous trucks and robotaxis. Waabi
+    is backe
+  url: https://nlppeople.com/job/senior-staff-machine-learning-ops-engineer/
+  date: '2026-04-14'
+  source: Nlppeople.com
 - title: 'Synergistic Enhancement of Hydrogen Evolution on MoS2 by Sulfur Vacancy
     and Transition Metal Doping: A DFT and Machine Learning Study'
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00688D,
@@ -103,6 +135,15 @@ news_items:
   url: https://www.r-bloggers.com/2026/04/mls3-a-unified-s3-machine-learning-interface-in-r/
   date: '2026-04-12'
   source: R-bloggers.com
+- title: Senior / Principal Machine Learning Scientist, Scientific Reasoning Models,
+    AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-2/
+  date: '2026-04-12'
+  source: Nlppeople.com
 - title: Machine Learning Frameworks in R
   description: 'R’s ecosystem offers a rich selection of machine learning frameworks,
     each with distinct design philosophies and strengths. This post is a side-by-side
@@ -160,6 +201,22 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01279a
   date: '2026-04-10'
   source: Royal Society of Chemistry
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-3/
+  date: '2026-04-10'
+  source: Nlppeople.com
+- title: Machine Learning Research Scientist
+  description: 'Summary: Join the Reality Labs team at Meta as we push the boundaries
+    of neuromotor interfaces. We are searching for experienced Research Scientists
+    who are passionate about product-driven machine learning and signal processing
+    research. Building on '
+  url: https://nlppeople.com/job/machine-learning-research-scientist-13/
+  date: '2026-04-10'
+  source: Nlppeople.com
 - title: 'Data Pipelines for Machine Learning: From Ingestion to Training (2026 Guide)'
   description: A complete 2026 guide to machine learning data pipelines—covering ingestion,
     processing, and training for scalable, production-ready ML systems.
@@ -1503,88 +1560,3 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-engineer-ai-trainer/
   date: '2026-01-16'
   source: Nlppeople.com
-- title: 'Accelerating OLED development with machine learning: advances and prospects'
-  description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D5CC06175J, HighlightXumian
-    Qiao, Changgang Huang, Fan Ni, Longzhen QiuThis Highlight summarizes recent advances
-    in machine learning-accelerated organic light-emitting diode development, with
-    a focus o'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d5cc06175j
-  date: '2026-01-15'
-  source: Royal Society of Chemistry
-- title: Cross-well machine learning prediction of sonic logs in Newfoundland and
-    Labrador
-  description: Scientific Reports - Cross-well machine learning prediction of sonic
-    logs in Newfoundland and Labrador
-  url: https://www.nature.com/articles/s41598-026-36053-9
-  date: '2026-01-15'
-  source: Nature.com
-- title: Optimized CatBoost machine learning (OCML) for DDoS detection in cloud virtual
-    machines with time-series and adversarial robustness
-  description: Distributed Denial of Service (DDoS) attacks represent one of the most
-    strategically executed and severe threats in cloud computing, often leading to
-    substantial data loss and significant financial damage for both cloud service
-    providers and their us
-  url: https://www.nature.com/articles/s41598-025-33851-5
-  date: '2026-01-15'
-  source: Nature.com
-- title: From Synthesis to Machine Learning Validation for the Thermoelectric Zintl
-    Phase Ba1-xEuxZn2-yAlySb2 System
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08713A,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Yunjeong Lee, Aziz Ahmed, Jihyun Lee, Tae-Soo You, Kang Min '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08713a
-  date: '2026-01-15'
-  source: Royal Society of Chemistry
-- title: 'Medicinal chemistry meets nanotechnology: machine learning assisted colorimetric
-    sensing platform for oxalic acid based on drug mediated copper oxide nanoparticles'
-  description: 'RSC Adv., 2026, 16,3458-3468DOI: 10.1039/D5RA08862C, Paper Open Access
-    &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Muhammad Ishtiaq Jan, Abda Khatoon, Wei Sun, Naeem Khan,
-    Sajid Ali, Ibrahim '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra08862c
-  date: '2026-01-15'
-  source: Royal Society of Chemistry
-- title: The Silent Partner - How Machine Learning Quietly Powers Modern Space Operations
-  description: 'Los Angeles CA (SPX) Jan 15, 2026
-
-
-    The space industry handles some of the most complex data in existence. Satellite
-    images cover millions of square kilometers. Telemetry from a single spacecraft
-    involves thousands of data points. The position of mill'
-  url: https://www.spacedaily.com/reports/The_Silent_Partner_How_Machine_Learning_Quietly_Powers_Modern_Space_Operations_999.html
-  date: '2026-01-15'
-  source: Space Daily
-- title: Kickstart Unsupervised Machine Learning
-  description: 'eBook Details: Paperback: 466 pages Published: December 27, 2025 Language: English
-    ISBN-10: 9349887436 ISBN-13: 978-9349887435 eBook Description: Kickstart Unsupervised
-    Machine Learning: Master Unsupervised Machine Learning Through Pattern Discovery,'
-  url: https://www.wowebook.org/kickstart-unsupervised-machine-learning/
-  date: '2026-01-15'
-  source: Wowebook.org
-- title: Martinrea International Inc. Announces Investment in Polyalgorithm Machine
-    Learning Inc.
-  description: TORONTO, Jan. 15, 2026 (GLOBE NEWSWIRE) — Martinrea International Inc.
-    (TSX:MRE), a diversified and global automotive supplier engaged in the design,
-    development and manufacturing of highly engineered, value-added Lightweight Structures
-    and Propulsio
-  url: https://financialpost.com/globe-newswire/martinrea-international-inc-announces-investment-in-polyalgorithm-machine-learning-inc
-  date: '2026-01-15'
-  source: Financial Post
-- title: Martinrea International Inc. Announces Investment in Polyalgorithm Machine
-    Learning Inc.
-  description: TORONTO, Jan. 15, 2026 (GLOBE NEWSWIRE) -- Martinrea International
-    Inc. (TSX:MRE), a diversified and global automotive supplier engaged in the design,
-    development and manufacturing of highly engineered, value-added Lightweight Structures
-    and Propulsi
-  url: https://www.globenewswire.com/news-release/2026/01/15/3220034/0/en/Martinrea-International-Inc-Announces-Investment-in-Polyalgorithm-Machine-Learning-Inc.html
-  date: '2026-01-15'
-  source: GlobeNewswire
-- title: AWS Deadline Cloud now supports machine learning training using Foundry Nuke
-    CopyCat
-  description: Today, AWS Deadline Cloud announces integration with Foundry Nuke CopyCat,
-    allowing you to run machine learning training jobs for visual effects in the cloud.
-    AWS Deadline Cloud is a fully managed service that simplifies render management
-    for compute
-  url: https://aws.amazon.com/about-aws/whats-new/2026/01/aws-deadline-cloud-machine-learning-training
-  date: '2026-01-15'
-  source: Amazon.com

@@ -370,12 +370,3 @@ news_items:
   url: https://github.com/tracel-ai/burn
   date: '2026-01-16'
   source: Github.com
-- title: 'Burn 0.20 Released: Rust-Based Deep Learning With Speedy Perf Across CPUs
-    & GPUs'
-  description: A significant update to Burn was released today, the MIT and Apache
-    2.0 licensed tensor library and deep learning framework written in the Rust programming
-    language. Burn 0.20 brings some low-level changes as it continues to strive to
-    deliver high pe
-  url: https://www.phoronix.com/news/Burn-0.20-Released
-  date: '2026-01-15'
-  source: Phoronix
