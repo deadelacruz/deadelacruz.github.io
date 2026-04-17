@@ -1,4 +1,11 @@
 news_items:
+- title: Generative deep learning for foundational video translation in ultrasound
+  description: For deep learning (DL) to realize its potential for medical image interpretation,
+    attention to dataset content is critical. Ultrasound presents a particular challenge
+    because, in addition to many views and structures, it includes several sub-modaliti
+  url: https://www.nature.com/articles/s41598-026-47777-z
+  date: '2026-04-16'
+  source: Nature.com
 - title: 'Hi-Compass: a depth-aware deep learning framework for predicting cell-type-specific
     3D genome organization from single-cell to spatial resolution'
   description: Cell-type-specific 3D genome maps are hard to generate experimentally.
@@ -364,9 +371,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-025-32015-9
   date: '2026-01-18'
   source: Nature.com
-- title: 'Show HN: GitHub – Burn – Rust tensor library and deep learning framework'
-  description: Burn is a next generation tensor library and Deep Learning Framework
-    that doesn't compromise on flexibility, efficiency and portability. - tracel-ai/burn
-  url: https://github.com/tracel-ai/burn
-  date: '2026-01-16'
-  source: Github.com

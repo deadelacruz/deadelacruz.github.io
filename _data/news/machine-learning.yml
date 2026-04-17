@@ -1,4 +1,51 @@
 news_items:
+- title: Are routinely collected clinical and sociodemographic characteristics associated
+    with social functioning and activities of daily living in schizophrenia? A machine
+    learning approach descriptive of a schizophrenia cohort
+  description: Patients with schizophrenia often experience substantial impairments
+    in social functioning and activities of daily living (ADLs). Previous studies
+    have highlighted links between sociodemographic and clinical factors and daily
+    life functioning. Howeve
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347326
+  date: '2026-04-16'
+  source: Plos.org
+- title: Machine Learning and Complexity
+  description: At Oxford I focused my research and discussions on how we can use the
+    tools of computational complexity to help us understand the power and ...
+  url: https://blog.computationalcomplexity.org/2026/04/machine-learning-and-complexity.html
+  date: '2026-04-16'
+  source: Computationalcomplexity.org
+- title: Python Decorators for Production Machine Learning Engineering
+  description: In this article, you will learn how to use Python decorators to improve
+    the reliability, observability, and efficiency of machine learning systems in
+    production.
+  url: https://machinelearningmastery.com/python-decorators-for-production-machine-learning-engineering/
+  date: '2026-04-16'
+  source: Machinelearningmastery.com
+- title: 'Machine Learning as a Skill: Shaping the Future of Intelligent Systems'
+  description: Explore machine learning as a vital skill for the future. Learn key
+    concepts, tools, and how it's transforming industries. C# developers, dive into
+    ML.NET!
+  url: https://www.c-sharpcorner.com/article/machine-learning-as-a-skill-shaping-the-future-of-intelligent-systems/
+  date: '2026-04-16'
+  source: C-sharpcorner.com
+- title: Machine learning–based risk stratification identifies heart failure with
+    preserved ejection fraction as an independent predictor of adverse outcomes in
+    hypertrophic cardiomyopathy
+  description: Scientific Reports - Machine learning–based risk stratification identifies
+    heart failure with preserved ejection fraction as an independent predictor of
+    adverse outcomes in hypertrophic...
+  url: https://www.nature.com/articles/s41598-026-46573-z
+  date: '2026-04-16'
+  source: Nature.com
+- title: Manager, Machine Learning Engineering
+  description: Company Overview Docusign brings agreements to life. Over 1.5 million
+    customers and more than a billion people in over 180 countries use Docusign solutions
+    to accelerate the process of doing business and simplify people’s lives. With
+    intelligent agre
+  url: https://nlppeople.com/job/manager-machine-learning-engineering-2/
+  date: '2026-04-16'
+  source: Nlppeople.com
 - title: Machine Learning / NLP Data Scientist
   description: Attadale serves some of the most sophisticated and successful companies
     in the world. We are at the forefront of Machine Learning solutions that influence
@@ -23,6 +70,24 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-47814-x
   date: '2026-04-15'
   source: Nature.com
+- title: Determination of organic arsenic acids by machine learning-assisted SERS
+    on a silicon-modified coating of Fe3O4@Ag
+  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA00017G,
+    PaperZiqi Zhang, Jianrong Tian, Huaqing Ling, Zhixi Zhao, Shan Chen, Zulihaya
+    Maimaiti, Yufang Ye, Qing Wang, Yongbin LiSurface-enhanced Raman spectroscopy
+    (SERS) is a highly promi'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja00017g
+  date: '2026-04-15'
+  source: Royal Society of Chemistry
+- title: 'DeFecT-FF: a machine learning force field framework for high throughput
+    defect modeling in CdTe-based solar cells'
+  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D6CP00170J,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Md Habibur Rahman, Maitreyo Biswas, Arun Mannodi-KanakkithodiThe
+    DeFecT-'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00170j
+  date: '2026-04-15'
+  source: Royal Society of Chemistry
 - title: Thermodynamically consistent machine learning model for excess Gibbs energy
   description: This work introduces HANNA, a strictly consistent machine learning
     model for predicting phase equilibria and other thermodynamic properties of multi-component
@@ -108,6 +173,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00017g
   date: '2026-04-13'
   source: Royal Society of Chemistry
+- title: Machine Learning Evaluation Specialist – Remote
+  description: 'Machine Learning Evaluation Specialist (Remote) List of accepted countries
+    and locations Important for US applicants: This is a 1099 independent contractor
+    role and is not compatible with F-1 OPT, STEM OPT, or other visa statuses that
+    require W-2 emp'
+  url: https://nlppeople.com/job/machine-learning-evaluation-specialist-remote/
+  date: '2026-04-13'
+  source: Nlppeople.com
 - title: 'Predicting copper leaching from slag: an interpretable machine learning
     approach under oxidative sulfuric acid conditions'
   description: 'RSC Adv., 2026, 16,19320-19333DOI: 10.1039/D6RA01571A, Paper Open
@@ -215,6 +288,14 @@ news_items:
     who are passionate about product-driven machine learning and signal processing
     research. Building on '
   url: https://nlppeople.com/job/machine-learning-research-scientist-13/
+  date: '2026-04-10'
+  source: Nlppeople.com
+- title: Machine Learning Engineer II – Full-time
+  description: '**Job Description:** TTI Consumer Power Tools, Inc., has an opening
+    in its Anderson, SC corporate office for a **Electrical Machine Learning (ML)
+    Engineer II** that will report into the Sr. Director of Engineering. Come join
+    the Engineering team at t'
+  url: https://nlppeople.com/job/machine-learning-engineer-ii-full-time-2/
   date: '2026-04-10'
   source: Nlppeople.com
 - title: 'Data Pipelines for Machine Learning: From Ingestion to Training (2026 Guide)'
@@ -1509,54 +1590,4 @@ news_items:
     AWS, to help our cu
   url: https://nlppeople.com/job/remote-machine-learning-architect/
   date: '2026-01-17'
-  source: Nlppeople.com
-- title: The Complete Guide to Data Augmentation for Machine Learning
-  description: Suppose you’ve built your machine learning model, run the experiments,
-    and stared at the results wondering what went wrong.
-  url: https://machinelearningmastery.com/the-complete-guide-to-data-augmentation-for-machine-learning/
-  date: '2026-01-16'
-  source: Machinelearningmastery.com
-- title: 'Tech word of the day: Machine Learning - The AI technology that learns and
-    makes life smarter'
-  description: 'Machine learning (ML), a branch of AI, empowers computers to learn
-    from data and improve performance without explicit programming. This technology,
-    driven by increasing computing power and data availability, is transforming industries
-    from streaming '
-  url: https://economictimes.indiatimes.com/news/international/us/tech-word-of-the-day-machine-learning-the-ai-technology-that-learns-and-makes-life-smarter/articleshow/126584532.cms
-  date: '2026-01-16'
-  source: The Times of India
-- title: Identification of cell senescence-related genes in spontaneous preterm birth
-    based on bioinformatics analysis and machine learning
-  description: Spontaneous premature birth (SPTB) is a common pregnancy complication;
-    however, few studies have explored cell senescence-related markers in SPTB. Bioinformatics
-    and machine learning approaches were used to predict potential biomarkers associated
-    wit
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340809
-  date: '2026-01-16'
-  source: Plos.org
-- title: Predicting grain growth kinetic in steels using machine learning and XAI
-    for mechanical properties
-  description: Understanding and controlling grain growth kinetics in steels is crucial
-    for optimizing mechanical properties during thermomechanical processing. However,
-    traditional empirical models often fail to account for the complex, nonlinear
-    interactions betw
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341053
-  date: '2026-01-16'
-  source: Plos.org
-- title: Machine learning and network pharmacology identify keloid biomarkers (AMPH,
-    TNFRSF9) and therapeutic targets (IL6, HAS2) for aloe-derived quercetin
-  description: 'Objective This study aimed to identify diagnostic biomarkers for keloid
-    and explore potential therapeutic agents from traditional Chinese medicine (TCM)
-    by integrating network pharmacology approaches. Specifically, we sought to uncover
-    key molecular '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0340960
-  date: '2026-01-16'
-  source: Plos.org
-- title: Machine Learning Engineer – AI Trainer
-  description: 'Join the DataAnnotation team and contribute to developing cutting-edge
-    AI systems, while enjoying the flexibility of remote work and setting your own
-    schedule. We are looking for a proficient Machine Learning Engineer to help advance
-    AI development. '
-  url: https://nlppeople.com/job/machine-learning-engineer-ai-trainer/
-  date: '2026-01-16'
   source: Nlppeople.com
