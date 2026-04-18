@@ -1,4 +1,83 @@
 news_items:
+- title: 'Interview: AI compute startup TBC details biological computing platform
+    linking living neurons and machine learning'
+  description: In an era where AI systems are rapidly scaling beyond the limits of
+    traditional silicon, new experimental companies are beginning to question what
+    "compute" itself should look like. One of the most unusual entrants is The Biological
+    Computing Company
+  url: https://www.digitimes.com/news/a20260417VL204/machine-learning-startup-efficiency-performance-silicon.html
+  date: '2026-04-17'
+  source: Digitimes
+- title: How to Preprocess Text Data for Machine Learning Step by Step
+  description: Master text preprocessing for machine learning! Learn step-by-step
+    techniques to clean, transform, and prepare text data for optimal model performance.
+  url: https://www.c-sharpcorner.com/article/how-to-preprocess-text-data-for-machine-learning-step-by-step/
+  date: '2026-04-17'
+  source: C-sharpcorner.com
+- title: What is Overfitting in Machine Learning and How to Prevent It?
+  description: Overfitting in machine learning? Learn to identify & prevent it! This
+    guide covers techniques like regularization, cross-validation, & early stopping
+    for better models.
+  url: https://www.c-sharpcorner.com/article/what-is-overfitting-in-machine-learning-and-how-to-prevent-it2/
+  date: '2026-04-17'
+  source: C-sharpcorner.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-5/
+  date: '2026-04-17'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: Job Description At JPMorgan Chase, AI and technology promote our global
+    operations with unmatched scale and speed. We invest over $18 billion annually
+    in innovation, data leverage, and security to shape the future for our clients,
+    communities, and em
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-6/
+  date: '2026-04-17'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist – Advanced AI & Automation
+  description: 'We are looking for a Senior Machine Learning Scientist to join the
+    Corporate Reserach department at Sartorius. You will use your expertise in modern
+    machine learning, computer vision and robotics to design AI – driven automaton
+    for next – generation '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation/
+  date: '2026-04-17'
+  source: Nlppeople.com
+- title: Machine Learning Platform Engineering Manager
+  description: 'Machine Learning Platform Engineering ManagerWe’re Kingfisher, a team
+    made up of over 74,000 passionate people bringing Kingfisher and our other brands
+    – B&Q, Screwfix, Brico Dépôt, Castorama and Koctasto life – guided by our purpose:
+    Better Homes. B'
+  url: https://nlppeople.com/job/machine-learning-platform-engineering-manager/
+  date: '2026-04-17'
+  source: Nlppeople.com
+- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
+  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
+    England, United Kingdom Corporate Functions At Apple, we build AI systems that
+    define experiences for billions of people and we do it with an unwavering commitment
+    to privacy, per
+  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp/
+  date: '2026-04-17'
+  source: Nlppeople.com
+- title: 'Toward sustainable energy production: a comparative machine learning framework
+    for predicting green hydrogen cost across the african continent'
+  description: 'Scientific Reports - Toward sustainable energy production: a comparative
+    machine learning framework for predicting green hydrogen cost across the african
+    continent'
+  url: https://www.nature.com/articles/s41598-026-47726-w
+  date: '2026-04-17'
+  source: Nature.com
+- title: AI Scientist / Machine Learning Engineer
+  description: AI Scientist / Machine Learning EngineerRoleWe are looking for an AI
+    scientist or machine learning engineer to design and implement the algorithms
+    that power Biostream’s physiological monitoring and alert systems. You will work
+    closely with the biost
+  url: https://nlppeople.com/job/ai-scientist-machine-learning-engineer/
+  date: '2026-04-17'
+  source: Nlppeople.com
 - title: Are routinely collected clinical and sociodemographic characteristics associated
     with social functioning and activities of daily living in schizophrenia? A machine
     learning approach descriptive of a schizophrenia cohort
@@ -54,6 +133,23 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00402d
   date: '2026-04-16'
   source: Royal Society of Chemistry
+- title: Homes.com – Senior Machine Learning Engineer
+  description: 'Job Description CoStar Group (NASDAQ: CSGP) is a leading global provider
+    of commercial and residential real estate information, analytics, and online marketplaces.
+    Included in the S&P 500 Index and the NASDAQ 100, CoStar Group is on a mission
+    to digi'
+  url: https://nlppeople.com/job/homes-com-senior-machine-learning-engineer/
+  date: '2026-04-16'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Life Sciences Sector – Manager
+    – Consulting
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-life-sciences-sector-manager-consulting-3/
+  date: '2026-04-16'
+  source: Nlppeople.com
 - title: Machine Learning / NLP Data Scientist
   description: Attadale serves some of the most sophisticated and successful companies
     in the world. We are at the forefront of Machine Learning solutions that influence
@@ -1590,12 +1686,4 @@ news_items:
     This role present
   url: https://nlppeople.com/job/senior-software-engineer-machine-learning-32/
   date: '2026-01-18'
-  source: Nlppeople.com
-- title: Remote Machine Learning Architect
-  description: This position is posted by Jobgether on behalf of a partner company.
-    We are currently looking for a Machine Learning Architect – REMOTE. In this role,
-    you will leverage your extensive experience in cloud environments, specifically
-    AWS, to help our cu
-  url: https://nlppeople.com/job/remote-machine-learning-architect/
-  date: '2026-01-17'
   source: Nlppeople.com
