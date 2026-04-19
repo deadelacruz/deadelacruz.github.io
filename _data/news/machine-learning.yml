@@ -1,4 +1,13 @@
 news_items:
+- title: 'Effects of enhanced efficiency fertilizers on soil nitrous oxide emissions
+    in corn agroecosystems: Integrating machine learning and meta-analysis'
+  description: Nitrous oxide (N2O) emissions from corn (Zea mays) production are a
+    major source of agricultural greenhouse gases. Enhanced efficiency fertilizers
+    (EEFs) are designed to reduce nitrogen losses, yet their effectiveness varies
+    across soils and manageme
+  url: https://www.nature.com/articles/s41598-026-48776-w
+  date: '2026-04-18'
+  source: Nature.com
 - title: 'Interview: AI compute startup TBC details biological computing platform
     linking living neurons and machine learning'
   description: In an era where AI systems are rapidly scaling beyond the limits of
@@ -1663,27 +1672,4 @@ news_items:
     and resume watching '
   url: https://nlppeople.com/job/research-scientist-4-machine-learning-and-inference-research-llm-post-training/
   date: '2026-01-19'
-  source: Nlppeople.com
-- title: Machine learning integrating MRI and clinical features predicts early recurrence
-    of hepatocellular carcinoma after resection
-  description: Scientific Reports - Machine learning integrating MRI and clinical
-    features predicts early recurrence of hepatocellular carcinoma after resection
-  url: https://www.nature.com/articles/s41598-026-36261-3
-  date: '2026-01-18'
-  source: Nature.com
-- title: Machine Learning Engineer – Tools & Frameworks AI
-  description: Our team of applied ML scientists and engineers works to enhance the
-    experience and productivity of software development at Apple. Our team applies
-    state-of-the-art ML models to solve real-world problems in software quality and
-    development workflows.
-  url: https://nlppeople.com/job/machine-learning-engineer-tools-frameworks-ai/
-  date: '2026-01-18'
-  source: Nlppeople.com
-- title: Senior Software Engineer – Machine Learning
-  description: Arm’s Machine Learning (ML) Group is seeking a highly motivated and
-    creative Senior Software Engineer with good C++ skills to join a team of brilliant
-    engineers located in Cambridge, UK, building ML software and compiler technology.
-    This role present
-  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-32/
-  date: '2026-01-18'
   source: Nlppeople.com

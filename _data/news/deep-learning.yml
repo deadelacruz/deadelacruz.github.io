@@ -1,4 +1,19 @@
 news_items:
+- title: Contextual deep learning for accurate news article categorisation with pre-trained
+    embeddings
+  description: Scientific Reports - Contextual deep learning for accurate news article
+    categorisation with pre-trained embeddings
+  url: https://www.nature.com/articles/s41598-026-38998-3
+  date: '2026-04-18'
+  source: Nature.com
+- title: Improved visualization of perivascular spaces on T2-weighted imaging with
+    deep learning-based denoising and super-resolution reconstruction
+  description: Scientific Reports - Improved visualization of perivascular spaces
+    on T2-weighted imaging with deep learning-based denoising and super-resolution
+    reconstruction
+  url: https://www.nature.com/articles/s41598-026-48890-9
+  date: '2026-04-18'
+  source: Nature.com
 - title: Generative deep learning for foundational video translation in ultrasound
   description: For deep learning (DL) to realize its potential for medical image interpretation,
     attention to dataset content is critical. Ultrasound presents a particular challenge
@@ -364,10 +379,3 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/01/19/3221082/0/en/Deep-Learning-Chipset-Market-Size-to-Grow-USD-202-79-Billion-by-2035-Report-by-SNS-Insider.html
   date: '2026-01-19'
   source: GlobeNewswire
-- title: Research on deep learning architecture optimization method for intelligent
-    scheduling of structural space
-  description: Scientific Reports - Research on deep learning architecture optimization
-    method for intelligent scheduling of structural space
-  url: https://www.nature.com/articles/s41598-025-32015-9
-  date: '2026-01-18'
-  source: Nature.com
