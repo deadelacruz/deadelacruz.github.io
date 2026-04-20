@@ -294,6 +294,15 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-evaluation-specialist-remote/
   date: '2026-04-13'
   source: Nlppeople.com
+- title: 'Machine learning approaches to uncover the neural mechanisms of motivated
+    behaviour: from ADHD to individual differences in effort and reward sensitivity'
+  description: Motivated behaviour relies on the brain's capacity to evaluate effort
+    and reward. Dysregulation within these processes contributes to a spectrum of
+    conditions, from hyperactivity in attention-deficit/hyperactivity disorder (ADHD)
+    to diminished goal-d
+  url: https://arxiv.org/abs/2604.15363
+  date: '2026-04-13'
+  source: Arxiv.org
 - title: 'Predicting copper leaching from slag: an interpretable machine learning
     approach under oxidative sulfuric acid conditions'
   description: 'RSC Adv., 2026, 16,19320-19333DOI: 10.1039/D6RA01571A, Paper Open
@@ -1597,79 +1606,4 @@ news_items:
     movement to mature the '
   url: https://nlppeople.com/job/senior-machine-learning-engineer-sail/
   date: '2026-01-20'
-  source: Nlppeople.com
-- title: Predictive design of stretchable electrodes with strain-insensitive performance
-    via robotics- and machine learning-integrated workflow
-  description: Stretchable electrodes are essential for wearable electronics and soft
-    robots, yet their performance always degrades under strain. Here, authors use
-    robotics- and machine learning integrated workflow to design microtextured nanocomposites
-    for strain-
-  url: https://www.nature.com/articles/s41467-026-68484-3
-  date: '2026-01-19'
-  source: Nature.com
-- title: Senior Machine Learning Engineer
-  description: Senior Machine Learning Engineer As a Capital One Machine Learning
-    Engineer (MLE), you’ll be part of an Agile team dedicated to productionizing machine
-    learning applications and systems at scale. You’ll participate in the detailed
-    technical design, d
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-249/
-  date: '2026-01-19'
-  source: Nlppeople.com
-- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
-    OPEN
-  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
-    with confidence. We’ll help you succeed in a globally connected powerhouse of
-    diverse teams and take your career wherever you want it to go. Join EY and help
-    to build a better wor'
-  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-4/
-  date: '2026-01-19'
-  source: Nlppeople.com
-- title: Decoding polyethylene formation in Cr/PNP catalyzed ethylene oligomerization
-    via experimentally guided machine learning
-  description: 'Chem. Sci., 2026, Advance ArticleDOI: 10.1039/D5SC07894F, Edge Article
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Youcai Zhu, Yue Mu, Xiaoke Shi, Long Chen, Shu Yang, Li Sun,
-    Zhe'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc07894f
-  date: '2026-01-19'
-  source: Royal Society of Chemistry
-- title: Machine learning specialist computer
-  description: Machine Learning Specialist (Computer Vision) Safe Intelligence is
-    on a mission to make AI safe and reliable for anyone to use. In this role, you’ll
-    play a leading role in helping customers with their ML validation challenges and
-    in helping drive our
-  url: https://nlppeople.com/job/machine-learning-specialist-computer-2/
-  date: '2026-01-19'
-  source: Nlppeople.com
-- title: Machine Learning (NLP) – 4 Months – West London (Hybrid)
-  description: What You’ll Do • * Conduct cutting-edge research to tackle real-world
-    AI challenges. • Develop high-quality code and documentation to ensure reproducible
-    and impactful research. • Review state-of-the-art research papers and create prototype
-    solutions
-  url: https://nlppeople.com/job/machine-learning-nlp-4-months-west-london-hybrid-4/
-  date: '2026-01-19'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer, Express AI Foundations
-  description: JOB LEVEL P40 EMPLOYEE ROLE Individual Contributor The Opportunity
-    Adobe Express enables all users, whether individuals or large organizations, to
-    effortlessly produce impressive content. The AI Foundations team constructs a
-    flexible, scalable AI fra
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-express-ai-foundations/
-  date: '2026-01-19'
-  source: Nlppeople.com
-- title: Senior Software Engineer – Machine Learning & Cloud Technologies
-  description: 'Job Title: Senior Software Engineer – Machine Learning & Cloud Technologies
-    Job Category: Engineering Time Type: Full time Minimum Clearance Required to Start:
-    TS/SCI with Polygraph Employee Type: Regular Percentage of Travel Required: Up
-    to 50% Type'
-  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-cloud-technologies/
-  date: '2026-01-19'
-  source: Nlppeople.com
-- title: Research Scientist 4 – Machine Learning and Inference Research (LLM Post-Training)
-  description: 'Netflix is one of the world’s leading entertainment services, with
-    over 300 million paid memberships in over 190 countries enjoying TV series, films
-    and games across a wide variety of genres and languages. Members can play, pause
-    and resume watching '
-  url: https://nlppeople.com/job/research-scientist-4-machine-learning-and-inference-research-llm-post-training/
-  date: '2026-01-19'
   source: Nlppeople.com
