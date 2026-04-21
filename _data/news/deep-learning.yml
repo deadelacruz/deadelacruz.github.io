@@ -1,4 +1,21 @@
 news_items:
+- title: 'Retraction Note: Hybrid deep learning framework for cardiovascular disease
+    diagnosis and prognosis using GAN, LSTM, GRU, VARMA, and deep DynaQ network'
+  description: 'Scientific Reports - Retraction Note: Hybrid deep learning framework
+    for cardiovascular disease diagnosis and prognosis using GAN, LSTM, GRU, VARMA,
+    and deep DynaQ network'
+  url: https://www.nature.com/articles/s41598-026-49102-0
+  date: '2026-04-20'
+  source: Nature.com
+- title: Deep Learning Framework for Accurate Prediction and High-Throughput Search
+    of the Thermoelectric Figure of Merit in Skutterudites
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA08841K,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Victor Posligua, Karina Landivar, Elena R. Remesal, Gerda
+    Ro'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta08841k
+  date: '2026-04-19'
+  source: Royal Society of Chemistry
 - title: Contextual deep learning for accurate news article categorisation with pre-trained
     embeddings
   description: Scientific Reports - Contextual deep learning for accurate news article
@@ -353,22 +370,4 @@ news_items:
     to extract mea
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013907
   date: '2026-01-21'
-  source: Plos.org
-- title: Deep learning-based no-reference image quality assessment framework for Cryptosporidium
-    spp. and Giardia spp
-  description: Image Quality Assessment (IQA) plays a critical role in image-based
-    decision-making systems, especially in domains requiring high diagnostic precision.
-    Effective feature information is a prerequisite for the high performance of machine
-    learning metho
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341160
-  date: '2026-01-20'
-  source: Plos.org
-- title: SVASCilia is an open-source, deep learning-based tool for 3D analysis of
-    cochlear hair cell stereocilia bundles
-  description: Cochlear hair cell stereocilia bundles are vital for hearing, but their
-    3D morphology remains unclear due to their complex organisation. This study develops
-    an open-source, deep learning-based tool called VASCilia that automates the high-throughput
-    a
-  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003591
-  date: '2026-01-20'
   source: Plos.org

@@ -1,4 +1,52 @@
 news_items:
+- title: Machine learning-assisted screening of copper-cerium bimetallic catalysts
+    for tetracycline degradation
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA01364C,
+    PaperQingyu Huang, Fei Huang, Bingxu Chen, Yang Yu, Na Jiang, Chuang Yang, Yuchen
+    Wang, Yongjun ZhangBimetallic catalysts have shown significant potential for the
+    removal of refract'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01364c
+  date: '2026-04-20'
+  source: Royal Society of Chemistry
+- title: How to Perform Feature Scaling in Machine Learning Step by Step
+  description: Master feature scaling in ML! Learn step-by-step techniques (Min-Max,
+    Standardization) to boost model accuracy, speed up training, and avoid common
+    pitfalls.
+  url: https://www.c-sharpcorner.com/article/how-to-perform-feature-scaling-in-machine-learning-step-by-step/
+  date: '2026-04-20'
+  source: C-sharpcorner.com
+- title: Senior Machine Learning Engineer – Generative AI (Remote)
+  description: 'Position Purpose: The Sr Machine Learning Engineer is responsible
+    for designing, building, integrating, optimizing, and maintaining AI-powered applications
+    that leverage generative models and overall product lifecycle for a product that
+    our users lov'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-generative-ai-remote/
+  date: '2026-04-20'
+  source: Nlppeople.com
+- title: 'Retraction Note: Improving earthquake prediction accuracy in Los Angeles
+    with machine learning'
+  description: 'Scientific Reports - Retraction Note: Improving earthquake prediction
+    accuracy in Los Angeles with machine learning'
+  url: https://www.nature.com/articles/s41598-026-49689-4
+  date: '2026-04-20'
+  source: Nature.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: Job Description At JPMorgan Chase, AI and technology promote our global
+    operations with unmatched scale and speed. We invest over $18 billion annually
+    in innovation, data leverage, and security to shape the future for our clients,
+    communities, and em
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-7/
+  date: '2026-04-20'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer – Generative AI & Full-Stack Applications
+  description: 'We’re building a world of health around every individual — shaping
+    a more connected, convenient and compassionate health experience. At CVS Health®,
+    you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose,
+    hold ourselves '
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-generative-ai-full-stack-applications/
+  date: '2026-04-20'
+  source: Nlppeople.com
 - title: 'From in silico and machine learning model to validation: discovery of novel
     amide-functionalized imidazopyridines as PIM-1 kinase inhibitors using an integrated
     ligand and structure-based hopping approach'
@@ -167,6 +215,14 @@ news_items:
     diverse teams and take your career wherever you want it to go. Join EY and help
     to build a better wor'
   url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-life-sciences-sector-manager-consulting-3/
+  date: '2026-04-16'
+  source: Nlppeople.com
+- title: Machine Learning Engineer – Platforms
+  description: As a Machine Learning Engineer – Platforms within the Data Impact &
+    Governance organization, you will shape and scale the enterprise AI/ML platform
+    that powers clinical, research, and operational machine learning across the institution.
+    This is a han
+  url: https://nlppeople.com/job/machine-learning-engineer-platforms-3/
   date: '2026-04-16'
   source: Nlppeople.com
 - title: Machine Learning / NLP Data Scientist
@@ -1584,36 +1640,3 @@ news_items:
   url: https://arxiv.org/abs/2601.15530
   date: '2026-01-21'
   source: Arxiv.org
-- title: Identification of sensorineural hearing loss subtypes using unsupervised
-    machine learning and assessment of their replicability
-  description: 'Despite nearly 20% of the global population experiencing hearing loss,
-    there remains limited insight into the underlying subtypes of its most prevalent
-    cause, sensorineural hearing loss (SNHL). This understanding is crucial for effective
-    therapeutic '
-  url: https://www.nature.com/articles/s41598-025-33815-9
-  date: '2026-01-20'
-  source: Nature.com
-- title: Optical Photothermal Infrared (OPTIR) spectroscopy assisted by machine learning
-    for lactic acid bacteria identification at strain level
-  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D5AN01093D, PaperPaul
-    Lagneaux, Nathan Widjaja, Bastien Lagneaux, Thi Kim Chi Nguyen, Hélène Licandro,
-    Pascale Winckler, Yves WachéLactic acid bacteria (LAB) are widely used in food,
-    health, and biotechn'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01093d
-  date: '2026-01-20'
-  source: Royal Society of Chemistry
-- title: The Machine Learning Practitioner’s Guide to Model Deployment with FastAPI
-  description: 'If you’ve trained a machine learning model, a common question comes
-    up: “How do we actually use it?” This is where many machine learning practitioners
-    get stuck.'
-  url: https://machinelearningmastery.com/the-machine-learning-practitioners-guide-to-model-deployment-with-fastapi/
-  date: '2026-01-20'
-  source: Machinelearningmastery.com
-- title: Senior Machine Learning Engineer – SAIL
-  description: 'At the SEI AI Division, we conduct research in applied artificial
-    intelligence and the engineering questions related to the practical design and
-    implementation of AI technologies and systems. We currently lead a community-wide
-    movement to mature the '
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-sail/
-  date: '2026-01-20'
-  source: Nlppeople.com
