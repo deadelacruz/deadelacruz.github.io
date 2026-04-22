@@ -1,4 +1,22 @@
 news_items:
+- title: Predicting wastewater effects on antibiotic fluorescence from laboratory
+    DOM quenching behavior by fingerprinting and machine learning
+  description: 'RSC Adv., 2026, 16,21054-21065DOI: 10.1039/D6RA01194B, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Hmuu Khet Nwe Zaw, Yuchao Wu, Yawei XieMachine learning combined
+    with fluo'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01194b
+  date: '2026-04-21'
+  source: Royal Society of Chemistry
+- title: Elucidating CO2 Dynamics in High-Entropy MOF-74 via Machine Learning Interatomic
+    Potentials
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00476H,
+    PaperKlichchupong Dabsamut, Ching-Ming WeiHigh entropy variants of MOF-74 have
+    demonstrated enhanced CO2 adsorption performance, yet it remains unclear whether
+    homogenous meta'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00476h
+  date: '2026-04-21'
+  source: Royal Society of Chemistry
 - title: Machine learning-assisted screening of copper-cerium bimetallic catalysts
     for tetracycline degradation
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA01364C,
