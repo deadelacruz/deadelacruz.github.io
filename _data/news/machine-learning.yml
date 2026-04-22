@@ -57,6 +57,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02037b
   date: '2026-04-20'
   source: Royal Society of Chemistry
+- title: Δ-Machine Learning of Triplet Excitation Energies in Organic Chromophores
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP01296E,
+    CommunicationARKA PRATIM Pratim GHOSH, Koyal Roy, Kalishankar BhattacharyyaHere,
+    we report Δ-machine learning approch for predicting triplet excitation energies
+    (T1) of divers'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp01296e
+  date: '2026-04-20'
+  source: Royal Society of Chemistry
 - title: 'From in silico and machine learning model to validation: discovery of novel
     amide-functionalized imidazopyridines as PIM-1 kinase inhibitors using an integrated
     ligand and structure-based hopping approach'
@@ -1617,36 +1625,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0341259
   date: '2026-01-22'
   source: Plos.org
-- title: An online interpretable machine learning model for predicting cardiometabolic
-    multimorbidity risk in patients with type 2 diabetes mellitus
-  description: Scientific Reports - An online interpretable machine learning model
-    for predicting cardiometabolic multimorbidity risk in patients with type 2 diabetes
-    mellitus
-  url: https://www.nature.com/articles/s41598-026-36923-2
-  date: '2026-01-21'
-  source: Nature.com
-- title: A machine learning approach for predicting osmotic coefficients and deriving
-    activity coefficients in alkyl ammonium salts
-  description: Scientific Reports - A machine learning approach for predicting osmotic
-    coefficients and deriving activity coefficients in alkyl ammonium salts
-  url: https://www.nature.com/articles/s41598-026-36758-x
-  date: '2026-01-21'
-  source: Nature.com
-- title: Identification of hypoxia- and mitophagy-related diagnostic biomarkers for
-    ulcerative colitis based on bioinformatic analysis and machine learning
-  description: Background Ulcerative colitis (UC) is a chronic nonspecific inflammatory
-    bowel disease of unknown etiology that is associated with a significant risk of
-    progression to colorectal cancer. The aim of this study was to systematically
-    identify hypoxia- a
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0339296
-  date: '2026-01-21'
-  source: Plos.org
-- title: Machine learning-enhanced non-amnestic Alzheimer's disease diagnosis from
-    MRI and clinical features
-  description: Alzheimer's disease (AD), defined as an abnormal buildup of amyloid
-    plaques and tau tangles in the brain can be diagnosed with high accuracy based
-    on protein biomarkers via PET or CSF analysis. However, due to the invasive nature
-    of biomarker collect
-  url: https://arxiv.org/abs/2601.15530
-  date: '2026-01-21'
-  source: Arxiv.org
