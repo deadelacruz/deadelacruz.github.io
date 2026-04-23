@@ -1,4 +1,11 @@
 news_items:
+- title: Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python
+  description: In a previous post, we introduced the Universal Sparse Tensor (UST),
+    enabling developers to decouple a tensor’s sparsity from its memory layout for
+    greater...
+  url: https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/
+  date: '2026-04-22'
+  source: Nvidia.com
 - title: 'Retraction Note: Hybrid deep learning framework for cardiovascular disease
     diagnosis and prognosis using GAN, LSTM, GRU, VARMA, and deep DynaQ network'
   description: 'Scientific Reports - Retraction Note: Hybrid deep learning framework
@@ -336,11 +343,3 @@ news_items:
   url: https://hackernoon.com/geometric-deep-learning-neural-networks-in-spherical-hyperbolic-and-non-euclidean-spaces
   date: '2026-01-23'
   source: hackernoon.com
-- title: 'Deep Learning From Operation Sindoor: Five Takeaways From a Four-Day War'
-  description: Tensions between India and Pakistan — two countries that President
-    Donald Trump claimed had been fighting for 1,500 years — escalated rapidly over
-    a few days in May 2025.On May 7–10, the two countries fought an 88-hour war after
-    India accused Pakista
-  url: https://warontherocks.com/2026/01/deep-learning-from-operation-sindoor-five-takeaways-from-a-four-day-war/
-  date: '2026-01-22'
-  source: War on the Rocks
