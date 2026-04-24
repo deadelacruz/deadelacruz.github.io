@@ -327,19 +327,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345012
   date: '2026-03-16'
   source: Plos.org
-- title: The role of low-complexity repeats in RNA–RNA interactions and a deep learning
-    framework for duplex prediction
-  description: Interactions between long RNA molecules play essential roles in shaping
-    gene regulation. Here, the authors show that low-complexity repeats drive stable
-    contacts between RNAs and present RIME, a deep learning model that improves the
-    prediction of the
-  url: https://www.nature.com/articles/s41467-026-68356-w
-  date: '2026-01-23'
-  source: Nature.com
-- title: 'Geometric Deep Learning: Neural Networks in Spherical, Hyperbolic, and Non-Euclidean
-    Spaces | HackerNoon'
-  description: Learn about hierarchical structures in hyperbolic space, rotations
-    in spherical geometry, and Lie group transformations.
-  url: https://hackernoon.com/geometric-deep-learning-neural-networks-in-spherical-hyperbolic-and-non-euclidean-spaces
-  date: '2026-01-23'
-  source: hackernoon.com

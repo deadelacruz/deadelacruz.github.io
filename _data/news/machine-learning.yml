@@ -1,4 +1,29 @@
 news_items:
+- title: 'Analysis of multivariate social science data: statistical machine learning
+    methods'
+  description: 'Moustaki, I. ORCID logo , Steele, F. ORCID logo , Chen, Y. ORCID logo
+    & Bartholomew, D. (2026). Analysis of multivariate social science data: statistical
+    machine learning methods. Chapman and Hall. https://doi.org/10.1201/9781003483342'
+  url: https://researchonline.lse.ac.uk/id/eprint/138151/
+  date: '2026-04-23'
+  source: Lse.ac.uk
+- title: Machine learning-driven alignment architecture of heterogeneous data with
+    transient varying semantics
+  description: This study presents an unsupervised alignment architecture using a
+    supervised learning model to align heterogeneous data with unknown semantic time
+    shifts. It demonstrates effectiveness in aligning optical and acoustic signals,
+    enabling semantic mini
+  url: https://www.nature.com/articles/s41467-026-72377-w
+  date: '2026-04-23'
+  source: Nature.com
+- title: Manager, Machine Learning Engineering
+  description: Company Overview Docusign brings agreements to life. Over 1.5 million
+    customers and more than a billion people in over 180 countries use Docusign solutions
+    to accelerate the process of doing business and simplify people’s lives. With
+    intelligent agre
+  url: https://nlppeople.com/job/manager-machine-learning-engineering-3/
+  date: '2026-04-23'
+  source: Nlppeople.com
 - title: 5 GitHub Repositories to Learn Quantum Machine Learning
   description: If you want to learn quantum machine learning in 2025, these five GitHub
     repositories can get you started in hours, not months.
@@ -31,6 +56,14 @@ news_items:
     Eithiraj R. D., Gitanjali Pagare, N. K. GaurIn this study, we investigate the
     structural, elect'
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00025h
+  date: '2026-04-22'
+  source: Royal Society of Chemistry
+- title: Singlet machine learning photodynamics reveal competing inversion paths of
+    methylated cyclooctatetrathiophene
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6SC00969G, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Christian Salguero, Steven A. LopezWe used state-of-the-art '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc00969g
   date: '2026-04-22'
   source: Royal Society of Chemistry
 - title: Predicting wastewater effects on antibiotic fluorescence from laboratory
@@ -133,6 +166,14 @@ news_items:
   url: https://nlppeople.com/job/technology-product-manager-cheminformatics-and-machine-learning/
   date: '2026-04-20'
   source: Nlppeople.com
+- title: Manager of Machine Learning
+  description: 'Technical Lead – ML Platform – 130-140k – Hybrid Dublin – No Visa
+    Sponsorship Great role for you ML engineers who work in supporting the algos in
+    production. The landscape: SME SaaS company in Dublin, has a great brand identity
+    and has the structures'
+  url: https://nlppeople.com/job/manager-of-machine-learning-2/
+  date: '2026-04-20'
+  source: Nlppeople.com
 - title: 'From in silico and machine learning model to validation: discovery of novel
     amide-functionalized imidazopyridines as PIM-1 kinase inhibitors using an integrated
     ligand and structure-based hopping approach'
@@ -229,6 +270,14 @@ news_items:
     that power Biostream’s physiological monitoring and alert systems. You will work
     closely with the biost
   url: https://nlppeople.com/job/ai-scientist-machine-learning-engineer/
+  date: '2026-04-17'
+  source: Nlppeople.com
+- title: Machine Learning Engineer – Platforms
+  description: As a Machine Learning Engineer – Platforms within the Data Impact &
+    Governance organization, you will shape and scale the enterprise AI/ML platform
+    that powers clinical, research, and operational machine learning across the institution.
+    This is a han
+  url: https://nlppeople.com/job/machine-learning-engineer-platforms-4/
   date: '2026-04-17'
   source: Nlppeople.com
 - title: Are routinely collected clinical and sociodemographic characteristics associated
@@ -1575,46 +1624,3 @@ news_items:
   url: https://link.springer.com/article/10.1007/s40588-026-00265-4
   date: '2026-01-24'
   source: Springer.com
-- title: 'Same but Different: How Permutation Degeneracy Enhances Machine Learning
-    in Single-Atom Catalyst Discovery'
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA09024E,
-    PaperZhengda Chen, Jianhua Wang, Xing Fan, Guoxin Zhang, Yupeng Wei, Mengxiao
-    Han, Yu Hong Huang, Yongfeng Wang, Haiping LinAccurately predicting the catalytic
-    performance of single'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta09024e
-  date: '2026-01-23'
-  source: Royal Society of Chemistry
-- title: 'Rheological analysis in food processing: factors, applications, and future
-    outlooks with machine learning integration'
-  description: 'RSC Adv., 2026, 16,5040-5063DOI: 10.1039/D5RA07499A, Review Article
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Yang Chen, Honglin Zhu, Yihang Feng, Yi Wang, Xinhao Wang,
-    Weimin Z'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra07499a
-  date: '2026-01-23'
-  source: Royal Society of Chemistry
-- title: Machine learning-based XANES analysis for predicting the local structure
-    and valence in amorphous silicon suboxides
-  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D5CP03408F,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Yu Fujikata, Hiroki Sugisawa, Teruyasu MizoguchiDeep-learning
-    analysis o'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp03408f
-  date: '2026-01-23'
-  source: Royal Society of Chemistry
-- title: 'Machine Learning with Clojure: Benefits & Perspectives'
-  description: Why is Clojure starting to catch people’s attention for machine learning,
-    even in a world where Python still dominates? It is 2026 the buzz around machine
-    learning has died down a bit. People are no longer chasing the next big thing;
-    they just want t
-  url: https://flexiana.com/machine-learning-architecture/machine-learning-with-clojure-benefits-perspectives
-  date: '2026-01-23'
-  source: Flexiana.com
-- title: 'Machine Learning for RNA Secondary Structure Prediction: a review of current
-    methods and challenges [Review]'
-  description: Predicting the secondary structure of RNA is a core challenge in computational
-    biology, essential for understanding molecular function and designing novel therapeutics.
-    The field has evolved from foundational but accuracy-limited thermodynamic approa
-  url: https://rnajournal.cshlp.org/content/early/2026/01/23/rna.080840.125.short?rss=1
-  date: '2026-01-23'
-  source: Cshlp.org

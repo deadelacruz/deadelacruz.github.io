@@ -1,4 +1,41 @@
 news_items:
+- title: OpenAI announces GPT-5.5, its latest artificial intelligence model
+  description: The model is better at coding, using computers and pursuing deeper
+    research capabilities, OpenAI says.
+  url: https://www.cnbc.com/2026/04/23/openai-announces-latest-artificial-intelligence-model.html
+  date: '2026-04-23'
+  source: CNBC
+- title: Artificial Intelligence Is ELIMINATING Jobs On Wall Street
+  description: Artificial intelligence has begun its onslaught against the human job
+    market by eliminating many on Wall Street already.
+  url: https://www.shtfplan.com/member-exclusive/artificial-intelligence-is-eliminating-jobs-on-wall-street
+  date: '2026-04-23'
+  source: Shtfplan.com
+- title: Pope Criticizes AI in Posts Written by… Artificial Intelligence
+  description: 'The Pangram detection tool flagged several of Pope Leo XIV’s X posts
+    as AI-generated. Among them were messages criticizing artificial intelligence.
+    The Pangram detection tool...
+
+    The post Pope Criticizes AI in Posts Written by… Artificial Intelligence'
+  url: https://bitcoinfoundation.org/news/ai-news/pope-criticizes-ai-in-posts-written-by-artificial-intelligence/
+  date: '2026-04-23'
+  source: Bitcoinfoundation.org
+- title: What we lose when artificial intelligence does our shopping
+  description: Retailers are racing to hand your shopping over to AI. Consumers are
+    right to be wary – and not just about privacy.
+  url: https://theconversation.com/what-we-lose-when-artificial-intelligence-does-our-shopping-280251
+  date: '2026-04-23'
+  source: The Conversation Africa
+- title: 'Pitsilis: The contribution of artificial intelligence in the fight against
+    tax evasion is decisive'
+  description: 'George Pitsilis underlined the importance of financial literacy and
+    Artificial Intelligence in access to knowledge, tax evasion, subsidies and cybersecurity
+
+    The post Pitsilis: The contribution of artificial intelligence in the fight against
+    tax evasi'
+  url: https://en.protothema.gr/2026/04/23/pitsilis-the-contribution-of-artificial-intelligence-in-the-fight-against-tax-evasion-is-decisive/
+  date: '2026-04-23'
+  source: Protothema.gr
 - title: '‘I think it’s a mistake’: Delta CEO Ed Bastian refuses to call it ‘artificial
     intelligence’ because it scares people'
   description: '"You want to scare people?" The Delta CEO told Fortune. "Tell them
@@ -2222,59 +2259,4 @@ news_items:
   description: No description available.
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5127af59-a79d-4f19-ba0b-fcdc06c9dbee
   date: '2026-01-24'
-  source: Yahoo Entertainment
-- title: 'The Great AI Heist: How Artificial Intelligence Is Cannibalizing Consumer
-    Tech and Creating a Controlled Digital Future'
-  description: 'Pixels and Power: The GDDR7 Shortage as a Canary in the Coal Mine
-    The global technology market is experiencing a seismic tremor, disguised as a
-    mere supply chain hiccup. Across the board, consumers are facing empty shelves
-    and skyrocketing prices for'
-  url: https://www.naturalnews.com/2026-01-23-how-artificial-intelligence-is-cannibalizing-consumer-tech.html
-  date: '2026-01-23'
-  source: Naturalnews.com
-- title: 'Better Artificial Intelligence Stock: Nvidia vs. Meta Platforms'
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_44d0623d-9ee5-4889-b7e9-cbce15925cb1
-  date: '2026-01-23'
-  source: Yahoo Entertainment
-- title: Crew Studies Cardiac Research, Artificial Intelligence as Dragon Boosts Station’s
-    Orbit
-  description: Cardiac research and artificial intelligence were the main science
-    topics for the Expedition 74 crew on Friday. The International Space Station also
-    received an orbital boost when the SpaceX Dragon spacecraft fired its engines
-    at the end of the week.
-  url: https://www.nasa.gov/blogs/spacestation/2026/01/23/crew-studies-cardiac-research-artificial-intelligence-as-dragon-boosts-stations-orbit/
-  date: '2026-01-23'
-  source: NASA
-- title: This Artificial Intelligence (AI) Stock Could Define the Next Chapter of
-    the Tech Market
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_0f0daee6-4716-4204-87b8-ca076f1ceacb
-  date: '2026-01-23'
-  source: Yahoo Entertainment
-- title: This Semiconductor Stock Could Be at the Center of the Artificial Intelligence
-    Spending Boom
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3c6eea4b-cec7-4045-92d1-43208fc99202
-  date: '2026-01-23'
-  source: Yahoo Entertainment
-- title: Greenland, Trump and Artificial Intelligence
-  description: The claim that the United States wants Greenland for national security
-    doesn’t fully explain what’s been happening behind the scenes. Many believe that
-    the real attraction isn’t missiles or Arctic defence, but land, climate, minerals
-    and control. Gre
-  url: https://www.globalresearch.ca/greenland-trump-artificial-intelligence/5913284
-  date: '2026-01-23'
-  source: Globalresearch.ca
-- title: Perfios Achieves ISO/IEC 42001:2023 Certification for Artificial Intelligence
-    Management System
-  description: Perfios Achieves ISO/IEC 42001:2023 Certification for Artificial Intelligence
-    Management System
-  url: https://www.thehindubusinessline.com/brandhub/pr-release/perfios-achieves-isoiec-420012023-certification-for-artificial-intelligence-management-system/article70542191.ece
-  date: '2026-01-23'
-  source: BusinessLine
-- title: Payments will be the real bridge between crypto and artificial intelligence
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_3dce15b4-5014-4dd0-a9eb-928abf1e5141
-  date: '2026-01-23'
   source: Yahoo Entertainment
