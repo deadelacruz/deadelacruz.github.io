@@ -1,4 +1,70 @@
 news_items:
+- title: Machine Learning Reveals Unknown Transient Phenomena in Historic Images
+  description: Transient, star-like point sources that appear and vanish over short
+    timescales are described in astronomical images prior to launch of Sputnik. We
+    have reported that transient numbers diminish significantly in Earth's shadow
+    (shadow deficit) and are
+  url: https://arxiv.org/abs/2604.18799
+  date: '2026-04-24'
+  source: Arxiv.org
+- title: Machine learning identifies pupil size and corneal thickness as key predictors
+    of axial elongation rate
+  description: 'Purpose This study aimed to develop a machine learning-based prediction
+    model for myopia progression using ocular biometric parameters to provide an objective
+    assessment tool for clinical practice.   Methods A retrospective analysis was
+    conducted on '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348085
+  date: '2026-04-24'
+  source: Plos.org
+- title: Senior Machine Learning Scientist – Advanced AI & Automation
+  description: 'We are looking for a Senior Machine Learning Scientist to join the
+    Corporate Reserach department at Sartorius. You will use your expertise in modern
+    machine learning, computer vision and robotics to design AI – driven automaton
+    for next – generation '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-2/
+  date: '2026-04-24'
+  source: Nlppeople.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-6/
+  date: '2026-04-24'
+  source: Nlppeople.com
+- title: Machine Learning Engineer
+  description: Do you want to use your Machine Learning skills to help discover treatments
+    for rare disease patients? The role Healx is looking for a talented Machine Learning
+    Engineer to join our Tech team to help develop our drug discovery platform and
+    discover n
+  url: https://nlppeople.com/job/machine-learning-engineer-591/
+  date: '2026-04-24'
+  source: Nlppeople.com
+- title: US Data Engineer – Machine Learning
+  description: 'Dice is the leading career destination for tech experts at every stage
+    of their careers. Our client, S Linx LLC, is seeking the following. Apply via
+    Dice today! Job Posting Title: US Data Engineer – Machine Learning Columbus, OH
+    Onsite Required skill'
+  url: https://nlppeople.com/job/us-data-engineer-machine-learning/
+  date: '2026-04-24'
+  source: Nlppeople.com
+- title: Machine Learning Ops Engineer
+  description: Job Description DXC Technology is committed to building diverse, inclusive
+    teams. We welcome applications from all backgrounds and particularly encourage
+    interest from women, underrepresented groups, and neurodivergent candidates. We
+    offer reasonable
+  url: https://nlppeople.com/job/machine-learning-ops-engineer-2/
+  date: '2026-04-24'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: Job Description At JPMorgan Chase, AI and technology promote our global
+    operations with unmatched scale and speed. We invest over $18 billion annually
+    in innovation, data leverage, and security to shape the future for our clients,
+    communities, and em
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-9/
+  date: '2026-04-24'
+  source: Nlppeople.com
 - title: 'Analysis of multivariate social science data: statistical machine learning
     methods'
   description: 'Moustaki, I. ORCID logo , Steele, F. ORCID logo , Chen, Y. ORCID logo
@@ -1606,21 +1672,3 @@ news_items:
   url: https://r2d3.us/visual-intro-to-machine-learning-part-1/
   date: '2026-03-15'
   source: R2d3.us
-- title: '[FREE EBOOKS] Machine Learning and AI for Absolute Beginners, Unified SecOps
-    Playbook & Four More Best Selling Titles'
-  description: 'Hello fellow geeks, Fresh offers await you on our Information Technology
-    Research Library, please have a look! Machine Learning and AI for Absolute Beginners:
-    The Ultimate Guide to AI and Machine Learning for Newcomers ($18.99 Value) FREE
-    for a Limit'
-  url: https://www.javacodegeeks.com/2026/01/free-ebooks-machine-learning-and-ai-for-absolute-beginners-unified-secops-playbook-four-more-best-selling-titles.html
-  date: '2026-01-24'
-  source: Javacodegeeks.com
-- title: 'Reshaping Parasitology Diagnostics with Machine Learning: A Path Toward
-    Equity in Global Health'
-  description: 'Purpose of review: This review examines how artificial intelligence
-    (AI), deep learning, robotic microscopy, and other emerging digital technologies
-    are reshaping parasitology diagnostics. We aimed to evaluate recent advances,
-    technological opportuni'
-  url: https://link.springer.com/article/10.1007/s40588-026-00265-4
-  date: '2026-01-24'
-  source: Springer.com

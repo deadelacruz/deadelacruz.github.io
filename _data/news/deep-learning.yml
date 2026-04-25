@@ -1,4 +1,12 @@
 news_items:
+- title: There Will Be a Scientific Theory of Deep Learning
+  description: In this paper, we make the case that a scientific theory of deep learning
+    is emerging. By this we mean a theory which characterizes important properties
+    and statistics of the training process, hidden representations, final weights,
+    and performance of
+  url: https://arxiv.org/abs/2604.21691
+  date: '2026-04-24'
+  source: Arxiv.org
 - title: Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python
   description: In a previous post, we introduced the Universal Sparse Tensor (UST),
     enabling developers to decouple a tensor’s sparsity from its memory layout for
