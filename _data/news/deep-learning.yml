@@ -1,4 +1,9 @@
 news_items:
+- title: There Will Be a Scientific Theory of Deep Learning | Hacker News
+  description: No description available.
+  url: https://news.ycombinator.com/item?id=47893779
+  date: '2026-04-26'
+  source: Hacker News
 - title: "S$$\\vphantom{0}^{2}$$\r\n2\r\nA-RConvNet: standalone self-attention enabled\
     \ deep learning model for brain tumor classification with MRI images"
   description: 'Scientific Reports - S$$\vphantom{0}^{2}$$2A-RConvNet: standalone
