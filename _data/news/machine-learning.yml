@@ -1,4 +1,47 @@
 news_items:
+- title: 'Predicting Bandgap of ABX2 Materials: Supervised Machine Learning on Small
+    Datasets'
+  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D5TC04449A,
+    PaperUpendra Kumar, Muhammad W Ullah, Vipin Kumar, Joshua M Muir, feiwu zhangPredicting
+    electronic bandgap in ABX2 -type materials (where, A ={Al, Ga, Zn, Cd}, B ={Ga,
+    In, Ge, Sn, S'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d5tc04449a
+  date: '2026-04-27'
+  source: Royal Society of Chemistry
+- title: Development of machine learning models for predicting early pregnancy outcomes
+    based on β-hCG, progesterone, and estradiol
+  description: Objective This study aims to develop a machine learning model for predicting
+    early pregnancy outcomes by combining baseline levels and dynamic changes of β-human
+    chorionic gonadotropin (β-hCG), progesterone (P), and estradiol (E2).   Methods
+    This ret
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348114
+  date: '2026-04-27'
+  source: Plos.org
+- title: Databricks Machine Learning Professional Questions That Change Your Exam
+    Result
+  description: 'Databricks Machine Learning Professional Questions That Change Your
+    Exam Result - posted in IT Certifications and Careers: I took the Databricks Machine
+    Learning Professional exam last month and honestly it was harder than I thought.
+    I work as a data'
+  url: https://www.bleepingcomputer.com/forums/t/815730/databricks-machine-learning-professional-questions-that-change-your-exam-result/
+  date: '2026-04-27'
+  source: BleepingComputer
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-7/
+  date: '2026-04-27'
+  source: Nlppeople.com
+- title: Distribution-preserved sampling (DPS) for smarter machine learning assisted
+    ultra-large-scale virtual screening
+  description: 'RSC Adv., 2026, 16,21855-21866DOI: 10.1039/D6RA00279J, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Alexander Trachtenberg, Alexander Spelkov, Barak AkabayovUltra-large-scale'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra00279j
+  date: '2026-04-26'
+  source: Royal Society of Chemistry
 - title: Machine Learning Reveals Unknown Transient Phenomena in Historic Images
   description: Transient, star-like point sources that appear and vanish over short
     timescales are described in astronomical images prior to launch of Sputnik. We
