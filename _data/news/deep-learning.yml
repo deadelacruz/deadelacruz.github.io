@@ -16,6 +16,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-49720-8
   date: '2026-04-28'
   source: Nature.com
+- title: A flexible pressure sensor based on a PVA/TA/CNT organogel for deep learning
+    powered human gesture recognition
+  description: 'J. Mater. Chem. C, 2026, Advance ArticleDOI: 10.1039/D6TC00308G, PaperHanfei
+    Zhu, Liang Xu, Xinqing Sun, Jun Liu, Peng Pan, Zhengchun YangGel-based pressure
+    sensors are widely used in wearable electronics to provide features of human activity
+    detecti'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00308g
+  date: '2026-04-28'
+  source: Royal Society of Chemistry
 - title: There Will Be a Scientific Theory of Deep Learning | Hacker News
   description: No description available.
   url: https://news.ycombinator.com/item?id=47893779
