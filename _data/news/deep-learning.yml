@@ -1,4 +1,21 @@
 news_items:
+- title: Image quality improvement of liver ultrasound using unsupervised deep learning
+  description: Chronic liver disease (CLD) and subsequent liver cirrhosis (LC) are
+    common causes of death and healthcare-related socio-economical costs worldwide.
+    Ultrasound (US) is the first-line imaging modality for assessing the liver and
+    associated hepatocellul
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348137
+  date: '2026-04-28'
+  source: Plos.org
+- title: Stacked CT radiomics, deep learning and clinical feature models for differentiating
+    benign and malignant solitary pulmonary nodules
+  description: Solitary pulmonary nodules (SPNs) are common incidental findings on
+    high-resolution CT, and differentiating benign from malignant lesions still depends
+    mainly on invasive biopsy, highlighting the need for accurate non-invasive tools.
+    In this retrospe
+  url: https://www.nature.com/articles/s41598-026-49720-8
+  date: '2026-04-28'
+  source: Nature.com
 - title: There Will Be a Scientific Theory of Deep Learning | Hacker News
   description: No description available.
   url: https://news.ycombinator.com/item?id=47893779

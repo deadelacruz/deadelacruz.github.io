@@ -1,4 +1,55 @@
 news_items:
+- title: Machine learning provides rapid analysis of Fermi surfaces
+  description: 'Can machine learning automatically detect important changes in a material’s
+    Fermi surface from complex and noisy data?
+
+    The post Machine learning provides rapid analysis of Fermi surfaces appeared first
+    on Digital Journal.'
+  url: https://www.digitaljournal.com/tech-science/machine-learning-provides-rapid-analysis-of-fermi-surfaces/article
+  date: '2026-04-28'
+  source: Digital Journal
+- title: 'Safety-oriented and explainable machine learning for KSI crash risk prediction:
+    Evidence from the United Kingdom'
+  description: Road traffic crashes pose a serious public safety challenge, particularly
+    due to fatal and serious injuries. Although machine learning (ML) has been widely
+    used for crash severity prediction, many studies remain accuracy-oriented and
+    insufficiently a
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347873
+  date: '2026-04-28'
+  source: Plos.org
+- title: 'Smart e-Drive Strategic Industry Report 2026: Integration of AI and Machine
+    Learning Enhances Market Competitiveness - Global Forecast to 2030'
+  description: The Smart e-Drive market presents significant opportunities driven
+    by advancements in AI, battery management, and power electronics, enhancing EV
+    efficiency and performance. Growing demand in passenger vehicles, sustainable
+    transport focus, and gover
+  url: https://www.globenewswire.com/news-release/2026/04/28/3282449/28124/en/Smart-e-Drive-Strategic-Industry-Report-2026-Integration-of-AI-and-Machine-Learning-Enhances-Market-Competitiveness-Global-Forecast-to-2030.html
+  date: '2026-04-28'
+  source: GlobeNewswire
+- title: Senior Machine Learning Engineer II — Build AI Systems
+  description: A leading travel technology provider in the United Kingdom is looking
+    for a Machine Learning Engineer II to join their Product AI Engineering team.
+    This role involves designing and optimizing intelligent systems using AI techniques.
+    The ideal candida
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-ii-build-ai-systems-2/
+  date: '2026-04-28'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist – Advanced AI & Automation
+  description: 'We are looking for a Senior Machine Learning Scientist to join the
+    Corporate Reserach department at Sartorius. You will use your expertise in modern
+    machine learning, computer vision and robotics to design AI – driven automaton
+    for next – generation '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-3/
+  date: '2026-04-28'
+  source: Nlppeople.com
+- title: Machine Learning Specialist
+  description: We’re looking for a Machine Learning Specialist/Programmer who can
+    translate research into real-world impact. You are curious, hands on and motivated
+    by turning ideas into working systems that improve how things are done. Comfortable
+    navigating uncer
+  url: https://nlppeople.com/job/machine-learning-specialist-9/
+  date: '2026-04-28'
+  source: Nlppeople.com
 - title: 'Predicting Bandgap of ABX2 Materials: Supervised Machine Learning on Small
     Datasets'
   description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D5TC04449A,
@@ -32,6 +83,14 @@ news_items:
     tangible business outcomes. Our clients engage Attadale because our work drives
     change that inc
   url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-7/
+  date: '2026-04-27'
+  source: Nlppeople.com
+- title: Machine Learning Engineer (Applied AI / Scientific Computing)
+  description: 'Machine Learning Engineer (Applied AI / Scientific Computing) Location:
+    Surrey, UK (Office based) Details: Full-Time | Truly competitive salary + Bonus
+    + unrivalled benefits A global software company is evolving its core engineering
+    platforms by embe'
+  url: https://nlppeople.com/job/machine-learning-engineer-applied-ai-scientific-computing/
   date: '2026-04-27'
   source: Nlppeople.com
 - title: Distribution-preserved sampling (DPS) for smarter machine learning assisted
@@ -106,6 +165,14 @@ news_items:
     in innovation, data leverage, and security to shape the future for our clients,
     communities, and em
   url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-9/
+  date: '2026-04-24'
+  source: Nlppeople.com
+- title: Principal Machine Learning Data Scientist, Gen AI
+  description: 'Xometry (NASDAQ: XMTR) powers the industries of today and tomorrow
+    by connecting the people with big ideas to the manufacturers who can bring them
+    to life. Xometry’s digital marketplace gives manufacturers the critical resources
+    they need to grow the'
+  url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai/
   date: '2026-04-24'
   source: Nlppeople.com
 - title: 'Analysis of multivariate social science data: statistical machine learning
