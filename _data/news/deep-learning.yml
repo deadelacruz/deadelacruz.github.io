@@ -1,4 +1,28 @@
 news_items:
+- title: Stochastic intracellular calcium dynamics show preserved structures identified
+    by deep learning classification
+  description: Author summary Cells communicate through calcium signaling, and the
+    rhythms of these signals are deeply connected to physiological states that influence
+    health and disease. Deterministic models predict that these dynamics fall into
+    distinct regimes s
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014240
+  date: '2026-04-29'
+  source: Plos.org
+- title: Mapping functional non-coding variation in individual human genomes through
+    haplotyping, multiomics, and deep learning
+  description: How non-coding mutations in DNA contribute to phenotypes is a largely
+    unresolved question. Here the authors integrate personal genomics and machine
+    learning to identify hundreds of genetic variants that affect gene expression.
+  url: https://www.nature.com/articles/s41467-026-72392-x
+  date: '2026-04-29'
+  source: Nature.com
+- title: 'Attention-enhanced spatiotemporal deep learning for predictive maintenance
+    in oil and gas assets: towards Maintenance 5.0'
+  description: 'Scientific Reports - Attention-enhanced spatiotemporal deep learning
+    for predictive maintenance in oil and gas assets: towards Maintenance 5.0'
+  url: https://www.nature.com/articles/s41598-026-47109-1
+  date: '2026-04-29'
+  source: Nature.com
 - title: Image quality improvement of liver ultrasound using unsupervised deep learning
   description: Chronic liver disease (CLD) and subsequent liver cirrhosis (LC) are
     common causes of death and healthcare-related socio-economical costs worldwide.
