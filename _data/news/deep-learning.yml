@@ -1,4 +1,15 @@
 news_items:
+- title: Deep Learning Reconstructs 32 Years of Global Nighttime Light Data
+  description: 'Tokyo, Japan (SPX) Apr 29, 2026
+
+
+
+    A team of researchers from Fuzhou University, East China Normal University, Anhui
+    Normal University, and Yunnan Normal University has developed a deep-learning
+    framework to reconstruct a global, high-resolution night'
+  url: https://www.spacewar.com/reports/Deep_Learning_Reconstructs_32_Years_of_Global_Nighttime_Light_Data_999.html
+  date: '2026-04-30'
+  source: Spacewar.com
 - title: Stochastic intracellular calcium dynamics show preserved structures identified
     by deep learning classification
   description: Author summary Cells communicate through calcium signaling, and the

@@ -1,4 +1,65 @@
 news_items:
+- title: Machine Learning Drives High-Resolution Daily Soil Moisture Mapping Across
+    China
+  description: 'Tokyo, Japan (SPX) Apr 29, 2026
+
+
+
+    A research team from Nanjing University has developed a high-precision, 1 km resolution
+    soil moisture dataset for China covering the period 2000 to 2025, using machine
+    learning techniques to overcome longstanding lim'
+  url: https://www.seeddaily.com/reports/Machine_Learning_Drives_High_Resolution_Daily_Soil_Moisture_Mapping_Across_China_999.html
+  date: '2026-04-30'
+  source: Seeddaily.com
+- title: Machine learning in prediction and classification of type 1 diabetes
+  description: Genetic prediction of type 1 diabetes is one of the most successful
+    for complex traits. A machine learning approach now improves this further and
+    discovers multiple non-linear locus–locus interactions and molecular subclusters
+    with differing clinical
+  url: https://www.nature.com/articles/s41588-026-02571-5
+  date: '2026-04-30'
+  source: Nature.com
+- title: Senior Machine Learning / AI Engineer
+  description: 'Job Title: Machine Learning Engineer (Manufacturing) Key Responsibilities
+    Design, build, and deploy machine learning models for manufacturing use cases
+    Develop and maintain end-to-end ML pipelines, including data ingestion, feature
+    engineering, model'
+  url: https://nlppeople.com/job/senior-machine-learning-ai-engineer/
+  date: '2026-04-30'
+  source: Nlppeople.com
+- title: Professor/Chair of Machine Learning, School of Computer Science & Information
+    Technology
+  description: Permanent Whole-Time post University College Cork is an internationally
+    renowned university where excellence in teaching and research is aligned with
+    an inclusive and respectful environment, where all staff and students can flourish
+    and thrive. Found
+  url: https://nlppeople.com/job/professor-chair-of-machine-learning-school-of-computer-science-information-technology-2/
+  date: '2026-04-30'
+  source: Nlppeople.com
+- title: Genetic association and machine learning improve the prediction of type 1
+    diabetes risk
+  description: Genome-wide association and fine-mapping analyses of type 1 diabetes
+    (T1D) identify multiple genetic risk signals. Furthermore, a machine learning
+    model, T1GRS, improves the prediction of T1D in individuals with complex risk
+    profiles and identifies g
+  url: https://www.nature.com/articles/s41588-026-02578-y
+  date: '2026-04-30'
+  source: Nature.com
+- title: 'Built on patterns: How Susan Chang’s econometrics roots drive machine learning
+    for security and her minimalist workspace'
+  description: How econometrics and machine learning come together to secure modern
+    systems...
+  url: https://www.elastic.co/blog/top-down-with-susan-chang
+  date: '2026-04-30'
+  source: Elastic.co
+- title: Manager, Machine Learning Engineering
+  description: Company Overview Docusign brings agreements to life. Over 1.5 million
+    customers and more than a billion people in over 180 countries use Docusign solutions
+    to accelerate the process of doing business and simplify people’s lives. With
+    intelligent agre
+  url: https://nlppeople.com/job/manager-machine-learning-engineering-4/
+  date: '2026-04-30'
+  source: Nlppeople.com
 - title: How to Avoid These 7 Deadly Sins of Project Management with Machine Learning
   description: How to Avoid These 7 Deadly Sins of Project Management with Machine
     Learning Project management success is littered with preventable inefficiencies
