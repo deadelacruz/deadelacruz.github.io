@@ -1,4 +1,22 @@
 news_items:
+- title: 'Ben Fielding: Neural architecture search automates deep learning, the shift
+    to horizontal scaling is essential, and blockchain security enhances consensus
+    algorithms | Unchained'
+  description: 'Machine learning''s transformative shift mirrors the MapReduce moment,
+    revolutionizing efficiency with decentralized consensus algorithms.
+
+    The post Ben Fielding: Neural architecture search automates deep learning, the
+    shift to horizontal scaling is es'
+  url: https://cryptobriefing.com/ben-fielding-neural-architecture-search-automates-deep-learning-the-shift-to-horizontal-scaling-is-essential-and-blockchain-security-enhances-consensus-algorithms-unchained/
+  date: '2026-05-03'
+  source: Crypto Briefing
+- title: A multi-modal deep learning framework for enhanced breast cancer diagnosis
+    using mammograms and clinical data
+  description: Scientific Reports - A multi-modal deep learning framework for enhanced
+    breast cancer diagnosis using mammograms and clinical data
+  url: https://www.nature.com/articles/s41598-026-48085-2
+  date: '2026-05-03'
+  source: Nature.com
 - title: 'Education Day: Indonesia pushes deep learning to advance potential'
   description: The Ministry of Primary and Secondary Education has designated the
     deep learning approach as a priority initiative to advance education&#39;s core
