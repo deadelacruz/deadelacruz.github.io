@@ -1,4 +1,45 @@
 news_items:
+- title: AWS Entity Resolution launches support for incremental Machine Learning based
+    matching workflows
+  description: 'AWS Entity Resolution launches support for Machine Learning (ML) based
+    Incremental Matching workflows in General Availability, fundamentally transforming
+    how enterprises process entity resolution at scale. Previously, adding even a
+    single new record '
+  url: https://aws.amazon.com/about-aws/whats-new/2026/05/aws-entity-resolution-ml/
+  date: '2026-05-04'
+  source: Amazon.com
+- title: Identification of potential biomarkers for osteoporosis and chronic kidney
+    disease through bioinformatics and machine learning algorithm
+  description: Objective The purpose of this study is to identify hub genes associated
+    with both osteoporosis (OP) and chronic kidney disease (CKD) through bioinformatics
+    analysis, and to explore the potential pathogenetic mechanisms in OP and CKD through
+    these hub
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348515
+  date: '2026-05-04'
+  source: Plos.org
+- title: What is Bias-Variance Tradeoff in Machine Learning?
+  description: Master the bias-variance tradeoff in machine learning! Learn how to
+    balance underfitting and overfitting for optimal model performance and generalization.
+  url: https://www.c-sharpcorner.com/article/what-is-bias-variance-tradeoff-in-machine-learning/
+  date: '2026-05-04'
+  source: C-sharpcorner.com
+- title: Assistant Professor, Computer Science – Artificial Intelligence/Machine Learning
+    (Tenure-Track)
+  description: Teaches undergraduate and graduate courses with a focus in machine
+    learning and its applications in artificial intelligence, NLM, GenAI, computer
+    graphics, networking, cybersecurity, IoT, robotics, HCI, databases, software engineering,
+    etc. in The Sc
+  url: https://nlppeople.com/job/assistant-professor-computer-science-artificial-intelligence-machine-learning-tenure-track-3/
+  date: '2026-05-04'
+  source: Nlppeople.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-10/
+  date: '2026-05-04'
+  source: Nlppeople.com
 - title: Dual-band graphene-based THz MIMO antenna for 6G-enabled biomedical application
     using supervised regression machine learning validation
   description: Scientific Reports - Dual-band graphene-based THz MIMO antenna for

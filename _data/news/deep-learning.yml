@@ -1,4 +1,21 @@
 news_items:
+- title: 'Reducing annotation burden in medical imaging with ADGNET: A semi-supervised
+    deep learning strategy'
+  description: We propose ADGNET, a semi-supervised framework for Alzheimer’s disease
+    (AD) diagnosis that jointly optimizes image reconstruction and classification
+    through shared feature representations. The architecture integrates a residual
+    backbone with attentio
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348596
+  date: '2026-05-04'
+  source: Plos.org
+- title: Automated deep learning by recurrent hyperparameter optimization
+  description: Rocket introduces a self-play RL framework for automated hyperparameter
+    optimization, handling mixed types without priors. It scales large datasets via
+    reward approximation, achieving expert-level performance while cutting time and
+    cost in real-world
+  url: https://www.nature.com/articles/s41467-026-72413-9
+  date: '2026-05-04'
+  source: Nature.com
 - title: 'Ben Fielding: Neural architecture search automates deep learning, the shift
     to horizontal scaling is essential, and blockchain security enhances consensus
     algorithms | Unchained'

@@ -1,4 +1,38 @@
 news_items:
+- title: 'Steven Soderbergh Talks “Pro-Choice” Attitude Towards Artificial Intelligence,
+    Partnership With Meta On AI-Inclusive Doc ‘John Lennon: The Last Interview’: “I
+    Owe People Honesty”'
+  description: 'Not long ago, Steven Soderbergh was presented with a singular opportunity:
+    exclusive access to the final interview with John Lennon, recorded mere hours
+    before his death, as the foundation for a documentary. Never before released in
+    full, the intervi'
+  url: http://deadline.com/2026/05/steven-soderbergh-talks-ai-john-lennon-doc-1236876040/
+  date: '2026-05-04'
+  source: Deadline
+- title: Palantir Reports Earnings After the Bell. Here's How this High-Flying Artificial
+    Intelligence (AI) Stock Can Impress the Market
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6ff9ec1d-46af-4548-a2d3-54e0859a2d12
+  date: '2026-05-04'
+  source: Yahoo Entertainment
+- title: 'Broken links: How is academic work best judged in the brave new world of
+    artificial intelligence?'
+  description: Old metrics no longer reveal how influential research truly is in an
+    AI-driven world, where knowledge is consumed without clicks or citations. India
+    should stop chasing outdated benchmarks and adopt new ones that measure the impact
+    of academic work b
+  url: https://www.livemint.com/opinion/online-views/academic-work-research-citations-knowledge-artificial-intelligence-ai-influence-metrics-11777807360956.html
+  date: '2026-05-04'
+  source: Livemint
+- title: Mitigating algorithmic unfairness arising from forgetfulness of medical records
+    in clinical artificial intelligence
+  description: Applying the right to be forgotten to electronic health records that
+    have been used to train artificial intelligence models could compromise model
+    accuracy and fairness. Here, the authors develop a machine unlearning model that
+    aims to remove data wh
+  url: https://www.nature.com/articles/s41467-026-72601-7
+  date: '2026-05-04'
+  source: Nature.com
 - title: 'Prediction: This Will Be the Top-Performing Artificial Intelligence (AI)
     Semiconductor Stock Over the Next Year. (Hint: It''s Not Nvidia, Broadcom, or
     Micron.)'
