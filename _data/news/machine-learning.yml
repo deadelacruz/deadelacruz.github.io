@@ -65,6 +65,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-51550-7
   date: '2026-05-05'
   source: Nature.com
+- title: 'Fluorescent sensor array integrated with machine learning: Robust discrimination
+    of multiple metal ions using carboxyl-rich carbon dots'
+  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D6AY00272B, PaperYixiang
+    Li, Weidong Zhang, Da Chen, Xiaobo Sun, Chun Li, Baomin Yang, Jinping WangAccurate
+    identification and reliable monitoring of metal ions (MIs) are critically important
+    due t'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00272b
+  date: '2026-05-05'
+  source: Royal Society of Chemistry
 - title: AWS Entity Resolution launches support for incremental Machine Learning based
     matching workflows
   description: 'AWS Entity Resolution launches support for Machine Learning (ML) based
