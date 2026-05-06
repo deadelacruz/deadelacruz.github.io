@@ -1,4 +1,12 @@
 news_items:
+- title: Lead Data Scientist – Deep Learning Practitioner
+  description: White Collar Factory (95009), United Kingdom, London, London Lead Data
+    Scientist – Deep Learning Practitioner About this role Our Data Science team focuses
+    on the development of Machine Learning and Deep Learning solutions, to solve business
+    problems
+  url: https://nlppeople.com/job/lead-data-scientist-deep-learning-practitioner/
+  date: '2026-05-05'
+  source: Nlppeople.com
 - title: 'Reducing annotation burden in medical imaging with ADGNET: A semi-supervised
     deep learning strategy'
   description: We propose ADGNET, a semi-supervised framework for Alzheimer’s disease
@@ -16,6 +24,15 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-72413-9
   date: '2026-05-04'
   source: Nature.com
+- title: 'DeepPath: Overcoming data scarcity for protein transition pathway prediction
+    using physics-based deep learning'
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC08253F, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Yui Tik Pang, Lixinhao Yang, Katie Kuo, James GumbartThe
+    structural dynami'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc08253f
+  date: '2026-05-04'
+  source: Royal Society of Chemistry
 - title: 'Ben Fielding: Neural architecture search automates deep learning, the shift
     to horizontal scaling is essential, and blockchain security enhances consensus
     algorithms | Unchained'

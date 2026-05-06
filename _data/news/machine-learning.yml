@@ -1,4 +1,70 @@
 news_items:
+- title: 'Accelerated discovery of M6@g-N4 catalysts for CO2 electroreduction via
+    machine learning and DFT: Descriptor engineering and activity trend validation'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00864J,
+    PaperPing Cheng, Hongyang Xu, Xiaoxiao Wang, Xiaoxiang Wang, Tianci Wang, Chenyuan
+    Yu, Wencong Sun, Yun Li, Weijia Huang, Chunguang ChenGraphitic nitrogen-doped
+    graphene (g-N4'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00864j
+  date: '2026-05-05'
+  source: Royal Society of Chemistry
+- title: 'Differential Machine Learning with Twin Networks in R: Forecasting Bitcoin
+    with Volatility Proxies'
+  description: Introduction Differential Machine Learning (DML), as introduced in
+    the recent arXiv paper (Differential Machine Learning for 0DTE Options with Stochastic
+    Volatility and Jumps), extends supervised learning by incorporating not only function
+    values but
+  url: https://www.r-bloggers.com/2026/05/differential-machine-learning-with-twin-networks-in-r-forecasting-bitcoin-with-volatility-proxies/
+  date: '2026-05-05'
+  source: R-bloggers.com
+- title: Application of machine learning with MALDI-TOF MS for rapid differentiation
+    between methicillin-susceptible and methicillin-resistant Staphylococcus aureus
+  description: Author summary Staphylococcus aureus is a common type of bacteria that
+    infects humans. It has a variant called Methicillin-resistant Staphylococcus aureus
+    (MRSA) that is of high priority because it is resistant to multiple antibiotics.
+    It is importan
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013760
+  date: '2026-05-05'
+  source: Plos.org
+- title: Glasgow researchers use machine learning to build network digital twin
+  description: Automated machine learning is being used to build a digital twin of
+    complex networks, saving hours compared with traditional network testing
+  url: https://www.computerweekly.com/news/366642636/Glasgow-researchers-use-machine-learning-to-build-network-digital-twin
+  date: '2026-05-05'
+  source: ComputerWeekly.com
+- title: Senior Machine Learning Engineer II — Build AI Systems
+  description: A leading travel technology provider in the United Kingdom is looking
+    for a Machine Learning Engineer II to join their Product AI Engineering team.
+    This role involves designing and optimizing intelligent systems using AI techniques.
+    The ideal candida
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-ii-build-ai-systems-4/
+  date: '2026-05-05'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist – Advanced AI & Automation
+  description: 'We are looking for a Senior Machine Learning Scientist to join the
+    Corporate Reserach department at Sartorius. You will use your expertise in modern
+    machine learning, computer vision and robotics to design AI – driven automaton
+    for next – generation '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-5/
+  date: '2026-05-05'
+  source: Nlppeople.com
+- title: Machine Learning Specialist
+  description: We’re looking for a Machine Learning Specialist/Programmer who can
+    translate research into real-world impact. You are curious, hands on and motivated
+    by turning ideas into working systems that improve how things are done. Comfortable
+    navigating uncer
+  url: https://nlppeople.com/job/machine-learning-specialist-11/
+  date: '2026-05-05'
+  source: Nlppeople.com
+- title: Machine learning for the prediction of three-year survival in locally advanced
+    breast cancer patients receiving neoadjuvant chemotherapy using quantitative ultrasound
+    imaging
+  description: Scientific Reports - Machine learning for the prediction of three-year
+    survival in locally advanced breast cancer patients receiving neoadjuvant chemotherapy
+    using quantitative ultrasound imaging
+  url: https://www.nature.com/articles/s41598-026-51550-7
+  date: '2026-05-05'
+  source: Nature.com
 - title: AWS Entity Resolution launches support for incremental Machine Learning based
     matching workflows
   description: 'AWS Entity Resolution launches support for Machine Learning (ML) based
@@ -40,6 +106,23 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-10/
   date: '2026-05-04'
   source: Nlppeople.com
+- title: Design of MnO2-based catalysts with activity approaching Pt/C via machine
+    learning
+  description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D6NR00435K, PaperHuang
+    Jiasheng, Li Jiangtao, Zhu Yuhao, Wang Zehao, Xu Jian, Wang Fu, Xia Lan, Miao
+    He, Yuan JinliangA machine learning strategy is employed to develop a bimetallic
+    Ce/Ni co-doped δ-MnO2 O'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr00435k
+  date: '2026-05-04'
+  source: Royal Society of Chemistry
+- title: Synthesis and Machine Learning Techniques to Enable Data-Driven Investigation
+    of Supramolecular Host-Guest Interactions
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6SC00479B, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Alok Shaurya, Amir Hassan Begherzadeh Mostaghimi, David Turn'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc00479b
+  date: '2026-05-04'
+  source: Royal Society of Chemistry
 - title: Dual-band graphene-based THz MIMO antenna for 6G-enabled biomedical application
     using supervised regression machine learning validation
   description: Scientific Reports - Dual-band graphene-based THz MIMO antenna for
@@ -102,6 +185,14 @@ news_items:
     machine learning, computer vision and robotics to design AI – driven automaton
     for next – generation '
   url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-4/
+  date: '2026-05-01'
+  source: Nlppeople.com
+- title: Engineering Manager – Machine Learning and Applied Artificial Intelligence
+  description: The Aerospace Corporation is the trusted partner to the nation’s space
+    programs, solving the hardest problems and providing unmatched technical expertise.
+    As the operator of a federally funded research and development center (FFRDC),
+    we are broadly e
+  url: https://nlppeople.com/job/engineering-manager-machine-learning-and-applied-artificial-intelligence-4/
   date: '2026-05-01'
   source: Nlppeople.com
 - title: Machine Learning Drives High-Resolution Daily Soil Moisture Mapping Across
