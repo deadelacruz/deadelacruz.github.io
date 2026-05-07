@@ -1,4 +1,12 @@
 news_items:
+- title: Deep learning-enabled size estimation of comets indicates a more dynamic
+    early solar system
+  description: Formation of the Solar System’s comet reservoirs remain uncertain.
+    Here, the authors show that AI-based analysis of comet activity reveals a far
+    more populated Oort Cloud than previously thought.
+  url: https://www.nature.com/articles/s41467-026-72646-8
+  date: '2026-05-06'
+  source: Nature.com
 - title: Lead Data Scientist – Deep Learning Practitioner
   description: White Collar Factory (95009), United Kingdom, London, London Lead Data
     Scientist – Deep Learning Practitioner About this role Our Data Science team focuses
@@ -7,6 +15,11 @@ news_items:
   url: https://nlppeople.com/job/lead-data-scientist-deep-learning-practitioner/
   date: '2026-05-05'
   source: Nlppeople.com
+- title: A Theory of Deep Learning
+  description: We finally know why deep learning works.
+  url: https://elonlit.com/scrivings/a-theory-of-deep-learning/
+  date: '2026-05-05'
+  source: Elonlit.com
 - title: 'Reducing annotation burden in medical imaging with ADGNET: A semi-supervised
     deep learning strategy'
   description: We propose ADGNET, a semi-supervised framework for Alzheimer’s disease
