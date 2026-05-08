@@ -1,4 +1,51 @@
 news_items:
+- title: LALAL.AI Wins People's Voice Webby Award for Best Use of AI & Machine Learning
+  description: 'AI-powered audio separation platform beats Adobe, Captions AI, and
+    Cosmos to claim Internet''s highest honor, voted by the public. ZUG, Switzerland
+    and NEW YORK, May 7, 2026 /PRNewswire/ -- LALAL.AI, the AI-powered audio separation
+    and stem splitting '
+  url: https://www.prnewswire.com/news-releases/lalalai-wins-peoples-voice-webby-award-for-best-use-of-ai--machine-learning-302763081.html
+  date: '2026-05-07'
+  source: PRNewswire
+- title: 'Correction: A machine learning approach identifies distinct early-symptom
+    cluster phenotypes which correlate with hospitalization, failure to return to
+    activities, and prolonged COVID-19 symptoms'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349084
+  date: '2026-05-07'
+  source: Plos.org
+- title: Nexar's Real-World AI Platform Wins 2026 AI TechAward for Machine Learning
+    Innovation
+  description: The company is recognized by DevNetwork's expert-led Advisory Board
+    for engineering excellence in AI built on 10 billion miles of real-world driving
+    data NEW YORK, May 7, 2026 /PRNewswire/ -- Nexar today announced that Nexar Vera,
+    the real-world AI p
+  url: https://www.prnewswire.com/news-releases/nexars-real-world-ai-platform-wins-2026-ai-techaward-for-machine-learning-innovation-302765574.html
+  date: '2026-05-07'
+  source: PRNewswire
+- title: Machine learning modeling to predict the photocatalytic degradation rate
+    constant in wastewater using TiO2
+  description: Scientific Reports - Machine learning modeling to predict the photocatalytic
+    degradation rate constant in wastewater using TiO2
+  url: https://www.nature.com/articles/s41598-026-51108-7
+  date: '2026-05-07'
+  source: Nature.com
+- title: Manager, Machine Learning Engineering
+  description: Company Overview Docusign brings agreements to life. Over 1.5 million
+    customers and more than a billion people in over 180 countries use Docusign solutions
+    to accelerate the process of doing business and simplify people’s lives. With
+    intelligent agre
+  url: https://nlppeople.com/job/manager-machine-learning-engineering-5/
+  date: '2026-05-07'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer
+  description: Your work days are brighter here. We’re obsessed with making hard work
+    pay off, for our people, our customers, and the world around us. As a Fortune
+    500 company and a leading AI platform for managing people, money, and agents,
+    we’re shaping the futur
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-254/
+  date: '2026-05-07'
+  source: Nlppeople.com
 - title: Sr Manager, Machine Learning Engineering
   description: 'JOB LEVEL M50EMPLOYEE ROLE People Manager The Opportunity Adobe Firefly Foundry
     is a managed generative-AI service purpose-built for enterprises that need to
@@ -117,6 +164,15 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01444e
   date: '2026-05-05'
   source: Royal Society of Chemistry
+- title: Artificial Intelligence & Machine Learning, Senior Advisor with Security
+    Clearance
+  description: About Peraton Peraton is a next-generation national security company
+    that drives missions of consequence spanning the globe and extending to the farthest
+    reaches of the galaxy. As the world’s leading mission capability integrator and
+    transformative e
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-senior-advisor-with-security-clearance/
+  date: '2026-05-05'
+  source: Nlppeople.com
 - title: AWS Entity Resolution launches support for incremental Machine Learning based
     matching workflows
   description: 'AWS Entity Resolution launches support for Machine Learning (ML) based
