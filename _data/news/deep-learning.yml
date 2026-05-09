@@ -1,4 +1,30 @@
 news_items:
+- title: A modular deep learning architecture for interpretable disease prediction
+    across tabular clinical and biometric datasets
+  description: Accurate disease prediction using clinical datasets is essential for
+    improving early diagnosis and clinical decision-support systems; however, many
+    existing deep learning approaches are disease-specific, computationally intensive,
+    and difficult to ge
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348670
+  date: '2026-05-08'
+  source: Plos.org
+- title: 'DeepDRP: Dose-response predictions of drug pairs using deep learning based
+    on data-driven feature representation and dose-response curve characteristics'
+  description: Combination therapies have become a cornerstone of modern medicine,
+    offering improved treatment outcomes and reduced side effects compared to monotherapies.
+    However, the efficacy and safety of drug combinations depend heavily on the specific
+    doses of
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348908
+  date: '2026-05-08'
+  source: Plos.org
+- title: Lead Data Scientist – Deep Learning Practitioner
+  description: White Collar Factory (95009), United Kingdom, London, London Lead Data
+    Scientist – Deep Learning Practitioner About this role Our Data Science team focuses
+    on the development of Machine Learning and Deep Learning solutions, to solve business
+    problems
+  url: https://nlppeople.com/job/lead-data-scientist-deep-learning-practitioner-2/
+  date: '2026-05-08'
+  source: Nlppeople.com
 - title: Deep learning-enabled size estimation of comets indicates a more dynamic
     early solar system
   description: Formation of the Solar System’s comet reservoirs remain uncertain.

@@ -1,4 +1,72 @@
 news_items:
+- title: Using MemAlign to Improve Evaluation of Traditional Machine Learning in Genie
+    Code
+  description: "* Genie Code generates full ML notebooks from natural language prompts\
+    \ — we built nine LLM judges to evaluate their quality across dimensions like\
+    \ model training, data imputation, and feature engineering.\r\n* Human annotation\
+    \ revealed that judges disa"
+  url: https://www.databricks.com/blog/using-memalign-improve-evaluation-traditional-machine-learning-genie-code
+  date: '2026-05-08'
+  source: Databricks.com
+- title: Machine learning-based model for predicting recanalization in isolated distal
+    deep vein thrombosis and analysis of predictors
+  description: Background Isolated distal deep vein thrombosis (IDDVT) is common,
+    yet tools for predicting poor recanalization remain limited. We aimed to develop
+    and compare machine learning models for predicting poor recanalization in patients
+    with IDDVT and to i
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349110
+  date: '2026-05-08'
+  source: Plos.org
+- title: 'Research on interpretable machine learning modeling and spatial prediction
+    of cross-landform landslide disaster mechanism: A case study of Shaanxi Province'
+  description: The differential understanding of the landslidetriggering mechanisms
+    across various geomorphic units is vital for enhancing regional disaster prevention.
+    This study investigates the Loess Plateau area in northern Shaanxi and the Qinba
+    Mountain Area i
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347996
+  date: '2026-05-08'
+  source: Plos.org
+- title: AI / Machine Learning Engineer (m/w/d)
+  description: Job DescriptionJob DescriptionAI / Machine Learning Engineer San Diego,
+    CA In-office | Full-TimeAbout the Opportunity Our client, a fast-growing AI solutions
+    and advisory firm, is seeking an AI / Machine Learning Engineer to help design,
+    build, and s
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-m-w-d-3/
+  date: '2026-05-08'
+  source: Nlppeople.com
+- title: Machine Learning Engineer, NLP – TikTok E-commerce Knowledge Graph
+  description: 'Algorithm Machine Learning Engineer, NLP – TikTok E-commerce Knowledge
+    Graph Location : San Jose Employment Type : Regular Job Code : A18503 Responsibilities
+    Our team is responsible for developing state-of-the-art NLP/ML algorithms and
+    strategies to '
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-tiktok-e-commerce-knowledge-graph-2/
+  date: '2026-05-08'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: At JPMorgan Chase, AI and technology promote our global operations
+    with unmatched scale and speed. We invest over $18 billion annually in innovation,
+    data leverage, and security to shape the future for our clients, communities,
+    and employees. The Chi
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-11/
+  date: '2026-05-08'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer II — Build AI Systems
+  description: A leading travel technology provider in the United Kingdom is looking
+    for a Machine Learning Engineer II to join their Product AI Engineering team.
+    This role involves designing and optimizing intelligent systems using AI techniques.
+    The ideal candida
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-ii-build-ai-systems-5/
+  date: '2026-05-08'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist – Advanced AI & Automation
+  description: 'We are looking for a Senior Machine Learning Scientist to join the
+    Corporate Reserach department at Sartorius. You will use your expertise in modern
+    machine learning, computer vision and robotics to design AI – driven automaton
+    for next – generation '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-6/
+  date: '2026-05-08'
+  source: Nlppeople.com
 - title: LALAL.AI Wins People's Voice Webby Award for Best Use of AI & Machine Learning
   description: 'AI-powered audio separation platform beats Adobe, Captions AI, and
     Cosmos to claim Internet''s highest honor, voted by the public. ZUG, Switzerland
