@@ -1,4 +1,12 @@
 news_items:
+- title: Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry
+    and deep learning prediction in direct drive friction welding
+  description: Scientific Reports - Enhancing weld performance of AA2024-T351 using
+    drilled-to-bossed geometry and deep learning prediction in direct drive friction
+    welding
+  url: https://www.nature.com/articles/s41598-026-52231-1
+  date: '2026-05-10'
+  source: Nature.com
 - title: A modular deep learning architecture for interpretable disease prediction
     across tabular clinical and biometric datasets
   description: Accurate disease prediction using clinical datasets is essential for
