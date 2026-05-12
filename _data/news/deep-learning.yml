@@ -1,4 +1,46 @@
 news_items:
+- title: Near-Infrared High-Resolution Imaging via Deep Learning Based on Broadband
+    Achromatic Metalens
+  description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D6MH00573J, CommunicationLvrong
+    Zhao, Lu Chen, Xiaoqiang Jiang, Shaoxiang Gong, Bo Gao, Huangrong Xu, Weixing
+    YuThe development of large-aperture broadband achromatic metalenses is crucial
+    for adva'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/mh/d6mh00573j
+  date: '2026-05-11'
+  source: Royal Society of Chemistry
+- title: 'LiteFeatNet: A parameter-efficient and performance-centric deep learning
+    model for multi-ocular disease identification using intermediate feature reduction
+    from fundus images'
+  description: Convolutional Neural Networks (CNNs) require a larger amount of input
+    samples and computing resources to learn discriminative features for accurate
+    identification of multiple retinal conditions, making the development and deployment
+    of such models ch
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347867
+  date: '2026-05-11'
+  source: Plos.org
+- title: Using deep learning to identify inherited retinal diseases based on wide-field
+    retinal imaging data
+  description: Objective To evaluate a novel image-based deep learning method for
+    the automated identification of inherited retinal diseases (IRDs) and to explore
+    the feasibility of predicting selected causative gene groups using a multimodal
+    analysis of wide-field
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348866
+  date: '2026-05-11'
+  source: Plos.org
+- title: Residual-aware lightweight deep learning framework for high-fidelity intrusion
+    detection in UAV swarm networks
+  description: Scientific Reports - Residual-aware lightweight deep learning framework
+    for high-fidelity intrusion detection in UAV swarm networks
+  url: https://www.nature.com/articles/s41598-026-52524-5
+  date: '2026-05-11'
+  source: Nature.com
+- title: Dynamic analysis for employment substitution effect of robots fused with
+    deep learning models and artificial intelligence
+  description: Scientific Reports - Dynamic analysis for employment substitution effect
+    of robots fused with deep learning models and artificial intelligence
+  url: https://www.nature.com/articles/s41598-026-51853-9
+  date: '2026-05-11'
+  source: Nature.com
 - title: Enhancing weld performance of AA2024-T351 using drilled-to-bossed geometry
     and deep learning prediction in direct drive friction welding
   description: Scientific Reports - Enhancing weld performance of AA2024-T351 using
@@ -7,6 +49,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-52231-1
   date: '2026-05-10'
   source: Nature.com
+- title: Multiplexed nanophotonic biosensing and deep learning-driven protein quantification
+    for traumatic brain injury diagnosis at the point of care
+  description: 'Lab Chip, 2026, Advance ArticleDOI: 10.1039/D5LC01079A, PaperJiayu
+    Liu, Yuxin Wang, Shichao Su, Meng Su, Wenying Lv, Zhao Gao, Congwei Liu, Yanteng
+    Li, Junzhao Sun, Peng Wang, Baorui Guo, Fan Yang, Renke He, Yanlin Song, Zeying
+    Zhang, Jianning Zhang,'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc01079a
+  date: '2026-05-10'
+  source: Royal Society of Chemistry
 - title: A modular deep learning architecture for interpretable disease prediction
     across tabular clinical and biometric datasets
   description: Accurate disease prediction using clinical datasets is essential for

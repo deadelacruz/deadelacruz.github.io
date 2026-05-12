@@ -1,4 +1,47 @@
 news_items:
+- title: Artificial Intelligence and Quarterly Earnings Reports
+  description: A proposal from the current administration is working its way through
+    the U.S. Securities and Exchange Commission to end quarterly corporate earnings.
+    This is a good idea. Unfortunately, the frequency is in the wrong direction. Instead
+    of replacing q
+  url: https://ritholtz.com/2026/05/ai-q-earnings/
+  date: '2026-05-11'
+  source: Ritholtz.com
+- title: Google warns artificial intelligence is accelerating cyberattacks and zero-day
+    exploits
+  description: Google says hackers now use AI to create exploits, automate attacks,
+    evade defenses, and target AI supply chains at scale. Artificial intelligence
+    is rapidly changing the cyber threat landscape, and a new report from the Google
+    Cloud Threat Intellige
+  url: https://securityaffairs.com/191984/ai/google-warns-artificial-intelligence-is-accelerating-cyberattacks-and-zero-day-exploits.html
+  date: '2026-05-11'
+  source: Securityaffairs.com
+- title: 'Framing artificial intelligence in Chilean digital press before and after
+    the launch of ChatGPT: From concern to optimism'
+  description: This article examines the evolution of AI framing in Chilean national
+    digital media before and after the launch of ChatGPT in 2022. Through topic modeling
+    and emotion analysis of 1,466 articles published by six media outlets over periods
+    that begin b
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348680
+  date: '2026-05-11'
+  source: Plos.org
+- title: 'Positive Alignment: Artificial Intelligence for Human Flourishing'
+  description: 'Existing alignment research is dominated by concerns about safety
+    and preventing harm: safeguards, controllability, and compliance. This paradigm
+    of alignment parallels early psychology''s focus on mental illness: necessary
+    but incomplete. What we cal'
+  url: https://arxiv.org/abs/2605.10310
+  date: '2026-05-11'
+  source: Arxiv.org
+- title: Strategies of high-accuracy memristor-based analogue computing in memory
+    for artificial intelligence
+  description: 'Noise and non-ideal characteristics at the device and circuit levels
+    lead to errors in memristor-based analogue computing. This Review dissects the
+    computing error sources from memristor-based device, array and system levels,
+    evaluates strategies to '
+  url: https://www.nature.com/articles/s41563-026-02600-y
+  date: '2026-05-11'
+  source: Nature.com
 - title: The Best Artificial Intelligence (AI) Growth Stocks After the Helium Shock
     Are the Ones That Don't Need the Strait of Hormuz
   description: No description available.
@@ -9,6 +52,12 @@ news_items:
     Intelligence (AI) Memory Supercycle for Just $50.
   description: No description available.
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_22224f3d-62fa-4540-b490-d60544a4d560
+  date: '2026-05-10'
+  source: Yahoo Entertainment
+- title: 'Prediction: This Nvidia-Backed Artificial Intelligence (AI) Company Might
+    Be the Next Meme Stock. Here''s Why It''s Actually a Buy at $13 Per Share.'
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_c6097afa-1cf7-4732-a6e2-c8b287a39d03
   date: '2026-05-10'
   source: Yahoo Entertainment
 - title: Forget Sandisk Stock at $1,500 Per Share. Buy This Sizzling Artificial Intelligence

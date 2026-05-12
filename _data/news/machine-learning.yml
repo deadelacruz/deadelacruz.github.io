@@ -1,4 +1,71 @@
 news_items:
+- title: I built a machine learning model to predict who leaves tech jobs early. The
+    results surprised me.
+  description: I went into this research convinced I already knew the answer. After
+    more than a decade in People Analytics, the last few years at Meta, I had a working
+    theory about why tech employees leave their jobs within the first year. Two things,
+    I believed, w
+  url: https://thenextweb.com/news/i-built-a-machine-learning-model-to-predict-who-leaves-tech-jobs-early-the-results-surprised-me/
+  date: '2026-05-11'
+  source: The Next Web
+- title: 'Adaptive safety bubbles in mixed reality: optical feedback with machine
+    learning optimisation'
+  description: 'Chen, Z., Li, Z. & Zhong, X. (2026). Adaptive safety bubbles in mixed
+    reality: optical feedback with machine learning optimisation. In Argaman, N.,
+    Hua, H. & Nikolov, D. K. (Eds.), Optical Architectures for Displays and Sensing
+    in Augmented, Virtual,'
+  url: https://researchonline.lse.ac.uk/id/eprint/138382/
+  date: '2026-05-11'
+  source: Lse.ac.uk
+- title: Netflix Introduces ‘Model Lifecycle Graph’ to Scale Enterprise Machine Learning
+  description: Netflix has developed a graph-based architecture for managing machine
+    learning systems, called the Model Lifecycle Graph. This system maps interconnections
+    between datasets, models, features, and workflows, addressing challenges in scaling
+    ML operati
+  url: https://www.infoq.com/news/2026/05/netflix-ml-graph/
+  date: '2026-05-11'
+  source: InfoQ.com
+- title: Research Scientist – RF Machine Learning
+  description: Responsibilities Peraton Labs is seeking a poly cleared Senior Research
+    Scientist to support cleared research and development efforts for a Maryland-based
+    IC customer. This role will focus on leading the design, development, prototyping,
+    and evaluati
+  url: https://nlppeople.com/job/research-scientist-rf-machine-learning/
+  date: '2026-05-11'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learnin…
+  description: At JPMorgan Chase, AI and technology promote our global operations
+    with unmatched scale and speed. We invest over $18 billion annually in innovation,
+    data leverage, and security to shape the future for our clients, communities,
+    and employees. The Chi
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-12/
+  date: '2026-05-11'
+  source: Nlppeople.com
+- title: Machine Learning Engineer, NLP – TikTok E-commerce Knowledge Graph
+  description: 'Algorithm Machine Learning Engineer, NLP – TikTok E-commerce Knowledge
+    Graph Location : San Jose Employment Type : Regular Job Code : A18503 Responsibilities
+    Our team is responsible for developing state-of-the-art NLP/ML algorithms and
+    strategies to '
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-tiktok-e-commerce-knowledge-graph-3/
+  date: '2026-05-11'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer – Generative AI (Remote)
+  description: 'Position Purpose: The Sr Machine Learning Engineer is responsible
+    for designing, building, integrating, optimizing, and maintaining AI-powered applications
+    that leverage generative models and overall product lifecycle for a product that
+    our users lov'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-generative-ai-remote-3/
+  date: '2026-05-11'
+  source: Nlppeople.com
+- title: How Much is Brain Data Worth for Machine Learning?
+  description: If a person can solve a task, can measuring their brain make it easier
+    to train a model to solve that task too? Recent NeuroAI work suggests that supplementing
+    task training with neural recordings can modestly improve model performance and
+    robustness
+  url: https://arxiv.org/abs/2605.09243
+  date: '2026-05-10'
+  source: Arxiv.org
 - title: Using MemAlign to Improve Evaluation of Traditional Machine Learning in Genie
     Code
   description: "* Genie Code generates full ML notebooks from natural language prompts\
@@ -65,6 +132,14 @@ news_items:
     machine learning, computer vision and robotics to design AI – driven automaton
     for next – generation '
   url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-6/
+  date: '2026-05-08'
+  source: Nlppeople.com
+- title: Machine Learning Engineer New Grad 2024-2025 -Remote
+  description: 'About Quora Quora’s mission is to grow and share the world’s knowledge.
+    To do so, we have two knowledge sharing products: Quora : a global knowledge sharing
+    platform with over 400M monthly unique visitors, bringing people together to share
+    insights o'
+  url: https://nlppeople.com/job/machine-learning-engineer-new-grad-2024-2025-remote-2/
   date: '2026-05-08'
   source: Nlppeople.com
 - title: LALAL.AI Wins People's Voice Webby Award for Best Use of AI & Machine Learning
