@@ -1,4 +1,20 @@
 news_items:
+- title: A deep learning framework for the localization of landmarks on the lateral
+    semi circular canals
+  description: This paper introduces a Deep Learning (DL) framework to localize landmark
+    coordinates within the semicircular canals in Computed Tomography (CT) scans of
+    the temporal bone. These landmarks can be consistently defined across patients
+    and imaging modal
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348976
+  date: '2026-05-12'
+  source: Plos.org
+- title: Hybrid vision–IMU deep learning framework with graph convolutional networks
+    and attention for personalized yoga posture identification
+  description: Scientific Reports - Hybrid vision–IMU deep learning framework with
+    graph convolutional networks and attention for personalized yoga posture identification
+  url: https://www.nature.com/articles/s41598-026-49970-6
+  date: '2026-05-12'
+  source: Nature.com
 - title: Near-Infrared High-Resolution Imaging via Deep Learning Based on Broadband
     Achromatic Metalens
   description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D6MH00573J, CommunicationLvrong

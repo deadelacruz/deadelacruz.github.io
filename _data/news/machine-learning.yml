@@ -1,4 +1,34 @@
 news_items:
+- title: High-Throughput Screening of Piezoelectric Hybrid Organic–Inorganic Perovskites
+    via Density-Functional Theory and Machine Learning
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02101H,
+    PaperJianxin He, Tianle Yue, Yu Lim Kim, Ying LiHybrid organic–inorganic perovskites
+    (HOIPs) are promising candidates for piezoelectric devices owing to their structural
+    tunability,'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02101h
+  date: '2026-05-12'
+  source: Royal Society of Chemistry
+- title: IIM Indore to roll out new AI, machine learning courses from 2026-27
+  description: IIM Indore to launch new AI and machine learning electives in 2026-27,
+    adding ethics, business ML and regression courses plus expanded AI executive programmes.
+  url: https://timesofindia.indiatimes.com/city/indore/iim-indore-to-roll-out-new-ai-machine-learning-courses-from-2026-27/articleshow/131048681.cms
+  date: '2026-05-12'
+  source: The Times of India
+- title: Principal Machine Learning Engineer
+  description: LSEG (London Stock Exchange Group) is more than a diversified global
+    financial markets infrastructure and data business. We are dedicated, open-access
+    partners with a dedication to excellence in delivering the services our customers
+    expect from us. W
+  url: https://nlppeople.com/job/principal-machine-learning-engineer-18/
+  date: '2026-05-12'
+  source: Nlppeople.com
+- title: NerveAI- a machine learning algorithm for detection of nerve pain in the
+    head and neck
+  description: Scientific Reports - NerveAI- a machine learning algorithm for detection
+    of nerve pain in the head and neck
+  url: https://www.nature.com/articles/s41598-026-51251-1
+  date: '2026-05-12'
+  source: Nature.com
 - title: I built a machine learning model to predict who leaves tech jobs early. The
     results surprised me.
   description: I went into this research convinced I already knew the answer. After
@@ -65,6 +95,15 @@ news_items:
     Ma, Wenqi Song, Zemin He, Zongcheng Miao, Yong YangNovel Pt-anchored WTe2 nanozyme
     with ex'
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc01742h
+  date: '2026-05-11'
+  source: Royal Society of Chemistry
+- title: 'Point-of-care SERS platforms: integrating microfluidics and machine learning
+    for disease screening'
+  description: 'Lab Chip, 2026, Advance ArticleDOI: 10.1039/D6LC00202A, Critical ReviewBiqing
+    Chen, Xiaohong Qiu, Yang LiMicrofluidic SERS platforms enable ultrasensitive,
+    high-throughput bioanalysis via Raman enhancement and microfluidic control. Plasmonic
+    integrat'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d6lc00202a
   date: '2026-05-11'
   source: Royal Society of Chemistry
 - title: How Much is Brain Data Worth for Machine Learning?
