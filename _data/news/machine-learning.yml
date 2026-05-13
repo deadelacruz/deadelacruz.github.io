@@ -29,6 +29,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-51251-1
   date: '2026-05-12'
   source: Nature.com
+- title: Machine learning the quantum topology of chemical bonds
+  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D6CP00029K,
+    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Michal Michalski, Slawomir BerskiIntegrating ELF topology
+    with machine l'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00029k
+  date: '2026-05-12'
+  source: Royal Society of Chemistry
 - title: I built a machine learning model to predict who leaves tech jobs early. The
     results surprised me.
   description: I went into this research convinced I already knew the answer. After
