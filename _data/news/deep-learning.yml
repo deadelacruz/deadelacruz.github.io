@@ -1,4 +1,43 @@
 news_items:
+- title: Application of deep learning based motion posture recognition in sports training
+  description: Scientific Reports - Application of deep learning based motion posture
+    recognition in sports training
+  url: https://www.nature.com/articles/s41598-026-50738-1
+  date: '2026-05-13'
+  source: Nature.com
+- title: 'Veterinary fracture diagnosis: a deep learning model for dogs long bone
+    fractures'
+  description: 'Scientific Reports - Veterinary fracture diagnosis: a deep learning
+    model for dogs long bone fractures'
+  url: https://www.nature.com/articles/s41598-026-50387-4
+  date: '2026-05-13'
+  source: Nature.com
+- title: A study on high efficiency phase organization segmentation model for SEM
+    images based on deep learning
+  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D5NR05103G, PaperChao
+    Wang, Changhao Wang, Zhipeng Chang, Xiaopeng Cheng, Xingping Liu, Bing Wang, Feihong
+    Chu, Ruzhi WangQuantitative characterization and analysis of material microstructures
+    play a c'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d5nr05103g
+  date: '2026-05-13'
+  source: Royal Society of Chemistry
+- title: Analyzing the performance of deep learning splice prediction algorithms
+  description: 'SpliceAI is the leading tool for predicting splice-altering variants,
+    but restrictive licensing limits clinical adoption. While open-source implementations
+    have been published with author-reported comparisons, independent benchmarking
+    across diverse '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348885
+  date: '2026-05-13'
+  source: Plos.org
+- title: Hybrid attention-based multi-class classification of Ethiopian legal texts
+    using deep learning
+  description: The exponential growth of legal documents in Ethiopia has created an
+    urgent need for efficient and accurate automated classification systems tailored
+    to the country’s unique linguistic and legal contexts. This study presents an
+    enhanced deep learning
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348805
+  date: '2026-05-13'
+  source: Plos.org
 - title: A deep learning framework for the localization of landmarks on the lateral
     semi circular canals
   description: This paper introduces a Deep Learning (DL) framework to localize landmark

@@ -1,4 +1,85 @@
 news_items:
+- title: Investigation on Heat Transfer in a Semicrystalline Polymer by Combining
+    Molecular Simulation and Machine Learning
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA01897A,
+    PaperZoumeng Hu, Chen Jia, Yonglai Lu, Jingchao Li, Ruibin Ma, Xiuying Zhao, Liqun
+    Zhang, Jihua Zhang, Yangyang GaoIn this work, a molecular dynamics simulation
+    is firstly utilized '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01897a
+  date: '2026-05-13'
+  source: Royal Society of Chemistry
+- title: Classification of soft decision-making methods via fuzzy parameterized fuzzy
+    soft matrices and their performance-based statistical analysis in machine learning
+  description: 'This study provides a comprehensive evaluation and classification
+    of 35 soft decision-making (SDM) algorithms based on fuzzy parameterized fuzzy
+    soft matrices (fpfs-matrices). Although fpfs-matrices offer a strong mathematical
+    framework for modeling '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348760
+  date: '2026-05-13'
+  source: Plos.org
+- title: Vice President of Artificial Intelligence and Machine Learning
+  description: Vice President of Artificial Intelligence and Machine Learning About
+    the Company Reputable provider of high-quality services to the healthcare industry
+    Industry Hospital & Health Care Type Privately Held About the Role The Company
+    is in search of a V
+  url: https://nlppeople.com/job/vice-president-of-artificial-intelligence-and-machine-learning/
+  date: '2026-05-13'
+  source: Nlppeople.com
+- title: Geological and machine learning based landslide risk assessment in the context
+    of community knowledge and perception
+  description: Scientific Reports - Geological and machine learning based landslide
+    risk assessment in the context of community knowledge and perception
+  url: https://www.nature.com/articles/s41598-026-52262-8
+  date: '2026-05-13'
+  source: Nature.com
+- title: An intelligent IoT–machine learning framework for wildfire detection and
+    prediction using a hybrid RF–XGB model
+  description: Scientific Reports - An intelligent IoT–machine learning framework
+    for wildfire detection and prediction using a hybrid RF–XGB model
+  url: https://www.nature.com/articles/s41598-026-52395-w
+  date: '2026-05-13'
+  source: Nature.com
+- title: Sustainable biodiesel from Mesua ferrea seed oil using explainable machine
+    learning for engine performance evaluation and emission profiling
+  description: Scientific Reports - Sustainable biodiesel from Mesua ferrea seed oil
+    using explainable machine learning for engine performance evaluation and emission
+    profiling
+  url: https://www.nature.com/articles/s41598-026-52567-8
+  date: '2026-05-13'
+  source: Nature.com
+- title: Senior Machine Learning Engineer / Technical Lead
+  description: We are looking for a hands-on Senior ML Engineer to lead the development
+    and operation of production-grade AI systems across LLMs, OCR, and voice. This
+    role combines deep technical ownership with leadership of a high-performing team
+    of junior enginee
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-technical-lead/
+  date: '2026-05-13'
+  source: Nlppeople.com
+- title: Head of Machine Learning
+  description: Head of Machine Learning to lead and scale advanced ML initiatives
+    within a world-class visual effects (VFX) and creative technology organisation.
+    This fully remote-in-Europe role is perfect for a strategic leader with deep experience
+    in both cutting
+  url: https://nlppeople.com/job/head-of-machine-learning-17/
+  date: '2026-05-13'
+  source: Nlppeople.com
+- title: Machine Learning Engineer III – Generative AI – Windreich Department of Artificial
+    Intelligence & Human Health Research
+  description: 'DescriptionThe Windreich Department of AI & Human Health is rapidly
+    advancing the use of technology to improve health outcomes and is at the forefront
+    of AI implementation within the Mount Sinai Health. Machine Learning Engineer
+    III will oversee the '
+  url: https://nlppeople.com/job/machine-learning-engineer-iii-generative-ai-windreich-department-of-artificial-intelligence-human-health-research-3/
+  date: '2026-05-13'
+  source: Nlppeople.com
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-15/
+  date: '2026-05-13'
+  source: Nlppeople.com
 - title: High-Throughput Screening of Piezoelectric Hybrid Organic–Inorganic Perovskites
     via Density-Functional Theory and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02101H,
@@ -35,6 +116,24 @@ news_items:
     3.0 Unported Licence.Michal Michalski, Slawomir BerskiIntegrating ELF topology
     with machine l'
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00029k
+  date: '2026-05-12'
+  source: Royal Society of Chemistry
+- title: 'Physical Vapor Deposited Nanomaterials for Gas Sensing: Design Strategies,
+    Performance Limits and Machine learning prospects'
+  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00534A,
+    Review ArticleJency J. Rubia, Julaiba Tahsina Mazumder, Lubna Aamir, Chacko Jacob,
+    Tarikul Islam, Harshal B. Nemade, Ravindra Kumar JhaPhysical Vapor Deposition
+    (PVD) has been known'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00534a
+  date: '2026-05-12'
+  source: Royal Society of Chemistry
+- title: Droplet microfluidic profiling of NK cell cytotoxicity with machine learning-enabled
+    target-cell death analysis
+  description: 'Lab Chip, 2026, Advance ArticleDOI: 10.1039/D6LC00301J, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Rana S. Ozcan, Fatemeh Vahedi, Shina Namakian, Ali A. Ashkar,
+    Tohid F. DidarA droplet m'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d6lc00301j
   date: '2026-05-12'
   source: Royal Society of Chemistry
 - title: I built a machine learning model to predict who leaves tech jobs early. The
