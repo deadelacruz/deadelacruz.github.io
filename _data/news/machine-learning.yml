@@ -1,4 +1,80 @@
 news_items:
+- title: 'Substituent Modulated Adaptive Aromaticity in NHC-Pyrrolyl Cations: A Combined
+    DFT and Machine Learning Study'
+  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00728G,
+    PaperSohail H. Dar, Jun ZhuThe stabilization of 4π-electron systems remains a
+    fundamental challenge in chemistry, stemming from their intrinsic antiaromaticity
+    and thermodynam'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00728g
+  date: '2026-05-14'
+  source: Royal Society of Chemistry
+- title: $22.92 Bn Tiny Machine Learning Market, 2040
+  description: The TinyML market is poised for growth, driven by demand for low-power
+    AI on IoT devices, reducing latency and cloud dependence. Key opportunities lie
+    in embedded AI frameworks, real-time processing, and sustainable edge computing.
+    Strategic partners
+  url: https://www.globenewswire.com/news-release/2026/05/14/3295140/28124/en/22-92-Bn-Tiny-Machine-Learning-Market-2040.html
+  date: '2026-05-14'
+  source: GlobeNewswire
+- title: S&S Activewear Announces ApparelSoft IQ, a Machine Learning–Powered Intelligence
+    Layer 17 Years in the Making
+  description: Leverages decades of proprietary data to anticipate demand, optimize
+    inventory, and deliver more reliable product availability for customers BOLINGBROOK,
+    Ill. — S&S Activewear, a leading technology-enabled distributor of apparel and
+    accessories in No
+  url: https://financialpost.com/pmn/business-wire-news-releases-pmn/ss-activewear-announces-apparelsoft-iq-a-machine-learning-powered-intelligence-layer-17-years-in-the-making
+  date: '2026-05-14'
+  source: Financial Post
+- title: Optimising supervised machine learning algorithms predicting cigarette cravings
+    and lapses for a smoking cessation just-in-time adaptive intervention (JITAI)
+  description: This study aimed to optimise the balance between participant burden
+    and algorithm performance for predicting high-risk moments in a smoking cessation
+    just-in-time adaptive intervention (JITAI) by systematically varying ecological
+    momentary assessment
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349028
+  date: '2026-05-14'
+  source: Plos.org
+- title: 'VesiclePy: A machine learning vesicle analysis toolbox for volume electron
+    microscopy'
+  description: Vesicles are critical components of neurons that package neurotransmitters
+    and neuropeptides for their release, in order to communicate with other neurons
+    and cells. However, due to their small size, the reconstruction of the full vesicle
+    endowment a
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013499
+  date: '2026-05-14'
+  source: Plos.org
+- title: 'Frontiers | Integrating sarcopenia into ICU-acquired weakness risk stratification:
+    a machine learning–based prediction model for critical care'
+  description: BackgroundSarcopenia is closely associated with weakness in elderly
+    and various chronic disease populations. However, its specific role as a predisposing
+    fac...
+  url: https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2026.1823112/full
+  date: '2026-05-14'
+  source: Frontiersin.org
+- title: Machine Learning Built MLOps Trained NLP Models
+  description: Are you interested in building software that creates meaningful social
+    impact? Every solution this company develops is deployed directly to production,
+    delivering tangible, real-world benefits within the healthcare sector. This Irish
+    software company
+  url: https://nlppeople.com/job/machine-learning-built-mlops-trained-nlp-models-3/
+  date: '2026-05-14'
+  source: Nlppeople.com
+- title: Manager, Machine Learning Engineering
+  description: Company Overview Docusign brings agreements to life. Over 1.5 million
+    customers and more than a billion people in over 180 countries use Docusign solutions
+    to accelerate the process of doing business and simplify people’s lives. With
+    intelligent agre
+  url: https://nlppeople.com/job/manager-machine-learning-engineering-6/
+  date: '2026-05-14'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer
+  description: Your work days are brighter here. We’re obsessed with making hard work
+    pay off, for our people, our customers, and the world around us. As a Fortune
+    500 company and a leading AI platform for managing people, money, and agents,
+    we’re shaping the futur
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-255/
+  date: '2026-05-14'
+  source: Nlppeople.com
 - title: Investigation on Heat Transfer in a Semicrystalline Polymer by Combining
     Molecular Simulation and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA01897A,
@@ -98,6 +174,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01805j
   date: '2026-05-13'
   source: Royal Society of Chemistry
+- title: Senior Software Engineer – Machine Learning (f/m/d)
+  description: 'About the Opportunity Become part of the AI revolution at Contentful
+    where we build real world AI solutions for thousands of active customers. At Contentful
+    you will help imagine, drive, and build ML solutions which produce immediate customer
+    impact '
+  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-f-m-d/
+  date: '2026-05-13'
+  source: Nlppeople.com
 - title: High-Throughput Screening of Piezoelectric Hybrid Organic–Inorganic Perovskites
     via Density-Functional Theory and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02101H,
