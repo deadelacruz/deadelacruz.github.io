@@ -1,4 +1,44 @@
 news_items:
+- title: 'Chrysoprase color grading with machine learning: A systematic approach'
+  description: The color of gemstones plays a pivotal role in determining their quality
+    and significantly impacts their market value. However, inconsistencies in gemstone
+    color evaluation, stemming from the subjective nature of color perception, have
+    hindered stand
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349205
+  date: '2026-05-15'
+  source: Plos.org
+- title: Senior Machine Learning Scientist – Advanced AI & Automation
+  description: 'We are looking for a Senior Machine Learning Scientist to join the
+    Corporate Reserach department at Sartorius. You will use your expertise in modern
+    machine learning, computer vision and robotics to design AI – driven automaton
+    for next – generation '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-7/
+  date: '2026-05-15'
+  source: Nlppeople.com
+- title: AI Integration Engineer, Machine Learning
+  description: AI Integration Engineer, Machine Learning, Hybrid, COR7508 Are you
+    passionate about AI and excited by the opportunity to shape how it transforms
+    real-world products? Join a forward-thinking team where you’ll champion AI adoption
+    and help drive measur
+  url: https://nlppeople.com/job/ai-integration-engineer-machine-learning-3/
+  date: '2026-05-15'
+  source: Nlppeople.com
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-16/
+  date: '2026-05-15'
+  source: Nlppeople.com
+- title: Machine Learning Engineer – Customer Solutions
+  description: The company We are a rapidly growing startup developing solutions that
+    blend human expertise and AI agents to handle manual customer and marketplace
+    operations tasks. Our unique approach combines the strengths of human expertise
+    (high accuracy and nu
+  url: https://nlppeople.com/job/machine-learning-engineer-customer-solutions/
+  date: '2026-05-15'
+  source: Nlppeople.com
 - title: 'Substituent Modulated Adaptive Aromaticity in NHC-Pyrrolyl Cations: A Combined
     DFT and Machine Learning Study'
   description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00728G,

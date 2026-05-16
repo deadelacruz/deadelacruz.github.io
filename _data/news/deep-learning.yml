@@ -1,4 +1,13 @@
 news_items:
+- title: A curated dataset and lightweight deep learning framework for tea leaf disease
+    classification
+  description: Tea (Camellia sinensis) is the world’s second most consumed beverage,
+    enjoyed daily by more than two billion people. In Bangladesh, it serves as a cornerstone
+    agricultural export and a major sector of the domestic economy. However, commercial
+    tea cul
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349210
+  date: '2026-05-15'
+  source: Plos.org
 - title: Application of deep learning based motion posture recognition in sports training
   description: Scientific Reports - Application of deep learning based motion posture
     recognition in sports training
@@ -38,6 +47,14 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348805
   date: '2026-05-13'
   source: Plos.org
+- title: Deep learning the TF regulatory code for gene expression
+  description: Gene transcription is activated through the interaction between cis-regulatory
+    elements (CREs) and transcription factors (TFs). CREs serve as templates to provide
+    binding sites, whereas TFs provide functions to directly initiate transcription.
+    Curren
+  url: https://genome.cshlp.org/content/early/2026/05/12/gr281425125
+  date: '2026-05-13'
+  source: Cshlp.org
 - title: A deep learning framework for the localization of landmarks on the lateral
     semi circular canals
   description: This paper introduces a Deep Learning (DL) framework to localize landmark
