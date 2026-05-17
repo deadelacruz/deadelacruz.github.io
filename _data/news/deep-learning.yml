@@ -1,4 +1,20 @@
 news_items:
+- title: A hyperspectral imaging framework integrating band selection and deep learning
+    for beverage stain classification in forensic analysis
+  description: Scientific Reports - A hyperspectral imaging framework integrating
+    band selection and deep learning for beverage stain classification in forensic
+    analysis
+  url: https://www.nature.com/articles/s41598-026-49928-8
+  date: '2026-05-16'
+  source: Nature.com
+- title: 'EMReady2: improvement of cryo-EM and cryo-ET maps by local quality-aware
+    deep learning with Mamba'
+  description: Model building in cryo-EM strongly depends on its map quality. Here,
+    the authors propose EMReady2, a generalist tool for fast improvement of cryo-EM
+    and cryo-ET maps at 2–10 Å resolutions with local quality-aware deep learning.
+  url: https://www.nature.com/articles/s41467-026-71794-1
+  date: '2026-05-16'
+  source: Nature.com
 - title: A curated dataset and lightweight deep learning framework for tea leaf disease
     classification
   description: Tea (Camellia sinensis) is the world’s second most consumed beverage,
