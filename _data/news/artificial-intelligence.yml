@@ -11,6 +11,24 @@ news_items:
   url: https://www.ewtnnews.com/vatican/vatican-sets-up-commission-on-artificial-intelligence
   date: '2026-05-17'
   source: Ewtnnews.com
+- title: 'Review of Max Tegmark''s ''Life 3.0: Being Human in the Age of Artificial
+    Intelligence'''
+  description: This post is my review of Max Tegmark's Life 3.0, a book we read in
+    the AI Book Club. Tegmark, an MIT physicist and founder of the Future of Life
+    Institute, says Life 1.0 relies entirely on biological evolution to change its
+    hardware and software, Li
+  url: https://idratherbewriting.com/blog/book-review-tegmark-life-3-0-ai
+  date: '2026-05-17'
+  source: Idratherbewriting.com
+- title: 'AI Book Club discussion recording of ''Life 3.0: Being Human in the Age
+    of Artificial Intelligence'', by Max Tegmark'
+  description: 'This is a recording of the AI Book Club discussion of Max Tegmark''s
+    Life 3.0: Being Human in the Age of Artificial Intelligence. Our discussion explores
+    Tegmark''s visions of superintelligence, the unpredictability of AI goals and
+    subgoals, and how th'
+  url: https://idratherbewriting.com/blog/book-club-tegmark-life-3-0
+  date: '2026-05-17'
+  source: Idratherbewriting.com
 - title: The Existential Ergonomics of Artificial Intelligence
   description: The enemy of deep thought isn't distraction. It's relief.
   url: https://www.psychologytoday.com/us/blog/the-digital-self/202605/the-existential-ergonomics-of-artificial-intelligence
