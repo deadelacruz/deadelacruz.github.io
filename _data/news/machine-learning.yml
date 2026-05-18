@@ -1,4 +1,12 @@
 news_items:
+- title: PML High-Performance PHP Machine Learning Framework (New)
+  description: "Package:\r\n\nPML High-Performance PHP Machine Learning Framework\r\
+    \n\nSummary: \r\n\nTrain an AI model and make predictions\r\n\nGroups: \r\n\n\
+    Artificial intelligence, FFI, Libraries, PHP 8\r\n\nAuthor: \r\n\nShubham Chaudhary\r\
+    \n\nDescription: \r\n\nThis package can train an"
+  url: https://www.phpclasses.org/package/13724-PHP-Train-an-AI-model-and-make-predictions.html
+  date: '2026-05-17'
+  source: Phpclasses.org
 - title: 'Chrysoprase color grading with machine learning: A systematic approach'
   description: The color of gemstones plays a pivotal role in determining their quality
     and significantly impacts their market value. However, inconsistencies in gemstone
