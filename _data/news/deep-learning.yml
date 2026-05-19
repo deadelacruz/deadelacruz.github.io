@@ -1,4 +1,18 @@
 news_items:
+- title: A decompose-reshape-ensemble deep learning framework for multi-scale short-term
+    photovoltaic power forecasting
+  description: Scientific Reports - A decompose-reshape-ensemble deep learning framework
+    for multi-scale short-term photovoltaic power forecasting
+  url: https://www.nature.com/articles/s41598-026-53170-7
+  date: '2026-05-18'
+  source: Nature.com
+- title: Construction of a multi-dimensional predictive model for college students’
+    academic performance based on deep learning
+  description: Scientific Reports - Construction of a multi-dimensional predictive
+    model for college students’ academic performance based on deep learning
+  url: https://www.nature.com/articles/s41598-026-51012-0
+  date: '2026-05-18'
+  source: Nature.com
 - title: A hyperspectral imaging framework integrating band selection and deep learning
     for beverage stain classification in forensic analysis
   description: Scientific Reports - A hyperspectral imaging framework integrating

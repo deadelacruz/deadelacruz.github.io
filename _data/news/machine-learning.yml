@@ -1,4 +1,64 @@
 news_items:
+- title: Retimer Market Trends and Global Forecast to 2035 - Advancements in AI and
+    Machine Learning Further Amplify the Demand for Retimers As They Facilitate Efficient
+    and Rapid Data Processing
+  description: The retimer market presents key opportunities in high-speed interface
+    development, driven by PCIe and USB applications. Major growth areas include ASIC-based
+    technologies, data centers, and consumer electronics, with significant potential
+    in Asia and
+  url: https://www.globenewswire.com/news-release/2026/05/18/3296801/28124/en/Retimer-Market-Trends-and-Global-Forecast-to-2035-Advancements-in-AI-and-Machine-Learning-Further-Amplify-the-Demand-for-Retimers-As-They-Facilitate-Efficient-and-Rapid-Data-Proces.html
+  date: '2026-05-18'
+  source: GlobeNewswire
+- title: Swiggy Improves Search Autocomplete Using Real Time Machine Learning Ranking
+  description: Swiggy detailed real-time machine-learning ranking system for autocomplete
+    built on OpenSearch. The architecture separates candidate generation and ranking,
+    uses feature stores for real time signals, and applies learning to rank models
+    for improved r
+  url: https://www.infoq.com/news/2026/05/swiggy-autocomplete-rt-ranking/
+  date: '2026-05-18'
+  source: InfoQ.com
+- title: Senior Machine Learning Engineer | Irvine, CA, USA
+  description: Senior Machine Learning Engineer “I can be myself at work.” You are
+    more than a job title. We want you to feel comfortable doing great work and bringing
+    your best, authentic self to everything you do. We value your talents, traditions,
+    and uniqueness
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-irvine-ca-usa/
+  date: '2026-05-18'
+  source: Nlppeople.com
+- title: Interpretable machine learning and signal processing for automated reading
+    and quality control of lateral flow tests for schistosomiasis
+  description: Neglected tropical diseases lack automated diagnostic pipelines, hindering
+    effective point-of-care testing. Here, the authors develop an automated pipeline
+    using deep learning and signal processing for schistosomiasis antigen tests, achieving
+    high se
+  url: https://www.nature.com/articles/s41467-026-73094-0
+  date: '2026-05-18'
+  source: Nature.com
+- title: Senior Engineer – AI/Machine Learning R&D
+  description: QT Technologies Ireland Limited Job Area Engineering Group, Engineering
+    Group > ASICS Engineering General Summary Join a dynamic team at Qualcomm focused
+    on advancing state-of-the-art in ML applications. The team invents ML techniques
+    that will chang
+  url: https://nlppeople.com/job/senior-engineer-ai-machine-learning-rd/
+  date: '2026-05-18'
+  source: Nlppeople.com
+- title: Senior / Principal Machine Learning Scientist, Scientific Reasoning Models,
+    AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-12/
+  date: '2026-05-18'
+  source: Nlppeople.com
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-17/
+  date: '2026-05-18'
+  source: Nlppeople.com
 - title: PML High-Performance PHP Machine Learning Framework (New)
   description: "Package:\r\n\nPML High-Performance PHP Machine Learning Framework\r\
     \n\nSummary: \r\n\nTrain an AI model and make predictions\r\n\nGroups: \r\n\n\
@@ -34,6 +94,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra02243j
   date: '2026-05-17'
   source: Royal Society of Chemistry
+- title: Machine Learning Engineer with Security Clearance
+  description: nou Systems, Inc. (nSI) is a 100% ESOP company solving challenging
+    defense problems in an enjoyable, stimulating environment. We support mission
+    areas including missile defense, battle management, cybersecurity, test range
+    modernization, biotechnolog
+  url: https://nlppeople.com/job/machine-learning-engineer-with-security-clearance/
+  date: '2026-05-16'
+  source: Nlppeople.com
 - title: 'Chrysoprase color grading with machine learning: A systematic approach'
   description: The color of gemstones plays a pivotal role in determining their quality
     and significantly impacts their market value. However, inconsistencies in gemstone
