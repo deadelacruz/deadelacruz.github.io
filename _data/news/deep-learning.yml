@@ -1,4 +1,18 @@
 news_items:
+- title: 'From EEG signals to quantitative assessment: predicting depression severity
+    using a novel deep learning framework'
+  description: 'Scientific Reports - From EEG signals to quantitative assessment:
+    predicting depression severity using a novel deep learning framework'
+  url: https://www.nature.com/articles/s41598-026-52845-5
+  date: '2026-05-19'
+  source: Nature.com
+- title: An explainable multimodal temporal deep learning framework for intrusion
+    detection (EMT-IDNet) in IoT environments
+  description: Scientific Reports - An explainable multimodal temporal deep learning
+    framework for intrusion detection (EMT-IDNet) in IoT environments
+  url: https://www.nature.com/articles/s41598-026-53557-6
+  date: '2026-05-19'
+  source: Nature.com
 - title: A decompose-reshape-ensemble deep learning framework for multi-scale short-term
     photovoltaic power forecasting
   description: Scientific Reports - A decompose-reshape-ensemble deep learning framework
