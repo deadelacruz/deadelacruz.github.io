@@ -13,6 +13,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-53557-6
   date: '2026-05-19'
   source: Nature.com
+- title: Deep learning-driven anomaly detection and feature discovery in Ce-rich (Ni–Fe–Co–Ce)Ox
+    catalysts for oxygen evolution reaction
+  description: 'RSC Adv., 2026, 16,27117-27125DOI: 10.1039/D6RA02168A, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
+    Unported Licence.Chih-Yang Cheng, Yi-Huan Wu, Feng-Yin LiVisOut, a deep learning
+    framework, autonomously '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra02168a
+  date: '2026-05-19'
+  source: Royal Society of Chemistry
 - title: A decompose-reshape-ensemble deep learning framework for multi-scale short-term
     photovoltaic power forecasting
   description: Scientific Reports - A decompose-reshape-ensemble deep learning framework
