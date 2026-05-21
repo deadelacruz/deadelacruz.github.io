@@ -1,4 +1,11 @@
 news_items:
+- title: A hybrid deep learning model with adaptive feature fusion for automated rice
+    leaf disease detection and classification
+  description: Scientific Reports - A hybrid deep learning model with adaptive feature
+    fusion for automated rice leaf disease detection and classification
+  url: https://www.nature.com/articles/s41598-026-52534-3
+  date: '2026-05-20'
+  source: Nature.com
 - title: 'From EEG signals to quantitative assessment: predicting depression severity
     using a novel deep learning framework'
   description: 'Scientific Reports - From EEG signals to quantitative assessment:
