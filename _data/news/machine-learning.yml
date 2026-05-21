@@ -35,6 +35,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-48010-7
   date: '2026-05-20'
   source: Nature.com
+- title: Higher-order phonon scattering and lattice thermal conductivity prediction
+    via machine learning
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02969H,
+    PaperShengxian Liu, Kan Tang, Jian Zhou, Zhimei SunHigher-order phonon scattering
+    processes, such as three-phonon (3ph) and four-phonon (4ph) interactions, critically
+    influence latt'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02969h
+  date: '2026-05-20'
+  source: Royal Society of Chemistry
 - title: 'Optimizing bike-sharing station locations: A machine learning and artificial
     neural networks approach using geospatial and demographic data'
   description: In the modern world, public transportation amenities are noticeably
