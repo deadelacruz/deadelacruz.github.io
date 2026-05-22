@@ -8,6 +8,15 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349412
   date: '2026-05-21'
   source: Plos.org
+- title: Deep learning-assisted SERS for detection of propoxate and isopropoxate in
+    E-cigarettes
+  description: 'RSC Adv., 2026, 16,27666-27677DOI: 10.1039/D6RA00614K, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Jiahao Teng, Shenggang Huang, Wenkai Zheng, Xuqing Wang,
+    Yingsheng He, Jiy'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra00614k
+  date: '2026-05-21'
+  source: Royal Society of Chemistry
 - title: A hybrid deep learning model with adaptive feature fusion for automated rice
     leaf disease detection and classification
   description: Scientific Reports - A hybrid deep learning model with adaptive feature
