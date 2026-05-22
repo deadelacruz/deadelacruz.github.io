@@ -1,4 +1,13 @@
 news_items:
+- title: 'Prediction of cognitive impairment through speech data analysis: A comparative
+    evaluation of deep learning models'
+  description: Background The early detection of cognitive impairments, such as mild
+    cognitive impairment (MCI) and Alzheimer’s disease (AD), is essential for timely
+    intervention and management. This study evaluates the performance of various deep-learning
+    models i
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349412
+  date: '2026-05-21'
+  source: Plos.org
 - title: A hybrid deep learning model with adaptive feature fusion for automated rice
     leaf disease detection and classification
   description: Scientific Reports - A hybrid deep learning model with adaptive feature
