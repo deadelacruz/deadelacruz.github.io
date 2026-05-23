@@ -1,4 +1,20 @@
 news_items:
+- title: Deep learning and radiomics models in patients with advanced non-small cell
+    lung cancer treated with immunotherapy combined with stereotactic radiotherapy
+  description: Scientific Reports - Deep learning and radiomics models in patients
+    with advanced non-small cell lung cancer treated with immunotherapy combined with
+    stereotactic radiotherapy
+  url: https://www.nature.com/articles/s41598-026-53520-5
+  date: '2026-05-22'
+  source: Nature.com
+- title: Research on multi-stage deep learning based intelligent diagnosis of skin
+    diseases and skin medicine diagnosis community construction concept
+  description: Scientific Reports - Research on multi-stage deep learning based intelligent
+    diagnosis of skin diseases and skin medicine diagnosis community construction
+    concept
+  url: https://www.nature.com/articles/s41598-026-53742-7
+  date: '2026-05-22'
+  source: Nature.com
 - title: 'Prediction of cognitive impairment through speech data analysis: A comparative
     evaluation of deep learning models'
   description: Background The early detection of cognitive impairments, such as mild
