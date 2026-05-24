@@ -1,4 +1,11 @@
 news_items:
+- title: 'Enhancing crop yield prediction accuracy with a novel interpretable deep
+    learning model: MHCNN-LSTM-MHA'
+  description: 'Scientific Reports - Enhancing crop yield prediction accuracy with
+    a novel interpretable deep learning model: MHCNN-LSTM-MHA'
+  url: https://www.nature.com/articles/s41598-026-53616-y
+  date: '2026-05-23'
+  source: Nature.com
 - title: Deep learning and radiomics models in patients with advanced non-small cell
     lung cancer treated with immunotherapy combined with stereotactic radiotherapy
   description: Scientific Reports - Deep learning and radiomics models in patients

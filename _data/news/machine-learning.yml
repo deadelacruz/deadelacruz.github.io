@@ -1,4 +1,27 @@
 news_items:
+- title: 'Chartered accountants should see AI, machine learning and other tech developments
+    as an opportunity: G Ramaswamy'
+  description: Technological advancements like AI and blockchain are transforming
+    the chartered accountant profession, pushing CAs towards higher-value advisory
+    roles. Data literacy is becoming as crucial as technical accounting knowledge.
+    The ICAI, now the world's
+  url: https://timesofindia.indiatimes.com/city/coimbatore/chartered-accountants-should-see-ai-machine-learning-and-other-tech-developments-as-an-opportunity-g-ramaswamy/articleshow/131281045.cms
+  date: '2026-05-23'
+  source: The Times of India
+- title: 'EcoImpact: energy conservation using data-driven model predictive control
+    and interpretable machine learning in the buildings sector'
+  description: 'Scientific Reports - EcoImpact: energy conservation using data-driven
+    model predictive control and interpretable machine learning in the buildings sector'
+  url: https://www.nature.com/articles/s41598-026-53373-y
+  date: '2026-05-23'
+  source: Nature.com
+- title: Estimating temporal treatment-effect patterns of radiotherapy and chemotherapy
+    in lower-grade gliomas using causal machine learning
+  description: Scientific Reports - Estimating temporal treatment-effect patterns
+    of radiotherapy and chemotherapy in lower-grade gliomas using causal machine learning
+  url: https://www.nature.com/articles/s41598-026-54656-0
+  date: '2026-05-23'
+  source: Nature.com
 - title: Senior Data & Machine Learning Engineer
   description: Senior Data & Machine Learning Engineer Find out more about the daily
     tasks, overall responsibilities, and required experience for this opportunity
