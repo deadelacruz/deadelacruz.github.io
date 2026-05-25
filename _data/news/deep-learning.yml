@@ -1,4 +1,12 @@
 news_items:
+- title: Research on the application of deep learning-driven urban change detection
+    in sustainable development of hilly-area cities in western China
+  description: Scientific Reports - Research on the application of deep learning-driven
+    urban change detection in sustainable development of hilly-area cities in western
+    China
+  url: https://www.nature.com/articles/s41598-026-53767-y
+  date: '2026-05-24'
+  source: Nature.com
 - title: 'Enhancing crop yield prediction accuracy with a novel interpretable deep
     learning model: MHCNN-LSTM-MHA'
   description: 'Scientific Reports - Enhancing crop yield prediction accuracy with
