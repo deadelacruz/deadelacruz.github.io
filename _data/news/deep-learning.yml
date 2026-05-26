@@ -1,4 +1,11 @@
 news_items:
+- title: Lightweight deep learning model for nonconvulsive status epilepticus diagnosis
+    using EEG time–frequency analysis
+  description: Scientific Reports - Lightweight deep learning model for nonconvulsive
+    status epilepticus diagnosis using EEG time–frequency analysis
+  url: https://www.nature.com/articles/s41598-026-54785-6
+  date: '2026-05-25'
+  source: Nature.com
 - title: Research on the application of deep learning-driven urban change detection
     in sustainable development of hilly-area cities in western China
   description: Scientific Reports - Research on the application of deep learning-driven
