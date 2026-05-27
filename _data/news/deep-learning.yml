@@ -1,4 +1,19 @@
 news_items:
+- title: 'DREAMER-S: Deep leaRning-Enabled Attention-based Multiple-instance approaches
+    with Explainable Representations for Spatial biology'
+  description: Identifying image features that associate strongly with diagnostic
+    or prognostic classes in large-scale, multi-channel spatial imaging is challenging
+    without pixel-level annotations. We present DREAMER-S, an attention-based multiple-instance
+    learning
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013581
+  date: '2026-05-26'
+  source: Plos.org
+- title: 'Correction: AI-powered detection of cyberbullying in short-form video content:
+    A hybrid deep learning framework'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350051
+  date: '2026-05-26'
+  source: Plos.org
 - title: Lightweight deep learning model for nonconvulsive status epilepticus diagnosis
     using EEG time–frequency analysis
   description: Scientific Reports - Lightweight deep learning model for nonconvulsive

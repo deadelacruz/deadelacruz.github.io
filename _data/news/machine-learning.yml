@@ -1,4 +1,82 @@
 news_items:
+- title: Visual Debugging Tools for Machine Learning Workflows
+  description: 'In this article, we cover three topics: what to visualize during training,
+    the tools that provide those visualizations, and the methods to capture model
+    computations directly using hooks and breakpoints.'
+  url: https://www.kdnuggets.com/visual-debugging-tools-for-machine-learning-workflows
+  date: '2026-05-26'
+  source: Kdnuggets.com
+- title: High-resolution automated mapping of potential Aedes larval container habitats
+    using drone imagery and supervised machine learning in Dar es Salaam, Tanzania
+  description: Author summary Mosquito-borne diseases like dengue and Zika are increasingly
+    a public health threat in African cities, driven by Aedes mosquitoes that breed
+    in small water-holding containers scattered across densely populated neighborhoods.
+    Controlli
+  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014361
+  date: '2026-05-26'
+  source: Plos.org
+- title: 'Determinants of maternal postnatal care utilization in Bangladesh: A machine
+    learning and SHAP-based analysis of BDHS 2022 data'
+  description: Postnatal care (PNC) plays a crucial role in minimizing maternal and
+    neonatal morbidity and mortality, but the uptake of services in Bangladesh remains
+    below the recommended level. Although logistic regression has been widely used,
+    it may miss comple
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350188
+  date: '2026-05-26'
+  source: Plos.org
+- title: Applied AI / Machine Learning Engineer
+  description: Company Description EntroMetrix is an early-stage UK startup building
+    physics-informed AI for industrial operations. We help manufacturers improve efficiency,
+    sustainability and operational performance by turning data into actionable intelligence.
+    Ou
+  url: https://nlppeople.com/job/applied-ai-machine-learning-engineer/
+  date: '2026-05-26'
+  source: Nlppeople.com
+- title: 'Explainable machine learning-driven identification of heart failure biomarkers:
+    a multi-model feature selection approach with SHAP-based interpretability'
+  description: 'Scientific Reports - Explainable machine learning-driven identification
+    of heart failure biomarkers: a multi-model feature selection approach with SHAP-based
+    interpretability'
+  url: https://www.nature.com/articles/s41598-026-54867-5
+  date: '2026-05-26'
+  source: Nature.com
+- title: Machine learning using Clojure, libpython-clj2, and Pytorch
+  description: Machine learning explained using the parabola example
+  url: https://clojurecivitas.org/mlp/main.html
+  date: '2026-05-26'
+  source: Clojurecivitas.org
+- title: Senior Machine Learning Scientist
+  description: Senior Data Scientist  UK or Poland (Remote or Hybrid, it’s up to you!)  Dependent
+    on experience  Be part of our success with the opportunity to join our company
+    equity scheme Our Perks ❤️ Monthly Health & Wellness budget, increasing with length
+    of s
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-27/
+  date: '2026-05-26'
+  source: Nlppeople.com
+- title: Data-driven prediction of micro-piled raft load–settlement using machine
+    learning and Monte Carlo simulation
+  description: Scientific Reports - Data-driven prediction of micro-piled raft load–settlement
+    using machine learning and Monte Carlo simulation
+  url: https://www.nature.com/articles/s41598-026-54119-6
+  date: '2026-05-26'
+  source: Nature.com
+- title: Machine Learning Engineer | Python | Pytorch | Natural Language Processing
+    | LLM | Langua
+  description: 'Position: Machine Learning Engineer | Python | Pytorch | Natural Language
+    Processing | LLM | Large Langua[…] Machine Learning Engineer | Python | Pytorch
+    | Natural Language Processing | LLM | Large Language Models | Remote, EuropeAbout
+    UsWe build AI '
+  url: https://nlppeople.com/job/machine-learning-engineer-python-pytorch-natural-language-processing-llm-langua/
+  date: '2026-05-26'
+  source: Nlppeople.com
+- title: 'Retraction Note: Unveiling the potential of machine learning approaches
+    in predicting the emergence of stroke at its onset: a predicting framework'
+  description: 'Scientific Reports - Retraction Note: Unveiling the potential of machine
+    learning approaches in predicting the emergence of stroke at its onset: a predicting
+    framework'
+  url: https://www.nature.com/articles/s41598-026-54512-1
+  date: '2026-05-26'
+  source: Nature.com
 - title: Senior Software Engineer – Machine Learning & Cloud Technologies
   description: 'Job Title: Senior Software Engineer – Machine Learning & Cloud Technologies
     Job Category: Engineering Time Type: Full time Minimum Clearance Required to Start:
