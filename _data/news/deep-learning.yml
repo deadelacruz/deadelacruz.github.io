@@ -1,4 +1,12 @@
 news_items:
+- title: A federated deep learning framework with distributed hybrid character-level
+    and attention mechanisms for scalable and cost-efficient fake news detection
+  description: Scientific Reports - A federated deep learning framework with distributed
+    hybrid character-level and attention mechanisms for scalable and cost-efficient
+    fake news detection
+  url: https://www.nature.com/articles/s41598-026-54820-6
+  date: '2026-05-27'
+  source: Nature.com
 - title: 'DREAMER-S: Deep leaRning-Enabled Attention-based Multiple-instance approaches
     with Explainable Representations for Spatial biology'
   description: Identifying image features that associate strongly with diagnostic
