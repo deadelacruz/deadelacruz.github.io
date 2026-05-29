@@ -1,4 +1,21 @@
 news_items:
+- title: Multimodal deep learning model for AI-based functional prognostic risk stratification
+    in patients undergoing radical nephrectomy
+  description: Deciding between partial nephrectomy (PN) or radical nephrectomy (RN)
+    in patients with complex renal cell carcinoma (RCC) remains a significant clinical
+    challenge. Here, the authors develop an AI model for functional risk stratification
+    in complex RC
+  url: https://www.nature.com/articles/s41467-026-73813-7
+  date: '2026-05-28'
+  source: Nature.com
+- title: Cross-material catalyst discovery via deep learning
+  description: A deep-learning framework unites knowledge from distinct catalyst families
+    to predict an unexplored class of water-splitting catalysts, revealing an active
+    single-atom catalyst that outperforms both the training and predicted material
+    classes.
+  url: https://www.nature.com/articles/s41563-026-02622-6
+  date: '2026-05-28'
+  source: Nature.com
 - title: A federated deep learning framework with distributed hybrid character-level
     and attention mechanisms for scalable and cost-efficient fake news detection
   description: Scientific Reports - A federated deep learning framework with distributed
