@@ -1,4 +1,11 @@
 news_items:
+- title: 'A deep learning-based model for automatic syntactic complexity assessment
+    in L2 English writing: development and pedagogical application'
+  description: 'Scientific Reports - A deep learning-based model for automatic syntactic
+    complexity assessment in L2 English writing: development and pedagogical application'
+  url: https://www.nature.com/articles/s41598-026-53282-0
+  date: '2026-05-29'
+  source: Nature.com
 - title: Multimodal deep learning model for AI-based functional prognostic risk stratification
     in patients undergoing radical nephrectomy
   description: Deciding between partial nephrectomy (PN) or radical nephrectomy (RN)
