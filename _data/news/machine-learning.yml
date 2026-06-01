@@ -9,6 +9,15 @@ news_items:
   url: https://www.r-bloggers.com/2026/05/techtonique-dot-net-the-machine-learning-web-api-is-back-online-but-more-like-a-passion-project-for-now/
   date: '2026-05-31'
   source: R-bloggers.com
+- title: 'From Prediction to Materials Design: Machine Learning in Electrocatalytic
+    Water Splitting'
+  description: 'Chem. Commun., 2026, Accepted ManuscriptDOI: 10.1039/D6CC01937D, Review
+    ArticleChandrasekaran Pitchai, Ting-Yu Lo, Yu-Ting Hsu, I Chen, Hung-Chung Li,
+    Chih-Ming ChenMachine learning (ML) is emerging as a powerful strategy to accelerate
+    electrocatalys'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc01937d
+  date: '2026-05-31'
+  source: Royal Society of Chemistry
 - title: Machine learning-driven image encryption using SVM for enhanced security
     and computational efficiency
   description: Scientific Reports - Machine learning-driven image encryption using
