@@ -1,4 +1,28 @@
 news_items:
+- title: Residual-guided hybrid framework for adversarially robust deep learning-based
+    network intrusion detection
+  description: 'The growing sophistication of cyber threats and adversarial attacks
+    poses critical challenges to the security and robustness of machine learning models
+    deployed in real-world systems. While traditional deep learning architectures
+    excel in clean data '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350737
+  date: '2026-06-01'
+  source: Plos.org
+- title: Supervised deep learning with gene functional annotation for cell classification
+  description: 'Author summary SDAN is a computational method that summarizes scRNA-seq
+    differential expression results at the level of gene sets. These gene sets are
+    learned to achieve two complementary goals: accurate cell classification and representation
+    of cohe'
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014327
+  date: '2026-06-01'
+  source: Plos.org
+- title: Hybrid deep learning and ES-MDA for pressure transient inversion in radial
+    composite reservoirs
+  description: Scientific Reports - Hybrid deep learning and ES-MDA for pressure transient
+    inversion in radial composite reservoirs
+  url: https://www.nature.com/articles/s41598-026-55349-4
+  date: '2026-06-01'
+  source: Nature.com
 - title: 'A deep learning-based model for automatic syntactic complexity assessment
     in L2 English writing: development and pedagogical application'
   description: 'Scientific Reports - A deep learning-based model for automatic syntactic
@@ -31,6 +55,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-54820-6
   date: '2026-05-27'
   source: Nature.com
+- title: Deep learning the TF regulatory code for gene expression
+  description: Gene transcription is activated through the interaction between cis-regulatory
+    elements (CREs) and transcription factors (TFs). CREs serve as templates to provide
+    binding sites, whereas TFs provide functions to directly initiate transcription.
+    Curren
+  url: https://genome.cshlp.org/content/36/6/1238
+  date: '2026-05-27'
+  source: Cshlp.org
 - title: 'DREAMER-S: Deep leaRning-Enabled Attention-based Multiple-instance approaches
     with Explainable Representations for Spatial biology'
   description: Identifying image features that associate strongly with diagnostic
