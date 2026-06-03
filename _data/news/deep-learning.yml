@@ -1,4 +1,13 @@
 news_items:
+- title: 'PepAnno: A structure-aware deep learning framework for bioactive peptide
+    prediction, structural visualization, and physicochemical profiling'
+  description: Author summary PepAnno is an integrated web server developed to advance
+    the study of bioactive peptides—small yet versatile molecules with significant
+    therapeutic and diagnostic potential. Although several computational tools have
+    been developed to i
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014369
+  date: '2026-06-02'
+  source: Plos.org
 - title: Residual-guided hybrid framework for adversarially robust deep learning-based
     network intrusion detection
   description: 'The growing sophistication of cyber threats and adversarial attacks
@@ -23,6 +32,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-55349-4
   date: '2026-06-01'
   source: Nature.com
+- title: AWS PCS now provides a production-ready Deep Learning AMI
+  description: Today, AWS Parallel Computing Service (AWS PCS) launches PCS-ready
+    DLAMI, an AWS-maintained Amazon Machine Image built on the Deep Learning Base
+    GPU AMI (Ubuntu 24.04). It provides a production-quality foundation for AI/ML
+    training and high performan
+  url: https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/
+  date: '2026-06-01'
+  source: Amazon.com
 - title: 'A deep learning-based model for automatic syntactic complexity assessment
     in L2 English writing: development and pedagogical application'
   description: 'Scientific Reports - A deep learning-based model for automatic syntactic

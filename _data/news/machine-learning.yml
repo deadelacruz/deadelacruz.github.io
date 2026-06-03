@@ -1,4 +1,46 @@
 news_items:
+- title: Integrating network toxicology, machine learning, and single-cell sequencing
+    to reveal the FASN-mediated role of phenolic endocrine disruptors in water in
+    promoting prostate cancer
+  description: Background Phenolic endocrine-disrupting chemicals (EDCs) like nonylphenol
+    (NP) and octylphenol (OP) are widespread water pollutants. Their estrogen-like
+    properties are suspected contributors to prostate cancer, but their precise molecular
+    mechanisms
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350638
+  date: '2026-06-02'
+  source: Plos.org
+- title: Machine Learning Engineering on AWS, 2nd Edition
+  description: 'eBook Details: Paperback: 588 pages Published: May 29, 2026 Language: English
+    ISBN-10: 1835881092 ISBN-13: 978-1835881088 eBook Description: Machine Learning
+    Engineering on AWS, 2nd Edition: Build, deploy, and operationalize LLMs, AI agents,
+    and gene'
+  url: https://www.wowebook.org/machine-learning-engineering-on-aws-2nd-edition/
+  date: '2026-06-02'
+  source: Wowebook.org
+- title: Senior Machine Learning Engineer (Team Lead) – Various Australian Cities
+  description: 'Job no: 529754 Brand: Product and Technology Work type: Full time
+    Location: New South Wales, Queensland, Victoria Categories: Digital and Technology,
+    Data and Business Intelligence At Flight Centre Travel Group (FCTG) our purpose
+    is to ‘open up the w'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-team-lead-various-australian-cities-3/
+  date: '2026-06-02'
+  source: Nlppeople.com
+- title: Principal Machine Learning Engineer
+  description: About the job. As part of the development of our Digital Services function,
+    we are recruiting to strengthen our internal digital capability. These roles are
+    central to building sustainable in-house expertise that supports the design, development,
+    and
+  url: https://nlppeople.com/job/principal-machine-learning-engineer-21/
+  date: '2026-06-02'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist
+  description: Senior Data Scientist  UK or Poland (Remote or Hybrid, it’s up to you!)  Dependent
+    on experience  Be part of our success with the opportunity to join our company
+    equity scheme Our Perks ❤️ Monthly Health & Wellness budget, increasing with length
+    of s
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-29/
+  date: '2026-06-02'
+  source: Nlppeople.com
 - title: Thermal Transport in SrSnO3 Revealed by First-principles Theory, Raman Thermometry
     and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02865A,
@@ -131,6 +173,14 @@ news_items:
     equity scheme Our Perks ❤️ Monthly Health & Wellness budget, increasing with length
     of s
   url: https://nlppeople.com/job/senior-machine-learning-scientist-28/
+  date: '2026-05-29'
+  source: Nlppeople.com
+- title: Machine Learning Engineer- Inference Optimization | Experienced Hire
+  description: Overview We are looking for a Machine Learning Engineer focused on
+    low-latency inference optimization to help build, tune, and productionize high-performance
+    model serving systems. This role sits at the intersection of machine learning,
+    systems engin
+  url: https://nlppeople.com/job/machine-learning-engineer-inference-optimization-experienced-hire/
   date: '2026-05-29'
   source: Nlppeople.com
 - title: Can AI support creativity? What educators can learn from creative machine
