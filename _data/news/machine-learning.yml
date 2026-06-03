@@ -41,6 +41,32 @@ news_items:
   url: https://nlppeople.com/job/senior-machine-learning-scientist-29/
   date: '2026-06-02'
   source: Nlppeople.com
+- title: Improving LIBS machine learning bacteria classification performance based
+    on self-absorption correction
+  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA00122J,
+    PaperFei Chen, Jiahui Liang, Zhihui Tian, Yang Zhao, Lei Zhang, Wangbao Yin, Jiaxuan
+    Li, Liantuan Xiao, Suotang JiaA doublet intensity-ratio correction strategy reduces
+    self-absorp'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja00122j
+  date: '2026-06-02'
+  source: Royal Society of Chemistry
+- title: 'Facile electrochemical fabrication of GO@ZnO@MnO2 nanocomposite for catalytic
+    ozonation of ciprofloxacin: experimental optimization and machine learning modeling'
+  description: 'RSC Adv., 2026, 16,30310-30331DOI: 10.1039/D6RA01551D, Paper Open
+    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Huu-Tap Van, Le Phuong Hoang, Van Hung Hoang, Thi Hong Vien
+    Nguyen, Thi Do'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01551d
+  date: '2026-06-02'
+  source: Royal Society of Chemistry
+- title: 'Football meets machine learning: Forecasting the 2026 FIFA World Cup'
+  description: "Probabilistic forecasts for the 2026 FIFA World Cup are obtained by\
+    \ using a hybrid model that combines data, expert insights, and advanced statistical\
+    \ models. The favorite is Spain, closely followed by England, France, and Germany.\r\
+    \n\n...\r\n\n\n\nContinue"
+  url: https://www.r-bloggers.com/2026/06/football-meets-machine-learning-forecasting-the-2026-fifa-world-cup/
+  date: '2026-06-02'
+  source: R-bloggers.com
 - title: Thermal Transport in SrSnO3 Revealed by First-principles Theory, Raman Thermometry
     and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02865A,
