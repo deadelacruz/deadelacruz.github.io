@@ -1,4 +1,13 @@
 news_items:
+- title: Research on anomaly detection and operational status evaluation methods for
+    smart electricity meters based on hybrid deep learning
+  description: To address the limitations of single-image feature information and
+    the insufficient recognition capability of traditional power quality disturbance
+    (PQD) identification systems, this paper proposes a PQD recognition method based
+    on feature-image comb
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350561
+  date: '2026-06-03'
+  source: Plos.org
 - title: 'PepAnno: A structure-aware deep learning framework for bioactive peptide
     prediction, structural visualization, and physicochemical profiling'
   description: Author summary PepAnno is an integrated web server developed to advance

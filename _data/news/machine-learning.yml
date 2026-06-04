@@ -1,4 +1,26 @@
 news_items:
+- title: Handling Imbalanced Datasets in Machine Learning Projects
+  description: Learn how to handle imbalanced datasets in machine learning using SMOTE,
+    oversampling, undersampling, class weighting, and evaluation metrics with examples.
+  url: https://www.c-sharpcorner.com/article/handling-imbalanced-datasets-in-machine-learning-projects/
+  date: '2026-06-03'
+  source: C-sharpcorner.com
+- title: 'Feature Engineering in Machine Learning: Techniques and Examples'
+  description: Learn Feature Engineering in Machine Learning with practical examples.
+    Explore feature creation, transformation, selection, encoding, scaling, and best
+    practices.
+  url: https://www.c-sharpcorner.com/article/feature-engineering-in-machine-learning-techniques-and-examples/
+  date: '2026-06-03'
+  source: C-sharpcorner.com
+- title: Assistant Professor, Computer Science – Artificial Intelligence/Machine Learning
+    (Tenure-Track)
+  description: Teaches undergraduate and graduate courses with a focus in machine
+    learning and its applications in artificial intelligence, NLM, GenAI, computer
+    graphics, networking, cybersecurity, IoT, robotics, HCI, databases, software engineering,
+    etc. in The Sc
+  url: https://nlppeople.com/job/assistant-professor-computer-science-artificial-intelligence-machine-learning-tenure-track-4/
+  date: '2026-06-03'
+  source: Nlppeople.com
 - title: Integrating network toxicology, machine learning, and single-cell sequencing
     to reveal the FASN-mediated role of phenolic endocrine disruptors in water in
     promoting prostate cancer
@@ -67,6 +89,24 @@ news_items:
   url: https://www.r-bloggers.com/2026/06/football-meets-machine-learning-forecasting-the-2026-fifa-world-cup/
   date: '2026-06-02'
   source: R-bloggers.com
+- title: Synergistic DFT and Machine Learning Screening of Z-Scheme g-SiC/TMD Heterostructures
+    for Efficient Overall Water Splitting
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02854C,
+    PaperWenxue Zhang, Yu Jiang, Jiuran Wen, Yajie Guo, Cheng HeTo mitigate the heavy
+    reliance on non-renewable resources such as fossil fuels, photocatalytic water
+    splitting has been r'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02854c
+  date: '2026-06-02'
+  source: Royal Society of Chemistry
+- title: 'Reductive Hydroformylation of Linseed Oil: from Rhodium Catalyst Stability
+    to Machine Learning Data Analysis'
+  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC02270G, PaperWalid
+    Abdallah, Camille Galand, Michel Ferreira, Jérémy Ternel, Hervé Bricout, Sylvain
+    Laclef, Serge Pilard, Adlane Sayede, Rachid Laref, Romdhane Karoui, Eliot Botosoa,
+    Eric Monflie'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc02270g
+  date: '2026-06-02'
+  source: Royal Society of Chemistry
 - title: Thermal Transport in SrSnO3 Revealed by First-principles Theory, Raman Thermometry
     and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02865A,
@@ -135,6 +175,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc02368a
   date: '2026-06-01'
   source: Royal Society of Chemistry
+- title: Sr. Manager, Technical Delivery – AI & Machine Learning
+  description: At Snowflake, we are powering the era of the agentic enterprise. To
+    usher in this new era, we seek AI-native thinkers across every function who are
+    energized by the opportunity to reinvent how they work. You don’t just use tools;
+    you possess an innat
+  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning/
+  date: '2026-06-01'
+  source: Nlppeople.com
 - title: Techtonique dot net, the Machine Learning web API, is back online (but more
     like a passion project for now)
   description: 'Techtonique dot net is back, but more like a passion project, with
