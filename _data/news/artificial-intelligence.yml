@@ -108,6 +108,12 @@ news_items:
   url: https://economictimes.indiatimes.com/news/economy/policy/india-to-use-artificial-intelligence-for-machine-readable-standards-says-consumer-affairs-secretary-khare/articleshow/131501723.cms
   date: '2026-06-04'
   source: The Times of India
+- title: '''World-first'' vaccine designed by Artificial Intelligence'
+  description: Cambridge scientists say they have, for the first time, tested a vaccine
+    designed by AI.
+  url: https://www.bbc.co.uk/news/articles/crrpggegwe0o
+  date: '2026-06-04'
+  source: BBC News
 - title: Artificial intelligence is not conscious – Ted Chiang
   description: Taken to its logical conclusion, this line of thinking is absurd—and
     damning.
@@ -174,6 +180,12 @@ news_items:
   url: https://slashdot.org/firehose.pl?op=view&amp;id=183572442
   date: '2026-06-03'
   source: Slashdot.org
+- title: Warren Buffett's Successor, Greg Abel, Just Plowed $10 Billion into this
+    Magnificent Artificial Intelligence (AI) Stock
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d3804b48-2ec0-4c9c-aca9-19f9e2ec70f4
+  date: '2026-06-03'
+  source: Yahoo Entertainment
 - title: Promoting Advanced Artificial Intelligence Innovation and Security
   description: 'By the authority vested in me as President by the Constitution and
     the laws of the United States of America, it is hereby ordered: Section 1.  Purpose.'
@@ -241,6 +253,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc00426a
   date: '2026-06-02'
   source: Royal Society of Chemistry
+- title: 'AI in Defense: How Artificial Intelligence Is Reshaping National Security'
+  description: "* Nations are accelerating AI development for military use at an unprecedented\
+    \ pace, creating a global AI race with significant strategic and geopolitical\
+    \ consequences.\r\n* Responsible AI governance, model validation, and human oversight\
+    \ are essential"
+  url: https://www.databricks.com/blog/ai-in-defense-industry
+  date: '2026-06-02'
+  source: Databricks.com
 - title: 'BMO and REX Shares Launch MicroSectors™ 3× Long and -3× Short Artificial
     Intelligence (AI) ETNs (NYSE Arca: AIQU, AIQD)'
   description: 'NEW YORK, June 1, 2026 /PRNewswire/ - Bank of Montreal ("BMO") and
