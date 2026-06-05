@@ -1,4 +1,27 @@
 news_items:
+- title: Deep learning-based arterial waveform analysis for predicting postoperative
+    cerebrovascular events in pediatric patients with Moyamoya disease
+  description: Background Postoperative cerebrovascular events, including transient
+    ischemic attacks, infarctions, and hemorrhages, remain a significant concern in
+    pediatric patients with Moyamoya disease (MMD)undergoing surgical revascularization.
+    This study aimed
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350637
+  date: '2026-06-04'
+  source: Plos.org
+- title: Deep learning enables automated detection of dinosaur footprints with high
+    accuracy
+  description: Scientific Reports - Deep learning enables automated detection of dinosaur
+    footprints with high accuracy
+  url: https://www.nature.com/articles/s41598-026-56031-5
+  date: '2026-06-04'
+  source: Nature.com
+- title: A comparative analysis of deep learning models for disease classification
+    in multi-organ histopathological images
+  description: Scientific Reports - A comparative analysis of deep learning models
+    for disease classification in multi-organ histopathological images
+  url: https://www.nature.com/articles/s41598-026-56045-z
+  date: '2026-06-04'
+  source: Nature.com
 - title: Research on anomaly detection and operational status evaluation methods for
     smart electricity meters based on hybrid deep learning
   description: To address the limitations of single-image feature information and

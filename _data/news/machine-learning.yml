@@ -1,4 +1,37 @@
 news_items:
+- title: 'Structure free: compositionally-informed machine learning for solid-state
+    electrolytes design'
+  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR01499B, PaperQian
+    Zhao, Zhihua Li, Yurong Ren, Lin Shi, Shoukun XuNext-generation energy storage
+    demands high-performance solid-state electrolytes (SSEs), where machine learning
+    (ML) promises to be'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr01499b
+  date: '2026-06-04'
+  source: Royal Society of Chemistry
+- title: Verified Machine Learning Infrastructure
+  description: The authors determine whether formal methods—using mathematical techniques
+    to reason about software behavior and, potentially, show that systems behave as
+    specified—could meaningfully secure the infrastructure on which artificial intelligence
+    runs.
+  url: https://www.rand.org/pubs/research_reports/RRA4881-1.html
+  date: '2026-06-04'
+  source: Rand.org
+- title: Senior Machine Learning / AI Engineer
+  description: 'Job Title: Machine Learning Engineer (Manufacturing) Key Responsibilities
+    Design, build, and deploy machine learning models for manufacturing use cases
+    Develop and maintain end-to-end ML pipelines, including data ingestion, feature
+    engineering, model'
+  url: https://nlppeople.com/job/senior-machine-learning-ai-engineer-3/
+  date: '2026-06-04'
+  source: Nlppeople.com
+- title: Manager, Machine Learning Engineering
+  description: Company Overview Docusign brings agreements to life. Over 1.5 million
+    customers and more than a billion people in over 180 countries use Docusign solutions
+    to accelerate the process of doing business and simplify people’s lives. With
+    intelligent agre
+  url: https://nlppeople.com/job/manager-machine-learning-engineering-9/
+  date: '2026-06-04'
+  source: Nlppeople.com
 - title: Handling Imbalanced Datasets in Machine Learning Projects
   description: Learn how to handle imbalanced datasets in machine learning using SMOTE,
     oversampling, undersampling, class weighting, and evaluation metrics with examples.
@@ -116,6 +149,22 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc02270g
   date: '2026-06-02'
   source: Royal Society of Chemistry
+- title: Machine Learning Ops Engineer
+  description: A Senior Machine Learning Ops Engineer at Sheetz ensures that AI models
+    move seamlessly from “working on a laptop” to running reliably across our stores,
+    applications, and systems at scale. This role powers capabilities like smarter
+    inventory managem
+  url: https://nlppeople.com/job/machine-learning-ops-engineer-3/
+  date: '2026-06-02'
+  source: Nlppeople.com
+- title: Machine Learning Engineer, Express AI Foundations
+  description: The Opportunity Adobe Express helps people and teams create standout
+    content with ease. The AI Foundations team builds the core AI platform that powers
+    creativity across design, imaging, motion, and personalization. We’re looking
+    for an engineer to h
+  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-7/
+  date: '2026-06-02'
+  source: Nlppeople.com
 - title: Thermal Transport in SrSnO3 Revealed by First-principles Theory, Raman Thermometry
     and Machine Learning
   description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02865A,
