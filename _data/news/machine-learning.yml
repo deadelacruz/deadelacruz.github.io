@@ -1,4 +1,60 @@
 news_items:
+- title: Machine Learning Model Accurately Predicts Long-Term Risk of Type 2 Diabetes
+  description: 'Study of Over Three Million Patients for Risk of Type 2 Diabetes Demonstrates
+    Potential for More Advanced Approach to Early Identification NEW ORLEANS, June
+    5, 2026 /PRNewswire/ -- A novel electronic health record-based prediction model
+    successfully '
+  url: https://www.prnewswire.com/news-releases/machine-learning-model-accurately-predicts-long-term-risk-of-type-2-diabetes-302791990.html
+  date: '2026-06-05'
+  source: PRNewswire
+- title: 'Topological data analysis for predicting disease outbreaks in humanitarian
+    settings: A machine learning approach'
+  description: Background Humanitarian settings are highly vulnerable to infectious
+    disease outbreaks because displacement, crowding, disruption of health services,
+    insecurity, and inadequate water and sanitation often interact in ways that are
+    difficult to capture
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350644
+  date: '2026-06-05'
+  source: Plos.org
+- title: How Lumo uses machine learning to streamline E&L screening
+  description: Lumo leverages advanced machine learning to reduce calibration time,
+    and flag low-confidence response factor predictions.
+  url: https://www.news-medical.net/news/20260605/Revolutionizing-calibration-How-Lumo-uses-machine-learning-to-streamline-EL-screening-and-toxicological-risk-assessment.aspx
+  date: '2026-06-05'
+  source: News-Medical.Net
+- title: Leveraging Machine Learning For Supplement Ad Targeting | The Marketing Tutor
+  description: Exploring Essential Machine Learning Principles in Advertising Comprehensive
+    Overview of Machine Learning Algorithms Machine learning algorithms form the core
+    of contemporary advertising strategies, particularly in the realm of supplement
+    products. B
+  url: https://marketing-tutor.com/blog/leveraging-machine-learning-for-supplement-ad-targeting/
+  date: '2026-06-05'
+  source: Marketing-tutor.com
+- title: Engineering Manager – Machine Learning and Applied Artificial Intelligence
+  description: The Aerospace Corporation is the trusted partner to the nation’s space
+    programs, solving the hardest problems and providing unmatched technical expertise.
+    As the operator of a federally funded research and development center (FFRDC),
+    we are broadly e
+  url: https://nlppeople.com/job/engineering-manager-machine-learning-and-applied-artificial-intelligence-8/
+  date: '2026-06-05'
+  source: Nlppeople.com
+- title: Sr. Manager, Technical Delivery – AI & Machine Learning
+  description: At Snowflake, we are powering the era of the agentic enterprise. To
+    usher in this new era, we seek AI-native thinkers across every function who are
+    energized by the opportunity to reinvent how they work. You don’t just use tools;
+    you possess an innat
+  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-2/
+  date: '2026-06-05'
+  source: Nlppeople.com
+- title: Targeting the intrinsically disordered AR-NTD through a machine learning-based
+    enhanced sampling workflow
+  description: In this work, the authors develop a machine learning–based enhanced
+    sampling workflow to target the intrinsically disordered AR-NTD, identifying druggable
+    conformations and enabling transferable modeling of ligand binding for rational
+    drug discovery.
+  url: https://www.nature.com/articles/s41467-026-73863-x
+  date: '2026-06-05'
+  source: Nature.com
 - title: 'Structure free: compositionally-informed machine learning for solid-state
     electrolytes design'
   description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR01499B, PaperQian
@@ -32,6 +88,23 @@ news_items:
   url: https://nlppeople.com/job/manager-machine-learning-engineering-9/
   date: '2026-06-04'
   source: Nlppeople.com
+- title: A Systematic Theoretical Study on the Structure-Property Relationships of
+    Fluorinated Linear Carbonates Based on Molecular Simulation and Machine Learning
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02519F,
+    PaperHaoxuan He, Wei Lin, Yuxuan Chen, Yaqian Deng, Zhengyuan Xiong, Dian Zhou,
+    Peinan Lin, Yiren Tao, Rui Xia, Enheng Zhang, Jiaxin Chen, Yenan Xu, Xinyu Liu,
+    Yuqing Liao, Yu Ying,'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02519f
+  date: '2026-06-04'
+  source: Royal Society of Chemistry
+- title: Lead Machine Learning Operations Engineer
+  description: '#WeAreParamount on a mission to unleash the power of content… you
+    in? We’ve got the brands, we’ve got the stars, we’ve got the power to achieve
+    our mission to entertain the planet – now all we’re missing is… YOU! Becoming
+    a part of Paramount means jo'
+  url: https://nlppeople.com/job/lead-machine-learning-operations-engineer/
+  date: '2026-06-04'
+  source: Nlppeople.com
 - title: Handling Imbalanced Datasets in Machine Learning Projects
   description: Learn how to handle imbalanced datasets in machine learning using SMOTE,
     oversampling, undersampling, class weighting, and evaluation metrics with examples.
@@ -63,6 +136,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02562e
   date: '2026-06-03'
   source: Royal Society of Chemistry
+- title: AI / Machine Learning Engineer (Full-Stack)
+  description: AI / Machine Learning Engineer (Full-Stack)  Boynton Beach, FL OR Fort
+    Myers, FL  Onsite to start → Eligible for Remote after ~6 months We’re partnering
+    with a growing organization in the construction & building materials space seeking
+    a Full-Stack A
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-full-stack/
+  date: '2026-06-03'
+  source: Nlppeople.com
 - title: Integrating network toxicology, machine learning, and single-cell sequencing
     to reveal the FASN-mediated role of phenolic endocrine disruptors in water in
     promoting prostate cancer

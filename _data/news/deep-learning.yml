@@ -1,4 +1,32 @@
 news_items:
+- title: 'Focusing on legal cases: Automatic classification of legal documents with
+    sentence embeddings and deep learning models'
+  description: The justice system is indispensable to any society as it enforces the
+    rule of law, safeguards fundamental rights, and ensures the equitable resolution
+    of disputes through structured legal frameworks. Artificial Intelligence (AI)
+    has significantly adv
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350673
+  date: '2026-06-05'
+  source: Plos.org
+- title: Development of a deep learning based framework for classification of Indian
+    venomous snakes integrated with explainable artificial intelligence for primary
+    and emergency care providers
+  description: Author summary Snakebite is a major public health concern that disproportionally
+    affects the rural population. Delays in identifying whether a snake is venomous
+    often lead to delayed treatment, unnecessary use of antivenom, or inappropriate
+    referrals
+  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014147
+  date: '2026-06-05'
+  source: Plos.org
+- title: AI-Powered Imaging Systems and Deep Learning Software Revolutionize Cancer
+    Diagnostics Market Globally
+  description: 'The AI in cancer diagnostics market presents significant opportunities
+    driven by advancements in AI and machine learning algorithms, growing AI-powered
+    imaging systems, increased integration of predictive analytics, and rising cancer
+    prevalence. Key '
+  url: https://www.globenewswire.com/news-release/2026/06/05/3307245/28124/en/AI-Powered-Imaging-Systems-and-Deep-Learning-Software-Revolutionize-Cancer-Diagnostics-Market-Globally.html
+  date: '2026-06-05'
+  source: GlobeNewswire
 - title: Deep learning-based arterial waveform analysis for predicting postoperative
     cerebrovascular events in pediatric patients with Moyamoya disease
   description: Background Postoperative cerebrovascular events, including transient
