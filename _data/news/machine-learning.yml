@@ -1,4 +1,18 @@
 news_items:
+- title: Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
+  description: 'About Mbodi
+
+
+    Mbodi is building embodied AI platform that makes robots learn and operate like
+    humans, with natural language. Our
+
+    software lets anyone teach robots new skills by talking to them and execute the
+    learned skills reliably in production,
+
+    in '
+  url: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer
+  date: '2026-06-06'
+  source: Hacker News
 - title: Machine Learning Model Accurately Predicts Long-Term Risk of Type 2 Diabetes
   description: 'Study of Over Three Million Patients for Risk of Type 2 Diabetes Demonstrates
     Potential for More Advanced Approach to Early Identification NEW ORLEANS, June
