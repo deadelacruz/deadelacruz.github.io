@@ -1,4 +1,11 @@
 news_items:
+- title: A fractal-enhanced deep learning framework for forecasting agricultural production
+    in India
+  description: Scientific Reports - A fractal-enhanced deep learning framework for
+    forecasting agricultural production in India
+  url: https://www.nature.com/articles/s41598-026-55859-1
+  date: '2026-06-07'
+  source: Nature.com
 - title: 'Focusing on legal cases: Automatic classification of legal documents with
     sentence embeddings and deep learning models'
   description: The justice system is indispensable to any society as it enforces the
