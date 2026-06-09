@@ -1,4 +1,12 @@
 news_items:
+- title: Machine Learning and AI Expert Dennis Zhang Affiliates With Compass Lexecon
+  description: 'WASHINGTON, June 08, 2026 (GLOBE NEWSWIRE) -- Compass Lexecon, a subsidiary
+    of FTI Consulting, Inc. (NYSE: FCN), today announced that Dennis Zhang, a Professor
+    of Operations and Marketing at Washington University in St. Louis’s Olin Business
+    School, '
+  url: https://www.globenewswire.com/news-release/2026/06/08/3307985/33891/en/Machine-Learning-and-AI-Expert-Dennis-Zhang-Affiliates-With-Compass-Lexecon.html
+  date: '2026-06-08'
+  source: GlobeNewswire
 - title: Machine learning- assisted remaining useful lifetime prediction of power
     electronic converters
   description: Scientific Reports - Machine learning- assisted remaining useful lifetime
@@ -6,6 +14,31 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-56011-9
   date: '2026-06-07'
   source: Nature.com
+- title: 'From machine learning to chemical insight: Darwinian chance and the stability
+    of charge carriers in flow batteries'
+  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA00771F, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Jingjing Zhang, Lily A. Robertson, Ilya A. Shkrob, Rajeev
+    S. Ass'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00771f
+  date: '2026-06-07'
+  source: Royal Society of Chemistry
+- title: Smartphone-Based Colorimetric Analysis of pH Strips Using Machine Learning
+  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D6AY00780E, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Ece Yıldız, Mustafa Şen, Mehmet Akif ÖzdemirThis study introduce'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00780e
+  date: '2026-06-07'
+  source: Royal Society of Chemistry
+- title: 'From data to catalysis: advances and prospects of machine learning-driven
+    electrocatalytic CO2 reduction'
+  description: 'Green Chem., 2026, Advance ArticleDOI: 10.1039/D6GC01575A, Critical
+    ReviewHe Xixue, Ma Ruoxin, Zhang Zekun, Zhang Luping, Li Jiqun, Yan Wei, Xu HaoAs
+    global decarbonization imperatives intensify, the electrocatalytic CO2 reduction
+    reaction (CO2RR) ha'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc01575a
+  date: '2026-06-07'
+  source: Royal Society of Chemistry
 - title: Mbodi AI (YC P25) Is Hiring Founding Machine Learning Engineer (Robotics)
   description: 'About Mbodi
 
@@ -124,6 +157,22 @@ news_items:
     our mission to entertain the planet – now all we’re missing is… YOU! Becoming
     a part of Paramount means jo'
   url: https://nlppeople.com/job/lead-machine-learning-operations-engineer/
+  date: '2026-06-04'
+  source: Nlppeople.com
+- title: Machine Learning Engineer, Express AI Foundations
+  description: The Opportunity Adobe Express helps people and teams create standout
+    content with ease. The AI Foundations team builds the core AI platform that powers
+    creativity across design, imaging, motion, and personalization. We’re looking
+    for an engineer to h
+  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-9/
+  date: '2026-06-04'
+  source: Nlppeople.com
+- title: Sr. Manager, Technical Delivery – AI & Machine Learning
+  description: At Snowflake, we are powering the era of the agentic enterprise. To
+    usher in this new era, we seek AI-native thinkers across every function who are
+    energized by the opportunity to reinvent how they work. You don’t just use tools;
+    you possess an innat
+  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-3/
   date: '2026-06-04'
   source: Nlppeople.com
 - title: Handling Imbalanced Datasets in Machine Learning Projects
