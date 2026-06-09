@@ -7,6 +7,24 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/06/08/3307985/33891/en/Machine-Learning-and-AI-Expert-Dennis-Zhang-Affiliates-With-Compass-Lexecon.html
   date: '2026-06-08'
   source: GlobeNewswire
+- title: Interpretable, Low-Compute Machine Learning Integrating Experimental and
+    Catalytic Descriptors for Sustainable CO2 Electroreduction
+  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC01753C, Paper
+    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Brianna Farris, Joshua J Meckstroth, Kevin C. LeonardApplying
+    mach'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc01753c
+  date: '2026-06-08'
+  source: Royal Society of Chemistry
+- title: 'Unlocking XAT/HAT selectivity: a machine learning-guided discovery of governing
+    physicochemical principles'
+  description: 'Org. Chem. Front., 2026, Advance ArticleDOI: 10.1039/D6QO00596A, Research
+    ArticleSiqi Liu, Wenqiang Xu, Tian-Yu Sun, Longjie Huang, Yun-Dong Wu, Xinhao
+    ZhangMachine learning couples with DFT calculations to unlock the governing principles
+    of HAT/XAT '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/qo/d6qo00596a
+  date: '2026-06-08'
+  source: Royal Society of Chemistry
 - title: Machine learning- assisted remaining useful lifetime prediction of power
     electronic converters
   description: Scientific Reports - Machine learning- assisted remaining useful lifetime
