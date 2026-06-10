@@ -1,4 +1,49 @@
 news_items:
+- title: Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks
+  description: 'Article URL: https://aarushgupta.io/posts/kan-fpga/
+
+    Comments URL: https://news.ycombinator.com/item?id=48466277
+
+    Points: 9
+
+    # Comments: 0'
+  url: https://aarushgupta.io/posts/kan-fpga/
+  date: '2026-06-09'
+  source: Aarushgupta.io
+- title: How a machine learning engineer built a churn prediction model that transformed
+    a subscription platform’s retention strategy
+  description: A subscription technology platform with over 100,000 users was losing
+    customers each month despite having access to substantial behavioural data. The
+    retention team could identify who had already churned - but not who was likely
+    to churn next. Namdeo
+  url: https://www.digitaljournal.com/article/how-a-machine-learning-engineer-built-a-churn-prediction-model-that-transformed-a-subscription-platforms-retention-strategy/
+  date: '2026-06-09'
+  source: Digital Journal
+- title: 'Bill Maris: Machine learning optimizes venture capital, small funds outperform
+    larger ones, and delayed IPOs limit public investment access | All-In Podcast'
+  description: 'Smaller venture capital funds outperform larger ones, challenging
+    the trend of delayed IPOs and public investment access.
+
+    The post Bill Maris: Machine learning optimizes venture capital, small funds outperform
+    larger ones, and delayed IPOs limit publ'
+  url: https://cryptobriefing.com/bill-maris-machine-learning-optimizes-venture-capital-small-funds-outperform-larger-ones-and-delayed-ipos-limit-public-investment-access-all-in-podcast/
+  date: '2026-06-09'
+  source: Crypto Briefing
+- title: 'Prediction of hospitalisation in young children with pneumonia in Malawi:
+    A machine learning-based approach'
+  description: In a machine learning study, Patrick Staunton and colleagues develop
+    and test a model to predict hospitalisation in children with pneumonia under 5
+    years of age in Malawi.
+  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005122
+  date: '2026-06-09'
+  source: Plos.org
+- title: A seismic reservoir permeability prediction approach based on gaussian process
+    machine learning
+  description: Scientific Reports - A seismic reservoir permeability prediction approach
+    based on gaussian process machine learning
+  url: https://www.nature.com/articles/s41598-026-56754-5
+  date: '2026-06-09'
+  source: Nature.com
 - title: Machine Learning and AI Expert Dennis Zhang Affiliates With Compass Lexecon
   description: 'WASHINGTON, June 08, 2026 (GLOBE NEWSWIRE) -- Compass Lexecon, a subsidiary
     of FTI Consulting, Inc. (NYSE: FCN), today announced that Dennis Zhang, a Professor
