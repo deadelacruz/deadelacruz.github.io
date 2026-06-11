@@ -1,4 +1,78 @@
 news_items:
+- title: 'Show HN: A curated collection of simple datasets for machine learning'
+  description: 'Article URL: https://github.com/pplonski/datasets-for-start
+
+    Comments URL: https://news.ycombinator.com/item?id=48476571
+
+    Points: 3
+
+    # Comments: 1'
+  url: https://github.com/pplonski/datasets-for-start
+  date: '2026-06-10'
+  source: Github.com
+- title: Introducing the Third Generation of Apple’s Foundation Models - Apple Machine
+    Learning Research
+  description: Our next generation of Apple Intelligence is centered around our users,
+    integrated deeply into our operating systems, and powered by a bold…
+  url: https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models
+  date: '2026-06-10'
+  source: Apple Newsroom
+- title: End-to-End Machine Learning for Depressive State Classification via EEG and
+    fNIRS
+  description: The escalating demand for mental healthcare, driven by rising societal
+    stress, highlights the limitations of traditional psychiatric diagnostics. Conventional
+    methods - relying primarily on clinical interviews and patient self-reports -
+    are inherentl
+  url: https://arxiv.org/abs/2606.11555
+  date: '2026-06-10'
+  source: Arxiv.org
+- title: Regression based hybrid machine learning model performance evaluation on
+    air quality index prediction in Kolkata
+  description: Scientific Reports - Regression based hybrid machine learning model
+    performance evaluation on air quality index prediction in Kolkata
+  url: https://www.nature.com/articles/s41598-026-54918-x
+  date: '2026-06-10'
+  source: Nature.com
+- title: 'Machine learning–enabled ECG arrhythmia classification: a systematic and
+    educational study from signal processing to decision support'
+  description: 'Scientific Reports - Machine learning–enabled ECG arrhythmia classification:
+    a systematic and educational study from signal processing to decision support'
+  url: https://www.nature.com/articles/s41598-026-56828-4
+  date: '2026-06-10'
+  source: Nature.com
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-24/
+  date: '2026-06-10'
+  source: Nlppeople.com
+- title: Machine learning-assisted design of carbon nanotube edge computing circuits
+    for monolithic epidermal systems
+  description: The high multimodal processing capability is constrained by the physical
+    separation of sensors and processors. Luo et al. proposed a machine learning-aided
+    framework for carbon nanotube circuit design. Its feasibility is validated via
+    a flexible edge
+  url: https://www.nature.com/articles/s41467-026-74053-5
+  date: '2026-06-10'
+  source: Nature.com
+- title: Hybrid vision transformer and ensemble machine learning framework for automated
+    atherosclerotic plaque classification in intravascular ultrasound imaging
+  description: Scientific Reports - Hybrid vision transformer and ensemble machine
+    learning framework for automated atherosclerotic plaque classification in intravascular
+    ultrasound imaging
+  url: https://www.nature.com/articles/s41598-026-53077-3
+  date: '2026-06-10'
+  source: Nature.com
+- title: Machine learning–assisted design of a wideband Fe–SiO2–MXene metamaterial
+    solar absorber for angle-insensitive thermal energy harvesting
+  description: Scientific Reports - Machine learning–assisted design of a wideband
+    Fe–SiO2–MXene metamaterial solar absorber for angle-insensitive thermal energy
+    harvesting
+  url: https://www.nature.com/articles/s41598-026-57447-9
+  date: '2026-06-10'
+  source: Nature.com
 - title: Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks
   description: 'Article URL: https://aarushgupta.io/posts/kan-fpga/
 
@@ -44,6 +118,23 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-56754-5
   date: '2026-06-09'
   source: Nature.com
+- title: Exploring Celecoxib Polymorph Landscape Using AIMNet2 Machine Learning Interatomic
+    Potential
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC09784C, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution
+    3.0 Unported Licence.Peikun Zheng, Yuriy Abramov, Changquan Calvin Sun, Olexandr
+    IsayevThe crys'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc09784c
+  date: '2026-06-09'
+  source: Royal Society of Chemistry
+- title: Senior Data Engineer – Machine Learning (W2 Only)
+  description: 'Dice is the leading career destination for tech experts at every stage
+    of their careers. Our client, Clarkstech, is seeking the following. Apply via
+    Dice today! Job Location: Berkeley Heights, NJ or Alpharetta, GA We are seeking
+    highly motivated Seni'
+  url: https://nlppeople.com/job/senior-data-engineer-machine-learning-w2-only/
+  date: '2026-06-09'
+  source: Nlppeople.com
 - title: Machine Learning and AI Expert Dennis Zhang Affiliates With Compass Lexecon
   description: 'WASHINGTON, June 08, 2026 (GLOBE NEWSWIRE) -- Compass Lexecon, a subsidiary
     of FTI Consulting, Inc. (NYSE: FCN), today announced that Dennis Zhang, a Professor
@@ -70,6 +161,14 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/qo/d6qo00596a
   date: '2026-06-08'
   source: Royal Society of Chemistry
+- title: Sr. Manager, Technical Delivery – AI & Machine Learning
+  description: At Snowflake, we are powering the era of the agentic enterprise. To
+    usher in this new era, we seek AI-native thinkers across every function who are
+    energized by the opportunity to reinvent how they work. You don’t just use tools;
+    you possess an innat
+  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-4/
+  date: '2026-06-08'
+  source: Nlppeople.com
 - title: Machine learning- assisted remaining useful lifetime prediction of power
     electronic converters
   description: Scientific Reports - Machine learning- assisted remaining useful lifetime

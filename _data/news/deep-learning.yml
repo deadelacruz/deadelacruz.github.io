@@ -1,4 +1,11 @@
 news_items:
+- title: Deep learning four decades of human migration
+  description: A global annual migration-flow dataset (1990–2024) is produced using
+    deep-learning models and diverse sources to estimate movements across 230 countries
+    with improved temporal resolution, coverage and uncertainty estimates.
+  url: https://www.nature.com/articles/s41586-026-10611-7
+  date: '2026-06-10'
+  source: Nature.com
 - title: A fractal-enhanced deep learning framework for forecasting agricultural production
     in India
   description: Scientific Reports - A fractal-enhanced deep learning framework for
