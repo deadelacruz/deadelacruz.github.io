@@ -1,4 +1,31 @@
 news_items:
+- title: GPU as a Service Market to Reach USD 14.4 Billion by 2033 at 16.0% CAGR,
+    Fueled by Generative AI, Machine Learning, and Cloud Infrastructure Expansion
+    - Grand View Research, Inc.
+  description: 'SAN FRANCISCO, June 11, 2026 /PRNewswire/ -- The global GPU as a Service
+    (GPUaaS) market is poised for substantial expansion as enterprises accelerate
+    investments in artificial intelligence, machine learning, high-performance computing,
+    and advanced '
+  url: https://www.prnewswire.com/news-releases/gpu-as-a-service-market-to-reach-usd-14-4-billion-by-2033-at-16-0-cagr-fueled-by-generative-ai-machine-learning-and-cloud-infrastructure-expansion---grand-view-research-inc-302798315.html
+  date: '2026-06-11'
+  source: PRNewswire
+- title: Vector Institute and Helmholtz Munich Sign MOU to Advance International AI
+    and Machine Learning Research
+  description: Partnership to accelerate researcher mobility, joint scientific collaboration,
+    and German-Canadian innovation – with Vector researcher Shaina Raza set to speak
+    at HAICON 2026 TORONTO, June 11, 2026 (GLOBE NEWSWIRE) — The Vector Institute
+    today announ
+  url: https://financialpost.com/globe-newswire/vector-institute-and-helmholtz-munich-sign-mou-to-advance-international-ai-and-machine-learning-research
+  date: '2026-06-11'
+  source: Financial Post
+- title: AI Is Now Detecting Cancer Years Before Doctors Can — New 2026 Research Shows
+    How Machine Learning Is Transforming Diagnosis
+  description: A 2026 Nature Cancer AI identified 18 cancer types with high accuracy
+    from minimal slides. A Mayo Clinic AI detected pancreatic cancer up to 3 years
+    before diagnosis — nearly doubling specialist rates.
+  url: https://www.medicaldaily.com/ai-cancer-detection-2026-nature-cancer-pancreatic-diagnosis-475580
+  date: '2026-06-11'
+  source: Medical Daily
 - title: 'Show HN: A curated collection of simple datasets for machine learning'
   description: 'Article URL: https://github.com/pplonski/datasets-for-start
 

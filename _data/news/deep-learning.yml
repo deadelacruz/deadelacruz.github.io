@@ -1,4 +1,11 @@
 news_items:
+- title: A deep learning framework for emotion recognition in music using multimodal
+    data fusion
+  description: Scientific Reports - A deep learning framework for emotion recognition
+    in music using multimodal data fusion
+  url: https://www.nature.com/articles/s41598-026-50471-9
+  date: '2026-06-11'
+  source: Nature.com
 - title: Deep learning four decades of human migration
   description: A global annual migration-flow dataset (1990–2024) is produced using
     deep-learning models and diverse sources to estimate movements across 230 countries
