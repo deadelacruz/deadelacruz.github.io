@@ -1,4 +1,28 @@
 news_items:
+- title: 'Empowering rural governance with digital technology: Deep learning models
+    for automated detection of rural buildings using remote sensing images'
+  description: Building detection from drone imagery represents a transformative approach
+    to rural governance by enabling precise spatial data acquisition for critical
+    applications including illegal construction monitoring, disaster assessment, and
+    cadastral mappin
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351311
+  date: '2026-06-12'
+  source: Plos.org
+- title: 'Unimodal vs. multimodal deep learning for non-invasive MGMT promoter methylation
+    prediction in glioblastoma: A systematic evaluation on the BraTS 2021 dataset'
+  description: Glioblastoma multiforme (GBM) is the most aggressive primary brain
+    tumor in adults, with a median survival of 14.6 months under standard radiotherapy
+    and temozolomide (TMZ) chemotherapy. The methylation status of the O⁶-methylguanine-DNA
+    methyltransf
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351405
+  date: '2026-06-12'
+  source: Plos.org
+- title: 'Retraction: Enhanced heart disease diagnosis and management: A multi-phase
+    framework leveraging deep learning and personalized nutrition'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351485
+  date: '2026-06-12'
+  source: Plos.org
 - title: A deep learning framework for emotion recognition in music using multimodal
     data fusion
   description: Scientific Reports - A deep learning framework for emotion recognition

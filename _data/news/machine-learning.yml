@@ -1,4 +1,96 @@
 news_items:
+- title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
+    in its own backyard
+  description: 'In times past, when we wanted to know which team would win the World
+    Cup, we had to turn to seers with crystal balls, use divination via tea leaves,
+    or hope for Paul the Octopus to tell us what would happen.
+
+    But modern data science can provide a bett'
+  url: https://biztoc.com/x/9253f2764eb49242
+  date: '2026-06-12'
+  source: Biztoc.com
+- title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
+    in its own backyard
+  description: The algorithm that predicted the U.S. would win the 2019 Women's World
+    Cup just released Its 2026 men's picks.
+  url: https://fortune.com/2026/06/12/world-cup-2026-predictions-spain-us-odds-machine-learning/
+  date: '2026-06-12'
+  source: Fortune
+- title: Cross-dataset benchmarking of machine learning models for marine and atmospheric
+    environmental prediction
+  description: Accurate prediction of marine and atmospheric environmental variables
+    is important for climate adaptation, ecosystem management, and operational decision-making,
+    yet practitioners still lack clear guidance on which machine-learning models are
+    reliabl
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351325
+  date: '2026-06-12'
+  source: Plos.org
+- title: Identification of candidate sex hormone-associated genes and immune infiltration
+    characteristics in osteoarthritis based on bioinformatics analysis and machine
+    learning
+  description: Background Sex hormones play critical roles in the pathogenesis and
+    progression of osteoarthritis (OA), yet the hormone-related molecular networks
+    remain poorly defined. This study aimed to identify candidate sex hormone-associated
+    genes in OA and to
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351556
+  date: '2026-06-12'
+  source: Plos.org
+- title: Staff Artificial Intelligence Machine Learning Engineer
+  description: 'Job Description The Role: General Motors is seeking a Staff AI/ML
+    Engineer for the Vehicle Mechatronic Embedded Controls (VMEC) Analytics team.
+    The team delivers production AI/ML solutions for high‑impact diagnostics, prognostics,
+    and test‑effectiven'
+  url: https://nlppeople.com/job/staff-artificial-intelligence-machine-learning-engineer/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-25/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: Data Scientist (Artificial Intelligence/Machine Learning)
+  description: 'Summary See below for important information regarding this job. Position
+    will be filled at any of the locations listed below. Site specific salary information
+    as follows: Battle Creek, MI: $125,776- $163,514 Columbus, OH: $131,245- $170,624
+    Dayton, O'
+  url: https://nlppeople.com/job/data-scientist-artificial-intelligence-machine-learning-7/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
+  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
+    England, United Kingdom Corporate Functions At Apple, we build AI systems that
+    define experiences for billions of people and we do it with an unwavering commitment
+    to privacy, per
+  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-7/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: AI / Machine Learning Engineer — GenAI, LLMs & Applied AI
+  description: Job Overview We are seeking a highly skilled AI / Machine Learning
+    Engineer specialising in Generative AI (GenAI), Large Language Models (LLMs),
+    and applied artificial intelligence. This role offers an exciting opportunity
+    to develop innovative solut
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-genai-llms-applied-ai/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: AI and Machine Learning Solutions Specialist
+  description: 'Join Us: We are embarking on an exciting new era in Data & AI that
+    promises to transform industries and society at large. At Accenture, we’re committed
+    to leading the charge with a clear vision: to empower clients in optimizing and
+    reinventing their '
+  url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-3/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: Machine Learning Engineer, Express AI Foundations
+  description: The Opportunity Adobe Express helps people and teams create standout
+    content with ease. The AI Foundations team builds the core AI platform that powers
+    creativity across design, imaging, motion, and personalization. We’re looking
+    for an engineer to h
+  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-10/
+  date: '2026-06-12'
+  source: Nlppeople.com
 - title: GPU as a Service Market to Reach USD 14.4 Billion by 2033 at 16.0% CAGR,
     Fueled by Generative AI, Machine Learning, and Cloud Infrastructure Expansion
     - Grand View Research, Inc.
@@ -26,6 +118,22 @@ news_items:
   url: https://www.medicaldaily.com/ai-cancer-detection-2026-nature-cancer-pancreatic-diagnosis-475580
   date: '2026-06-11'
   source: Medical Daily
+- title: '"Nano-Filter"-Integrated AIMS with Machine Learning: Direct Exhaled Breath
+    Analysis for Lung Cancer Screening'
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6SC02074G, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Weiqing Wang, Yue Tang, Zhenqiang Zhang, Wenjun Wang, Junzhe'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc02074g
+  date: '2026-06-11'
+  source: Royal Society of Chemistry
+- title: AI / Machine Learning and Data Scientist
+  description: Introduction to Human Longevity, Inc. (HLI) Human Longevity, Inc. (HLI)
+    is a global leader in precision health, combining cutting-edge genomics, imaging,
+    AI-driven diagnostics, and elite medical expertise to redefine proactive healthcare.
+    Our mission
+  url: https://nlppeople.com/job/ai-machine-learning-and-data-scientist/
+  date: '2026-06-11'
+  source: Nlppeople.com
 - title: 'Show HN: A curated collection of simple datasets for machine learning'
   description: 'Article URL: https://github.com/pplonski/datasets-for-start
 
@@ -100,6 +208,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-57447-9
   date: '2026-06-10'
   source: Nature.com
+- title: Remote Machine Learning Scientist Remote Sensing
+  description: Grow with Treefera We are a first-mile intelligence platform, delivering
+    granular visibility into the point of origin in global ag & soft commodity supply
+    chains – where risk, cost, performance and exposure are set. You’ll join a global,
+    cross-functi
+  url: https://nlppeople.com/job/remote-machine-learning-scientist-remote-sensing/
+  date: '2026-06-10'
+  source: Nlppeople.com
 - title: Ultrafast machine learning on FPGAs via Kolmogorov-Arnold Networks
   description: 'Article URL: https://aarushgupta.io/posts/kan-fpga/
 
