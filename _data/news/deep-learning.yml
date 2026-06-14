@@ -1,4 +1,19 @@
 news_items:
+- title: How to Install AMD ROCm on Ubuntu 26.04 for AI & Deep Learning
+  description: 'The post How to Install AMD ROCm on Ubuntu 26.04 for AI & Deep Learning
+    first appeared on Tecmint: Linux Howtos, Tutorials & Guides .If you’ve ever tried
+    setting up Ollama, Stable Diffusion, or PyTorch on an AMD graphics card, you probably
+    remember h'
+  url: https://www.tecmint.com/install-amd-rocm-ubuntu-26-04/
+  date: '2026-06-13'
+  source: Tecmint.com
+- title: Deep learning based apple leaf disease detection using spatially modulated
+    continuouslayer
+  description: Scientific Reports - Deep learning based apple leaf disease detection
+    using spatially modulated continuouslayer
+  url: https://www.nature.com/articles/s41598-026-57763-0
+  date: '2026-06-13'
+  source: Nature.com
 - title: 'Empowering rural governance with digital technology: Deep learning models
     for automated detection of rural buildings using remote sensing images'
   description: Building detection from drone imagery represents a transformative approach
