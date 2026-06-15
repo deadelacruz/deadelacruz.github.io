@@ -1,4 +1,12 @@
 news_items:
+- title: Investigation of the molecular network underlying PET-MPs-induced inflammatory
+    bowel disease via integrated machine learning and molecular docking approaches
+  description: Scientific Reports - Investigation of the molecular network underlying
+    PET-MPs-induced inflammatory bowel disease via integrated machine learning and
+    molecular docking approaches
+  url: https://www.nature.com/articles/s41598-026-57094-0
+  date: '2026-06-14'
+  source: Nature.com
 - title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
     in its own backyard
   description: 'In times past, when we wanted to know which team would win the World
@@ -4107,20 +4115,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja90012g
   date: '2026-03-17'
   source: Royal Society of Chemistry
-- title: 'Machine learning for RNA secondary structure prediction: a review of current
-    methods and challenges [PERSPECTIVE]'
-  description: Predicting the secondary structure of RNA is a core challenge in computational
-    biology, essential for understanding molecular function and designing novel therapeutics.
-    The field has evolved from foundational but accuracy-limited thermodynamic approa
-  url: https://rnajournal.cshlp.org/content/32/4/443.short?rss=1
-  date: '2026-03-16'
-  source: Cshlp.org
-- title: 'BCMI-Driven Motion Control Detection: EEG-Based Machine Learning and Interaction
-    Entropy for High-Order Brain Networks'
-  description: This study investigates the cognitive motor control detection and the
-    underlying neuroregulatory mechanisms during music-assisted simulated driving.
-    Using a dynamic higher-order network model constructed with EEG-based cross-information
-    entropy, we q
-  url: https://arxiv.org/abs/2603.15208
-  date: '2026-03-16'
-  source: Arxiv.org

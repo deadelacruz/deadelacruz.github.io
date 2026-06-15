@@ -1,4 +1,11 @@
 news_items:
+- title: Principled XAI analysis of the deep learning-based landslide susceptibility
+    prediction model
+  description: Scientific Reports - Principled XAI analysis of the deep learning-based
+    landslide susceptibility prediction model
+  url: https://www.nature.com/articles/s41598-026-52786-z
+  date: '2026-06-14'
+  source: Nature.com
 - title: How to Install AMD ROCm on Ubuntu 26.04 for AI & Deep Learning
   description: 'The post How to Install AMD ROCm on Ubuntu 26.04 for AI & Deep Learning
     first appeared on Tecmint: Linux Howtos, Tutorials & Guides .If you’ve ever tried
@@ -974,21 +981,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-44623-0
   date: '2026-03-17'
   source: Nature.com
-- title: 'Deep learning for RNA secondary structure determination: gauging generalizability
-    and broadening the scope of traditional methods [PERSPECTIVE]'
-  description: The diverse regulatory functions, protein production capacity, and
-    stability of natural and synthetic RNAs are closely tied to their ability to fold
-    into intricate structures. Determining RNA structure is thus fundamental to RNA
-    biology and bioengine
-  url: https://rnajournal.cshlp.org/content/32/4/428.short?rss=1
-  date: '2026-03-16'
-  source: Cshlp.org
-- title: 'Deep learning–driven image captioning: Progress through transformers and
-    large language models'
-  description: This paper provides a novel deep learning model for captioning of images
-    by using an advanced vision transformer architecture with a powerful LLM. Proposed
-    models show a significant improvement over traditional CNN-RNN hybrids and existing
-    transforme
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345012
-  date: '2026-03-16'
-  source: Plos.org
