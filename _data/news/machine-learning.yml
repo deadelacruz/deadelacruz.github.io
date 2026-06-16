@@ -1,4 +1,26 @@
 news_items:
+- title: Building Time-Series Machine Learning Models with sktime in Python
+  description: In this article, we’ll build time-series machine learning models in
+    Python using sktime and explore its core data structures for forecasting workflows.
+  url: https://www.kdnuggets.com/building-time-series-machine-learning-models-with-sktime-in-python
+  date: '2026-06-15'
+  source: Kdnuggets.com
+- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-26/
+  date: '2026-06-15'
+  source: Nlppeople.com
+- title: Machine Learning Research Scientist
+  description: 'Summary: Join the Reality Labs team at Meta as we push the boundaries
+    of neuromotor interfaces. We are searching for experienced Research Scientists
+    who are passionate about product-driven machine learning and signal processing
+    research. Building on '
+  url: https://nlppeople.com/job/machine-learning-research-scientist-15/
+  date: '2026-06-15'
+  source: Nlppeople.com
 - title: Investigation of the molecular network underlying PET-MPs-induced inflammatory
     bowel disease via integrated machine learning and molecular docking approaches
   description: Scientific Reports - Investigation of the molecular network underlying
@@ -7,6 +29,24 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-57094-0
   date: '2026-06-14'
   source: Nature.com
+- title: Thermodynamic assessment of machine learning models for solid-state synthesis
+    prediction
+  description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D6MH00209A, CommunicationJane
+    Schlesinger, Simon Hjaltason, Nathan Szymanski, Christopher BartelMachine learning
+    models have recently emerged to predict whether hypothetical solid-state materials
+    c'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/mh/d6mh00209a
+  date: '2026-06-14'
+  source: Royal Society of Chemistry
+- title: 'EEGDash: An open-source platform for machine learning on public neurophysiological
+    data'
+  description: 'Public neurophysiological datasets are increasingly accessible but
+    remain hard to reuse: turning one into a trained model still takes thousands of
+    lines of code for download, loading, format repair, windowing, and evaluation,
+    and a dataset that meets'
+  url: https://arxiv.org/abs/2606.16041
+  date: '2026-06-14'
+  source: Arxiv.org
 - title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
     in its own backyard
   description: 'In times past, when we wanted to know which team would win the World
@@ -4018,100 +4058,4 @@ news_items:
     effects '
   url: https://pubs.rsc.org/en/content/articlelanding/2026/em/d5em00891c
   date: '2026-03-18'
-  source: Royal Society of Chemistry
-- title: Resonate and New Blue Interactive Win Best Use of Analytics and Machine Learning
-    in Online Fundraising at Annual Reed Awards
-  description: 'Resonate and New Blue Interactive win the Reed Award for Best Use
-    of Analytics/ML in Fundraising: 277% targeting lift, 64% more raised per email....'
-  url: https://www.globenewswire.com/news-release/2026/03/17/3257485/0/en/Resonate-and-New-Blue-Interactive-Win-Best-Use-of-Analytics-and-Machine-Learning-in-Online-Fundraising-at-Annual-Reed-Awards.html
-  date: '2026-03-17'
-  source: GlobeNewswire
-- title: Machine learning identifies novel signatures of antifungal drug resistance
-    in Saccharomycotina yeasts
-  description: Author summary Resistance to drugs is a major challenge in the treatment
-    of fungal infections. Many fungi are naturally resistant to antifungal drugs,
-    but the genetic variants involved are poorly characterized. We employed machine
-    learning, structura
-  url: https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1012091
-  date: '2026-03-17'
-  source: Plos.org
-- title: Explaining urban street perception inequities between residents and tourists
-    using interpretable machine learning
-  description: 'Understanding how different social groups perceive urban streets is
-    essential for inclusive and sustainable urban design. This study proposes an interpretable
-    and scalable machine learning framework that integrates Street View Images with
-    subjective '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345073
-  date: '2026-03-17'
-  source: Plos.org
-- title: 'AI vs. Machine Learning: Understanding the Differences and Real-World Applications'
-  description: Discover the key differences between artificial intelligence and machine
-    learning, explore real-world applications, and learn how to get started with AI
-    and ML technologies.
-  url: https://www.databricks.com/blog/ai-vs-machine-learning
-  date: '2026-03-17'
-  source: Databricks.com
-- title: How to Get Started with Machine Learning (2026 Implementation Guide)
-  description: 'Practical 2026 ML implementation guide: build your architecture, prepare
-    data, choose tools, and execute your first machine learning projects.'
-  url: https://flexiana.com/machine-learning-architecture/how-to-get-started-with-machine-learning-currentyear-implementation-guide
-  date: '2026-03-17'
-  source: Flexiana.com
-- title: 10 free AI and Machine Learning books you can read online in 2026
-  description: As interest in artificial intelligence continues to grow, several researchers
-    and universities have made high-quality AI and machine learning books freely available
-    online. These resources allow students and professionals to explore topics such
-    as de
-  url: https://timesofindia.indiatimes.com/education/news/10-free-ai-and-machine-learning-books-you-can-read-online-in-2026/articleshow/129625426.cms
-  date: '2026-03-17'
-  source: The Times of India
-- title: Machine Learning-Augmented Lateral Flow Assays for Point-of-Care Infectious
-    Disease Diagnostics
-  description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC01124H, Critical
-    Review Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Cagla Parmaksizoglu, Isil Cakiroglu, Nazente Atçeken, Eden '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc01124h
-  date: '2026-03-17'
-  source: Royal Society of Chemistry
-- title: 'Correction: Mechanism of RGD-conjugated nanodevice binding to its target
-    protein integrin αVβ3 by atomistic molecular dynamics and machine learning'
-  description: 'Nanoscale, 2026, Advance ArticleDOI: 10.1039/D6NR90037B, Correction
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Giulia Frigerio, Edoardo Donadoni, Paulo Siani, Jacopo Vertemara,
-    Stefano Motta, '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr90037b
-  date: '2026-03-17'
-  source: Royal Society of Chemistry
-- title: 'Correction: Machine learning for prompt estimation of macroseismic intensity
-    from seismometric data in Italy'
-  description: 'Scientific Reports - Correction: Machine learning for prompt estimation
-    of macroseismic intensity from seismometric data in Italy'
-  url: https://www.nature.com/articles/s41598-026-44475-8
-  date: '2026-03-17'
-  source: Nature.com
-- title: Machine learning-driven single-cell phenotyping in size-controlled microenvironments
-    via parallel deterministic droplet microfluidics
-  description: 'Lab Chip, 2026, Accepted ManuscriptDOI: 10.1039/D5LC00839E, Paper
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Sangmin Lee, Steven O''donnell, Zhangli Peng, Jae-Won ShinUnderstandin'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d5lc00839e
-  date: '2026-03-17'
-  source: Royal Society of Chemistry
-- title: Micro-SORS and machine learning for the non-invasive reference-free study
-    of subsurface pigment degradation
-  description: 'Analyst, 2026, Advance ArticleDOI: 10.1039/D5AN01176K, PaperA. Lux,
-    J. Schlanz, A. Botteon, L. Monico, P. Matousek, R. I. Dima, C. Conti, P. StrobbiaThe
-    study presents the development of micro-spatially offset Raman spectroscopy (micro-SORS)
-    methods '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01176k
-  date: '2026-03-17'
-  source: Royal Society of Chemistry
-- title: 'Correction: Towards advanced mineral identification for future space mining
-    applications employing LIBS and machine learning'
-  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA90012G,
-    Correction Open Access &nbsp This article is licensed under a Creative Commons
-    Attribution 3.0 Unported Licence.Homa Saeidfirozeh, Ashwin Kumar Myakalwar, Pavlína
-    Šeborová, Ján Žab'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja90012g
-  date: '2026-03-17'
   source: Royal Society of Chemistry

@@ -1,4 +1,13 @@
 news_items:
+- title: Deep learning completes US flood hazard maps revealing millions exposed to
+    previously unrecognized risk
+  description: Millions in the US lack official flood risk data. This study uses an
+    AI model to learn from existing maps and complete the US flood hazard map, revealing
+    over 11 million more people exposed to flood risks, a 69% increase from current
+    official records
+  url: https://www.nature.com/articles/s41467-026-74336-x
+  date: '2026-06-15'
+  source: Nature.com
 - title: Principled XAI analysis of the deep learning-based landslide susceptibility
     prediction model
   description: Scientific Reports - Principled XAI analysis of the deep learning-based
@@ -972,12 +981,4 @@ news_items:
     within a single d
   url: https://www.nature.com/articles/s41467-026-70587-w
   date: '2026-03-18'
-  source: Nature.com
-- title: 'Retraction Note: LungGANDetectAI: a GAN-augmented and attention-guided deep
-    learning framework for accurate and explainable lung cancer detection'
-  description: 'Scientific Reports - Retraction Note: LungGANDetectAI: a GAN-augmented
-    and attention-guided deep learning framework for accurate and explainable lung
-    cancer detection'
-  url: https://www.nature.com/articles/s41598-026-44623-0
-  date: '2026-03-17'
   source: Nature.com
