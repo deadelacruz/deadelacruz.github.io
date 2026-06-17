@@ -1,4 +1,11 @@
 news_items:
+- title: 'Retraction Note: Reinforcement learning-driven deep learning approaches
+    for optimized robot trajectory planning'
+  description: 'Scientific Reports - Retraction Note: Reinforcement learning-driven
+    deep learning approaches for optimized robot trajectory planning'
+  url: https://www.nature.com/articles/s41598-026-57775-w
+  date: '2026-06-16'
+  source: Nature.com
 - title: Deep learning completes US flood hazard maps revealing millions exposed to
     previously unrecognized risk
   description: Millions in the US lack official flood risk data. This study uses an
@@ -965,20 +972,4 @@ news_items:
     deep learning framework for emotion-aware facial recognition'
   url: https://www.nature.com/articles/s41598-026-41890-9
   date: '2026-03-19'
-  source: Nature.com
-- title: Canine gait analysis using inertial sensors and deep learning for orthopedic
-    and neurological disorders
-  description: Scientific Reports - Canine gait analysis using inertial sensors and
-    deep learning for orthopedic and neurological disorders
-  url: https://www.nature.com/articles/s41598-026-40717-x
-  date: '2026-03-18'
-  source: Nature.com
-- title: Multimodal ion-gated transistor based on 2D superionic conductor for in-memory
-    computing in deep learning
-  description: The authors report a CdPS3-Li multimodal ion-gated transistor that
-    combines linear, non-volatile electrical states with light-driven nonlinear synaptic
-    responses, enabling both multiply-accumulate operations and activation functions
-    within a single d
-  url: https://www.nature.com/articles/s41467-026-70587-w
-  date: '2026-03-18'
   source: Nature.com

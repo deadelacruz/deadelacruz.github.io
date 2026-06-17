@@ -1,4 +1,61 @@
 news_items:
+- title: NASA Uses Machine Learning to Enhance Flash Flood Warnings
+  description: The Transient Artifact and Continuous Learning System (TACLS) leverages data
+    from continuously operating satellite networks coupled with machine learning models to
+    help meteorologists at the National Weather Service forecast flash floods more
+    efficie
+  url: https://science.nasa.gov/science-research/science-enabling-technology/nasa-uses-machine-learning-to-enhance-flash-flood-warnings/
+  date: '2026-06-16'
+  source: NASA
+- title: Screening disease feature genes and analyzing correlations with immune cell
+    infiltration in knee osteoarthritis chondrocytes based on multiple machine learning
+    algorithms
+  description: 'Objective This study aimed to comprehensively analyze differentially
+    expressed genes (DEGs) in chondrocytes from patients with knee osteoarthritis
+    (OA) by integrating multiple machine learning algorithms and bioinformatics techniques,
+    to unravel the '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351666
+  date: '2026-06-16'
+  source: Plos.org
+- title: Staff Software Engineer – Machine Learning
+  description: 'Job Overview:Join our world-class team at Arm in western Europe, where
+    you will have the opportunity to contribute to powerful technological advancements.
+    As a Staff Software Engineer, you will engage with innovative projects that compose
+    the future '
+  url: https://nlppeople.com/job/staff-software-engineer-machine-learning-16/
+  date: '2026-06-16'
+  source: Nlppeople.com
+- title: Associate Professor in Machine Learning and Natural Language Processing (Social
+    Media Analytics)
+  description: 'This Job is based in Australia Associate Professor in Machine Learning
+    and Natural Language Processing (Social Media Analytics) Apply now Job no: 540051
+    Work type: Full Time Location: Sydney, NSW Categories: Associate Professor Job
+    Details Salary, Le'
+  url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-6/
+  date: '2026-06-16'
+  source: Nlppeople.com
+- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
+  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
+    England, United Kingdom Corporate Functions At Apple, we build AI systems that
+    define experiences for billions of people and we do it with an unwavering commitment
+    to privacy, per
+  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-8/
+  date: '2026-06-16'
+  source: Nlppeople.com
+- title: Benchmarking machine learning approaches for polarization mapping in ferroelectrics
+    using 4D-STEM
+  description: Scientific Reports - Benchmarking machine learning approaches for polarization
+    mapping in ferroelectrics using 4D-STEM
+  url: https://www.nature.com/articles/s41598-026-57754-1
+  date: '2026-06-16'
+  source: Nature.com
+- title: Explainable EEG-based machine learning for early diagnosis of Alzheimer’s
+    disease and frontotemporal dementia
+  description: Scientific Reports - Explainable EEG-based machine learning for early
+    diagnosis of Alzheimer’s disease and frontotemporal dementia
+  url: https://www.nature.com/articles/s41598-026-57069-1
+  date: '2026-06-16'
+  source: Nature.com
 - title: Building Time-Series Machine Learning Models with sktime in Python
   description: In this article, we’ll build time-series machine learning models in
     Python using sktime and explore its core data structures for forecasting workflows.
@@ -65,6 +122,15 @@ news_items:
   url: https://arxiv.org/abs/2606.16041
   date: '2026-06-14'
   source: Arxiv.org
+- title: Machine Learning Engineer, NLP | InsurTech, AI, Scale-up | London 5 Days
+    in Office, Stocks & Benefits
+  description: Machine Learning Engineer, NLP | InsurTech, AI, Scale-up | London 5
+    Days in Office, Up to £165,000 Stocks & Benefits Owen Thomas is partnering with
+    a high-growth, venture-backed InsurTech scale-up that is disrupting a massive
+    $200B global market. Usi
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-insurtech-ai-scale-up-london-5-days-in-office-stocks-benefits/
+  date: '2026-06-13'
+  source: Nlppeople.com
 - title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
     in its own backyard
   description: 'In times past, when we wanted to know which team would win the World
@@ -155,6 +221,14 @@ news_items:
     creativity across design, imaging, motion, and personalization. We’re looking
     for an engineer to h
   url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-10/
+  date: '2026-06-12'
+  source: Nlppeople.com
+- title: AI / Machine Learning and Data Scientist
+  description: Introduction to Human Longevity, Inc. (HLI) Human Longevity, Inc. (HLI)
+    is a global leader in precision health, combining cutting-edge genomics, imaging,
+    AI-driven diagnostics, and elite medical expertise to redefine proactive healthcare.
+    Our mission
+  url: https://nlppeople.com/job/ai-machine-learning-and-data-scientist-2/
   date: '2026-06-12'
   source: Nlppeople.com
 - title: GPU as a Service Market to Reach USD 14.4 Billion by 2033 at 16.0% CAGR,
@@ -4009,71 +4083,4 @@ news_items:
     devices, ch'
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc00685j
   date: '2026-03-19'
-  source: Royal Society of Chemistry
-- title: Walmart Secures Machine Learning Patents for Pricing Items
-  description: Walmart has secured U.S. patents for two systems that would use machine
-    learning to inform the company’s pricing, the Financial Times reported Wednesday
-    (March 18). One patent is for a “system and method for dynamically and automatically
-    updating ite
-  url: https://www.pymnts.com/walmart/2026/walmart-secures-machine-learning-patents-for-pricing-items/
-  date: '2026-03-18'
-  source: pymnts.com
-- title: 2026 Data Scientist to Machine Learning Engineer Career Transition Guide
-    Released – Build Production AI Systems by Interview Kickstart
-  description: SANTA CLARA, CA, March 18, 2026 (GLOBE NEWSWIRE) -- Interview Kickstart
-    Releases In-Depth Career Transitions Guide on Moving from Data Scientist to Machine
-    Learning Engineer as Demand for Production AI Talent Accelerates.
-  url: https://www.globenewswire.com/news-release/2026/03/18/3258438/0/en/2026-Data-Scientist-to-Machine-Learning-Engineer-Career-Transition-Guide-Released-Build-Production-AI-Systems-by-Interview-Kickstart.html
-  date: '2026-03-18'
-  source: GlobeNewswire
-- title: 7 Readability Features for Your Next Machine Learning Model
-  description: Unlike fully structured tabular data, preparing text data for machine
-    learning models typically entails tasks like tokenization, embeddings, or sentiment
-    analysis.
-  url: https://machinelearningmastery.com/7-readability-features-for-your-next-machine-learning-model/
-  date: '2026-03-18'
-  source: Machinelearningmastery.com
-- title: TransUnion Strengthens Device Security with New Machine Learning Capabilities
-  description: Enhancements Strengthen Device Intelligence to Protect Consumers and
-    Businesses in an Evolving Threat Landscape Enhancements Strengthen Device Intelligence
-    to Protect Consumers and Businesses in an Evolving Threat Landscape
-  url: https://www.globenewswire.com/news-release/2026/03/18/3258133/0/en/TransUnion-Strengthens-Device-Security-with-New-Machine-Learning-Capabilities.html
-  date: '2026-03-18'
-  source: GlobeNewswire
-- title: Machine learning-guided scalable manufacturing of high-efficiency perovskite
-    solar modules
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D5TA10235A,
-    PaperYuchen Bu, Junjie Gu, Yu Shen, Bairu Li, Cheng Hu, Jianning Ding, Long LuoThe
-    transition from lab-scale demonstrations to industrial production of perovskite
-    photovoltaics face'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d5ta10235a
-  date: '2026-03-18'
-  source: Royal Society of Chemistry
-- title: A machine learning-assisted Cu-MOF/OPD/RB triple-emission ratiometric fluorescence
-    sensing platform for the detection and discrimination of glutathione
-  description: 'Analyst, 2026, Advance ArticleDOI: 10.1039/D6AN00116E, PaperShiwen
-    Wu, Shuqi Wang, Hui Xie, Yaxin Li, Hongzhi Lu, Shuzhen Zheng, Shuai Sun, Shoufang
-    XuPreparation of a Cu-MOF and the construction of a triple-emission ratiometric
-    fluorescent probe (A)'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00116e
-  date: '2026-03-18'
-  source: Royal Society of Chemistry
-- title: 'Machine Learning-Driven Multidimensional Tea Profiling from a Single SERS
-    Spectrum: Toward Practical Application'
-  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D6AN00093B, PaperJincheng
-    Ni, Yanyan Lu, Xuewen Chen, Haoming Bao, Yu Qiao, Shuai Zhang, Daoshuan Ding,
-    Jiamei Jin, Huaiyuan Zhao, Qian Zhao, Jinhua Wang, Hongwen Zhang, Weiping CaiMultidimensional
-    tea p'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00093b
-  date: '2026-03-18'
-  source: Royal Society of Chemistry
-- title: 'Machine learning-driven QSAR models for prediction of Metabolic mechanisms
-    and Thyroid hormone disrupting effects of emerging pollutants in human body: a
-    case study of Bisphenol analogues'
-  description: 'Environ. Sci.: Processes Impacts, 2026, Accepted ManuscriptDOI: 10.1039/D5EM00891C,
-    PaperZijian Wang, Qingzhu Zhang, Wenxing Wang, Qiao WangResearch on theoretical
-    prediction methods for the reaction mechanisms and thyroid hormone disrupting
-    effects '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/em/d5em00891c
-  date: '2026-03-18'
   source: Royal Society of Chemistry
