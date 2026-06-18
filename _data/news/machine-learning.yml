@@ -1,4 +1,45 @@
 news_items:
+- title: 12 top machine learning use cases and business applications
+  description: Machine learning applications in the era of GenAI and AI agents are
+    increasing the efficiency and accuracy of everything from decision-making to maintenance
+    to service delivery.
+  url: https://www.techtarget.com/searchenterpriseai/feature/Top-12-machine-learning-use-cases-and-business-applications
+  date: '2026-06-17'
+  source: Techtarget.com
+- title: Combining machine learning and iterative experiments to keep pace with emerging
+    viral variants of concern
+  description: Author summary The COVID-19 pandemic highlighted the threat posed by
+    rapidly evolving viruses. SARS-CoV-2, the virus that causes COVID-19, continues
+    to mutate in ways that can reduce the effectiveness of neutralizing antibodies
+    from vaccines or prior
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014394
+  date: '2026-06-17'
+  source: Plos.org
+- title: Machine learning-driven identification of virulence determinants in Borrelia
+    burgdorferi associated with human dissemination
+  description: Author summary Lyme disease, caused by Borrelia burgdorferi (Bb), afflicts
+    over 470,000 Americans annually, yet predicting which infections will progress
+    from localized to disseminated disease remains a critical clinical challenge.
+    Despite decades of
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014407
+  date: '2026-06-17'
+  source: Plos.org
+- title: Senior AI / Machine Learning Engineer
+  description: About Absentia Labs Absentia Labs is building intelligent systems that
+    sit at the intersection of AI, biology, chemistry, and large-scale engineering.
+    Our goal is to translate complex scientific data into machine intelligence capable
+    of reasoning, ge
+  url: https://nlppeople.com/job/senior-ai-machine-learning-engineer/
+  date: '2026-06-17'
+  source: Nlppeople.com
+- title: Senior Data Scientist – AI / Machine Learning
+  description: Senior Data Scientist – AI & Machine Learning ($175k – $225k) GEOSPACE
+    LLC | Minneapolis, MN (Hybrid) | Full-Time About Us GEOSPACE is a Minneapolis-based
+    startup with new perspectives on acquiring, transforming, and applying 3D data
+    for the real est
+  url: https://nlppeople.com/job/senior-data-scientist-ai-machine-learning/
+  date: '2026-06-17'
+  source: Nlppeople.com
 - title: NASA Uses Machine Learning to Enhance Flash Flood Warnings
   description: The Transient Artifact and Continuous Learning System (TACLS) leverages data
     from continuously operating satellite networks coupled with machine learning models to
@@ -56,6 +97,31 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-57069-1
   date: '2026-06-16'
   source: Nature.com
+- title: Machine Learning Engineer – Data Pipeline
+  description: 'About us: At Articul8 AI, we relentlessly pursue excellence and create
+    exceptional AI products that exceed customer expectations. We are a team of dedicated
+    individuals who take pride in our work and strive for greatness in every aspect
+    of our busine'
+  url: https://nlppeople.com/job/machine-learning-engineer-data-pipeline/
+  date: '2026-06-16'
+  source: Nlppeople.com
+- title: Associate Professor in Machine Learning and Natural Language Processing (Social
+    Media Analytics)
+  description: 'This Job is based in Australia Associate Professor in Machine Learning
+    and Natural Language Processing (Social Media Analytics) Apply now Job no: 540051
+    Work type: Full Time Location: Sydney, NSW Categories: Associate Professor Job
+    Details Salary, Le'
+  url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-7/
+  date: '2026-06-16'
+  source: Nlppeople.com
+- title: AI Engineer Machine learning and Model Development Remote 68968
+  description: 'Job Description Job Title: AI Engineer – Machine Learning and Model
+    Development Location: Remote in St. Louis, MO Job Type Immediate need, W2 direct
+    hire (no subcontracting permitted) Key Responsibilities Design, develop, and deploy
+    end-to-end AI app'
+  url: https://nlppeople.com/job/ai-engineer-machine-learning-and-model-development-remote-68968/
+  date: '2026-06-16'
+  source: Nlppeople.com
 - title: Building Time-Series Machine Learning Models with sktime in Python
   description: In this article, we’ll build time-series machine learning models in
     Python using sktime and explore its core data structures for forecasting workflows.
@@ -4024,63 +4090,4 @@ news_items:
     integrates '
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00306k
   date: '2026-03-20'
-  source: Royal Society of Chemistry
-- title: Autoscience builds automated research lab for machine learning models with
-    $14M
-  description: Artificial intelligence startup Autoscience Institute has launched
-    with $14 million in seed funding to automate research into new machine learning
-    models. Instead of simply building yet another machine learning model, Autoscience
-    is developing an aut
-  url: https://siliconangle.com/2026/03/19/autoscience-builds-automated-research-lab-machine-learning-models-14m/
-  date: '2026-03-19'
-  source: SiliconANGLE News
-- title: Genomic evolution of SARS-CoV-2 delta variants pre- and post-omicron emergence
-    using alignment-free machine learning models
-  description: The SARS-CoV-2 Delta variant (B.1.617.2), initially classified as a
-    variant of concern due to its enhanced transmissibility and vaccine-escape mutations,
-    underwent further genomic changes following the emergence of the Omicron variant
-    (B.1.1.529). Th
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345259
-  date: '2026-03-19'
-  source: Plos.org
-- title: Gene expression and metadata based identification of key genes for lung cancer,
-    COPD, and IPF using machine learning and statistical models
-  description: Lung cancer (LC) is one of the most prevalent and deadly cancers globally,
-    presenting a major public health challenge. Patients with chronic obstructive
-    pulmonary disease (COPD) and idiopathic pulmonary fibrosis (IPF) are at a significantly
-    higher ri
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344666
-  date: '2026-03-19'
-  source: Plos.org
-- title: 'Expression of Concern: Enhanced surface plasmon resonance biosensor with
-    graphene-black phosphorus heterostructure for ultra-high sensitivity refractive
-    index detection with machine learning for behaviour prediction'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345133
-  date: '2026-03-19'
-  source: Plos.org
-- title: 'Interview: Huy Dao, director of data and machine learning platform, Booking.com'
-  description: Effective use of technology has already delivered significant cost
-    savings at the online travel giant, and greater use of AI and machine learning
-    promises to bring even greater opportunities to improve
-  url: https://www.computerweekly.com/news/366640174/Interview-Huy-Dao-director-of-data-and-machine-learning-platform-Bookingcom
-  date: '2026-03-19'
-  source: ComputerWeekly.com
-- title: A Combined First-Principles and Machine Learning Study of Phase Stability
-    and Thermoelectric Properties in ZrSiPt
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04318B,
-    PaperN Serir, M Khenata, Rabah Khenata, H R Jappor, D Singh, Sh Rab, H. Meradji,
-    S. Bin-Omran, Souraya Goumri-SaidZrSiPt is an interesting ternary compound that
-    has two differ'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04318b
-  date: '2026-03-19'
-  source: Royal Society of Chemistry
-- title: 'Accelerating Organic Luminescent Material Discovery: From Quantum Chemical
-    Calculations to Machine Learning'
-  description: 'Chem. Commun., 2026, Accepted ManuscriptDOI: 10.1039/D6CC00685J, Feature
-    ArticleYi Zeng, Shichen Zhang, Wen-Yu Guo, Xiao-Yan ZhengOrganic luminescent materials
-    have gathered significant attentions for their pivotal roles in optoelectronic
-    devices, ch'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc00685j
-  date: '2026-03-19'
   source: Royal Society of Chemistry
