@@ -1,4 +1,29 @@
 news_items:
+- title: A deep learning-based automated Solar-Powered Fish Monitoring System
+  description: Green fish farming represents an integrated aquaculture approach that
+    rears aquatic organisms in controlled environments to improve production efficiency
+    and environmental sustainability. Although significant, current green fish farming
+    practices are
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351628
+  date: '2026-06-18'
+  source: Plos.org
+- title: A universal deep learning framework for empowering nanopore identification
+    by reinforcing temporal signals
+  description: 'Nanopore sensing struggles to resolve structurally similar molecules
+    from noisy temporal signals. Here, authors present SEDA-Former, which integrates
+    multi-scale temporal enhancement and progressive adaptive attention training,
+    to achieve robust and '
+  url: https://www.nature.com/articles/s41467-026-74507-w
+  date: '2026-06-18'
+  source: Nature.com
+- title: Agricultural sustainability monitoring in arid regions using hybrid deep
+    learning and Landsat 8 imagery in Najran City, Saudi Arabia
+  description: Scientific Reports - Agricultural sustainability monitoring in arid
+    regions using hybrid deep learning and Landsat 8 imagery in Najran City, Saudi
+    Arabia
+  url: https://www.nature.com/articles/s41598-026-58271-x
+  date: '2026-06-18'
+  source: Nature.com
 - title: 'What’s New in the AI Platform: Agents for ML Engineering, Our Deep Learning
     Platform, and New Capabilities for Real-Time ML'
   description: "* Build ML systems faster with Genie Code, a coding agent that helps\
