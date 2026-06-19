@@ -15,6 +15,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-56831-9
   date: '2026-06-18'
   source: Nature.com
+- title: Machine Learning-Aided 3D-AFM for Identification of Spatial Heterogeneity
+    in Interfacial Solvation Structures
+  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR00856A, PaperJiacheng
+    Li, Ming Ma, Zehao Li, Zhi Xu, Changlong Ruan, Jinhu Yang, Han LiInterfacial solvation
+    structures are crucial in wide-ranging applications, including lubrication and
+    electroch'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr00856a
+  date: '2026-06-18'
+  source: Royal Society of Chemistry
 - title: 12 top machine learning use cases and business applications
   description: Machine learning applications in the era of GenAI and AI agents are
     increasing the efficiency and accuracy of everything from decision-making to maintenance
@@ -138,6 +147,12 @@ news_items:
   url: https://nlppeople.com/job/ai-engineer-machine-learning-and-model-development-remote-68968/
   date: '2026-06-16'
   source: Nlppeople.com
+- title: Zen and the Art of Machine Learning Research
+  description: if you want to do world-class research, temperament matters more than
+    talent
+  url: https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning
+  date: '2026-06-16'
+  source: Jxmo.io
 - title: Building Time-Series Machine Learning Models with sktime in Python
   description: In this article, we’ll build time-series machine learning models in
     Python using sktime and explore its core data structures for forecasting workflows.
