@@ -1,4 +1,12 @@
 news_items:
+- title: Development of an anemia detection model in emergency departments using lip
+    region images based on medical knowledge and deep learning technology
+  description: Scientific Reports - Development of an anemia detection model in emergency
+    departments using lip region images based on medical knowledge and deep learning
+    technology
+  url: https://www.nature.com/articles/s41598-026-40210-5
+  date: '2026-06-20'
+  source: Nature.com
 - title: Deep Learning Market to Reach $1,963.25 Billion by 2035 as Generative AI
     and Enterprise Automation Drive Massive AI Investments | Research by SNS Insider
   description: The U.S. Deep Learning Market is Projected to Grow from $37.14 Billion
@@ -1001,11 +1009,4 @@ news_items:
     protein '
   url: https://www.nature.com/articles/s41592-026-03042-9
   date: '2026-03-23'
-  source: Nature.com
-- title: A low-latency deep learning framework for volcanic ash cloud nowcasting using
-    geostationary satellite imagery
-  description: Scientific Reports - A low-latency deep learning framework for volcanic
-    ash cloud nowcasting using geostationary satellite imagery
-  url: https://www.nature.com/articles/s41598-026-42230-7
-  date: '2026-03-22'
   source: Nature.com
