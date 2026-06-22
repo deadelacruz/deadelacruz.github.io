@@ -1,4 +1,11 @@
 news_items:
+- title: Prediction of physicochemical properties of organic compounds using degree-based
+    topological indices and machine learning models
+  description: Scientific Reports - Prediction of physicochemical properties of organic
+    compounds using degree-based topological indices and machine learning models
+  url: https://www.nature.com/articles/s41598-026-58103-y
+  date: '2026-06-21'
+  source: Nature.com
 - title: Machine Learning Engineer
   description: At Corsearch, we are dedicated to creating a world where consumers
     can trust the choices they make. As a global leader in Trademark and Brand Protection,
@@ -4103,44 +4110,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00850j
   date: '2026-03-24'
   source: Royal Society of Chemistry
-- title: What is Machine Learning Pipeline?
-  description: Automate ML model building, training, & deployment with a Machine Learning
-    Pipeline. Streamline workflow, enhance data management, & boost efficiency. Learn
-    how!
-  url: https://www.c-sharpcorner.com/article/what-is-machine-learning-pipeline/
-  date: '2026-03-23'
-  source: C-sharpcorner.com
-- title: 'Opportunistic screening data for early prediction of GDM in Northern Chinese
-    women: a multicenter machine learning study'
-  description: 'Zhai, H., Che, L., Xu, T., Li, N., Li, C., Xin, J., Zhang, X., Liu,
-    Y., Li, Y., Ma, Z. & +1 more...Li, Y. (2026). Opportunistic screening data for
-    early prediction of GDM in Northern Chinese women: a multicenter machine learning
-    study. Scientific Rep'
-  url: https://researchonline.lse.ac.uk/id/eprint/137722/
-  date: '2026-03-23'
-  source: Lse.ac.uk
-- title: Molecular dynamics simulation of nitrogen diffusion in iron and iron nitrides
-    using ab initio data trained machine learning potentials
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00172F,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Peijie FENG, Lele Aditya Dilip, Minhyeok Lee, Yiguang Ju,
-    Yuji Suzuk'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00172f
-  date: '2026-03-23'
-  source: Royal Society of Chemistry
-- title: Machine learning modelling of a nonlinear environmental index with sensitivity
-    analysis for groundwater assessment
-  description: Scientific Reports - Machine learning modelling of a nonlinear environmental
-    index with sensitivity analysis for groundwater assessment
-  url: https://www.nature.com/articles/s41598-026-44906-6
-  date: '2026-03-23'
-  source: Nature.com
-- title: 'Correction: Estimation of sexual dimorphism of adult human mandibles of
-    South Indian origin using non-metric parameters and machine learning classification
-    algorithms'
-  description: 'Scientific Reports - Correction: Estimation of sexual dimorphism of
-    adult human mandibles of South Indian origin using non-metric parameters and machine
-    learning classification algorithms'
-  url: https://www.nature.com/articles/s41598-026-44683-2
-  date: '2026-03-23'
-  source: Nature.com

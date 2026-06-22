@@ -1,4 +1,12 @@
 news_items:
+- title: 'smDeepFLUOR: single-molecule deep learning fluorescence classification'
+  description: Single-molecule fluorescence imaging struggles to distinguish signals
+    from different molecular events when intensity profiles appear similar. Here,
+    the authors introduce smDeepFLUOR, a deep learning framework that classifies spatiotemporal
+    fluorescen
+  url: https://www.nature.com/articles/s41467-026-74716-3
+  date: '2026-06-21'
+  source: Nature.com
 - title: Development of an anemia detection model in emergency departments using lip
     region images based on medical knowledge and deep learning technology
   description: Scientific Reports - Development of an anemia detection model in emergency
@@ -1001,12 +1009,3 @@ news_items:
   url: https://ieeexplore.ieee.org/document/11456331
   date: '2026-03-25'
   source: Ieee.org
-- title: Integration of alternative fragmentation techniques into standard LC-MS workflows
-    using a single deep learning model enhances proteome coverage
-  description: 'An integrated mass spectrometry platform enabling automated collision-,
-    electron- and photon-based fragmentation techniques is presented. A deep learning-based
-    model trained to predict spectra across all dissociation methods further enhances
-    protein '
-  url: https://www.nature.com/articles/s41592-026-03042-9
-  date: '2026-03-23'
-  source: Nature.com
