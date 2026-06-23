@@ -1,4 +1,30 @@
 news_items:
+- title: Evaluating machine learning algorithms at predicting developmental trajectories
+    using sequential dataset truncation of voluntary alcohol consumption in adolescent
+    mice
+  description: Background Adolescent alcohol consumption is a known risk factor for
+    developing alcohol use disorder (AUD) in adulthood, but individual susceptibility
+    varies widely, contributed to by differences in factors that are not well-understood.
+    Identifying p
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352197
+  date: '2026-06-22'
+  source: Plos.org
+- title: "Machine learning prediction and hybrid GRA–AHP optimization of AWJM parameters\
+    \ of ultrasonic assisted stir cast Al6061–B$$_4$$\r\nC–ZrO$$_2$$\r\n composites"
+  description: Scientific Reports - Machine learning prediction and hybrid GRA–AHP
+    optimization of AWJM parameters of ultrasonic assisted stir cast Al6061–B$$_4$$C–ZrO$$_2$$
+    composites
+  url: https://www.nature.com/articles/s41598-026-58314-3
+  date: '2026-06-22'
+  source: Nature.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-11/
+  date: '2026-06-22'
+  source: Nlppeople.com
 - title: Prediction of physicochemical properties of organic compounds using degree-based
     topological indices and machine learning models
   description: Scientific Reports - Prediction of physicochemical properties of organic
@@ -6,6 +32,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-58103-y
   date: '2026-06-21'
   source: Nature.com
+- title: A/AI Machine Learning Engineer- Early Career
+  description: 'Job ID: 732822BR Date posted: Jun. 18, 2026 Description:At Lockheed
+    Martin we keep people safe and solve the world’s most complex challenges. Our
+    people are some of the greatest minds in the industry and truly make Lockheed
+    Martin a great place to wo'
+  url: https://nlppeople.com/job/a-ai-machine-learning-engineer-early-career-4/
+  date: '2026-06-20'
+  source: Nlppeople.com
 - title: Machine Learning Engineer
   description: At Corsearch, we are dedicated to creating a world where consumers
     can trust the choices they make. As a global leader in Trademark and Brand Protection,
@@ -80,6 +114,15 @@ news_items:
     Prolific Prolific is building the biggest pool of quality human data in the world.
     Over 35,000 AI
   url: https://nlppeople.com/job/ai-machine-learning-engineer-leaders-and-decision-makers-for-workflow-management-tools-freelance/
+  date: '2026-06-18'
+  source: Nlppeople.com
+- title: Artificial Intelligence & Machine Learning, Vice President | Boston, MA,
+    USA
+  description: Artificial Intelligence & Machine Learning, Vice President Who we are
+    looking for We are looking for an Artificial Intelligence & Machine Learning,
+    Vice President with a robust background in Generative AI, Machine Learning, enterprise
+    architecture, c
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-vice-president-boston-ma-usa-2/
   date: '2026-06-18'
   source: Nlppeople.com
 - title: 12 top machine learning use cases and business applications
@@ -4073,40 +4116,4 @@ news_items:
     3.0 Unported Licence.Yixi Shen, Ledu Wang, Yan Huang, Xiaolong Zhang, Meng Huang,'
   url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc08794e
   date: '2026-03-25'
-  source: Royal Society of Chemistry
-- title: 'Machine learning for predicting colorectal cancer-specific mortality: the
-    role of socioeconomic inequalities in public policy'
-  description: 'Delpino, F. M., Friebel, R. ORCID logo , Tustumi, F., Siqueira, M.
-    M., Pereira, G. R., Teivelis, M. P., Correa, L. H. & Wolosker, N. (2026). Machine
-    learning for predicting colorectal cancer-specific mortality: the role of socioeconomic
-    inequalities '
-  url: https://researchonline.lse.ac.uk/id/eprint/137745/
-  date: '2026-03-24'
-  source: Lse.ac.uk
-- title: 'Wild mushroom consumption susceptibility among Chinese university students:
-    A machine learning study'
-  description: Objectives To investigate factors associated with susceptibility to
-    wild mushroom consumption using machine learning approaches and identify key predictors
-    for targeted intervention development.   Methods A cross-sectional survey of 216
-    Chinese unive
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345659
-  date: '2026-03-24'
-  source: Plos.org
-- title: Improving the composition of donor milk using machine learning and optimisation
-    techniques
-  description: Background and aims The macronutrient composition of donor human milk
-    (DHM) can vary substantially due to several factors such as maternal age, diet,
-    and lactation duration. However, consistent macronutrient levels in DHM facilitate
-    the administratio
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345653
-  date: '2026-03-24'
-  source: Plos.org
-- title: Machine Learning Aided Design of Reversible MXene Electrocatalysts for Li-Air
-    Batteries
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA00850J,
-    PaperSandeep Das, Souvik Manna, Amitabha Das, Brindaban Modak, Biswarup PathakLi-air
-    batteries (LABs) are noted for their remarkable potential to deliver high energy
-    density. Howeve'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00850j
-  date: '2026-03-24'
   source: Royal Society of Chemistry
