@@ -49,6 +49,15 @@ news_items:
   url: https://nlppeople.com/job/remote-senior-machine-learning-engineer/
   date: '2026-06-23'
   source: Nlppeople.com
+- title: Machine Learning Driven Design of Polymer Dielectrics for High Temperature
+    Capacitive Energy Storage
+  description: 'Energy Environ. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6EE01953F,
+    PaperDongduan Liu, Ruojie Cheng, Qiao Li, Feng Wang, Yongqiu Li, Hongxiao Yang,
+    Mingfeng Shen, Qian Zhou, Jinliang He, Qi Li, Chao YuanPolymer dielectric capacitors
+    capable of st'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ee/d6ee01953f
+  date: '2026-06-23'
+  source: Royal Society of Chemistry
 - title: Evaluating machine learning algorithms at predicting developmental trajectories
     using sequential dataset truncation of voluntary alcohol consumption in adolescent
     mice
