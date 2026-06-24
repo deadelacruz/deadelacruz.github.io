@@ -1,4 +1,13 @@
 news_items:
+- title: 'Bayesian Uncertainty-aware Deep Learning with noisy labels: Tackling annotation
+    ambiguity in EEG seizure detection'
+  description: Deep learning is advancing EEG processing for automated epileptic seizure
+    detection and onset zone localization, yet its performance relies heavily on high-quality
+    annotated training data. However, scalp EEG is susceptible to high noise levels,
+    which
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352191
+  date: '2026-06-23'
+  source: Plos.org
 - title: 'smDeepFLUOR: single-molecule deep learning fluorescence classification'
   description: Single-molecule fluorescence imaging struggles to distinguish signals
     from different molecular events when intensity profiles appear similar. Here,
@@ -966,46 +975,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-45682-z
   date: '2026-03-26'
   source: Nature.com
-- title: Overcoming extrapolation challenges of deep learning by incorporating physics
-    in protein sequence-function modeling
-  description: Author summary Deep learning has fundamentally transformed science
-    and research in recent years. Yet, many problems in biophysics and biochemistry
-    remain inaccessible to traditional deep learning due to a lack of large training
-    data. Incorporating ph
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013728
-  date: '2026-03-25'
-  source: Plos.org
-- title: 'Transformer-based deep learning model for real-time prediction of intraoperative
-    hypotension using dynamic time-series vital signs: A retrospective study'
-  description: In this retrospective study, Shouqiang Zhu, Weihai Shi and developed
-    a deep learning model for real-time prediction on intraoperative hypotension using
-    dynamic time-series vital signs from a Chinese cohort.
-  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005024
-  date: '2026-03-25'
-  source: Plos.org
-- title: 'Automated detection of physical contact events in youth ice hockey: a player-centric
-    deep learning approach'
-  description: Youth ice hockey lacks scalable, automated tools to quantify collision
-    exposure and efficiently identify candidate head-impact events from routine game
-    video. This study presents a player-centric, video-based pipeline for detecting
-    physical contact e
-  url: https://www.nature.com/articles/s41598-026-44805-w
-  date: '2026-03-25'
-  source: Nature.com
-- title: 'CommUNext: Deep Learning-Based Cross-Band and Multi-Directional Signal Prediction'
-  description: Sixth-generation (6G) networks are envisioned to achieve full-band
-    cognition by jointly utilizing spectrum resources from Frequency Range 1 (FR1)
-    to Frequency Range 3 (FR3, 7–24 GHz). Realizing this vision faces two challenges.
-    First, physics-based r
-  url: https://ieeexplore.ieee.org/document/11456335
-  date: '2026-03-25'
-  source: Ieee.org
-- title: Deep Learning-Based Dynamic Environment Reconstruction for Vehicular ISAC
-    Scenarios
-  description: Integrated Sensing and Communication (ISAC) technology plays a critical
-    role in future intelligent transportation systems, by enabling vehicles to perceive
-    and reconstruct the surrounding environment through reuse of wireless signals,
-    thereby reducin
-  url: https://ieeexplore.ieee.org/document/11456331
-  date: '2026-03-25'
-  source: Ieee.org

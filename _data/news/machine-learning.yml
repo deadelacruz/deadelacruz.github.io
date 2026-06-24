@@ -1,4 +1,54 @@
 news_items:
+- title: Domino Data Lab Named a Visionary for the Third Consecutive Year in the 2026
+    Gartner® Magic Quadrant™ for AI Platforms for Data Science and Machine Learning
+  description: Recognized for its Ability to Execute and Completeness of Vision. SAN
+    FRANCISCO, June 23, 2026 /PRNewswire/ -- Domino Data Lab, provider of the unified
+    platform to build, scale, and govern AI-powered applications for the most-regulated
+    enterprises, t
+  url: https://www.prnewswire.com/news-releases/domino-data-lab-named-a-visionary-for-the-third-consecutive-year-in-the-2026-gartner-magic-quadrant-for-ai-platforms-for-data-science-and-machine-learning-302808062.html
+  date: '2026-06-23'
+  source: PRNewswire
+- title: BetGiant Launches AI Football Prediction App with Machine Learning, Ancient
+    Oracle Systems & Automated Trading Engine for the 2026 FIFA World Cup & All Football
+    Leagues
+  description: BetGiant launches AI football prediction app; real-time match simulations,
+    oracle-powered picks & live football prediction. Free on iOS, Android & web....
+  url: https://www.globenewswire.com/news-release/2026/06/23/3316174/0/en/BetGiant-Launches-AI-Football-Prediction-App-with-Machine-Learning-Ancient-Oracle-Systems-Automated-Trading-Engine-for-the-2026-FIFA-World-Cup-All-Football-Leagues.html
+  date: '2026-06-23'
+  source: GlobeNewswire
+- title: 'More than 10% AI solutions and machine learning engineer jobs in India waiting
+    to be filled: Randstad Digital report'
+  description: India faces a significant AI talent crunch, with one in ten AI solutions
+    lead and machine learning engineer job postings unfilled. While India holds a
+    fifth of global AI job openings, the primary challenge is a shortage of advanced
+    skills, not a lack
+  url: https://economictimes.indiatimes.com/jobs/hr-policies-trends/more-than-10-ai-solutions-and-machine-learning-engineer-jobs-in-india-waiting-to-be-filled-randstad-digital-report/articleshow/131932698.cms
+  date: '2026-06-23'
+  source: The Times of India
+- title: Machine Learning Systems Engineer, Ads ML Platform
+  description: 'Reddit is a community of communities. It’s built on shared interests,
+    passion, and trust, and is home to the most open and authentic conversations on
+    the internet. Every day, Reddit users submit, vote, and comment on the topics
+    they care most about. '
+  url: https://nlppeople.com/job/machine-learning-systems-engineer-ads-ml-platform-2/
+  date: '2026-06-23'
+  source: Nlppeople.com
+- title: Graduate AI Machine Learning Engineer
+  description: 'About the Role: We are seeking a motivated and technically skilled
+    AI Machine Learning Engineer to join our growing team based in Central London.
+    This is an exciting opportunity for someone passionate about artificial intelligence
+    and data-driven sol'
+  url: https://nlppeople.com/job/graduate-ai-machine-learning-engineer/
+  date: '2026-06-23'
+  source: Nlppeople.com
+- title: Remote Senior Machine Learning Engineer
+  description: This is a vacancy for a hybrid, remote or on-site role at one of our
+    HQs. We encourage applications from all qualified candidates, regardless of gender
+    identity. As we continue to expand and evolve our Data Platform and Data Network
+    products, we’re l
+  url: https://nlppeople.com/job/remote-senior-machine-learning-engineer/
+  date: '2026-06-23'
+  source: Nlppeople.com
 - title: Evaluating machine learning algorithms at predicting developmental trajectories
     using sequential dataset truncation of voluntary alcohol consumption in adolescent
     mice
@@ -4086,34 +4136,3 @@ news_items:
   url: https://nlppeople.com/job/sr-lead-machine-learning-engineer-enterprise-platforms-technology/
   date: '2026-03-26'
   source: Nlppeople.com
-- title: 'Modeling diarrhea in children under five in Somaliland: A machine learning
-    analysis using SLDHS 2020 data'
-  description: Background Diarrhea remains a leading cause of morbidity and mortality
-    among children under five years of age, particularly in low- and middle-income
-    countries. This study investigated the prevalence and determinants of diarrhea
-    in Somaliland using n
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0345482
-  date: '2026-03-25'
-  source: Plos.org
-- title: AI agents are flashy, but machine learning still pays the bills
-  description: As agent hype fades, machine learning quietly proves it’s still essential.
-  url: https://www.techradar.com/pro/ai-agents-are-flashy-but-machine-learning-still-pays-the-bills
-  date: '2026-03-25'
-  source: TechRadar
-- title: Estimation of surface PM2.5 over the Indo-Gangetic Basin using MERRA-2 reanalysis
-    and machine learning
-  description: Fine particulate matter (PM2.5) is a significant air pollutant in the
-    Indo Gangetic Basin (IGB), where levels frequently exceed national and WHO air
-    quality standards. Ground observations from 183 CPCB automatic stations, along
-    with MERRA-2 reanalysi
-  url: https://www.nature.com/articles/s41598-026-37934-9
-  date: '2026-03-25'
-  source: Nature.com
-- title: Unlocking azobenzene isomerization mechanisms via an LLM agent-driven workflow
-    integrating simulation, experiment, and machine learning
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D5SC08794E, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Yixi Shen, Ledu Wang, Yan Huang, Xiaolong Zhang, Meng Huang,'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d5sc08794e
-  date: '2026-03-25'
-  source: Royal Society of Chemistry
