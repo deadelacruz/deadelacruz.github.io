@@ -12,6 +12,15 @@ news_items:
   url: https://www.nature.com/articles/s41586-026-10674-6
   date: '2026-06-24'
   source: Nature.com
+- title: Deep Learning-Enabled Microfluidic Digital PCR Platform for Efficient Seven-Color
+    Quantification
+  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D6AN00369A, PaperZhenyu
+    Wang, Ke Yang, Jin Zhang, Changyi Hua, Yuanzhi Zhang, Quanfu Wang, Anzhong Hu,
+    Weilong Zhang, Yong Liu, Guoqing Deng, Jun Zhao, Ling ZhuDigital PCR (dPCR), as
+    a high-sensitivity t'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00369a
+  date: '2026-06-24'
+  source: Royal Society of Chemistry
 - title: 'Bayesian Uncertainty-aware Deep Learning with noisy labels: Tackling annotation
     ambiguity in EEG seizure detection'
   description: Deep learning is advancing EEG processing for automated epileptic seizure
