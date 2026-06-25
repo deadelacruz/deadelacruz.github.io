@@ -1,4 +1,26 @@
 news_items:
+- title: Riviera Partners Acquires Lateral Labs, Expanding Its AI and Machine Learning
+    Talent Search and Placement Capabilities
+  description: Riviera Partners, the leading global executive search firm specializing
+    in technology leadership, today announced the acquisition of Lateral Labs....
+  url: https://www.globenewswire.com/news-release/2026/06/24/3317108/0/en/Riviera-Partners-Acquires-Lateral-Labs-Expanding-Its-AI-and-Machine-Learning-Talent-Search-and-Placement-Capabilities.html
+  date: '2026-06-24'
+  source: GlobeNewswire
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-12/
+  date: '2026-06-24'
+  source: Nlppeople.com
+- title: Regional differences in physical fitness profiles of preschool children in
+    Chongqing China revealed by machine learning
+  description: Scientific Reports - Regional differences in physical fitness profiles
+    of preschool children in Chongqing China revealed by machine learning
+  url: https://www.nature.com/articles/s41598-026-59211-5
+  date: '2026-06-24'
+  source: Nature.com
 - title: Domino Data Lab Named a Visionary for the Third Consecutive Year in the 2026
     Gartner® Magic Quadrant™ for AI Platforms for Data Science and Machine Learning
   description: Recognized for its Ability to Execute and Completeness of Vision. SAN
@@ -58,6 +80,15 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ee/d6ee01953f
   date: '2026-06-23'
   source: Royal Society of Chemistry
+- title: 'Advances in machine learning-driven lignin valorization: from dissolution,
+    characterization, to high-value conversion'
+  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC02374F, Tutorial
+    ReviewWeilu Ding, Yongjiang Hu, Yumiao Lu, Ziqi Zhai, Kaixuan Li, Hongyan HeLignin
+    is the most abundant renewable aromatic carbon resource on Earth, offering tremendous
+    potential'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc02374f
+  date: '2026-06-23'
+  source: Royal Society of Chemistry
 - title: Evaluating machine learning algorithms at predicting developmental trajectories
     using sequential dataset truncation of voluntary alcohol consumption in adolescent
     mice
@@ -82,6 +113,24 @@ news_items:
     tangible business outcomes. Our clients engage Attadale because our work drives
     change that inc
   url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-11/
+  date: '2026-06-22'
+  source: Nlppeople.com
+- title: AI / Machine Learning Engineer Leaders and Decision-Makers for Workflow Management
+    Tools (Freelance
+  description: 'Job Description AI / Machine Learning Engineer Leaders and Decision-Makers
+    for Workflow Management Tools Location: Nashville, TN (On-site, Remote) About
+    The Role We are inviting experienced professionals in AI / Machine Learning Engineer
+    leadership r'
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-leaders-and-decision-makers-for-workflow-management-tools-freelance-2/
+  date: '2026-06-22'
+  source: Nlppeople.com
+- title: AI & Machine Learning Engineering Consultant – Power & Utilities Sector –
+    Manager – Consulting
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-power-utilities-sector-manager-consulting-2/
   date: '2026-06-22'
   source: Nlppeople.com
 - title: Prediction of physicochemical properties of organic compounds using degree-based
@@ -4118,30 +4167,4 @@ news_items:
     to expand the ava'
   url: https://nlppeople.com/job/sr-machine-learning-ai-engineer/
   date: '2026-03-27'
-  source: Nlppeople.com
-- title: Machine learning potential-assisted design of thermoelectricvperformance
-    in anharmonic CsPbBr3 and CsPbI3†
-  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00498A,
-    PaperYuanyuan Chen, Shuo Cao, Yu Bao, KeKe Song, Ping Qian, Yanjing SuThe structural
-    stability and thermoelectric properties of halide perovskites were investigated
-    using a combinat'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00498a
-  date: '2026-03-26'
-  source: Royal Society of Chemistry
-- title: Associate – Artificial Intelligence and Machine Learning Technical Risk,
-    Enterprise Services Risk, Cyber Risk & Analysis
-  description: Associate – Artificial Intelligence and Machine Learning Technical
-    Risk, Enterprise Services Risk, Cyber Risk & Analysis The Enterprise Services
-    Risk organization is expanding with a focus on attracting innovative, pioneering,
-    collaborative, and high
-  url: https://nlppeople.com/job/associate-artificial-intelligence-and-machine-learning-technical-risk-enterprise-services-risk-cyber-risk-analysis/
-  date: '2026-03-26'
-  source: Nlppeople.com
-- title: Sr. Lead, Machine Learning Engineer (Enterprise Platforms Technology)
-  description: Sr. Lead, Machine Learning Engineer (Enterprise Platforms Technology)
-    As a Capital One Machine Learning Engineer (MLE), you’ll be part of an Agile team
-    dedicated to productionizing machine learning applications and systems at scale.
-    You’ll participat
-  url: https://nlppeople.com/job/sr-lead-machine-learning-engineer-enterprise-platforms-technology/
-  date: '2026-03-26'
   source: Nlppeople.com

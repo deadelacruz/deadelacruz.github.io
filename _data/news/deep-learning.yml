@@ -1,4 +1,17 @@
 news_items:
+- title: A hidden predictor of sudden cardiac death uncovered by deep learning
+  description: A machine-learning model trained on thousands of electrocardiogram
+    recordings identifies a previously unrecognized group of at-risk people.
+  url: https://www.nature.com/articles/d41586-026-01806-z
+  date: '2026-06-24'
+  source: Nature.com
+- title: An ECG biomarker for sudden cardiac death discovered with deep learning
+  description: A deep-learning model trained on electrocardiogram (ECG) waveforms
+    identifies an easily visible biomarker that predicts sudden cardiac death more
+    accurately than the current clinical state of the art.
+  url: https://www.nature.com/articles/s41586-026-10674-6
+  date: '2026-06-24'
+  source: Nature.com
 - title: 'Bayesian Uncertainty-aware Deep Learning with noisy labels: Tackling annotation
     ambiguity in EEG seizure detection'
   description: Deep learning is advancing EEG processing for automated epileptic seizure
@@ -950,28 +963,4 @@ news_items:
     OpenStreetMap for multi-domain urban planning tasks
   url: https://www.nature.com/articles/s41598-026-45927-x
   date: '2026-03-27'
-  source: Nature.com
-- title: Incorporating valuable prior knowledge to improve deep learning prediction
-    of genetic perturbation responses [METHOD]
-  description: Genetic perturbation response prediction plays a critical role in virtual
-    cell research, yet the performance of current deep learning models still leaves
-    room for improvement. In this study, we present a prior-guided response inference
-    model (PRIM) t
-  url: https://genome.cshlp.org/content/early/2026/03/26/gr.281523.125.short?rss=1
-  date: '2026-03-26'
-  source: Cshlp.org
-- title: Enhancing autonomous agriculture control systems in greenhouses for sustainable
-    resource usage using deep learning techniques
-  description: Greenhouse climate control is essential for optimizing crop growth
-    while minimizing resource consumption in controlled environment agriculture. Traditional
-    rule-based and fixed-action strategies often struggle to achieve a balance between
-    these objec
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0344946
-  date: '2026-03-26'
-  source: Plos.org
-- title: 'LogoXpertNet: a novel lightweight logo classification using deep learning'
-  description: 'Scientific Reports - LogoXpertNet: a novel lightweight logo classification
-    using deep learning'
-  url: https://www.nature.com/articles/s41598-026-45682-z
-  date: '2026-03-26'
   source: Nature.com
