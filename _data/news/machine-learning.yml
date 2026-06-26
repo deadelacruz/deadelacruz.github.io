@@ -1,4 +1,21 @@
 news_items:
+- title: QuadSci Named “Machine Learning Company of the Year” in 9th Annual AI Breakthrough
+    Awards Program
+  description: Program Honors the AI Innovators Shaping the Next Era of Global Innovation
+    NEW YORK — QuadSci, the most predictive and prescriptive AI for customer intelligence,
+    has been selected as the winner of the 2026 Machine Learning Company of the Year
+    award i
+  url: https://financialpost.com/pmn/business-wire-news-releases-pmn/quadsci-named-machine-learning-company-of-the-year-in-9th-annual-ai-breakthrough-awards-program
+  date: '2026-06-25'
+  source: Financial Post
+- title: Predicting the strength of waste aggregate concrete blocks using novel hybrid
+    machine learning models and graphical user interface deployment
+  description: Scientific Reports - Predicting the strength of waste aggregate concrete
+    blocks using novel hybrid machine learning models and graphical user interface
+    deployment
+  url: https://www.nature.com/articles/s41598-026-58662-0
+  date: '2026-06-25'
+  source: Nature.com
 - title: Riviera Partners Acquires Lateral Labs, Expanding Its AI and Machine Learning
     Talent Search and Placement Capabilities
   description: Riviera Partners, the leading global executive search firm specializing
@@ -4118,53 +4135,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-44925-3
   date: '2026-03-28'
   source: Nature.com
-- title: Machine learning-based prediction of peptide aggregation during chemical
-    synthesis
-  description: Solid-phase peptide synthesis enables the study of countless peptides,
-    but aggregation during synthesis hinders production of many sequences of interest.
-    Now, machine learning models enable prior identification of aggregation-prone
-    sequences, and hig
-  url: https://www.nature.com/articles/s41557-026-02119-4
-  date: '2026-03-27'
-  source: Nature.com
-- title: Soil classification in the Sudan Savanna using sentinel products and topographic
-    information with machine learning models
-  description: Scientific Reports - Soil classification in the Sudan Savanna using
-    sentinel products and topographic information with machine learning models
-  url: https://www.nature.com/articles/s41598-026-46259-6
-  date: '2026-03-27'
-  source: Nature.com
-- title: Decoding physical mechanisms governing elastic moduli in inorganic materials
-    through interpretable machine learning
-  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA00098C, PaperXinglu
-    Zhang, Hongwei Yang, Wenxia Li, Juan DuInterpretable ML with 34 key features predicts
-    shear (G) and bulk (K) moduli (R2 = 0.892/0.949), reveals the physical origins,
-    and unc'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta00098c
-  date: '2026-03-27'
-  source: Royal Society of Chemistry
-- title: DFT and Machine Learning Insights into Ru(II) Complex-Catalyzed Transfer
-    Hydrogenation
-  description: 'Org. Chem. Front., 2026, Accepted ManuscriptDOI: 10.1039/D6QO00178E,
-    Research ArticleGui-Xiang Zhou, Cheng HouTransfer hydrogenation (TH), as a mild
-    reduction strategy that avoids the use of high-pressure molecular hydrogen, has
-    attracted significant'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/qo/d6qo00178e
-  date: '2026-03-27'
-  source: Royal Society of Chemistry
-- title: Research Engineer – Perception and Machine Learning
-  description: We are seeking Research Engineers to serve as technical pillars within
-    the Surreal Team. In this role, you will move beyond algorithm implementation
-    to architecting the systems that power always-on contextual AI. This position
-    sits at the intersectio
-  url: https://nlppeople.com/job/research-engineer-perception-and-machine-learning/
-  date: '2026-03-27'
-  source: Nlppeople.com
-- title: Sr. Machine Learning/AI Engineer
-  description: 'WHO WE ARE: Financial Independence Group (FIG) is one of the nation’s
-    largest Finance and Insurance Marketing Organizations (FMO & IMO) in the country,
-    partnering with thousands of financial professionals in all 50 states. FIG seeks
-    to expand the ava'
-  url: https://nlppeople.com/job/sr-machine-learning-ai-engineer/
-  date: '2026-03-27'
-  source: Nlppeople.com

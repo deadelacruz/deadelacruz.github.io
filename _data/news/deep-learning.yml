@@ -1,4 +1,22 @@
 news_items:
+- title: An ECG biomarker for sudden cardiac death discovered with deep learning
+  description: 'Abstract
+
+    Sudden cardiac death is, in theory, preventable with defibrillators. But every
+    year, many patients die without defibrillators because doctors fail to predict
+    their risk1. The only predictive biomarker in wide use, cardiac left ventricular
+    ej'
+  url: https://biztoc.com/x/7b0a0067bdff73e0
+  date: '2026-06-25'
+  source: Biztoc.com
+- title: Roadzen Named Deep Learning Company of the Year in 2026 AI Breakthrough Awards
+  description: Now in its ninth year, AI Breakthrough recognizes Roadzen alongside
+    Qualcomm, AMD, Dell Technologies, Snowflake, Intuit, SoundHound, Superhuman among
+    this year's leading AI innovators Now in its ninth year, AI Breakthrough recognizes
+    Roadzen alongsid
+  url: https://www.globenewswire.com/news-release/2026/06/25/3317690/0/en/Roadzen-Named-Deep-Learning-Company-of-the-Year-in-2026-AI-Breakthrough-Awards.html
+  date: '2026-06-25'
+  source: GlobeNewswire
 - title: A hidden predictor of sudden cardiac death uncovered by deep learning
   description: A machine-learning model trained on thousands of electrocardiogram
     recordings identifies a previously unrecognized group of at-risk people.
@@ -19,6 +37,15 @@ news_items:
     Weilong Zhang, Yong Liu, Guoqing Deng, Jun Zhao, Ling ZhuDigital PCR (dPCR), as
     a high-sensitivity t'
   url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00369a
+  date: '2026-06-24'
+  source: Royal Society of Chemistry
+- title: Geometric Deep Learning Predicts Electrostatic Potential for High-Throughput
+    Electrolyte Design
+  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA03585J,
+    PaperDengyang Luo, Yaochun Yao, Rui Yang, Jiayu Tian, Bo Jin, Keyu Zhang, Yin
+    Li, Junxian Hu, Bin Yang, Yan He, Honglai Liu, Shaoze ZhangDeveloping advanced
+    electrolytes is pivotal '
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta03585j
   date: '2026-06-24'
   source: Royal Society of Chemistry
 - title: 'Bayesian Uncertainty-aware Deep Learning with noisy labels: Tackling annotation
@@ -965,11 +992,4 @@ news_items:
     to me
   url: https://www.nature.com/articles/s41467-026-71229-x
   date: '2026-03-29'
-  source: Nature.com
-- title: A unified deep learning framework integrating OpenStreetMap for multi-domain
-    urban planning tasks
-  description: Scientific Reports - A unified deep learning framework integrating
-    OpenStreetMap for multi-domain urban planning tasks
-  url: https://www.nature.com/articles/s41598-026-45927-x
-  date: '2026-03-27'
   source: Nature.com
