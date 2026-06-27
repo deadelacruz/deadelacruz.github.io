@@ -1,4 +1,20 @@
 news_items:
+- title: Hybrid deep learning for mental workload classification using EEG with enhanced
+    preprocessing and interpretability
+  description: Mental workload classification is critical in safety-sensitive fields
+    such as healthcare and aviation. However, electroencephalography-based approaches
+    still face challenges with generalizability, noise robustness, and interpretability.
+    In this study
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352882
+  date: '2026-06-26'
+  source: Plos.org
+- title: Deep learning with missing data
+  description: 'Wu, T. , Wang, T. ORCID logo & Samworth, R. J. (2026). Deep learning
+    with missing data. Journal of the Royal Statistical Society. Series B: Statistical
+    Methodology, [In Press]'
+  url: https://researchonline.lse.ac.uk/id/eprint/139005/
+  date: '2026-06-26'
+  source: Lse.ac.uk
 - title: An ECG biomarker for sudden cardiac death discovered with deep learning
   description: 'Abstract
 
