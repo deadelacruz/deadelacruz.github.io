@@ -1,4 +1,23 @@
 news_items:
+- title: Machine Learning Is Enabling A New Era For Precision Medicine And Pharmacogenomics
+  description: Machine learning has unlocked significant value across the entire healthcare
+    delivery lifecycle.
+  url: https://www.forbes.com/sites/saibala/2026/06/27/machine-learning-is-enabling-a-new-era-for-precision-medicine-and-pharmacogenomics/
+  date: '2026-06-27'
+  source: Forbes
+- title: A machine learning-driven virtualized edge framework for real-time monitoring
+    and anomaly detection in solar photovoltaics
+  description: Scientific Reports - A machine learning-driven virtualized edge framework
+    for real-time monitoring and anomaly detection in solar photovoltaics
+  url: https://www.nature.com/articles/s41598-026-58923-y
+  date: '2026-06-27'
+  source: Nature.com
+- title: Predicting migratory survival in a songbird hybrid zone using machine learning
+  description: Scientific Reports - Predicting migratory survival in a songbird hybrid
+    zone using machine learning
+  url: https://www.nature.com/articles/s41598-026-58881-5
+  date: '2026-06-27'
+  source: Nature.com
 - title: 'Editorial Note: Machine learning–assisted optimization of a terahertz photonic
     metamaterial absorber for blood cancer detection'
   description: No description available.
@@ -4160,11 +4179,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra10111e
   date: '2026-03-30'
   source: Royal Society of Chemistry
-- title: Data Scientist (Artificial Intelligence / Machine Learning)
-  description: 'Position Type : Full time Type Of Hire : Experienced (relevant combo
-    of work and education) At FIS, our technology and our people are moving forward.
-    We advance the way the world pays, banks and invests. We believe in building inclusive,
-    diverse team'
-  url: https://nlppeople.com/job/data-scientist-artificial-intelligence-machine-learning-5/
-  date: '2026-03-29'
-  source: Nlppeople.com

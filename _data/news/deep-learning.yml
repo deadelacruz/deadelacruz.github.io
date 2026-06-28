@@ -1001,11 +1001,3 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-71392-1
   date: '2026-04-01'
   source: Nature.com
-- title: Exploring how deep learning decodes anomalous diffusion via Grad-CAM
-  description: Using Grad-CAM with ResNets, this study probes how deep learning classifies
-    anomalous diffusion from raw trajectories. The method reveals trajectory segments
-    and multiscale features driving predictions, improving interpretability and robustness
-    to me
-  url: https://www.nature.com/articles/s41467-026-71229-x
-  date: '2026-03-29'
-  source: Nature.com
