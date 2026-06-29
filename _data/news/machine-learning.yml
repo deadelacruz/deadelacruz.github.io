@@ -1,4 +1,12 @@
 news_items:
+- title: How Machine Learning Is Transforming CAD Workflows
+  description: Machine learning is rapidly becoming one of the most powerful tools
+    available to CAD professionals, helping automate repetitive tasks, optimise designs,
+    and accelerate engineering workflows. For CAD professionals, it’s the next big
+    step in design and
+  url: https://www.solidsmack.com/tech/how-machine-learning-is-transforming-cad-workflows/
+  date: '2026-06-28'
+  source: Solidsmack.com
 - title: Machine Learning Is Enabling A New Era For Precision Medicine And Pharmacogenomics
   description: Machine learning has unlocked significant value across the entire healthcare
     delivery lifecycle.
@@ -4092,90 +4100,3 @@ news_items:
   url: https://nlppeople.com/job/senior-ai-and-machine-learning-engineering-consultant/
   date: '2026-03-31'
   source: Nlppeople.com
-- title: AI in Drug Discovery Market to Hit USD 10.29 Bn by 2031 with Quantum Machine
-    Learning Advancing Rapidly at 27%+ CAGR - Mordor Intelligence Report
-  description: 'The artificial intelligence in drug discovery market is being shaped
-    by the growing need to address complex diseases and streamline research pipelines.
-    North America accounted for a significant share of 43.54% in 2025. The artificial
-    intelligence in '
-  url: https://www.globenewswire.com/news-release/2026/03/30/3264774/0/en/AI-in-Drug-Discovery-Market-to-Hit-USD-10-29-Bn-by-2031-with-Quantum-Machine-Learning-Advancing-Rapidly-at-27-CAGR-Mordor-Intelligence-Report.html
-  date: '2026-03-30'
-  source: GlobeNewswire
-- title: 'Advanced machine learning approaches for predicting neglected tropical disease
-    co-endemicity in Kenya: A focus on soil-transmitted helminths, schistosomiasis,
-    and lymphatic filariasis'
-  description: Author summary NTDs are a diverse group of communicable diseases affecting
-    1.5 billion people globally. In Africa, where about 39% of the world’s NTD burden
-    occurs, this study effectively used machine learning (ML) models to identify,
-    map and forecas
-  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014156
-  date: '2026-03-30'
-  source: Plos.org
-- title: 'Editorial Note: Machine learning-driven Diabetes Health Tracer (DHT): Optimizing
-    prognosis using RaSK_GraDe and RaSK_GraDeL models'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346001
-  date: '2026-03-30'
-  source: Plos.org
-- title: We analyzed Philly street scenes and identified signs of gentrification using
-    machine learning trained on longtime residents’ observations
-  description: Researchers are using machine learning models to identify gentrification
-    in imagery. Community insights help keep the models on track
-  url: https://theconversation.com/we-analyzed-philly-street-scenes-and-identified-signs-of-gentrification-using-machine-learning-trained-on-longtime-residents-observations-277704
-  date: '2026-03-30'
-  source: The Conversation Africa
-- title: Thunder Compute – Rent on-demand GPU instances for AI and machine learning
-    workflows
-  description: Rent on-demand GPU instances for AI and machine learning workflows
-  url: https://betalist.com/startups/thunder-compute
-  date: '2026-03-30'
-  source: Betalist.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learnin…
-  description: Job Description At JPMorgan Chase, AI and technology promote our global
-    operations with unmatched scale and speed. We invest over $18 billion annually
-    in innovation, data leverage, and security to shape the future for our clients,
-    communities, and em
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-2/
-  date: '2026-03-30'
-  source: Nlppeople.com
-- title: Gene expression and machine learning techniques uncover corneal biomarkers
-    associated with oxidative stress in the myopia progression
-  description: Scientific Reports - Gene expression and machine learning techniques
-    uncover corneal biomarkers associated with oxidative stress in the myopia progression
-  url: https://www.nature.com/articles/s41598-026-46896-x
-  date: '2026-03-30'
-  source: Nature.com
-- title: Prediction of Aqueous Stable Lead-Free Hybrid Halide Perovskites for Efficient
-    Solar Water Splitting Using Machine Learning and Molecular Dynamics
-  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00296J,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Mahalaxmi M C, Madhana Gopal, Tumpa Sadhukhan, Athira Nambia'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00296j
-  date: '2026-03-30'
-  source: Royal Society of Chemistry
-- title: Clustering in Machine Learning
-  description: 'Explore clustering in machine learning: group data based on similarity
-    without labels. Discover hard, soft, centroid, density, and hierarchical methods.
-    Uncover hidden patterns!'
-  url: https://www.c-sharpcorner.com/article/clustering-in-machine-learning/
-  date: '2026-03-30'
-  source: C-sharpcorner.com
-- title: Unraveling defect-mediated ion transport behavior in antiperovskite solid-state
-    electrolyte via machine learning molecular dynamics simulations
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04975J,
-    PaperLirong Xia, Kehao Zhang, Yong PeiAnti-perovskite (AP) solid-state electrolytes
-    (SSE) have emerged as promising candidates for high-safety solid-state batteries
-    due to the'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04975j
-  date: '2026-03-30'
-  source: Royal Society of Chemistry
-- title: Prediction of gas chromatographic retention times of narcotic and hazardous
-    drugs in blood using QSRR and machine learning models
-  description: 'RSC Adv., 2026, 16,17322-17336DOI: 10.1039/D5RA10111E, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
-    Unported Licence.Mohamed Abu Shuheil, Ahmed Aldulaimi, Subhashree Ray, Talal Aziz
-    Qassem, Gunjan Garg, Re'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d5ra10111e
-  date: '2026-03-30'
-  source: Royal Society of Chemistry

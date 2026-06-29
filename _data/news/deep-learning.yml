@@ -1,4 +1,28 @@
 news_items:
+- title: 'Show HN: Foveon – Bayer to Foveon X3, learned, Mac App using deep learning'
+  description: 'Article URL: https://code.intellios.ai/photo/
+
+    Comments URL: https://news.ycombinator.com/item?id=48704343
+
+    Points: 2
+
+    # Comments: 1'
+  url: https://code.intellios.ai/photo/
+  date: '2026-06-28'
+  source: Intellios.ai
+- title: Comparative analysis of CNN–LSTM and CNN–BiLSTM hybrid deep learning models
+    for solar radiation prediction
+  description: Scientific Reports - Comparative analysis of CNN–LSTM and CNN–BiLSTM
+    hybrid deep learning models for solar radiation prediction
+  url: https://www.nature.com/articles/s41598-026-59621-5
+  date: '2026-06-28'
+  source: Nature.com
+- title: Deep learning for time-series segmentation of mechanical ventilator waveforms
+  description: Scientific Reports - Deep learning for time-series segmentation of
+    mechanical ventilator waveforms
+  url: https://www.nature.com/articles/s41598-026-58565-0
+  date: '2026-06-28'
+  source: Nature.com
 - title: Hybrid deep learning for mental workload classification using EEG with enhanced
     preprocessing and interpretability
   description: Mental workload classification is critical in safety-sensitive fields
