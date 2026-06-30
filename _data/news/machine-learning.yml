@@ -1,4 +1,20 @@
 news_items:
+- title: AI and Machine Learning Solutions Specialist
+  description: 'Join Us: We are embarking on an exciting new era in Data & AI that
+    promises to transform industries and society at large. At Accenture, we’re committed
+    to leading the charge with a clear vision: to empower clients in optimizing and
+    reinventing their '
+  url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-5/
+  date: '2026-06-29'
+  source: Nlppeople.com
+- title: AI/Machine Learning Engineer (Senior)
+  description: 'Job Description: The Lockheed Martin Artificial Intelligence Center
+    (LAIC) is seeking a highly skilled leader to head the AI Consulting portfolio,
+    a role that requires a unique blend of technical expertise in software engineering
+    and AI/ML, as well a'
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-senior/
+  date: '2026-06-29'
+  source: Nlppeople.com
 - title: How Machine Learning Is Transforming CAD Workflows
   description: Machine learning is rapidly becoming one of the most powerful tools
     available to CAD professionals, helping automate repetitive tasks, optimise designs,
@@ -25,6 +41,22 @@ news_items:
   url: https://www.r-bloggers.com/2026/06/machine-learning-meets-reality-forecast-evaluation-for-the-2026-fifa-world-cup/
   date: '2026-06-28'
   source: R-bloggers.com
+- title: 'DeepMech: A Machine Learning Framework for Chemical Reaction Mechanism Prediction'
+  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6SC02809H, Edge
+    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
+    3.0 Unported Licence.Manajit Das, Ajnabiul Hoque, Mayank Baranwal, Raghavan B.
+    Su'
+  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc02809h
+  date: '2026-06-28'
+  source: Royal Society of Chemistry
+- title: Product Delivery Manager – Machine Learning and AI
+  description: hackajob is collaborating with J.P. Morgan to connect them with exceptional
+    professionals for this role. Job Description Come join the Machine Learning &
+    Intelligent Operations team who develops and sustains innovative solutions for
+    Consumer & Commun
+  url: https://nlppeople.com/job/product-delivery-manager-machine-learning-and-ai/
+  date: '2026-06-28'
+  source: Nlppeople.com
 - title: Machine Learning Is Enabling A New Era For Precision Medicine And Pharmacogenomics
   description: Machine learning has unlocked significant value across the entire healthcare
     delivery lifecycle.
@@ -72,6 +104,14 @@ news_items:
     to leading the charge with a clear vision: to empower clients in optimizing and
     reinventing their '
   url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-4/
+  date: '2026-06-26'
+  source: Nlppeople.com
+- title: Principal Machine Learning Data Scientist, Gen AI
+  description: 'Xometry (NASDAQ: XMTR) powers the industries of today and tomorrow
+    by connecting the people with big ideas to the manufacturers who can bring them
+    to life. Xometry’s digital marketplace gives manufacturers the critical resources
+    they need to grow the'
+  url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-2/
   date: '2026-06-26'
   source: Nlppeople.com
 - title: QuadSci Named “Machine Learning Company of the Year” in 9th Annual AI Breakthrough
@@ -4094,27 +4134,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/fd/d6fd00032k
   date: '2026-04-01'
   source: Royal Society of Chemistry
-- title: 'Machine learning assisted differentiation of low acuity patients at dispatch:
-    The MADLAD randomized controlled trial'
-  description: In this randomized clinical trial, Douglas Nils Spangler and colleagues
-    assess the potential of a machine learning (ML)–based triage tool to improve emergency
-    triage by supporting dispatchers in identifying patients at high risk of deterioration
-    in r
-  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004770
-  date: '2026-03-31'
-  source: Plos.org
-- title: Supervised Machine Learning
-  description: 'Explore supervised machine learning: algorithms, types (classification
-    & regression), real-world examples, advantages, and disadvantages. Learn how it
-    works!'
-  url: https://www.c-sharpcorner.com/article/supervised-machine-learning/
-  date: '2026-03-31'
-  source: C-sharpcorner.com
-- title: Senior AI and Machine Learning Engineering Consultant
-  description: 'At EY, we are committed to shaping your future with confidence. Join
-    us in a globally connected environment filled with diverse teams and opportunities
-    to advance your career. Be part of our mission to build a better working world.
-    About the Role As '
-  url: https://nlppeople.com/job/senior-ai-and-machine-learning-engineering-consultant/
-  date: '2026-03-31'
-  source: Nlppeople.com
