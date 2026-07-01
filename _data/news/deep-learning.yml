@@ -1,4 +1,12 @@
 news_items:
+- title: Probe-based identification of metal-binding sites using deep learning representations
+  description: The Authors present PRIME, a deep learning tool that fuses protein
+    sequence and structure to pinpoint metal-binding sites across diverse metal ions,
+    from abundant zinc to rare potassium, offering improvements in speed and accuracy
+    over existing metho
+  url: https://www.nature.com/articles/s41467-026-74657-x
+  date: '2026-06-30'
+  source: Nature.com
 - title: Indonesia promotes deep learning approach for digital era
   description: Indonesia&#39;s Ministry of Primary and Secondary Education is promoting
     a deep learning approach to better prepare students for the digital era by ...
@@ -1037,12 +1045,4 @@ news_items:
     variations,
   url: https://www.nature.com/articles/s41598-026-40726-w
   date: '2026-04-02'
-  source: Nature.com
-- title: Manifold topological deep learning for biomedical data
-  description: The study introduces manifold topological deep learning (MTDL) that
-    extends topological deep learning to data on differentiable manifolds through
-    de Rham-Hodge theory. MTDL outperforms competing methods on various biomedical
-    imaging benchmarks.
-  url: https://www.nature.com/articles/s41467-026-71392-1
-  date: '2026-04-01'
   source: Nature.com
