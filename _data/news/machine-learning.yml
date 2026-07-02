@@ -1,10 +1,34 @@
 news_items:
+- title: Machine Learning Engineer, LLM Inference Optimization in Sonoma
+  description: Job Description About Us GMI Cloud is a fast-growing AI infrastructure
+    company backed by Headline VC and one of only seven cloud providers worldwide
+    to earn NVIDIA’s prestigious Reference Platform Cloud Partner designation. We
+    operate 8 of our own GP
+  url: https://nlppeople.com/job/machine-learning-engineer-llm-inference-optimization-in-sonoma/
+  date: '2026-07-01'
+  source: Nlppeople.com
+- title: NLP and AI Applied Machine Learning Engineer
+  description: Description The Government Health and Safety Solutions Operation is
+    on the lookout for a talented Applied Machine Learning Engineer to join our team.
+    *This position requires being onsite in Bethesda, MD (with some remote opportunities)
+    Responsibiliti
+  url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-2/
+  date: '2026-07-01'
+  source: Nlppeople.com
 - title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
   description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
     England, United Kingdom Corporate Functions At Apple, we build AI systems that
     define experiences for billions of people and we do it with an unwavering commitment
     to privacy, per
   url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-11/
+  date: '2026-06-30'
+  source: Nlppeople.com
+- title: Machine Learning Hardware Architect – Silicon
+  description: 'Meta’s mission is to give people the power to build community and
+    bring the world closer together. Our global teams are constantly iterating, solving
+    problems, and working together to empower people around the world to build community
+    and connect in '
+  url: https://nlppeople.com/job/machine-learning-hardware-architect-silicon/
   date: '2026-06-30'
   source: Nlppeople.com
 - title: AI and Machine Learning Solutions Specialist
@@ -4036,70 +4060,4 @@ news_items:
     UK. This '
   url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-7/
   date: '2026-04-03'
-  source: Nlppeople.com
-- title: 'A machine learning model for post-operative sepsis prediction in acute surgical
-    patients: a multi-centre, prospective study'
-  description: The aim of this study was to develop and validate a machine learning
-    (ML) solution for predicting sepsis among elderly surgical patients undergoing
-    emergency procedure. Data from over 150 variables were collected across multiple
-    domains. ML models we
-  url: https://www.nature.com/articles/s41598-026-46040-9
-  date: '2026-04-02'
-  source: Nature.com
-- title: Senior Data Scientist – Applied Machine Learning
-  description: Let’s fix hospitality, for good. Hospitality is tough – margins are
-    thin, waste is high, and teams are stretched. But it doesn’t have to be this hard.
-    That’s why we built Nory. Our CEO, Conor, knows the pain first-hand. After founding
-    and scaling Mad
-  url: https://nlppeople.com/job/senior-data-scientist-applied-machine-learning-5/
-  date: '2026-04-02'
-  source: Nlppeople.com
-- title: 'Unraveling volcanic impacts in semi-arid climates: machine learning and
-    CMIP6 insights from Krakatau and Santa Maria'
-  description: Volcanic eruptions are among the strongest natural climate forcings,
-    yet their regional impacts remain poorly resolved, particularly in semi-arid hotspots.
-    Here, we investigate the climatic fingerprints of the Krakatau (1883) and Santa
-    Maria (1902) e
-  url: https://www.nature.com/articles/s41598-026-45543-9
-  date: '2026-04-02'
-  source: Nature.com
-- title: Manager, Machine Learning Engineering
-  description: Company Overview Docusign brings agreements to life. Over 1.5 million
-    customers and more than a billion people in over 180 countries use Docusign solutions
-    to accelerate the process of doing business and simplify people’s lives. With
-    intelligent agre
-  url: https://nlppeople.com/job/manager-machine-learning-engineering/
-  date: '2026-04-02'
-  source: Nlppeople.com
-- title: Development of a web platform for predicting fall risk in cardiovascular
-    patients using machine learning
-  description: Scientific Reports - Development of a web platform for predicting fall
-    risk in cardiovascular patients using machine learning
-  url: https://www.nature.com/articles/s41598-026-43482-z
-  date: '2026-04-02'
-  source: Nature.com
-- title: Senior Machine Learning Engineer – National Security
-  description: 'Location: London or Gloucestershire We’re looking for a Senior Machine
-    Learning Engineer to join a supportive, multidisciplinary team developing AI/ML
-    systems to solve critical National Security challenges. As a Senior Machine Learning
-    Engineer, you’'
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-national-security/
-  date: '2026-04-02'
-  source: Nlppeople.com
-- title: AI / Machine Learning Engineer (m/w/d)
-  description: Job DescriptionJob DescriptionAI / Machine Learning Engineer San Diego,
-    CA In-office | Full-TimeAbout the Opportunity Our client, a fast-growing AI solutions
-    and advisory firm, is seeking an AI / Machine Learning Engineer to help design,
-    build, and s
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-m-w-d/
-  date: '2026-04-02'
-  source: Nlppeople.com
-- title: Assistant Professor, Computer Science – Artificial Intelligence/Machine Learning
-    (Tenure-Track)
-  description: Teaches undergraduate and graduate courses with a focus in machine
-    learning and its applications in artificial intelligence, NLM, GenAI, computer
-    graphics, networking, cybersecurity, IoT, robotics, HCI, databases, software engineering,
-    etc. in The Sc
-  url: https://nlppeople.com/job/assistant-professor-computer-science-artificial-intelligence-machine-learning-tenure-track/
-  date: '2026-04-02'
   source: Nlppeople.com
