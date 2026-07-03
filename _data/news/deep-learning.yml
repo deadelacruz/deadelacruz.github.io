@@ -1,4 +1,13 @@
 news_items:
+- title: 'Gravity-Awareness: Deep Learning Models and LLM Simulation of Human Awareness
+    in Altered Gravity'
+  description: 'Earth s gravity fundamentally shapes human behaviour. The brain encodes
+    this force as an internal model of gravity, enabling the prediction and interpretation
+    of gravitational effects during perception and action. Understanding how this
+    model adapts '
+  url: https://arxiv.org/abs/2511.05536
+  date: '2026-07-02'
+  source: Arxiv.org
 - title: 'DeepMethylation: A deep learning framework for tissue-specific DNA methylation
     prediction and functional variant annotation'
   description: Author summary In this study, we set out to address a key challenge
