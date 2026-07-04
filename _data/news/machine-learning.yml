@@ -15,6 +15,12 @@ news_items:
   url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-3/
   date: '2026-07-03'
   source: Nlppeople.com
+- title: Feature Store Architecture for Machine Learning Applications
+  description: Master feature store architecture for ML. Centralize, manage, and serve
+    features for consistent training & real-time inference.
+  url: https://www.c-sharpcorner.com/article/feature-store-architecture-for-machine-learning-applications/
+  date: '2026-07-03'
+  source: C-sharpcorner.com
 - title: A/AI Machine Learning Engineer- Early Career
   description: 'Job ID: 732822BR Date posted: Jun. 18, 2026 Description:At Lockheed
     Martin we keep people safe and solve the world’s most complex challenges. Our
