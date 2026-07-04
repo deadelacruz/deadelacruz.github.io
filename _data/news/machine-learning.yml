@@ -1,4 +1,36 @@
 news_items:
+- title: 'Rethinking Validation for Spatial Machine Learning: Takeaways from the Talk'
+  description: "Title slide of the talk\r\n\nKeynote slides: https://jakubnowosad.com/ml4eo2026/\n\
+    Workshop materials: https://jakubnowosad.com/ml4eo2026workshop/\nMachine learning\
+    \ is now deeply embedded1 in Earth observation workflows, from mapping current\
+    \ enviro...\r\n\n\n\n"
+  url: https://www.r-bloggers.com/2026/07/rethinking-validation-for-spatial-machine-learning-takeaways-from-the-talk/
+  date: '2026-07-03'
+  source: R-bloggers.com
+- title: NLP and AI Applied Machine Learning Engineer
+  description: Description The Government Health and Safety Solutions Operation is
+    on the lookout for a talented Applied Machine Learning Engineer to join our team.
+    *This position requires being onsite in Bethesda, MD (with some remote opportunities)
+    Responsibiliti
+  url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-3/
+  date: '2026-07-03'
+  source: Nlppeople.com
+- title: A/AI Machine Learning Engineer- Early Career
+  description: 'Job ID: 732822BR Date posted: Jun. 18, 2026 Description:At Lockheed
+    Martin we keep people safe and solve the world’s most complex challenges. Our
+    people are some of the greatest minds in the industry and truly make Lockheed
+    Martin a great place to wo'
+  url: https://nlppeople.com/job/a-ai-machine-learning-engineer-early-career-7/
+  date: '2026-07-02'
+  source: Nlppeople.com
+- title: Manager of AI and Machine Learning Computational Science
+  description: Join us as we embrace a transformative era defined by Data and AI.
+    At Accenture, we are prepared to lead our clients through this evolution with
+    a strategic ambition to refine and redefine business operations leveraging data
+    and AI. With a significan
+  url: https://nlppeople.com/job/manager-of-ai-and-machine-learning-computational-science/
+  date: '2026-07-02'
+  source: Nlppeople.com
 - title: Machine Learning Engineer, LLM Inference Optimization in Sonoma
   description: Job Description About Us GMI Cloud is a fast-growing AI infrastructure
     company backed by Headline VC and one of only seven cloud providers worldwide
@@ -13,6 +45,22 @@ news_items:
     *This position requires being onsite in Bethesda, MD (with some remote opportunities)
     Responsibiliti
   url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-2/
+  date: '2026-07-01'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist
+  description: 'At Expedia Group, we help travelers explore the world, one journey
+    at a time. As a global travel company powered by passionate people, trusted partnerships,
+    and leading technology, we connect travelers, partners, and advertisers through
+    our consumer '
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-30/
+  date: '2026-07-01'
+  source: Nlppeople.com
+- title: Lead Data Scientist (Artificial Intelligence/Machine Learning)
+  description: 'Summary WHAT IS INFORMATION TECHNOLOGY? A description of the business
+    units can be found at: https://www.jobs.irs.gov/about/who/business-divisions Position(s)
+    are to be filled in the following area(s): IT – Taxpayer Services and Online Accounts
+    Consi'
+  url: https://nlppeople.com/job/lead-data-scientist-artificial-intelligence-machine-learning/
   date: '2026-07-01'
   source: Nlppeople.com
 - title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
@@ -3975,33 +4023,3 @@ news_items:
   url: https://nlppeople.com/job/applied-ai-machine-learning-associate-markets-operations/
   date: '2026-04-05'
   source: Nlppeople.com
-- title: Microsoft is automatically updating Windows 11 24H2 to 25H2 using machine
-    learning
-  description: The forced update is part of a larger Windows update plan, designed
-    to phase out the older 24H2 version before it reaches end of life.Continue reading
-    at TweakTown
-  url: https://www.tweaktown.com/news/110874/microsoft-is-automatically-updating-windows-11-24h2-to-25h2-using-machine-learning/index.html
-  date: '2026-04-04'
-  source: TweakTown
-- title: Microsoft to force updates to Windows 11 25H2 for PCs with older OS versions
-    — 'intelligent' update system uses machine learning to determine when a device
-    is ready
-  description: Windows 11 24H2 systems are being upgraded to 25H2 automatically, as
-    Microsoft aims to streamline updates before support ends.
-  url: https://www.tomshardware.com/software/windows/microsoft-forces-updates-to-windows-11-25h2-update-for-pcs-running-on-24h2
-  date: '2026-04-04'
-  source: Tom's Hardware UK
-- title: Machine Learning Predicts Fatigue Patterns in Elite Women's Handball Players
-    — Health to Longevity
-  description: Elite athletic performance increasingly hinges on precise fatigue management,
-    yet coaches traditionally rely on subjective assessments or expensive labora…
-  url: https://healthtolongevity.com/article/10864/machine-learning-predicts-fatigue-patterns-in-elite-womens-handball-players
-  date: '2026-04-04'
-  source: Healthtolongevity.com
-- title: Microsoft to force updates to Windows 11 25H2 for PCs with older Windows
-    11 OS versions — 'intelligent' update system uses machine learning to determine
-    when a device is ready
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_1cd161e5-93a9-43c5-b8b1-e671848e549e
-  date: '2026-04-04'
-  source: Yahoo Entertainment
