@@ -1,4 +1,18 @@
 news_items:
+- title: Deep learning & PSO-based optimisation of data centre energy costs using
+    renewable sources
+  description: Scientific Reports - Deep learning &amp; PSO-based optimisation of
+    data centre energy costs using renewable sources
+  url: https://www.nature.com/articles/s41598-026-60463-4
+  date: '2026-07-04'
+  source: Nature.com
+- title: Deep learning-accelerated NEGF formalism for autonomous design of quantum
+    transport in microscopic heterostructures
+  description: Scientific Reports - Deep learning-accelerated NEGF formalism for autonomous
+    design of quantum transport in microscopic heterostructures
+  url: https://www.nature.com/articles/s41598-026-57362-z
+  date: '2026-07-04'
+  source: Nature.com
 - title: Global AI and Omics Sector Fueled by Precision Medicine and Deep Learning
     Innovations
   description: Key market opportunities in AI for omics studies include the demand
