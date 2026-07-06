@@ -1,4 +1,11 @@
 news_items:
+- title: Centrifugal pump analysis and prediction in cavitation using RapidMiner tool
+    and machine learning algorithms
+  description: Scientific Reports - Centrifugal pump analysis and prediction in cavitation
+    using RapidMiner tool and machine learning algorithms
+  url: https://www.nature.com/articles/s41598-026-60315-1
+  date: '2026-07-05'
+  source: Nature.com
 - title: 'Rethinking Validation for Spatial Machine Learning: Takeaways from the Talk'
   description: "Title slide of the talk\r\n\nKeynote slides: https://jakubnowosad.com/ml4eo2026/\n\
     Workshop materials: https://jakubnowosad.com/ml4eo2026workshop/\nMachine learning\
@@ -3935,81 +3942,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-46854-7
   date: '2026-04-07'
   source: Nature.com
-- title: 'Identifying minimal risk factors for adolescent suicidal ideation and suicide
-    attempts: A machine learning-optimized approach'
-  description: 'This study aimed to develop and validate a machine learning (ML) model
-    to identify the minimal risk factors for adolescent suicidal behaviors, including
-    suicidal ideation and suicide attempts. Data from the Korea Youth Risk Behavior
-    Web-based Survey '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346050
-  date: '2026-04-06'
-  source: Plos.org
-- title: 'MLXN: Machine Learning for X-ray and Neutron Scattering'
-  description: Building on the success of previous meetings—in-person workshops at
-    Lawrence Berkeley National Lab (2023) and Technische Universität München (2024),
-    followed by MLXN25, last year's online 24-hour event that brought together researchers,
-    practitioners
-  url: https://www.nist.gov/news-events/events/2026/04/mlxn-machine-learning-x-ray-and-neutron-scattering
-  date: '2026-04-06'
-  source: Nist.gov
-- title: Machine learning-driven drug repurposing for HER2-positive breast cancer
-  description: 'Breast cancer, particularly the Human Epidermal Growth Factor Receptor
-    2 (HER2)-positive subtype, remains a significant clinical challenge due to its
-    aggressive nature and the frequent development of resistance to targeted therapy.
-    In this study, we '
-  url: https://www.nature.com/articles/s41598-026-45361-z
-  date: '2026-04-06'
-  source: Nature.com
-- title: 'Prediction of primary glaucoma: development and validation of multiple machine
-    learning models'
-  description: To develop and validate a machine learning model by combining blood
-    markers with retinal structural parameters to predict the risk of primary glaucoma
-    and provide a risk assessment tool for early detection of primary glaucoma. A
-    case–control study wa
-  url: https://www.nature.com/articles/s41598-026-45340-4
-  date: '2026-04-06'
-  source: Nature.com
-- title: Intelligent performance prediction of nanoparticle-enhanced automotive radiator
-    cooling using CFD and machine learning
-  description: Active thermal control of automotive engines is vital for improving
-    performance, robustness and conventional coolants like water and air frequently
-    bring insufficient heat dissipation. To counterpart this ill effect, the propose
-    study examines and in
-  url: https://www.nature.com/articles/s41598-026-43497-6
-  date: '2026-04-06'
-  source: Nature.com
-- title: Prediction of unconfined compressive strength of fly ash and waste paper
-    sludge stabilized clayey soil using explainable machine learning
-  description: Sustainable stabilization of problematic clayey soils with industrial
-    by-products has recently become a topic of considerable interest because of the
-    environmental and economic issues relating to traditional binders. This paper
-    examines the interacti
-  url: https://www.nature.com/articles/s41598-026-47096-3
-  date: '2026-04-06'
-  source: Nature.com
-- title: First-principles investigation and device simulation of TlPbI3-based perovskite
-    solar cells with machine learning-driven efficiency prediction
-  description: 'RSC Adv., 2026, 16,18022-18060DOI: 10.1039/D6RA01288D, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Md. Harun-Or-Rashid, Hanane Etabti, Md. Tauki Tazwar, Md
-    Amzad Sadik Abid,'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01288d
-  date: '2026-04-06'
-  source: Royal Society of Chemistry
-- title: Fast and accurate diagnosis of electron temperature using a machine learning
-    model trained with time-evolved plasma spectra
-  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D5JA00500K,
-    PaperXianwang Li, Tie-Jun Wang, Hao Qin, Yaoxiang Liu, Yingxia Wei, Xiangyu Zhang,
-    Jinshan Yang, Shaoming DongThe training dataset generated via the interpolation
-    method exhibits h'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d5ja00500k
-  date: '2026-04-06'
-  source: Royal Society of Chemistry
-- title: Senior Machine Learning Engineer – Global
-  description: 'We believe in better. And we make it happen. Better content. Better
-    products. And better careers. Working in Tech, Product or Data at Sky is about
-    building the next and the new. From broadband to broadcast, streaming to mobile,
-    SkyQ to Sky Glass, we '
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-global/
-  date: '2026-04-06'
-  source: Nlppeople.com
