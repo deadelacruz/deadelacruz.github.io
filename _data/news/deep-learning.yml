@@ -31,6 +31,15 @@ news_items:
   url: https://arxiv.org/abs/2511.05536
   date: '2026-07-02'
   source: Arxiv.org
+- title: High-accuracy SNV calling for bacterial isolates using deep learning with
+    AccuSNV
+  description: Accurate detection of mutations within bacterial species is critical
+    for fundamental studies of microbial evolution, reconstructing transmission events,
+    and identifying antimicrobial resistance mutations. While many tools have been
+    developed to ident
+  url: https://genome.cshlp.org/content/early/2026/07/02/gr281341125
+  date: '2026-07-02'
+  source: Cshlp.org
 - title: 'DeepMethylation: A deep learning framework for tissue-specific DNA methylation
     prediction and functional variant annotation'
   description: Author summary In this study, we set out to address a key challenge
