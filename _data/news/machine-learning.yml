@@ -1,4 +1,65 @@
 news_items:
+- title: AI Disrupts $1 Billion Confectionery Ingredients Market as Food Giants Race
+    to Deploy Machine Learning Solutions
+  description: Confectionery Ingredients Market Enters a Smarter Era as AI Optimizes
+    Production and Consumer Insights....
+  url: https://www.globenewswire.com/news-release/2026/07/06/3322631/0/en/AI-Disrupts-1-Billion-Confectionery-Ingredients-Market-as-Food-Giants-Race-to-Deploy-Machine-Learning-Solutions.html
+  date: '2026-07-06'
+  source: GlobeNewswire
+- title: Development of a predictive model for PM2.5 over the greater Athens metropolitan
+    area, Greece, at a 1 km by 1 km grid using satellite measurements and machine
+    learning methods
+  description: Background Ambient PM2.5 exposure is strongly associated with adverse
+    health effects, including all-cause mortality. However, the lack of monitoring
+    networks globally necessitates a better understanding of the spatiotemporal distribution
+    of near-surf
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352975
+  date: '2026-07-06'
+  source: Plos.org
+- title: Investigating tryptophan metabolism in colorectal cancer using Single-cell
+    RNA sequencing based on machine learning techniques
+  description: Background Colorectal cancer (CRC) is characterized by genetic variation,
+    epigenetic alterations, microenvironmental imbalance, and metabolic reprogramming.
+    Currently, abnormalities amino acid metabolism has been shown to play an important
+    role in th
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352871
+  date: '2026-07-06'
+  source: Plos.org
+- title: Diagnostic performance of machine learning models based on dual-phase 99mTc-MIBI
+    SPECT/CT semiquantitative parameters for differentiating benign and malignant
+    pulmonary nodules
+  description: Purpose To evaluate the diagnostic value of machine learning models
+    based on dual-phase 99mTc-MIBI SPECT/CT semiquantitative parameters for differentiating
+    benign and malignant pulmonary nodules.   Methods This retrospective study included
+    132 patien
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353271
+  date: '2026-07-06'
+  source: Plos.org
+- title: Drones Use Machine Learning to Predict Mechanical Failures, Researchers Say
+  description: Researchers have developed a system that enables drones to detect anomalies
+    and predict mechanical failures in real time, according to a report. The system
+    uses onboard sensors and machine learning algorithms to monitor variables such
+    as motor curren
+  url: https://www.naturalnews.com/2026-07-06-drones-use-machine-learning-predict-mechanical-failures.html
+  date: '2026-07-06'
+  source: Naturalnews.com
+- title: AI & Machine Learning Engineering Consultant – Manager – Consulting – Location
+    OPEN
+  description: 'Location: Anywhere in Country At EY, we’re all in to shape your future
+    with confidence. We’ll help you succeed in a globally connected powerhouse of
+    diverse teams and take your career wherever you want it to go. Join EY and help
+    to build a better wor'
+  url: https://nlppeople.com/job/ai-machine-learning-engineering-consultant-manager-consulting-location-open-5/
+  date: '2026-07-06'
+  source: Nlppeople.com
+- title: NLP and AI Applied Machine Learning Engineer
+  description: Description The Government Health and Safety Solutions Operation is
+    on the lookout for a talented Applied Machine Learning Engineer to join our team.
+    *This position requires being onsite in Bethesda, MD (with some remote opportunities)
+    Responsibiliti
+  url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-4/
+  date: '2026-07-06'
+  source: Nlppeople.com
 - title: Centrifugal pump analysis and prediction in cavitation using RapidMiner tool
     and machine learning algorithms
   description: Scientific Reports - Centrifugal pump analysis and prediction in cavitation
@@ -74,6 +135,14 @@ news_items:
     are to be filled in the following area(s): IT – Taxpayer Services and Online Accounts
     Consi'
   url: https://nlppeople.com/job/lead-data-scientist-artificial-intelligence-machine-learning/
+  date: '2026-07-01'
+  source: Nlppeople.com
+- title: Director of Machine Learning & Artificial Intelligence
+  description: 'Company Description Domino’s Pizza, which began in 1960 as a single
+    store location in Ypsilanti, MI, has had a lot to celebrate lately: we’re a reshaped,
+    reenergized brand of honesty, transparency and accountability – not to mention,
+    great food! In t'
+  url: https://nlppeople.com/job/director-of-machine-learning-artificial-intelligence-3/
   date: '2026-07-01'
   source: Nlppeople.com
 - title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
@@ -3908,37 +3977,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01352j
   date: '2026-04-08'
   source: Royal Society of Chemistry
-- title: 'CO Coadsorption Effects on Water-Gas Shift Reaction over Cu Clusters on
-    Cu(111): Insights from Machine Learning Force Field and Microkinetic Modeling'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP05031F,
-    PaperMuhammad Fadhlan Anshor, Harry H. Halim, Yoshitada MorikawaCO-induced Cu
-    clustering has been observed experimentally and theoretically, yet its catalytic
-    implications rem'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp05031f
-  date: '2026-04-07'
-  source: Royal Society of Chemistry
-- title: Sam Altman’s Coworkers Say He Can Barely Code and Misunderstands Basic Machine
-    Learning Concepts
-  description: '"I think there''s a small but real chance he''s eventually remembered
-    as a Bernie Madoff- or Sam Bankman-Fried-level scammer."
-
-    The post Sam Altman’s Coworkers Say He Can Barely Code and Misunderstands Basic
-    Machine Learning Concepts appeared first on F'
-  url: http://futurism.com/artificial-intelligence/sam-altman-technical-coding
-  date: '2026-04-07'
-  source: Futurism
-- title: Microsoft to force updates to Windows 11 25H2 for PCs with older Windows
-    11 OS versions — 'intelligent' update system uses machine learning to determine
-  description: Windows 11 24H2 systems are being upgraded to 25H2 automatically, as
-    Microsoft aims to streamline updates before support ends.
-  url: https://slashdot.org/firehose.pl?op=view&amp;id=181401678
-  date: '2026-04-07'
-  source: Slashdot.org
-- title: 'Retraction Note: Machine learning framework for oxytetracycline removal
-    using nanostructured cupric oxide supported on magnetic chitosan alginate biocomposite'
-  description: 'Scientific Reports - Retraction Note: Machine learning framework for
-    oxytetracycline removal using nanostructured cupric oxide supported on magnetic
-    chitosan alginate biocomposite'
-  url: https://www.nature.com/articles/s41598-026-46854-7
-  date: '2026-04-07'
-  source: Nature.com
