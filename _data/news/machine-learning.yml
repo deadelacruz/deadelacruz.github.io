@@ -1,4 +1,69 @@
 news_items:
+- title: Best Object Detection Models for Machine Learning in 2026
+  description: 'Object detection powers transformative applications, from autonomous
+    vehicles navigating city streets and security systems identifying threats in real
+    time to retail analytics tracking inventory and medical imaging detecting tumors.
+    But choosing the '
+  url: https://blog.jetbrains.com/pycharm/2026/07/best-object-detection-models-for-machine-learning-in-2026/
+  date: '2026-07-07'
+  source: Jetbrains.com
+- title: 'Pollution removal efficiency enhancement by agricultural biomass additions
+    in constructed wetlands: A framework integrating meta-analysis with explainable
+    machine learning'
+  description: The agricultural biomass addition on constructed wetlands (CWs) is
+    a sustainable strategy that integrates pollution control with waste valorization.
+    However, their widespread applications remain constrained by variations in biomass
+    types, pretreatmen
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353064
+  date: '2026-07-07'
+  source: Plos.org
+- title: 'Effects of 5D built environment and non-built-environment factors on injury
+    crash risk: An interpretable machine learning analysis'
+  description: To identify the key determinants of traffic injury risk and clarify
+    the relative roles of built environment factors and crash-context factors, this
+    study develops a traffic injury risk identification framework that integrates
+    5D built environment var
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353205
+  date: '2026-07-07'
+  source: Plos.org
+- title: 'Correction: Flight delay prediction: Evaluating machine learning algorithms
+    for enhanced accuracy'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353323
+  date: '2026-07-07'
+  source: Plos.org
+- title: Discovery of hub genes linking oxidative stress to type 2 diabetic sarcopenia
+    using single-cell sequencing and machine learning
+  description: Type 2 diabetes mellitus (T2DM) and sarcopenia demonstrate a significant
+    comorbidity, particularly in the elderly, yet the molecular mechanisms linking
+    them, especially through oxidative stress, remain incompletely understood. This
+    study aimed to ide
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352753
+  date: '2026-07-07'
+  source: Plos.org
+- title: 'FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied
+    Volatility Forecasting'
+  description: Hyung Joo Kim and Dong Hwan OhDespite documented heterogeneity in volatility
+    dynamics across the option surface, standard implied volatility forecasting models
+    apply homogeneous parameters throughout. We introduce a machine-learning framework
+    that us
+  url: https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm
+  date: '2026-07-07'
+  source: Federalreserve.gov
+- title: 10 Probability Concepts for Machine Learning Explained Simply
+  description: A model is almost never 100% sure of anything. These 10 probability
+    concepts explain how it makes decisions anyway.
+  url: https://www.kdnuggets.com/10-probability-concepts-for-machine-learning-explained-simply
+  date: '2026-07-07'
+  source: Kdnuggets.com
+- title: 'Review: Building Machine Learning Systems with a Feature Store'
+  description: 'Many people come to machine learning by training a model on a tidy
+    dataset, and then meet a harder problem: making that model work for real users,
+    on fresh data, every day. Jim Dowling’s O’Reilly book, Building Machine Learning
+    Systems with a Feature'
+  url: https://www.helpnetsecurity.com/2026/07/07/review-building-machine-learning-systems-with-a-feature-store/
+  date: '2026-07-07'
+  source: Help Net Security
 - title: AI Disrupts $1 Billion Confectionery Ingredients Market as Food Giants Race
     to Deploy Machine Learning Solutions
   description: Confectionery Ingredients Market Enters a Smarter Era as AI Optimizes
@@ -3961,19 +4026,3 @@ news_items:
   url: https://nlppeople.com/job/ai-machine-learning-engineer-3-month-contract/
   date: '2026-04-09'
   source: Nlppeople.com
-- title: How to Build a Machine Learning Model from Scratch in C#?
-  description: Learn how to build machine learning models from scratch in C# using
-    ML.NET! This step-by-step guide covers sentiment analysis and model deployment
-    for .NET apps.
-  url: https://www.c-sharpcorner.com/article/how-to-build-a-machine-learning-model-from-scratch-in-c-sharp/
-  date: '2026-04-08'
-  source: C-sharpcorner.com
-- title: Unraveling Anisotropic Li-Ion Transport in Li 3/8 Sr 7/16 Ta 3/4 Hf 1/4 O
-    3 via Machine Learning Molecular Dynamics and First-Principles Modeling
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA01352J,
-    PaperQiang Ke, Xueling Lei, Kevin HuangSolid-state Li-ion electrolytes (SSLIEs)
-    are essential components for the development of nextgeneration rechargeable lithium
-    batteries. Among '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01352j
-  date: '2026-04-08'
-  source: Royal Society of Chemistry
