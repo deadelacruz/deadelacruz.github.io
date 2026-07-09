@@ -1,4 +1,45 @@
 news_items:
+- title: 'Daily Deal: The Premium Machine Learning Artificial Intelligence Super Bundle'
+  description: 'The Premium Machine Learning Artificial Intelligence Super Bundle
+    is a twelve-course digital toolkit designed to take you from coding novice to
+    AI architect. The curriculum breaks down complex data science concepts into actionable
+    steps, guiding you '
+  url: https://slashdot.org/firehose.pl?op=view&amp;id=184362282
+  date: '2026-07-08'
+  source: Slashdot.org
+- title: 'Daily Deal: The Premium Machine Learning Artificial Intelligence Super Bundle'
+  description: 'The Premium Machine Learning Artificial Intelligence Super Bundle
+    is a twelve-course digital toolkit designed to take you from coding novice to
+    AI architect. The curriculum breaks down complex data science concepts into actionable
+    steps, guiding you '
+  url: http://www.techdirt.com/2026/07/08/daily-deal-the-premium-machine-learning-artificial-intelligence-super-bundle/
+  date: '2026-07-08'
+  source: Techdirt
+- title: SAS puts machine learning in marketers' hands with new SAS 360 Marketing
+    AI
+  description: New solution brings purpose-built workflows to marketers of all skill
+    levels, accelerating time to execution, improving ROI and enhancing customer experience
+    CARY, N.C., July 8, 2026 /PRNewswire/ -- SAS, the leader in data and AI, today
+    announced SAS
+  url: https://www.prnewswire.com/news-releases/sas-puts-machine-learning-in-marketers-hands-with-new-sas-360-marketing-ai-302819982.html
+  date: '2026-07-08'
+  source: PRNewswire
+- title: Microchip Expands Developer Access with Free MPLAB® XC Compilers and MPLAB
+    Machine Learning Development Suite
+  description: By eliminating license fees and providing high-performance tools at
+    no cost, Microchip is removing barriers to innovation....
+  url: https://www.globenewswire.com/news-release/2026/07/08/3323964/0/en/Microchip-Expands-Developer-Access-with-Free-MPLAB-XC-Compilers-and-MPLAB-Machine-Learning-Development-Suite.html
+  date: '2026-07-08'
+  source: GlobeNewswire
+- title: Associate Professor in Machine Learning and Natural Language Processing (Social
+    Media Analytics)
+  description: 'This Job is based in Australia Associate Professor in Machine Learning
+    and Natural Language Processing (Social Media Analytics) Apply now Job no: 540051
+    Work type: Full Time Location: Sydney, NSW Categories: Associate Professor Job
+    Details Salary, Le'
+  url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-13/
+  date: '2026-07-08'
+  source: Nlppeople.com
 - title: Best Object Detection Models for Machine Learning in 2026
   description: 'Object detection powers transformative applications, from autonomous
     vehicles navigating city streets and security systems identifying threats in real
@@ -125,6 +166,14 @@ news_items:
   url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-4/
   date: '2026-07-06'
   source: Nlppeople.com
+- title: Machine Learning Scientist – NLP & Time Series – Vice President
+  description: The Machine Learning Center of Excellence invites the successful candidate
+    to apply sophisticated machine learning methods to a wide variety of complex tasks
+    including natural language processing, speech analytics, time series, reinforcement
+    learning
+  url: https://nlppeople.com/job/machine-learning-scientist-nlp-time-series-vice-president-2/
+  date: '2026-07-06'
+  source: Nlppeople.com
 - title: Centrifugal pump analysis and prediction in cavitation using RapidMiner tool
     and machine learning algorithms
   description: Scientific Reports - Centrifugal pump analysis and prediction in cavitation
@@ -132,6 +181,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-60315-1
   date: '2026-07-05'
   source: Nature.com
+- title: Senior Machine Learning Engineer – NLP Focus
+  description: About the Role Our client, a cutting-edge artificial intelligence research
+    firm located in **St. Louis, Missouri**, is looking for a highly skilled Senior
+    Machine Learning Engineer with a specialization in Natural Language Processing
+    (NLP). This is a
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-focus/
+  date: '2026-07-05'
+  source: Nlppeople.com
 - title: 'Rethinking Validation for Spatial Machine Learning: Takeaways from the Talk'
   description: "Title slide of the talk\r\n\nKeynote slides: https://jakubnowosad.com/ml4eo2026/\n\
     Workshop materials: https://jakubnowosad.com/ml4eo2026workshop/\nMachine learning\
@@ -3987,42 +4044,4 @@ news_items:
     the Engineering team at t'
   url: https://nlppeople.com/job/machine-learning-engineer-ii-full-time-2/
   date: '2026-04-10'
-  source: Nlppeople.com
-- title: 'Data Pipelines for Machine Learning: From Ingestion to Training (2026 Guide)'
-  description: A complete 2026 guide to machine learning data pipelines—covering ingestion,
-    processing, and training for scalable, production-ready ML systems.
-  url: https://flexiana.com/machine-learning-architecture/data-pipelines-for-machine-learning-from-ingestion-to-training-2026-guide
-  date: '2026-04-09'
-  source: Flexiana.com
-- title: Machine Learning Built MLOps Trained NLP Models
-  description: Are you interested in building software that creates meaningful social
-    impact? Every solution this company develops is deployed directly to production,
-    delivering tangible, real-world benefits within the healthcare sector. This Irish
-    software company
-  url: https://nlppeople.com/job/machine-learning-built-mlops-trained-nlp-models/
-  date: '2026-04-09'
-  source: Nlppeople.com
-- title: 'Correction: Predicting camouflage treatment outcomes in skeletal class III
-    malocclusion using machine learning'
-  description: 'Scientific Reports - Correction: Predicting camouflage treatment outcomes
-    in skeletal class III malocclusion using machine learning'
-  url: https://www.nature.com/articles/s41598-026-47457-y
-  date: '2026-04-09'
-  source: Nature.com
-- title: 'Machine Learning Framework to Predict Glass Transition Temperature in Natural
-    Deep Eutectic Solvents: A Step toward Green Functional Materials'
-  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC01009A, Paper
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Durbek Usmanov, Priyanka Yadav, Gerardo M. Casanola-Martin,
-    Akshat'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc01009a
-  date: '2026-04-09'
-  source: Royal Society of Chemistry
-- title: AI/Machine Learning Engineer (3 month contract)
-  description: 'Description We are recruiting for a Contract AI/ML Engineer to join
-    us ASAP for a duration of three months. Ideally based in a commutable distance
-    to Manchester. Who We Are: AND Digital are a tech company focused on accelerating
-    digital delivery and '
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-3-month-contract/
-  date: '2026-04-09'
   source: Nlppeople.com

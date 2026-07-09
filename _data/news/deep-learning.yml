@@ -1,4 +1,24 @@
 news_items:
+- title: 'Retraction: Convolutional neural network model by deep learning and teaching
+    robot in keyboard musical instrument teaching'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352739
+  date: '2026-07-08'
+  source: Plos.org
+- title: Leveraging a vendor-neutral deep learning reconstruction algorithm to reduce
+    scan time and enhance image quality in T2-weighted liver MRI
+  description: Scientific Reports - Leveraging a vendor-neutral deep learning reconstruction
+    algorithm to reduce scan time and enhance image quality in T2-weighted liver MRI
+  url: https://www.nature.com/articles/s41598-026-60802-5
+  date: '2026-07-08'
+  source: Nature.com
+- title: A robust hybrid deep learning framework for IoT intrusion detection with
+    adaptive feature embedding and imbalance-aware optimization
+  description: Scientific Reports - A robust hybrid deep learning framework for IoT
+    intrusion detection with adaptive feature embedding and imbalance-aware optimization
+  url: https://www.nature.com/articles/s41598-026-59121-6
+  date: '2026-07-08'
+  source: Nature.com
 - title: Federal Circuit Finds Deep Learning Patents Ineligible
   description: The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision
     today in Dental Monitoring SAS v. Align Technology, Inc., affirming a district
@@ -1054,21 +1074,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-47264-5
   date: '2026-04-10'
   source: Nature.com
-- title: An interpretable deep learning framework for predictive modeling of postoperative
-    infections in ICU patients
-  description: A significant proportion of intensive care unit (ICU) patients undergo
-    surgical procedures, and some may develop postoperative infections. Accurately
-    predicting postoperative infection risk and identifying key contributing factors
-    is crucial for impr
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346896
-  date: '2026-04-09'
-  source: Plos.org
-- title: 'Voxel-wise deep learning segmentation of hydroxyapatite and iodine in spectral
-    photon-counting CT: A quantitative phantom study'
-  description: Accurate non-invasive identification of hydroxyapatite (HA) deposits
-    is important for diagnosing calcific musculoskeletal disease and quantifying vascular
-    calcification, but conventional and dual-energy CT often struggle to distinguish
-    HA from iodina
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0346825
-  date: '2026-04-09'
-  source: Plos.org
