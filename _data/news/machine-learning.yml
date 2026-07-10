@@ -1,4 +1,42 @@
 news_items:
+- title: Machine learning unlocks a new class of magnetic materials
+  description: Understanding the influence of quasiperiodicity on magnetic fluctuations
+    could ultimately enable the design of materials with controllable magnetic responses.
+    Such capabilities may prove valuable for future information-processing technologies,
+    advanc
+  url: https://www.digitaljournal.com/article/machine-learning-unlocks-a-new-class-of-magnetic-materials/
+  date: '2026-07-09'
+  source: Digital Journal
+- title: 'Advancing outbreak detection: Hybridizing machine learning with wavelets
+    for weekly dengue case forecasting'
+  description: Author summary Dengue fever is a mosquito-borne disease that affects
+    millions of people, especially in tropical and subtropical regions. This study
+    focused on improving forecasting future dengue outbreaks in Quezon City, Philippines,
+    using weekly cas
+  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014444
+  date: '2026-07-09'
+  source: Plos.org
+- title: 'Research: Effectiveness assessment including statistical analysis of the
+    Universal Credit advances machine learning model: 1 April 2025 to 31 March 2026'
+  description: The assessment includes ad-hoc statistics on the impact of the Universal
+    Credit (UC) advances machine learning model on groups with protected characteristics.
+  url: https://www.gov.uk/government/publications/effectiveness-assessment-including-statistical-analysis-of-the-universal-credit-advances-machine-learning-model-1-april-2025-to-31-march-2026
+  date: '2026-07-09'
+  source: Www.gov.uk
+- title: AlphaGo-driven generative machine learning framework for inverse topology
+    synthesis and optimization of planar antennas
+  description: Scientific Reports - AlphaGo-driven generative machine learning framework
+    for inverse topology synthesis and optimization of planar antennas
+  url: https://www.nature.com/articles/s41598-026-61389-7
+  date: '2026-07-09'
+  source: Nature.com
+- title: 'Predicting the Young’s Modulus of biomedical titanium alloys using machine
+    learning: a data-driven approach'
+  description: 'Scientific Reports - Predicting the Young’s Modulus of biomedical
+    titanium alloys using machine learning: a data-driven approach'
+  url: https://www.nature.com/articles/s41598-026-56250-w
+  date: '2026-07-09'
+  source: Nature.com
 - title: 'Daily Deal: The Premium Machine Learning Artificial Intelligence Super Bundle'
   description: 'The Premium Machine Learning Artificial Intelligence Super Bundle
     is a twelve-course digital toolkit designed to take you from coding novice to
@@ -3974,74 +4012,3 @@ news_items:
   url: https://www.r-bloggers.com/2026/04/machine-learning-frameworks-in-r/
   date: '2026-04-11'
   source: R-bloggers.com
-- title: 'François Chollet: AGI progress is accelerating towards 2030, symbolic models
-    will reshape machine learning, and coding agents are revolutionizing automation
-    | Y Combinator Startup Podcast'
-  description: 'New AGI lab aims to revolutionize machine learning with symbolic models,
-    moving beyond traditional deep learning.
-
-    The post François Chollet: AGI progress is accelerating towards 2030, symbolic
-    models will reshape machine learning, and coding agents a'
-  url: https://cryptobriefing.com/francois-chollet-agi-progress-is-accelerating-towards-2030-symbolic-models-will-reshape-machine-learning-and-coding-agents-are-revolutionizing-automation-y-combinator-startup-podcast/
-  date: '2026-04-10'
-  source: Crypto Briefing
-- title: Advanced machine learning-guided optimization platform for high-yield soluble
-    expression of Pseudomonas aeruginosa exotoxin A in engineered Escherichia coli
-    strains
-  description: 'Background The recombinant production of Pseudomonas aeruginosa exotoxin
-    A (ETA), a critical component for immunotoxin development, remains hindered by
-    its complex disulfide bond architecture, cytotoxicity, and aggregation propensity.
-    Despite recent '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347213
-  date: '2026-04-10'
-  source: Plos.org
-- title: Machine Learning Engineer II – Full-time
-  description: '**Job Description:** TTI Consumer Power Tools, Inc., has an opening
-    in its Anderson, SC corporate office for a **Electrical Machine Learning (ML)
-    Engineer II** that will report into the Sr. Director of Engineering. Come join
-    the Engineering team at t'
-  url: https://nlppeople.com/job/machine-learning-engineer-ii-full-time/
-  date: '2026-04-10'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer – Intelligent Foundations and Experiences
-    (IFX) | Richmond, VA, USA
-  description: 'Senior Machine Learning Engineer – Intelligent Foundations and Experiences
-    (IFX) {“description”: “Senior Machine Learning Engineer – Intelligent Foundations
-    and Experiences (IFX) As a Capital One Machine Learning Engineer (MLE), you’ll
-    be part of an '
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-intelligent-foundations-and-experiences-ifx-richmond-va-usa/
-  date: '2026-04-10'
-  source: Nlppeople.com
-- title: Interpretable Machine Learning Model-Driven Electrochemical Impedance Spectroscopic
-    Analysis for Determination of Nitrate, Nitrite Ammonium Ions in Water
-  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D5AN01279A, PaperReji
-    K, Vishnuraj Ramakrishnan, Adithyakrishna Narayanaswamy, Vishnuvarthan Rajagopal,
-    S. Vishnu, Murali RangarajanRapid developments in materials chemistry and data-driven
-    approaches ha'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d5an01279a
-  date: '2026-04-10'
-  source: Royal Society of Chemistry
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-3/
-  date: '2026-04-10'
-  source: Nlppeople.com
-- title: Machine Learning Research Scientist
-  description: 'Summary: Join the Reality Labs team at Meta as we push the boundaries
-    of neuromotor interfaces. We are searching for experienced Research Scientists
-    who are passionate about product-driven machine learning and signal processing
-    research. Building on '
-  url: https://nlppeople.com/job/machine-learning-research-scientist-13/
-  date: '2026-04-10'
-  source: Nlppeople.com
-- title: Machine Learning Engineer II – Full-time
-  description: '**Job Description:** TTI Consumer Power Tools, Inc., has an opening
-    in its Anderson, SC corporate office for a **Electrical Machine Learning (ML)
-    Engineer II** that will report into the Sr. Director of Engineering. Come join
-    the Engineering team at t'
-  url: https://nlppeople.com/job/machine-learning-engineer-ii-full-time-2/
-  date: '2026-04-10'
-  source: Nlppeople.com
