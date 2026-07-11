@@ -1,4 +1,81 @@
 news_items:
+- title: Hanbat National University Study Advances Machine Learning Calibration of
+    Biosensors for Microcystin Toxin Monitoring in Freshwater
+  description: 'A machine learning model adjusts toxin readings for water-quality
+    variability, enabling faster, lower-cost on-site testing without repeated recalibration
+    CHUNGCHEONG PROVINCE, South Korea, July 10, 2026 /PRNewswire/ -- Portable screen-printed
+    carbon '
+  url: https://www.prnewswire.com/news-releases/hanbat-national-university-study-advances-machine-learning-calibration-of-biosensors-for-microcystin-toxin-monitoring-in-freshwater-302822478.html
+  date: '2026-07-10'
+  source: PRNewswire
+- title: Simplilearn and UC Santa Barbara Professional and Continuing Education Collaborate
+    to Introduce the Professional Certificate in AI and Machine Learning with a focus
+    on GenAI & Agentic AI
+  description: PLANO, Texas, July 10, 2026 /PRNewswire/ -- Simplilearn, a global leader
+    in digital upskilling, in collaboration with UC Santa Barbara Professional and
+    Continuing Education (UCSB PaCE), has launched the Professional Certificate in
+    AI and Machine Lear
+  url: https://www.prnewswire.co.uk/news-releases/simplilearn-and-uc-santa-barbara-professional-and-continuing-education-collaborate-to-introduce-the-professional-certificate-in-ai-and-machine-learning-with-a-focus-on-genai--agentic-ai-302822646.html
+  date: '2026-07-10'
+  source: PR Newswire UK
+- title: Simplilearn and UC Santa Barbara Professional and Continuing Education Collaborate
+    to Introduce the Professional Certificate in AI and Machine Learning with a focus
+    on GenAI & Agentic AI
+  description: PLANO, Texas, July 10, 2026 /PRNewswire/ -- Simplilearn, a global leader
+    in digital upskilling, in collaboration with UC Santa Barbara Professional and
+    Continuing Education (UCSB PaCE), has launched the Professional Certificate in
+    AI and Machine Lear
+  url: https://www.prnewswire.com/news-releases/simplilearn-and-uc-santa-barbara-professional-and-continuing-education-collaborate-to-introduce-the-professional-certificate-in-ai-and-machine-learning-with-a-focus-on-genai--agentic-ai-302822644.html
+  date: '2026-07-10'
+  source: PRNewswire
+- title: AI Machine Learning
+  description: The AI Machine Learning theme is designed for websites that present
+    technology-focused content, data-driven projects, software solutions, research
+    updates, and digital services. It includes structured layouts for showcasing case
+    studies, service sect
+  url: https://wordpress.org/themes/ai-machine-learning/
+  date: '2026-07-10'
+  source: Wordpress.org
+- title: 'Dynamic urban land surface monitoring in developing countries using remote
+    sensing and machine learning: real-time investigational approach'
+  description: 'Scientific Reports - Dynamic urban land surface monitoring in developing
+    countries using remote sensing and machine learning: real-time investigational
+    approach'
+  url: https://www.nature.com/articles/s41598-026-51664-y
+  date: '2026-07-10'
+  source: Nature.com
+- title: NLP and AI Applied Machine Learning Engineer
+  description: Description The Government Health and Safety Solutions Operation is
+    on the lookout for a talented Applied Machine Learning Engineer to join our team.
+    *This position requires being onsite in Bethesda, MD (with some remote opportunities)
+    Responsibiliti
+  url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-5/
+  date: '2026-07-10'
+  source: Nlppeople.com
+- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
+  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
+    England, United Kingdom Corporate Functions At Apple, we build AI systems that
+    define experiences for billions of people and we do it with an unwavering commitment
+    to privacy, per
+  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-12/
+  date: '2026-07-10'
+  source: Nlppeople.com
+- title: Lead Machine Learning Scientist – International Consumer Bank
+  description: JOB DESCRIPTION We know that people want great value combined with
+    an excellent experience from a bank they can trust, so we launched our digital
+    bank, Chase UK, to revolutionise mobile banking with seamless journeys that our
+    customers love. We’re al
+  url: https://nlppeople.com/job/lead-machine-learning-scientist-international-consumer-bank/
+  date: '2026-07-10'
+  source: Nlppeople.com
+- title: Executive Director – Applied Artificial Intelligence Machine Learning
+  description: Job Description As an Applied AI/ML Executive Director within our dynamic
+    team, you will apply your quantitative, data science, and analytical skills to
+    complex problems. As a Machine Learning Director, you will have the opportunity
+    to apply sophisti
+  url: https://nlppeople.com/job/executive-director-applied-artificial-intelligence-machine-learning/
+  date: '2026-07-10'
+  source: Nlppeople.com
 - title: Machine learning unlocks a new class of magnetic materials
   description: Understanding the influence of quasiperiodicity on magnetic fluctuations
     could ultimately enable the design of materials with controllable magnetic responses.
@@ -4002,13 +4079,3 @@ news_items:
   url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-2/
   date: '2026-04-12'
   source: Nlppeople.com
-- title: Machine Learning Frameworks in R
-  description: 'R’s ecosystem offers a rich selection of machine learning frameworks,
-    each with distinct design philosophies and strengths. This post is a side-by-side
-    comparison of five ML frameworks in R that provide unified interfaces over multiple
-    algorithms...
-
-    '
-  url: https://www.r-bloggers.com/2026/04/machine-learning-frameworks-in-r/
-  date: '2026-04-11'
-  source: R-bloggers.com

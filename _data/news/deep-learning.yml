@@ -1,4 +1,20 @@
 news_items:
+- title: Ministry to apply deep learning approach to all school subjects
+  description: The Ministry of Primary and Secondary Education said it will implement
+    the deep learning approach across all subjects by adapting it to the characteristics
+    of ...
+  url: https://en.antaranews.com/news/422124/ministry-to-apply-deep-learning-approach-to-all-school-subjects
+  date: '2026-07-10'
+  source: Antaranews.com
+- title: Prediction of microvascular invasion in hepatocellular carcinoma using contrast-enhanced
+    ultrasound and deep learning
+  description: 'Microvascular invasion (MVI) in hepatocellular carcinoma (HCC) is
+    a critical prognostic indicator, but it can only be diagnosed by postoperative
+    histopathology. Here, the authors develop MAPUSE, a deep learning model to predict
+    MVI preoperatively in '
+  url: https://www.nature.com/articles/s41467-026-74985-y
+  date: '2026-07-10'
+  source: Nature.com
 - title: 'Retraction: Convolutional neural network model by deep learning and teaching
     robot in keyboard musical instrument teaching'
   description: No description available.
@@ -1047,20 +1063,4 @@ news_items:
     optimization. This study
   url: https://www.nature.com/articles/s41598-026-46255-w
   date: '2026-04-13'
-  source: Nature.com
-- title: Combining structural modeling and deep learning to calculate the E. coli
-    protein interactome and functional networks
-  description: We report on the integration of three methods that predict, on a proteome-wide
-    scale, whether two proteins are likely to form a binary complex. Biological insights
-    are&nbsp;derived from subnetworks, including the annotation of proteins of unknown
-    fun
-  url: https://www.nature.com/articles/s41467-026-71166-9
-  date: '2026-04-11'
-  source: Nature.com
-- title: A two-stage deep learning model for risk identification in green supply chain
-    finance
-  description: Scientific Reports - A two-stage deep learning model for risk identification
-    in green supply chain finance
-  url: https://www.nature.com/articles/s41598-026-46830-1
-  date: '2026-04-11'
   source: Nature.com
