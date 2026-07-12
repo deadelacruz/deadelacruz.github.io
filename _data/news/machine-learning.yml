@@ -4043,39 +4043,3 @@ news_items:
   url: https://arxiv.org/abs/2604.15363
   date: '2026-04-13'
   source: Arxiv.org
-- title: 'Predicting copper leaching from slag: an interpretable machine learning
-    approach under oxidative sulfuric acid conditions'
-  description: 'RSC Adv., 2026, 16,19320-19333DOI: 10.1039/D6RA01571A, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
-    Unported Licence.Sung-Jin Kim, Song-Sae Kang, Kyong-Nam Pae, Song-Il Pak, Hyon-Il
-    Jo, Ryong-Jin KimAn int'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01571a
-  date: '2026-04-12'
-  source: Royal Society of Chemistry
-- title: Importance of Consistent and Well-Dispersed Catalyst Datasets for Machine
-    Learning in Oxidative Coupling of Methane
-  description: 'Catal. Sci. Technol., 2026, Accepted ManuscriptDOI: 10.1039/D6CY00228E,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Hinata Sudo, Yoshiki Hasukawa, Rensuke Koiwai, Fernando G'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cy/d6cy00228e
-  date: '2026-04-12'
-  source: Royal Society of Chemistry
-- title: '`mlS3` — A Unified S3 Machine Learning Interface in R'
-  description: 'Introduction to `mlS3` — A Unified S3 Machine Learning Interface in
-    R
-
-
-
-    Continue reading: `mlS3` — A Unified S3 Machine Learning Interface in R'
-  url: https://www.r-bloggers.com/2026/04/mls3-a-unified-s3-machine-learning-interface-in-r/
-  date: '2026-04-12'
-  source: R-bloggers.com
-- title: Senior / Principal Machine Learning Scientist, Scientific Reasoning Models,
-    AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-2/
-  date: '2026-04-12'
-  source: Nlppeople.com
