@@ -1,4 +1,12 @@
 news_items:
+- title: An integrated dynamic-evaluation and multi-task deep learning framework for
+    load forecasting and compressor scheduling in nonlinear industrial air systems
+  description: Scientific Reports - An integrated dynamic-evaluation and multi-task
+    deep learning framework for load forecasting and compressor scheduling in nonlinear
+    industrial air systems
+  url: https://www.nature.com/articles/s41598-026-61315-x
+  date: '2026-07-12'
+  source: Nature.com
 - title: Ministry to apply deep learning approach to all school subjects
   description: The Ministry of Primary and Secondary Education said it will implement
     the deep learning approach across all subjects by adapting it to the characteristics
@@ -1046,21 +1054,4 @@ news_items:
     recovering chromati
   url: https://www.nature.com/articles/s41467-026-71877-z
   date: '2026-04-14'
-  source: Nature.com
-- title: 'Designing universal causal deep learning models: the case of infinite-dimensional
-    dynamical systems from stochastic analysis'
-  description: 'Galimberti, L., Kratsios, A. & Livieri, G. ORCID logo (2026). Designing
-    universal causal deep learning models: the case of infinite-dimensional dynamical
-    systems from stochastic analysis. Constructive Approximation, https://doi.org/10.1007/s00365-026'
-  url: https://researchonline.lse.ac.uk/id/eprint/137962/
-  date: '2026-04-13'
-  source: Lse.ac.uk
-- title: Fast and accurate extraction of microwave filter coupling matrix via physics-informed
-    deep learning
-  description: Tuning microwave filters presents a significant challenge owing to
-    their inherent complexity. An accurate determination of the coupling matrix from
-    the target S-parameters plays a crucial role in both filter tuning and design
-    optimization. This study
-  url: https://www.nature.com/articles/s41598-026-46255-w
-  date: '2026-04-13'
   source: Nature.com

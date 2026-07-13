@@ -1,4 +1,12 @@
 news_items:
+- title: Physics-informed-GPR data augmentation framework for flower-shaped antenna
+    performance optimization and prediction using machine learning models
+  description: Scientific Reports - Physics-informed-GPR data augmentation framework
+    for flower-shaped antenna performance optimization and prediction using machine
+    learning models
+  url: https://www.nature.com/articles/s41598-026-60513-x
+  date: '2026-07-12'
+  source: Nature.com
 - title: Hanbat National University Study Advances Machine Learning Calibration of
     Biosensors for Microcystin Toxin Monitoring in Freshwater
   description: 'A machine learning model adjusts toxin readings for water-quality
@@ -3965,81 +3973,3 @@ news_items:
   url: https://nlppeople.com/job/senior-staff-machine-learning-ops-engineer/
   date: '2026-04-14'
   source: Nlppeople.com
-- title: 'Synergistic Enhancement of Hydrogen Evolution on MoS2 by Sulfur Vacancy
-    and Transition Metal Doping: A DFT and Machine Learning Study'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00688D,
-    PaperXin Fan, Xiaocheng Zhou, Yafei LiTwo-dimensional (2D) MoS2 has emerged as
-    a low-cost and efficient electrocatalyst for the hydrogen evolution reaction (HER).
-    Although sul'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00688d
-  date: '2026-04-13'
-  source: Royal Society of Chemistry
-- title: 'PoPI: A machine learning-based consensus mechanism for blockchain-enabled
-    IoT systems'
-  description: Internet of Things (IoT) enables seamless connectivity and intelligent
-    automation across diverse domains, from healthcare and agriculture to smart cities
-    and industrial systems. However, conventional IoT architectures often rely on
-    centralized server
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0347124
-  date: '2026-04-13'
-  source: Plos.org
-- title: Forecasting toxic metal concentrations in an inland sea ecosystem with machine
-    learning algorithms
-  description: Scientific Reports - Forecasting toxic metal concentrations in an inland
-    sea ecosystem with machine learning algorithms
-  url: https://www.nature.com/articles/s41598-026-48252-5
-  date: '2026-04-13'
-  source: Nature.com
-- title: 'Retraction Note: Predictive modelling and identification of key risk factors
-    for stroke using machine learning'
-  description: 'Scientific Reports - Retraction Note: Predictive modelling and identification
-    of key risk factors for stroke using machine learning'
-  url: https://www.nature.com/articles/s41598-026-47902-y
-  date: '2026-04-13'
-  source: Nature.com
-- title: 'Alkaline Earth Metal Binding with N-Heterocyclic Carbenes: Machine Learning-Assisted
-    Screening of Metal-Ligand Interactions'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04363H,
-    PaperSaurabh Singh Negi, Puneet GuptaN-heterocyclic carbenes (NHCs) are very versatile
-    ligands known for their strong σ-donating ability and stability, making them suitable
-    fo'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04363h
-  date: '2026-04-13'
-  source: Royal Society of Chemistry
-- title: 'Designing transferable transition state guided collective variable via interpretable
-    machine learning model for enhanced sampling: A case study on polymer collapse
-    transition'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D5CP04134A,
-    PaperSaikat Dhibar, Biman JanaEnhanced sampling methods enable the mechanistic
-    study of complex biophysical processes in atomistic resolution, addressing the
-    key timescale lim'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d5cp04134a
-  date: '2026-04-13'
-  source: Royal Society of Chemistry
-- title: 'Species Identification of Animal Glue Adhesives on Polychrome Cultural Heritage:
-    An Integrated Analytical Approach Combining Gel Sampling, ATR-FTIR Spectroscopy,
-    and Machine Learning'
-  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D6AY00017G, Technical
-    NoteXinyu Xie, Wanru Wang, Qin Huang, Wenyuan Zhang, Xinyue Zhu, Xiaoyan Liu,
-    Haixia ZhangAccurate identification of protein adhesive sources in polychrome
-    relics is critical '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00017g
-  date: '2026-04-13'
-  source: Royal Society of Chemistry
-- title: Machine Learning Evaluation Specialist – Remote
-  description: 'Machine Learning Evaluation Specialist (Remote) List of accepted countries
-    and locations Important for US applicants: This is a 1099 independent contractor
-    role and is not compatible with F-1 OPT, STEM OPT, or other visa statuses that
-    require W-2 emp'
-  url: https://nlppeople.com/job/machine-learning-evaluation-specialist-remote/
-  date: '2026-04-13'
-  source: Nlppeople.com
-- title: 'Machine learning approaches to uncover the neural mechanisms of motivated
-    behaviour: from ADHD to individual differences in effort and reward sensitivity'
-  description: Motivated behaviour relies on the brain's capacity to evaluate effort
-    and reward. Dysregulation within these processes contributes to a spectrum of
-    conditions, from hyperactivity in attention-deficit/hyperactivity disorder (ADHD)
-    to diminished goal-d
-  url: https://arxiv.org/abs/2604.15363
-  date: '2026-04-13'
-  source: Arxiv.org
