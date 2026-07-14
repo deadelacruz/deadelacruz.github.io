@@ -1,4 +1,18 @@
 news_items:
+- title: Deep learning single-cell analysis for cytologic evaluation of oral potentially
+    malignant disorders
+  description: Scientific Reports - Deep learning single-cell analysis for cytologic
+    evaluation of oral potentially malignant disorders
+  url: https://www.nature.com/articles/s41598-026-47538-y
+  date: '2026-07-13'
+  source: Nature.com
+- title: 'FedPDM-Net: a federated prototype-guided disentangled deep learning framework
+    for explainable malaria detection'
+  description: 'Scientific Reports - FedPDM-Net: a federated prototype-guided disentangled
+    deep learning framework for explainable malaria detection'
+  url: https://www.nature.com/articles/s41598-026-54887-1
+  date: '2026-07-13'
+  source: Nature.com
 - title: An integrated dynamic-evaluation and multi-task deep learning framework for
     load forecasting and compressor scheduling in nonlinear industrial air systems
   description: Scientific Reports - An integrated dynamic-evaluation and multi-task
@@ -1045,13 +1059,4 @@ news_items:
     because, in addition to many views and structures, it includes several sub-modaliti
   url: https://www.nature.com/articles/s41598-026-47777-z
   date: '2026-04-16'
-  source: Nature.com
-- title: 'Hi-Compass: a depth-aware deep learning framework for predicting cell-type-specific
-    3D genome organization from single-cell to spatial resolution'
-  description: Cell-type-specific 3D genome maps are hard to generate experimentally.
-    Here, the authors develop Hi-Compass, a deep-learning framework that predicts
-    chromatin interactions from accessibility data across variable sequencing depths,
-    recovering chromati
-  url: https://www.nature.com/articles/s41467-026-71877-z
-  date: '2026-04-14'
   source: Nature.com

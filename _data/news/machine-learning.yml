@@ -1,4 +1,20 @@
 news_items:
+- title: 'Retraction: Advanced machine learning-guided optimization platform for high-yield
+    soluble expression of Pseudomonas aeruginosa exotoxin A in engineered Escherichia
+    coli strains'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353537
+  date: '2026-07-13'
+  source: Plos.org
+- title: Transcriptomic characterization of key psoriasis-associated genes based on
+    single-cell RNA-seq and machine learning
+  description: Background Psoriasis is a multifaceted skin and systemic disorder driven
+    by a complex interplay of genetic, immunological, and environmental factors. Genetic
+    predisposition plays a pivotal role, with the IL-17/IL-23 immune axis recognized
+    as a centra
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352663
+  date: '2026-07-13'
+  source: Plos.org
 - title: Physics-informed-GPR data augmentation framework for flower-shaped antenna
     performance optimization and prediction using machine learning models
   description: Scientific Reports - Physics-informed-GPR data augmentation framework
@@ -3949,27 +3965,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00170j
   date: '2026-04-15'
   source: Royal Society of Chemistry
-- title: Thermodynamically consistent machine learning model for excess Gibbs energy
-  description: This work introduces HANNA, a strictly consistent machine learning
-    model for predicting phase equilibria and other thermodynamic properties of multi-component
-    mixtures only from the molecular structure.
-  url: https://www.nature.com/articles/s41467-026-71430-y
-  date: '2026-04-14'
-  source: Nature.com
-- title: Machine learning driven discovery of low modulus biomedical titanium alloys
-    for additive manufacturing
-  description: Researchers combined CALPHAD, machine learning, and multi-objective
-    optimisation to design an AM-specific titanium alloy for implant and orthopaedic
-    applications. Laser powder bed fusion produced low-stiffness (~43 GPa), high-ductility
-    (~31%) compone
-  url: https://www.nature.com/articles/s41467-026-71927-6
-  date: '2026-04-14'
-  source: Nature.com
-- title: Senior / Staff Machine Learning Ops Engineer
-  description: Waabi, founded by AI visionary Raquel Urtasun, is the leader in Physical
-    AI. With a world-class team, we’re unlocking the next era of autonomous transportation
-    with technology that’s powering commercial autonomous trucks and robotaxis. Waabi
-    is backe
-  url: https://nlppeople.com/job/senior-staff-machine-learning-ops-engineer/
-  date: '2026-04-14'
-  source: Nlppeople.com
