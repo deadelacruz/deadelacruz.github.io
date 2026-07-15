@@ -1,4 +1,30 @@
 news_items:
+- title: 'TB-SERS analyzer: Analysis tool for tuberculosis prediction based on Raman
+    spectroscopy with machine learning and convolutional neural network'
+  description: Author summary Tuberculosis (TB) remains one of the world’s leading
+    infectious diseases, affecting millions of people annually and posing a major
+    global public health challenge. Early screening and diagnosis are critical for
+    controlling disease trans
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014397
+  date: '2026-07-14'
+  source: Plos.org
+- title: Chai Discovery raises $400M for AI drug discovery as big pharma bets on machine
+    learning over blockchain
+  description: 'AI''s success in drug discovery highlights its potential to revolutionize
+    the industry, challenging the need for blockchain-based solutions.
+
+    The post Chai Discovery raises $400M for AI drug discovery as big pharma bets
+    on machine learning over blockch'
+  url: https://cryptobriefing.com/chai-discovery-400m-ai-drug-discovery/
+  date: '2026-07-14'
+  source: Crypto Briefing
+- title: 'Advanced fraud detection in financial systems: a comparative study of machine
+    learning models on imbalanced data'
+  description: 'Scientific Reports - Advanced fraud detection in financial systems:
+    a comparative study of machine learning models on imbalanced data'
+  url: https://www.nature.com/articles/s41598-026-55224-2
+  date: '2026-07-14'
+  source: Nature.com
 - title: 'Retraction: Advanced machine learning-guided optimization platform for high-yield
     soluble expression of Pseudomonas aeruginosa exotoxin A in engineered Escherichia
     coli strains'
@@ -3923,45 +3949,3 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-engineer-platforms-3/
   date: '2026-04-16'
   source: Nlppeople.com
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-4/
-  date: '2026-04-15'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learnin…
-  description: Job Description At JPMorgan Chase, AI and technology promote our global
-    operations with unmatched scale and speed. We invest over $18 billion annually
-    in innovation, data leverage, and security to shape the future for our clients,
-    communities, and em
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-5/
-  date: '2026-04-15'
-  source: Nlppeople.com
-- title: Predicting post-stroke functional outcome using explainable machine learning
-    and integrated data
-  description: Scientific Reports - Predicting post-stroke functional outcome using
-    explainable machine learning and integrated data
-  url: https://www.nature.com/articles/s41598-026-47814-x
-  date: '2026-04-15'
-  source: Nature.com
-- title: Determination of organic arsenic acids by machine learning-assisted SERS
-    on a silicon-modified coating of Fe3O4@Ag
-  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA00017G,
-    PaperZiqi Zhang, Jianrong Tian, Huaqing Ling, Zhixi Zhao, Shan Chen, Zulihaya
-    Maimaiti, Yufang Ye, Qing Wang, Yongbin LiSurface-enhanced Raman spectroscopy
-    (SERS) is a highly promi'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja00017g
-  date: '2026-04-15'
-  source: Royal Society of Chemistry
-- title: 'DeFecT-FF: a machine learning force field framework for high throughput
-    defect modeling in CdTe-based solar cells'
-  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D6CP00170J,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Md Habibur Rahman, Maitreyo Biswas, Arun Mannodi-KanakkithodiThe
-    DeFecT-'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00170j
-  date: '2026-04-15'
-  source: Royal Society of Chemistry

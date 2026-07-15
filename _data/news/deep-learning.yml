@@ -1,4 +1,19 @@
 news_items:
+- title: 'The Future of Advertising Is Predictive: How Deep Learning Is Transforming
+    Marketing'
+  description: Plus, positioning media as the middle, not the end of your marketing
+    process.
+  url: https://www.adweek.com/brand-marketing/the-future-of-advertising-is-predictive-how-deep-learning-is-transforming-marketing/
+  date: '2026-07-14'
+  source: Adweek
+- title: Open dataset and deep learning model for intelligent diagnosis of neonatal
+    respiratory distress syndrome and aspiration syndrome in newborns
+  description: Scientific Reports - Open dataset and deep learning model for intelligent
+    diagnosis of neonatal respiratory distress syndrome and aspiration syndrome in
+    newborns
+  url: https://www.nature.com/articles/s41598-026-40740-y
+  date: '2026-07-14'
+  source: Nature.com
 - title: Deep learning single-cell analysis for cytologic evaluation of oral potentially
     malignant disorders
   description: Scientific Reports - Deep learning single-cell analysis for cytologic
