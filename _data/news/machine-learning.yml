@@ -27,6 +27,12 @@ news_items:
   url: https://www.sqlservercentral.com/articles/how-clustering-can-be-used-as-a-preprocessing-technique-for-classification-in-azure-machine-learning
   date: '2026-07-15'
   source: Sqlservercentral.com
+- title: 'Feature Stores Explained: Managing Machine Learning Features at Scale'
+  description: Learn how Feature Stores help manage machine learning features at scale
+    through centralized storage, feature serving, versioning, and MLOps integration.
+  url: https://www.c-sharpcorner.com/article/feature-stores-explained-managing-machine-learning-features-at-scale/
+  date: '2026-07-15'
+  source: C-sharpcorner.com
 - title: 'TB-SERS analyzer: Analysis tool for tuberculosis prediction based on Raman
     spectroscopy with machine learning and convolutional neural network'
   description: Author summary Tuberculosis (TB) remains one of the world’s leading
