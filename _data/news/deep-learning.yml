@@ -1,4 +1,27 @@
 news_items:
+- title: 'CenSegNet: a generalist high-throughput deep learning framework for centrosome
+    phenotyping at spatial and single-cell resolution in heterogeneous tissues'
+  description: Cheng, Fan, and colleagues develop CenSegNet, a generalist AI framework
+    for large-scale mapping of centrosome phenotypes, uncovering distinct patterns
+    associated with breast tumour heterogeneity, disease progression and clinical
+    outcomes.
+  url: https://www.nature.com/articles/s41467-026-75393-y
+  date: '2026-07-15'
+  source: Nature.com
+- title: Integrating skeleton based representations for robust yoga pose classification
+    using deep learning models
+  description: Scientific Reports - Integrating skeleton based representations for
+    robust yoga pose classification using deep learning models
+  url: https://www.nature.com/articles/s41598-025-23726-0
+  date: '2026-07-15'
+  source: Nature.com
+- title: Deep learning assisted prediction of microstructure and wear behaviour in
+    plasma nitrided 316 L stainless steel
+  description: Scientific Reports - Deep learning assisted prediction of microstructure
+    and wear behaviour in plasma nitrided 316&nbsp;L stainless steel
+  url: https://www.nature.com/articles/s41598-026-55448-2
+  date: '2026-07-15'
+  source: Nature.com
 - title: 'The Future of Advertising Is Predictive: How Deep Learning Is Transforming
     Marketing'
   description: Plus, positioning media as the middle, not the end of your marketing
@@ -1067,11 +1090,4 @@ news_items:
     reconstruction
   url: https://www.nature.com/articles/s41598-026-48890-9
   date: '2026-04-18'
-  source: Nature.com
-- title: Generative deep learning for foundational video translation in ultrasound
-  description: For deep learning (DL) to realize its potential for medical image interpretation,
-    attention to dataset content is critical. Ultrasound presents a particular challenge
-    because, in addition to many views and structures, it includes several sub-modaliti
-  url: https://www.nature.com/articles/s41598-026-47777-z
-  date: '2026-04-16'
   source: Nature.com
