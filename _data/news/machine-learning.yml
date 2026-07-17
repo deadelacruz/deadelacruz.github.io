@@ -1,4 +1,36 @@
 news_items:
+- title: Detecting LLM-Generated Texts with "Classical" Machine Learning
+  description: '.admonition {   margin: .75em 0;   padding: .6rem;   overflow: hidden;   font-size:
+    12px;   page-break-inside: avoid;   border-left: .3rem solid #42b983;   border-radius:
+    .3rem;   box-shadow: 0 0.1re'
+  url: https://blog.lyc8503.net/en/post/llm-classifier/
+  date: '2026-07-16'
+  source: Lyc8503.net
+- title: Can a history of crop rotations improve the prediction of soil organic carbon
+    in the Andes? integrating machine learning multi-annual crop classification as
+    a proxy of soil management
+  description: Soil organic carbon (SOC) is a crucial component related to various
+    processes that ensure soil health and function. Its modeling is vital for assessing
+    and monitoring soil degradation caused by the potential impact of agricultural
+    activities.This stu
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353966
+  date: '2026-07-16'
+  source: Plos.org
+- title: Screening of core targets for Di(2-ethylhexyl) Phthalate-related gastric
+    cancer based on machine learning, molecular docking, and SHAP analysis
+  description: Author summary Di(2-ethylhexyl) phthalate (DEHP), a common plasticizer
+    in food packaging and daily plastics, is a widespread environmental contaminant
+    humans are exposed to regularly, but its association with gastric cancer (GC),
+    one of the world’s m
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014514
+  date: '2026-07-16'
+  source: Plos.org
+- title: Part3 - The Shift to Machine Learning
+  description: A practical explanation of how software engineering shifted from hand-written
+    rules to machine learning systems that learn patterns from data.
+  url: https://www.c-sharpcorner.com/article/part3-the-shift-to-machine-learning/
+  date: '2026-07-16'
+  source: C-sharpcorner.com
 - title: 'Predicting ankylosing spondylitis disease activity via patient-reported
     outcome measures: Building prediction models based on machine learning'
   description: 'Objective Disease activity is a critical indicator for monitoring
@@ -3816,90 +3848,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-48776-w
   date: '2026-04-18'
   source: Nature.com
-- title: 'Interview: AI compute startup TBC details biological computing platform
-    linking living neurons and machine learning'
-  description: In an era where AI systems are rapidly scaling beyond the limits of
-    traditional silicon, new experimental companies are beginning to question what
-    "compute" itself should look like. One of the most unusual entrants is The Biological
-    Computing Company
-  url: https://www.digitimes.com/news/a20260417VL204/machine-learning-startup-efficiency-performance-silicon.html
-  date: '2026-04-17'
-  source: Digitimes
-- title: How to Preprocess Text Data for Machine Learning Step by Step
-  description: Master text preprocessing for machine learning! Learn step-by-step
-    techniques to clean, transform, and prepare text data for optimal model performance.
-  url: https://www.c-sharpcorner.com/article/how-to-preprocess-text-data-for-machine-learning-step-by-step/
-  date: '2026-04-17'
-  source: C-sharpcorner.com
-- title: What is Overfitting in Machine Learning and How to Prevent It?
-  description: Overfitting in machine learning? Learn to identify & prevent it! This
-    guide covers techniques like regularization, cross-validation, & early stopping
-    for better models.
-  url: https://www.c-sharpcorner.com/article/what-is-overfitting-in-machine-learning-and-how-to-prevent-it2/
-  date: '2026-04-17'
-  source: C-sharpcorner.com
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-5/
-  date: '2026-04-17'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learnin…
-  description: Job Description At JPMorgan Chase, AI and technology promote our global
-    operations with unmatched scale and speed. We invest over $18 billion annually
-    in innovation, data leverage, and security to shape the future for our clients,
-    communities, and em
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-6/
-  date: '2026-04-17'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist – Advanced AI & Automation
-  description: 'We are looking for a Senior Machine Learning Scientist to join the
-    Corporate Reserach department at Sartorius. You will use your expertise in modern
-    machine learning, computer vision and robotics to design AI – driven automaton
-    for next – generation '
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation/
-  date: '2026-04-17'
-  source: Nlppeople.com
-- title: Machine Learning Platform Engineering Manager
-  description: 'Machine Learning Platform Engineering ManagerWe’re Kingfisher, a team
-    made up of over 74,000 passionate people bringing Kingfisher and our other brands
-    – B&Q, Screwfix, Brico Dépôt, Castorama and Koctasto life – guided by our purpose:
-    Better Homes. B'
-  url: https://nlppeople.com/job/machine-learning-platform-engineering-manager/
-  date: '2026-04-17'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp/
-  date: '2026-04-17'
-  source: Nlppeople.com
-- title: 'Toward sustainable energy production: a comparative machine learning framework
-    for predicting green hydrogen cost across the african continent'
-  description: 'Scientific Reports - Toward sustainable energy production: a comparative
-    machine learning framework for predicting green hydrogen cost across the african
-    continent'
-  url: https://www.nature.com/articles/s41598-026-47726-w
-  date: '2026-04-17'
-  source: Nature.com
-- title: AI Scientist / Machine Learning Engineer
-  description: AI Scientist / Machine Learning EngineerRoleWe are looking for an AI
-    scientist or machine learning engineer to design and implement the algorithms
-    that power Biostream’s physiological monitoring and alert systems. You will work
-    closely with the biost
-  url: https://nlppeople.com/job/ai-scientist-machine-learning-engineer/
-  date: '2026-04-17'
-  source: Nlppeople.com
-- title: Machine Learning Engineer – Platforms
-  description: As a Machine Learning Engineer – Platforms within the Data Impact &
-    Governance organization, you will shape and scale the enterprise AI/ML platform
-    that powers clinical, research, and operational machine learning across the institution.
-    This is a han
-  url: https://nlppeople.com/job/machine-learning-engineer-platforms-4/
-  date: '2026-04-17'
-  source: Nlppeople.com

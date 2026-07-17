@@ -1,4 +1,25 @@
 news_items:
+- title: 'Retraction: Automated brain tumor diagnostics: Empowering neuro-oncology
+    with deep learning-based MRI image analysis'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353921
+  date: '2026-07-16'
+  source: Plos.org
+- title: Dynamics-enhanced molecular property prediction guided by deep learning
+  description: Author summary Predicting molecular properties is a central problem
+    in computational biology, drug discovery and chemical safety evaluation. Molecules
+    are dynamic objects in solution and constantly undergo conformational changes;
+    however, most existi
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014515
+  date: '2026-07-16'
+  source: Plos.org
+- title: Enhancing IoT network security with explainable deep learning-based intrusion
+    detection systems
+  description: Scientific Reports - Enhancing IoT network security with explainable
+    deep learning-based intrusion detection systems
+  url: https://www.nature.com/articles/s41598-025-34334-3
+  date: '2026-07-16'
+  source: Nature.com
 - title: 'CenSegNet: a generalist high-throughput deep learning framework for centrosome
     phenotyping at spatial and single-cell resolution in heterogeneous tissues'
   description: Cheng, Fan, and colleagues develop CenSegNet, a generalist AI framework
