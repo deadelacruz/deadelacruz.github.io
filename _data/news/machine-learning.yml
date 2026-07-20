@@ -1,4 +1,11 @@
 news_items:
+- title: Symbolic and domain-generalized machine learning for interpretable solubility
+    modeling in supercritical CO₂
+  description: Scientific Reports - Symbolic and domain-generalized machine learning
+    for interpretable solubility modeling in supercritical CO₂
+  url: https://www.nature.com/articles/s41598-026-62721-x
+  date: '2026-07-19'
+  source: Nature.com
 - title: Detecting LLM-Generated Texts with "Classical" Machine Learning
   description: '.admonition {   margin: .75em 0;   padding: .6rem;   overflow: hidden;   font-size:
     12px;   page-break-inside: avoid;   border-left: .3rem solid #42b983;   border-radius:
@@ -3746,86 +3753,4 @@ news_items:
     ensur
   url: https://nlppeople.com/job/sr-manager-of-machine-learning-ai/
   date: '2026-04-21'
-  source: Nlppeople.com
-- title: Machine learning-assisted screening of copper-cerium bimetallic catalysts
-    for tetracycline degradation
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA01364C,
-    PaperQingyu Huang, Fei Huang, Bingxu Chen, Yang Yu, Na Jiang, Chuang Yang, Yuchen
-    Wang, Yongjun ZhangBimetallic catalysts have shown significant potential for the
-    removal of refract'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01364c
-  date: '2026-04-20'
-  source: Royal Society of Chemistry
-- title: How to Perform Feature Scaling in Machine Learning Step by Step
-  description: Master feature scaling in ML! Learn step-by-step techniques (Min-Max,
-    Standardization) to boost model accuracy, speed up training, and avoid common
-    pitfalls.
-  url: https://www.c-sharpcorner.com/article/how-to-perform-feature-scaling-in-machine-learning-step-by-step/
-  date: '2026-04-20'
-  source: C-sharpcorner.com
-- title: Senior Machine Learning Engineer – Generative AI (Remote)
-  description: 'Position Purpose: The Sr Machine Learning Engineer is responsible
-    for designing, building, integrating, optimizing, and maintaining AI-powered applications
-    that leverage generative models and overall product lifecycle for a product that
-    our users lov'
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-generative-ai-remote/
-  date: '2026-04-20'
-  source: Nlppeople.com
-- title: 'Retraction Note: Improving earthquake prediction accuracy in Los Angeles
-    with machine learning'
-  description: 'Scientific Reports - Retraction Note: Improving earthquake prediction
-    accuracy in Los Angeles with machine learning'
-  url: https://www.nature.com/articles/s41598-026-49689-4
-  date: '2026-04-20'
-  source: Nature.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learnin…
-  description: Job Description At JPMorgan Chase, AI and technology promote our global
-    operations with unmatched scale and speed. We invest over $18 billion annually
-    in innovation, data leverage, and security to shape the future for our clients,
-    communities, and em
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-7/
-  date: '2026-04-20'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer – Generative AI & Full-Stack Applications
-  description: 'We’re building a world of health around every individual — shaping
-    a more connected, convenient and compassionate health experience. At CVS Health®,
-    you’ll be surrounded by passionate colleagues who care deeply, innovate with purpose,
-    hold ourselves '
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-generative-ai-full-stack-applications/
-  date: '2026-04-20'
-  source: Nlppeople.com
-- title: Coordination-Layer Engineering of Pt Single Atoms on h‑BN for Propane Dehydrogenation
-    via a p‑Band Descriptor Validated by Multiscale Modeling and Knowledge-Informed
-    Machine Learning
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02037B,
-    PaperHuiJie Wang, Weihang Xu, Xiaoying Sun, Jiaxin Sun, Ji Qi, Zhen Zhao, Bo LiSingle-atom
-    catalysts promise maximal metal and site efficiency, yet predictable bidirectional
-    electro'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02037b
-  date: '2026-04-20'
-  source: Royal Society of Chemistry
-- title: Δ-Machine Learning of Triplet Excitation Energies in Organic Chromophores
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP01296E,
-    CommunicationARKA PRATIM Pratim GHOSH, Koyal Roy, Kalishankar BhattacharyyaHere,
-    we report Δ-machine learning approch for predicting triplet excitation energies
-    (T1) of divers'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp01296e
-  date: '2026-04-20'
-  source: Royal Society of Chemistry
-- title: Technology Product Manager – Cheminformatics and Machine Learning
-  description: At Johnson & Johnson, we believe health is everything. Our strength
-    in healthcare innovation empowers us to build a world where complex diseases are
-    prevented, treated, and cured, where treatments are smarter and less invasive,
-    and solutions are pers
-  url: https://nlppeople.com/job/technology-product-manager-cheminformatics-and-machine-learning/
-  date: '2026-04-20'
-  source: Nlppeople.com
-- title: Manager of Machine Learning
-  description: 'Technical Lead – ML Platform – 130-140k – Hybrid Dublin – No Visa
-    Sponsorship Great role for you ML engineers who work in supporting the algos in
-    production. The landscape: SME SaaS company in Dublin, has a great brand identity
-    and has the structures'
-  url: https://nlppeople.com/job/manager-of-machine-learning-2/
-  date: '2026-04-20'
   source: Nlppeople.com

@@ -1,4 +1,11 @@
 news_items:
+- title: Multimodal graph-based deep learning for predicting heat of combustion as
+    a key hazard indicator under GHS/CLP standards
+  description: Scientific Reports - Multimodal graph-based deep learning for predicting
+    heat of combustion as a key hazard indicator under GHS/CLP standards
+  url: https://www.nature.com/articles/s41598-026-60540-8
+  date: '2026-07-19'
+  source: Nature.com
 - title: 'Retraction: Automated brain tumor diagnostics: Empowering neuro-oncology
     with deep learning-based MRI image analysis'
   description: No description available.
@@ -1080,11 +1087,3 @@ news_items:
   url: https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/
   date: '2026-04-22'
   source: Nvidia.com
-- title: 'Retraction Note: Hybrid deep learning framework for cardiovascular disease
-    diagnosis and prognosis using GAN, LSTM, GRU, VARMA, and deep DynaQ network'
-  description: 'Scientific Reports - Retraction Note: Hybrid deep learning framework
-    for cardiovascular disease diagnosis and prognosis using GAN, LSTM, GRU, VARMA,
-    and deep DynaQ network'
-  url: https://www.nature.com/articles/s41598-026-49102-0
-  date: '2026-04-20'
-  source: Nature.com
