@@ -1,4 +1,13 @@
 news_items:
+- title: Automated concrete crack detection enhanced by deep learning and generative
+    adversarial networks
+  description: Cracks on the surface of concrete structures are an obvious indication
+    of their condition. However, traditional visual inspection methods are significantly
+    influenced by human factors. They are accurate for larger cracks. However, they
+    introduce subj
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354018
+  date: '2026-07-20'
+  source: Plos.org
 - title: Multimodal graph-based deep learning for predicting heat of combustion as
     a key hazard indicator under GHS/CLP standards
   description: Scientific Reports - Multimodal graph-based deep learning for predicting
