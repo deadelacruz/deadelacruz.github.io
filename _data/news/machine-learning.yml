@@ -1,4 +1,35 @@
 news_items:
+- title: 'Beyond the Model: Building Real-World Machine Learning'
+  description: In the latest Developer Impact Series, Dave Neary of Ampere® Computing
+    talks with Dr. R.J. Nowling from the Milwaukee School of Engineering to discuss
+    how the school is bridging the gap between theoretical machine learning (ML) and
+    real-world product
+  url: https://dzone.com/articles/real-world-machine-learning
+  date: '2026-07-21'
+  source: Dzone.com
+- title: 'Prediction of factors contributing to Pain Intensity among low back pain
+    patients: A comparative machine learning frameworks (Random Forest versus XGBoost)'
+  description: Background Predicting pain intensity in patients with low back pain
+    (LBP) remains a complex task due to the biopsychosocial nature of pain. Pain intensity
+    is shaped by multifaceted interactions among demographic, lifestyle, and clinical
+    factors.   Ai
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354370
+  date: '2026-07-21'
+  source: Plos.org
+- title: A Quality Model for Machine Learning Components
+  description: This post presents a quality model for machine learning components
+    that serves as a guide for requirements elicitation and negotiation.
+  url: https://www.sei.cmu.edu/blog/a-quality-model-for-machine-learning-components/
+  date: '2026-07-21'
+  source: Carnegie Mellon University
+- title: Machine learning–assisted performance prediction of graphene–silicon twin-port
+    band-notched wideband antenna for THz 6G communication systems
+  description: Scientific Reports - Machine learning–assisted performance prediction
+    of graphene–silicon twin-port band-notched wideband antenna for THz 6G communication
+    systems
+  url: https://www.nature.com/articles/s41598-026-60977-x
+  date: '2026-07-21'
+  source: Nature.com
 - title: A feature-efficient dual-task machine learning framework for predicting bone
     mineral density and osteoporosis stratification in resource-constrained environments
   description: Osteoporosis is a chronic skeletal disorder characterized by progressive
@@ -3706,45 +3737,3 @@ news_items:
   url: https://nlppeople.com/job/manager-machine-learning-engineering-3/
   date: '2026-04-23'
   source: Nlppeople.com
-- title: 5 GitHub Repositories to Learn Quantum Machine Learning
-  description: If you want to learn quantum machine learning in 2025, these five GitHub
-    repositories can get you started in hours, not months.
-  url: https://www.kdnuggets.com/5-github-repositories-to-learn-quantum-machine-learning
-  date: '2026-04-22'
-  source: Kdnuggets.com
-- title: How to perform data normalization in machine learning step by step?
-  description: No description available.
-  url: https://www.c-sharpcorner.com/article/how-to-perform-data-normalization-in-machine-learning-step-by-step/
-  date: '2026-04-22'
-  source: C-sharpcorner.com
-- title: What is gradient descent and how does it optimize machine learning models?
-  description: No description available.
-  url: https://www.c-sharpcorner.com/article/what-is-gradient-descent-and-how-does-it-optimize-machine-learning-models/
-  date: '2026-04-22'
-  source: C-sharpcorner.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learnin…
-  description: Job Description At JPMorgan Chase, AI and technology promote our global
-    operations with unmatched scale and speed. We invest over $18 billion annually
-    in innovation, data leverage, and security to shape the future for our clients,
-    communities, and em
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-8/
-  date: '2026-04-22'
-  source: Nlppeople.com
-- title: First-Principles and Machine Learning Investigation of Pressure-Induced Elastic,
-    Electronic, and Magnetic Behavior in FeZrTiX (X = Al, Si) Heusler Alloys
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00025H,
-    PaperDipti Gawande, R. J. Gadha, Shubha Dubey, Vipin Kumar, Archana Srivastava,
-    Eithiraj R. D., Gitanjali Pagare, N. K. GaurIn this study, we investigate the
-    structural, elect'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00025h
-  date: '2026-04-22'
-  source: Royal Society of Chemistry
-- title: Singlet machine learning photodynamics reveal competing inversion paths of
-    methylated cyclooctatetrathiophene
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6SC00969G, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Christian Salguero, Steven A. LopezWe used state-of-the-art '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc00969g
-  date: '2026-04-22'
-  source: Royal Society of Chemistry

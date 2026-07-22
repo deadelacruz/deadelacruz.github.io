@@ -1,4 +1,13 @@
 news_items:
+- title: Visual Semantic Decoding of Electrocorticography from Video Stimuli using
+    End-to-End Deep Learning
+  description: ECoG-based visual semantic decoding enables inference of semantic interpretation
+    of visual perception from complex, noisy brain activity. This study examines the
+    feasibility of visual semantic decoding using an end-to-end deep learning framework
+    usin
+  url: https://arxiv.org/abs/2607.18923
+  date: '2026-07-21'
+  source: Arxiv.org
 - title: Automated concrete crack detection enhanced by deep learning and generative
     adversarial networks
   description: Cracks on the surface of concrete structures are an obvious indication
@@ -1089,10 +1098,3 @@ news_items:
   url: https://arxiv.org/abs/2604.21691
   date: '2026-04-24'
   source: Arxiv.org
-- title: Simplify Sparse Deep Learning with Universal Sparse Tensor in nvmath-python
-  description: In a previous post, we introduced the Universal Sparse Tensor (UST),
-    enabling developers to decouple a tensor’s sparsity from its memory layout for
-    greater...
-  url: https://developer.nvidia.com/blog/simplify-sparse-deep-learning-with-universal-sparse-tensor-in-nvmath-python/
-  date: '2026-04-22'
-  source: Nvidia.com
