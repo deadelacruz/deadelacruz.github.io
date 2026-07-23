@@ -1,4 +1,11 @@
 news_items:
+- title: Acoustic feature selection and clinical information integration for machine
+    learning based dialysis shunt function prediction
+  description: Scientific Reports - Acoustic feature selection and clinical information
+    integration for machine learning based dialysis shunt function prediction
+  url: https://www.nature.com/articles/s41598-026-62029-w
+  date: '2026-07-22'
+  source: Nature.com
 - title: 'Beyond the Model: Building Real-World Machine Learning'
   description: In the latest Developer Impact Series, Dave Neary of Ampere® Computing
     talks with Dr. R.J. Nowling from the Milwaukee School of Engineering to discuss
@@ -3711,29 +3718,4 @@ news_items:
     they need to grow the'
   url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai/
   date: '2026-04-24'
-  source: Nlppeople.com
-- title: 'Analysis of multivariate social science data: statistical machine learning
-    methods'
-  description: 'Moustaki, I. ORCID logo , Steele, F. ORCID logo , Chen, Y. ORCID logo
-    & Bartholomew, D. (2026). Analysis of multivariate social science data: statistical
-    machine learning methods. Chapman and Hall. https://doi.org/10.1201/9781003483342'
-  url: https://researchonline.lse.ac.uk/id/eprint/138151/
-  date: '2026-04-23'
-  source: Lse.ac.uk
-- title: Machine learning-driven alignment architecture of heterogeneous data with
-    transient varying semantics
-  description: This study presents an unsupervised alignment architecture using a
-    supervised learning model to align heterogeneous data with unknown semantic time
-    shifts. It demonstrates effectiveness in aligning optical and acoustic signals,
-    enabling semantic mini
-  url: https://www.nature.com/articles/s41467-026-72377-w
-  date: '2026-04-23'
-  source: Nature.com
-- title: Manager, Machine Learning Engineering
-  description: Company Overview Docusign brings agreements to life. Over 1.5 million
-    customers and more than a billion people in over 180 countries use Docusign solutions
-    to accelerate the process of doing business and simplify people’s lives. With
-    intelligent agre
-  url: https://nlppeople.com/job/manager-machine-learning-engineering-3/
-  date: '2026-04-23'
   source: Nlppeople.com
