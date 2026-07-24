@@ -1,4 +1,50 @@
 news_items:
+- title: 'SHEEP IN THE BOX Review: Tale of Not So Artificial Intelligence'
+  description: It is indeed a perilous fate to be a film festival darling. On the
+    one hand, sure, you might have a standing invitation for your next work in one
+    of the “Big Five”. The downside is that, after a while, everyone starts believing
+    they know what this ne
+  url: https://screenanarchy.com/2026/07/sheep-in-the-box-review.html
+  date: '2026-07-23'
+  source: Screenanarchy.com
+- title: A Taxonomy of Omnicidal Futures Involving Artificial Intelligence
+  description: 'This report presents a taxonomy and examples of potential omnicidal
+    events resulting from AI: scenarios where all or almost all humans are killed.
+    These events are not presented as inevitable, but as possibilities that we can
+    work to avoid. Insofar a'
+  url: https://arxiv.org/abs/2507.09369
+  date: '2026-07-23'
+  source: Arxiv.org
+- title: Spiritual intelligence vs Artificial intelligence
+  description: Artificial intelligence draws strength from interconnected neural networks,
+    mirroring human society's need for connection.  Individuals and nations thrive
+    through trust and cooperation, while isolation breeds instability.  As machines
+    grow more intel
+  url: https://economictimes.indiatimes.com/opinion/speaking-tree/spiritual-intelligence-vs-artificial-intelligence/articleshow/132588587.cms
+  date: '2026-07-23'
+  source: The Times of India
+- title: How much energy do data centers and artificial intelligence use?
+  description: Data centers consume around 1.5% of global electricity, but demand
+    is very geographically concentrated.
+  url: https://ourworldindata.org/how-much-energy-do-data-centers-and-artificial-intelligence-use
+  date: '2026-07-23'
+  source: Ourworldindata.org
+- title: Northeastern Illinois University Becomes First Public University in Chicago
+    to Launch Bachelor of Science Degree in Artificial Intelligence
+  description: 'Applications are now open for Fall 2026. CHICAGO, July 23, 2026 /PRNewswire/
+    -- Northeastern Illinois University will launch a new Bachelor of Science in Artificial
+    Intelligence beginning in Fall 2026, becoming the first public university in Chicago '
+  url: https://www.prnewswire.com/news-releases/northeastern-illinois-university-becomes-first-public-university-in-chicago-to-launch-bachelor-of-science-degree-in-artificial-intelligence-302833337.html
+  date: '2026-07-23'
+  source: PRNewswire
+- title: America needs an artificial intelligence coalition, not an AI fortress
+  description: China has made its view of artificial intelligence unmistakably clear.Beijing
+    is reportedly preparing to restrict overseas access to its most advanced AI models
+    even as second-tier Chinese firms race to capture global customers that American
+    export c
+  url: https://www.theblaze.com/columns/opinion/america-needs-an-artificial-intelligence-coalition-not-an-ai-fortress
+  date: '2026-07-23'
+  source: TheBlaze
 - title: A study on the influencing factors of perceived artificial intelligence substitution
     risk
   description: Xing, X., Dai, H., Zhou, Y., Lan, Z., Wu, X. , Jiang, J. & Cao, L.
@@ -5948,62 +5994,3 @@ news_items:
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_6ec91d62-add0-437d-bdc6-d5e5fffae0a8
   date: '2026-04-25'
   source: Yahoo Entertainment
-- title: Mount Sinai Health System and Guyana Ministry of Health Host Seminar on Practical,
-    Responsible Integration of Artificial Intelligence in Health Care
-  description: Georgetown, Guyana, April 24, 2026 (GLOBE NEWSWIRE) -- The Mount Sinai
-    Health System and the Guyana Ministry of Health yesterday convened government,
-    clinical, operational, and artificial intelligence (AI) leaders for a seminar,
-    “Turning Promise Into
-  url: https://www.globenewswire.com/news-release/2026/04/24/3280998/0/en/Mount-Sinai-Health-System-and-Guyana-Ministry-of-Health-Host-Seminar-on-Practical-Responsible-Integration-of-Artificial-Intelligence-in-Health-Care.html
-  date: '2026-04-24'
-  source: GlobeNewswire
-- title: Intel Soars After an Earnings Blowout. Did This Legacy Tech Company Just
-    Become Wall Street's Newest Artificial Intelligence (AI) Darling?
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_10cbede5-8362-48c4-a444-383cbde97ff9
-  date: '2026-04-24'
-  source: Yahoo Entertainment
-- title: 'Artificial Intelligence Clinical Trial Protocol Feasibility Tool Research
-    Report 2026: $2.75+ Bn Market Opportunities, Trends, Competitive Landscape, Strategies,
-    and Forecasts, 2020-2035F'
-  description: Key market opportunities include the rising demand for AI-enhanced
-    trial design, boosted by increasing complexity in clinical trials, precision medicine
-    focus, predictive analytics, and decentralized designs. Growth is driven by advancements
-    in genom
-  url: https://www.globenewswire.com/news-release/2026/04/24/3280628/28124/en/Artificial-Intelligence-Clinical-Trial-Protocol-Feasibility-Tool-Research-Report-2026-2-75-Bn-Market-Opportunities-Trends-Competitive-Landscape-Strategies-and-Forecasts-2020-2035F.html
-  date: '2026-04-24'
-  source: GlobeNewswire
-- title: '3 PhD Scholarships at Marburg University in the Project Human-in-Control:
-    Implementing employee co-determination in the design, development, and deployment
-    of artificial intelligence'
-  description: 'We have three PhD scholarships available in the NLP research group
-    at Marburg University within the newly established junior research group “Human-in-Control:
-    Implementing employee co-determination in the design, development, and deployment
-    of artifi'
-  url: https://nlppeople.com/job/3-phd-scholarships-at-marburg-university-in-the-project-human-in-control-implementing-employee-co-determination-in-the-design-development-and-deployment-of-artificial-intelligence/
-  date: '2026-04-24'
-  source: Nlppeople.com
-- title: 'Prediction: The Best-Performing Artificial Intelligence (AI) Stock on the
-    Nasdaq by Year-End Won''t Be Nvidia'
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_7fffe78d-e178-4d24-b577-29c57965da64
-  date: '2026-04-24'
-  source: Yahoo Entertainment
-- title: Starbucks Reveals Groundbreaking Artificial Intelligence (AI) Platform. Will
-    It Finally Recover?
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_e0925d8b-8249-4389-8ce2-81ba9ba6918f
-  date: '2026-04-24'
-  source: Yahoo Entertainment
-- title: 1 No-Brainer Artificial Intelligence (AI) Stock to Buy With $10,000 and Hold
-    for the Long Term
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_f28d97a6-bfb3-4462-9b9c-a116869708dd
-  date: '2026-04-24'
-  source: Yahoo Entertainment
-- title: Children are in the crosshairs of artificial intelligence. Who will we blame?
-  description: '"The question is not whether AI will harm ‘our’ children someday.
-    The question is whose children are already being harmed. And will we demand accountability?"'
-  url: https://cyber.harvard.edu/story/2026-04/children-are-crosshairs-artificial-intelligence-who-will-we-blame
-  date: '2026-04-24'
-  source: Harvard School of Engineering and Applied Sciences

@@ -1,4 +1,11 @@
 news_items:
+- title: Whole-esophageal radiomics and deep learning for predicting the pT and pN
+    categories of resectable esophageal cancer
+  description: Scientific Reports - Whole-esophageal radiomics and deep learning for
+    predicting the pT and pN categories of resectable esophageal cancer
+  url: https://www.nature.com/articles/s41598-026-62500-8.pdf
+  date: '2026-07-23'
+  source: Nature.com
 - title: 'Deep learning approaches show promise for predicting childhood malnutrition:
     A comparative study with traditional machine learning methods using survey data'
   description: Childhood malnutrition remains a major public health concern in Nepal
@@ -1106,11 +1113,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-46010-1
   date: '2026-04-25'
   source: Nature.com
-- title: There Will Be a Scientific Theory of Deep Learning
-  description: In this paper, we make the case that a scientific theory of deep learning
-    is emerging. By this we mean a theory which characterizes important properties
-    and statistics of the training process, hidden representations, final weights,
-    and performance of
-  url: https://arxiv.org/abs/2604.21691
-  date: '2026-04-24'
-  source: Arxiv.org
