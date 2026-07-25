@@ -1105,11 +1105,3 @@ news_items:
   url: https://news.ycombinator.com/item?id=47893779
   date: '2026-04-26'
   source: Hacker News
-- title: "S$$\\vphantom{0}^{2}$$\r\n2\r\nA-RConvNet: standalone self-attention enabled\
-    \ deep learning model for brain tumor classification with MRI images"
-  description: 'Scientific Reports - S$$\vphantom{0}^{2}$$2A-RConvNet: standalone
-    self-attention enabled deep learning model for brain tumor classification with
-    MRI images'
-  url: https://www.nature.com/articles/s41598-026-46010-1
-  date: '2026-04-25'
-  source: Nature.com

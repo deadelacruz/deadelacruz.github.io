@@ -1,4 +1,12 @@
 news_items:
+- title: Machine Learning for Trading, 3rd Edition
+  description: 'eBook Details: Paperback: 826 pages Published: July 24, 2026 Language: English
+    ISBN-10: 1803246979 ISBN-13: 978-1803246970 eBook Description: Machine Learning
+    for Trading, 3rd Edition: A disciplined workflow from research to live execution,
+    with nine'
+  url: https://www.wowebook.org/machine-learning-for-trading-3rd-edition/
+  date: '2026-07-24'
+  source: Wowebook.org
 - title: 'The fourth day at DebConf26 starts at 10.00 AM DebConf Time (1:00 PM UTC)
     in the Aula Magna - FADU with a talk in Spanish about "Edge Machine Learning en
     pequeños dispositivos con Debian" followed by "You Really Want an AI Agent in
