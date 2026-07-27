@@ -1,4 +1,15 @@
 news_items:
+- title: 'Show HN: Mousecrack – Bypass agent mouse detection with deep learning'
+  description: 'Article URL: https://github.com/puffinsoft/mousecrack
+
+    Comments URL: https://news.ycombinator.com/item?id=49055418
+
+    Points: 1
+
+    # Comments: 0'
+  url: https://github.com/puffinsoft/mousecrack
+  date: '2026-07-26'
+  source: Github.com
 - title: Whole-esophageal radiomics and deep learning for predicting the pT and pN
     categories of resectable esophageal cancer
   description: Scientific Reports - Whole-esophageal radiomics and deep learning for
