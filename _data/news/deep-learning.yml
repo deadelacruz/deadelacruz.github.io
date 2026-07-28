@@ -1,4 +1,17 @@
 news_items:
+- title: 'Retraction: Hybrid deep learning and feature selection approach for autism
+    detection from rs-fMRI data'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354652
+  date: '2026-07-27'
+  source: Plos.org
+- title: Deep learning technique for grape leaf disease classification via deep high
+    attention stage-by-stage forward Taylor network
+  description: Scientific Reports - Deep learning technique for grape leaf disease
+    classification via deep high attention stage-by-stage forward Taylor network
+  url: https://www.nature.com/articles/s41598-026-61627-y
+  date: '2026-07-27'
+  source: Nature.com
 - title: 'Show HN: Mousecrack – Bypass agent mouse detection with deep learning'
   description: 'Article URL: https://github.com/puffinsoft/mousecrack
 
@@ -1085,29 +1098,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-47109-1
   date: '2026-04-29'
   source: Nature.com
-- title: Image quality improvement of liver ultrasound using unsupervised deep learning
-  description: Chronic liver disease (CLD) and subsequent liver cirrhosis (LC) are
-    common causes of death and healthcare-related socio-economical costs worldwide.
-    Ultrasound (US) is the first-line imaging modality for assessing the liver and
-    associated hepatocellul
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348137
-  date: '2026-04-28'
-  source: Plos.org
-- title: Stacked CT radiomics, deep learning and clinical feature models for differentiating
-    benign and malignant solitary pulmonary nodules
-  description: Solitary pulmonary nodules (SPNs) are common incidental findings on
-    high-resolution CT, and differentiating benign from malignant lesions still depends
-    mainly on invasive biopsy, highlighting the need for accurate non-invasive tools.
-    In this retrospe
-  url: https://www.nature.com/articles/s41598-026-49720-8
-  date: '2026-04-28'
-  source: Nature.com
-- title: A flexible pressure sensor based on a PVA/TA/CNT organogel for deep learning
-    powered human gesture recognition
-  description: 'J. Mater. Chem. C, 2026, Advance ArticleDOI: 10.1039/D6TC00308G, PaperHanfei
-    Zhu, Liang Xu, Xinqing Sun, Jun Liu, Peng Pan, Zhengchun YangGel-based pressure
-    sensors are widely used in wearable electronics to provide features of human activity
-    detecti'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00308g
-  date: '2026-04-28'
-  source: Royal Society of Chemistry
