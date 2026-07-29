@@ -1,4 +1,10 @@
 news_items:
+- title: 'Pi-Loc: a Pareto indoor localization using deep learning in 5GB'
+  description: 'Scientific Reports - Pi-Loc: a Pareto indoor localization using deep
+    learning in 5GB'
+  url: https://www.nature.com/articles/s41598-026-62117-x
+  date: '2026-07-28'
+  source: Nature.com
 - title: 'Retraction: Hybrid deep learning and feature selection approach for autism
     detection from rs-fMRI data'
   description: No description available.
@@ -1074,27 +1080,3 @@ news_items:
   url: https://www.spacewar.com/reports/Deep_Learning_Reconstructs_32_Years_of_Global_Nighttime_Light_Data_999.html
   date: '2026-04-30'
   source: Spacewar.com
-- title: Stochastic intracellular calcium dynamics show preserved structures identified
-    by deep learning classification
-  description: Author summary Cells communicate through calcium signaling, and the
-    rhythms of these signals are deeply connected to physiological states that influence
-    health and disease. Deterministic models predict that these dynamics fall into
-    distinct regimes s
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014240
-  date: '2026-04-29'
-  source: Plos.org
-- title: Mapping functional non-coding variation in individual human genomes through
-    haplotyping, multiomics, and deep learning
-  description: How non-coding mutations in DNA contribute to phenotypes is a largely
-    unresolved question. Here the authors integrate personal genomics and machine
-    learning to identify hundreds of genetic variants that affect gene expression.
-  url: https://www.nature.com/articles/s41467-026-72392-x
-  date: '2026-04-29'
-  source: Nature.com
-- title: 'Attention-enhanced spatiotemporal deep learning for predictive maintenance
-    in oil and gas assets: towards Maintenance 5.0'
-  description: 'Scientific Reports - Attention-enhanced spatiotemporal deep learning
-    for predictive maintenance in oil and gas assets: towards Maintenance 5.0'
-  url: https://www.nature.com/articles/s41598-026-47109-1
-  date: '2026-04-29'
-  source: Nature.com
