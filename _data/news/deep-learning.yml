@@ -1,4 +1,35 @@
 news_items:
+- title: Pytorch Tutorial for Deep Learning
+  description: This is a guest post from Naa Ashiorkor, a data scientist and tech
+    community builder. Building intelligent systems that can see, hear, understand
+    language, and make decisions was previously the domain of specialized researchers
+    with massive computing
+  url: https://blog.jetbrains.com/pycharm/2026/07/pytorch-tutorial-for-deep-learning/
+  date: '2026-07-29'
+  source: Jetbrains.com
+- title: 'SynAPSeg: A novel dataset and image analysis framework for deep learning-based
+    synapse detection and quantification'
+  description: Author summary The connections between brain cells, known as synapses,
+    are the fundamental units of learning and memory. Synapses are often densely packed
+    along dendrites making them difficult to accurately segment with automated image
+    analysis metho
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014571
+  date: '2026-07-29'
+  source: Plos.org
+- title: Benchmarking machine learning and deep learning models with a novel graph-attention
+    SAGEConv-transformer for ECG arrhythmia detection
+  description: Scientific Reports - Benchmarking machine learning and deep learning
+    models with a novel graph-attention SAGEConv-transformer for ECG arrhythmia detection
+  url: https://www.nature.com/articles/s41598-026-64615-4
+  date: '2026-07-29'
+  source: Nature.com
+- title: Hybrid deep learning and meta learning for Alzheimer disease classification
+    via multimodal radiomic and visual features
+  description: Scientific Reports - Hybrid deep learning and meta learning for Alzheimer
+    disease classification via multimodal radiomic and visual features
+  url: https://www.nature.com/articles/s41598-026-64370-6.pdf
+  date: '2026-07-29'
+  source: Nature.com
 - title: 'Pi-Loc: a Pareto indoor localization using deep learning in 5GB'
   description: 'Scientific Reports - Pi-Loc: a Pareto indoor localization using deep
     learning in 5GB'
@@ -1069,14 +1100,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-51233-3
   date: '2026-05-01'
   source: Nature.com
-- title: Deep Learning Reconstructs 32 Years of Global Nighttime Light Data
-  description: 'Tokyo, Japan (SPX) Apr 29, 2026
-
-
-
-    A team of researchers from Fuzhou University, East China Normal University, Anhui
-    Normal University, and Yunnan Normal University has developed a deep-learning
-    framework to reconstruct a global, high-resolution night'
-  url: https://www.spacewar.com/reports/Deep_Learning_Reconstructs_32_Years_of_Global_Nighttime_Light_Data_999.html
-  date: '2026-04-30'
-  source: Spacewar.com
