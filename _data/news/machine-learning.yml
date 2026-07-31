@@ -1,4 +1,29 @@
 news_items:
+- title: 7 Machine Learning Algorithms That Still Matter
+  description: Discover 7 essential machine learning algorithms that every data scientist
+    should know before reaching for LLMs and generative AI, with simple explanations
+    and practical Python code.
+  url: https://www.kdnuggets.com/7-machine-learning-algorithms-that-still-matter
+  date: '2026-07-30'
+  source: Kdnuggets.com
+- title: Machine Learning Scientist/Senior Machine Learning Scientist – Synthesis
+    Planning and Optimization, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-senior-machine-learning-scientist-synthesis-planning-and-optimization-ai-for-drug-discovery-4/
+  date: '2026-07-30'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Senior Associate
+    – Machine Learning Center of Excellence
+  description: At JPMorgan Chase, AI and technology promote our global operations
+    with unmatched scale and speed. We invest over $18 billion annually in innovation,
+    data leverage, and security to shape the future for our clients, communities,
+    and employees. The Chi
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-senior-associate-machine-learning-center-of-excellence-2/
+  date: '2026-07-30'
+  source: Nlppeople.com
 - title: Large-scale study points to potential -- and challenges -- of using machine
     learning as diagnostic aid
   description: Findings explored today at the ADLM 2026 meeting ANAHEIM, CALIF., July
@@ -122,6 +147,23 @@ news_items:
     existing software architecture. This includes prototyping new models, writing
     production-quality code'
   url: https://nlppeople.com/job/artificial-intelligence-machine-learning-2/
+  date: '2026-07-27'
+  source: Nlppeople.com
+- title: Research Engineer I II/III (AI / Machine Learning)
+  description: 'Category: Science Lab/Area: Jain Lab Description: Who we are At Gladstone
+    Institutes, every role contributes to discoveries that have the potential to transform
+    lives. Gladstone is a world-renowned independent, nonprofit biomedical research
+    organizat'
+  url: https://nlppeople.com/job/research-engineer-i-ii-iii-ai-machine-learning/
+  date: '2026-07-27'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer – Physical AI and Synthetic Data Generation
+    and Evaluation
+  description: We are looking for outstanding Machine Learning Engineers to join our
+    Physical AI teams. As the pioneers of the GPU—the visual cortex of modern computing—we
+    are building the foundation for the next wave of AI that interacts with the physical
+    world. T
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-physical-ai-and-synthetic-data-generation-and-evaluation/
   date: '2026-07-27'
   source: Nlppeople.com
 - title: Comparative evaluation of geostatistical and machine learning approaches
@@ -3555,67 +3597,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-49866-5
   date: '2026-05-02'
   source: Nature.com
-- title: Engineering Manager – Machine Learning and Applied Artificial Intelligence
-  description: The Aerospace Corporation is the trusted partner to the nation’s space
-    programs, solving the hardest problems and providing unmatched technical expertise.
-    As the operator of a federally funded research and development center (FFRDC),
-    we are broadly e
-  url: https://nlppeople.com/job/engineering-manager-machine-learning-and-applied-artificial-intelligence/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer (all genders welcome)
-  description: To accelerate AI adoption and maximize the efficiency of our internal
-    processes across our engineering teams, we are seeking a Senior Machine Learning
-    Engineer who combines deep expertise in LLMs, MLOps, and agentic AI with the credibility
-    and commun
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-all-genders-welcome-2/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-9/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Senior Data Scientist / AI Machine Learning Research Engineer Jobs
-  description: 'Job Title: Senior Data Scientist / AI Machine Learning Research Engineer
-    Job Category: Science Time Type: Full time Minimum Clearance Required to Start:
-    Top Secret Employee Type: Regular Percentage of Travel Required: Up to 10% Type
-    of Travel: Contin'
-  url: https://nlppeople.com/job/senior-data-scientist-ai-machine-learning-research-engineer-jobs-2/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Machine Learning Specialist
-  description: We’re looking for a Machine Learning Specialist/Programmer who can
-    translate research into real-world impact. You are curious, hands on and motivated
-    by turning ideas into working systems that improve how things are done. Comfortable
-    navigating uncer
-  url: https://nlppeople.com/job/machine-learning-specialist-10/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer II — Build AI Systems
-  description: A leading travel technology provider in the United Kingdom is looking
-    for a Machine Learning Engineer II to join their Product AI Engineering team.
-    This role involves designing and optimizing intelligent systems using AI techniques.
-    The ideal candida
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-ii-build-ai-systems-3/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist – Advanced AI & Automation
-  description: 'We are looking for a Senior Machine Learning Scientist to join the
-    Corporate Reserach department at Sartorius. You will use your expertise in modern
-    machine learning, computer vision and robotics to design AI – driven automaton
-    for next – generation '
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-4/
-  date: '2026-05-01'
-  source: Nlppeople.com
-- title: Engineering Manager – Machine Learning and Applied Artificial Intelligence
-  description: The Aerospace Corporation is the trusted partner to the nation’s space
-    programs, solving the hardest problems and providing unmatched technical expertise.
-    As the operator of a federally funded research and development center (FFRDC),
-    we are broadly e
-  url: https://nlppeople.com/job/engineering-manager-machine-learning-and-applied-artificial-intelligence-4/
-  date: '2026-05-01'
-  source: Nlppeople.com
