@@ -1,4 +1,26 @@
 news_items:
+- title: How Artificial Intelligence Discovered A New Way To Detect Patients At Risk
+    Of Cardiac Death Using Simple EKGs
+  description: Researchers using medical AI have discovered a hitherto unknown pattern
+    in the humble EKG that indicates an elevated risk for cardiac death.
+  url: https://www.forbes.com/sites/paulhsieh/2026/07/31/how-artificial-intelligence-discovered-a-new-way-to-detect-patients-at-risk-of-cardiac-death-using-simple-ekgs/
+  date: '2026-07-31'
+  source: Forbes
+- title: 'Human rights in the shadow of military exceptionalism: reflections on the
+    Informal Exchange on Artificial Intelligence in the military domain'
+  description: '[Chantal Joris is a Swiss qualified lawyer and the acting Head of
+    Law and Policy at ARTICLE 19. Dr Ilia Siatitsa is Programme Director at Privacy
+    International. Tomaso Falchetta is Global Advocacy Coordinator at Privacy International.]
+    On 15–17 June '
+  url: http://opiniojuris.org/2026/07/31/human-rights-in-the-shadow-of-military-exceptionalism-reflections-on-the-informal-exchange-on-artificial-intelligence-in-the-military-domain/
+  date: '2026-07-31'
+  source: Opiniojuris.org
+- title: Offshore support staff don’t fear artificial intelligence
+  description: Workers supporting business from offshore locations are unconcerned
+    about the impact of AI on their jobs
+  url: https://www.computerweekly.com/news/366646624/Offshore-support-staff-dont-fear-artificial-intelligence
+  date: '2026-07-31'
+  source: ComputerWeekly.com
 - title: 'Vertiv vs. BWX Technologies: What Revenue Trends Tell Investors About the
     Impact of Artificial Intelligence on These Companies'
   description: 'Vertiv vs. BWX Technologies: What Revenue Trends Tell Investors About
@@ -64,6 +86,12 @@ news_items:
   url: https://www.forbes.com/sites/walterpavlo/2026/07/30/artificial-intelligence-could-help-prevent-sexual-assault-in-prisons/
   date: '2026-07-30'
   source: Forbes
+- title: Got $1,000? 2 Magnificent Artificial Intelligence (AI) Stocks Down 15% or
+    More From Their Highs to Buy Hand Over Fist
+  description: No description available.
+  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d8f23f8a-6d01-4901-890e-3619b9536d98
+  date: '2026-07-30'
+  source: Yahoo Entertainment
 - title: AXIS Appoints Rahil Jogani as Head of Technology & Artificial Intelligence
     Strategy
   description: AXIS Capital Holdings Limited announced that it has hired Rahil Jogani
@@ -6090,25 +6118,3 @@ news_items:
   url: https://bradenkelley.com/2026/05/winning-with-artificial-intelligence-in-90-days/
   date: '2026-05-03'
   source: Bradenkelley.com
-- title: Why artificial intelligence in medicine cannot replace clinical intuition
-  description: It was a cold January night, around two in the morning on my third
-    consecutive 34-hour shift as a senior pediatric resident at a major freestanding
-    children’s hospital in the northeast. My floor had absorbed four admissions in
-    the last hour, our elev
-  url: https://kevinmd.com/2026/05/why-artificial-intelligence-in-medicine-cannot-replace-clinical-intuition.html
-  date: '2026-05-02'
-  source: Kevinmd.com
-- title: 'AI Marketing Industry Growth: How Artificial Intelligence is Driving an
-    $82 Billion Market by 2030'
-  description: 'AI Marketing Industry Growth: How Artificial Intelligence is Driving
-    an $82 Billion Market by 2030parwaaz-psdf.com.pk'
-  url: https://parwaaz-psdf.com.pk/ai-marketing-industry-growth-how-artificial-intelligence-is-driving-an-82-billion-market/
-  date: '2026-05-02'
-  source: Parwaaz-psdf.com.pk
-- title: Explainable artificial intelligence models using SHAP enhanced CatBoost,
-    Bi-GRU with attention, and Tab Transformer
-  description: Scientific Reports - Explainable artificial intelligence models using
-    SHAP enhanced CatBoost, Bi-GRU with attention, and Tab Transformer
-  url: https://www.nature.com/articles/s41598-026-49961-7
-  date: '2026-05-02'
-  source: Nature.com

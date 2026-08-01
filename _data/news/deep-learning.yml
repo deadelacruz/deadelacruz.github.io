@@ -1,4 +1,20 @@
 news_items:
+- title: "A scalable explainable deep learning framework for predictive analysis and\
+    \ interpretability of CO$$_2$$\r\n emissions patterns"
+  description: Scientific Reports - A scalable explainable deep learning framework
+    for predictive analysis and interpretability of CO$$_2$$ emissions patterns
+  url: https://www.nature.com/articles/s41598-026-61829-4.pdf
+  date: '2026-07-31'
+  source: Nature.com
+- title: Deep learning prediction of left atrial structure and function from 12-lead
+    electrocardiograms
+  description: Atrial cardiopathy precedes atrial fibrillation and stroke, yet it
+    is detected through costly, inaccessible cardiac imaging. Here, the authors show
+    that a deep learning model estimates left atrial structure and function from a
+    12-lead ECG and indepen
+  url: https://www.nature.com/articles/s41467-026-76155-6.pdf
+  date: '2026-07-31'
+  source: Nature.com
 - title: Pytorch Tutorial for Deep Learning
   description: This is a guest post from Naa Ashiorkor, a data scientist and tech
     community builder. Building intelligent systems that can see, hear, understand
@@ -1079,17 +1095,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-48085-2
   date: '2026-05-03'
   source: Nature.com
-- title: 'Education Day: Indonesia pushes deep learning to advance potential'
-  description: The Ministry of Primary and Secondary Education has designated the
-    deep learning approach as a priority initiative to advance education&#39;s core
-    mission of ...
-  url: https://en.antaranews.com/news/414363/education-day-indonesia-pushes-deep-learning-to-advance-potential
-  date: '2026-05-02'
-  source: Antaranews.com
-- title: 'Deep learning to achieve goals of national education: Minister'
-  description: Minister of Primary and Secondary Education Abdul Mu&rsquo;ti said
-    the deep learning approach is aimed at achieving the core goals of national education,
-    ...
-  url: https://en.antaranews.com/news/414355/deep-learning-to-achieve-goals-of-national-education-minister
-  date: '2026-05-02'
-  source: Antaranews.com
