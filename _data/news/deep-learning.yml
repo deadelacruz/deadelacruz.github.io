@@ -6,6 +6,13 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-58631-7.pdf
   date: '2026-08-01'
   source: Nature.com
+- title: 'Ultimate End-to-End Guide to TensorFlow: From Installation to Your First
+    Deep Learning Model'
+  description: Master TensorFlow from installation to building your first deep learning
+    model with this comprehensive end-to-end guide for Windows and VS Code.
+  url: https://www.c-sharpcorner.com/article/ultimate-end-to-end-guide-to-tensorflow-from-installation-to-your-first-deep-le/
+  date: '2026-08-01'
+  source: C-sharpcorner.com
 - title: "A scalable explainable deep learning framework for predictive analysis and\
     \ interpretability of CO$$_2$$\r\n emissions patterns"
   description: Scientific Reports - A scalable explainable deep learning framework

@@ -1,4 +1,13 @@
 news_items:
+- title: A machine learning-quantitative microbial risk assessment (ML-QMRA) framework
+    for predicting potential health risks from pathogens in drinking water sources
+  description: <p>Pathogens in drinking water sources are diverse and pose potential
+    health risks, yet rapid monitoring and risk assessment remain challenging. This
+    study established detection methods for three indicator bacteria and six pathogens,
+    and compared six
+  url: https://www.maxapress.com/article/doi/10.48130/biocontam-0026-0009
+  date: '2026-08-02'
+  source: Maxapress.com
 - title: 'KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent •
     7 Machine Learning Algorithms That Still Matter'
   description: A Beginner's Guide to Working with Claude Design • 5 Best AI Tools
