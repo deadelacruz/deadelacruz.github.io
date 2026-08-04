@@ -1,4 +1,42 @@
 news_items:
+- title: Deep learning-supported image quantification of epithelial cell shapes and
+    its application to polycystic kidney disease
+  description: Author summary The shape of epithelial cells is critical for organ
+    function. In the kidney, properly shaped epithelial cells assemble into tubules
+    ensuring efficient waste excretion as well as body electrolyte and water balance.
+    Disruption of cell sh
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014614
+  date: '2026-08-03'
+  source: Plos.org
+- title: 'Retraction: Research on anomaly detection and operational status evaluation
+    methods for smart electricity meters based on hybrid deep learning'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355030
+  date: '2026-08-03'
+  source: Plos.org
+- title: An end-to-end deep learning image compression method for satellite images
+    based on entropy model
+  description: With the extensive applications of satellite image data in environmental
+    monitoring and geographic surveying and mapping, the amount of data has increased
+    rapidly, which brings great challenges for transmitting and storing these images.
+    However, when
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355234
+  date: '2026-08-03'
+  source: Plos.org
+- title: Ensemble deep learning for optimizing user immersion and engagement in virtual
+    reality
+  description: Scientific Reports - Ensemble deep learning for optimizing user immersion
+    and engagement in virtual reality
+  url: https://www.nature.com/articles/s41598-026-65047-w.pdf
+  date: '2026-08-03'
+  source: Nature.com
+- title: AtmosChemNet-AI for chemistry-informed urban air pollution forecasting using
+    spatiotemporal deep learning
+  description: Scientific Reports - AtmosChemNet-AI for chemistry-informed urban air
+    pollution forecasting using spatiotemporal deep learning
+  url: https://www.nature.com/articles/s41598-026-64476-x.pdf
+  date: '2026-08-03'
+  source: Nature.com
 - title: 'FaceAge+: training-free synthetic augmentation for deep learning-based biological
     age estimation from facial images'
   description: 'Scientific Reports - FaceAge+: training-free synthetic augmentation
@@ -13,6 +51,15 @@ news_items:
   url: https://www.c-sharpcorner.com/article/ultimate-end-to-end-guide-to-tensorflow-from-installation-to-your-first-deep-le/
   date: '2026-08-01'
   source: C-sharpcorner.com
+- title: Deep Learning CNN and Recurrence Analysis for Alpha Gamma EEG Biomarkers
+    in Fragile X Syndrome
+  description: Fragile X Syndrome (FXS) is a neurodevelopmental disorder caused by
+    reduced expression of fragile X mental retardation protein (FMRP), leading to
+    disrupted synaptic plasticity, cortical hyperexcitability, and impaired network
+    synchronization. Electro
+  url: https://arxiv.org/abs/2608.00835
+  date: '2026-08-01'
+  source: Arxiv.org
 - title: "A scalable explainable deep learning framework for predictive analysis and\
     \ interpretability of CO$$_2$$\r\n emissions patterns"
   description: Scientific Reports - A scalable explainable deep learning framework
@@ -1052,16 +1099,3 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-72646-8
   date: '2026-05-06'
   source: Nature.com
-- title: Lead Data Scientist – Deep Learning Practitioner
-  description: White Collar Factory (95009), United Kingdom, London, London Lead Data
-    Scientist – Deep Learning Practitioner About this role Our Data Science team focuses
-    on the development of Machine Learning and Deep Learning solutions, to solve business
-    problems
-  url: https://nlppeople.com/job/lead-data-scientist-deep-learning-practitioner/
-  date: '2026-05-05'
-  source: Nlppeople.com
-- title: A Theory of Deep Learning
-  description: We finally know why deep learning works.
-  url: https://elonlit.com/scrivings/a-theory-of-deep-learning/
-  date: '2026-05-05'
-  source: Elonlit.com

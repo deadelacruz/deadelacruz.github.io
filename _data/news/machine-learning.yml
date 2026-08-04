@@ -1,4 +1,28 @@
 news_items:
+- title: 'Development of 2-step regression model for reconstruction of ambient air
+    PM mass: Theoretical, and machine learning approaches'
+  description: 'Scientific Reports - Development of 2-step regression model for reconstruction
+    of ambient air PM mass: Theoretical, and machine learning approaches'
+  url: https://www.nature.com/articles/s41598-026-57404-6.pdf
+  date: '2026-08-03'
+  source: Nature.com
+- title: Machine Learning Engineer- Inference Optimization | Experienced Hire
+  description: Overview We are looking for a Machine Learning Engineer focused on
+    low-latency inference optimization to help build, tune, and productionize high-performance
+    model serving systems. This role sits at the intersection of machine learning,
+    systems engin
+  url: https://nlppeople.com/job/machine-learning-engineer-inference-optimization-experienced-hire-6/
+  date: '2026-08-03'
+  source: Nlppeople.com
+- title: Machine Learning Scientist/Senior Machine Learning Scientist – Synthesis
+    Planning and Optimization, AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/machine-learning-scientist-senior-machine-learning-scientist-synthesis-planning-and-optimization-ai-for-drug-discovery-5/
+  date: '2026-08-03'
+  source: Nlppeople.com
 - title: A machine learning-quantitative microbial risk assessment (ML-QMRA) framework
     for predicting potential health risks from pathogens in drinking water sources
   description: <p>Pathogens in drinking water sources are diverse and pose potential
@@ -16,6 +40,14 @@ news_items:
   url: https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27
   date: '2026-08-01'
   source: Kdnuggets.com
+- title: Artificial Intelligence & Machine Learning, Off (US Only) | Boston, MA, USA
+  description: Artificial Intelligence & Machine Learning, Off (US Only) Who we are
+    looking for We are looking for an Officer-level Compliance Technology Business
+    Analyst / AI / Machine Learning professional to support the development and operation
+    of data-driven s
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-off-us-only-boston-ma-usa/
+  date: '2026-08-01'
+  source: Nlppeople.com
 - title: Remote Machine Learning Scientist Remote Sensing
   description: Grow with Treefera We are a first-mile intelligence platform, delivering
     granular visibility into the point of origin in global ag & soft commodity supply
@@ -65,6 +97,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-64406-x.pdf
   date: '2026-07-31'
   source: Nature.com
+- title: Principal Machine Learning Scientist
+  description: At Bayer we’re visionaries, driven to solve the world’s toughest challenges
+    and striving for a world where ‘Health for all Hunger for none’ is no longer a
+    dream, but a real possibility. We’re doing it with energy, curiosity and sheer
+    dedication, alwa
+  url: https://nlppeople.com/job/principal-machine-learning-scientist-5/
+  date: '2026-07-31'
+  source: Nlppeople.com
 - title: 7 Machine Learning Algorithms That Still Matter
   description: Discover 7 essential machine learning algorithms that every data scientist
     should know before reaching for LLMs and generative AI, with simple explanations
@@ -3510,98 +3550,4 @@ news_items:
     communities, and em
   url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learnin-10/
   date: '2026-05-06'
-  source: Nlppeople.com
-- title: 'Accelerated discovery of M6@g-N4 catalysts for CO2 electroreduction via
-    machine learning and DFT: Descriptor engineering and activity trend validation'
-  description: 'Phys. Chem. Chem. Phys., 2026, Accepted ManuscriptDOI: 10.1039/D6CP00864J,
-    PaperPing Cheng, Hongyang Xu, Xiaoxiao Wang, Xiaoxiang Wang, Tianci Wang, Chenyuan
-    Yu, Wencong Sun, Yun Li, Weijia Huang, Chunguang ChenGraphitic nitrogen-doped
-    graphene (g-N4'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00864j
-  date: '2026-05-05'
-  source: Royal Society of Chemistry
-- title: 'Differential Machine Learning with Twin Networks in R: Forecasting Bitcoin
-    with Volatility Proxies'
-  description: Introduction Differential Machine Learning (DML), as introduced in
-    the recent arXiv paper (Differential Machine Learning for 0DTE Options with Stochastic
-    Volatility and Jumps), extends supervised learning by incorporating not only function
-    values but
-  url: https://www.r-bloggers.com/2026/05/differential-machine-learning-with-twin-networks-in-r-forecasting-bitcoin-with-volatility-proxies/
-  date: '2026-05-05'
-  source: R-bloggers.com
-- title: Application of machine learning with MALDI-TOF MS for rapid differentiation
-    between methicillin-susceptible and methicillin-resistant Staphylococcus aureus
-  description: Author summary Staphylococcus aureus is a common type of bacteria that
-    infects humans. It has a variant called Methicillin-resistant Staphylococcus aureus
-    (MRSA) that is of high priority because it is resistant to multiple antibiotics.
-    It is importan
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1013760
-  date: '2026-05-05'
-  source: Plos.org
-- title: Glasgow researchers use machine learning to build network digital twin
-  description: Automated machine learning is being used to build a digital twin of
-    complex networks, saving hours compared with traditional network testing
-  url: https://www.computerweekly.com/news/366642636/Glasgow-researchers-use-machine-learning-to-build-network-digital-twin
-  date: '2026-05-05'
-  source: ComputerWeekly.com
-- title: Senior Machine Learning Engineer II — Build AI Systems
-  description: A leading travel technology provider in the United Kingdom is looking
-    for a Machine Learning Engineer II to join their Product AI Engineering team.
-    This role involves designing and optimizing intelligent systems using AI techniques.
-    The ideal candida
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-ii-build-ai-systems-4/
-  date: '2026-05-05'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist – Advanced AI & Automation
-  description: 'We are looking for a Senior Machine Learning Scientist to join the
-    Corporate Reserach department at Sartorius. You will use your expertise in modern
-    machine learning, computer vision and robotics to design AI – driven automaton
-    for next – generation '
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-5/
-  date: '2026-05-05'
-  source: Nlppeople.com
-- title: Machine Learning Specialist
-  description: We’re looking for a Machine Learning Specialist/Programmer who can
-    translate research into real-world impact. You are curious, hands on and motivated
-    by turning ideas into working systems that improve how things are done. Comfortable
-    navigating uncer
-  url: https://nlppeople.com/job/machine-learning-specialist-11/
-  date: '2026-05-05'
-  source: Nlppeople.com
-- title: Machine learning for the prediction of three-year survival in locally advanced
-    breast cancer patients receiving neoadjuvant chemotherapy using quantitative ultrasound
-    imaging
-  description: Scientific Reports - Machine learning for the prediction of three-year
-    survival in locally advanced breast cancer patients receiving neoadjuvant chemotherapy
-    using quantitative ultrasound imaging
-  url: https://www.nature.com/articles/s41598-026-51550-7
-  date: '2026-05-05'
-  source: Nature.com
-- title: 'Fluorescent sensor array integrated with machine learning: Robust discrimination
-    of multiple metal ions using carboxyl-rich carbon dots'
-  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D6AY00272B, PaperYixiang
-    Li, Weidong Zhang, Da Chen, Xiaobo Sun, Chun Li, Baomin Yang, Jinping WangAccurate
-    identification and reliable monitoring of metal ions (MIs) are critically important
-    due t'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00272b
-  date: '2026-05-05'
-  source: Royal Society of Chemistry
-- title: 'Comparative immobilization of labile Pb and Zn fractions in contaminated
-    soil using jackfruit seed-, sugarcane bagasse-, and taro stem-derived biochars:
-    a machine learning-assisted mechanistic elucidation'
-  description: 'RSC Adv., 2026, 16,23554-23584DOI: 10.1039/D6RA01444E, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
-    Unported Licence.Truong Xuan Vuong, Ha Ngan Nguyen, The Chinh Pham, Thi Thao Truong,
-    Thi Tam Khieu, Thanh'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01444e
-  date: '2026-05-05'
-  source: Royal Society of Chemistry
-- title: Artificial Intelligence & Machine Learning, Senior Advisor with Security
-    Clearance
-  description: About Peraton Peraton is a next-generation national security company
-    that drives missions of consequence spanning the globe and extending to the farthest
-    reaches of the galaxy. As the world’s leading mission capability integrator and
-    transformative e
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-senior-advisor-with-security-clearance/
-  date: '2026-05-05'
   source: Nlppeople.com
