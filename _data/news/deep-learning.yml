@@ -1,4 +1,11 @@
 news_items:
+- title: Evaluation of different defect-inspection setups for injection molding parts
+    based on the deep learning method
+  description: Scientific Reports - Evaluation of different defect-inspection setups
+    for injection molding parts based on the deep learning method
+  url: https://www.nature.com/articles/s41598-026-52635-z
+  date: '2026-08-04'
+  source: Nature.com
 - title: Deep learning-supported image quantification of epithelial cell shapes and
     its application to polycystic kidney disease
   description: Author summary The shape of epithelial cells is critical for organ
@@ -1091,11 +1098,3 @@ news_items:
   url: https://nlppeople.com/job/lead-data-scientist-deep-learning-practitioner-2/
   date: '2026-05-08'
   source: Nlppeople.com
-- title: Deep learning-enabled size estimation of comets indicates a more dynamic
-    early solar system
-  description: Formation of the Solar System’s comet reservoirs remain uncertain.
-    Here, the authors show that AI-based analysis of comet activity reveals a far
-    more populated Oort Cloud than previously thought.
-  url: https://www.nature.com/articles/s41467-026-72646-8
-  date: '2026-05-06'
-  source: Nature.com
