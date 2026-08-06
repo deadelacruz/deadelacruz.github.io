@@ -1,4 +1,36 @@
 news_items:
+- title: Deep learning framework for predicting measurement error drift in smart meter
+    sensors under harsh coastal environments
+  description: Smart meter sensors in coastal environments suffer severe accuracy
+    degradation due to salt fog corrosion, high humidity, and temperature cycling
+    affecting current transformers, voltage dividers, and measurement circuits. This
+    study proposes a reliabi
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355304
+  date: '2026-08-05'
+  source: Plos.org
+- title: 'Show HN: I created a new Deep Learning Framework'
+  description: I finally did it. I developed my own Deep Learning Framework from Scratch!
+    I am calling it picodl.All written by hand, in pure Python, just using raw Numpy.Anyone
+    can install it with pip:pip install picodl-nnI'd love to get feedback and your
+    suggesti
+  url: https://picodl.vercel.app
+  date: '2026-08-05'
+  source: Vercel.app
+- title: 'Clinical-guided deep learning framework for diabetic retinopathy: integrating
+    lesion-aware attention, adversarial augmentation, and uncertainty quantification'
+  description: 'Scientific Reports - Clinical-guided deep learning framework for diabetic
+    retinopathy: integrating lesion-aware attention, adversarial augmentation, and
+    uncertainty quantification'
+  url: https://www.nature.com/articles/s41598-026-58690-w.pdf
+  date: '2026-08-05'
+  source: Nature.com
+- title: A comparative evaluation of deep learning architectures, loss functions,
+    and ensemble strategies for underwater fish species classification
+  description: Scientific Reports - A comparative evaluation of deep learning architectures,
+    loss functions, and ensemble strategies for underwater fish species classification
+  url: https://www.nature.com/articles/s41598-026-65456-x.pdf
+  date: '2026-08-05'
+  source: Nature.com
 - title: Evaluation of different defect-inspection setups for injection molding parts
     based on the deep learning method
   description: Scientific Reports - Evaluation of different defect-inspection setups
