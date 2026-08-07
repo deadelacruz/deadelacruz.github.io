@@ -110,6 +110,12 @@ news_items:
   url: https://biztoc.com/x/368dda4353e78b8c
   date: '2026-08-06'
   source: Biztoc.com
+- title: Architecture of Artificial Intelligence
+  description: 'Explore the AI architecture: input, processing, decision-making, output,
+    and continuous learning. Key for modern AI like ChatGPT.'
+  url: https://www.c-sharpcorner.com/article/architecture-of-artificial-intelligence/
+  date: '2026-08-06'
+  source: C-sharpcorner.com
 - title: Apollo Global Management appoints Katia Walsh as head of artificial intelligence
   description: 'Apollo''s strategic focus on AI infrastructure financing could diversify
     revenue streams and enhance its influence in the evolving AI market.
@@ -167,6 +173,15 @@ news_items:
   url: https://biztoc.com/x/a58483cfdc54335c
   date: '2026-08-05'
   source: Biztoc.com
+- title: 'The ethics of artificial intelligence in the life sciences: Universality,
+    cultural diversity and an architecture of care'
+  description: The life sciences and health research have started to benefit from
+    artificial intelligence, which raises ethical concerns that are real but, we argue,
+    not special. Any science should be governed by values that rest on how the human
+    brain is built and
+  url: https://arxiv.org/abs/2608.05436
+  date: '2026-08-05'
+  source: Arxiv.org
 - title: 'Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between These
     Artificial Intelligence Companies'
   description: 'Microsoft vs. Aehr Test Systems: Comparing Revenue Trends Between
