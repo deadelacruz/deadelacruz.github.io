@@ -1,4 +1,115 @@
 news_items:
+- title: Artificial Intelligence used to design brand new viruses
+  description: Artificial Intelligence has been used to design brand new viruses that
+    are fully functional and can replicate in the laboratory, say US researchers.
+    It is the first time whole genomes have been successfully designed by AI. The
+    resulting 16 novel viru
+  url: https://freerepublic.com/focus/f-chat/4390886/posts
+  date: '2026-08-06'
+  source: Freerepublic.com
+- title: Artificial Intelligence used to design brand new viruses - bbc.com
+  description: Artificial Intelligence used to design brand new virusesbbc.com This
+    A.I. Just Created Viruses Not Found in NatureThe New York Times Safety fears as
+    scientists make first viruses designed by AIThe Guardian AI Model Trained In DNA
+    Invents 16 New Virus
+  url: https://slashdot.org/firehose.pl?op=view&amp;id=184883866
+  date: '2026-08-06'
+  source: Slashdot.org
+- title: Artificial Intelligence used to design brand new viruses
+  description: Artificial Intelligence has been used to design brand new viruses that
+    are fully functional and can replicate in the laboratory, say US researchers.It
+    is the first time whole genomes have been successfully designed by AI.The resulting
+    16 novel viruse
+  url: https://slashdot.org/submission/17349646/artificial-intelligence-used-to-design-brand-new-viruses
+  date: '2026-08-06'
+  source: Slashdot.org
+- title: Artificial Intelligence used to design brand new viruses
+  description: Scientists made 16 successful viruses that had their genetic code designed
+    by artificial intelligence.
+  url: https://www.bbc.com/news/articles/c5y3j3ngevmo?xtor=AL-72-%5Bpartner%5D-%5Byahoo.north.america%5D-%5Bheadline%5D-%5Bnews%5D-%5Bbizdev%5D-%5Bisapi%5D
+  date: '2026-08-06'
+  source: BBC News
+- title: Artificial Intelligence used to design brand new viruses
+  description: Scientists made 16 successful viruses that had their genetic code designed
+    by artificial intelligence.
+  url: https://www.bbc.com/news/articles/c5y3j3ngevmo
+  date: '2026-08-06'
+  source: BBC News
+- title: Artificial Intelligence used to design brand new viruses
+  description: Scientists made 16 successful viruses that had their genetic code designed
+    by artificial intelligence.
+  url: https://www.bbc.co.uk/news/articles/c5y3j3ngevmo
+  date: '2026-08-06'
+  source: BBC News
+- title: Meta AI model becomes latest to hack into another company after breaking
+    out onto the internet during security test - as experts warn it may already be
+    too late to contain artificial intelligence
+  description: Facebook and Instagram owner Meta is now urgently investigating how
+    its AI coding bot Muse Spark managed to launch a cyber attack by accessing the
+    open internet.
+  url: https://www.dailymail.com/news/article-16033293/Meta-AI-model-latest-hack-company-AI.html
+  date: '2026-08-06'
+  source: Dailymail.com
+- title: 'How AI could ruin your life: From exposing affairs to leaking your private
+    chats and medical records - why everyone should be concerned amid string of incidents
+    where artificial intelligence goes rogue'
+  description: Experts now warn that artificial intelligence (AI) is poised to expose
+    everyone's darkest secrets.
+  url: https://www.dailymail.com/sciencetech/article-16033207/AI-against-you-exposing-affairs.html
+  date: '2026-08-06'
+  source: Dailymail.com
+- title: 'Exploring the influencing factors of academic doctoral students’ academic
+    innovation behavior in the context of generative artificial intelligence: Self-determination
+    theory and motivation-opportunity-ability perspectives'
+  description: Purpose Although generative artificial intelligence (GenAI) has increasingly
+    reshaped academic research practices, existing studies have mainly examined its
+    technical affordances or isolated factors such as AI literacy. Less attention
+    has been paid t
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355186
+  date: '2026-08-06'
+  source: Plos.org
+- title: 'The use of artificial intelligence models for interpretation and triage
+    of clinical referral letters to acute and specialist care pathways: Protocol for
+    a systematic review'
+  description: Background Clinical referral letters direct patients into acute, urgent,
+    and specialist care pathways, but their triage is typically manual, heterogeneous,
+    and resource intensive, contributing to waiting-list pressure and potential patient
+    harm. Arti
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355476
+  date: '2026-08-06'
+  source: Plos.org
+- title: An African vision of artificial intelligence
+  description: Tech pioneers favour models suited to specific tasks that use little
+    compute
+  url: https://biztoc.com/x/7f196217235f426b
+  date: '2026-08-06'
+  source: Biztoc.com
+- title: Meta Platforms Saw Free Cash Flow Plunge 91% to Just $784 Million as Artificial
+    Intelligence (AI) Spending Ballooned. Here's Why That Should Worry Investors
+  description: 'Meta Platforms Saw Free Cash Flow Plunge 91% to Just $784 Million
+    as Artificial Intelligence (AI) Spending Ballooned. Here''s Why That Should Worry
+    Investors.
+
+    Over the last few years, Meta Platforms (NASDAQ: META) has ramped up capital expenditures
+    (c'
+  url: https://biztoc.com/x/fcc1c9fb36e08e2d
+  date: '2026-08-06'
+  source: Biztoc.com
+- title: Palantir CEO Alex Karp Drops an 11-Word Bombshell That Proves Artificial
+    Intelligence (AI) Is Supercharging Software Stocks
+  description: 'Palantir CEO Alex Karp Drops an 11-Word Bombshell That Proves Artificial
+    Intelligence (AI) Is Supercharging Software Stocks
+
+    Rapid advances in generative artificial intelligence (AI) capabilities are leaving
+    investors questioning the future of traditi'
+  url: https://biztoc.com/x/06f53f9c59f88b5e
+  date: '2026-08-06'
+  source: Biztoc.com
+- title: India’s IT sector is surviving artificial intelligence
+  description: Though the technology is making life still harder for many graduates
+  url: https://biztoc.com/x/368dda4353e78b8c
+  date: '2026-08-06'
+  source: Biztoc.com
 - title: Apollo Global Management appoints Katia Walsh as head of artificial intelligence
   description: 'Apollo''s strategic focus on AI infrastructure financing could diversify
     revenue streams and enhance its influence in the evolving AI market.
@@ -6070,53 +6181,3 @@ news_items:
   url: https://kevinmd.com/2026/05/bridging-the-health-equity-gap-with-artificial-intelligence.html
   date: '2026-05-09'
   source: Kevinmd.com
-- title: 'Cognitive Cyber Crimes in the Era of Artificial Intelligence eBook: Free
-    + free shipping'
-  description: 'For a limited time, dealnews.tradepub.com is offering the eBook "Cognitive
-    Cyber Crimes in the Era of Artificial Intelligence" at no cost, a $261 value.
-    The book covers cognitive cybercrimes and addresses legal, ethical, and policy
-    challenges in the '
-  url: https://www.dealnews.com/Cognitive-Cyber-Crimes-in-the-Era-of-Artificial-Intelligence-eBook-Free-free-shipping/21827086.html
-  date: '2026-05-08'
-  source: Dealnews.com
-- title: Caylent Wins Gold at the 2nd Annual 2026 Globee® Awards for Artificial Intelligence
-  description: Recognized as Gold Winner in Artificial Intelligence Service Provider
-    of the Year Category IRVINE, Calif., May 8, 2026 /PRNewswire/ -- Caylent, an AI-First
-    Amazon Web Services (AWS) Premier Tier Services Partner, announced it has been
-    named a Gold Gl
-  url: https://www.prnewswire.com/news-releases/caylent-wins-gold-at-the-2nd-annual-2026-globee-awards-for-artificial-intelligence-302767108.html
-  date: '2026-05-08'
-  source: PRNewswire
-- title: Call for Participation in Advancing Democracy with Ontologies, Reasoning,
-    and Artificial Intelligence (ADORAI)
-  description: 'The Advancing Democracy with Ontologies, Reasoning, and Artificial
-    Intelligence (ADORAI) has been launched: Advancing Democracy with Ontologies,
-    Reasoning, and Artificial Intelligence (ADORAI) is a W3C Community Group seeking
-    to federate expertise in'
-  url: https://www.w3.org/community/adorai/2026/05/08/call-for-participation-in-advancing-democracy-with-ontologies-reasoning-and-artificial-intelligence-adorai/
-  date: '2026-05-08'
-  source: W3.org
-- title: Concierra Legal Unveils New Report on Five Ways Law Firms Can Use Artificial
-    Intelligence to Deliver More Efficient and Responsive Legal Services
-  description: As AI changes how clients find and work with attorneys, strategic legal
-    architect Michelle May O'Neil explains what law firms need to do now and why attorneys
-    have an ethical duty to keep up As AI changes how clients find and work with attorneys,
-    str
-  url: https://www.globenewswire.com/news-release/2026/05/08/3291209/0/en/Concierra-Legal-Unveils-New-Report-on-Five-Ways-Law-Firms-Can-Use-Artificial-Intelligence-to-Deliver-More-Efficient-and-Responsive-Legal-Services.html
-  date: '2026-05-08'
-  source: GlobeNewswire
-- title: 'Artificial Intelligence (AI) and Immersive Virtual Worlds - An Overview
-    and IP Explanation of Both | Online Training Course: Nov 5th, 2026'
-  description: The main market opportunities lie in equipping professionals with essential
-    knowledge about AI and immersive worlds, focusing on understanding related intellectual
-    property issues. This is crucial for legal and business sectors adapting to rapid
-    tech
-  url: https://www.globenewswire.com/news-release/2026/05/08/3291179/28124/en/Artificial-Intelligence-AI-and-Immersive-Virtual-Worlds-An-Overview-and-IP-Explanation-of-Both-Online-Training-Course-Nov-5th-2026.html
-  date: '2026-05-08'
-  source: GlobeNewswire
-- title: Investors Who Rotated Out of Tech Are Already Regretting It. This Artificial
-    Intelligence (AI) Growth Stock Is Up Double Digits in May.
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_70fe879e-51f5-4c10-b0a0-a5d92db0febf
-  date: '2026-05-08'
-  source: Yahoo Entertainment
