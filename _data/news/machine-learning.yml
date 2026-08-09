@@ -1,4 +1,19 @@
 news_items:
+- title: Integrated machine learning forecasting and grey wolf optimization for optimal
+    operation of virtual power plants in smart distribution networks
+  description: Scientific Reports - Integrated machine learning forecasting and grey
+    wolf optimization for optimal operation of virtual power plants in smart distribution
+    networks
+  url: https://www.nature.com/articles/s41598-026-65123-1.pdf
+  date: '2026-08-08'
+  source: Nature.com
+- title: A machine learning-based framework for spatial soil health assessment integrating
+    remote sensing indices and terrain data
+  description: Scientific Reports - A machine learning-based framework for spatial
+    soil health assessment integrating remote sensing indices and terrain data
+  url: https://www.nature.com/articles/s41598-026-66339-x.pdf
+  date: '2026-08-08'
+  source: Nature.com
 - title: Machine learning powered protein engineering lab could accelerate biotech
     innovation
   description: Artificial intelligence is no longer simply being used to analyse scientific
@@ -3576,11 +3591,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d6lc00202a
   date: '2026-05-11'
   source: Royal Society of Chemistry
-- title: How Much is Brain Data Worth for Machine Learning?
-  description: If a person can solve a task, can measuring their brain make it easier
-    to train a model to solve that task too? Recent NeuroAI work suggests that supplementing
-    task training with neural recordings can modestly improve model performance and
-    robustness
-  url: https://arxiv.org/abs/2605.09243
-  date: '2026-05-10'
-  source: Arxiv.org
