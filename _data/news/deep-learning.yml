@@ -1,10 +1,27 @@
 news_items:
+- title: Enhancing botnet attack detection using a hybrid deep learning model combining
+    network flow and DNS query features with explainable AI for cybersecurity
+  description: Scientific Reports - Enhancing botnet attack detection using a hybrid
+    deep learning model combining network flow and DNS query features with explainable
+    AI for cybersecurity
+  url: https://www.nature.com/articles/s41598-026-65732-w.pdf
+  date: '2026-08-10'
+  source: Nature.com
 - title: Deep learning model cascade in electromyography decoding for gesture classification
   description: Scientific Reports - Deep learning model cascade in electromyography
     decoding for gesture classification
   url: https://www.nature.com/articles/s41598-026-65841-6.pdf
   date: '2026-08-09'
   source: Nature.com
+- title: High-accuracy SNV calling for bacterial isolates using deep learning with
+    AccuSNV
+  description: Accurate detection of mutations within bacterial species is critical
+    for fundamental studies of microbial evolution, reconstruction of transmission
+    events, and identification of antimicrobial resistance mutations. Although many
+    tools have been develo
+  url: https://genome.cshlp.org/content/early/2026/08/08/gr281341125
+  date: '2026-08-08'
+  source: Cshlp.org
 - title: Biometrically Anchored and Psychological States Aware Deep Learning for Enhanced
     Personalized Food Recommendation Systems
   description: Scientific Reports - Biometrically Anchored and Psychological States
@@ -1049,19 +1066,3 @@ news_items:
   url: https://genome.cshlp.org/content/early/2026/05/12/gr281425125
   date: '2026-05-13'
   source: Cshlp.org
-- title: A deep learning framework for the localization of landmarks on the lateral
-    semi circular canals
-  description: This paper introduces a Deep Learning (DL) framework to localize landmark
-    coordinates within the semicircular canals in Computed Tomography (CT) scans of
-    the temporal bone. These landmarks can be consistently defined across patients
-    and imaging modal
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0348976
-  date: '2026-05-12'
-  source: Plos.org
-- title: Hybrid vision–IMU deep learning framework with graph convolutional networks
-    and attention for personalized yoga posture identification
-  description: Scientific Reports - Hybrid vision–IMU deep learning framework with
-    graph convolutional networks and attention for personalized yoga posture identification
-  url: https://www.nature.com/articles/s41598-026-49970-6
-  date: '2026-05-12'
-  source: Nature.com

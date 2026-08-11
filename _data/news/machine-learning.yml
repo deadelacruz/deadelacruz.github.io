@@ -1,4 +1,19 @@
 news_items:
+- title: Dedicated AI & machine learning lab for students to be set up at DAVV’s IET
+  description: DAVV Executive Council approves AI-ML lab at IET, Rs 33 lakh EMRC upgrades,
+    demand-driven course expansion, teacher probation clearance and insurance renewal.
+  url: https://timesofindia.indiatimes.com/city/indore/dedicated-ai-machine-learning-lab-for-students-to-be-set-up-at-davvs-iet/articleshow/133132639.cms
+  date: '2026-08-10'
+  source: The Times of India
+- title: 'Toward reliable machine learning models for neural circuit inference: A
+    diagnostic study of CNNs on spike trains'
+  description: Author summary Machine learning approaches are increasingly used to
+    infer connectivity from neural activity recordings. In this study, we take a step
+    back from proposing new algorithms and instead focus on understanding the reliability
+    of existing ma
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014615
+  date: '2026-08-10'
+  source: Plos.org
 - title: Prompting Scikit-Learn for Machine Learning
   description: 'eBook Details: Paperback: 574 pages Published: August 5, 2026 Language: English
     ISBN-10: 8169646316 ISBN-13: 978-8169646314 eBook Description: Prompting Scikit-Learn
@@ -3447,77 +3462,3 @@ news_items:
   url: https://nlppeople.com/job/senior-software-engineer-machine-learning-f-m-d/
   date: '2026-05-13'
   source: Nlppeople.com
-- title: High-Throughput Screening of Piezoelectric Hybrid Organic–Inorganic Perovskites
-    via Density-Functional Theory and Machine Learning
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02101H,
-    PaperJianxin He, Tianle Yue, Yu Lim Kim, Ying LiHybrid organic–inorganic perovskites
-    (HOIPs) are promising candidates for piezoelectric devices owing to their structural
-    tunability,'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02101h
-  date: '2026-05-12'
-  source: Royal Society of Chemistry
-- title: IIM Indore to roll out new AI, machine learning courses from 2026-27
-  description: IIM Indore to launch new AI and machine learning electives in 2026-27,
-    adding ethics, business ML and regression courses plus expanded AI executive programmes.
-  url: https://timesofindia.indiatimes.com/city/indore/iim-indore-to-roll-out-new-ai-machine-learning-courses-from-2026-27/articleshow/131048681.cms
-  date: '2026-05-12'
-  source: The Times of India
-- title: Principal Machine Learning Engineer
-  description: LSEG (London Stock Exchange Group) is more than a diversified global
-    financial markets infrastructure and data business. We are dedicated, open-access
-    partners with a dedication to excellence in delivering the services our customers
-    expect from us. W
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-18/
-  date: '2026-05-12'
-  source: Nlppeople.com
-- title: NerveAI- a machine learning algorithm for detection of nerve pain in the
-    head and neck
-  description: Scientific Reports - NerveAI- a machine learning algorithm for detection
-    of nerve pain in the head and neck
-  url: https://www.nature.com/articles/s41598-026-51251-1
-  date: '2026-05-12'
-  source: Nature.com
-- title: Machine learning the quantum topology of chemical bonds
-  description: 'Phys. Chem. Chem. Phys., 2026, Advance ArticleDOI: 10.1039/D6CP00029K,
-    Paper Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Michal Michalski, Slawomir BerskiIntegrating ELF topology
-    with machine l'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cp/d6cp00029k
-  date: '2026-05-12'
-  source: Royal Society of Chemistry
-- title: 'Physical Vapor Deposited Nanomaterials for Gas Sensing: Design Strategies,
-    Performance Limits and Machine learning prospects'
-  description: 'J. Mater. Chem. C, 2026, Accepted ManuscriptDOI: 10.1039/D6TC00534A,
-    Review ArticleJency J. Rubia, Julaiba Tahsina Mazumder, Lubna Aamir, Chacko Jacob,
-    Tarikul Islam, Harshal B. Nemade, Ravindra Kumar JhaPhysical Vapor Deposition
-    (PVD) has been known'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/tc/d6tc00534a
-  date: '2026-05-12'
-  source: Royal Society of Chemistry
-- title: Droplet microfluidic profiling of NK cell cytotoxicity with machine learning-enabled
-    target-cell death analysis
-  description: 'Lab Chip, 2026, Advance ArticleDOI: 10.1039/D6LC00301J, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution 3.0
-    Unported Licence.Rana S. Ozcan, Fatemeh Vahedi, Shina Namakian, Ali A. Ashkar,
-    Tohid F. DidarA droplet m'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/lc/d6lc00301j
-  date: '2026-05-12'
-  source: Royal Society of Chemistry
-- title: Is XBP Global Holdings, Inc. (XBP) Among the Best Machine Learning Stocks
-    to Buy According to Short Sellers?
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b4055d05-d389-4238-9ce6-a6e3eb91c4e7
-  date: '2026-05-12'
-  source: Yahoo Entertainment
-- title: Here is Why comScore, Inc. (SCOR) is Among the 7 Best Machine Learning Stocks
-    to Buy According to Short Sellers
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4a2e660b-b63b-41da-ad1d-f30b899e6d21
-  date: '2026-05-12'
-  source: Yahoo Entertainment
-- title: 'Wetour Robotics Limited (WETO): 7 Best Machine Learning Stocks to Buy According
-    to Short Sellers'
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_4e189512-a377-4007-a8d2-f3d682b78083
-  date: '2026-05-12'
-  source: Yahoo Entertainment
