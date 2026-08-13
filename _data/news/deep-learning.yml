@@ -1,4 +1,41 @@
 news_items:
+- title: Twelve quick tips for applying deep learning to animal sounds
+  description: Deep learning is transforming the study of animal sound, enabling the
+    automated identification of species, individuals, behaviors, and ecological patterns
+    from large collections of recordings. While bioacoustic machine-learning models
+    are growing mor
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014604
+  date: '2026-08-12'
+  source: Plos.org
+- title: Scalable Nested Optimization for Deep Learning
+  description: "Scalable Nested Optimization for Deep Learning\n\n Gradient-based\
+    \ optimization has been critical to the success of machine learning, updating\
+    \ a single set of parameters to minimize a single loss. A growing number of applications\
+    \ rely on a generalizatio"
+  url: https://research.nvidia.com/publication/2024-07_scalable-nested-optimization-deep-learning
+  date: '2026-08-12'
+  source: Nvidia.com
+- title: Real-time position and orientation determination of multiple robots in Robocup
+    soccer using lightweight deep learning models
+  description: Scientific Reports - Real-time position and orientation determination
+    of multiple robots in Robocup soccer using lightweight deep learning models
+  url: https://www.nature.com/articles/s41598-026-65913-7.pdf
+  date: '2026-08-12'
+  source: Nature.com
+- title: 'AI-assisted acceleration combined with deep learning of the knee: feasibility
+    of anomaly detection'
+  description: 'Scientific Reports - AI-assisted acceleration combined with deep learning
+    of the knee: feasibility of anomaly detection'
+  url: https://www.nature.com/articles/s41598-026-66317-3.pdf
+  date: '2026-08-12'
+  source: Nature.com
+- title: Proactive concussion prediction using symmetry-aware multiscale explainable
+    hybrid deep learning and multimodal data fusion
+  description: Scientific Reports - Proactive concussion prediction using symmetry-aware
+    multiscale explainable hybrid deep learning and multimodal data fusion
+  url: https://www.nature.com/articles/s41598-026-54871-9
+  date: '2026-08-12'
+  source: Nature.com
 - title: Indonesia pushes deep learning to transform education
   description: Indonesia&#39;s Ministry of Primary and Secondary Education is promoting
     a Deep Learning approach to transform education, focusing on classroom instruction
