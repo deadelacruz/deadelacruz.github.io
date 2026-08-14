@@ -1,4 +1,13 @@
 news_items:
+- title: Spectral signature mapping and deep learning detection of Frankincense (Boswellia
+    Sacra) using worldview-3 imagery
+  description: The identification of plant species in arid ecosystems relies on spectral
+    signatures that capture their reflectance properties. Despite the ecological and
+    economic importance of the Frankincense tree (Boswellia sacra), its spectral characteristics
+    re
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356056
+  date: '2026-08-13'
+  source: Plos.org
 - title: Twelve quick tips for applying deep learning to animal sounds
   description: Deep learning is transforming the study of animal sound, enabling the
     automated identification of species, individuals, behaviors, and ecological patterns
@@ -1054,12 +1063,3 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-71794-1
   date: '2026-05-16'
   source: Nature.com
-- title: A curated dataset and lightweight deep learning framework for tea leaf disease
-    classification
-  description: Tea (Camellia sinensis) is the world’s second most consumed beverage,
-    enjoyed daily by more than two billion people. In Bangladesh, it serves as a cornerstone
-    agricultural export and a major sector of the domestic economy. However, commercial
-    tea cul
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349210
-  date: '2026-05-15'
-  source: Plos.org
