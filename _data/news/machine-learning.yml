@@ -1,4 +1,68 @@
 news_items:
+- title: Scientific Machine Learning
+  description: 'eBook Details: Paperback: 830 pages Published: July 24, 2026 Language: English
+    ISBN-10: 9819578558 ISBN-13: 978-9819578559 eBook Description: Scientific Machine
+    Learning: Foundations, Algorithms, and Applications. This book highlights and
+    addresses a'
+  url: https://www.wowebook.org/scientific-machine-learning/
+  date: '2026-08-14'
+  source: Wowebook.org
+- title: Understanding the Role of Latent Space in Machine Learning Models
+  description: 'This article analyzes, illustrates, and categorizes the core functions
+    and key roles of latent spaces in machine learning models: descriptive, generative,
+    and predictive.'
+  url: https://machinelearningmastery.com/understanding-the-role-of-latent-space-in-machine-learning-models/
+  date: '2026-08-14'
+  source: Machinelearningmastery.com
+- title: 'Innovative development of an advanced machine learning modeling for predicting
+    compressive strength of graphene-infused concrete: a SHAP and PDP approach'
+  description: 'Scientific Reports - Innovative development of an advanced machine
+    learning modeling for predicting compressive strength of graphene-infused concrete:
+    a SHAP and PDP approach'
+  url: https://www.nature.com/articles/s41598-026-66152-6.pdf
+  date: '2026-08-14'
+  source: Nature.com
+- title: Sr. Artificial Intelligence & Machine Learning Developer
+  description: Summary Welcome to Ryerson, where exceptional career opportunities
+    await. As a leading provider of industrial and OEM metal products and services
+    since 1842, we are committed to excellence and best-in-class customer service.
+    Join our team and be a pa
+  url: https://nlppeople.com/job/sr-artificial-intelligence-machine-learning-developer/
+  date: '2026-08-14'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – 140859
+  description: 'Payroll Title: RSCH DATA ANL 3 RP Department: CLIMATE/ATMOS SCI/PHY
+    OCEANOG Hiring Pay Scale $96,075 – $136,710/ Annually Worksite: Hybrid Appointment
+    Type: Career Appointment Percent: 100% Union: RP Contract Total Openings: 1 Work
+    Schedule: 8 hrs/da'
+  url: https://nlppeople.com/job/machine-learning-scientist-140859/
+  date: '2026-08-14'
+  source: Nlppeople.com
+- title: Machine Learning Research Engineer – NLP / LLM
+  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
+    for a Machine Learning Research Engineer to work on researching and investigating
+    new concepts for an industry-leading, machine-learning software company in Cambridge,
+    UK. This '
+  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-16/
+  date: '2026-08-14'
+  source: Nlppeople.com
+- title: Senior Machine Learning Scientist
+  description: Senior Machine Learning Scientist  UK or Poland (Remote or Hybrid,
+    it’s up to you!)  Dependent on experience  Be part of our success with the opportunity
+    to join our company equity scheme Our Perks ❤️ Monthly Health & Wellness budget,
+    increasing with
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-31/
+  date: '2026-08-14'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
+    – Machine Learn[…]
+  description: At JPMorgan Chase, AI and technology promote our global operations
+    with unmatched scale and speed. We invest over $18 billion annually in innovation,
+    data leverage, and security to shape the future for our clients, communities,
+    and employees. The Chi
+  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learn-2/
+  date: '2026-08-14'
+  source: Nlppeople.com
 - title: Genome-wide machine learning analysis of anosmia and ageusia with COVID-19
   description: The COVID-19 pandemic has caused substantial worldwide disruptions
     in health, economy, and society, manifesting symptoms such as loss of smell (anosmia)
@@ -23,6 +87,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-65004-7.pdf
   date: '2026-08-13'
   source: Nature.com
+- title: Machine Learning Research Scientist (Remote | $60–$100/hr)
+  description: 'About the Job ML Research PhD Expert Location: Remote Engagement Type:
+    Hourly Contract Compensation: $60–$100/hour About the Opportunity This opportunity
+    is for accomplished Machine Learning Researchers with publications at top-tier
+    AI conferences in'
+  url: https://nlppeople.com/job/machine-learning-research-scientist-remote-60-100-hr/
+  date: '2026-08-13'
+  source: Nlppeople.com
 - title: Madhya Pradesh’s first Centre of Excellence for AI & machine learning to
     begin at DAVV by Jan 2027
   description: DAVV to launch MP’s first AI & ML Centre of Excellence at Takshashila
@@ -67,6 +139,14 @@ news_items:
   url: https://www.nature.com/articles/s41587-026-03261-7
   date: '2026-08-12'
   source: Nature.com
+- title: Machine Learning Performance Engineer – Offboard Training & Inference
+  description: Applied Intuition, Inc. is powering the future of physical AI. Founded
+    in 2017 and now valued at $15 billion, the Silicon Valley company is creating
+    the digital infrastructure needed to bring intelligence to every moving machine
+    on the planet. Applie
+  url: https://nlppeople.com/job/machine-learning-performance-engineer-offboard-training-inference/
+  date: '2026-08-12'
+  source: Nlppeople.com
 - title: 'Correction: Hypoxemia prediction in pediatric patients under general anesthesia
     using machine learning: A retrospective observational study and external validation'
   description: No description available.
@@ -90,6 +170,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-66550-w.pdf
   date: '2026-08-11'
   source: Nature.com
+- title: Machine Learning/AI Architect
+  description: 'Machine Learning/AI Architect Day rate: £650pd inside IR35 Essential:
+    Active SC clearance Remote with ad-hoc travel to site London Competencies/skills
+    Essential  Delivery experience of AI-focussed technology projects within larger,
+    strategic programm'
+  url: https://nlppeople.com/job/machine-learning-ai-architect/
+  date: '2026-08-11'
+  source: Nlppeople.com
 - title: Dedicated AI & machine learning lab for students to be set up at DAVV’s IET
   description: DAVV Executive Council approves AI-ML lab at IET, Rs 33 lakh EMRC upgrades,
     demand-driven course expansion, teacher probation clearance and insurance renewal.
@@ -105,6 +193,14 @@ news_items:
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014615
   date: '2026-08-10'
   source: Plos.org
+- title: Machine Learning Research Engineer – NLP / LLM
+  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
+    for a Machine Learning Research Engineer to work on researching and investigating
+    new concepts for an industry-leading, machine-learning software company in Cambridge,
+    UK. This '
+  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-17/
+  date: '2026-08-10'
+  source: Nlppeople.com
 - title: Prompting Scikit-Learn for Machine Learning
   description: 'eBook Details: Paperback: 574 pages Published: August 5, 2026 Language: English
     ISBN-10: 8169646316 ISBN-13: 978-8169646314 eBook Description: Prompting Scikit-Learn
@@ -3322,11 +3418,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra02243j
   date: '2026-05-17'
   source: Royal Society of Chemistry
-- title: Machine Learning Engineer with Security Clearance
-  description: nou Systems, Inc. (nSI) is a 100% ESOP company solving challenging
-    defense problems in an enjoyable, stimulating environment. We support mission
-    areas including missile defense, battle management, cybersecurity, test range
-    modernization, biotechnolog
-  url: https://nlppeople.com/job/machine-learning-engineer-with-security-clearance/
-  date: '2026-05-16'
-  source: Nlppeople.com
