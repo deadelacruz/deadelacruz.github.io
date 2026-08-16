@@ -1,4 +1,11 @@
 news_items:
+- title: Spatiotemporal characterization and graph-based interpretation of distributed
+    denial of service attacks using deep learning
+  description: Scientific Reports - Spatiotemporal characterization and graph-based
+    interpretation of distributed denial of service attacks using deep learning
+  url: https://www.nature.com/articles/s41598-026-66407-2.pdf
+  date: '2026-08-15'
+  source: Nature.com
 - title: Structure-aware deep learning enhances m6A prediction and reveals cell type-associated
     RNA structural signatures
   description: Author summary Chemical modifications of RNA provide a crucial regulatory
