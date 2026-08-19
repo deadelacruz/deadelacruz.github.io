@@ -1,4 +1,60 @@
 news_items:
+- title: Comparative analysis of machine learning techniques for cardiovascular disease
+    prediction
+  description: Background and objectives Early and accurate prediction of cardiovascular
+    disease (CVD) is fundamental for reducing morbidity and mortality. Machine learning
+    (ML) algorithms provide a data-driven, actionable foundation to strengthen clinical
+    decision
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356170
+  date: '2026-08-18'
+  source: Plos.org
+- title: Machine Learning with Rust, Second Edition
+  description: 'eBook Details: Paperback: 294 pages Published: May 20, 2026 Language: English
+    ISBN-10: 9349174219 ISBN-13: 978-9349174214 eBook Description: Machine Learning
+    with Rust, Second Edition: Implement data pipelines, classical models, deep learning
+    and NLP'
+  url: https://www.wowebook.org/machine-learning-with-rust-second-edition/
+  date: '2026-08-18'
+  source: Wowebook.org
+- title: Senior Machine Learning Scientist
+  description: Senior Machine Learning Scientist  UK or Poland (Remote or Hybrid,
+    it’s up to you!)  Dependent on experience  Be part of our success with the opportunity
+    to join our company equity scheme Our Perks ❤️ Monthly Health & Wellness budget,
+    increasing with
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-32/
+  date: '2026-08-18'
+  source: Nlppeople.com
+- title: Machine Learning Research Engineer – NLP / LLM
+  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
+    for a Machine Learning Research Engineer to work on researching and investigating
+    new concepts for an industry-leading, machine-learning software company in Cambridge,
+    UK. This '
+  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-18/
+  date: '2026-08-18'
+  source: Nlppeople.com
+- title: Tracking funding disparities in global health aid with machine learning
+  description: 'Misalignment between health aid and country-level disease burden can
+    leave populations without the necessary support for major health challenges. Here
+    the authors report a machine learning analysis of global health aid and conclude
+    that aid is often '
+  url: https://www.nature.com/articles/s41467-026-76542-z
+  date: '2026-08-18'
+  source: Nature.com
+- title: Machine Learning & AI Materials Scientist
+  description: 'As a Machine Learning & AI Materials Scientist, you will be a part
+    of Dassault Systèmes Gen7 vision and actively contribute towards its implementation.
+    Materials AI is a strategically important, rapidly growing, and evolving core
+    technology Company: '
+  url: https://nlppeople.com/job/machine-learning-ai-materials-scientist-2/
+  date: '2026-08-18'
+  source: Nlppeople.com
+- title: Health risk assessment of heavy metals in Iranian cereal products using ICP-AES
+    and a hybrid machine learning framework
+  description: Scientific Reports - Health risk assessment of heavy metals in Iranian
+    cereal products using ICP-AES and a hybrid machine learning framework
+  url: https://www.nature.com/articles/s41598-026-67271-w.pdf
+  date: '2026-08-18'
+  source: Nature.com
 - title: An “invisible” car? Researcher uses machine learning to hide vehicles from
     Flock cameras
   description: 'A cybersecurity expert has demonstrated how computer-generated patterns
@@ -47,6 +103,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-67295-2.pdf
   date: '2026-08-16'
   source: Nature.com
+- title: Junior AI Engineer / Machine Learning Engineer no experience needed
+  description: This is a self-funded career programme with a guaranteed job on completion
+    or 100% of your course fees back Train. Certify. Get Hired. AI is expected to
+    generate 170 million jobs by 2030 and at present experienced professionals can
+    earn salaries of u
+  url: https://nlppeople.com/job/junior-ai-engineer-machine-learning-engineer-no-experience-needed-3/
+  date: '2026-08-16'
+  source: Nlppeople.com
 - title: Scientific Machine Learning
   description: 'eBook Details: Paperback: 830 pages Published: July 24, 2026 Language: English
     ISBN-10: 9819578558 ISBN-13: 978-9819578559 eBook Description: Scientific Machine
@@ -117,6 +181,14 @@ news_items:
     you’re trusted to deliver results and make an impact. We embrace you for who you
     are, care for your'
   url: https://nlppeople.com/job/machine-learning-engineer-596/
+  date: '2026-08-14'
+  source: Nlppeople.com
+- title: Machine Learning Engineer
+  description: Why Faculty? We established Faculty in 2014 because we thought that
+    AI would be the most important technology of our time. Since then, we’ve worked
+    with over 350 global customers to transform their performance through human-centric
+    AI. You can read a
+  url: https://nlppeople.com/job/machine-learning-engineer-597/
   date: '2026-08-14'
   source: Nlppeople.com
 - title: Genome-wide machine learning analysis of anosmia and ageusia with COVID-19
@@ -3207,48 +3279,3 @@ news_items:
   url: https://nlppeople.com/job/ai-machine-learning-engineer-23/
   date: '2026-05-21'
   source: Nlppeople.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-18/
-  date: '2026-05-20'
-  source: Nlppeople.com
-- title: Machine learning based detection of covert communications under jamming interference
-  description: Scientific Reports - Machine learning based detection of covert communications
-    under jamming interference
-  url: https://www.nature.com/articles/s41598-026-53830-8
-  date: '2026-05-20'
-  source: Nature.com
-- title: AI Machine Learning Specialist
-  description: AI Machine Learning Specialist Cayuse Civil Services, LLC Austin, TX
-    – Hybrid (3 days remote | Mon & Fri Onsite) This position is posted for future
-    opportunities. Please submit your application to be considered for similar upcoming
-    roles. Responsibil
-  url: https://nlppeople.com/job/ai-machine-learning-specialist-4/
-  date: '2026-05-20'
-  source: Nlppeople.com
-- title: Experimental and predictive analysis of pile raft foundation in clayey soils
-    using machine learning and MATLAB tools
-  description: Scientific Reports - Experimental and predictive analysis of pile raft
-    foundation in clayey soils using machine learning and MATLAB tools
-  url: https://www.nature.com/articles/s41598-026-53172-5
-  date: '2026-05-20'
-  source: Nature.com
-- title: Carbon halogen bond dissociation energy predictions through automated machine
-    learning pipeline
-  description: Scientific Reports - Carbon halogen bond dissociation energy predictions
-    through automated machine learning pipeline
-  url: https://www.nature.com/articles/s41598-026-48010-7
-  date: '2026-05-20'
-  source: Nature.com
-- title: Higher-order phonon scattering and lattice thermal conductivity prediction
-    via machine learning
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02969H,
-    PaperShengxian Liu, Kan Tang, Jian Zhou, Zhimei SunHigher-order phonon scattering
-    processes, such as three-phonon (3ph) and four-phonon (4ph) interactions, critically
-    influence latt'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02969h
-  date: '2026-05-20'
-  source: Royal Society of Chemistry

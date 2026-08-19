@@ -1,4 +1,13 @@
 news_items:
+- title: 'Deep learning applications in osteosarcoma MRI: A systematic review of recent
+    advances in AI-based osteosarcoma diagnosis'
+  description: Primary malignant bone tumours of the skeleton have a great diversity
+    in their biological behaviour, and the most common in adolescence is osteosarcoma
+    for which the diagnosis and therapeutic management are both a challenge. The use
+    of machine and de
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354896
+  date: '2026-08-18'
+  source: Plos.org
 - title: Spatiotemporal characterization and graph-based interpretation of distributed
     denial of service attacks using deep learning
   description: Scientific Reports - Spatiotemporal characterization and graph-based
@@ -1019,10 +1028,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra00614k
   date: '2026-05-21'
   source: Royal Society of Chemistry
-- title: A hybrid deep learning model with adaptive feature fusion for automated rice
-    leaf disease detection and classification
-  description: Scientific Reports - A hybrid deep learning model with adaptive feature
-    fusion for automated rice leaf disease detection and classification
-  url: https://www.nature.com/articles/s41598-026-52534-3
-  date: '2026-05-20'
-  source: Nature.com
