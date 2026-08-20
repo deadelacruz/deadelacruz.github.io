@@ -1,4 +1,28 @@
 news_items:
+- title: Machine learning prediction model for the sewing thread consumption
+  description: This study aims to provide rapid and precise methods for industrial
+    users to predict the amount of sewing thread required to sew garments using different
+    stitches of class 600. To avoid unused stocks, sewing consumption for each stitch
+    was computed u
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356367
+  date: '2026-08-19'
+  source: Plos.org
+- title: Principal Machine Learning Data Scientist, Gen AI
+  description: 'Xometry (NASDAQ: XMTR) powers the industries of today and tomorrow
+    by connecting the people with big ideas to the manufacturers who can bring them
+    to life. Xometry’s digital marketplace gives manufacturers the critical resources
+    they need to grow the'
+  url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-8/
+  date: '2026-08-19'
+  source: Nlppeople.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-15/
+  date: '2026-08-19'
+  source: Nlppeople.com
 - title: Comparative analysis of machine learning techniques for cardiovascular disease
     prediction
   description: Background and objectives Early and accurate prediction of cardiovascular
@@ -55,6 +79,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-67271-w.pdf
   date: '2026-08-18'
   source: Nature.com
+- title: Graduate Research Assistant for Evaluation of Energy-Efficient AI Accelerators
+    for Machine Learning Systems (Dr. Mariam Manakkadu)
+  description: 'Position Details Posting Summary Position Title Graduate Research
+    Assistant for Evaluation of Energy-Efficient AI Accelerators for Machine Learning
+    Systems (Dr. Mariam Manakkadu) Posting Number AS1111P Subdivision School of Engineering
+    and Computing '
+  url: https://nlppeople.com/job/graduate-research-assistant-for-evaluation-of-energy-efficient-ai-accelerators-for-machine-learning-systems-dr-mariam-manakkadu/
+  date: '2026-08-18'
+  source: Nlppeople.com
 - title: An “invisible” car? Researcher uses machine learning to hide vehicles from
     Flock cameras
   description: 'A cybersecurity expert has demonstrated how computer-generated patterns
@@ -3190,92 +3223,4 @@ news_items:
     for an engineer to h
   url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-3/
   date: '2026-05-22'
-  source: Nlppeople.com
-- title: Machine learning reveals microbiome differences by periodontitis severity
-  description: Periodontitis is a chronic inflammatory disease driven by microbial
-    dysbiosis, yet the microbial signatures associated with severity remain incompletely
-    understood. This study investigated changes in subgingival microbial composition
-    across clinicall
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349686
-  date: '2026-05-21'
-  source: Plos.org
-- title: Flyback – Machine learning powered market intelligence for luxury watches
-  description: Machine learning powered market intelligence for luxury watches
-  url: https://betalist.com/startups/flyback
-  date: '2026-05-21'
-  source: Betalist.com
-- title: Machine Learning Built MLOps Trained NLP Models
-  description: Are you interested in building software that creates meaningful social
-    impact? Every solution this company develops is deployed directly to production,
-    delivering tangible, real-world benefits within the healthcare sector. This Irish
-    software company
-  url: https://nlppeople.com/job/machine-learning-built-mlops-trained-nlp-models-4/
-  date: '2026-05-21'
-  source: Nlppeople.com
-- title: 'Author Correction: Biophysical prediction of protein–peptide interactions
-    and signaling networks using machine learning'
-  description: 'Nature Methods - Author Correction: Biophysical prediction of protein–peptide
-    interactions and signaling networks using machine learning'
-  url: https://www.nature.com/articles/s41592-026-03117-7
-  date: '2026-05-21'
-  source: Nature.com
-- title: Manager, Machine Learning Engineering
-  description: Company Overview Docusign brings agreements to life. Over 1.5 million
-    customers and more than a billion people in over 180 countries use Docusign solutions
-    to accelerate the process of doing business and simplify people’s lives. With
-    intelligent agre
-  url: https://nlppeople.com/job/manager-machine-learning-engineering-7/
-  date: '2026-05-21'
-  source: Nlppeople.com
-- title: 'Pareto-optimization of sustainable high-entropy alloys: balancing hardness
-    and sustainability via machine learning'
-  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA02605B, CommunicationMd.
-    Mashiur Rahman, Md. Mohminul Islam, S. M. Nasim Rokon, Md. Mostafa KamalRandom
-    Forest and Pareto optimization screen 50 000 virtual HEAs, identifying champions
-    with 80–'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02605b
-  date: '2026-05-21'
-  source: Royal Society of Chemistry
-- title: 'Machine learning-based prediction of biomass pyrolysis kinetics: integrating
-    mechanistic modeling and compositional features'
-  description: 'RSC Adv., 2026, 16,28036-28047DOI: 10.1039/D6RA01011C, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Muhammad Asif, Luqman Hakeem, Chengxi Yao, Hira, Rimsha Bibi,
-    Muhammad Bil'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01011c
-  date: '2026-05-21'
-  source: Royal Society of Chemistry
-- title: Machine Learning Assisted Stability and CO2 Reduction Reaction Activity Prediction
-    of Single Atom Alloys
-  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR00618C, PaperQiuyan
-    Zhu, Dongxu Tian, Xiaru DuSingle-atom alloy catalyst design requires a synergistic
-    understanding of stability and activity. Herein, density functional theory (DFT)
-    and machine l'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr00618c
-  date: '2026-05-21'
-  source: Royal Society of Chemistry
-- title: Tackling complexity in crystal structure determination of metal organic compounds
-    using machine learning interatomic potentials
-  description: 'Chem. Commun., 2026, Advance ArticleDOI: 10.1039/D6CC01457G, Communication
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution
-    3.0 Unported Licence.Hui Wu, Qiang Zhu, Wei ZhouUniversal machine learning interatomic
-    potentia'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc01457g
-  date: '2026-05-21'
-  source: Royal Society of Chemistry
-- title: Senior Machine Learning Engineer
-  description: Why Faculty? We established Faculty in 2014 because we thought that
-    AI would be the most important technology of our time. Since then, we’ve worked
-    with over 350 global customers to transform their performance through human-centric
-    AI. You can read a
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-257/
-  date: '2026-05-21'
-  source: Nlppeople.com
-- title: AI/Machine Learning Engineer
-  description: AI/Machine Learning Engineer We’re seeking a seasoned AI governance
-    professional to lead enterprise-level oversight of artificial intelligence, machine
-    learning, and advanced analytics across our organization. You’ll ensure AI-enabled
-    systems — spann
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-23/
-  date: '2026-05-21'
   source: Nlppeople.com

@@ -1,4 +1,19 @@
 news_items:
+- title: Lung cancer detection in CT scans using extracted nodule features and precise
+    multistage segmentation with deep learning based ensemble model
+  description: Scientific Reports - Lung cancer detection in CT scans using extracted
+    nodule features and precise multistage segmentation with deep learning based ensemble
+    model
+  url: https://www.nature.com/articles/s41598-026-50656-2
+  date: '2026-08-19'
+  source: Nature.com
+- title: Sustainable cultural digitization enabled by eco efficient deep learning
+    models
+  description: Scientific Reports - Sustainable cultural digitization enabled by eco
+    efficient deep learning models
+  url: https://www.nature.com/articles/s41598-026-66861-y.pdf
+  date: '2026-08-19'
+  source: Nature.com
 - title: 'Deep learning applications in osteosarcoma MRI: A systematic review of recent
     advances in AI-based osteosarcoma diagnosis'
   description: Primary malignant bone tumours of the skeleton have a great diversity
@@ -1010,21 +1025,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-53742-7
   date: '2026-05-22'
   source: Nature.com
-- title: 'Prediction of cognitive impairment through speech data analysis: A comparative
-    evaluation of deep learning models'
-  description: Background The early detection of cognitive impairments, such as mild
-    cognitive impairment (MCI) and Alzheimer’s disease (AD), is essential for timely
-    intervention and management. This study evaluates the performance of various deep-learning
-    models i
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0349412
-  date: '2026-05-21'
-  source: Plos.org
-- title: Deep learning-assisted SERS for detection of propoxate and isopropoxate in
-    E-cigarettes
-  description: 'RSC Adv., 2026, 16,27666-27677DOI: 10.1039/D6RA00614K, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Jiahao Teng, Shenggang Huang, Wenkai Zheng, Xuqing Wang,
-    Yingsheng He, Jiy'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra00614k
-  date: '2026-05-21'
-  source: Royal Society of Chemistry
