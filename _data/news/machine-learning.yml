@@ -1,4 +1,46 @@
 news_items:
+- title: 'Uncovering the determinants of high-risk age at childbirth in Bangladesh:
+    A machine learning analysis of the BDHS 2022 data'
+  description: Childbirth occurring at high-risk maternal ages (≤18 years or ≥40 years)
+    remains an important public health concern in Bangladesh and is influenced by
+    a range of socio-demographic and behavioral factors. We conducted a cross-sectional
+    secondary analy
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356362
+  date: '2026-08-20'
+  source: Plos.org
+- title: Drug screen and machine learning predict neuroprotective agents in a preclinical
+    human model of childhood dementia
+  description: 'Here authors show patient-derived neural models of childhood dementia
+    exhibit key disease features. A drug screening platform integrating machine learning,
+    imaging, transcriptomics and electrophysiology, identifies repurposed compounds
+    that mitigate '
+  url: https://www.nature.com/articles/s41467-026-76837-1.pdf
+  date: '2026-08-20'
+  source: Nature.com
+- title: 'Ensemble machine learning prediction of LNG tank thermal stratification
+    and boil-off gas generation: an experimental study with uncertainty quantification'
+  description: 'Scientific Reports - Ensemble machine learning prediction of LNG tank
+    thermal stratification and boil-off gas generation: an experimental study with
+    uncertainty quantification'
+  url: https://www.nature.com/articles/s41598-026-67480-3.pdf
+  date: '2026-08-20'
+  source: Nature.com
+- title: Machine learning-based design and optimization of a cross-shaped circularly
+    polarized multiband patch MIMO antenna for 6G sub-THz communication systems
+  description: Scientific Reports - Machine learning-based design and optimization
+    of a cross-shaped circularly polarized multiband patch MIMO antenna for 6G sub-THz
+    communication systems
+  url: https://www.nature.com/articles/s41598-026-67438-5.pdf
+  date: '2026-08-20'
+  source: Nature.com
+- title: Machine Learning Engineer
+  description: Who we are At Twilio, we’re shaping the future of communications, all
+    from the comfort of our homes. We deliver innovative solutions to hundreds of
+    thousands of businesses and empower millions of developers worldwide to craft
+    personalized customer ex
+  url: https://nlppeople.com/job/machine-learning-engineer-598/
+  date: '2026-08-20'
+  source: Nlppeople.com
 - title: Machine learning prediction model for the sewing thread consumption
   description: This study aims to provide rapid and precise methods for industrial
     users to predict the amount of sewing thread required to sew garments using different
@@ -86,6 +128,14 @@ news_items:
     Systems (Dr. Mariam Manakkadu) Posting Number AS1111P Subdivision School of Engineering
     and Computing '
   url: https://nlppeople.com/job/graduate-research-assistant-for-evaluation-of-energy-efficient-ai-accelerators-for-machine-learning-systems-dr-mariam-manakkadu/
+  date: '2026-08-18'
+  source: Nlppeople.com
+- title: Machine Learning Specialist
+  description: 'Principal Machine Learning Engineer | €700/day Build greenfield AI
+    from the ground upOwn the technical direction of a next-generation AI platformWork
+    hands-on with cutting-edge Agentic AI A global reinsurance company is investing
+    heavily in the next '
+  url: https://nlppeople.com/job/machine-learning-specialist-12/
   date: '2026-08-18'
   source: Nlppeople.com
 - title: An “invisible” car? Researcher uses machine learning to hide vehicles from
@@ -3151,76 +3201,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-54656-0
   date: '2026-05-23'
   source: Nature.com
-- title: Senior Data & Machine Learning Engineer
-  description: Senior Data & Machine Learning Engineer Find out more about the daily
-    tasks, overall responsibilities, and required experience for this opportunity
-    by scrolling down now. (MS Fabric focus) – Warrington (hybrid) We’re working with
-    a well-established b
-  url: https://nlppeople.com/job/senior-data-machine-learning-engineer/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Research Engineer, Machine Learning – Paris/London/Zurich/Warsaw
-  description: About Mistral At Mistral AI, we believe in the power of AI to simplify
-    tasks, save time, and enhance learning and creativity. Our technology is designed
-    to integrate seamlessly into daily working life. We democratize AI through high-performance,
-    opti
-  url: https://nlppeople.com/job/research-engineer-machine-learning-paris-london-zurich-warsaw-2/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Explainable machine learning-based investigation for influential parameters
-    towards interfacial capacity of spliced glass fiber reinforced polymer bars
-  description: Scientific Reports - Explainable machine learning-based investigation
-    for influential parameters towards interfacial capacity of spliced glass fiber
-    reinforced polymer bars
-  url: https://www.nature.com/articles/s41598-026-54289-3
-  date: '2026-05-22'
-  source: Nature.com
-- title: Senior Machine Learning Scientist – Advanced AI & Automation
-  description: 'We are looking for a Senior Machine Learning Scientist to join the
-    Corporate Reserach department at Sartorius. You will use your expertise in modern
-    machine learning, computer vision and robotics to design AI – driven automaton
-    for next – generation '
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-advanced-ai-automation-9/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-6/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-19/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist
-  description: Senior Data Scientist  UK or Poland (Remote or Hybrid, it’s up to you!)  Dependent
-    on experience  Be part of our success with the opportunity to join our company
-    equity scheme Our Perks ❤️ Monthly Health & Wellness budget, increasing with length
-    of s
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-26/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Senior / Principal Machine Learning Scientist, Scientific Reasoning Models,
-    AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-13/
-  date: '2026-05-22'
-  source: Nlppeople.com
-- title: Machine Learning Engineer, Express AI Foundations
-  description: The Opportunity Adobe Express helps people and teams create standout
-    content with ease. The AI Foundations team builds the core AI platform that powers
-    creativity across design, imaging, motion, and personalization. We’re looking
-    for an engineer to h
-  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-3/
-  date: '2026-05-22'
-  source: Nlppeople.com

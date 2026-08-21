@@ -1,4 +1,22 @@
 news_items:
+- title: 'No IIT. Bengaluru Gen Z techie who earned Rs 18 lakh per month at just 17
+    from AI, shares his secret: ‘Don’t focus on deep learning but…’'
+  description: He taught himself the basics of AI when he was just 13. Before he hit
+    19, he built a business which was earning him over Rs 1 crore a month. And what’s
+    most astounding is that Ayush Singh achieved all of this without even a formal
+    tech degree.
+  url: https://economictimes.indiatimes.com/magazines/panache/no-iit-bengaluru-gen-z-techie-who-earned-rs-18-lakh-per-month-at-just-17-from-ai-shares-his-secret-dont-focus-on-deep-learning-but/articleshow/133380744.cms
+  date: '2026-08-20'
+  source: The Times of India
+- title: 'CLDN18.2 antibody design with protein language models: A deep learning optimization
+    framework'
+  description: Author summary Gastric cancer remains a major cause of cancer-related
+    mortality worldwide, and effective treatment options are still limited for many
+    patients. Claudin 18.2 (CLDN18.2) has emerged as a promising therapeutic target,
+    as highlighted by t
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014499
+  date: '2026-08-20'
+  source: Plos.org
 - title: Lung cancer detection in CT scans using extracted nodule features and precise
     multistage segmentation with deep learning based ensemble model
   description: Scientific Reports - Lung cancer detection in CT scans using extracted
@@ -1008,20 +1026,4 @@ news_items:
     a novel interpretable deep learning model: MHCNN-LSTM-MHA'
   url: https://www.nature.com/articles/s41598-026-53616-y
   date: '2026-05-23'
-  source: Nature.com
-- title: Deep learning and radiomics models in patients with advanced non-small cell
-    lung cancer treated with immunotherapy combined with stereotactic radiotherapy
-  description: Scientific Reports - Deep learning and radiomics models in patients
-    with advanced non-small cell lung cancer treated with immunotherapy combined with
-    stereotactic radiotherapy
-  url: https://www.nature.com/articles/s41598-026-53520-5
-  date: '2026-05-22'
-  source: Nature.com
-- title: Research on multi-stage deep learning based intelligent diagnosis of skin
-    diseases and skin medicine diagnosis community construction concept
-  description: Scientific Reports - Research on multi-stage deep learning based intelligent
-    diagnosis of skin diseases and skin medicine diagnosis community construction
-    concept
-  url: https://www.nature.com/articles/s41598-026-53742-7
-  date: '2026-05-22'
   source: Nature.com
