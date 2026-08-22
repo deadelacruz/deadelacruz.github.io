@@ -1,4 +1,52 @@
 news_items:
+- title: Machine learning incorporating trabecular bone score improves lumbar fracture
+    risk stratification in type 2 diabetes
+  description: Scientific Reports - Machine learning incorporating trabecular bone
+    score improves lumbar fracture risk stratification in type 2 diabetes
+  url: https://www.nature.com/articles/s41598-026-67932-w.pdf
+  date: '2026-08-21'
+  source: Nature.com
+- title: Is a (satellite) image worth a thousand data points? Comparing machine learning
+    approaches to predict environmental and social inequalities in England
+  description: Accurately mapping environmental and social inequalities at fine spatial
+    scales is critical for urban policy, yet the data required are often costly and
+    infrequently updated. Vision foundation models can extract information directly
+    from satellite im
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356472
+  date: '2026-08-21'
+  source: Plos.org
+- title: Senior Machine Learning Engineer (Team Lead) – Various Australian Cities
+  description: 'Job no: 529754 Brand: Product and Technology Work type: Full time
+    Location: New South Wales, Queensland, Victoria Categories: Digital and Technology,
+    Data and Business Intelligence At Flight Centre Travel Group (FCTG) our purpose
+    is to ‘open up the w'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-team-lead-various-australian-cities-5/
+  date: '2026-08-21'
+  source: Nlppeople.com
+- title: Terrain attributes and seasonal Sentinel-2 covariates for machine learning-based
+    digital mapping of soil organic carbon fractions in a Himalayan watershed
+  description: Scientific Reports - Terrain attributes and seasonal Sentinel-2 covariates
+    for machine learning-based digital mapping of soil organic carbon fractions in
+    a Himalayan watershed
+  url: https://www.nature.com/articles/s41598-026-66839-w.pdf
+  date: '2026-08-21'
+  source: Nature.com
+- title: Machine Learning & AI Materials Scientist
+  description: 'As a Machine Learning & AI Materials Scientist, you will be a part
+    of Dassault Systèmes Gen7 vision and actively contribute towards its implementation.
+    Materials AI is a strategically important, rapidly growing, and evolving core
+    technology Company: '
+  url: https://nlppeople.com/job/machine-learning-ai-materials-scientist-3/
+  date: '2026-08-21'
+  source: Nlppeople.com
+- title: Machine Learning Scientist – 140859
+  description: 'Payroll Title: RSCH DATA ANL 3 RP Department: CLIMATE/ATMOS SCI/PHY
+    OCEANOG Hiring Pay Scale $96,075 – $136,710/ Annually Worksite: Hybrid Appointment
+    Type: Career Appointment Percent: 100% Union: RP Contract Total Openings: 1 Work
+    Schedule: 8 hrs/da'
+  url: https://nlppeople.com/job/machine-learning-scientist-140859-2/
+  date: '2026-08-21'
+  source: Nlppeople.com
 - title: 'Uncovering the determinants of high-risk age at childbirth in Bangladesh:
     A machine learning analysis of the BDHS 2022 data'
   description: Childbirth occurring at high-risk maternal ages (≤18 years or ≥40 years)
@@ -3177,27 +3225,4 @@ news_items:
     composite aprons using machine learning
   url: https://www.nature.com/articles/s41598-026-50473-7
   date: '2026-05-25'
-  source: Nature.com
-- title: 'Chartered accountants should see AI, machine learning and other tech developments
-    as an opportunity: G Ramaswamy'
-  description: Technological advancements like AI and blockchain are transforming
-    the chartered accountant profession, pushing CAs towards higher-value advisory
-    roles. Data literacy is becoming as crucial as technical accounting knowledge.
-    The ICAI, now the world's
-  url: https://timesofindia.indiatimes.com/city/coimbatore/chartered-accountants-should-see-ai-machine-learning-and-other-tech-developments-as-an-opportunity-g-ramaswamy/articleshow/131281045.cms
-  date: '2026-05-23'
-  source: The Times of India
-- title: 'EcoImpact: energy conservation using data-driven model predictive control
-    and interpretable machine learning in the buildings sector'
-  description: 'Scientific Reports - EcoImpact: energy conservation using data-driven
-    model predictive control and interpretable machine learning in the buildings sector'
-  url: https://www.nature.com/articles/s41598-026-53373-y
-  date: '2026-05-23'
-  source: Nature.com
-- title: Estimating temporal treatment-effect patterns of radiotherapy and chemotherapy
-    in lower-grade gliomas using causal machine learning
-  description: Scientific Reports - Estimating temporal treatment-effect patterns
-    of radiotherapy and chemotherapy in lower-grade gliomas using causal machine learning
-  url: https://www.nature.com/articles/s41598-026-54656-0
-  date: '2026-05-23'
   source: Nature.com

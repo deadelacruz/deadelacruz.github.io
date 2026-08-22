@@ -1,4 +1,18 @@
 news_items:
+- title: Multi-label arrhythmia classification from Holter scatter plots using deep
+    learning and clinically oriented thresholds
+  description: Scientific Reports - Multi-label arrhythmia classification from Holter
+    scatter plots using deep learning and clinically oriented thresholds
+  url: https://www.nature.com/articles/s41598-026-68106-4.pdf
+  date: '2026-08-21'
+  source: Nature.com
+- title: Kabarak University Advances AI and Health Technology Engagement at Deep Learning
+    Indaba 2026 Lagos, Nigeria
+  description: Kabarak University strengthened its engagement in artificial intelligence
+    (AI), data science, robotics and health technology through its...
+  url: https://kabarak.ac.ke/ibi/kabu-advances-ai-and-health-technology-engagement-at-deep-learning-indaba-2026-lagos
+  date: '2026-08-21'
+  source: Kabarak.ac.ke
 - title: 'No IIT. Bengaluru Gen Z techie who earned Rs 18 lakh per month at just 17
     from AI, shares his secret: ‘Don’t focus on deep learning but…’'
   description: He taught himself the basics of AI when he was just 13. Before he hit
@@ -1019,11 +1033,4 @@ news_items:
     China
   url: https://www.nature.com/articles/s41598-026-53767-y
   date: '2026-05-24'
-  source: Nature.com
-- title: 'Enhancing crop yield prediction accuracy with a novel interpretable deep
-    learning model: MHCNN-LSTM-MHA'
-  description: 'Scientific Reports - Enhancing crop yield prediction accuracy with
-    a novel interpretable deep learning model: MHCNN-LSTM-MHA'
-  url: https://www.nature.com/articles/s41598-026-53616-y
-  date: '2026-05-23'
   source: Nature.com
