@@ -1,4 +1,12 @@
 news_items:
+- title: Experimental and machine learning-guided optimization of tensile strength
+    of concrete incorporating silica fume, waste foundry sand, and polypropylene fibers
+  description: Scientific Reports - Experimental and machine learning-guided optimization
+    of tensile strength of concrete incorporating silica fume, waste foundry sand,
+    and polypropylene fibers
+  url: https://www.nature.com/articles/s41598-026-67230-5.pdf
+  date: '2026-08-22'
+  source: Nature.com
 - title: Machine learning incorporating trabecular bone score improves lumbar fracture
     risk stratification in type 2 diabetes
   description: Scientific Reports - Machine learning incorporating trabecular bone
