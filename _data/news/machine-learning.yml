@@ -1,4 +1,28 @@
 news_items:
+- title: An integrated systems biology and machine learning framework for identifying
+    potential biomarkers and pathways in autism spectrum disorder
+  description: Background Autism spectrum disorders (ASD) are a group of neurodevelopmental
+    disorders whose underlying molecular mechanisms and biological processes remain
+    incompletely understood. In this study, we used a multi-layered systems biology
+    approach to p
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355984
+  date: '2026-08-24'
+  source: Plos.org
+- title: Integrating Agentic AI with Existing Machine Learning Pipelines
+  description: In this hands-on article, I will show you how to bridge the gap between
+    reactive machine learning models and proactive AI agents that make decisions and
+    execute actions autonomously.
+  url: https://machinelearningmastery.com/integrating-agentic-ai-with-existing-machine-learning-pipelines/
+  date: '2026-08-24'
+  source: Machinelearningmastery.com
+- title: Software Engineer, AI/Machine Learning, PhD, Early Career, 2027 Start
+  description: 'In accordance with Washington state law, we are highlighting our comprehensive
+    benefits package, which is available to all eligible US based employees. Benefits
+    for this role include: Health, dental, vision, life, disability insurance Retirement
+    Bene'
+  url: https://nlppeople.com/job/software-engineer-ai-machine-learning-phd-early-career-2027-start/
+  date: '2026-08-24'
+  source: Nlppeople.com
 - title: Experimental and machine learning-guided optimization of tensile strength
     of concrete incorporating silica fume, waste foundry sand, and polypropylene fibers
   description: Scientific Reports - Experimental and machine learning-guided optimization
@@ -95,6 +119,14 @@ news_items:
     thousands of businesses and empower millions of developers worldwide to craft
     personalized customer ex
   url: https://nlppeople.com/job/machine-learning-engineer-598/
+  date: '2026-08-20'
+  source: Nlppeople.com
+- title: Artificial Intelligence / Machine Learning Internship, Dedrone
+  description: Company Overview: Dedrone is the world’s most trusted smart airspace
+    security company. Hundreds of commercial, government and military customers around
+    the world rely on Dedrone’s comprehensive, command and control (C2) solution to
+    protect against th
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-internship-dedrone-6/
   date: '2026-08-20'
   source: Nlppeople.com
 - title: Machine learning prediction model for the sewing thread consumption
@@ -3083,107 +3115,4 @@ news_items:
     Lead the develop'
   url: https://nlppeople.com/job/head-of-machine-learning-operations/
   date: '2026-05-27'
-  source: Nlppeople.com
-- title: Visual Debugging Tools for Machine Learning Workflows
-  description: 'In this article, we cover three topics: what to visualize during training,
-    the tools that provide those visualizations, and the methods to capture model
-    computations directly using hooks and breakpoints.'
-  url: https://www.kdnuggets.com/visual-debugging-tools-for-machine-learning-workflows
-  date: '2026-05-26'
-  source: Kdnuggets.com
-- title: High-resolution automated mapping of potential Aedes larval container habitats
-    using drone imagery and supervised machine learning in Dar es Salaam, Tanzania
-  description: Author summary Mosquito-borne diseases like dengue and Zika are increasingly
-    a public health threat in African cities, driven by Aedes mosquitoes that breed
-    in small water-holding containers scattered across densely populated neighborhoods.
-    Controlli
-  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014361
-  date: '2026-05-26'
-  source: Plos.org
-- title: 'Determinants of maternal postnatal care utilization in Bangladesh: A machine
-    learning and SHAP-based analysis of BDHS 2022 data'
-  description: Postnatal care (PNC) plays a crucial role in minimizing maternal and
-    neonatal morbidity and mortality, but the uptake of services in Bangladesh remains
-    below the recommended level. Although logistic regression has been widely used,
-    it may miss comple
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350188
-  date: '2026-05-26'
-  source: Plos.org
-- title: Applied AI / Machine Learning Engineer
-  description: Company Description EntroMetrix is an early-stage UK startup building
-    physics-informed AI for industrial operations. We help manufacturers improve efficiency,
-    sustainability and operational performance by turning data into actionable intelligence.
-    Ou
-  url: https://nlppeople.com/job/applied-ai-machine-learning-engineer/
-  date: '2026-05-26'
-  source: Nlppeople.com
-- title: 'Explainable machine learning-driven identification of heart failure biomarkers:
-    a multi-model feature selection approach with SHAP-based interpretability'
-  description: 'Scientific Reports - Explainable machine learning-driven identification
-    of heart failure biomarkers: a multi-model feature selection approach with SHAP-based
-    interpretability'
-  url: https://www.nature.com/articles/s41598-026-54867-5
-  date: '2026-05-26'
-  source: Nature.com
-- title: Machine learning using Clojure, libpython-clj2, and Pytorch
-  description: Machine learning explained using the parabola example
-  url: https://clojurecivitas.org/mlp/main.html
-  date: '2026-05-26'
-  source: Clojurecivitas.org
-- title: Senior Machine Learning Scientist
-  description: Senior Data Scientist  UK or Poland (Remote or Hybrid, it’s up to you!)  Dependent
-    on experience  Be part of our success with the opportunity to join our company
-    equity scheme Our Perks ❤️ Monthly Health & Wellness budget, increasing with length
-    of s
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-27/
-  date: '2026-05-26'
-  source: Nlppeople.com
-- title: Data-driven prediction of micro-piled raft load–settlement using machine
-    learning and Monte Carlo simulation
-  description: Scientific Reports - Data-driven prediction of micro-piled raft load–settlement
-    using machine learning and Monte Carlo simulation
-  url: https://www.nature.com/articles/s41598-026-54119-6
-  date: '2026-05-26'
-  source: Nature.com
-- title: Machine Learning Engineer | Python | Pytorch | Natural Language Processing
-    | LLM | Langua
-  description: 'Position: Machine Learning Engineer | Python | Pytorch | Natural Language
-    Processing | LLM | Large Langua[…] Machine Learning Engineer | Python | Pytorch
-    | Natural Language Processing | LLM | Large Language Models | Remote, EuropeAbout
-    UsWe build AI '
-  url: https://nlppeople.com/job/machine-learning-engineer-python-pytorch-natural-language-processing-llm-langua/
-  date: '2026-05-26'
-  source: Nlppeople.com
-- title: 'Retraction Note: Unveiling the potential of machine learning approaches
-    in predicting the emergence of stroke at its onset: a predicting framework'
-  description: 'Scientific Reports - Retraction Note: Unveiling the potential of machine
-    learning approaches in predicting the emergence of stroke at its onset: a predicting
-    framework'
-  url: https://www.nature.com/articles/s41598-026-54512-1
-  date: '2026-05-26'
-  source: Nature.com
-- title: Synergistic prediction of phase and hardness in high-entropy alloys via the
-    integration of machine learning and active learning strategies
-  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA01000H, PaperHao
-    Liu, Zhihao Shen, Wenqin Wang, Jian Liu, Peijian Chen, Haifeng Yang, Jingbin Hao,
-    Yanhua BianDue to the extensive compositional space and limited sample size, achieving
-    compreh'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01000h
-  date: '2026-05-26'
-  source: Royal Society of Chemistry
-- title: Machine Learning Engineer, Express AI Foundations
-  description: The Opportunity Adobe Express helps people and teams create standout
-    content with ease. The AI Foundations team builds the core AI platform that powers
-    creativity across design, imaging, motion, and personalization. We’re looking
-    for an engineer to h
-  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-4/
-  date: '2026-05-26'
-  source: Nlppeople.com
-- title: Senior Machine Learning – AI Engineer
-  description: My client is looking for a Senior Machine Learning/AI Engineer with
-    a minimum of 5 years of experience to join their organisation in Limerick. This
-    is a permanent role. Key Skills and Experience 5+ years’ experience in Machine
-    Learning Engineering, A
-  url: https://nlppeople.com/job/senior-machine-learning-ai-engineer-2/
-  date: '2026-05-26'
   source: Nlppeople.com
