@@ -56,6 +56,15 @@ news_items:
   url: https://slashdot.org/submission/17350196/human-intelligence-vs-artificial-intelligence
   date: '2026-08-25'
   source: Slashdot.org
+- title: 'Artificial Intelligence in Ultrasound Imaging: Opportunities for Improving
+    Diagnostic Accuracy in Gulf Health Care - PubMed'
+  description: Ultrasound imaging is widely used across cardiology, hepatology, obstetrics,
+    breast and thyroid imaging, and emergency care because it is real-time, noninvasive,
+    and relatively accessible. However, its diagnostic performance remains influenced
+    by ope
+  url: https://pubmed.ncbi.nlm.nih.gov/42611640/
+  date: '2026-08-25'
+  source: National Institutes of Health
 - title: 'Teaching: Empathy in Artificial Intelligence Interactions'
   description: Use this lesson plan to demonstrate to students the differences between
     AI and human perception of empathy.
