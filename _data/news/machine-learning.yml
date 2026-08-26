@@ -1,4 +1,21 @@
 news_items:
+- title: Identification and risk-factor analysis for individuals at high risk for
+    keratoconus via machine learning and logistic regression
+  description: Purpose To evaluate keratoconus (KC) risk factors and to develop a
+    machine-learning (ML) model for KC and myopia classification.   Methods In this
+    retrospective single-center cross-sectional study, demographic and lifestyle data
+    from patients with KC
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354924
+  date: '2026-08-25'
+  source: Plos.org
+- title: Machine Learning & AI Materials Scientist
+  description: 'As a Machine Learning & AI Materials Scientist, you will be a part
+    of Dassault Systèmes Gen7 vision and actively contribute towards its implementation.
+    Materials AI is a strategically important, rapidly growing, and evolving core
+    technology Company: '
+  url: https://nlppeople.com/job/machine-learning-ai-materials-scientist-4/
+  date: '2026-08-25'
+  source: Nlppeople.com
 - title: An integrated systems biology and machine learning framework for identifying
     potential biomarkers and pathways in autism spectrum disorder
   description: Background Autism spectrum disorders (ASD) are a group of neurodevelopmental
@@ -31,6 +48,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-67230-5.pdf
   date: '2026-08-22'
   source: Nature.com
+- title: Machine Learning Research Engineer, Natural Language reputed company (NLG),
+    reputed company Intelligence
+  description: 'Machine Learning Research Engineer, Natural Language reputed company
+    (NLG), reputed company Intelligence • *Cupertino, California, reputed company**
+    • *Software and Services** • *reputed company** Posted: **Apr 17, 2025** Weekly
+    Hours: **40** Role Nu'
+  url: https://nlppeople.com/job/machine-learning-research-engineer-natural-language-reputed-company-nlg-reputed-company-intelligence-2/
+  date: '2026-08-22'
+  source: Nlppeople.com
 - title: Machine learning incorporating trabecular bone score improves lumbar fracture
     risk stratification in type 2 diabetes
   description: Scientific Reports - Machine learning incorporating trabecular bone
@@ -77,6 +103,14 @@ news_items:
     Type: Career Appointment Percent: 100% Union: RP Contract Total Openings: 1 Work
     Schedule: 8 hrs/da'
   url: https://nlppeople.com/job/machine-learning-scientist-140859-2/
+  date: '2026-08-21'
+  source: Nlppeople.com
+- title: Director, Artificial Intelligence and Machine Learning Engineer
+  description: About this role AI Labs Overview For more than three decades, BlackRock
+    has combined world-class talent and technology to redefine what’s possible in
+    asset management. Today, AI is reshaping every aspect of our industry, from investments
+    and client e
+  url: https://nlppeople.com/job/director-artificial-intelligence-and-machine-learning-engineer/
   date: '2026-08-21'
   source: Nlppeople.com
 - title: 'Uncovering the determinants of high-risk age at childbirth in Bangladesh:
@@ -3083,36 +3117,4 @@ news_items:
     will play a pivotal r'
   url: https://nlppeople.com/job/risk-architecture-agentic-ai-and-machine-learning-developer-senior-associate/
   date: '2026-05-28'
-  source: Nlppeople.com
-- title: Senior Software Engineer – Machine Learning & Cloud Technologies
-  description: 'Job Title: Senior Software Engineer – Machine Learning & Cloud Technologies
-    Job Category: Engineering Time Type: Full time Minimum Clearance Required to Start:
-    TS/SCI with Polygraph Employee Type: Regular Percentage of Travel Required: None
-    Type of T'
-  url: https://nlppeople.com/job/senior-software-engineer-machine-learning-cloud-technologies-5/
-  date: '2026-05-27'
-  source: Nlppeople.com
-- title: Software Engineer Subject Matter Expert / AI & Machine Learning Engineer
-  description: 'Software Engineer Subject Matter Expert / AI & Machine Learning Engineer
-    Location: Chantilly, Virginia Security Clearance: Active TS/SCI with Polygraph
-    Required Job Type: Full-Time Position Overview The selected candidate will serve
-    as a senior techn'
-  url: https://nlppeople.com/job/software-engineer-subject-matter-expert-ai-machine-learning-engineer/
-  date: '2026-05-27'
-  source: Nlppeople.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-21/
-  date: '2026-05-27'
-  source: Nlppeople.com
-- title: Head of Machine Learning Operations
-  description: 'Role Purpose: Drive the overall MLOps strategy along with other members
-    of the Data Science & Insights (DS&I) team, while also collaborating with senior
-    leadership to align strategies with broader organizational goals and objectives.
-    Lead the develop'
-  url: https://nlppeople.com/job/head-of-machine-learning-operations/
-  date: '2026-05-27'
   source: Nlppeople.com

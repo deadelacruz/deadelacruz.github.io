@@ -1,4 +1,23 @@
 news_items:
+- title: 'Correction: AI-driven diagnosis of mpox using deep learning models'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357001
+  date: '2026-08-25'
+  source: Plos.org
+- title: Chapter 16 - Deep Learning With Python
+  description: Deep Learning with Python is written for anyone who wishes to explore
+    deep learning from scratch. This new edition adds comprehensive coverage of generative
+    AI and modern deep learning frameworks. It is available for free online.
+  url: https://deeplearningwithpython.io/chapters/chapter16_text-generation/
+  date: '2026-08-25'
+  source: Deeplearningwithpython.io
+- title: Assessing temporal event recurrence as a feature for fake news detection
+    using deep learning
+  description: Scientific Reports - Assessing temporal event recurrence as a feature
+    for fake news detection using deep learning
+  url: https://www.nature.com/articles/s41598-026-66664-1.pdf
+  date: '2026-08-25'
+  source: Nature.com
 - title: Multi-label arrhythmia classification from Holter scatter plots using deep
     learning and clinically oriented thresholds
   description: Scientific Reports - Multi-label arrhythmia classification from Holter
@@ -980,19 +999,3 @@ news_items:
   url: https://www.nature.com/articles/s41563-026-02622-6
   date: '2026-05-28'
   source: Nature.com
-- title: A federated deep learning framework with distributed hybrid character-level
-    and attention mechanisms for scalable and cost-efficient fake news detection
-  description: Scientific Reports - A federated deep learning framework with distributed
-    hybrid character-level and attention mechanisms for scalable and cost-efficient
-    fake news detection
-  url: https://www.nature.com/articles/s41598-026-54820-6
-  date: '2026-05-27'
-  source: Nature.com
-- title: Deep learning the TF regulatory code for gene expression
-  description: Gene transcription is activated through the interaction between cis-regulatory
-    elements (CREs) and transcription factors (TFs). CREs serve as templates to provide
-    binding sites, whereas TFs provide functions to directly initiate transcription.
-    Curren
-  url: https://genome.cshlp.org/content/36/6/1238
-  date: '2026-05-27'
-  source: Cshlp.org
