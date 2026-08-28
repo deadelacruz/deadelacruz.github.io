@@ -1,4 +1,20 @@
 news_items:
+- title: 'iDCF: Interpretable deconvolution of cell fractions via biologically-informed
+    deep learning using scRNA-seq data'
+  description: Author summary Understanding the cellular composition of tissues is
+    essential for unraveling disease mechanisms, yet bulk RNA sequencing only captures
+    averaged signals from mixed cell populations. Computational deconvolution can
+    estimate cell-type pr
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014727
+  date: '2026-08-27'
+  source: Plos.org
+- title: Deep Learning with Python
+  description: Deep Learning with Python is written for anyone who wishes to explore
+    deep learning from scratch. This new edition adds comprehensive coverage of generative
+    AI and modern deep learning frameworks. It is available for free online.
+  url: https://deeplearningwithpython.io/
+  date: '2026-08-27'
+  source: Deeplearningwithpython.io
 - title: Real-time PEM fuel cell fault classification in smart manufacturing plant
     by using uncertainty aware federated deep learning
   description: Scientific Reports - Real-time PEM fuel cell fault classification in
@@ -991,10 +1007,3 @@ news_items:
   url: https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/
   date: '2026-06-01'
   source: Amazon.com
-- title: 'A deep learning-based model for automatic syntactic complexity assessment
-    in L2 English writing: development and pedagogical application'
-  description: 'Scientific Reports - A deep learning-based model for automatic syntactic
-    complexity assessment in L2 English writing: development and pedagogical application'
-  url: https://www.nature.com/articles/s41598-026-53282-0
-  date: '2026-05-29'
-  source: Nature.com
