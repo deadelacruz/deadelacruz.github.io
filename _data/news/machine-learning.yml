@@ -1,4 +1,63 @@
 news_items:
+- title: 'Labeling matters: A multicenter machine learning study on visual field progression
+    in Glaucoma'
+  description: Background To compare machine learning (ML) performance for detecting
+    visual field (VF) progression across different labeling strategies using a large
+    multicenter dataset.   Methods In this multicenter retrospective study, VF data
+    were collected from
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357179
+  date: '2026-08-28'
+  source: Plos.org
+- title: Machine Learning approaches for the detection of disease-causing variants
+    in whole-genome data need to address the expression of functional genes
+  description: Gene-dosage combinations have been recognised as leading factors of
+    disease. Given that those combinations may include dozens of genes, it is hypothesised
+    that machine learning (ML) approaches may be useful in the classification of cases
+    and controls
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355557
+  date: '2026-08-28'
+  source: Plos.org
+- title: Comparative machine learning models for predicting the compressive strength
+    of ultra-high-performance concrete
+  description: Ultra-high-performance concrete (UHPC) exhibits exceptional mechanical
+    properties and durability. However, its compressive strength is highly dependent
+    on complex mix design parameters. While traditional experimental techniques and
+    regression-based m
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357153
+  date: '2026-08-28'
+  source: Plos.org
+- title: Applied AI ML – Senior Associate – Machine Learning Engineer
+  description: Join a high performing team of applied AI experts to drive innovation
+    and new capabilities in the Commercial & Investment Bank. As an Applied AI / ML
+    Senior Associate Machine Learning Engineer in the Applied AI ML team at JPMorgan
+    Commercial & Invest
+  url: https://nlppeople.com/job/applied-ai-ml-senior-associate-machine-learning-engineer-3/
+  date: '2026-08-28'
+  source: Nlppeople.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-17/
+  date: '2026-08-28'
+  source: Nlppeople.com
+- title: AI and Machine Learning Engineer (2 Year Fixed Term Contract)
+  description: Job DescriptionMitsubishi Power EMEA is seeking a motivated and ambitious
+    AI and Machine Learning Engineer to join our Engineering team. This is an exciting
+    opportunity for a recent Master’s graduate or someone completing their studies
+    to apply artif
+  url: https://nlppeople.com/job/ai-and-machine-learning-engineer-2-year-fixed-term-contract/
+  date: '2026-08-28'
+  source: Nlppeople.com
+- title: Machine Learning & AI Materials Scientist
+  description: 'As a Machine Learning & AI Materials Scientist, you will be a part
+    of Dassault Systèmes Gen7 vision and actively contribute towards its implementation.
+    Materials AI is a strategically important, rapidly growing, and evolving core
+    technology Company: '
+  url: https://nlppeople.com/job/machine-learning-ai-materials-scientist-5/
+  date: '2026-08-28'
+  source: Nlppeople.com
 - title: Machine Learning Engineer
   description: Who we are At Twilio, we’re shaping the future of communications, all
     from the comfort of our homes. We deliver innovative solutions to hundreds of
@@ -3067,10 +3126,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc01937d
   date: '2026-05-31'
   source: Royal Society of Chemistry
-- title: Machine learning-driven image encryption using SVM for enhanced security
-    and computational efficiency
-  description: Scientific Reports - Machine learning-driven image encryption using
-    SVM for enhanced security and computational efficiency
-  url: https://www.nature.com/articles/s41598-026-54937-8
-  date: '2026-05-30'
-  source: Nature.com

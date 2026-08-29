@@ -1,4 +1,21 @@
 news_items:
+- title: An efficient method for network traffic anomaly detection based on SHAP and
+    deep learning
+  description: To address the critical challenge of Denial-of-Service (DoS) attack
+    detection in wireless sensor networks (WSNs), this study proposes an efficient
+    anomaly detection framework that synergistically integrates SHAP (SHapley Additive
+    exPlanations) for fe
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356069
+  date: '2026-08-28'
+  source: Plos.org
+- title: Deep learning design of nanoscale polariton propagations in twisted van der
+    Waals multilayers
+  description: Neural-network-guided design of twisted multilayer van der Waals materials
+    enables on-demand control of polariton canalization across the visible, infrared
+    and terahertz spectral regions.
+  url: https://www.nature.com/articles/s41563-026-02723-2.pdf
+  date: '2026-08-28'
+  source: Nature.com
 - title: 'iDCF: Interpretable deconvolution of cell fractions via biologically-informed
     deep learning using scRNA-seq data'
   description: Author summary Understanding the cellular composition of tissues is
