@@ -1,4 +1,11 @@
 news_items:
+- title: Microstructure-aware deep learning bridges atomistics to macroscale for shock-to-detonation
+    prediction
+  description: Scientific Reports - Microstructure-aware deep learning bridges atomistics
+    to macroscale for shock-to-detonation prediction
+  url: https://www.nature.com/articles/s41598-026-68141-1.pdf
+  date: '2026-08-29'
+  source: Nature.com
 - title: An efficient method for network traffic anomaly detection based on SHAP and
     deep learning
   description: To address the critical challenge of Denial-of-Service (DoS) attack

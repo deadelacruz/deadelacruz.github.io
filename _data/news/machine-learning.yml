@@ -1,4 +1,19 @@
 news_items:
+- title: Intelligent prediction of blast-induced peak particle velocity (PPV) using
+    an ensemble based multilayer machine learning approach for safe mining operations
+  description: Scientific Reports - Intelligent prediction of blast-induced peak particle
+    velocity (PPV) using an ensemble based multilayer machine learning approach for
+    safe mining operations
+  url: https://www.nature.com/articles/s41598-026-64396-w.pdf
+  date: '2026-08-29'
+  source: Nature.com
+- title: Machine learning-based optimization, characterization and CI engine assessment
+    of biodiesel synthesised from waste soybean cooking oil
+  description: Scientific Reports - Machine learning-based optimization, characterization
+    and CI engine assessment of biodiesel synthesised from waste soybean cooking oil
+  url: https://www.nature.com/articles/s41598-026-66746-0.pdf
+  date: '2026-08-29'
+  source: Nature.com
 - title: 'Labeling matters: A multicenter machine learning study on visual field progression
     in Glaucoma'
   description: Background To compare machine learning (ML) performance for detecting
@@ -3107,22 +3122,3 @@ news_items:
   url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning/
   date: '2026-06-01'
   source: Nlppeople.com
-- title: Techtonique dot net, the Machine Learning web API, is back online (but more
-    like a passion project for now)
-  description: 'Techtonique dot net is back, but more like a passion project, with
-    an API for machine learning tasks (classification, regression, survival analysis,
-    reserving, forecasting etc.). Examples in R, Python are provided in the blog post.
-
-    Continue reading: '
-  url: https://www.r-bloggers.com/2026/05/techtonique-dot-net-the-machine-learning-web-api-is-back-online-but-more-like-a-passion-project-for-now/
-  date: '2026-05-31'
-  source: R-bloggers.com
-- title: 'From Prediction to Materials Design: Machine Learning in Electrocatalytic
-    Water Splitting'
-  description: 'Chem. Commun., 2026, Accepted ManuscriptDOI: 10.1039/D6CC01937D, Review
-    ArticleChandrasekaran Pitchai, Ting-Yu Lo, Yu-Ting Hsu, I Chen, Hung-Chung Li,
-    Chih-Ming ChenMachine learning (ML) is emerging as a powerful strategy to accelerate
-    electrocatalys'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/cc/d6cc01937d
-  date: '2026-05-31'
-  source: Royal Society of Chemistry
