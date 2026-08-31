@@ -1,4 +1,11 @@
 news_items:
+- title: Feasibility of radiomics and deep learning methods for prognosis of non–small
+    cell lung cancer using 18F-FDG PET/CT
+  description: Scientific Reports - Feasibility of radiomics and deep learning methods
+    for prognosis of non–small cell lung cancer using 18F-FDG PET/CT
+  url: https://www.nature.com/articles/s41598-026-69083-4.pdf
+  date: '2026-08-30'
+  source: Nature.com
 - title: Microstructure-aware deep learning bridges atomistics to macroscale for shock-to-detonation
     prediction
   description: Scientific Reports - Microstructure-aware deep learning bridges atomistics
@@ -999,35 +1006,3 @@ news_items:
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014369
   date: '2026-06-02'
   source: Plos.org
-- title: Residual-guided hybrid framework for adversarially robust deep learning-based
-    network intrusion detection
-  description: 'The growing sophistication of cyber threats and adversarial attacks
-    poses critical challenges to the security and robustness of machine learning models
-    deployed in real-world systems. While traditional deep learning architectures
-    excel in clean data '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350737
-  date: '2026-06-01'
-  source: Plos.org
-- title: Supervised deep learning with gene functional annotation for cell classification
-  description: 'Author summary SDAN is a computational method that summarizes scRNA-seq
-    differential expression results at the level of gene sets. These gene sets are
-    learned to achieve two complementary goals: accurate cell classification and representation
-    of cohe'
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014327
-  date: '2026-06-01'
-  source: Plos.org
-- title: Hybrid deep learning and ES-MDA for pressure transient inversion in radial
-    composite reservoirs
-  description: Scientific Reports - Hybrid deep learning and ES-MDA for pressure transient
-    inversion in radial composite reservoirs
-  url: https://www.nature.com/articles/s41598-026-55349-4
-  date: '2026-06-01'
-  source: Nature.com
-- title: AWS PCS now provides a production-ready Deep Learning AMI
-  description: Today, AWS Parallel Computing Service (AWS PCS) launches PCS-ready
-    DLAMI, an AWS-maintained Amazon Machine Image built on the Deep Learning Base
-    GPU AMI (Ubuntu 24.04). It provides a production-quality foundation for AI/ML
-    training and high performan
-  url: https://aws.amazon.com/about-aws/whats-new/2026/06/aws-pcs-deep-learning-ami/
-  date: '2026-06-01'
-  source: Amazon.com
