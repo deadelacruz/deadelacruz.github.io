@@ -46,6 +46,15 @@ news_items:
   url: https://deeplearningwithpython.io/
   date: '2026-08-27'
   source: Deeplearningwithpython.io
+- title: High-accuracy SNV calling for bacterial isolates using deep learning with
+    AccuSNV
+  description: Accurate detection of mutations within bacterial species is critical
+    for fundamental studies of microbial evolution, reconstruction of transmission
+    events, and identification of antimicrobial resistance mutations. Although many
+    tools have been develo
+  url: https://genome.cshlp.org/content/36/9/1889
+  date: '2026-08-27'
+  source: Cshlp.org
 - title: Real-time PEM fuel cell fault classification in smart manufacturing plant
     by using uncertainty aware federated deep learning
   description: Scientific Reports - Real-time PEM fuel cell fault classification in
