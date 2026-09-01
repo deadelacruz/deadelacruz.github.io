@@ -997,12 +997,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350561
   date: '2026-06-03'
   source: Plos.org
-- title: 'PepAnno: A structure-aware deep learning framework for bioactive peptide
-    prediction, structural visualization, and physicochemical profiling'
-  description: Author summary PepAnno is an integrated web server developed to advance
-    the study of bioactive peptides—small yet versatile molecules with significant
-    therapeutic and diagnostic potential. Although several computational tools have
-    been developed to i
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014369
-  date: '2026-06-02'
-  source: Plos.org

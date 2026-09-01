@@ -1,4 +1,28 @@
 news_items:
+- title: From Programming to Machine Learning- The Impact of AI on digital Technology
+  description: 'For most of computing history, programmers told machines exactly what
+    to do. Machine learning introduced something different: systems that improve by
+    learning patterns from data. What changed, and how does this create modern artificial
+    intelligence?A'
+  url: https://slashdot.org/submission/17350358/from-programming-to-machine-learning--the-impact-of-ai-on-digital-technology
+  date: '2026-08-31'
+  source: Slashdot.org
+- title: A data-driven approach to hepatitis C forecasting using machine learning
+    and epidemiological models
+  description: 'The hepatitis C virus is a significant global health concern and a
+    major cause of chronic liver disease. Therefore, developing a mathematical model
+    is essential for understanding, controlling and managing its transmission dynamics.
+    In this paper, we '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357173
+  date: '2026-08-31'
+  source: Plos.org
+- title: Holistic and proactive machine learning approaches to predict cyberattacks
+    in blockchain networks
+  description: Scientific Reports - Holistic and proactive machine learning approaches
+    to predict cyberattacks in blockchain networks
+  url: https://www.nature.com/articles/s41598-026-66732-6.pdf
+  date: '2026-08-31'
+  source: Nature.com
 - title: Intelligent prediction of blast-induced peak particle velocity (PPV) using
     an ensemble based multilayer machine learning approach for safe mining operations
   description: Scientific Reports - Intelligent prediction of blast-induced peak particle
@@ -2943,106 +2967,4 @@ news_items:
     a Full-Stack A
   url: https://nlppeople.com/job/ai-machine-learning-engineer-full-stack/
   date: '2026-06-03'
-  source: Nlppeople.com
-- title: Integrating network toxicology, machine learning, and single-cell sequencing
-    to reveal the FASN-mediated role of phenolic endocrine disruptors in water in
-    promoting prostate cancer
-  description: Background Phenolic endocrine-disrupting chemicals (EDCs) like nonylphenol
-    (NP) and octylphenol (OP) are widespread water pollutants. Their estrogen-like
-    properties are suspected contributors to prostate cancer, but their precise molecular
-    mechanisms
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350638
-  date: '2026-06-02'
-  source: Plos.org
-- title: Machine Learning Engineering on AWS, 2nd Edition
-  description: 'eBook Details: Paperback: 588 pages Published: May 29, 2026 Language: English
-    ISBN-10: 1835881092 ISBN-13: 978-1835881088 eBook Description: Machine Learning
-    Engineering on AWS, 2nd Edition: Build, deploy, and operationalize LLMs, AI agents,
-    and gene'
-  url: https://www.wowebook.org/machine-learning-engineering-on-aws-2nd-edition/
-  date: '2026-06-02'
-  source: Wowebook.org
-- title: Senior Machine Learning Engineer (Team Lead) – Various Australian Cities
-  description: 'Job no: 529754 Brand: Product and Technology Work type: Full time
-    Location: New South Wales, Queensland, Victoria Categories: Digital and Technology,
-    Data and Business Intelligence At Flight Centre Travel Group (FCTG) our purpose
-    is to ‘open up the w'
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-team-lead-various-australian-cities-3/
-  date: '2026-06-02'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer
-  description: About the job. As part of the development of our Digital Services function,
-    we are recruiting to strengthen our internal digital capability. These roles are
-    central to building sustainable in-house expertise that supports the design, development,
-    and
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-21/
-  date: '2026-06-02'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist
-  description: Senior Data Scientist  UK or Poland (Remote or Hybrid, it’s up to you!)  Dependent
-    on experience  Be part of our success with the opportunity to join our company
-    equity scheme Our Perks ❤️ Monthly Health & Wellness budget, increasing with length
-    of s
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-29/
-  date: '2026-06-02'
-  source: Nlppeople.com
-- title: Improving LIBS machine learning bacteria classification performance based
-    on self-absorption correction
-  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA00122J,
-    PaperFei Chen, Jiahui Liang, Zhihui Tian, Yang Zhao, Lei Zhang, Wangbao Yin, Jiaxuan
-    Li, Liantuan Xiao, Suotang JiaA doublet intensity-ratio correction strategy reduces
-    self-absorp'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja00122j
-  date: '2026-06-02'
-  source: Royal Society of Chemistry
-- title: 'Facile electrochemical fabrication of GO@ZnO@MnO2 nanocomposite for catalytic
-    ozonation of ciprofloxacin: experimental optimization and machine learning modeling'
-  description: 'RSC Adv., 2026, 16,30310-30331DOI: 10.1039/D6RA01551D, Paper Open
-    Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Huu-Tap Van, Le Phuong Hoang, Van Hung Hoang, Thi Hong Vien
-    Nguyen, Thi Do'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ra/d6ra01551d
-  date: '2026-06-02'
-  source: Royal Society of Chemistry
-- title: 'Football meets machine learning: Forecasting the 2026 FIFA World Cup'
-  description: "Probabilistic forecasts for the 2026 FIFA World Cup are obtained by\
-    \ using a hybrid model that combines data, expert insights, and advanced statistical\
-    \ models. The favorite is Spain, closely followed by England, France, and Germany.\r\
-    \n\n...\r\n\n\n\nContinue"
-  url: https://www.r-bloggers.com/2026/06/football-meets-machine-learning-forecasting-the-2026-fifa-world-cup/
-  date: '2026-06-02'
-  source: R-bloggers.com
-- title: Synergistic DFT and Machine Learning Screening of Z-Scheme g-SiC/TMD Heterostructures
-    for Efficient Overall Water Splitting
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02854C,
-    PaperWenxue Zhang, Yu Jiang, Jiuran Wen, Yajie Guo, Cheng HeTo mitigate the heavy
-    reliance on non-renewable resources such as fossil fuels, photocatalytic water
-    splitting has been r'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02854c
-  date: '2026-06-02'
-  source: Royal Society of Chemistry
-- title: 'Reductive Hydroformylation of Linseed Oil: from Rhodium Catalyst Stability
-    to Machine Learning Data Analysis'
-  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC02270G, PaperWalid
-    Abdallah, Camille Galand, Michel Ferreira, Jérémy Ternel, Hervé Bricout, Sylvain
-    Laclef, Serge Pilard, Adlane Sayede, Rachid Laref, Romdhane Karoui, Eliot Botosoa,
-    Eric Monflie'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc02270g
-  date: '2026-06-02'
-  source: Royal Society of Chemistry
-- title: Machine Learning Ops Engineer
-  description: A Senior Machine Learning Ops Engineer at Sheetz ensures that AI models
-    move seamlessly from “working on a laptop” to running reliably across our stores,
-    applications, and systems at scale. This role powers capabilities like smarter
-    inventory managem
-  url: https://nlppeople.com/job/machine-learning-ops-engineer-3/
-  date: '2026-06-02'
-  source: Nlppeople.com
-- title: Machine Learning Engineer, Express AI Foundations
-  description: The Opportunity Adobe Express helps people and teams create standout
-    content with ease. The AI Foundations team builds the core AI platform that powers
-    creativity across design, imaging, motion, and personalization. We’re looking
-    for an engineer to h
-  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-7/
-  date: '2026-06-02'
   source: Nlppeople.com
