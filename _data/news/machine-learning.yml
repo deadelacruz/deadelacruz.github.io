@@ -1,4 +1,59 @@
 news_items:
+- title: Dyson introduces cameras and machine learning to dental care with new smart
+    toothbrush
+  description: Dyson CameraJet targets plaque and flosses for users while they brush
+  url: https://www.irishtimes.com/technology/consumer-tech/2026/09/01/wifi-cameras-and-machine-learning-dyson-takes-aim-at-dental-care-with-smart-toothbrush/
+  date: '2026-09-01'
+  source: The Irish Times
+- title: Integrating survival analysis and machine learning for modeling overtaking
+    duration on rural two-lane highways
+  description: Overtaking duration is closely associated with overtaking safety because
+    longer maneuvers increase exposure in the opposing traffic lane. However, evidence
+    on overtaking duration on rural mountainous two-lane highways remains limited,
+    particularly un
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357092
+  date: '2026-09-01'
+  source: Plos.org
+- title: A machine learning method for calculating highly localized protein stabilities
+  description: PFNet is a machine learning model that infers residue-level protein
+    stabilities from conventional hydrogen exchange-mass spectrometry data, transforming
+    a widely used structural biology technique into a scalable tool for quantitative
+    protein ensemble
+  url: https://www.nature.com/articles/s41467-026-75590-9.pdf
+  date: '2026-09-01'
+  source: Nature.com
+- title: Applied AI ML – Senior Associate – Machine Learning Engineer
+  description: Join a high performing team of applied AI experts to drive innovation
+    and new capabilities in the Commercial & Investment Bank. As an Applied AI / ML
+    Senior Associate Machine Learning Engineer in the Applied AI ML team at JPMorgan
+    Commercial & Invest
+  url: https://nlppeople.com/job/applied-ai-ml-senior-associate-machine-learning-engineer-4/
+  date: '2026-09-01'
+  source: Nlppeople.com
+- title: Data Scientist – Machine Learning
+  description: 'The team you’ll be working with: You will join NTT DATA UK’s Data
+    Practice, a multi-disciplinary team delivering enterprise-scale data platforms,
+    analytics and data-led transformation for clients. As part of the growing Data
+    Science capability within'
+  url: https://nlppeople.com/job/data-scientist-machine-learning-15/
+  date: '2026-09-01'
+  source: Nlppeople.com
+- title: Graduate Machine Learning Researcher
+  description: At Longshot Systems we’re building advanced platforms for sports betting
+    analytics and trading. We’re hiring Graduate Machine Learning Researchers for
+    our quantitative modelling team. The primary goal of this team is to improve the
+    predictive power o
+  url: https://nlppeople.com/job/graduate-machine-learning-researcher/
+  date: '2026-09-01'
+  source: Nlppeople.com
+- title: AI and Machine Learning Engineer (2 Year Fixed Term Contract)
+  description: Job DescriptionMitsubishi Power EMEA is seeking a motivated and ambitious
+    AI and Machine Learning Engineer to join our Engineering team. This is an exciting
+    opportunity for a recent Master’s graduate or someone completing their studies
+    to apply artif
+  url: https://nlppeople.com/job/ai-and-machine-learning-engineer-2-year-fixed-term-contract-2/
+  date: '2026-09-01'
+  source: Nlppeople.com
 - title: From Programming to Machine Learning- The Impact of AI on digital Technology
   description: 'For most of computing history, programmers told machines exactly what
     to do. Machine learning introduced something different: systems that improve by
@@ -2928,43 +2983,4 @@ news_items:
     you possess an innat
   url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-3/
   date: '2026-06-04'
-  source: Nlppeople.com
-- title: Handling Imbalanced Datasets in Machine Learning Projects
-  description: Learn how to handle imbalanced datasets in machine learning using SMOTE,
-    oversampling, undersampling, class weighting, and evaluation metrics with examples.
-  url: https://www.c-sharpcorner.com/article/handling-imbalanced-datasets-in-machine-learning-projects/
-  date: '2026-06-03'
-  source: C-sharpcorner.com
-- title: 'Feature Engineering in Machine Learning: Techniques and Examples'
-  description: Learn Feature Engineering in Machine Learning with practical examples.
-    Explore feature creation, transformation, selection, encoding, scaling, and best
-    practices.
-  url: https://www.c-sharpcorner.com/article/feature-engineering-in-machine-learning-techniques-and-examples/
-  date: '2026-06-03'
-  source: C-sharpcorner.com
-- title: Assistant Professor, Computer Science – Artificial Intelligence/Machine Learning
-    (Tenure-Track)
-  description: Teaches undergraduate and graduate courses with a focus in machine
-    learning and its applications in artificial intelligence, NLM, GenAI, computer
-    graphics, networking, cybersecurity, IoT, robotics, HCI, databases, software engineering,
-    etc. in The Sc
-  url: https://nlppeople.com/job/assistant-professor-computer-science-artificial-intelligence-machine-learning-tenure-track-4/
-  date: '2026-06-03'
-  source: Nlppeople.com
-- title: 'Scandium-stabilized zirconia electrolyte for intermediate-temperature solid
-    oxide fuel cells: phase stability regulation, bilayer/composite structure design
-    and machine learning-guided optimization strategies'
-  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA02562E, Review
-    ArticlePeng-Hui Li, Si-Qi Zhang, Jia Zhang, Ke-Hui Shen, Ya-Zhe XingScandium-stabilized
-    zirconia offers significantly higher ionic conductivity than conventional yttria-stabilize'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02562e
-  date: '2026-06-03'
-  source: Royal Society of Chemistry
-- title: AI / Machine Learning Engineer (Full-Stack)
-  description: AI / Machine Learning Engineer (Full-Stack)  Boynton Beach, FL OR Fort
-    Myers, FL  Onsite to start → Eligible for Remote after ~6 months We’re partnering
-    with a growing organization in the construction & building materials space seeking
-    a Full-Stack A
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-full-stack/
-  date: '2026-06-03'
   source: Nlppeople.com

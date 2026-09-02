@@ -1,4 +1,20 @@
 news_items:
+- title: Modular multi-task deep learning framework for prediction of treatment initiation
+    in neovascular age-related macular degeneration modular AI for NVAMD treatment
+    initiation study-MANTIS
+  description: 'Purpose The purpose of this study is to develop a fully automated
+    system for determining the optimal time to begin anti-vascular endothelial growth
+    factor (anti-VEGF) treatment, based on retinal changes observed in optical coherence
+    tomography (OCT) '
+  url: http://bjo.bmj.com/content/early/2026/08/31/bjo-2025-328327
+  date: '2026-09-01'
+  source: The BMJ
+- title: 'Correction: A deep learning framework for remaining useful life prediction
+    of turbofan engines with partial sensor failure'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357561
+  date: '2026-09-01'
+  source: Plos.org
 - title: Feasibility of radiomics and deep learning methods for prognosis of non–small
     cell lung cancer using 18F-FDG PET/CT
   description: Scientific Reports - Feasibility of radiomics and deep learning methods
@@ -997,12 +1013,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-56045-z
   date: '2026-06-04'
   source: Nature.com
-- title: Research on anomaly detection and operational status evaluation methods for
-    smart electricity meters based on hybrid deep learning
-  description: To address the limitations of single-image feature information and
-    the insufficient recognition capability of traditional power quality disturbance
-    (PQD) identification systems, this paper proposes a PQD recognition method based
-    on feature-image comb
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350561
-  date: '2026-06-03'
-  source: Plos.org
