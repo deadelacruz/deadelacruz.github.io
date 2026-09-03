@@ -1,4 +1,28 @@
 news_items:
+- title: 'Speeding up taxonomy in the digital age: A deep learning approach for identifying
+    cryptic freshwater snails'
+  description: Author summary Taxonomy, the identification and classification of species,
+    is a time‑consuming task that relies heavily on scarce expert knowledge. In this
+    study, we use Siamese neural networks to support the classification of freshwater
+    snails of th
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014733
+  date: '2026-09-02'
+  source: Plos.org
+- title: Explainable deep learning improves human mental models of self-driving cars
+  description: Concept-Wrapper Network, a concept-based explanation&nbsp;approach
+    deployed on a real autonomous&nbsp;vehicle, improves drivers’ ability to understand
+    and predict its behaviour.
+  url: https://www.nature.com/articles/s41586-026-10950-5
+  date: '2026-09-02'
+  source: Nature.com
+- title: End-to-end deep learning methods for genetic risk prediction of schizophrenia
+  description: Existing prediction models for schizophrenia often fail to capture
+    nonlinear genetic effects, like epistasis. Here, the authors show that explainable
+    neural networks improve genetic prediction of schizophrenia by capturing genetic
+    interactions.
+  url: https://www.nature.com/articles/s41467-026-76663-5.pdf
+  date: '2026-09-02'
+  source: Nature.com
 - title: Modular multi-task deep learning framework for prediction of treatment initiation
     in neovascular age-related macular degeneration modular AI for NVAMD treatment
     initiation study-MANTIS
@@ -990,26 +1014,3 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/06/05/3307245/28124/en/AI-Powered-Imaging-Systems-and-Deep-Learning-Software-Revolutionize-Cancer-Diagnostics-Market-Globally.html
   date: '2026-06-05'
   source: GlobeNewswire
-- title: Deep learning-based arterial waveform analysis for predicting postoperative
-    cerebrovascular events in pediatric patients with Moyamoya disease
-  description: Background Postoperative cerebrovascular events, including transient
-    ischemic attacks, infarctions, and hemorrhages, remain a significant concern in
-    pediatric patients with Moyamoya disease (MMD)undergoing surgical revascularization.
-    This study aimed
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350637
-  date: '2026-06-04'
-  source: Plos.org
-- title: Deep learning enables automated detection of dinosaur footprints with high
-    accuracy
-  description: Scientific Reports - Deep learning enables automated detection of dinosaur
-    footprints with high accuracy
-  url: https://www.nature.com/articles/s41598-026-56031-5
-  date: '2026-06-04'
-  source: Nature.com
-- title: A comparative analysis of deep learning models for disease classification
-    in multi-organ histopathological images
-  description: Scientific Reports - A comparative analysis of deep learning models
-    for disease classification in multi-organ histopathological images
-  url: https://www.nature.com/articles/s41598-026-56045-z
-  date: '2026-06-04'
-  source: Nature.com

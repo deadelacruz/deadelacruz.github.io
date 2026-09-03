@@ -1,4 +1,36 @@
 news_items:
+- title: OpenMatter adds an AI model gateway and privacy-preserving machine learning
+  description: OpenMatter Network Inc. today announced the first significant expansion
+    of its platform since its commercial launch three months ago, adding a developer
+    kit, a gateway for managing access to artificial intelligence models from multiple
+    providers, a r
+  url: https://siliconangle.com/2026/09/02/openmatter-adds-an-ai-model-gateway-and-privacy-preserving-machine-learning/
+  date: '2026-09-02'
+  source: SiliconANGLE News
+- title: Machine learning interprets genome sequences to map possible microbial symbionts
+  description: A machine-learning framework called symclatron uses genome sequencing
+    content to predict whether uncultivated bacteria and archaea live independently
+    or in close association with hosts. Applied to a global genome collection, it
+    suggests that host-dep
+  url: https://www.nature.com/articles/s41587-026-03212-2
+  date: '2026-09-02'
+  source: Nature.com
+- title: Principal Machine Learning Scientist
+  description: At Bayer we’re visionaries, driven to solve the world’s toughest challenges
+    and striving for a world where ‘Health for all Hunger for none’ is no longer a
+    dream, but a real possibility. We’re doing it with energy, curiosity and sheer
+    dedication, alwa
+  url: https://nlppeople.com/job/principal-machine-learning-scientist-11/
+  date: '2026-09-02'
+  source: Nlppeople.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-19/
+  date: '2026-09-02'
+  source: Nlppeople.com
 - title: Dyson introduces cameras and machine learning to dental care with new smart
     toothbrush
   description: Dyson CameraJet targets plaque and flosses for users while they brush
@@ -2918,69 +2950,3 @@ news_items:
   url: https://www.nature.com/articles/s41467-026-73863-x
   date: '2026-06-05'
   source: Nature.com
-- title: 'Structure free: compositionally-informed machine learning for solid-state
-    electrolytes design'
-  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR01499B, PaperQian
-    Zhao, Zhihua Li, Yurong Ren, Lin Shi, Shoukun XuNext-generation energy storage
-    demands high-performance solid-state electrolytes (SSEs), where machine learning
-    (ML) promises to be'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr01499b
-  date: '2026-06-04'
-  source: Royal Society of Chemistry
-- title: Verified Machine Learning Infrastructure
-  description: The authors determine whether formal methods—using mathematical techniques
-    to reason about software behavior and, potentially, show that systems behave as
-    specified—could meaningfully secure the infrastructure on which artificial intelligence
-    runs.
-  url: https://www.rand.org/pubs/research_reports/RRA4881-1.html
-  date: '2026-06-04'
-  source: Rand.org
-- title: Senior Machine Learning / AI Engineer
-  description: 'Job Title: Machine Learning Engineer (Manufacturing) Key Responsibilities
-    Design, build, and deploy machine learning models for manufacturing use cases
-    Develop and maintain end-to-end ML pipelines, including data ingestion, feature
-    engineering, model'
-  url: https://nlppeople.com/job/senior-machine-learning-ai-engineer-3/
-  date: '2026-06-04'
-  source: Nlppeople.com
-- title: Manager, Machine Learning Engineering
-  description: Company Overview Docusign brings agreements to life. Over 1.5 million
-    customers and more than a billion people in over 180 countries use Docusign solutions
-    to accelerate the process of doing business and simplify people’s lives. With
-    intelligent agre
-  url: https://nlppeople.com/job/manager-machine-learning-engineering-9/
-  date: '2026-06-04'
-  source: Nlppeople.com
-- title: A Systematic Theoretical Study on the Structure-Property Relationships of
-    Fluorinated Linear Carbonates Based on Molecular Simulation and Machine Learning
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA02519F,
-    PaperHaoxuan He, Wei Lin, Yuxuan Chen, Yaqian Deng, Zhengyuan Xiong, Dian Zhou,
-    Peinan Lin, Yiren Tao, Rui Xia, Enheng Zhang, Jiaxin Chen, Yenan Xu, Xinyu Liu,
-    Yuqing Liao, Yu Ying,'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta02519f
-  date: '2026-06-04'
-  source: Royal Society of Chemistry
-- title: Lead Machine Learning Operations Engineer
-  description: '#WeAreParamount on a mission to unleash the power of content… you
-    in? We’ve got the brands, we’ve got the stars, we’ve got the power to achieve
-    our mission to entertain the planet – now all we’re missing is… YOU! Becoming
-    a part of Paramount means jo'
-  url: https://nlppeople.com/job/lead-machine-learning-operations-engineer/
-  date: '2026-06-04'
-  source: Nlppeople.com
-- title: Machine Learning Engineer, Express AI Foundations
-  description: The Opportunity Adobe Express helps people and teams create standout
-    content with ease. The AI Foundations team builds the core AI platform that powers
-    creativity across design, imaging, motion, and personalization. We’re looking
-    for an engineer to h
-  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-9/
-  date: '2026-06-04'
-  source: Nlppeople.com
-- title: Sr. Manager, Technical Delivery – AI & Machine Learning
-  description: At Snowflake, we are powering the era of the agentic enterprise. To
-    usher in this new era, we seek AI-native thinkers across every function who are
-    energized by the opportunity to reinvent how they work. You don’t just use tools;
-    you possess an innat
-  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-3/
-  date: '2026-06-04'
-  source: Nlppeople.com
