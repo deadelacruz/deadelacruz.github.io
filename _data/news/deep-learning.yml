@@ -1,4 +1,57 @@
 news_items:
+- title: Colorectal Lesion diagnosis using transformer and deep learning with multiscale
+    feature interface
+  description: Colorectal cancer is the third most common malignancy worldwide. Manual
+    screening requires expertise and resources. However, advancements in AI (artificial
+    intelligence) have reduced the computation burden and time. Machine and deep learning
+    have rec
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357664
+  date: '2026-09-03'
+  source: Plos.org
+- title: 'Editorial Note: Machine and deep learning algorithms for sentiment analysis
+    during COVID-19: A vision to create fake news resistant society'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357518
+  date: '2026-09-03'
+  source: Plos.org
+- title: MediaGo Secures Global Tech Award for Third Consecutive Year, Driving Open
+    Internet Advertising Growth Through Deep Learning
+  description: SAN FRANCISCO, Sept. 3, 2026 /PRNewswire/ -- MediaGo, the intelligent
+    advertising platform, has won the Excellence Award in the AdTech category at the
+    2026 Global Tech Awards. Marking the third consecutive year receiving this honor,
+    the recognition u
+  url: https://www.prnewswire.com/news-releases/mediago-secures-global-tech-award-for-third-consecutive-year-driving-open-internet-advertising-growth-through-deep-learning-302867741.html
+  date: '2026-09-03'
+  source: PRNewswire
+- title: A novel prediction method for slope deformation based on adaptive mode decomposition
+    and interpretable deep learning
+  description: Scientific Reports - A novel prediction method for slope deformation
+    based on adaptive mode decomposition and interpretable deep learning
+  url: https://www.nature.com/articles/s41598-026-56000-y.pdf
+  date: '2026-09-03'
+  source: Nature.com
+- title: A trustworthy anatomically-guided region-aware deep learning framework for
+    automated Alzheimer’s disease classification from brain MRI
+  description: Scientific Reports - A trustworthy anatomically-guided region-aware
+    deep learning framework for automated Alzheimer’s disease classification from
+    brain MRI
+  url: https://www.nature.com/articles/s41598-026-67209-2.pdf
+  date: '2026-09-03'
+  source: Nature.com
+- title: Quantum computing-enhanced deep learning for real-time detection and mitigation
+    of cyberattack patterns
+  description: Scientific Reports - Quantum computing-enhanced deep learning for real-time
+    detection and mitigation of cyberattack patterns
+  url: https://www.nature.com/articles/s41598-026-69319-3.pdf
+  date: '2026-09-03'
+  source: Nature.com
+- title: CLAUNet-LFB0-CBAM a deep learning framework for explainable liver fibrosis
+    stage classification from ultrasound images
+  description: Scientific Reports - CLAUNet-LFB0-CBAM a deep learning framework for
+    explainable liver fibrosis stage classification from ultrasound images
+  url: https://www.nature.com/articles/s41598-026-68716-y.pdf
+  date: '2026-09-03'
+  source: Nature.com
 - title: 'Speeding up taxonomy in the digital age: A deep learning approach for identifying
     cryptic freshwater snails'
   description: Author summary Taxonomy, the identification and classification of species,
@@ -986,31 +1039,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-55859-1
   date: '2026-06-07'
   source: Nature.com
-- title: 'Focusing on legal cases: Automatic classification of legal documents with
-    sentence embeddings and deep learning models'
-  description: The justice system is indispensable to any society as it enforces the
-    rule of law, safeguards fundamental rights, and ensures the equitable resolution
-    of disputes through structured legal frameworks. Artificial Intelligence (AI)
-    has significantly adv
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350673
-  date: '2026-06-05'
-  source: Plos.org
-- title: Development of a deep learning based framework for classification of Indian
-    venomous snakes integrated with explainable artificial intelligence for primary
-    and emergency care providers
-  description: Author summary Snakebite is a major public health concern that disproportionally
-    affects the rural population. Delays in identifying whether a snake is venomous
-    often lead to delayed treatment, unnecessary use of antivenom, or inappropriate
-    referrals
-  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014147
-  date: '2026-06-05'
-  source: Plos.org
-- title: AI-Powered Imaging Systems and Deep Learning Software Revolutionize Cancer
-    Diagnostics Market Globally
-  description: 'The AI in cancer diagnostics market presents significant opportunities
-    driven by advancements in AI and machine learning algorithms, growing AI-powered
-    imaging systems, increased integration of predictive analytics, and rising cancer
-    prevalence. Key '
-  url: https://www.globenewswire.com/news-release/2026/06/05/3307245/28124/en/AI-Powered-Imaging-Systems-and-Deep-Learning-Software-Revolutionize-Cancer-Diagnostics-Market-Globally.html
-  date: '2026-06-05'
-  source: GlobeNewswire

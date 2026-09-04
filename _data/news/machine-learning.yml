@@ -1,4 +1,42 @@
 news_items:
+- title: Explainable machine learning predicts adolescent cognitive development from
+    sport engagement in a national longitudinal survey
+  description: Scientific Reports - Explainable machine learning predicts adolescent
+    cognitive development from sport engagement in a national longitudinal survey
+  url: https://www.nature.com/articles/s41598-026-68250-x.pdf
+  date: '2026-09-03'
+  source: Nature.com
+- title: Machine Learning Engineer
+  description: Who we are At Twilio, we’re shaping the future of communications, all
+    from the comfort of our homes. We deliver innovative solutions to hundreds of
+    thousands of businesses and empower millions of developers worldwide to craft
+    personalized customer ex
+  url: https://nlppeople.com/job/machine-learning-engineer-601/
+  date: '2026-09-03'
+  source: Nlppeople.com
+- title: An explainable ensemble machine learning approach for coefficient of compressibility
+    prediction of Chengdu clay
+  description: Scientific Reports - An explainable ensemble machine learning approach
+    for coefficient of compressibility prediction of Chengdu clay
+  url: https://www.nature.com/articles/s41598-026-69689-8.pdf
+  date: '2026-09-03'
+  source: Nature.com
+- title: 'Author Correction: Machine learning model-guided selective use of temporary
+    diverting ileostomy in rectal cancer surgery: a randomized controlled trial'
+  description: 'Nature Communications - Author Correction: Machine learning model-guided
+    selective use of temporary diverting ileostomy in rectal cancer surgery: a randomized
+    controlled trial'
+  url: https://www.nature.com/articles/s41467-026-77496-y
+  date: '2026-09-03'
+  source: Nature.com
+- title: Senior Machine Learning Scientist
+  description: Fin is the AI Customer Agent company on a mission to help businesses
+    provide perfect customer experiences. Our AI Agent Fin is the highest-performing
+    AI Customer Agent on the market today, enabling businesses to deliver impeccable,
+    always-on customer
+  url: https://nlppeople.com/job/senior-machine-learning-scientist-33/
+  date: '2026-09-03'
+  source: Nlppeople.com
 - title: OpenMatter adds an AI model gateway and privacy-preserving machine learning
   description: OpenMatter Network Inc. today announced the first significant expansion
     of its platform since its commercial launch three months ago, adding a developer
@@ -2894,59 +2932,3 @@ news_items:
   url: https://www.ycombinator.com/companies/mbodi-ai/jobs/WYAcNkX-founding-machine-learning-engineer
   date: '2026-06-06'
   source: Hacker News
-- title: Machine Learning Model Accurately Predicts Long-Term Risk of Type 2 Diabetes
-  description: 'Study of Over Three Million Patients for Risk of Type 2 Diabetes Demonstrates
-    Potential for More Advanced Approach to Early Identification NEW ORLEANS, June
-    5, 2026 /PRNewswire/ -- A novel electronic health record-based prediction model
-    successfully '
-  url: https://www.prnewswire.com/news-releases/machine-learning-model-accurately-predicts-long-term-risk-of-type-2-diabetes-302791990.html
-  date: '2026-06-05'
-  source: PRNewswire
-- title: 'Topological data analysis for predicting disease outbreaks in humanitarian
-    settings: A machine learning approach'
-  description: Background Humanitarian settings are highly vulnerable to infectious
-    disease outbreaks because displacement, crowding, disruption of health services,
-    insecurity, and inadequate water and sanitation often interact in ways that are
-    difficult to capture
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0350644
-  date: '2026-06-05'
-  source: Plos.org
-- title: How Lumo uses machine learning to streamline E&L screening
-  description: Lumo leverages advanced machine learning to reduce calibration time,
-    and flag low-confidence response factor predictions.
-  url: https://www.news-medical.net/news/20260605/Revolutionizing-calibration-How-Lumo-uses-machine-learning-to-streamline-EL-screening-and-toxicological-risk-assessment.aspx
-  date: '2026-06-05'
-  source: News-Medical.Net
-- title: Leveraging Machine Learning For Supplement Ad Targeting | The Marketing Tutor
-  description: Exploring Essential Machine Learning Principles in Advertising Comprehensive
-    Overview of Machine Learning Algorithms Machine learning algorithms form the core
-    of contemporary advertising strategies, particularly in the realm of supplement
-    products. B
-  url: https://marketing-tutor.com/blog/leveraging-machine-learning-for-supplement-ad-targeting/
-  date: '2026-06-05'
-  source: Marketing-tutor.com
-- title: Engineering Manager – Machine Learning and Applied Artificial Intelligence
-  description: The Aerospace Corporation is the trusted partner to the nation’s space
-    programs, solving the hardest problems and providing unmatched technical expertise.
-    As the operator of a federally funded research and development center (FFRDC),
-    we are broadly e
-  url: https://nlppeople.com/job/engineering-manager-machine-learning-and-applied-artificial-intelligence-8/
-  date: '2026-06-05'
-  source: Nlppeople.com
-- title: Sr. Manager, Technical Delivery – AI & Machine Learning
-  description: At Snowflake, we are powering the era of the agentic enterprise. To
-    usher in this new era, we seek AI-native thinkers across every function who are
-    energized by the opportunity to reinvent how they work. You don’t just use tools;
-    you possess an innat
-  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-2/
-  date: '2026-06-05'
-  source: Nlppeople.com
-- title: Targeting the intrinsically disordered AR-NTD through a machine learning-based
-    enhanced sampling workflow
-  description: In this work, the authors develop a machine learning–based enhanced
-    sampling workflow to target the intrinsically disordered AR-NTD, identifying druggable
-    conformations and enabling transferable modeling of ligand binding for rational
-    drug discovery.
-  url: https://www.nature.com/articles/s41467-026-73863-x
-  date: '2026-06-05'
-  source: Nature.com
