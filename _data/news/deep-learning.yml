@@ -1,4 +1,11 @@
 news_items:
+- title: Deep learning-based multi-class misbehavior classification in fog-enabled
+    vehicular ad hoc networks
+  description: Scientific Reports - Deep learning-based multi-class misbehavior classification
+    in fog-enabled vehicular ad hoc networks
+  url: https://www.nature.com/articles/s41598-026-66695-8
+  date: '2026-09-05'
+  source: Nature.com
 - title: Colorectal Lesion diagnosis using transformer and deep learning with multiscale
     feature interface
   description: Colorectal cancer is the third most common malignancy worldwide. Manual
@@ -1031,11 +1038,4 @@ news_items:
     with improved temporal resolution, coverage and uncertainty estimates.
   url: https://www.nature.com/articles/s41586-026-10611-7
   date: '2026-06-10'
-  source: Nature.com
-- title: A fractal-enhanced deep learning framework for forecasting agricultural production
-    in India
-  description: Scientific Reports - A fractal-enhanced deep learning framework for
-    forecasting agricultural production in India
-  url: https://www.nature.com/articles/s41598-026-55859-1
-  date: '2026-06-07'
   source: Nature.com
