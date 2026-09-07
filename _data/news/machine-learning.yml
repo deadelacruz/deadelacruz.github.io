@@ -1,4 +1,24 @@
 news_items:
+- title: Machine learning to trade
+  description: Explore how AI agents perform in trading compared to human behavior
+    and the implications for market efficiency and collusion.
+  url: https://www.thehindubusinessline.com/business-tech/machine-learning-to-trade/article71436464.ece
+  date: '2026-09-06'
+  source: BusinessLine
+- title: Machine learning reveals urban PM2.5 pollution and health links in Northern
+  description: In the smoke-shrouded provinces of northern Thailand, the annual burning
+    season has long been a public health emergency in slow motion. Now, a new study
+    from researchers at Chiang Mai University and
+  url: https://scienmag.com/machine-learning-reveals-urban-pm2-5-pollution-and-health-links-in-northern-thailand/
+  date: '2026-09-06'
+  source: Scienmag.com
+- title: Machine learning identifies plasma-derived exosomal miRNAs associated with
+    low muscle mass in Tibetan patients with rheumatoid arthritis
+  description: Scientific Reports - Machine learning identifies plasma-derived exosomal
+    miRNAs associated with low muscle mass in Tibetan patients with rheumatoid arthritis
+  url: https://www.nature.com/articles/s41598-026-68952-2.pdf
+  date: '2026-09-06'
+  source: Nature.com
 - title: Principal Machine Learning Scientist
   description: At Bayer we’re visionaries, driven to solve the world’s toughest challenges
     and striving for a world where ‘Health for all Hunger for none’ is no longer a
@@ -2899,38 +2919,4 @@ news_items:
     highly motivated Seni'
   url: https://nlppeople.com/job/senior-data-engineer-machine-learning-w2-only/
   date: '2026-06-09'
-  source: Nlppeople.com
-- title: Machine Learning and AI Expert Dennis Zhang Affiliates With Compass Lexecon
-  description: 'WASHINGTON, June 08, 2026 (GLOBE NEWSWIRE) -- Compass Lexecon, a subsidiary
-    of FTI Consulting, Inc. (NYSE: FCN), today announced that Dennis Zhang, a Professor
-    of Operations and Marketing at Washington University in St. Louis’s Olin Business
-    School, '
-  url: https://www.globenewswire.com/news-release/2026/06/08/3307985/33891/en/Machine-Learning-and-AI-Expert-Dennis-Zhang-Affiliates-With-Compass-Lexecon.html
-  date: '2026-06-08'
-  source: GlobeNewswire
-- title: Interpretable, Low-Compute Machine Learning Integrating Experimental and
-    Catalytic Descriptors for Sustainable CO2 Electroreduction
-  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC01753C, Paper
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Brianna Farris, Joshua J Meckstroth, Kevin C. LeonardApplying
-    mach'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc01753c
-  date: '2026-06-08'
-  source: Royal Society of Chemistry
-- title: 'Unlocking XAT/HAT selectivity: a machine learning-guided discovery of governing
-    physicochemical principles'
-  description: 'Org. Chem. Front., 2026, Advance ArticleDOI: 10.1039/D6QO00596A, Research
-    ArticleSiqi Liu, Wenqiang Xu, Tian-Yu Sun, Longjie Huang, Yun-Dong Wu, Xinhao
-    ZhangMachine learning couples with DFT calculations to unlock the governing principles
-    of HAT/XAT '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/qo/d6qo00596a
-  date: '2026-06-08'
-  source: Royal Society of Chemistry
-- title: Sr. Manager, Technical Delivery – AI & Machine Learning
-  description: At Snowflake, we are powering the era of the agentic enterprise. To
-    usher in this new era, we seek AI-native thinkers across every function who are
-    energized by the opportunity to reinvent how they work. You don’t just use tools;
-    you possess an innat
-  url: https://nlppeople.com/job/sr-manager-technical-delivery-ai-machine-learning-4/
-  date: '2026-06-08'
   source: Nlppeople.com

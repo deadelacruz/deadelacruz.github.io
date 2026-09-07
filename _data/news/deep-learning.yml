@@ -1,4 +1,19 @@
 news_items:
+- title: Deep learning technique for rice leaf disease classification and severity
+    level identification via Hybrid ResConvolutional Neural Network
+  description: Scientific Reports - Deep learning technique for rice leaf disease
+    classification and severity level identification via Hybrid ResConvolutional Neural
+    Network
+  url: https://www.nature.com/articles/s41598-026-68755-5.pdf
+  date: '2026-09-06'
+  source: Nature.com
+- title: A multi-task deep learning network for robust and high accuracy star sensor
+    image centroiding
+  description: Scientific Reports - A multi-task deep learning network for robust
+    and high accuracy star sensor image centroiding
+  url: https://www.nature.com/articles/s41598-026-70665-5.pdf
+  date: '2026-09-06'
+  source: Nature.com
 - title: Deep learning-based multi-class misbehavior classification in fog-enabled
     vehicular ad hoc networks
   description: Scientific Reports - Deep learning-based multi-class misbehavior classification
