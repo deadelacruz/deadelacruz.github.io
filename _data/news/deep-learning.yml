@@ -1,4 +1,19 @@
 news_items:
+- title: A personalized federated deep learning framework predicts student performance
+    in large-scale examinations across heterogeneous regional distributions
+  description: Scientific Reports - A personalized federated deep learning framework
+    predicts student performance in large-scale examinations across heterogeneous
+    regional distributions
+  url: https://www.nature.com/articles/s41598-026-70854-2.pdf
+  date: '2026-09-07'
+  source: Nature.com
+- title: 'Correction: Hybrid deep learning framework for image restoration in Fso
+    systems affected by log-normal fading'
+  description: 'Scientific Reports - Correction: Hybrid deep learning framework for
+    image restoration in Fso systems affected by log-normal fading'
+  url: https://www.nature.com/articles/s41598-026-70203-3
+  date: '2026-09-07'
+  source: Nature.com
 - title: Deep learning technique for rice leaf disease classification and severity
     level identification via Hybrid ResConvolutional Neural Network
   description: Scientific Reports - Deep learning technique for rice leaf disease
