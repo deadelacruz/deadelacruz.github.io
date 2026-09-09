@@ -1,4 +1,102 @@
 news_items:
+- title: 'Multimodal protective and susceptibility clusters in paediatric atopic dermatitis:
+    A machine learning-based, data-driven observational study'
+  description: In this study, Damir Zhakparov and colleagues use machine learning
+    to identify multimodal feature clusters associated with paediatric atopic dermatitis
+    in AmaXhosa children in South Africa, highlighting a rural-environment-linked
+    cluster associated w
+  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1004917
+  date: '2026-09-08'
+  source: Plos.org
+- title: Telit Cinterion Introduces Edge AI SDK to Run Machine Learning Models on
+    Selected 4G and 5G Cellular Modules
+  description: The SDK embeds the LiteRT runtime in the modules' firmware, which runs
+    AI inference on their application cores Combines AI inference and cellular connectivity
+    in a single module Supports the standard .tflite model format without a vendor-specific
+    reb
+  url: https://www.prnewswire.com/news-releases/telit-cinterion-introduces-edge-ai-sdk-to-run-machine-learning-models-on-selected-4g-and-5g-cellular-modules-302872316.html
+  date: '2026-09-08'
+  source: PRNewswire
+- title: Principal Machine Learning Scientist
+  description: At Bayer we’re visionaries, driven to solve the world’s toughest challenges
+    and striving for a world where ‘Health for all Hunger for none’ is no longer a
+    dream, but a real possibility. We’re doing it with energy, curiosity and sheer
+    dedication, alwa
+  url: https://nlppeople.com/job/principal-machine-learning-scientist-14/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Data Scientist – Machine Learning
+  description: 'The team you’ll be working with: You will join NTT DATA UK’s Data
+    Practice, a multi-disciplinary team delivering enterprise-scale data platforms,
+    analytics and data-led transformation for clients. As part of the growing Data
+    Science capability within'
+  url: https://nlppeople.com/job/data-scientist-machine-learning-16/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer – Remote – NLP / LLM
+  description: 'Job DescriptionSenior Machine Learning Engineer – Fully Remote UK
+    (London) Location: Remote (UK-based preferred) Salary: Up to £120,000 base stock
+    options Type: Permanent | Full-Time Start Date: September 2025 ideally Join a
+    high-growth, AI-first sca'
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-remote-nlp-llm-3/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Machine Learning Engineer Perception LLM/VLM (PhD, New Grad)
+  description: Waymo is an autonomous driving technology company with the mission
+    to be the world’s most trusted driver. Since its start as the Google Self-Driving
+    Car Project in 2009, Waymo has focused on building the Waymo Driver—The World’s
+    Most Experienced Driv
+  url: https://nlppeople.com/job/machine-learning-engineer-perception-llm-vlm-phd-new-grad/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Senior Machine Learning Engineer (AI / LLM Systems)
+  description: Senior Machine Learning Engineer (AI / LLM Systems) Remote (United
+    Kingdom) | Permanent | Flexible compensation + equity We’re working with a well-established,
+    tech-led business that is building a new AI product focused on real-world tasks,
+    workflows
+  url: https://nlppeople.com/job/senior-machine-learning-engineer-ai-llm-systems/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Navigating Challenges in Spatial Machine Learning
+  description: "Spatial machine learning has become a standard tool for producing\
+    \ environmental and geographic prediction maps. It is now relatively (technically)\
+    \ easy to combine field observations with remote sensing, climate, terrain, or\
+    \ other predictor layer...\r\n"
+  url: https://www.r-bloggers.com/2026/09/navigating-challenges-in-spatial-machine-learning/
+  date: '2026-09-08'
+  source: R-bloggers.com
+- title: 2026 Machine Learning Center of Excellence (NLP)-Internship
+  description: The Chief Data & Analytics Office (CDAO) at JPMorgan Chase is responsible
+    for accelerating the firm’s data and analytics journey. As a part of CDAO, The
+    Machine Learning Center of Excellence (MLCOE) partners across the firm to shape,
+    create, and depl
+  url: https://nlppeople.com/job/2026-machine-learning-center-of-excellence-nlp-internship-2/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Machine Learning Scientist II
+  description: 'At Expedia Group, we help travelers explore the world, one journey
+    at a time. As a global travel company powered by passionate people, trusted partnerships,
+    and leading technology, we connect travelers, partners, and advertisers through
+    our consumer '
+  url: https://nlppeople.com/job/machine-learning-scientist-ii-11/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Machine Learning and Generative AI Engineer, Digital Transformation
+  description: Company Description By working at Harvard University, you join a vibrant
+    community that advances Harvard’s world-changing mission in meaningful ways, inspires
+    innovation and collaboration, and builds skills and expertise. We are dedicated
+    to creating
+  url: https://nlppeople.com/job/machine-learning-and-generative-ai-engineer-digital-transformation-2/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-22/
+  date: '2026-09-08'
+  source: Nlppeople.com
 - title: Principal Machine Learning Scientist
   description: At Bayer we’re visionaries, driven to solve the world’s toughest challenges
     and striving for a world where ‘Health for all Hunger for none’ is no longer a
@@ -2806,86 +2904,4 @@ news_items:
     Our mission
   url: https://nlppeople.com/job/ai-machine-learning-and-data-scientist/
   date: '2026-06-11'
-  source: Nlppeople.com
-- title: 'Show HN: A curated collection of simple datasets for machine learning'
-  description: 'Article URL: https://github.com/pplonski/datasets-for-start
-
-    Comments URL: https://news.ycombinator.com/item?id=48476571
-
-    Points: 3
-
-    # Comments: 1'
-  url: https://github.com/pplonski/datasets-for-start
-  date: '2026-06-10'
-  source: Github.com
-- title: Introducing the Third Generation of Apple’s Foundation Models - Apple Machine
-    Learning Research
-  description: Our next generation of Apple Intelligence is centered around our users,
-    integrated deeply into our operating systems, and powered by a bold…
-  url: https://machinelearning.apple.com/research/introducing-third-generation-of-apple-foundation-models
-  date: '2026-06-10'
-  source: Apple Newsroom
-- title: End-to-End Machine Learning for Depressive State Classification via EEG and
-    fNIRS
-  description: The escalating demand for mental healthcare, driven by rising societal
-    stress, highlights the limitations of traditional psychiatric diagnostics. Conventional
-    methods - relying primarily on clinical interviews and patient self-reports -
-    are inherentl
-  url: https://arxiv.org/abs/2606.11555
-  date: '2026-06-10'
-  source: Arxiv.org
-- title: Regression based hybrid machine learning model performance evaluation on
-    air quality index prediction in Kolkata
-  description: Scientific Reports - Regression based hybrid machine learning model
-    performance evaluation on air quality index prediction in Kolkata
-  url: https://www.nature.com/articles/s41598-026-54918-x
-  date: '2026-06-10'
-  source: Nature.com
-- title: 'Machine learning–enabled ECG arrhythmia classification: a systematic and
-    educational study from signal processing to decision support'
-  description: 'Scientific Reports - Machine learning–enabled ECG arrhythmia classification:
-    a systematic and educational study from signal processing to decision support'
-  url: https://www.nature.com/articles/s41598-026-56828-4
-  date: '2026-06-10'
-  source: Nature.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-24/
-  date: '2026-06-10'
-  source: Nlppeople.com
-- title: Machine learning-assisted design of carbon nanotube edge computing circuits
-    for monolithic epidermal systems
-  description: The high multimodal processing capability is constrained by the physical
-    separation of sensors and processors. Luo et al. proposed a machine learning-aided
-    framework for carbon nanotube circuit design. Its feasibility is validated via
-    a flexible edge
-  url: https://www.nature.com/articles/s41467-026-74053-5
-  date: '2026-06-10'
-  source: Nature.com
-- title: Hybrid vision transformer and ensemble machine learning framework for automated
-    atherosclerotic plaque classification in intravascular ultrasound imaging
-  description: Scientific Reports - Hybrid vision transformer and ensemble machine
-    learning framework for automated atherosclerotic plaque classification in intravascular
-    ultrasound imaging
-  url: https://www.nature.com/articles/s41598-026-53077-3
-  date: '2026-06-10'
-  source: Nature.com
-- title: Machine learning–assisted design of a wideband Fe–SiO2–MXene metamaterial
-    solar absorber for angle-insensitive thermal energy harvesting
-  description: Scientific Reports - Machine learning–assisted design of a wideband
-    Fe–SiO2–MXene metamaterial solar absorber for angle-insensitive thermal energy
-    harvesting
-  url: https://www.nature.com/articles/s41598-026-57447-9
-  date: '2026-06-10'
-  source: Nature.com
-- title: Remote Machine Learning Scientist Remote Sensing
-  description: Grow with Treefera We are a first-mile intelligence platform, delivering
-    granular visibility into the point of origin in global ag & soft commodity supply
-    chains – where risk, cost, performance and exposure are set. You’ll join a global,
-    cross-functi
-  url: https://nlppeople.com/job/remote-machine-learning-scientist-remote-sensing/
-  date: '2026-06-10'
   source: Nlppeople.com
