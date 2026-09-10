@@ -1,4 +1,26 @@
 news_items:
+- title: A new deep learning model maps global methane emissions from space.
+  description: Google and NASA JPL developed an AI model to map and quantify global
+    methane emissions from space using EMIT.
+  url: https://blog.google/innovation-and-ai/models-and-research/google-research/mapping-global-methane-emissions-from-space/
+  date: '2026-09-09'
+  source: Blog.google
+- title: Simplify and support your TorchServe workloads using Ray Serve Deep Learning
+    Containers
+  description: TorchServe is no longer maintained, leaving teams to own the entire
+    GPU inference stack. The AWS Ray Serve Deep Learning Container is a supported,
+    pre-tested container with the framework, GPU drivers, and serving layer already
+    assembled. This post wa
+  url: https://aws.amazon.com/blogs/machine-learning/simplify-and-support-your-torchserve-workloads-using-ray-serve-deep-learning-containers/
+  date: '2026-09-09'
+  source: Amazon.com
+- title: An adaptive deep learning framework for multi-temporal crop and drought stress
+    monitoring in precision agriculture
+  description: Scientific Reports - An adaptive deep learning framework for multi-temporal
+    crop and drought stress monitoring in precision agriculture
+  url: https://www.nature.com/articles/s41598-026-70304-z.pdf
+  date: '2026-09-09'
+  source: Nature.com
 - title: 'Retraction: Sentiment analysis of classical Chinese literature: An unsupervised
     deep learning model with BERT and graph attention networks'
   description: No description available.
@@ -1070,10 +1092,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351485
   date: '2026-06-12'
   source: Plos.org
-- title: A deep learning framework for emotion recognition in music using multimodal
-    data fusion
-  description: Scientific Reports - A deep learning framework for emotion recognition
-    in music using multimodal data fusion
-  url: https://www.nature.com/articles/s41598-026-50471-9
-  date: '2026-06-11'
-  source: Nature.com

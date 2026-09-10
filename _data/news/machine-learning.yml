@@ -1,4 +1,27 @@
 news_items:
+- title: 'Application of machine learning in predicting of MB2 canal in permanent
+    maxillary first and second molars: A CBCT study'
+  description: Objectives The aim of this study is to apply Machine learning (ML),
+    a key subset of Artificial Intelligence (AI) in predicting second mesiobuccal
+    (MB2) canals in both maxillary first molars (MFMs) and maxillary second molars
+    (MSMs) using the cone-bea
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0357808
+  date: '2026-09-09'
+  source: Plos.org
+- title: Predicting water hyacinth expansion and identifying environmental drivers
+    in Lake Tana using machine learning
+  description: Scientific Reports - Predicting water hyacinth expansion and identifying
+    environmental drivers in Lake Tana using machine learning
+  url: https://www.nature.com/articles/s41598-026-70853-3.pdf
+  date: '2026-09-09'
+  source: Nature.com
+- title: 'KRISHI.AI: an explainable machine learning framework for data-driven crop
+    recommendation'
+  description: 'Scientific Reports - KRISHI.AI: an explainable machine learning framework
+    for data-driven crop recommendation'
+  url: https://www.nature.com/articles/s41598-026-68815-w.pdf
+  date: '2026-09-09'
+  source: Nature.com
 - title: 'Multimodal protective and susceptibility clusters in paediatric atopic dermatitis:
     A machine learning-based, data-driven observational study'
   description: In this study, Damir Zhakparov and colleagues use machine learning
@@ -2861,47 +2884,4 @@ news_items:
     Our mission
   url: https://nlppeople.com/job/ai-machine-learning-and-data-scientist-2/
   date: '2026-06-12'
-  source: Nlppeople.com
-- title: GPU as a Service Market to Reach USD 14.4 Billion by 2033 at 16.0% CAGR,
-    Fueled by Generative AI, Machine Learning, and Cloud Infrastructure Expansion
-    - Grand View Research, Inc.
-  description: 'SAN FRANCISCO, June 11, 2026 /PRNewswire/ -- The global GPU as a Service
-    (GPUaaS) market is poised for substantial expansion as enterprises accelerate
-    investments in artificial intelligence, machine learning, high-performance computing,
-    and advanced '
-  url: https://www.prnewswire.com/news-releases/gpu-as-a-service-market-to-reach-usd-14-4-billion-by-2033-at-16-0-cagr-fueled-by-generative-ai-machine-learning-and-cloud-infrastructure-expansion---grand-view-research-inc-302798315.html
-  date: '2026-06-11'
-  source: PRNewswire
-- title: Vector Institute and Helmholtz Munich Sign MOU to Advance International AI
-    and Machine Learning Research
-  description: Partnership to accelerate researcher mobility, joint scientific collaboration,
-    and German-Canadian innovation – with Vector researcher Shaina Raza set to speak
-    at HAICON 2026 TORONTO, June 11, 2026 (GLOBE NEWSWIRE) — The Vector Institute
-    today announ
-  url: https://financialpost.com/globe-newswire/vector-institute-and-helmholtz-munich-sign-mou-to-advance-international-ai-and-machine-learning-research
-  date: '2026-06-11'
-  source: Financial Post
-- title: AI Is Now Detecting Cancer Years Before Doctors Can — New 2026 Research Shows
-    How Machine Learning Is Transforming Diagnosis
-  description: A 2026 Nature Cancer AI identified 18 cancer types with high accuracy
-    from minimal slides. A Mayo Clinic AI detected pancreatic cancer up to 3 years
-    before diagnosis — nearly doubling specialist rates.
-  url: https://www.medicaldaily.com/ai-cancer-detection-2026-nature-cancer-pancreatic-diagnosis-475580
-  date: '2026-06-11'
-  source: Medical Daily
-- title: '"Nano-Filter"-Integrated AIMS with Machine Learning: Direct Exhaled Breath
-    Analysis for Lung Cancer Screening'
-  description: 'Chem. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6SC02074G, Edge
-    Article Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Weiqing Wang, Yue Tang, Zhenqiang Zhang, Wenjun Wang, Junzhe'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/sc/d6sc02074g
-  date: '2026-06-11'
-  source: Royal Society of Chemistry
-- title: AI / Machine Learning and Data Scientist
-  description: Introduction to Human Longevity, Inc. (HLI) Human Longevity, Inc. (HLI)
-    is a global leader in precision health, combining cutting-edge genomics, imaging,
-    AI-driven diagnostics, and elite medical expertise to redefine proactive healthcare.
-    Our mission
-  url: https://nlppeople.com/job/ai-machine-learning-and-data-scientist/
-  date: '2026-06-11'
   source: Nlppeople.com
