@@ -1,4 +1,11 @@
 news_items:
+- title: How to Combine Traditional Machine Learning with Agentic Reasoning
+  description: In this article, you will learn where traditional machine learning
+    reaches its limits, what agentic reasoning adds, and how combining the two produces
+    AI systems more capable than either approach alone.
+  url: https://machinelearningmastery.com/how-to-combine-traditional-machine-learning-with-agentic-reasoning/
+  date: '2026-09-10'
+  source: Machinelearningmastery.com
 - title: 'Application of machine learning in predicting of MB2 canal in permanent
     maxillary first and second molars: A CBCT study'
   description: Objectives The aim of this study is to apply Machine learning (ML),
@@ -2784,104 +2791,4 @@ news_items:
     $200B global market. Usi
   url: https://nlppeople.com/job/machine-learning-engineer-nlp-insurtech-ai-scale-up-london-5-days-in-office-stocks-benefits/
   date: '2026-06-13'
-  source: Nlppeople.com
-- title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
-    in its own backyard
-  description: 'In times past, when we wanted to know which team would win the World
-    Cup, we had to turn to seers with crystal balls, use divination via tea leaves,
-    or hope for Paul the Octopus to tell us what would happen.
-
-    But modern data science can provide a bett'
-  url: https://biztoc.com/x/9253f2764eb49242
-  date: '2026-06-12'
-  source: Biztoc.com
-- title: Machine learning gives the U.S. a 1% chance of winning the World Cup final
-    in its own backyard
-  description: The algorithm that predicted the U.S. would win the 2019 Women's World
-    Cup just released Its 2026 men's picks.
-  url: https://fortune.com/2026/06/12/world-cup-2026-predictions-spain-us-odds-machine-learning/
-  date: '2026-06-12'
-  source: Fortune
-- title: Cross-dataset benchmarking of machine learning models for marine and atmospheric
-    environmental prediction
-  description: Accurate prediction of marine and atmospheric environmental variables
-    is important for climate adaptation, ecosystem management, and operational decision-making,
-    yet practitioners still lack clear guidance on which machine-learning models are
-    reliabl
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351325
-  date: '2026-06-12'
-  source: Plos.org
-- title: Identification of candidate sex hormone-associated genes and immune infiltration
-    characteristics in osteoarthritis based on bioinformatics analysis and machine
-    learning
-  description: Background Sex hormones play critical roles in the pathogenesis and
-    progression of osteoarthritis (OA), yet the hormone-related molecular networks
-    remain poorly defined. This study aimed to identify candidate sex hormone-associated
-    genes in OA and to
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351556
-  date: '2026-06-12'
-  source: Plos.org
-- title: Staff Artificial Intelligence Machine Learning Engineer
-  description: 'Job Description The Role: General Motors is seeking a Staff AI/ML
-    Engineer for the Vehicle Mechatronic Embedded Controls (VMEC) Analytics team.
-    The team delivers production AI/ML solutions for high‑impact diagnostics, prognostics,
-    and test‑effectiven'
-  url: https://nlppeople.com/job/staff-artificial-intelligence-machine-learning-engineer/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-25/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: Data Scientist (Artificial Intelligence/Machine Learning)
-  description: 'Summary See below for important information regarding this job. Position
-    will be filled at any of the locations listed below. Site specific salary information
-    as follows: Battle Creek, MI: $125,776- $163,514 Columbus, OH: $131,245- $170,624
-    Dayton, O'
-  url: https://nlppeople.com/job/data-scientist-artificial-intelligence-machine-learning-7/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-7/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: AI / Machine Learning Engineer — GenAI, LLMs & Applied AI
-  description: Job Overview We are seeking a highly skilled AI / Machine Learning
-    Engineer specialising in Generative AI (GenAI), Large Language Models (LLMs),
-    and applied artificial intelligence. This role offers an exciting opportunity
-    to develop innovative solut
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-genai-llms-applied-ai/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: AI and Machine Learning Solutions Specialist
-  description: 'Join Us: We are embarking on an exciting new era in Data & AI that
-    promises to transform industries and society at large. At Accenture, we’re committed
-    to leading the charge with a clear vision: to empower clients in optimizing and
-    reinventing their '
-  url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-3/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: Machine Learning Engineer, Express AI Foundations
-  description: The Opportunity Adobe Express helps people and teams create standout
-    content with ease. The AI Foundations team builds the core AI platform that powers
-    creativity across design, imaging, motion, and personalization. We’re looking
-    for an engineer to h
-  url: https://nlppeople.com/job/machine-learning-engineer-express-ai-foundations-10/
-  date: '2026-06-12'
-  source: Nlppeople.com
-- title: AI / Machine Learning and Data Scientist
-  description: Introduction to Human Longevity, Inc. (HLI) Human Longevity, Inc. (HLI)
-    is a global leader in precision health, combining cutting-edge genomics, imaging,
-    AI-driven diagnostics, and elite medical expertise to redefine proactive healthcare.
-    Our mission
-  url: https://nlppeople.com/job/ai-machine-learning-and-data-scientist-2/
-  date: '2026-06-12'
   source: Nlppeople.com
