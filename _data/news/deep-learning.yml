@@ -1,4 +1,11 @@
 news_items:
+- title: An attention-guided dual-branch global–local deep learning framework for
+    multiclass surface defect classification in steel billets
+  description: Scientific Reports - An attention-guided dual-branch global–local deep
+    learning framework for multiclass surface defect classification in steel billets
+  url: https://www.nature.com/articles/s41598-026-71035-x.pdf
+  date: '2026-09-11'
+  source: Nature.com
 - title: A new deep learning model maps global methane emissions from space.
   description: Google and NASA JPL developed an AI model to map and quantify global
     methane emissions from space using EMIT.
@@ -1052,19 +1059,4 @@ news_items:
     landslide susceptibility prediction model
   url: https://www.nature.com/articles/s41598-026-52786-z
   date: '2026-06-14'
-  source: Nature.com
-- title: How to Install AMD ROCm on Ubuntu 26.04 for AI & Deep Learning
-  description: 'The post How to Install AMD ROCm on Ubuntu 26.04 for AI & Deep Learning
-    first appeared on Tecmint: Linux Howtos, Tutorials & Guides .If you’ve ever tried
-    setting up Ollama, Stable Diffusion, or PyTorch on an AMD graphics card, you probably
-    remember h'
-  url: https://www.tecmint.com/install-amd-rocm-ubuntu-26-04/
-  date: '2026-06-13'
-  source: Tecmint.com
-- title: Deep learning based apple leaf disease detection using spatially modulated
-    continuouslayer
-  description: Scientific Reports - Deep learning based apple leaf disease detection
-    using spatially modulated continuouslayer
-  url: https://www.nature.com/articles/s41598-026-57763-0
-  date: '2026-06-13'
   source: Nature.com

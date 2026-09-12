@@ -1,4 +1,11 @@
 news_items:
+- title: Machine learning to predict moderate-to-severe AKI in ICU acute pancreatitis
+    patients
+  description: Scientific Reports - Machine learning to predict moderate-to-severe
+    AKI in ICU acute pancreatitis patients
+  url: https://www.nature.com/articles/s41598-026-67437-6.pdf
+  date: '2026-09-11'
+  source: Nature.com
 - title: How to Combine Traditional Machine Learning with Agentic Reasoning
   description: In this article, you will learn where traditional machine learning
     reaches its limits, what agentic reasoning adds, and how combining the two produces
@@ -2783,12 +2790,3 @@ news_items:
   url: https://arxiv.org/abs/2606.16041
   date: '2026-06-14'
   source: Arxiv.org
-- title: Machine Learning Engineer, NLP | InsurTech, AI, Scale-up | London 5 Days
-    in Office, Stocks & Benefits
-  description: Machine Learning Engineer, NLP | InsurTech, AI, Scale-up | London 5
-    Days in Office, Up to £165,000 Stocks & Benefits Owen Thomas is partnering with
-    a high-growth, venture-backed InsurTech scale-up that is disrupting a massive
-    $200B global market. Usi
-  url: https://nlppeople.com/job/machine-learning-engineer-nlp-insurtech-ai-scale-up-london-5-days-in-office-stocks-benefits/
-  date: '2026-06-13'
-  source: Nlppeople.com
