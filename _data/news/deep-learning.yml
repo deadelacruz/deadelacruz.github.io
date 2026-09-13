@@ -1,4 +1,11 @@
 news_items:
+- title: Physics-guided deep learning improves UAV multispectral estimation of strawberry
+    canopy LAI and SPAD
+  description: Scientific Reports - Physics-guided deep learning improves UAV multispectral
+    estimation of strawberry canopy LAI and SPAD
+  url: https://www.nature.com/articles/s41598-026-69278-9.pdf
+  date: '2026-09-12'
+  source: Nature.com
 - title: An attention-guided dual-branch global–local deep learning framework for
     multiclass surface defect classification in steel billets
   description: Scientific Reports - An attention-guided dual-branch global–local deep
@@ -1052,11 +1059,4 @@ news_items:
     official records
   url: https://www.nature.com/articles/s41467-026-74336-x
   date: '2026-06-15'
-  source: Nature.com
-- title: Principled XAI analysis of the deep learning-based landslide susceptibility
-    prediction model
-  description: Scientific Reports - Principled XAI analysis of the deep learning-based
-    landslide susceptibility prediction model
-  url: https://www.nature.com/articles/s41598-026-52786-z
-  date: '2026-06-14'
   source: Nature.com

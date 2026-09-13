@@ -1,4 +1,19 @@
 news_items:
+- title: An optimized machine learning approach for reliable agronomic parameter prediction
+    in precision farming systems
+  description: Scientific Reports - An optimized machine learning approach for reliable
+    agronomic parameter prediction in precision farming systems
+  url: https://www.nature.com/articles/s41598-026-71592-1.pdf
+  date: '2026-09-12'
+  source: Nature.com
+- title: Harnessing machine learning and multi-source data fusion for regional geohazard
+    risk assessment of a rapidly urbanizing mountainous region
+  description: Scientific Reports - Harnessing machine learning and multi-source data
+    fusion for regional geohazard risk assessment of a rapidly urbanizing mountainous
+    region
+  url: https://www.nature.com/articles/s41598-026-70394-9.pdf
+  date: '2026-09-12'
+  source: Nature.com
 - title: Machine learning to predict moderate-to-severe AKI in ICU acute pancreatitis
     patients
   description: Scientific Reports - Machine learning to predict moderate-to-severe
@@ -2764,29 +2779,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00509h
   date: '2026-06-15'
   source: Royal Society of Chemistry
-- title: Investigation of the molecular network underlying PET-MPs-induced inflammatory
-    bowel disease via integrated machine learning and molecular docking approaches
-  description: Scientific Reports - Investigation of the molecular network underlying
-    PET-MPs-induced inflammatory bowel disease via integrated machine learning and
-    molecular docking approaches
-  url: https://www.nature.com/articles/s41598-026-57094-0
-  date: '2026-06-14'
-  source: Nature.com
-- title: Thermodynamic assessment of machine learning models for solid-state synthesis
-    prediction
-  description: 'Mater. Horiz., 2026, Accepted ManuscriptDOI: 10.1039/D6MH00209A, CommunicationJane
-    Schlesinger, Simon Hjaltason, Nathan Szymanski, Christopher BartelMachine learning
-    models have recently emerged to predict whether hypothetical solid-state materials
-    c'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/mh/d6mh00209a
-  date: '2026-06-14'
-  source: Royal Society of Chemistry
-- title: 'EEGDash: An open-source platform for machine learning on public neurophysiological
-    data'
-  description: 'Public neurophysiological datasets are increasingly accessible but
-    remain hard to reuse: turning one into a trained model still takes thousands of
-    lines of code for download, loading, format repair, windowing, and evaluation,
-    and a dataset that meets'
-  url: https://arxiv.org/abs/2606.16041
-  date: '2026-06-14'
-  source: Arxiv.org
