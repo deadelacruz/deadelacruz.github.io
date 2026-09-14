@@ -1,4 +1,28 @@
 news_items:
+- title: 'AI vs Machine Learning vs AGI: What’s the Difference?'
+  description: 'Learn the difference between AI, machine learning, and AGI in plain
+    English, with everyday examples and tips for spotting exaggerated AI claims in
+    2026.
+
+    The post AI vs Machine Learning vs AGI: What’s the Difference? first appeared
+    on Online Tech Tips'
+  url: https://www.online-tech-tips.com/ai-vs-machine-learning-vs-agi/#article
+  date: '2026-09-13'
+  source: Online-tech-tips.com
+- title: Predicting utilization of emergency contraceptives in ethiopia and identifying
+    its predictors using machine learning
+  description: Scientific Reports - Predicting utilization of emergency contraceptives
+    in ethiopia and identifying its predictors using machine learning
+  url: https://www.nature.com/articles/s41598-026-69043-y.pdf
+  date: '2026-09-13'
+  source: Nature.com
+- title: Heterogeneous performance of machine learning models in financial market
+    forecasting
+  description: Scientific Reports - Heterogeneous performance of machine learning
+    models in financial market forecasting
+  url: https://www.nature.com/articles/s41598-026-71418-0.pdf
+  date: '2026-09-13'
+  source: Nature.com
 - title: An optimized machine learning approach for reliable agronomic parameter prediction
     in precision farming systems
   description: Scientific Reports - An optimized machine learning approach for reliable
@@ -2739,43 +2763,3 @@ news_items:
   url: https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning
   date: '2026-06-16'
   source: Jxmo.io
-- title: Building Time-Series Machine Learning Models with sktime in Python
-  description: In this article, we’ll build time-series machine learning models in
-    Python using sktime and explore its core data structures for forecasting workflows.
-  url: https://www.kdnuggets.com/building-time-series-machine-learning-models-with-sktime-in-python
-  date: '2026-06-15'
-  source: Kdnuggets.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-26/
-  date: '2026-06-15'
-  source: Nlppeople.com
-- title: Machine Learning Research Scientist
-  description: 'Summary: Join the Reality Labs team at Meta as we push the boundaries
-    of neuromotor interfaces. We are searching for experienced Research Scientists
-    who are passionate about product-driven machine learning and signal processing
-    research. Building on '
-  url: https://nlppeople.com/job/machine-learning-research-scientist-15/
-  date: '2026-06-15'
-  source: Nlppeople.com
-- title: IRSAC-corrected CF-LIBS validated by ICP-OES for soil classification using
-    machine learning
-  description: 'J. Anal. At. Spectrom., 2026, Advance ArticleDOI: 10.1039/D6JA00076B,
-    PaperAhmed Azam, Muhammad Afzaal, Zahid FarooqIRSAC-corrected CF-LIBS combines
-    plasma diagnostics, elemental profiling, PCA, and machine learning for controlled
-    laboratory soil sui'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ja/d6ja00076b
-  date: '2026-06-15'
-  source: Royal Society of Chemistry
-- title: Label-Free Cervical Cancer Detection in Tissue Samples Using Raman Spectroscopy
-    Combined with Machine Learning technology
-  description: 'Anal. Methods, 2026, Accepted ManuscriptDOI: 10.1039/D6AY00509H, PaperRuiying
-    Lin, Jiayi Niu, Shuohong Weng, Cuibo Lin, Duo Lin, Youliang Weng, Sufang QiuCervical
-    cancer is one of the most common malignant tumors of the female reproductive tract,
-    ran'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ay/d6ay00509h
-  date: '2026-06-15'
-  source: Royal Society of Chemistry

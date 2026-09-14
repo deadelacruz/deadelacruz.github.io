@@ -1051,12 +1051,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-57775-w
   date: '2026-06-16'
   source: Nature.com
-- title: Deep learning completes US flood hazard maps revealing millions exposed to
-    previously unrecognized risk
-  description: Millions in the US lack official flood risk data. This study uses an
-    AI model to learn from existing maps and complete the US flood hazard map, revealing
-    over 11 million more people exposed to flood risks, a 69% increase from current
-    official records
-  url: https://www.nature.com/articles/s41467-026-74336-x
-  date: '2026-06-15'
-  source: Nature.com
