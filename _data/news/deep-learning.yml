@@ -1044,10 +1044,3 @@ news_items:
   url: https://www.databricks.com/blog/whats-new-ai-platform-agents-ml-engineering-our-deep-learning-platform-and-new-capabilities
   date: '2026-06-17'
   source: Databricks.com
-- title: 'Retraction Note: Reinforcement learning-driven deep learning approaches
-    for optimized robot trajectory planning'
-  description: 'Scientific Reports - Retraction Note: Reinforcement learning-driven
-    deep learning approaches for optimized robot trajectory planning'
-  url: https://www.nature.com/articles/s41598-026-57775-w
-  date: '2026-06-16'
-  source: Nature.com

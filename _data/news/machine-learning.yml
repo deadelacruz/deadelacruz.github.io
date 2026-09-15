@@ -1,4 +1,35 @@
 news_items:
+- title: Why don't machine learning research agents overfit?
+  description: New research indicates that AI agents learn compressible models of
+    data, which don’t have enough space to enable memorization.
+  url: https://www.amazon.science/blog/why-dont-machine-learning-research-agents-overfit
+  date: '2026-09-14'
+  source: Amazon.science
+- title: 'Correction: Screening of core targets for Di(2-ethylhexyl) Phthalate-related
+    gastric cancer based on machine learning, molecular docking, and SHAP analysis'
+  description: No description available.
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014783
+  date: '2026-09-14'
+  source: Plos.org
+- title: Machine learning algorithm sets XRP price for October 1, 2026
+  description: 'A machine learning model has projected that XRP could trade at an
+    average price of $1.29 on October 1, 2026.
+
+    Based on the forecast, Finbold’s AI Agent predicts XRP could decline 3.61% from
+    its current price of $1.34.
+
+    The prediction was generated usin'
+  url: https://biztoc.com/x/aaf155372ea37c8f
+  date: '2026-09-14'
+  source: Biztoc.com
+- title: 'Retraction Note: Machine learning-driven evaluation of mechanical and microstructural
+    properties of agro-waste-derived geopolymer concrete'
+  description: 'Scientific Reports - Retraction Note: Machine learning-driven evaluation
+    of mechanical and microstructural properties of agro-waste-derived geopolymer
+    concrete'
+  url: https://www.nature.com/articles/s41598-026-71215-9
+  date: '2026-09-14'
+  source: Nature.com
 - title: 'AI vs Machine Learning vs AGI: What’s the Difference?'
   description: 'Learn the difference between AI, machine learning, and AGI in plain
     English, with everyday examples and tips for spotting exaggerated AI claims in
@@ -52,6 +83,14 @@ news_items:
   url: https://machinelearningmastery.com/how-to-combine-traditional-machine-learning-with-agentic-reasoning/
   date: '2026-09-10'
   source: Machinelearningmastery.com
+- title: Machine Learning Engineering Technical Leader – CX AI
+  description: 'The application window is expected to close on: 11/26/2026 This is
+    a Hybrid role requiring 3 days per week in the San Jose, CA office. Meet the Team
+    Cisco’s CX AI Foundations team owns the foundational AI platform behind intelligent
+    customer experien'
+  url: https://nlppeople.com/job/machine-learning-engineering-technical-leader-cx-ai/
+  date: '2026-09-10'
+  source: Nlppeople.com
 - title: 'Application of machine learning in predicting of MB2 canal in permanent
     maxillary first and second molars: A CBCT study'
   description: Objectives The aim of this study is to apply Machine learning (ML),
@@ -171,6 +210,14 @@ news_items:
     tangible business outcomes. Our clients engage Attadale because our work drives
     change that inc
   url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-22/
+  date: '2026-09-08'
+  source: Nlppeople.com
+- title: 2027 Machine Learning Engineering Graduate Intern
+  description: The Aerospace Corporation is the trusted partner to the nation’s space
+    programs, solving the hardest problems and providing unmatched technical expertise.
+    As the operator of a federally funded research and development center (FFRDC),
+    we are broadly e
+  url: https://nlppeople.com/job/2027-machine-learning-engineering-graduate-intern/
   date: '2026-09-08'
   source: Nlppeople.com
 - title: Principal Machine Learning Scientist
@@ -2675,91 +2722,3 @@ news_items:
   url: https://nlppeople.com/job/ai-and-machine-learning-specialist/
   date: '2026-06-17'
   source: Nlppeople.com
-- title: NASA Uses Machine Learning to Enhance Flash Flood Warnings
-  description: The Transient Artifact and Continuous Learning System (TACLS) leverages data
-    from continuously operating satellite networks coupled with machine learning models to
-    help meteorologists at the National Weather Service forecast flash floods more
-    efficie
-  url: https://science.nasa.gov/science-research/science-enabling-technology/nasa-uses-machine-learning-to-enhance-flash-flood-warnings/
-  date: '2026-06-16'
-  source: NASA
-- title: Screening disease feature genes and analyzing correlations with immune cell
-    infiltration in knee osteoarthritis chondrocytes based on multiple machine learning
-    algorithms
-  description: 'Objective This study aimed to comprehensively analyze differentially
-    expressed genes (DEGs) in chondrocytes from patients with knee osteoarthritis
-    (OA) by integrating multiple machine learning algorithms and bioinformatics techniques,
-    to unravel the '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351666
-  date: '2026-06-16'
-  source: Plos.org
-- title: Staff Software Engineer – Machine Learning
-  description: 'Job Overview:Join our world-class team at Arm in western Europe, where
-    you will have the opportunity to contribute to powerful technological advancements.
-    As a Staff Software Engineer, you will engage with innovative projects that compose
-    the future '
-  url: https://nlppeople.com/job/staff-software-engineer-machine-learning-16/
-  date: '2026-06-16'
-  source: Nlppeople.com
-- title: Associate Professor in Machine Learning and Natural Language Processing (Social
-    Media Analytics)
-  description: 'This Job is based in Australia Associate Professor in Machine Learning
-    and Natural Language Processing (Social Media Analytics) Apply now Job no: 540051
-    Work type: Full Time Location: Sydney, NSW Categories: Associate Professor Job
-    Details Salary, Le'
-  url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-6/
-  date: '2026-06-16'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-8/
-  date: '2026-06-16'
-  source: Nlppeople.com
-- title: Benchmarking machine learning approaches for polarization mapping in ferroelectrics
-    using 4D-STEM
-  description: Scientific Reports - Benchmarking machine learning approaches for polarization
-    mapping in ferroelectrics using 4D-STEM
-  url: https://www.nature.com/articles/s41598-026-57754-1
-  date: '2026-06-16'
-  source: Nature.com
-- title: Explainable EEG-based machine learning for early diagnosis of Alzheimer’s
-    disease and frontotemporal dementia
-  description: Scientific Reports - Explainable EEG-based machine learning for early
-    diagnosis of Alzheimer’s disease and frontotemporal dementia
-  url: https://www.nature.com/articles/s41598-026-57069-1
-  date: '2026-06-16'
-  source: Nature.com
-- title: Machine Learning Engineer – Data Pipeline
-  description: 'About us: At Articul8 AI, we relentlessly pursue excellence and create
-    exceptional AI products that exceed customer expectations. We are a team of dedicated
-    individuals who take pride in our work and strive for greatness in every aspect
-    of our busine'
-  url: https://nlppeople.com/job/machine-learning-engineer-data-pipeline/
-  date: '2026-06-16'
-  source: Nlppeople.com
-- title: Associate Professor in Machine Learning and Natural Language Processing (Social
-    Media Analytics)
-  description: 'This Job is based in Australia Associate Professor in Machine Learning
-    and Natural Language Processing (Social Media Analytics) Apply now Job no: 540051
-    Work type: Full Time Location: Sydney, NSW Categories: Associate Professor Job
-    Details Salary, Le'
-  url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-7/
-  date: '2026-06-16'
-  source: Nlppeople.com
-- title: AI Engineer Machine learning and Model Development Remote 68968
-  description: 'Job Description Job Title: AI Engineer – Machine Learning and Model
-    Development Location: Remote in St. Louis, MO Job Type Immediate need, W2 direct
-    hire (no subcontracting permitted) Key Responsibilities Design, develop, and deploy
-    end-to-end AI app'
-  url: https://nlppeople.com/job/ai-engineer-machine-learning-and-model-development-remote-68968/
-  date: '2026-06-16'
-  source: Nlppeople.com
-- title: Zen and the Art of Machine Learning Research
-  description: if you want to do world-class research, temperament matters more than
-    talent
-  url: https://blog.jxmo.io/p/zen-and-the-art-of-machine-learning
-  date: '2026-06-16'
-  source: Jxmo.io
