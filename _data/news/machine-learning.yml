@@ -1,4 +1,46 @@
 news_items:
+- title: Integrating experimental and python-based machine learning analyses to evaluate
+    growth, morpho-physiological responses and nutrient dynamics of buxus species
+    in response to sheep wool fertilization
+  description: Scientific Reports - Integrating experimental and python-based machine
+    learning analyses to evaluate growth, morpho-physiological responses and nutrient
+    dynamics of buxus species in response to...
+  url: https://www.nature.com/articles/s41598-026-67947-3.pdf
+  date: '2026-09-15'
+  source: Nature.com
+- title: Canada is pushing ahead with machine learning to improve medical diagnostics
+  description: The future of machine learning in Canadian medical diagnostics appears
+    increasingly promising. Advances in computing power, the growth of health data
+    repositories and continued investment in AI research are accelerating innovation
+    across the healthca
+  url: https://www.digitaljournal.com/article/canada-is-pushing-ahead-with-machine-learning-to-improve-medical-diagnostics/
+  date: '2026-09-15'
+  source: Digital Journal
+- title: Machine Learning Researcher – NLP / LLM
+  description: 'Job DescriptionMachine Learning Research Engineer – NLP / LLM Expert
+    A brilliant opportunity for a Machine Learning Research Engineer to work on researching
+    and investigating new concepts for industry-leading, machine-learning software
+    in Cambridge, '
+  url: https://nlppeople.com/job/machine-learning-researcher-nlp-llm-3/
+  date: '2026-09-15'
+  source: Nlppeople.com
+- title: Machine Learning Engineer, NLP | InsurTech, AI, Scale-up | London 5 Days
+    in Office, Stocks & Benefits
+  description: Machine Learning Engineer, NLP | InsurTech, AI, Scale-up | London 5
+    Days in Office, Up to £165,000 Stocks & Benefits Owen Thomas is partnering with
+    a high-growth, venture-backed InsurTech scale-up that is disrupting a massive
+    $200B global market. Usi
+  url: https://nlppeople.com/job/machine-learning-engineer-nlp-insurtech-ai-scale-up-london-5-days-in-office-stocks-benefits-5/
+  date: '2026-09-15'
+  source: Nlppeople.com
+- title: Applied AI ML – Senior Associate – Machine Learning Engineer
+  description: Join a high performing team of applied AI experts to drive innovation
+    and new capabilities in the Commercial & Investment Bank. As an Applied AI / ML
+    Senior Associate Machine Learning Engineer in the Applied AI ML team at JPMorgan
+    Commercial & Invest
+  url: https://nlppeople.com/job/applied-ai-ml-senior-associate-machine-learning-engineer-6/
+  date: '2026-09-15'
+  source: Nlppeople.com
 - title: Why don't machine learning research agents overfit?
   description: New research indicates that AI agents learn compressible models of
     data, which don’t have enough space to enable memorization.
@@ -30,6 +72,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-71215-9
   date: '2026-09-14'
   source: Nature.com
+- title: AI / Machine Learning Engineer – Agentic LLM Systems (Contract)
+  description: AI / Machine Learning Engineer – Agentic LLM Systems (Contract) We’re
+    working with a leading tech organisation building next-generation agentic AI systems
+    – LLMs that can plan, reason, call tools, and write/execute code. We’re hiring
+    a Machine Learni
+  url: https://nlppeople.com/job/ai-machine-learning-engineer-agentic-llm-systems-contract/
+  date: '2026-09-14'
+  source: Nlppeople.com
 - title: 'AI vs Machine Learning vs AGI: What’s the Difference?'
   description: 'Learn the difference between AI, machine learning, and AGI in plain
     English, with everyday examples and tips for spotting exaggerated AI claims in
@@ -54,6 +104,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-71418-0.pdf
   date: '2026-09-13'
   source: Nature.com
+- title: Machine Learning Research Engineer – NLP / LLM
+  description: An incredible opportunity for a Machine Learning Research Engineer
+    to work on researching and investigating new concepts for an industry -leading,
+    machine -learning software company in Cambridge, UK. This unique opportunity is
+    ideally suited to those
+  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-23/
+  date: '2026-09-13'
+  source: Nlppeople.com
 - title: An optimized machine learning approach for reliable agronomic parameter prediction
     in precision farming systems
   description: Scientific Reports - An optimized machine learning approach for reliable
@@ -2672,53 +2730,4 @@ news_items:
     architecture, c
   url: https://nlppeople.com/job/artificial-intelligence-machine-learning-vice-president-boston-ma-usa-2/
   date: '2026-06-18'
-  source: Nlppeople.com
-- title: 12 top machine learning use cases and business applications
-  description: Machine learning applications in the era of GenAI and AI agents are
-    increasing the efficiency and accuracy of everything from decision-making to maintenance
-    to service delivery.
-  url: https://www.techtarget.com/searchenterpriseai/feature/Top-12-machine-learning-use-cases-and-business-applications
-  date: '2026-06-17'
-  source: Techtarget.com
-- title: Combining machine learning and iterative experiments to keep pace with emerging
-    viral variants of concern
-  description: Author summary The COVID-19 pandemic highlighted the threat posed by
-    rapidly evolving viruses. SARS-CoV-2, the virus that causes COVID-19, continues
-    to mutate in ways that can reduce the effectiveness of neutralizing antibodies
-    from vaccines or prior
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014394
-  date: '2026-06-17'
-  source: Plos.org
-- title: Machine learning-driven identification of virulence determinants in Borrelia
-    burgdorferi associated with human dissemination
-  description: Author summary Lyme disease, caused by Borrelia burgdorferi (Bb), afflicts
-    over 470,000 Americans annually, yet predicting which infections will progress
-    from localized to disseminated disease remains a critical clinical challenge.
-    Despite decades of
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014407
-  date: '2026-06-17'
-  source: Plos.org
-- title: Senior AI / Machine Learning Engineer
-  description: About Absentia Labs Absentia Labs is building intelligent systems that
-    sit at the intersection of AI, biology, chemistry, and large-scale engineering.
-    Our goal is to translate complex scientific data into machine intelligence capable
-    of reasoning, ge
-  url: https://nlppeople.com/job/senior-ai-machine-learning-engineer/
-  date: '2026-06-17'
-  source: Nlppeople.com
-- title: Senior Data Scientist – AI / Machine Learning
-  description: Senior Data Scientist – AI & Machine Learning ($175k – $225k) GEOSPACE
-    LLC | Minneapolis, MN (Hybrid) | Full-Time About Us GEOSPACE is a Minneapolis-based
-    startup with new perspectives on acquiring, transforming, and applying 3D data
-    for the real est
-  url: https://nlppeople.com/job/senior-data-scientist-ai-machine-learning/
-  date: '2026-06-17'
-  source: Nlppeople.com
-- title: AI and Machine Learning Specialist
-  description: 'Project Overview The Humanitarian and Stabilisation Operations Team
-    (HSOT) is contracted by Palladium to deliver the Humanitarian Emergency Response
-    Operations and Stabilisation Programme (HEROS), working with FCDO’s Humanitarian
-    Response Department '
-  url: https://nlppeople.com/job/ai-and-machine-learning-specialist/
-  date: '2026-06-17'
   source: Nlppeople.com
