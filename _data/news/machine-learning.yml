@@ -1,4 +1,43 @@
 news_items:
+- title: Meet Maya Trutschl, the 18-year-old Louisiana student who built a $130 system
+    that detects bedsores before they form in ICU patients using machine learning
+    and thermal cameras; wins a $25,000 scholarship
+  description: At just eighteen, Maya Trutschl has created a pioneering system that
+    utilizes machine learning and thermal imaging to detect early signs of pressure
+    injuries. This innovative approach not only helps prevent bedsores but also provides
+    timely alerts to
+  url: https://timesofindia.indiatimes.com/world/us/meet-maya-trutschl-the-18-year-old-louisiana-student-who-built-a-130-system-that-detects-bedsores-before-they-form-in-icu-patients-using-machine-learning-and-thermal-cameras-wins-a-25000-scholarship/articleshow/134266149.cms
+  date: '2026-09-16'
+  source: The Times of India
+- title: 'Forest encroachment prediction using multi-temporal satellite data and machine
+    learning: a case study of Bandipur National Park, India'
+  description: 'Scientific Reports - Forest encroachment prediction using multi-temporal
+    satellite data and machine learning: a case study of Bandipur National Park, India'
+  url: https://www.nature.com/articles/s41598-026-70597-0.pdf
+  date: '2026-09-16'
+  source: Nature.com
+- title: Topology-enhanced machine learning for speech signal processing
+  description: 'Topological data analysis had shown promise in capturing intrinsic
+    structural features of complex data. Here, the&nbsp;authors integrate topological
+    data analysis with machine learning to capture structural features in consonant
+    classification while '
+  url: https://www.nature.com/articles/s41467-026-77649-z.pdf
+  date: '2026-09-16'
+  source: Nature.com
+- title: A comparative study of machine learning models in QSPR analysis of antihypertensive
+    drug compounds
+  description: Scientific Reports - A comparative study of machine learning models
+    in QSPR analysis of antihypertensive drug compounds
+  url: https://www.nature.com/articles/s41598-026-67392-2.pdf
+  date: '2026-09-16'
+  source: Nature.com
+- title: Machine learning for one day ahead prediction of high fire weather index
+    conditions from area weighted ERA5 data in mersin
+  description: Scientific Reports - Machine learning for one day ahead prediction
+    of high fire weather index conditions from area weighted ERA5 data in mersin
+  url: https://www.nature.com/articles/s41598-026-68923-7.pdf
+  date: '2026-09-16'
+  source: Nature.com
 - title: Integrating experimental and python-based machine learning analyses to evaluate
     growth, morpho-physiological responses and nutrient dynamics of buxus species
     in response to sheep wool fertilization
@@ -2679,55 +2718,3 @@ news_items:
   url: https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2026.1778372/full
   date: '2026-06-19'
   source: Frontiersin.org
-- title: Machine Learning-Assisted Design of Dual-Atom Catalysts and the "Convergence-Selective
-    Transfer" Charge Regulation Mechanism for ORR
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA03340G,
-    PaperCheng He, Hongxing Yan, Shen Xi, Wenxue ZhangThe oxygen reduction reaction
-    (ORR) is a crucial cathodic process in fuel cells, but the unclear catalytic mechanism,
-    low screening'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta03340g
-  date: '2026-06-18'
-  source: Royal Society of Chemistry
-- title: Optical communication network signal analysis and cyber security modelling
-    by frequency modulation with machine learning algorithm
-  description: Scientific Reports - Optical communication network signal analysis
-    and cyber security modelling by frequency modulation with machine learning algorithm
-  url: https://www.nature.com/articles/s41598-026-56831-9
-  date: '2026-06-18'
-  source: Nature.com
-- title: Machine Learning-Aided 3D-AFM for Identification of Spatial Heterogeneity
-    in Interfacial Solvation Structures
-  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR00856A, PaperJiacheng
-    Li, Ming Ma, Zehao Li, Zhi Xu, Changlong Ruan, Jinhu Yang, Han LiInterfacial solvation
-    structures are crucial in wide-ranging applications, including lubrication and
-    electroch'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr00856a
-  date: '2026-06-18'
-  source: Royal Society of Chemistry
-- title: Artificial Intelligence & Machine Learning, Vice President | Boston, MA,
-    USA
-  description: Artificial Intelligence & Machine Learning, Vice President Who we are
-    looking for We are looking for an Artificial Intelligence & Machine Learning,
-    Vice President with a robust background in Generative AI, Machine Learning, enterprise
-    architecture, c
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-vice-president-boston-ma-usa/
-  date: '2026-06-18'
-  source: Nlppeople.com
-- title: AI / Machine Learning Engineer Leaders and Decision-Makers for Workflow Management
-    Tools (Freelance
-  description: Job Description AI / Machine Learning Engineer Leaders and Decision-Makers
-    for Workflow Management Tools Location Philadelphia, PA On-site, Remote About
-    Prolific Prolific is building the biggest pool of quality human data in the world.
-    Over 35,000 AI
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-leaders-and-decision-makers-for-workflow-management-tools-freelance/
-  date: '2026-06-18'
-  source: Nlppeople.com
-- title: Artificial Intelligence & Machine Learning, Vice President | Boston, MA,
-    USA
-  description: Artificial Intelligence & Machine Learning, Vice President Who we are
-    looking for We are looking for an Artificial Intelligence & Machine Learning,
-    Vice President with a robust background in Generative AI, Machine Learning, enterprise
-    architecture, c
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-vice-president-boston-ma-usa-2/
-  date: '2026-06-18'
-  source: Nlppeople.com

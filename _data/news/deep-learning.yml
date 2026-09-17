@@ -1,4 +1,29 @@
 news_items:
+- title: SpaMOAL is a deep learning method that enables accurate spatial domain identification
+    from multi-omics data
+  description: 'Spatial multi-omics technologies reveal tissue organization through
+    diverse molecular and spatial data, yet integrating these multi-omics and histology
+    datasets remains challenging. This study develops SpaMOAL, a graph contrastive
+    learning framework '
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003690
+  date: '2026-09-16'
+  source: Plos.org
+- title: Deep learning coupled with scalable domain-specific structural validation
+    expands RNA virus discovery from metatranscriptomes
+  description: Here, the authors develop Rider, a method that integrates protein language
+    modelling with domain-specific structural validation to detect divergent RNA viruses
+    across more than 10,000 metatranscriptomes, including long polyproteins and short
+    fragment
+  url: https://www.nature.com/articles/s41467-026-77183-y.pdf
+  date: '2026-09-16'
+  source: Nature.com
+- title: Deep learning feature fusion with transfer learning for Alzheimer’s disease
+    classification
+  description: Scientific Reports - Deep learning feature fusion with transfer learning
+    for Alzheimer’s disease classification
+  url: https://www.nature.com/articles/s41598-026-69094-1.pdf
+  date: '2026-09-16'
+  source: Nature.com
 - title: Generalisation of a deep learning-based exophthalmometry system using facial
     photographs for non-thyroidal orbital disease
   description: Aims To evaluate agreement between photo-based automated exophthalmometry
@@ -1026,37 +1051,3 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/06/19/3314691/0/en/Deep-Learning-Market-to-Reach-1-963-25-Billion-by-2035-as-Generative-AI-and-Enterprise-Automation-Drive-Massive-AI-Investments-Research-by-SNS-Insider.html
   date: '2026-06-19'
   source: GlobeNewswire
-- title: A deep learning-based automated Solar-Powered Fish Monitoring System
-  description: Green fish farming represents an integrated aquaculture approach that
-    rears aquatic organisms in controlled environments to improve production efficiency
-    and environmental sustainability. Although significant, current green fish farming
-    practices are
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0351628
-  date: '2026-06-18'
-  source: Plos.org
-- title: A universal deep learning framework for empowering nanopore identification
-    by reinforcing temporal signals
-  description: 'Nanopore sensing struggles to resolve structurally similar molecules
-    from noisy temporal signals. Here, authors present SEDA-Former, which integrates
-    multi-scale temporal enhancement and progressive adaptive attention training,
-    to achieve robust and '
-  url: https://www.nature.com/articles/s41467-026-74507-w
-  date: '2026-06-18'
-  source: Nature.com
-- title: Agricultural sustainability monitoring in arid regions using hybrid deep
-    learning and Landsat 8 imagery in Najran City, Saudi Arabia
-  description: Scientific Reports - Agricultural sustainability monitoring in arid
-    regions using hybrid deep learning and Landsat 8 imagery in Najran City, Saudi
-    Arabia
-  url: https://www.nature.com/articles/s41598-026-58271-x
-  date: '2026-06-18'
-  source: Nature.com
-- title: Material characterization of aluminosilicate hydrate geopolymers using deep
-    learning assisted tailor-made potential
-  description: 'J. Mater. Chem. A, 2026, Advance ArticleDOI: 10.1039/D6TA01407K, Paper
-    Open Access &nbsp This article is licensed under a Creative Commons Attribution-NonCommercial
-    3.0 Unported Licence.Yu Li, Jia-ao Hou, Yuqi Feng, Danyang Zhao, Cheuk Lun Chow,
-    Denv'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta01407k
-  date: '2026-06-18'
-  source: Royal Society of Chemistry
