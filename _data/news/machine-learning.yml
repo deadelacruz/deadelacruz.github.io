@@ -1,4 +1,61 @@
 news_items:
+- title: Machine learning–driven decoding of maternal immune signatures in repeated
+    pregnancy loss
+  description: Author summary Repeated Pregnancy Loss (RPL) is a devastating condition
+    affecting many couples. It is particularly perplexing when it occurs even though
+    the fetus is genetically normal, leaving doctors and patients without clear answers.
+    Successful p
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014806
+  date: '2026-09-17'
+  source: Plos.org
+- title: Affirm launches transformer-based machine learning model for real-time underwriting
+  description: 'New model builds on 14 years of transaction-level underwriting experience
+    and data to approve more eligible consumers at comparable levels of risk SAN FRANCISCO
+    — For 14 years, Affirm (NASDAQ: AFRM) has underwritten every purchase individually,
+    in re'
+  url: https://financialpost.com/pmn/business-wire-news-releases-pmn/affirm-launches-transformer-based-machine-learning-model-for-real-time-underwriting
+  date: '2026-09-17'
+  source: Financial Post
+- title: Affirm launches transformer-based machine learning model for real-time underwriting
+  description: 'Affirm''s AI-driven underwriting model could redefine credit risk
+    assessment, enhancing approval rates and margins in the BNPL industry.
+
+    The post Affirm launches transformer-based machine learning model for real-time
+    underwriting appeared first on Cry'
+  url: https://cryptobriefing.com/affirm-transformer-ml-underwriting/
+  date: '2026-09-17'
+  source: Crypto Briefing
+- title: Development and external validation of machine learning models for predicting
+    hysterectomy in patients with postpartum hemorrhage
+  description: Scientific Reports - Development and external validation of machine
+    learning models for predicting hysterectomy in patients with postpartum hemorrhage
+  url: https://www.nature.com/articles/s41598-026-71372-x.pdf
+  date: '2026-09-17'
+  source: Nature.com
+- title: Senior / Principal Machine Learning Scientist, Scientific Reasoning Models,
+    AI for Drug Discovery
+  description: The PositionA healthier future. It’s what drives us to innovate. To
+    continuously advance science and ensure everyone has access to the healthcare
+    they need today and for generations to come. Creating a world where we all have
+    more time with the peopl
+  url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-17/
+  date: '2026-09-17'
+  source: Nlppeople.com
+- title: Development and internal validation of an EHR machine learning model for
+    clinical deterioration in ICU linked inpatients
+  description: Scientific Reports - Development and internal validation of an EHR
+    machine learning model for clinical deterioration in ICU linked inpatients
+  url: https://www.nature.com/articles/s41598-026-71682-0.pdf
+  date: '2026-09-17'
+  source: Nature.com
+- title: Machine Learning / NLP Data Scientist
+  description: Attadale serves some of the most sophisticated and successful companies
+    in the world. We are at the forefront of Machine Learning solutions that influence
+    tangible business outcomes. Our clients engage Attadale because our work drives
+    change that inc
+  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-23/
+  date: '2026-09-17'
+  source: Nlppeople.com
 - title: Meet Maya Trutschl, the 18-year-old Louisiana student who built a $130 system
     that detects bedsores before they form in ICU patients using machine learning
     and thermal cameras; wins a $25,000 scholarship
@@ -38,6 +95,14 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-68923-7.pdf
   date: '2026-09-16'
   source: Nature.com
+- title: Data Scientist & Machine Learning Engineer
+  description: Summary / Objective The Data & Analytics team builds and manages data
+    systems, analyzes information to generate insights, and develops machine learning
+    models to support automated decisioning. As a Data Scientist and Machine Learning
+    Engineer, you wi
+  url: https://nlppeople.com/job/data-scientist-machine-learning-engineer-6/
+  date: '2026-09-16'
+  source: Nlppeople.com
 - title: Integrating experimental and python-based machine learning analyses to evaluate
     growth, morpho-physiological responses and nutrient dynamics of buxus species
     in response to sheep wool fertilization
@@ -78,6 +143,22 @@ news_items:
     Senior Associate Machine Learning Engineer in the Applied AI ML team at JPMorgan
     Commercial & Invest
   url: https://nlppeople.com/job/applied-ai-ml-senior-associate-machine-learning-engineer-6/
+  date: '2026-09-15'
+  source: Nlppeople.com
+- title: Artificial Intelligence/Machine Learning Engineer II
+  description: American Equity Investment Life Insurance Company is a leading provider
+    of annuity solutions designed to help clients protect and grow retirement income.
+    Part of Brookfield Wealth Solutions, we partner with more than 40,000 financial
+    professionals an
+  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-engineer-ii/
+  date: '2026-09-15'
+  source: Nlppeople.com
+- title: AI Machine Learning Technical Project Manager
+  description: Description We are seeking an experienced and mission-focused Technical
+    Program Manager (PM) to lead, coordinate, and accelerate the delivery of cutting-edge
+    AI/ML and secure cloud concepts and solutions across several key IC programs.
+    This is a Hybr
+  url: https://nlppeople.com/job/ai-machine-learning-technical-project-manager/
   date: '2026-09-15'
   source: Nlppeople.com
 - title: Why don't machine learning research agents overfit?
@@ -2685,36 +2766,3 @@ news_items:
   url: https://nlppeople.com/job/a-ai-machine-learning-engineer-early-career-4/
   date: '2026-06-20'
   source: Nlppeople.com
-- title: Machine Learning Engineer
-  description: At Corsearch, we are dedicated to creating a world where consumers
-    can trust the choices they make. As a global leader in Trademark and Brand Protection,
-    we partner with businesses to safeguard their most valuable assets in an increasingly
-    complex di
-  url: https://nlppeople.com/job/machine-learning-engineer-594/
-  date: '2026-06-19'
-  source: Nlppeople.com
-- title: Machine Learning Researcher – NLP / LLM
-  description: 'Job DescriptionMachine Learning Research Engineer – NLP / LLM Expert
-    A brilliant opportunity for a Machine Learning Research Engineer to work on researching
-    and investigating new concepts for industry-leading, machine-learning software
-    in Cambridge, '
-  url: https://nlppeople.com/job/machine-learning-researcher-nlp-llm-2/
-  date: '2026-06-19'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-9/
-  date: '2026-06-19'
-  source: Nlppeople.com
-- title: 'Frontiers | Harnessing generative artificial intelligence for periodontitis
-    prediction: a machine learning approach integrating systemic health indicators
-    for precision oral health in resource-limited settings'
-  description: 'Frontiers | Harnessing generative artificial intelligence for periodontitis
-    prediction: a machine learning approach integrating systemic health indicators
-    for precision oral health in resource-limited settingsfrontiersin.org'
-  url: https://www.frontiersin.org/journals/dental-medicine/articles/10.3389/fdmed.2026.1778372/full
-  date: '2026-06-19'
-  source: Frontiersin.org
