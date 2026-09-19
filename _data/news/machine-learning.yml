@@ -1,4 +1,17 @@
 news_items:
+- title: 'Response to comment on “Using genomic data and machine learning to predict
+    antibiotic resistance: A tutorial paper”'
+  description: No description available.
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014710
+  date: '2026-09-18'
+  source: Plos.org
+- title: Optimizing energy consumption in industrial wireless sensor networks using
+    a hybrid FCM and GWO machine learning approach
+  description: Scientific Reports - Optimizing energy consumption in industrial wireless
+    sensor networks using a hybrid FCM and GWO machine learning approach
+  url: https://www.nature.com/articles/s41598-026-71905-4.pdf
+  date: '2026-09-18'
+  source: Nature.com
 - title: Machine learning–driven decoding of maternal immune signatures in repeated
     pregnancy loss
   description: Author summary Repeated Pregnancy Loss (RPL) is a devastating condition
@@ -159,6 +172,14 @@ news_items:
     AI/ML and secure cloud concepts and solutions across several key IC programs.
     This is a Hybr
   url: https://nlppeople.com/job/ai-machine-learning-technical-project-manager/
+  date: '2026-09-15'
+  source: Nlppeople.com
+- title: Software Research Engineer-C, Python, and Machine Learning algorithms.
+  description: 'Job Title: Software Research Engineer Location: Warren, MI Employment
+    Type: W2 Job Overview Our client is looking for a Software Research Engineer with
+    strong expertise in C, Python, and Machine Learning algorithms. The ideal candidate
+    will have a st'
+  url: https://nlppeople.com/job/software-research-engineer-c-python-and-machine-learning-algorithms/
   date: '2026-09-15'
   source: Nlppeople.com
 - title: Why don't machine learning research agents overfit?
@@ -2758,11 +2779,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-58103-y
   date: '2026-06-21'
   source: Nature.com
-- title: A/AI Machine Learning Engineer- Early Career
-  description: 'Job ID: 732822BR Date posted: Jun. 18, 2026 Description:At Lockheed
-    Martin we keep people safe and solve the world’s most complex challenges. Our
-    people are some of the greatest minds in the industry and truly make Lockheed
-    Martin a great place to wo'
-  url: https://nlppeople.com/job/a-ai-machine-learning-engineer-early-career-4/
-  date: '2026-06-20'
-  source: Nlppeople.com

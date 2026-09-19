@@ -1,4 +1,20 @@
 news_items:
+- title: Feasibility of deep learning-based image reconstruction using TrueFidelity
+    for coronary calcium scoring
+  description: We evaluated the feasibility of deep learning-based image reconstruction
+    (DLIR) using GE TrueFidelity at high strength for coronary calcium scoring, compared
+    with filtered back projection (FBP) and iterative reconstruction (IR; adaptive
+    statistical i
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358342
+  date: '2026-09-18'
+  source: Plos.org
+- title: Application of deep learning to estimate blue and fin whale call density
+    in the southern California Current Ecosystem
+  description: Scientific Reports - Application of deep learning to estimate blue
+    and fin whale call density in the southern California Current Ecosystem
+  url: https://www.nature.com/articles/s41598-026-71037-9.pdf
+  date: '2026-09-18'
+  source: Nature.com
 - title: Machine learning and deep learning–based prediction of hypertension and analysis
     of its major risk factors in Bangladesh
   description: Background Hypertension is a leading cause of cardiovascular morbidity
@@ -1042,12 +1058,4 @@ news_items:
     fluorescen
   url: https://www.nature.com/articles/s41467-026-74716-3
   date: '2026-06-21'
-  source: Nature.com
-- title: Development of an anemia detection model in emergency departments using lip
-    region images based on medical knowledge and deep learning technology
-  description: Scientific Reports - Development of an anemia detection model in emergency
-    departments using lip region images based on medical knowledge and deep learning
-    technology
-  url: https://www.nature.com/articles/s41598-026-40210-5
-  date: '2026-06-20'
   source: Nature.com
