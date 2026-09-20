@@ -1,4 +1,18 @@
 news_items:
+- title: 'HemaViT: transformer-based deep learning for automated non-invasive anemia
+    detection using conjunctival imaging'
+  description: 'Scientific Reports - HemaViT: transformer-based deep learning for
+    automated non-invasive anemia detection using conjunctival imaging'
+  url: https://www.nature.com/articles/s41598-026-70965-w.pdf
+  date: '2026-09-19'
+  source: Nature.com
+- title: Synthetic-data-trained deep learning enables quantitative terahertz metrology
+    in pharmaceutical coatings
+  description: Scientific Reports - Synthetic-data-trained deep learning enables quantitative
+    terahertz metrology in pharmaceutical coatings
+  url: https://www.nature.com/articles/s41598-026-71052-w.pdf
+  date: '2026-09-19'
+  source: Nature.com
 - title: Feasibility of deep learning-based image reconstruction using TrueFidelity
     for coronary calcium scoring
   description: We evaluated the feasibility of deep learning-based image reconstruction
@@ -1051,11 +1065,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352191
   date: '2026-06-23'
   source: Plos.org
-- title: 'smDeepFLUOR: single-molecule deep learning fluorescence classification'
-  description: Single-molecule fluorescence imaging struggles to distinguish signals
-    from different molecular events when intensity profiles appear similar. Here,
-    the authors introduce smDeepFLUOR, a deep learning framework that classifies spatiotemporal
-    fluorescen
-  url: https://www.nature.com/articles/s41467-026-74716-3
-  date: '2026-06-21'
-  source: Nature.com
