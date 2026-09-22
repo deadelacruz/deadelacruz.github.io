@@ -1,4 +1,13 @@
 news_items:
+- title: AlloPool is a deep learning framework that infers protein allostery from
+    molecular dynamics simulations
+  description: Protein function depends on dynamic conformational changes that remain
+    difficult to predict despite advances in AI-based structure modeling. This study
+    develops a graph neural network-based framework called AlloPool that accurately
+    extracts allosteri
+  url: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004002
+  date: '2026-09-21'
+  source: Plos.org
 - title: 'HemaViT: transformer-based deep learning for automated non-invasive anemia
     detection using conjunctival imaging'
   description: 'Scientific Reports - HemaViT: transformer-based deep learning for
@@ -1056,12 +1065,3 @@ news_items:
   url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta03585j
   date: '2026-06-24'
   source: Royal Society of Chemistry
-- title: 'Bayesian Uncertainty-aware Deep Learning with noisy labels: Tackling annotation
-    ambiguity in EEG seizure detection'
-  description: Deep learning is advancing EEG processing for automated epileptic seizure
-    detection and onset zone localization, yet its performance relies heavily on high-quality
-    annotated training data. However, scalp EEG is susceptible to high noise levels,
-    which
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352191
-  date: '2026-06-23'
-  source: Plos.org

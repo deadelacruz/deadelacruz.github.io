@@ -1,4 +1,57 @@
 news_items:
+- title: Microsoft file patent for a machine learning system that would "train" itself
+    on your playtime to work out when you'll be least annoyed by in-game ads
+  description: 'Uncle Microsoft''s efforts to keep inventing the Torment Nexus proceed
+    apace with a patent application for an in-game advertising system that might use
+    machine learning to read your activities, and work out when you''ll be least apoplectic
+    about being '
+  url: https://www.rockpapershotgun.com/microsoft-file-patent-for-a-machine-learning-system-that-would-train-itself-on-your-playtime-to-work-out-when-youll-be-least-annoyed-by-in-game-ads
+  date: '2026-09-21'
+  source: Rock Paper Shotgun
+- title: 'Uncovering traditional retail location competition with machine learning:
+    The role of urban environments in light-asset and capital-intensive formats'
+  description: Understanding spatial competition between retail formats is vital for
+    sustaining urban commercial vitality. In China’s rapidly evolving urban economy,
+    the contrast between light‑asset and capital‑intensive formats within traditional
+    retail has been i
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358597
+  date: '2026-09-21'
+  source: Plos.org
+- title: 'Prevalence and associated factors of skilled birth attendants in Bangladesh:
+    A combined statistical and machine learning analysis'
+  description: Background Bangladesh has achieved notable progress in maternal and
+    child health; however, maternal and neonatal mortality remain high, partly due
+    to inadequate access to skilled birth attendants (SBA) during delivery. This study
+    aims to identify key
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358556
+  date: '2026-09-21'
+  source: Plos.org
+- title: Machine learning Majorana topology using unsupervised and supervised learning
+  description: In unsupervised learning, the training data for deep learning does
+    not come with any labels, thus forcing the algorithm to discover hidden patterns
+    in the data for discerning useful information. This, in principle, could be a
+    powerful tool in identif
+  url: https://link.aps.org/doi/10.1103/ywsw-29xc
+  date: '2026-09-21'
+  source: Aps.org
+- title: Probing lepton flavor mixing in ${W}_{R}$ searches with machine learning
+    at the LHC
+  description: Right-handed lepton flavor mixing in the left-right symmetric model
+    directly affects the production and decay of heavy Majorana neutrinos ${N}_{R}$,
+    yet its impact on collider searches remains less explored. Using a deep neural
+    network, we analyze th
+  url: https://link.aps.org/doi/10.1103/fzws-k9rl
+  date: '2026-09-21'
+  source: Aps.org
+- title: An interpretable machine learning framework for real-time copper cathode
+    quality prediction in industrial bioleaching–solvent extraction–electrowinning
+    operations
+  description: Scientific Reports - An interpretable machine learning framework for
+    real-time copper cathode quality prediction in industrial bioleaching–solvent
+    extraction–electrowinning operations
+  url: https://www.nature.com/articles/s41598-026-71923-2.pdf
+  date: '2026-09-21'
+  source: Nature.com
 - title: Developing meta-FM machine learning model with application for personalized
     language learning environment
   description: Scientific Reports - Developing meta-FM machine learning model with
@@ -2676,71 +2729,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-59211-5
   date: '2026-06-24'
   source: Nature.com
-- title: Domino Data Lab Named a Visionary for the Third Consecutive Year in the 2026
-    Gartner® Magic Quadrant™ for AI Platforms for Data Science and Machine Learning
-  description: Recognized for its Ability to Execute and Completeness of Vision. SAN
-    FRANCISCO, June 23, 2026 /PRNewswire/ -- Domino Data Lab, provider of the unified
-    platform to build, scale, and govern AI-powered applications for the most-regulated
-    enterprises, t
-  url: https://www.prnewswire.com/news-releases/domino-data-lab-named-a-visionary-for-the-third-consecutive-year-in-the-2026-gartner-magic-quadrant-for-ai-platforms-for-data-science-and-machine-learning-302808062.html
-  date: '2026-06-23'
-  source: PRNewswire
-- title: BetGiant Launches AI Football Prediction App with Machine Learning, Ancient
-    Oracle Systems & Automated Trading Engine for the 2026 FIFA World Cup & All Football
-    Leagues
-  description: BetGiant launches AI football prediction app; real-time match simulations,
-    oracle-powered picks & live football prediction. Free on iOS, Android & web....
-  url: https://www.globenewswire.com/news-release/2026/06/23/3316174/0/en/BetGiant-Launches-AI-Football-Prediction-App-with-Machine-Learning-Ancient-Oracle-Systems-Automated-Trading-Engine-for-the-2026-FIFA-World-Cup-All-Football-Leagues.html
-  date: '2026-06-23'
-  source: GlobeNewswire
-- title: 'More than 10% AI solutions and machine learning engineer jobs in India waiting
-    to be filled: Randstad Digital report'
-  description: India faces a significant AI talent crunch, with one in ten AI solutions
-    lead and machine learning engineer job postings unfilled. While India holds a
-    fifth of global AI job openings, the primary challenge is a shortage of advanced
-    skills, not a lack
-  url: https://economictimes.indiatimes.com/jobs/hr-policies-trends/more-than-10-ai-solutions-and-machine-learning-engineer-jobs-in-india-waiting-to-be-filled-randstad-digital-report/articleshow/131932698.cms
-  date: '2026-06-23'
-  source: The Times of India
-- title: Machine Learning Systems Engineer, Ads ML Platform
-  description: 'Reddit is a community of communities. It’s built on shared interests,
-    passion, and trust, and is home to the most open and authentic conversations on
-    the internet. Every day, Reddit users submit, vote, and comment on the topics
-    they care most about. '
-  url: https://nlppeople.com/job/machine-learning-systems-engineer-ads-ml-platform-2/
-  date: '2026-06-23'
-  source: Nlppeople.com
-- title: Graduate AI Machine Learning Engineer
-  description: 'About the Role: We are seeking a motivated and technically skilled
-    AI Machine Learning Engineer to join our growing team based in Central London.
-    This is an exciting opportunity for someone passionate about artificial intelligence
-    and data-driven sol'
-  url: https://nlppeople.com/job/graduate-ai-machine-learning-engineer/
-  date: '2026-06-23'
-  source: Nlppeople.com
-- title: Remote Senior Machine Learning Engineer
-  description: This is a vacancy for a hybrid, remote or on-site role at one of our
-    HQs. We encourage applications from all qualified candidates, regardless of gender
-    identity. As we continue to expand and evolve our Data Platform and Data Network
-    products, we’re l
-  url: https://nlppeople.com/job/remote-senior-machine-learning-engineer/
-  date: '2026-06-23'
-  source: Nlppeople.com
-- title: Machine Learning Driven Design of Polymer Dielectrics for High Temperature
-    Capacitive Energy Storage
-  description: 'Energy Environ. Sci., 2026, Accepted ManuscriptDOI: 10.1039/D6EE01953F,
-    PaperDongduan Liu, Ruojie Cheng, Qiao Li, Feng Wang, Yongqiu Li, Hongxiao Yang,
-    Mingfeng Shen, Qian Zhou, Jinliang He, Qi Li, Chao YuanPolymer dielectric capacitors
-    capable of st'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ee/d6ee01953f
-  date: '2026-06-23'
-  source: Royal Society of Chemistry
-- title: 'Advances in machine learning-driven lignin valorization: from dissolution,
-    characterization, to high-value conversion'
-  description: 'Green Chem., 2026, Accepted ManuscriptDOI: 10.1039/D6GC02374F, Tutorial
-    ReviewWeilu Ding, Yongjiang Hu, Yumiao Lu, Ziqi Zhai, Kaixuan Li, Hongyan HeLignin
-    is the most abundant renewable aromatic carbon resource on Earth, offering tremendous
-    potential'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/gc/d6gc02374f
-  date: '2026-06-23'
-  source: Royal Society of Chemistry
