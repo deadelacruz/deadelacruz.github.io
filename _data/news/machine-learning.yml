@@ -1,4 +1,50 @@
 news_items:
+- title: 'Performance of machine learning–based prediction models for hypoglycemia
+    in Chinese patients with diabetes: A systematic review and meta-analysis'
+  description: Objectives This study aimed to systematically evaluate the predictive
+    performance of machine learning (ML)–based models for predicting hypoglycemia
+    in Chinese patients with diabetes.   Methods We systematically searched PubMed,
+    Embase, Web of Science
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358876
+  date: '2026-09-22'
+  source: Plos.org
+- title: 'Quiz: Setting Up Python for Machine Learning on Windows'
+  description: Test your understanding of setting up a Python machine learning environment
+    on Windows with Miniconda, Conda environments, packages, and channels.
+  url: https://realpython.com/quizzes/python-windows-machine-learning-setup/
+  date: '2026-09-22'
+  source: Realpython.com
+- title: Should physical models be replaced by machine learning? A physics-corrected
+    probabilistic forecasting framework
+  description: 'Yang, T., Du, H., Aslett, L. & Smith, L. (2026). Should physical models
+    be replaced by machine learning? A physics-corrected probabilistic forecasting
+    framework. Physica A: Statistical Mechanics and Its Applications, 701, https://doi.org/10.1016/j.ph'
+  url: https://researchonline.lse.ac.uk/id/eprint/141066/
+  date: '2026-09-22'
+  source: Lse.ac.uk
+- title: Satellite-based condition assessment of urban green stormwater infrastructure
+    using a hybrid machine learning framework
+  description: Scientific Reports - Satellite-based condition assessment of urban
+    green stormwater infrastructure using a hybrid machine learning framework
+  url: https://www.nature.com/articles/s41598-026-67716-2.pdf
+  date: '2026-09-22'
+  source: Nature.com
+- title: Explainable machine learning identifies candidate shared neuroanatomical
+    features in Alzheimer’s and Parkinson’s via importance inversion transfer
+  description: Scientific Reports - Explainable machine learning identifies candidate
+    shared neuroanatomical features in Alzheimer’s and Parkinson’s via importance
+    inversion transfer
+  url: https://www.nature.com/articles/s41598-026-70903-w.pdf
+  date: '2026-09-22'
+  source: Nature.com
+- title: 'Prediction of pathological complete response to neoadjuvant chemo-immunotherapy
+    in locally advanced lung adenocarcinoma: a multimodal machine learning approach'
+  description: 'Scientific Reports - Prediction of pathological complete response
+    to neoadjuvant chemo-immunotherapy in locally advanced lung adenocarcinoma: a
+    multimodal machine learning approach'
+  url: https://www.nature.com/articles/s41598-026-68739-5.pdf
+  date: '2026-09-22'
+  source: Nature.com
 - title: Microsoft file patent for a machine learning system that would "train" itself
     on your playtime to work out when you'll be least annoyed by in-game ads
   description: 'Uncle Microsoft''s efforts to keep inventing the Torment Nexus proceed
@@ -2707,25 +2753,3 @@ news_items:
   url: https://nlppeople.com/job/senior-applied-machine-learning-engineer-catalogue-intelligence/
   date: '2026-06-25'
   source: Nlppeople.com
-- title: Riviera Partners Acquires Lateral Labs, Expanding Its AI and Machine Learning
-    Talent Search and Placement Capabilities
-  description: Riviera Partners, the leading global executive search firm specializing
-    in technology leadership, today announced the acquisition of Lateral Labs....
-  url: https://www.globenewswire.com/news-release/2026/06/24/3317108/0/en/Riviera-Partners-Acquires-Lateral-Labs-Expanding-Its-AI-and-Machine-Learning-Talent-Search-and-Placement-Capabilities.html
-  date: '2026-06-24'
-  source: GlobeNewswire
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-12/
-  date: '2026-06-24'
-  source: Nlppeople.com
-- title: Regional differences in physical fitness profiles of preschool children in
-    Chongqing China revealed by machine learning
-  description: Scientific Reports - Regional differences in physical fitness profiles
-    of preschool children in Chongqing China revealed by machine learning
-  url: https://www.nature.com/articles/s41598-026-59211-5
-  date: '2026-06-24'
-  source: Nature.com

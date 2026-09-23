@@ -1,4 +1,34 @@
 news_items:
+- title: 'Deep Learning in Infant Functional Neuroimaging: Challenges, Advances, and
+    Future Directions'
+  description: Infancy is a critical developmental window characterized by rapid functional
+    brain reorganization, during which large-scale networks emerge, individualized
+    connectome signatures continue to form, and early deviations may shape long-term
+    cognitive and
+  url: https://arxiv.org/abs/2609.26688
+  date: '2026-09-22'
+  source: Arxiv.org
+- title: Deep learning quantification of mouse nesting behavior for tracking cognitive
+    decline in models of aging & Alzheimer’s disease
+  description: Scientific Reports - Deep learning quantification of mouse nesting
+    behavior for tracking cognitive decline in models of aging &amp; Alzheimer’s disease
+  url: https://www.nature.com/articles/s41598-026-70681-5.pdf
+  date: '2026-09-22'
+  source: Nature.com
+- title: 'NanoTS: a deep learning tool for accurate SNP calling in nanopore long-read
+    transcriptome data'
+  description: NanoTS facilitates nanopore long-read transcriptome sequencing based
+    SNP detection and genotype calling using deep learning.
+  url: https://www.nature.com/articles/s41592-026-03225-4
+  date: '2026-09-22'
+  source: Nature.com
+- title: Peak-aware short-term household electricity consumption forecasting using
+    deep learning and transformer-based architectures
+  description: Scientific Reports - Peak-aware short-term household electricity consumption
+    forecasting using deep learning and transformer-based architectures
+  url: https://www.nature.com/articles/s41598-026-71915-2.pdf
+  date: '2026-09-22'
+  source: Nature.com
 - title: AlloPool is a deep learning framework that infers protein allostery from
     molecular dynamics simulations
   description: Protein function depends on dynamic conformational changes that remain
@@ -1034,34 +1064,3 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/06/25/3317690/0/en/Roadzen-Named-Deep-Learning-Company-of-the-Year-in-2026-AI-Breakthrough-Awards.html
   date: '2026-06-25'
   source: GlobeNewswire
-- title: A hidden predictor of sudden cardiac death uncovered by deep learning
-  description: A machine-learning model trained on thousands of electrocardiogram
-    recordings identifies a previously unrecognized group of at-risk people.
-  url: https://www.nature.com/articles/d41586-026-01806-z
-  date: '2026-06-24'
-  source: Nature.com
-- title: An ECG biomarker for sudden cardiac death discovered with deep learning
-  description: A deep-learning model trained on electrocardiogram (ECG) waveforms
-    identifies an easily visible biomarker that predicts sudden cardiac death more
-    accurately than the current clinical state of the art.
-  url: https://www.nature.com/articles/s41586-026-10674-6
-  date: '2026-06-24'
-  source: Nature.com
-- title: Deep Learning-Enabled Microfluidic Digital PCR Platform for Efficient Seven-Color
-    Quantification
-  description: 'Analyst, 2026, Accepted ManuscriptDOI: 10.1039/D6AN00369A, PaperZhenyu
-    Wang, Ke Yang, Jin Zhang, Changyi Hua, Yuanzhi Zhang, Quanfu Wang, Anzhong Hu,
-    Weilong Zhang, Yong Liu, Guoqing Deng, Jun Zhao, Ling ZhuDigital PCR (dPCR), as
-    a high-sensitivity t'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/an/d6an00369a
-  date: '2026-06-24'
-  source: Royal Society of Chemistry
-- title: Geometric Deep Learning Predicts Electrostatic Potential for High-Throughput
-    Electrolyte Design
-  description: 'J. Mater. Chem. A, 2026, Accepted ManuscriptDOI: 10.1039/D6TA03585J,
-    PaperDengyang Luo, Yaochun Yao, Rui Yang, Jiayu Tian, Bo Jin, Keyu Zhang, Yin
-    Li, Junxian Hu, Bin Yang, Yan He, Honglai Liu, Shaoze ZhangDeveloping advanced
-    electrolytes is pivotal '
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/ta/d6ta03585j
-  date: '2026-06-24'
-  source: Royal Society of Chemistry
