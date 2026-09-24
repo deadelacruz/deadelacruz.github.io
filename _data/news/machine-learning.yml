@@ -1,4 +1,36 @@
 news_items:
+- title: Integration of lipid metabolism and clinical features for discriminating
+    recurrent patellar dislocation using interpretable machine learning
+  description: Scientific Reports - Integration of lipid metabolism and clinical features
+    for discriminating recurrent patellar dislocation using interpretable machine
+    learning
+  url: https://www.nature.com/articles/s41598-026-54660-4
+  date: '2026-09-23'
+  source: Nature.com
+- title: 'Shared pathogenic genes and therapeutic targets in periodontitis and systemic
+    juvenile idiopathic arthritis: An integrative bioinformatics and machine learning
+    study'
+  description: Author summary Periodontitis, a common oral disease, and systemic juvenile
+    idiopathic arthritis, a rare autoimmune condition in children, have been clinically
+    linked, yet their shared molecular basis remains unclear. By analyzing gene expression
+    data
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014669
+  date: '2026-09-23'
+  source: Plos.org
+- title: 'Multifunctional TiO₂-modified cement mortar: experimental investigation,
+    machine learning prediction, and life cycle assessment'
+  description: 'Scientific Reports - Multifunctional TiO₂-modified cement mortar:
+    experimental investigation, machine learning prediction, and life cycle assessment'
+  url: https://www.nature.com/articles/s41598-026-71582-3.pdf
+  date: '2026-09-23'
+  source: Nature.com
+- title: Classification of real plastic waste using machine learning-assisted laser-induced
+    breakdown spectroscopy
+  description: Scientific Reports - Classification of real plastic waste using machine
+    learning-assisted laser-induced breakdown spectroscopy
+  url: https://www.nature.com/articles/s41598-026-72881-5.pdf
+  date: '2026-09-23'
+  source: Nature.com
 - title: 'Performance of machine learning–based prediction models for hypoglycemia
     in Chinese patients with diabetes: A systematic review and meta-analysis'
   description: Objectives This study aimed to systematically evaluate the predictive
@@ -2710,46 +2742,4 @@ news_items:
     they need to grow the'
   url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-2/
   date: '2026-06-26'
-  source: Nlppeople.com
-- title: QuadSci Named “Machine Learning Company of the Year” in 9th Annual AI Breakthrough
-    Awards Program
-  description: Program Honors the AI Innovators Shaping the Next Era of Global Innovation
-    NEW YORK — QuadSci, the most predictive and prescriptive AI for customer intelligence,
-    has been selected as the winner of the 2026 Machine Learning Company of the Year
-    award i
-  url: https://financialpost.com/pmn/business-wire-news-releases-pmn/quadsci-named-machine-learning-company-of-the-year-in-9th-annual-ai-breakthrough-awards-program
-  date: '2026-06-25'
-  source: Financial Post
-- title: Predicting the strength of waste aggregate concrete blocks using novel hybrid
-    machine learning models and graphical user interface deployment
-  description: Scientific Reports - Predicting the strength of waste aggregate concrete
-    blocks using novel hybrid machine learning models and graphical user interface
-    deployment
-  url: https://www.nature.com/articles/s41598-026-58662-0
-  date: '2026-06-25'
-  source: Nature.com
-- title: Spectroscopic discrimination of bacterial species of variable pathogenicity
-    through explainable machine learning
-  description: 'Nanoscale, 2026, Accepted ManuscriptDOI: 10.1039/D6NR00689B, PaperTanisha
-    Singh, Sunil Kumar Khare, Soumik SiddhantaRapid and accurate identification of
-    bacterial pathogens and their degree of pathogenicity is essential for guiding
-    antimicrobial ther'
-  url: https://pubs.rsc.org/en/content/articlelanding/2026/nr/d6nr00689b
-  date: '2026-06-25'
-  source: Royal Society of Chemistry
-- title: Senior Machine Learning Scientist, Borrowing
-  description: Join us in our mission to make money work for everyone. We’re transforming
-    traditional banking into something simple and accessible. Starting as a prepaid
-    card, our product suite has expanded significantly in the UK over the last decade.
-    We offer per
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-borrowing/
-  date: '2026-06-25'
-  source: Nlppeople.com
-- title: Senior Applied Machine Learning Engineer – Catalogue Intelligence
-  description: Who are OnBuy? OnBuy is an innovative online marketplace dedicated
-    to being the best choice for every customer, everywhere. Recently recognized as
-    one of the UK’s fastest-growing tech companies by the Sunday Times 100 Tech list,
-    we take great pride i
-  url: https://nlppeople.com/job/senior-applied-machine-learning-engineer-catalogue-intelligence/
-  date: '2026-06-25'
   source: Nlppeople.com

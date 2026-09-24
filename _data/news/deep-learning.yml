@@ -1,4 +1,18 @@
 news_items:
+- title: Deep learning framework for automated cervical vertebral maturation staging
+    using CBCT scans
+  description: Scientific Reports - Deep learning framework for automated cervical
+    vertebral maturation staging using CBCT scans
+  url: https://www.nature.com/articles/s41598-026-69967-5.pdf
+  date: '2026-09-23'
+  source: Nature.com
+- title: A novel deep learning-based approach for liver segmentation from 3D CT images
+    using probabilistic shape guidance
+  description: Scientific Reports - A novel deep learning-based approach for liver
+    segmentation from 3D CT images using probabilistic shape guidance
+  url: https://www.nature.com/articles/s41598-026-71324-5.pdf
+  date: '2026-09-23'
+  source: Nature.com
 - title: 'Deep Learning in Infant Functional Neuroimaging: Challenges, Advances, and
     Future Directions'
   description: Infancy is a critical developmental window characterized by rapid functional
@@ -1046,21 +1060,3 @@ news_items:
   url: https://researchonline.lse.ac.uk/id/eprint/139005/
   date: '2026-06-26'
   source: Lse.ac.uk
-- title: An ECG biomarker for sudden cardiac death discovered with deep learning
-  description: 'Abstract
-
-    Sudden cardiac death is, in theory, preventable with defibrillators. But every
-    year, many patients die without defibrillators because doctors fail to predict
-    their risk1. The only predictive biomarker in wide use, cardiac left ventricular
-    ej'
-  url: https://biztoc.com/x/7b0a0067bdff73e0
-  date: '2026-06-25'
-  source: Biztoc.com
-- title: Roadzen Named Deep Learning Company of the Year in 2026 AI Breakthrough Awards
-  description: Now in its ninth year, AI Breakthrough recognizes Roadzen alongside
-    Qualcomm, AMD, Dell Technologies, Snowflake, Intuit, SoundHound, Superhuman among
-    this year's leading AI innovators Now in its ninth year, AI Breakthrough recognizes
-    Roadzen alongsid
-  url: https://www.globenewswire.com/news-release/2026/06/25/3317690/0/en/Roadzen-Named-Deep-Learning-Company-of-the-Year-in-2026-AI-Breakthrough-Awards.html
-  date: '2026-06-25'
-  source: GlobeNewswire
