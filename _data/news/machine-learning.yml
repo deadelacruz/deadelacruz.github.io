@@ -1,4 +1,23 @@
 news_items:
+- title: Multi source Earth observation and machine learning framework for mapping
+    land degradation vulnerability in salinity- and hydrothermal-stressed regions
+    of the southern main Ethiopian Rift
+  description: Soil erosion and land degradation are the main environmental challenges
+    disturbing ecosystem services, agricultural productivity, and community livelihoods
+    in Ethiopia. The Southern Main Ethiopian Rift is one of the regions experiencing
+    high levels o
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359349
+  date: '2026-09-24'
+  source: Plos.org
+- title: 'Transcriptomic associations and biomarkers in ANCA‑associated Glomerulonephritis
+    and IgG4‑related Disease: A bioinformatics and machine learning study'
+  description: Introduction Anti-neutrophil cytoplasmic antibody-associated glomerulonephritis
+    (ANCA-GN) and immunoglobulin G4-related disease (IgG4-RD) are rare autoimmune
+    conditions. Although case reports suggest potential clinical and pathophysiological
+    overlaps
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0358953
+  date: '2026-09-24'
+  source: Plos.org
 - title: Integration of lipid metabolism and clinical features for discriminating
     recurrent patellar dislocation using interpretable machine learning
   description: Scientific Reports - Integration of lipid metabolism and clinical features
@@ -2705,41 +2724,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-58881-5
   date: '2026-06-27'
   source: Nature.com
-- title: 'Editorial Note: Machine learning–assisted optimization of a terahertz photonic
-    metamaterial absorber for blood cancer detection'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352490
-  date: '2026-06-26'
-  source: Plos.org
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-10/
-  date: '2026-06-26'
-  source: Nlppeople.com
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-13/
-  date: '2026-06-26'
-  source: Nlppeople.com
-- title: AI and Machine Learning Solutions Specialist
-  description: 'Join Us: We are embarking on an exciting new era in Data & AI that
-    promises to transform industries and society at large. At Accenture, we’re committed
-    to leading the charge with a clear vision: to empower clients in optimizing and
-    reinventing their '
-  url: https://nlppeople.com/job/ai-and-machine-learning-solutions-specialist-4/
-  date: '2026-06-26'
-  source: Nlppeople.com
-- title: Principal Machine Learning Data Scientist, Gen AI
-  description: 'Xometry (NASDAQ: XMTR) powers the industries of today and tomorrow
-    by connecting the people with big ideas to the manufacturers who can bring them
-    to life. Xometry’s digital marketplace gives manufacturers the critical resources
-    they need to grow the'
-  url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-2/
-  date: '2026-06-26'
-  source: Nlppeople.com

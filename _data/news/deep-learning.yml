@@ -1,4 +1,11 @@
 news_items:
+- title: Deep learning-based method for recognition and segmentation of nuchal translucency
+    in early pregnancy
+  description: Scientific Reports - Deep learning-based method for recognition and
+    segmentation of nuchal translucency in early pregnancy
+  url: https://www.nature.com/articles/s41598-026-72233-3.pdf
+  date: '2026-09-24'
+  source: Nature.com
 - title: Deep learning framework for automated cervical vertebral maturation staging
     using CBCT scans
   description: Scientific Reports - Deep learning framework for automated cervical
@@ -1044,19 +1051,3 @@ news_items:
   url: https://nlppeople.com/job/lead-data-scientist-deep-learning-specialist/
   date: '2026-06-27'
   source: Nlppeople.com
-- title: Hybrid deep learning for mental workload classification using EEG with enhanced
-    preprocessing and interpretability
-  description: Mental workload classification is critical in safety-sensitive fields
-    such as healthcare and aviation. However, electroencephalography-based approaches
-    still face challenges with generalizability, noise robustness, and interpretability.
-    In this study
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352882
-  date: '2026-06-26'
-  source: Plos.org
-- title: Deep learning with missing data
-  description: 'Wu, T. , Wang, T. ORCID logo & Samworth, R. J. (2026). Deep learning
-    with missing data. Journal of the Royal Statistical Society. Series B: Statistical
-    Methodology, [In Press]'
-  url: https://researchonline.lse.ac.uk/id/eprint/139005/
-  date: '2026-06-26'
-  source: Lse.ac.uk
