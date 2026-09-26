@@ -1,4 +1,28 @@
 news_items:
+- title: Noise-strength-adapted approximate quantum codes inspired by machine learning
+  description: 'We demonstrate that machine learning provides a powerful tool for
+    discovering approximate quantum error-correcting (AQEC) codes beyond conventional
+    algebraic frameworks. Building upon observations from hybrid quantum-classical
+    learning, we introduce '
+  url: https://link.aps.org/doi/10.1103/spl6-5vq5
+  date: '2026-09-25'
+  source: Aps.org
+- title: Mathematical modeling of chikungunya transmission dynamics and control using
+    disease-driven machine learning
+  description: Scientific Reports - Mathematical modeling of chikungunya transmission
+    dynamics and control using disease-driven machine learning
+  url: https://www.nature.com/articles/s41598-026-69710-0.pdf
+  date: '2026-09-25'
+  source: Nature.com
+- title: Machine learning and statistical methods for molecular quantitative trait
+    loci
+  description: Molecular quantitative trait loci (molQTLs) provide key insights into
+    how non-coding variants shape complex traits and disease. In this Review, the
+    authors outline statistical and machine learning approaches for molQTL mapping
+    and downstream analyses
+  url: https://www.nature.com/articles/s41576-026-00990-y
+  date: '2026-09-25'
+  source: Nature.com
 - title: Multi source Earth observation and machine learning framework for mapping
     land degradation vulnerability in salinity- and hydrothermal-stressed regions
     of the southern main Ethiopian Rift
@@ -2705,22 +2729,3 @@ news_items:
   url: https://nlppeople.com/job/product-delivery-manager-machine-learning-and-ai/
   date: '2026-06-28'
   source: Nlppeople.com
-- title: Machine Learning Is Enabling A New Era For Precision Medicine And Pharmacogenomics
-  description: Machine learning has unlocked significant value across the entire healthcare
-    delivery lifecycle.
-  url: https://www.forbes.com/sites/saibala/2026/06/27/machine-learning-is-enabling-a-new-era-for-precision-medicine-and-pharmacogenomics/
-  date: '2026-06-27'
-  source: Forbes
-- title: A machine learning-driven virtualized edge framework for real-time monitoring
-    and anomaly detection in solar photovoltaics
-  description: Scientific Reports - A machine learning-driven virtualized edge framework
-    for real-time monitoring and anomaly detection in solar photovoltaics
-  url: https://www.nature.com/articles/s41598-026-58923-y
-  date: '2026-06-27'
-  source: Nature.com
-- title: Predicting migratory survival in a songbird hybrid zone using machine learning
-  description: Scientific Reports - Predicting migratory survival in a songbird hybrid
-    zone using machine learning
-  url: https://www.nature.com/articles/s41598-026-58881-5
-  date: '2026-06-27'
-  source: Nature.com

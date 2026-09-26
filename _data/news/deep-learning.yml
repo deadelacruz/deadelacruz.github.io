@@ -1,4 +1,17 @@
 news_items:
+- title: Deep learning-based body weight estimation from lower abdominal CT scans
+  description: Scientific Reports - Deep learning-based body weight estimation from
+    lower abdominal CT scans
+  url: https://www.nature.com/articles/s41598-026-72207-5.pdf
+  date: '2026-09-25'
+  source: Nature.com
+- title: Chronological spotted hyena optimized deep learning approach for laryngeal
+    cancer detection using image and voice analysis
+  description: Scientific Reports - Chronological spotted hyena optimized deep learning
+    approach for laryngeal cancer detection using image and voice analysis
+  url: https://www.nature.com/articles/s41598-026-68984-8.pdf
+  date: '2026-09-25'
+  source: Nature.com
 - title: Deep learning-based method for recognition and segmentation of nuchal translucency
     in early pregnancy
   description: Scientific Reports - Deep learning-based method for recognition and
@@ -1043,11 +1056,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-58565-0
   date: '2026-06-28'
   source: Nature.com
-- title: Lead Data Scientist-Deep Learning Specialist
-  description: 'Why choose us? Are you ready to take the next step in your career?
-    Join us for an exciting opportunity at Albertsons Companies, where innovation
-    and customer service go hand-in-hand! At Albertsons Companies, we are looking
-    for someone who’s not just '
-  url: https://nlppeople.com/job/lead-data-scientist-deep-learning-specialist/
-  date: '2026-06-27'
-  source: Nlppeople.com
