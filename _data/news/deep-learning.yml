@@ -1,4 +1,13 @@
 news_items:
+- title: 'Data-driven identification of economic drivers and regional disparities
+    of ecological resilience in china’s urban agglomerations: an explainable deep
+    learning framework'
+  description: 'Scientific Reports - Data-driven identification of economic drivers
+    and regional disparities of ecological resilience in china’s urban agglomerations:
+    an explainable deep learning framework'
+  url: https://www.nature.com/articles/s41598-026-67246-x.pdf
+  date: '2026-09-26'
+  source: Nature.com
 - title: Deep learning-based body weight estimation from lower abdominal CT scans
   description: Scientific Reports - Deep learning-based body weight estimation from
     lower abdominal CT scans
@@ -1031,28 +1040,4 @@ news_items:
     a comparative study of CNNs, vision transformers, and interpretable models'
   url: https://www.nature.com/articles/s41598-026-56488-4
   date: '2026-06-29'
-  source: Nature.com
-- title: 'Show HN: Foveon – Bayer to Foveon X3, learned, Mac App using deep learning'
-  description: 'Article URL: https://code.intellios.ai/photo/
-
-    Comments URL: https://news.ycombinator.com/item?id=48704343
-
-    Points: 2
-
-    # Comments: 1'
-  url: https://code.intellios.ai/photo/
-  date: '2026-06-28'
-  source: Intellios.ai
-- title: Comparative analysis of CNN–LSTM and CNN–BiLSTM hybrid deep learning models
-    for solar radiation prediction
-  description: Scientific Reports - Comparative analysis of CNN–LSTM and CNN–BiLSTM
-    hybrid deep learning models for solar radiation prediction
-  url: https://www.nature.com/articles/s41598-026-59621-5
-  date: '2026-06-28'
-  source: Nature.com
-- title: Deep learning for time-series segmentation of mechanical ventilator waveforms
-  description: Scientific Reports - Deep learning for time-series segmentation of
-    mechanical ventilator waveforms
-  url: https://www.nature.com/articles/s41598-026-58565-0
-  date: '2026-06-28'
   source: Nature.com
