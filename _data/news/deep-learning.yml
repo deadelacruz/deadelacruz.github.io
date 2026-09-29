@@ -1,4 +1,13 @@
 news_items:
+- title: Automatic Generation of Expert-Level Neuron Segmentation Masks from Fluorescence
+    Microscopy Images for Non-Invasive Deep Learning Analysis of Phase-Contrast Images
+  description: Background & Objective Accurate segmentation of neurons in microscopy
+    images of neuronal cultures is crucial for research on neurodegenerative diseases
+    and neurotoxicity. Manual annotation of such images is time-consuming, subjective,
+    and inconsisten
+  url: https://arxiv.org/abs/2609.34464
+  date: '2026-09-28'
+  source: Arxiv.org
 - title: The roles of challenge and curiosity in deep learning and creative tendencies
     among Chinese medical undergraduates
   description: Scientific Reports - The roles of challenge and curiosity in deep learning
@@ -6,6 +15,15 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-73537-0.pdf
   date: '2026-09-27'
   source: Nature.com
+- title: Explainable Deep Learning of Resting-State Functional Connectomes Reveals
+    Network Biomarkers of Adolescent Intelligence
+  description: Mapping resting-state brain organization to individual differences
+    in cognitive ability remains a major challenge in population neuroinformatics.
+    Although deep learning enables flexible modeling of brain connectivity, limited
+    interpretability restric
+  url: https://arxiv.org/abs/2609.33422
+  date: '2026-09-27'
+  source: Arxiv.org
 - title: 'Data-driven identification of economic drivers and regional disparities
     of ecological resilience in china’s urban agglomerations: an explainable deep
     learning framework'
@@ -1027,11 +1045,3 @@ news_items:
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014476
   date: '2026-07-01'
   source: Plos.org
-- title: Probe-based identification of metal-binding sites using deep learning representations
-  description: The Authors present PRIME, a deep learning tool that fuses protein
-    sequence and structure to pinpoint metal-binding sites across diverse metal ions,
-    from abundant zinc to rare potassium, offering improvements in speed and accuracy
-    over existing metho
-  url: https://www.nature.com/articles/s41467-026-74657-x
-  date: '2026-06-30'
-  source: Nature.com

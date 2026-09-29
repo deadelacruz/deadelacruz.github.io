@@ -1,4 +1,30 @@
 news_items:
+- title: UNIVERSAL MUSIC GROUP APPOINTS ÒSCAR CELMA AS SENIOR VICE PRESIDENT, APPLIED
+    AI AND MACHINE LEARNING
+  description: Former Spotify, Pandora/SiriusXM and Condé Nast executive brings more
+    than two decades of expertise in AI, music discovery and personalization SANTA
+    MONICA, Calif., Sept. 28, 2026 /PRNewswire/ -- Universal Music Group (UMG), the
+    world leader in music
+  url: https://www.prnewswire.com/news-releases/universal-music-group-appoints-oscar-celma-as-senior-vice-president-applied-ai-and-machine-learning-302891575.html
+  date: '2026-09-28'
+  source: PRNewswire
+- title: Classification of pre-metabolic syndrome and metabolic syndrome using machine
+    learning and routine clinical variables in Thai adults
+  description: Background Metabolic syndrome (MetS) and pre-metabolic syndrome (pre-MetS)
+    are increasingly recognized as important stages of metabolic dysfunction in Asian
+    populations. Conventional diagnostic approaches rely on fixed threshold criteria,
+    whereas met
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359283
+  date: '2026-09-28'
+  source: Plos.org
+- title: Explainable and MOWCA-optimized machine learning for compressive strength
+    prediction and counterfactual mixture design of GGBS concrete
+  description: Scientific Reports - Explainable and MOWCA-optimized machine learning
+    for compressive strength prediction and counterfactual mixture design of GGBS
+    concrete
+  url: https://www.nature.com/articles/s41598-026-72886-0.pdf
+  date: '2026-09-28'
+  source: Nature.com
 - title: Noise-strength-adapted approximate quantum codes inspired by machine learning
   description: 'We demonstrate that machine learning provides a powerful tool for
     discovering approximate quantum error-correcting (AQEC) codes beyond conventional
@@ -2654,20 +2680,4 @@ news_items:
     great food! In t'
   url: https://nlppeople.com/job/director-of-machine-learning-artificial-intelligence-3/
   date: '2026-07-01'
-  source: Nlppeople.com
-- title: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)
-  description: Principal Machine Learning Engineer, AI & Data Platforms (AiDP)London,
-    England, United Kingdom Corporate Functions At Apple, we build AI systems that
-    define experiences for billions of people and we do it with an unwavering commitment
-    to privacy, per
-  url: https://nlppeople.com/job/principal-machine-learning-engineer-ai-data-platforms-aidp-11/
-  date: '2026-06-30'
-  source: Nlppeople.com
-- title: Machine Learning Hardware Architect – Silicon
-  description: 'Meta’s mission is to give people the power to build community and
-    bring the world closer together. Our global teams are constantly iterating, solving
-    problems, and working together to empower people around the world to build community
-    and connect in '
-  url: https://nlppeople.com/job/machine-learning-hardware-architect-silicon/
-  date: '2026-06-30'
   source: Nlppeople.com
