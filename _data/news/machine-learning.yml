@@ -1,4 +1,19 @@
 news_items:
+- title: Generative design of high-fidelity microstructures using physics-aware machine
+    learning
+  description: This study uses physics-aware AI to generate high-fidelity microstructures
+    beyond existing data distributions, resulting in a bimodal grain structure that
+    enables improved strength and ductility.
+  url: https://www.nature.com/articles/s41467-026-78118-3.pdf
+  date: '2026-09-29'
+  source: Nature.com
+- title: 'Expression of Concern: Identifying key determinants of health among China’s
+    migrant population using machine learning methods: Evidence from the china migrants
+    dynamic survey'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359262
+  date: '2026-09-29'
+  source: Plos.org
 - title: UNIVERSAL MUSIC GROUP APPOINTS ÒSCAR CELMA AS SENIOR VICE PRESIDENT, APPLIED
     AI AND MACHINE LEARNING
   description: Former Spotify, Pandora/SiriusXM and Condé Nast executive brings more
@@ -2640,44 +2655,4 @@ news_items:
     and AI. With a significan
   url: https://nlppeople.com/job/manager-of-ai-and-machine-learning-computational-science/
   date: '2026-07-02'
-  source: Nlppeople.com
-- title: Machine Learning Engineer, LLM Inference Optimization in Sonoma
-  description: Job Description About Us GMI Cloud is a fast-growing AI infrastructure
-    company backed by Headline VC and one of only seven cloud providers worldwide
-    to earn NVIDIA’s prestigious Reference Platform Cloud Partner designation. We
-    operate 8 of our own GP
-  url: https://nlppeople.com/job/machine-learning-engineer-llm-inference-optimization-in-sonoma/
-  date: '2026-07-01'
-  source: Nlppeople.com
-- title: NLP and AI Applied Machine Learning Engineer
-  description: Description The Government Health and Safety Solutions Operation is
-    on the lookout for a talented Applied Machine Learning Engineer to join our team.
-    *This position requires being onsite in Bethesda, MD (with some remote opportunities)
-    Responsibiliti
-  url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-2/
-  date: '2026-07-01'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist
-  description: 'At Expedia Group, we help travelers explore the world, one journey
-    at a time. As a global travel company powered by passionate people, trusted partnerships,
-    and leading technology, we connect travelers, partners, and advertisers through
-    our consumer '
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-30/
-  date: '2026-07-01'
-  source: Nlppeople.com
-- title: Lead Data Scientist (Artificial Intelligence/Machine Learning)
-  description: 'Summary WHAT IS INFORMATION TECHNOLOGY? A description of the business
-    units can be found at: https://www.jobs.irs.gov/about/who/business-divisions Position(s)
-    are to be filled in the following area(s): IT – Taxpayer Services and Online Accounts
-    Consi'
-  url: https://nlppeople.com/job/lead-data-scientist-artificial-intelligence-machine-learning/
-  date: '2026-07-01'
-  source: Nlppeople.com
-- title: Director of Machine Learning & Artificial Intelligence
-  description: 'Company Description Domino’s Pizza, which began in 1960 as a single
-    store location in Ypsilanti, MI, has had a lot to celebrate lately: we’re a reshaped,
-    reenergized brand of honesty, transparency and accountability – not to mention,
-    great food! In t'
-  url: https://nlppeople.com/job/director-of-machine-learning-artificial-intelligence-3/
-  date: '2026-07-01'
   source: Nlppeople.com

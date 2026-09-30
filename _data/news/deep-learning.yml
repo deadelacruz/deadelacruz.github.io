@@ -1,4 +1,11 @@
 news_items:
+- title: A deep learning method for building semantic segmentation in SAR remote sensing
+    images
+  description: Scientific Reports - A deep learning method for building semantic segmentation
+    in SAR remote sensing images
+  url: https://www.nature.com/articles/s41598-026-68774-2.pdf
+  date: '2026-09-29'
+  source: Nature.com
 - title: Automatic Generation of Expert-Level Neuron Segmentation Masks from Fluorescence
     Microscopy Images for Non-Invasive Deep Learning Analysis of Phase-Contrast Images
   description: Background & Objective Accurate segmentation of neurons in microscopy
@@ -1036,12 +1043,3 @@ news_items:
   url: https://genome.cshlp.org/content/early/2026/07/02/gr281341125
   date: '2026-07-02'
   source: Cshlp.org
-- title: 'DeepMethylation: A deep learning framework for tissue-specific DNA methylation
-    prediction and functional variant annotation'
-  description: Author summary In this study, we set out to address a key challenge
-    in studying DNA methylation, a chemical mark on DNA that helps regulate genes
-    and plays an important role in development, aging, and disease. Measuring methylation
-    across the whole g
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014476
-  date: '2026-07-01'
-  source: Plos.org
