@@ -1,4 +1,20 @@
 news_items:
+- title: Perforce Applies Machine Learning to Generate Synthetic Data for App Testing
+  description: 'Perforce Software has introduced Delphix Synthetic Data, a tool that
+    employs machine learning algorithms to generate realistic, context-aware synthetic
+    data for application testing. By leveraging machine learning, the platform eliminates
+    the need to '
+  url: https://devops.com/perforce-applies-machine-learning-to-generating-synthetic-data-for-app-testing/
+  date: '2026-09-30'
+  source: DevOps.com
+- title: Predicting freeway incident duration using machine learning
+  description: Accurate prediction of freeway incident duration is important for traffic
+    management and emergency resource allocation. This study evaluates 32 machine-learning
+    model configurations using 828 incident records from the G2504 Hangzhou Ring Freeway
+    in C
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359353
+  date: '2026-09-30'
+  source: Plos.org
 - title: Generative design of high-fidelity microstructures using physics-aware machine
     learning
   description: This study uses physics-aware AI to generate high-fidelity microstructures
@@ -2640,19 +2656,3 @@ news_items:
   url: https://www.c-sharpcorner.com/article/feature-store-architecture-for-machine-learning-applications/
   date: '2026-07-03'
   source: C-sharpcorner.com
-- title: A/AI Machine Learning Engineer- Early Career
-  description: 'Job ID: 732822BR Date posted: Jun. 18, 2026 Description:At Lockheed
-    Martin we keep people safe and solve the world’s most complex challenges. Our
-    people are some of the greatest minds in the industry and truly make Lockheed
-    Martin a great place to wo'
-  url: https://nlppeople.com/job/a-ai-machine-learning-engineer-early-career-7/
-  date: '2026-07-02'
-  source: Nlppeople.com
-- title: Manager of AI and Machine Learning Computational Science
-  description: Join us as we embrace a transformative era defined by Data and AI.
-    At Accenture, we are prepared to lead our clients through this evolution with
-    a strategic ambition to refine and redefine business operations leveraging data
-    and AI. With a significan
-  url: https://nlppeople.com/job/manager-of-ai-and-machine-learning-computational-science/
-  date: '2026-07-02'
-  source: Nlppeople.com

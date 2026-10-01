@@ -1,4 +1,13 @@
 news_items:
+- title: 'GeoEPred: A multimodal structure-aware geometric deep learning framework
+    for Gram-negative bacterial secreted effector prediction with sequence semantics'
+  description: Author summary Secreted effector proteins are central virulence factors
+    used by many Gram-negative bacterial pathogens to execute infection strategies.
+    Their functions are governed not only by secretion signals and short linear motifs
+    in the amino ac
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014344
+  date: '2026-09-30'
+  source: Plos.org
 - title: A deep learning method for building semantic segmentation in SAR remote sensing
     images
   description: Scientific Reports - A deep learning method for building semantic segmentation
@@ -1025,21 +1034,3 @@ news_items:
   url: https://www.globenewswire.com/news-release/2026/07/03/3321696/28124/en/Global-AI-and-Omics-Sector-Fueled-by-Precision-Medicine-and-Deep-Learning-Innovations.html
   date: '2026-07-03'
   source: GlobeNewswire
-- title: 'Gravity-Awareness: Deep Learning Models and LLM Simulation of Human Awareness
-    in Altered Gravity'
-  description: 'Earth s gravity fundamentally shapes human behaviour. The brain encodes
-    this force as an internal model of gravity, enabling the prediction and interpretation
-    of gravitational effects during perception and action. Understanding how this
-    model adapts '
-  url: https://arxiv.org/abs/2511.05536
-  date: '2026-07-02'
-  source: Arxiv.org
-- title: High-accuracy SNV calling for bacterial isolates using deep learning with
-    AccuSNV
-  description: Accurate detection of mutations within bacterial species is critical
-    for fundamental studies of microbial evolution, reconstructing transmission events,
-    and identifying antimicrobial resistance mutations. While many tools have been
-    developed to ident
-  url: https://genome.cshlp.org/content/early/2026/07/02/gr281341125
-  date: '2026-07-02'
-  source: Cshlp.org
