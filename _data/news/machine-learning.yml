@@ -1,4 +1,47 @@
 news_items:
+- title: Machine learning estimation of prosumer net metering using optimal polynomial
+    basis functions for dimensionality reduction
+  description: Scientific Reports - Machine learning estimation of prosumer net metering
+    using optimal polynomial basis functions for dimensionality reduction
+  url: https://www.nature.com/articles/s41598-026-71068-2.pdf
+  date: '2026-10-01'
+  source: Nature.com
+- title: 'Sepsis and septic shock after breast cancer surgery: risk modeling and machine
+    learning validation across 328,292 cases'
+  description: 'Scientific Reports - Sepsis and septic shock after breast cancer surgery:
+    risk modeling and machine learning validation across 328,292 cases'
+  url: https://www.nature.com/articles/s41598-026-73577-6.pdf
+  date: '2026-10-01'
+  source: Nature.com
+- title: Machine learning-based record linkage for brazilian health databases validated
+    in Espírito Santo
+  description: Scientific Reports - Machine learning-based record linkage for brazilian
+    health databases validated in Espírito Santo
+  url: https://www.nature.com/articles/s41598-026-73928-3.pdf
+  date: '2026-10-01'
+  source: Nature.com
+- title: 'Correction: Objective measurement of tinnitus using functional near-infrared
+    spectroscopy and machine learning'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359852
+  date: '2026-10-01'
+  source: Plos.org
+- title: Analytical and machine learning methods for model discernment at $\mathrm{CE}ν\mathrm{NS}$
+    experiments
+  description: Neutrino experiments are currently limited by low statistics, sizable
+    systematic uncertainties, and coarse observable binning, which can hinder discrimination
+    among competing beyond-the-Standard-Model (BSM) explanations of anomalous signals.
+    In parti
+  url: https://link.aps.org/doi/10.1103/31x4-3z7h
+  date: '2026-10-01'
+  source: Aps.org
+- title: 'On the use of machine learning in damage identification of offshore jacket
+    wind turbine: a virtual case study'
+  description: 'Scientific Reports - On the use of machine learning in damage identification
+    of offshore jacket wind turbine: a virtual case study'
+  url: https://www.nature.com/articles/s41598-026-72066-0.pdf
+  date: '2026-10-01'
+  source: Nature.com
 - title: Perforce Applies Machine Learning to Generate Synthetic Data for App Testing
   description: 'Perforce Software has introduced Delphix Synthetic Data, a tool that
     employs machine learning algorithms to generate realistic, context-aware synthetic
@@ -2634,25 +2677,3 @@ news_items:
   url: https://nlppeople.com/job/senior-machine-learning-engineer-nlp-focus/
   date: '2026-07-05'
   source: Nlppeople.com
-- title: 'Rethinking Validation for Spatial Machine Learning: Takeaways from the Talk'
-  description: "Title slide of the talk\r\n\nKeynote slides: https://jakubnowosad.com/ml4eo2026/\n\
-    Workshop materials: https://jakubnowosad.com/ml4eo2026workshop/\nMachine learning\
-    \ is now deeply embedded1 in Earth observation workflows, from mapping current\
-    \ enviro...\r\n\n\n\n"
-  url: https://www.r-bloggers.com/2026/07/rethinking-validation-for-spatial-machine-learning-takeaways-from-the-talk/
-  date: '2026-07-03'
-  source: R-bloggers.com
-- title: NLP and AI Applied Machine Learning Engineer
-  description: Description The Government Health and Safety Solutions Operation is
-    on the lookout for a talented Applied Machine Learning Engineer to join our team.
-    *This position requires being onsite in Bethesda, MD (with some remote opportunities)
-    Responsibiliti
-  url: https://nlppeople.com/job/nlp-and-ai-applied-machine-learning-engineer-3/
-  date: '2026-07-03'
-  source: Nlppeople.com
-- title: Feature Store Architecture for Machine Learning Applications
-  description: Master feature store architecture for ML. Centralize, manage, and serve
-    features for consistent training & real-time inference.
-  url: https://www.c-sharpcorner.com/article/feature-store-architecture-for-machine-learning-applications/
-  date: '2026-07-03'
-  source: C-sharpcorner.com

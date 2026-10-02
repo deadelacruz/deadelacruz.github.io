@@ -1,4 +1,11 @@
 news_items:
+- title: Deep learning perturbation models can outperform baselines on calibrated
+    metrics
+  description: Calibration-aware evaluation of perturbation models shows that deep
+    learning models can outperform baselines.
+  url: https://www.nature.com/articles/s41587-026-03307-w
+  date: '2026-10-01'
+  source: Nature.com
 - title: 'GeoEPred: A multimodal structure-aware geometric deep learning framework
     for Gram-negative bacterial secreted effector prediction with sequence semantics'
   description: Author summary Secreted effector proteins are central virulence factors
@@ -1025,12 +1032,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-57362-z
   date: '2026-07-04'
   source: Nature.com
-- title: Global AI and Omics Sector Fueled by Precision Medicine and Deep Learning
-    Innovations
-  description: Key market opportunities in AI for omics studies include the demand
-    for precision medicine, adoption of AI in drug discovery, and AI-powered multi-omics
-    data integration. Emphasis on personalized healthcare and cloud-based platforms
-    offers room for g
-  url: https://www.globenewswire.com/news-release/2026/07/03/3321696/28124/en/Global-AI-and-Omics-Sector-Fueled-by-Precision-Medicine-and-Deep-Learning-Innovations.html
-  date: '2026-07-03'
-  source: GlobeNewswire
