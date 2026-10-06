@@ -53,6 +53,12 @@ news_items:
   url: https://www.naftemporiki.gr/english/2170615/aws-unlocking-the-potential-of-artificial-intelligence-in-greece-2026/
   date: '2026-10-05'
   source: Naftemporiki.gr
+- title: 'Artificial intelligence: AI Is Squeezing Out the Rest of the Stock Market'
+  description: Expect stocks outside tech to struggle, earnings to expand more slowly
+    and concern about credit risk to grow.
+  url: https://www.faz.net/aktuell/wall-street-journal/ai-is-squeezing-out-the-rest-of-the-stock-market-201290063.html
+  date: '2026-10-05'
+  source: Faz.net
 - title: '60 Minutes Transcript: Artificial intelligence and the future of work'
   description: Some Americans are working to improve artificial intelligence, teaching
     it the skills and knowledge accrued over the course of a career.
