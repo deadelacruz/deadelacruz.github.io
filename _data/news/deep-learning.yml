@@ -1,4 +1,19 @@
 news_items:
+- title: Bangladeshi traffic sign recognition using the lightweight BanTrafficNet
+    deep learning approach
+  description: Scientific Reports - Bangladeshi traffic sign recognition using the
+    lightweight BanTrafficNet deep learning approach
+  url: https://www.nature.com/articles/s41598-025-33038-y
+  date: '2026-10-05'
+  source: Nature.com
+- title: AsiaMedic becomes first in ASEAN to expand MRI capabilities with next-generation
+    deep learning technology
+  description: GE HealthCare and AsiaMedic today announced that AsiaMedic is the first
+    site in ASEAN, and among the earliest adopters in Asia Pacific, to implement MR31
+    ...
+  url: https://en.antaranews.com/news/434205/asiamedic-becomes-first-in-asean-to-expand-mri-capabilities-with-next-generation-deep-learning-technology
+  date: '2026-10-05'
+  source: Antaranews.com
 - title: Deep learning perturbation models can outperform baselines on calibrated
     metrics
   description: Calibration-aware evaluation of perturbation models shows that deep
@@ -994,27 +1009,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-59121-6
   date: '2026-07-08'
   source: Nature.com
-- title: Federal Circuit Finds Deep Learning Patents Ineligible
-  description: The U.S. Court of Appeals for the Federal Circuit (CAFC) issued a decision
-    today in Dental Monitoring SAS v. Align Technology, Inc., affirming a district
-    court ruling that found several patent claims covering deep learning based dental
-    image analysis
-  url: https://ipwatchdog.com/2026/07/07/federal-circuit-finds-deep-learning-patents-ineligible/
-  date: '2026-07-07'
-  source: IPWatchdog.com
-- title: 'Expression of Concern: Classification of white blood cells (leucocytes)
-    from blood smear imagery using machine and deep learning models: A global scoping
-    review'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353227
-  date: '2026-07-07'
-  source: Plos.org
-- title: 'Stylistic analysis of translated languages: A perturbation-based XAI deep
-    learning framework'
-  description: Text classification using traditional machine learning techniques has
-    been used in natural language processing (NLP) tasks to distinguish translated
-    from non-translated languages, with high accuracy scores indicating the distinctive
-    style of translat
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352889
-  date: '2026-07-07'
-  source: Plos.org

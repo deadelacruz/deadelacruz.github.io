@@ -1,4 +1,39 @@
 news_items:
+- title: Machine learning and Voronoi-based decision boundaries for Bacterial vaginosis
+    to determine population- specific microbial interactions
+  description: Author summary Bacterial vaginosis (BV) is one of the most common vaginal
+    syndromes among women of reproductive age. It impacts 23% to 29% of women globally
+    and is linked to an increased risk of gynecological complications. Over the past
+    decades rese
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014767
+  date: '2026-10-05'
+  source: Plos.org
+- title: Bioactivity-driven prediction of antibacterial synergy using machine learning
+    models
+  description: Author summary Bacterial infections are increasingly hard to treat
+    as resistance to antibiotics spreads faster than new drugs are developed. One
+    strategy to fight back is combining two drugs together, since some pairs work
+    better together than either
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014849
+  date: '2026-10-05'
+  source: Plos.org
+- title: 'Machine Learning Topological Defect Formation: When Are the Defects Made?'
+  description: Topological defects that form in a nonequilibrium second-order phase
+    transition are presumably seeded by fluctuations of the order parameter in the
+    vicinity of the critical point. Motivated by this conjecture that underlies the
+    Kibble-Zurek mechanism
+  url: https://link.aps.org/doi/10.1103/fstv-lsvh
+  date: '2026-10-05'
+  source: Aps.org
+- title: Limitation of supervised machine learning in identifying non-Hermitian topological
+    feature
+  description: Supervised machine learning can help learn topological invariants for
+    topological systems. However, it faces severe limitations when applied to non-Hermitian
+    topological phases. The nonlinear nature of the non-Bloch topological invariant
+    causes a sud
+  url: https://link.aps.org/doi/10.1103/k5q7-24kk
+  date: '2026-10-05'
+  source: Aps.org
 - title: 'Machine learning: The conscience of the creator'
   description: As Anthropic develops AI models such as Claude, the focus is on instilling
     morals and intelligence in machines. Christopher Olah, a co-founder, raises profound
@@ -2551,68 +2586,3 @@ news_items:
   url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-13/
   date: '2026-07-08'
   source: Nlppeople.com
-- title: Best Object Detection Models for Machine Learning in 2026
-  description: 'Object detection powers transformative applications, from autonomous
-    vehicles navigating city streets and security systems identifying threats in real
-    time to retail analytics tracking inventory and medical imaging detecting tumors.
-    But choosing the '
-  url: https://blog.jetbrains.com/pycharm/2026/07/best-object-detection-models-for-machine-learning-in-2026/
-  date: '2026-07-07'
-  source: Jetbrains.com
-- title: 'Pollution removal efficiency enhancement by agricultural biomass additions
-    in constructed wetlands: A framework integrating meta-analysis with explainable
-    machine learning'
-  description: The agricultural biomass addition on constructed wetlands (CWs) is
-    a sustainable strategy that integrates pollution control with waste valorization.
-    However, their widespread applications remain constrained by variations in biomass
-    types, pretreatmen
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353064
-  date: '2026-07-07'
-  source: Plos.org
-- title: 'Effects of 5D built environment and non-built-environment factors on injury
-    crash risk: An interpretable machine learning analysis'
-  description: To identify the key determinants of traffic injury risk and clarify
-    the relative roles of built environment factors and crash-context factors, this
-    study develops a traffic injury risk identification framework that integrates
-    5D built environment var
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353205
-  date: '2026-07-07'
-  source: Plos.org
-- title: 'Correction: Flight delay prediction: Evaluating machine learning algorithms
-    for enhanced accuracy'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353323
-  date: '2026-07-07'
-  source: Plos.org
-- title: Discovery of hub genes linking oxidative stress to type 2 diabetic sarcopenia
-    using single-cell sequencing and machine learning
-  description: Type 2 diabetes mellitus (T2DM) and sarcopenia demonstrate a significant
-    comorbidity, particularly in the elderly, yet the molecular mechanisms linking
-    them, especially through oxidative stress, remain incompletely understood. This
-    study aimed to ide
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352753
-  date: '2026-07-07'
-  source: Plos.org
-- title: 'FEDS Paper: Capturing Heterogeneity: Machine Learning Approaches to Implied
-    Volatility Forecasting'
-  description: Hyung Joo Kim and Dong Hwan OhDespite documented heterogeneity in volatility
-    dynamics across the option surface, standard implied volatility forecasting models
-    apply homogeneous parameters throughout. We introduce a machine-learning framework
-    that us
-  url: https://www.federalreserve.gov/econres/feds/capturing-heterogeneity-machine-learning-approaches-to-implied-volatility-forecasting.htm
-  date: '2026-07-07'
-  source: Federalreserve.gov
-- title: 10 Probability Concepts for Machine Learning Explained Simply
-  description: A model is almost never 100% sure of anything. These 10 probability
-    concepts explain how it makes decisions anyway.
-  url: https://www.kdnuggets.com/10-probability-concepts-for-machine-learning-explained-simply
-  date: '2026-07-07'
-  source: Kdnuggets.com
-- title: 'Review: Building Machine Learning Systems with a Feature Store'
-  description: 'Many people come to machine learning by training a model on a tidy
-    dataset, and then meet a harder problem: making that model work for real users,
-    on fresh data, every day. Jim Dowling’s O’Reilly book, Building Machine Learning
-    Systems with a Feature'
-  url: https://www.helpnetsecurity.com/2026/07/07/review-building-machine-learning-systems-with-a-feature-store/
-  date: '2026-07-07'
-  source: Help Net Security
