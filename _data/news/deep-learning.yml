@@ -1,4 +1,38 @@
 news_items:
+- title: A hybrid deep learning and cryptographic framework using signcryption for
+    robust biometric template protection
+  description: Scientific Reports - A hybrid deep learning and cryptographic framework
+    using signcryption for robust biometric template protection
+  url: https://www.nature.com/articles/s41598-026-74048-8.pdf
+  date: '2026-10-06'
+  source: Nature.com
+- title: Efficient deep learning models for early Alzheimer’s disease diagnosis
+  description: Scientific Reports - Efficient deep learning models for early Alzheimer’s
+    disease diagnosis
+  url: https://www.nature.com/articles/s41598-026-71591-2.pdf
+  date: '2026-10-06'
+  source: Nature.com
+- title: 'Correction: Deep learning-based detection of retinal detachment with vitreous
+    hemorrhage in ocular ultrasound images'
+  description: 'Scientific Reports - Correction: Deep learning-based detection of
+    retinal detachment with vitreous hemorrhage in ocular ultrasound images'
+  url: https://www.nature.com/articles/s41598-026-71803-9
+  date: '2026-10-06'
+  source: Nature.com
+- title: Techno-economic optimization and hybrid deep learning-based net-load forecasting
+    for intelligent microgrid energy management using HOMER Pro
+  description: Scientific Reports - Techno-economic optimization and hybrid deep learning-based
+    net-load forecasting for intelligent microgrid energy management using HOMER Pro
+  url: https://www.nature.com/articles/s41598-026-73724-z.pdf
+  date: '2026-10-06'
+  source: Nature.com
+- title: 'Deep learning-based segmentation of choroid plexus calcification on quantitative
+    susceptibility mapping: a feasibility study'
+  description: 'Scientific Reports - Deep learning-based segmentation of choroid plexus
+    calcification on quantitative susceptibility mapping: a feasibility study'
+  url: https://www.nature.com/articles/s41598-026-73342-9.pdf
+  date: '2026-10-06'
+  source: Nature.com
 - title: Bangladeshi traffic sign recognition using the lightweight BanTrafficNet
     deep learning approach
   description: Scientific Reports - Bangladeshi traffic sign recognition using the
@@ -988,24 +1022,4 @@ news_items:
     MVI preoperatively in '
   url: https://www.nature.com/articles/s41467-026-74985-y
   date: '2026-07-10'
-  source: Nature.com
-- title: 'Retraction: Convolutional neural network model by deep learning and teaching
-    robot in keyboard musical instrument teaching'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352739
-  date: '2026-07-08'
-  source: Plos.org
-- title: Leveraging a vendor-neutral deep learning reconstruction algorithm to reduce
-    scan time and enhance image quality in T2-weighted liver MRI
-  description: Scientific Reports - Leveraging a vendor-neutral deep learning reconstruction
-    algorithm to reduce scan time and enhance image quality in T2-weighted liver MRI
-  url: https://www.nature.com/articles/s41598-026-60802-5
-  date: '2026-07-08'
-  source: Nature.com
-- title: A robust hybrid deep learning framework for IoT intrusion detection with
-    adaptive feature embedding and imbalance-aware optimization
-  description: Scientific Reports - A robust hybrid deep learning framework for IoT
-    intrusion detection with adaptive feature embedding and imbalance-aware optimization
-  url: https://www.nature.com/articles/s41598-026-59121-6
-  date: '2026-07-08'
   source: Nature.com

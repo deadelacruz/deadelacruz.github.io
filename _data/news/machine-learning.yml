@@ -1,4 +1,42 @@
 news_items:
+- title: Mechanical performance of steel, basalt and polyamide fiber-reinforced ultra-high-performance
+    concrete evaluated by experiments and SHAP-based machine learning
+  description: Scientific Reports - Mechanical performance of steel, basalt and polyamide
+    fiber-reinforced ultra-high-performance concrete evaluated by experiments and
+    SHAP-based machine learning
+  url: https://www.nature.com/articles/s41598-026-74632-y.pdf
+  date: '2026-10-06'
+  source: Nature.com
+- title: 'Correction: Modeling wind erosion susceptibility of Eastern Iran using machine
+    learning'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360012
+  date: '2026-10-06'
+  source: Plos.org
+- title: 'A machine learning-derived aging index for risk stratification and mortality
+    prediction in cardiovascular-kidney-metabolic syndrome: A retrospective cohort
+    study'
+  description: 'In this cohort study, Zhengyang Zhu and colleagues developed a machine
+    learning-derived cardiovascular-kidney-metabolic aging index that outperformed
+    established biological age measures in identifying high-risk CKM profiles and
+    predicting mortality, '
+  url: https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1005078
+  date: '2026-10-06'
+  source: Plos.org
+- title: Comparing language models and machine learning classifiers for detecting
+    humorous vaccine misinformation on social media
+  description: Scientific Reports - Comparing language models and machine learning
+    classifiers for detecting humorous vaccine misinformation on social media
+  url: https://www.nature.com/articles/s41598-026-74197-w.pdf
+  date: '2026-10-06'
+  source: Nature.com
+- title: Failure-risk classification in water distribution networks using hydraulic
+    modelling and machine learning
+  description: Scientific Reports - Failure-risk classification in water distribution
+    networks using hydraulic modelling and machine learning
+  url: https://www.nature.com/articles/s41598-026-74913-6.pdf
+  date: '2026-10-06'
+  source: Nature.com
 - title: Machine learning and Voronoi-based decision boundaries for Bacterial vaginosis
     to determine population- specific microbial interactions
   description: Author summary Bacterial vaginosis (BV) is one of the most common vaginal
@@ -2545,44 +2583,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-56250-w
   date: '2026-07-09'
   source: Nature.com
-- title: 'Daily Deal: The Premium Machine Learning Artificial Intelligence Super Bundle'
-  description: 'The Premium Machine Learning Artificial Intelligence Super Bundle
-    is a twelve-course digital toolkit designed to take you from coding novice to
-    AI architect. The curriculum breaks down complex data science concepts into actionable
-    steps, guiding you '
-  url: https://slashdot.org/firehose.pl?op=view&amp;id=184362282
-  date: '2026-07-08'
-  source: Slashdot.org
-- title: 'Daily Deal: The Premium Machine Learning Artificial Intelligence Super Bundle'
-  description: 'The Premium Machine Learning Artificial Intelligence Super Bundle
-    is a twelve-course digital toolkit designed to take you from coding novice to
-    AI architect. The curriculum breaks down complex data science concepts into actionable
-    steps, guiding you '
-  url: http://www.techdirt.com/2026/07/08/daily-deal-the-premium-machine-learning-artificial-intelligence-super-bundle/
-  date: '2026-07-08'
-  source: Techdirt
-- title: SAS puts machine learning in marketers' hands with new SAS 360 Marketing
-    AI
-  description: New solution brings purpose-built workflows to marketers of all skill
-    levels, accelerating time to execution, improving ROI and enhancing customer experience
-    CARY, N.C., July 8, 2026 /PRNewswire/ -- SAS, the leader in data and AI, today
-    announced SAS
-  url: https://www.prnewswire.com/news-releases/sas-puts-machine-learning-in-marketers-hands-with-new-sas-360-marketing-ai-302819982.html
-  date: '2026-07-08'
-  source: PRNewswire
-- title: Microchip Expands Developer Access with Free MPLAB® XC Compilers and MPLAB
-    Machine Learning Development Suite
-  description: By eliminating license fees and providing high-performance tools at
-    no cost, Microchip is removing barriers to innovation....
-  url: https://www.globenewswire.com/news-release/2026/07/08/3323964/0/en/Microchip-Expands-Developer-Access-with-Free-MPLAB-XC-Compilers-and-MPLAB-Machine-Learning-Development-Suite.html
-  date: '2026-07-08'
-  source: GlobeNewswire
-- title: Associate Professor in Machine Learning and Natural Language Processing (Social
-    Media Analytics)
-  description: 'This Job is based in Australia Associate Professor in Machine Learning
-    and Natural Language Processing (Social Media Analytics) Apply now Job no: 540051
-    Work type: Full Time Location: Sydney, NSW Categories: Associate Professor Job
-    Details Salary, Le'
-  url: https://nlppeople.com/job/associate-professor-in-machine-learning-and-natural-language-processing-social-media-analytics-13/
-  date: '2026-07-08'
-  source: Nlppeople.com
