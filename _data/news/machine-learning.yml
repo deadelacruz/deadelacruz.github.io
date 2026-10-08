@@ -1,4 +1,26 @@
 news_items:
+- title: Sofia University Announces New Doctor of Machine Learning Program
+  description: PALO ALTO, Calif., Oct. 7, 2026 /PRNewswire/ -- Sofia University, a
+    WASC Senior College and University Commission (WSCUC)-accredited institution,
+    is expanding its graduate computer science offerings with the launch of a new
+    Doctor of Machine Learning
+  url: https://www.prnewswire.com/news-releases/sofia-university-announces-new-doctor-of-machine-learning-program-302900589.html
+  date: '2026-10-07'
+  source: PRNewswire
+- title: 'Correction: Machine learning for the early prediction of 28-day mortality
+    in patients with sepsis in the ICU based on MIMIC-Ⅳ database'
+  description: 'Scientific Reports - Correction: Machine learning for the early prediction
+    of 28-day mortality in patients with sepsis in the ICU based on MIMIC-Ⅳ database'
+  url: https://www.nature.com/articles/s41598-026-74897-3
+  date: '2026-10-07'
+  source: Nature.com
+- title: Optimized hybrid machine learning for interpretable prediction of crack-healing
+    percentage in self-healing concrete
+  description: Scientific Reports - Optimized hybrid machine learning for interpretable
+    prediction of crack-healing percentage in self-healing concrete
+  url: https://www.nature.com/articles/s41598-026-74710-1.pdf
+  date: '2026-10-07'
+  source: Nature.com
 - title: Mechanical performance of steel, basalt and polyamide fiber-reinforced ultra-high-performance
     concrete evaluated by experiments and SHAP-based machine learning
   description: Scientific Reports - Mechanical performance of steel, basalt and polyamide
@@ -2545,41 +2567,3 @@ news_items:
   url: https://nlppeople.com/job/executive-director-applied-artificial-intelligence-machine-learning/
   date: '2026-07-10'
   source: Nlppeople.com
-- title: Machine learning unlocks a new class of magnetic materials
-  description: Understanding the influence of quasiperiodicity on magnetic fluctuations
-    could ultimately enable the design of materials with controllable magnetic responses.
-    Such capabilities may prove valuable for future information-processing technologies,
-    advanc
-  url: https://www.digitaljournal.com/article/machine-learning-unlocks-a-new-class-of-magnetic-materials/
-  date: '2026-07-09'
-  source: Digital Journal
-- title: 'Advancing outbreak detection: Hybridizing machine learning with wavelets
-    for weekly dengue case forecasting'
-  description: Author summary Dengue fever is a mosquito-borne disease that affects
-    millions of people, especially in tropical and subtropical regions. This study
-    focused on improving forecasting future dengue outbreaks in Quezon City, Philippines,
-    using weekly cas
-  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014444
-  date: '2026-07-09'
-  source: Plos.org
-- title: 'Research: Effectiveness assessment including statistical analysis of the
-    Universal Credit advances machine learning model: 1 April 2025 to 31 March 2026'
-  description: The assessment includes ad-hoc statistics on the impact of the Universal
-    Credit (UC) advances machine learning model on groups with protected characteristics.
-  url: https://www.gov.uk/government/publications/effectiveness-assessment-including-statistical-analysis-of-the-universal-credit-advances-machine-learning-model-1-april-2025-to-31-march-2026
-  date: '2026-07-09'
-  source: Www.gov.uk
-- title: AlphaGo-driven generative machine learning framework for inverse topology
-    synthesis and optimization of planar antennas
-  description: Scientific Reports - AlphaGo-driven generative machine learning framework
-    for inverse topology synthesis and optimization of planar antennas
-  url: https://www.nature.com/articles/s41598-026-61389-7
-  date: '2026-07-09'
-  source: Nature.com
-- title: 'Predicting the Young’s Modulus of biomedical titanium alloys using machine
-    learning: a data-driven approach'
-  description: 'Scientific Reports - Predicting the Young’s Modulus of biomedical
-    titanium alloys using machine learning: a data-driven approach'
-  url: https://www.nature.com/articles/s41598-026-56250-w
-  date: '2026-07-09'
-  source: Nature.com

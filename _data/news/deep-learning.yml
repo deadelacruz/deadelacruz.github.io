@@ -1,4 +1,27 @@
 news_items:
+- title: 'Deep learning applications in parasite microscopy: A scoping review'
+  description: Author summary Parasitic infections continue to affect millions of
+    people worldwide, particularly in regions with limited healthcare resources. Diagnosis
+    often relies on microscopy, which requires trained personnel and can be time-consuming
+    and varia
+  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014774
+  date: '2026-10-07'
+  source: Plos.org
+- title: HEA-GAN for high-fidelity low-light image enhancement and degradation-aware
+    image augmentation using a hybrid deep learning and GAN framework
+  description: Scientific Reports - HEA-GAN for high-fidelity low-light image enhancement
+    and degradation-aware image augmentation using a hybrid deep learning and GAN
+    framework
+  url: https://www.nature.com/articles/s41598-026-74213-z.pdf
+  date: '2026-10-07'
+  source: Nature.com
+- title: Deep learning framework for weather aware spatiotemporal traffic speed forecasting
+    on mountainous tourist roads
+  description: Scientific Reports - Deep learning framework for weather aware spatiotemporal
+    traffic speed forecasting on mountainous tourist roads
+  url: https://www.nature.com/articles/s41598-026-74793-w.pdf
+  date: '2026-10-07'
+  source: Nature.com
 - title: A hybrid deep learning and cryptographic framework using signcryption for
     robust biometric template protection
   description: Scientific Reports - A hybrid deep learning and cryptographic framework
