@@ -1,4 +1,19 @@
 news_items:
+- title: A symmetric dual stream deep learning model with a shared encoder and topological
+    attention gate for crack segmentation
+  description: Scientific Reports - A symmetric dual stream deep learning model with
+    a shared encoder and topological attention gate for crack segmentation
+  url: https://www.nature.com/articles/s41598-026-72934-9.pdf
+  date: '2026-10-08'
+  source: Nature.com
+- title: 'Tangermeme: a toolkit for understanding cis-regulatory logic using deep
+    learning models'
+  description: The tangermeme software package is a comprehensive, flexible and efficient
+    Swiss Army knife for deep learning-based cis-regulatory pattern identification
+    and analysis.
+  url: https://www.nature.com/articles/s41592-026-03254-z
+  date: '2026-10-08'
+  source: Nature.com
 - title: 'Deep learning applications in parasite microscopy: A scoping review'
   description: Author summary Parasitic infections continue to affect millions of
     people worldwide, particularly in regions with limited healthcare resources. Diagnosis
@@ -1029,20 +1044,4 @@ news_items:
     industrial air systems
   url: https://www.nature.com/articles/s41598-026-61315-x
   date: '2026-07-12'
-  source: Nature.com
-- title: Ministry to apply deep learning approach to all school subjects
-  description: The Ministry of Primary and Secondary Education said it will implement
-    the deep learning approach across all subjects by adapting it to the characteristics
-    of ...
-  url: https://en.antaranews.com/news/422124/ministry-to-apply-deep-learning-approach-to-all-school-subjects
-  date: '2026-07-10'
-  source: Antaranews.com
-- title: Prediction of microvascular invasion in hepatocellular carcinoma using contrast-enhanced
-    ultrasound and deep learning
-  description: 'Microvascular invasion (MVI) in hepatocellular carcinoma (HCC) is
-    a critical prognostic indicator, but it can only be diagnosed by postoperative
-    histopathology. Here, the authors develop MAPUSE, a deep learning model to predict
-    MVI preoperatively in '
-  url: https://www.nature.com/articles/s41467-026-74985-y
-  date: '2026-07-10'
   source: Nature.com
