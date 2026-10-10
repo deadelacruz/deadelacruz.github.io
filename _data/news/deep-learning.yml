@@ -1,4 +1,28 @@
 news_items:
+- title: Personalized prediction of response to selective serotonin reuptake inhibitors
+    (SSRIs) treatment for major depression disorder using deep learning networks from
+    connectivity maps of EEG
+  description: Scientific Reports - Personalized prediction of response to selective
+    serotonin reuptake inhibitors (SSRIs) treatment for major depression disorder
+    using deep learning networks from connectivity...
+  url: https://www.nature.com/articles/s41598-026-74701-2.pdf
+  date: '2026-10-09'
+  source: Nature.com
+- title: 'Cross-modal attention fusion of ultrasound imaging and clinical tabular
+    data for breast lesion classification: A multimodal deep learning framework'
+  description: 'Scientific Reports - Cross-modal attention fusion of ultrasound imaging
+    and clinical tabular data for breast lesion classification: A multimodal deep
+    learning framework'
+  url: https://www.nature.com/articles/s41598-026-72938-5.pdf
+  date: '2026-10-09'
+  source: Nature.com
+- title: 'KT-CBHNET: a spatio-temporal deep learning framework for interpretable ECG
+    signal classification for cardiovascular disease prediction'
+  description: 'Scientific Reports - KT-CBHNET: a spatio-temporal deep learning framework
+    for interpretable ECG signal classification for cardiovascular disease prediction'
+  url: https://www.nature.com/articles/s41598-026-73227-x.pdf
+  date: '2026-10-09'
+  source: Nature.com
 - title: A symmetric dual stream deep learning model with a shared encoder and topological
     attention gate for crack segmentation
   description: Scientific Reports - A symmetric dual stream deep learning model with
