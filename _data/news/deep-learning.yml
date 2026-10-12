@@ -1,4 +1,19 @@
 news_items:
+- title: Time-lapse RESOLFT nanoscopy empowered by deep learning
+  description: 'The authors use two deep-learning methods for RESOLFT nanoscopy: HDN
+    denoising enables five-fold longer live-cell imaging, while spatial upsampling
+    with temporal context restores subsampled data for fourfold higher frame rates
+    and reduced artifacts.'
+  url: https://www.nature.com/articles/s41467-026-78580-z.pdf
+  date: '2026-10-11'
+  source: Nature.com
+- title: An adaptive federated deep learning approach for efficient DDoS detection
+    in IoT edge networks
+  description: Scientific Reports - An adaptive federated deep learning approach for
+    efficient DDoS detection in IoT edge networks
+  url: https://www.nature.com/articles/s41598-026-70741-w.pdf
+  date: '2026-10-11'
+  source: Nature.com
 - title: Personalized prediction of response to selective serotonin reuptake inhibitors
     (SSRIs) treatment for major depression disorder using deep learning networks from
     connectivity maps of EEG
@@ -1046,18 +1061,4 @@ news_items:
     newborns
   url: https://www.nature.com/articles/s41598-026-40740-y
   date: '2026-07-14'
-  source: Nature.com
-- title: Deep learning single-cell analysis for cytologic evaluation of oral potentially
-    malignant disorders
-  description: Scientific Reports - Deep learning single-cell analysis for cytologic
-    evaluation of oral potentially malignant disorders
-  url: https://www.nature.com/articles/s41598-026-47538-y
-  date: '2026-07-13'
-  source: Nature.com
-- title: 'FedPDM-Net: a federated prototype-guided disentangled deep learning framework
-    for explainable malaria detection'
-  description: 'Scientific Reports - FedPDM-Net: a federated prototype-guided disentangled
-    deep learning framework for explainable malaria detection'
-  url: https://www.nature.com/articles/s41598-026-54887-1
-  date: '2026-07-13'
   source: Nature.com

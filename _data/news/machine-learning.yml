@@ -1,4 +1,11 @@
 news_items:
+- title: Explainable machine learning for shear capacity prediction of reinforced
+    concrete deep beams
+  description: Scientific Reports - Explainable machine learning for shear capacity
+    prediction of reinforced concrete deep beams
+  url: https://www.nature.com/articles/s41598-026-75117-8.pdf
+  date: '2026-10-11'
+  source: Nature.com
 - title: 'From wetting-front coalescence to urban road collapse: interpretable machine
     learning of hydro-mechanical failure under coupled rainfall and pipeline leakage'
   description: 'Scientific Reports - From wetting-front coalescence to urban road
@@ -2523,19 +2530,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-55224-2
   date: '2026-07-14'
   source: Nature.com
-- title: 'Retraction: Advanced machine learning-guided optimization platform for high-yield
-    soluble expression of Pseudomonas aeruginosa exotoxin A in engineered Escherichia
-    coli strains'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353537
-  date: '2026-07-13'
-  source: Plos.org
-- title: Transcriptomic characterization of key psoriasis-associated genes based on
-    single-cell RNA-seq and machine learning
-  description: Background Psoriasis is a multifaceted skin and systemic disorder driven
-    by a complex interplay of genetic, immunological, and environmental factors. Genetic
-    predisposition plays a pivotal role, with the IL-17/IL-23 immune axis recognized
-    as a centra
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0352663
-  date: '2026-07-13'
-  source: Plos.org
