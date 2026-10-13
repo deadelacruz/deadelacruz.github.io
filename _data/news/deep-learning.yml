@@ -1,4 +1,19 @@
 news_items:
+- title: Run multi-node inference workloads using Ray LLM Deep Learning Containers
+  description: Learn how to deploy one large language model across two GPU nodes on
+    Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate
+    prefill and decode nodes behind one OpenAI-compatible endpoint. The pre-built
+    container ships the ful
+  url: https://aws.amazon.com/blogs/machine-learning/run-multi-node-inference-workloads-using-ray-llm-deep-learning-containers/
+  date: '2026-10-12'
+  source: Amazon.com
+- title: A hybrid deep learning and circuit-theoretic framework for module-level fault
+    diagnosis and localization in pv arrays
+  description: Scientific Reports - A hybrid deep learning and circuit-theoretic framework
+    for module-level fault diagnosis and localization in pv arrays
+  url: https://www.nature.com/articles/s41598-026-75608-8.pdf
+  date: '2026-10-12'
+  source: Nature.com
 - title: Time-lapse RESOLFT nanoscopy empowered by deep learning
   description: 'The authors use two deep-learning methods for RESOLFT nanoscopy: HDN
     denoising enables five-fold longer live-cell imaging, while spatial upsampling
@@ -1046,19 +1061,4 @@ news_items:
     and wear behaviour in plasma nitrided 316&nbsp;L stainless steel
   url: https://www.nature.com/articles/s41598-026-55448-2
   date: '2026-07-15'
-  source: Nature.com
-- title: 'The Future of Advertising Is Predictive: How Deep Learning Is Transforming
-    Marketing'
-  description: Plus, positioning media as the middle, not the end of your marketing
-    process.
-  url: https://www.adweek.com/brand-marketing/the-future-of-advertising-is-predictive-how-deep-learning-is-transforming-marketing/
-  date: '2026-07-14'
-  source: Adweek
-- title: Open dataset and deep learning model for intelligent diagnosis of neonatal
-    respiratory distress syndrome and aspiration syndrome in newborns
-  description: Scientific Reports - Open dataset and deep learning model for intelligent
-    diagnosis of neonatal respiratory distress syndrome and aspiration syndrome in
-    newborns
-  url: https://www.nature.com/articles/s41598-026-40740-y
-  date: '2026-07-14'
   source: Nature.com

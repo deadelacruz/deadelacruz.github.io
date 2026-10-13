@@ -1,4 +1,14 @@
 news_items:
+- title: Single-cell transcriptomics and machine learning characterize LTA4H-linked
+    lipid metabolism and inflammatory signatures in the knee osteoarthritis IPFP/synovium
+    compartment
+  description: Knee osteoarthritis (KOA) is a whole-joint disease characterized by
+    inflammation, immune dysregulation, and metabolic imbalance. To define lipid metabolism-related
+    transcriptional heterogeneity within the infrapatellar fat pad (IPFP)/synovium
+    compart
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360615
+  date: '2026-10-12'
+  source: Plos.org
 - title: Explainable machine learning for shear capacity prediction of reinforced
     concrete deep beams
   description: Scientific Reports - Explainable machine learning for shear capacity
@@ -2504,29 +2514,3 @@ news_items:
   url: https://www.c-sharpcorner.com/article/feature-stores-explained-managing-machine-learning-features-at-scale/
   date: '2026-07-15'
   source: C-sharpcorner.com
-- title: 'TB-SERS analyzer: Analysis tool for tuberculosis prediction based on Raman
-    spectroscopy with machine learning and convolutional neural network'
-  description: Author summary Tuberculosis (TB) remains one of the world’s leading
-    infectious diseases, affecting millions of people annually and posing a major
-    global public health challenge. Early screening and diagnosis are critical for
-    controlling disease trans
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014397
-  date: '2026-07-14'
-  source: Plos.org
-- title: Chai Discovery raises $400M for AI drug discovery as big pharma bets on machine
-    learning over blockchain
-  description: 'AI''s success in drug discovery highlights its potential to revolutionize
-    the industry, challenging the need for blockchain-based solutions.
-
-    The post Chai Discovery raises $400M for AI drug discovery as big pharma bets
-    on machine learning over blockch'
-  url: https://cryptobriefing.com/chai-discovery-400m-ai-drug-discovery/
-  date: '2026-07-14'
-  source: Crypto Briefing
-- title: 'Advanced fraud detection in financial systems: a comparative study of machine
-    learning models on imbalanced data'
-  description: 'Scientific Reports - Advanced fraud detection in financial systems:
-    a comparative study of machine learning models on imbalanced data'
-  url: https://www.nature.com/articles/s41598-026-55224-2
-  date: '2026-07-14'
-  source: Nature.com
