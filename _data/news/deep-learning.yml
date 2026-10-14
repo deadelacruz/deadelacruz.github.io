@@ -1,4 +1,34 @@
 news_items:
+- title: Tinygrad refreshes Tinybox with an 'old' EPYC CPU running DDR4 RAM to feed
+    four AMD 9070XT — slaps a $11,000 price tag on a new 'computer for deep learning'
+  description: The Tinybox offers DDR4 and DDR5 platforms, Nvidia graphics options,
+    optional RAID storage and water cooling, with configurations tailored to demanding
+    deep-learning workloads.
+  url: https://www.techradar.com/pro/tinygrad-refreshes-tinybox-with-an-old-epyc-cpu-running-ddr4-ram-to-feed-four-amd-9070xt-slaps-a-usd11-000-price-tag-on-a-new-computer-for-deep-learning
+  date: '2026-10-13'
+  source: TechRadar
+- title: 'ActiNet: an open-source tool for activity intensity classification of wrist-worn
+    accelerometry using self-supervised deep learning'
+  description: 'Scientific Reports - ActiNet: an open-source tool for activity intensity
+    classification of wrist-worn accelerometry using self-supervised deep learning'
+  url: https://www.nature.com/articles/s41598-026-65900-y.pdf
+  date: '2026-10-13'
+  source: Nature.com
+- title: Cognitively robust model using a deep learning framework for target recognition
+    under suboptimal illumination in intelligent video surveillance system
+  description: Scientific Reports - Cognitively robust model using a deep learning
+    framework for target recognition under suboptimal illumination in intelligent
+    video surveillance system
+  url: https://www.nature.com/articles/s41598-026-75329-y.pdf
+  date: '2026-10-13'
+  source: Nature.com
+- title: Deep learning-assisted graphene-based THz metasurface for label-free and
+    high-performance MCF-7 breast cancer cell sensing
+  description: Scientific Reports - Deep learning-assisted graphene-based THz metasurface
+    for label-free and high-performance MCF-7 breast cancer cell sensing
+  url: https://www.nature.com/articles/s41598-026-75451-x.pdf
+  date: '2026-10-13'
+  source: Nature.com
 - title: Run multi-node inference workloads using Ray LLM Deep Learning Containers
   description: Learn how to deploy one large language model across two GPU nodes on
     Amazon EKS using the multi-node Ray LLM Deep Learning Containers, with separate
@@ -1038,27 +1068,4 @@ news_items:
     deep learning-based intrusion detection systems
   url: https://www.nature.com/articles/s41598-025-34334-3
   date: '2026-07-16'
-  source: Nature.com
-- title: 'CenSegNet: a generalist high-throughput deep learning framework for centrosome
-    phenotyping at spatial and single-cell resolution in heterogeneous tissues'
-  description: Cheng, Fan, and colleagues develop CenSegNet, a generalist AI framework
-    for large-scale mapping of centrosome phenotypes, uncovering distinct patterns
-    associated with breast tumour heterogeneity, disease progression and clinical
-    outcomes.
-  url: https://www.nature.com/articles/s41467-026-75393-y
-  date: '2026-07-15'
-  source: Nature.com
-- title: Integrating skeleton based representations for robust yoga pose classification
-    using deep learning models
-  description: Scientific Reports - Integrating skeleton based representations for
-    robust yoga pose classification using deep learning models
-  url: https://www.nature.com/articles/s41598-025-23726-0
-  date: '2026-07-15'
-  source: Nature.com
-- title: Deep learning assisted prediction of microstructure and wear behaviour in
-    plasma nitrided 316 L stainless steel
-  description: Scientific Reports - Deep learning assisted prediction of microstructure
-    and wear behaviour in plasma nitrided 316&nbsp;L stainless steel
-  url: https://www.nature.com/articles/s41598-026-55448-2
-  date: '2026-07-15'
   source: Nature.com

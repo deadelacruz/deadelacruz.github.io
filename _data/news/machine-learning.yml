@@ -1,4 +1,20 @@
 news_items:
+- title: Predicting company growth using scaling theory informed machine learning
+  description: Tao, R., Cappelli, V. R., Liu, K., Hamilton, M. J., Kempes, C. P.,
+    West, G. B. & Zhang, J. (2026). Predicting company growth using scaling theory
+    informed machine learning. npj Complexity, 3(1). https://doi.org/10.1038/s44260-026-00086-y
+  url: https://researchonline.lse.ac.uk/id/eprint/141375/
+  date: '2026-10-13'
+  source: Lse.ac.uk
+- title: Integrating Quantum Machine Learning and Ontology Matching for Efficient
+    Semantic Web Services discovery
+  description: Existing Semantic Web Service (SWS) discovery approaches based on classical
+    machine learning suffer from limited representational capacity in high-dimensional
+    semantic feature spaces and fail to fully exploit structured ontological knowledge
+    for sema
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360079
+  date: '2026-10-13'
+  source: Plos.org
 - title: Single-cell transcriptomics and machine learning characterize LTA4H-linked
     lipid metabolism and inflammatory signatures in the knee osteoarthritis IPFP/synovium
     compartment
@@ -2479,38 +2495,4 @@ news_items:
     rules to machine learning systems that learn patterns from data.
   url: https://www.c-sharpcorner.com/article/part3-the-shift-to-machine-learning/
   date: '2026-07-16'
-  source: C-sharpcorner.com
-- title: 'Predicting ankylosing spondylitis disease activity via patient-reported
-    outcome measures: Building prediction models based on machine learning'
-  description: 'Objective Disease activity is a critical indicator for monitoring
-    the progression of ankylosing spondylitis (AS), guiding clinical decision-making,
-    and informing treatment plans. Patient-reported outcome measures (PROMs) have
-    gained prominence in AS '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353486
-  date: '2026-07-15'
-  source: Plos.org
-- title: 'Machine learning-enhanced 3GPP channel modeling for 5G networks: A vendor-calibrated
-    framework with cross-scenario validation'
-  description: Accurate channel characterization across diverse propagation environments
-    is foundational to 5G network planning, yet existing machine learning approaches
-    rarely integrate standardized 3GPP frameworks with vendor-specific equipment parameters.
-    This s
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353163
-  date: '2026-07-15'
-  source: Plos.org
-- title: How Clustering can be Used as a Preprocessing Technique for Classification
-    in Azure Machine Learning
-  description: 'Learn about using classification as a technique to prepare your data
-    for additional machine learning analysis.
-
-    The post How Clustering can be Used as a Preprocessing Technique for Classification
-    in Azure Machine Learning appeared first on SQLServerCe'
-  url: https://www.sqlservercentral.com/articles/how-clustering-can-be-used-as-a-preprocessing-technique-for-classification-in-azure-machine-learning
-  date: '2026-07-15'
-  source: Sqlservercentral.com
-- title: 'Feature Stores Explained: Managing Machine Learning Features at Scale'
-  description: Learn how Feature Stores help manage machine learning features at scale
-    through centralized storage, feature serving, versioning, and MLOps integration.
-  url: https://www.c-sharpcorner.com/article/feature-stores-explained-managing-machine-learning-features-at-scale/
-  date: '2026-07-15'
   source: C-sharpcorner.com
