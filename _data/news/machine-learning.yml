@@ -1,4 +1,28 @@
 news_items:
+- title: Microsoft has a new machine learning tool to improve weather forecasts
+  description: 'Old-school physics-based weather forecasting and even new AI models
+    typically become less reliable beyond two weeks, a problem Microsoft claims to
+    have solved using machine learning.
+
+    Microsoft has a new machine learning tool to improve weather foreca'
+  url: https://biztoc.com/x/347759dc131087c9
+  date: '2026-10-14'
+  source: Biztoc.com
+- title: Microsoft has a new machine learning tool to improve weather forecasts
+  description: Old-school physics-based weather forecasting and even new AI models
+    typically become less reliable beyond two weeks, a problem Microsoft claims to
+    have solved using machine learning. Researchers with the company say they've found
+    a new, cost-effectiv
+  url: https://www.theverge.com/science/1011127/ai-weather-forecast-microsoft
+  date: '2026-10-14'
+  source: The Verge
+- title: Advancing subseasonal forecasting with machine learning
+  description: The AI framework probabilistic bias correction is shown to correct
+    weather forecast errors 2 to 6 weeks ahead and boost forecast skill, making it
+    promising for improved extreme-weather prediction.
+  url: https://www.nature.com/articles/s41586-026-11126-x
+  date: '2026-10-14'
+  source: Nature.com
 - title: Predicting company growth using scaling theory informed machine learning
   description: Tao, R., Cappelli, V. R., Liu, K., Hamilton, M. J., Kempes, C. P.,
     West, G. B. & Zhang, J. (2026). Predicting company growth using scaling theory
@@ -2464,35 +2488,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-62721-x
   date: '2026-07-19'
   source: Nature.com
-- title: Detecting LLM-Generated Texts with "Classical" Machine Learning
-  description: '.admonition {   margin: .75em 0;   padding: .6rem;   overflow: hidden;   font-size:
-    12px;   page-break-inside: avoid;   border-left: .3rem solid #42b983;   border-radius:
-    .3rem;   box-shadow: 0 0.1re'
-  url: https://blog.lyc8503.net/en/post/llm-classifier/
-  date: '2026-07-16'
-  source: Lyc8503.net
-- title: Can a history of crop rotations improve the prediction of soil organic carbon
-    in the Andes? integrating machine learning multi-annual crop classification as
-    a proxy of soil management
-  description: Soil organic carbon (SOC) is a crucial component related to various
-    processes that ensure soil health and function. Its modeling is vital for assessing
-    and monitoring soil degradation caused by the potential impact of agricultural
-    activities.This stu
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353966
-  date: '2026-07-16'
-  source: Plos.org
-- title: Screening of core targets for Di(2-ethylhexyl) Phthalate-related gastric
-    cancer based on machine learning, molecular docking, and SHAP analysis
-  description: Author summary Di(2-ethylhexyl) phthalate (DEHP), a common plasticizer
-    in food packaging and daily plastics, is a widespread environmental contaminant
-    humans are exposed to regularly, but its association with gastric cancer (GC),
-    one of the world’s m
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014514
-  date: '2026-07-16'
-  source: Plos.org
-- title: Part3 - The Shift to Machine Learning
-  description: A practical explanation of how software engineering shifted from hand-written
-    rules to machine learning systems that learn patterns from data.
-  url: https://www.c-sharpcorner.com/article/part3-the-shift-to-machine-learning/
-  date: '2026-07-16'
-  source: C-sharpcorner.com

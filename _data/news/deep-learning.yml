@@ -1,4 +1,21 @@
 news_items:
+- title: Deep learning-based predictions and analysis of Norovirus dynamics using
+    a fractional-order mathematical model
+  description: Norovirus, which is extremely contagious and has a significant impact
+    on the gastrointestinal tract, has also been one of the main potential threats
+    to health in the population. The use of fractional calculus has received much
+    interest in the past fe
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0359983
+  date: '2026-10-14'
+  source: Plos.org
+- title: 'MassNet: billion-scale AI-ready mass spectral corpus empowering scalable
+    deep learning in proteomics'
+  description: This Article presents MassNet, a large-scale AI-ready corpus of 1.5 billion
+    MS/MS spectra spanning 35 species, paired with a standardized storage format called
+    Mass Spectrometry DDA Tensor (MSDT). Built on this resource, XuanjiNovo is a nonautoregres
+  url: https://www.nature.com/articles/s41592-026-03247-y
+  date: '2026-10-14'
+  source: Nature.com
 - title: Tinygrad refreshes Tinybox with an 'old' EPYC CPU running DDR4 RAM to feed
     four AMD 9070XT — slaps a $11,000 price tag on a new 'computer for deep learning'
   description: The Tinybox offers DDR4 and DDR5 platforms, Nvidia graphics options,
@@ -1047,25 +1064,4 @@ news_items:
     heat of combustion as a key hazard indicator under GHS/CLP standards
   url: https://www.nature.com/articles/s41598-026-60540-8
   date: '2026-07-19'
-  source: Nature.com
-- title: 'Retraction: Automated brain tumor diagnostics: Empowering neuro-oncology
-    with deep learning-based MRI image analysis'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353921
-  date: '2026-07-16'
-  source: Plos.org
-- title: Dynamics-enhanced molecular property prediction guided by deep learning
-  description: Author summary Predicting molecular properties is a central problem
-    in computational biology, drug discovery and chemical safety evaluation. Molecules
-    are dynamic objects in solution and constantly undergo conformational changes;
-    however, most existi
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014515
-  date: '2026-07-16'
-  source: Plos.org
-- title: Enhancing IoT network security with explainable deep learning-based intrusion
-    detection systems
-  description: Scientific Reports - Enhancing IoT network security with explainable
-    deep learning-based intrusion detection systems
-  url: https://www.nature.com/articles/s41598-025-34334-3
-  date: '2026-07-16'
   source: Nature.com
