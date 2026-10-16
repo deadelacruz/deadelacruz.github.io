@@ -1,4 +1,26 @@
 news_items:
+- title: Surrogate-assisted machine learning framework for performance enhancement
+    of Rb2CuSbF6 perovskite LEDs with MoO3/WO3 charge transport layers
+  description: Scientific Reports - Surrogate-assisted machine learning framework
+    for performance enhancement of Rb2CuSbF6 perovskite LEDs with MoO3/WO3 charge
+    transport layers
+  url: https://www.nature.com/articles/s41598-026-68847-2.pdf
+  date: '2026-10-15'
+  source: Nature.com
+- title: Machine learning reduces questionnaire items while maintaining reliability
+    and validity
+  description: Scientific Reports - Machine learning reduces questionnaire items while
+    maintaining reliability and validity
+  url: https://www.nature.com/articles/s41598-026-71294-8.pdf
+  date: '2026-10-15'
+  source: Nature.com
+- title: Joint molecular optimization for efficient virtual screening via machine
+    learning
+  description: Scientific Reports - Joint molecular optimization for efficient virtual
+    screening via machine learning
+  url: https://www.nature.com/articles/s41598-026-71138-5.pdf
+  date: '2026-10-15'
+  source: Nature.com
 - title: Microsoft has a new machine learning tool to improve weather forecasts
   description: 'Old-school physics-based weather forecasting and even new AI models
     typically become less reliable beyond two weeks, a problem Microsoft claims to

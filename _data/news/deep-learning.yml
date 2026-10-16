@@ -1,4 +1,12 @@
 news_items:
+- title: Optimized bilateral segmentation deep learning network for wild animal detection
+  description: The use of Deep learning (DL) for recognition of wild animals has become
+    an important development in wildlife monitoring. The advances will include the
+    use of multimodal data for improved accuracy and development of lightweight models
+    for use in edge
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360422
+  date: '2026-10-15'
+  source: Plos.org
 - title: Deep learning-based predictions and analysis of Norovirus dynamics using
     a fractional-order mathematical model
   description: Norovirus, which is extremely contagious and has a significant impact
