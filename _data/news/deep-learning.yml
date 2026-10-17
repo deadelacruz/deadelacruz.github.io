@@ -1,4 +1,11 @@
 news_items:
+- title: Multi-level malware subfamily attribution from RGB executable images using
+    attention-augmented deep learning
+  description: Scientific Reports - Multi-level malware subfamily attribution from
+    RGB executable images using attention-augmented deep learning
+  url: https://www.nature.com/articles/s41598-026-75054-6.pdf
+  date: '2026-10-16'
+  source: Nature.com
 - title: Optimized bilateral segmentation deep learning network for wild animal detection
   description: The use of Deep learning (DL) for recognition of wild animals has become
     an important development in wildlife monitoring. The advances will include the

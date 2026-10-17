@@ -1,4 +1,11 @@
 news_items:
+- title: A machine learning-based platform for predicting the potential energy of
+    small molecules
+  description: Scientific Reports - A machine learning-based platform for predicting
+    the potential energy of small molecules
+  url: https://www.nature.com/articles/s41598-026-76095-7.pdf
+  date: '2026-10-16'
+  source: Nature.com
 - title: Surrogate-assisted machine learning framework for performance enhancement
     of Rb2CuSbF6 perovskite LEDs with MoO3/WO3 charge transport layers
   description: Scientific Reports - Surrogate-assisted machine learning framework

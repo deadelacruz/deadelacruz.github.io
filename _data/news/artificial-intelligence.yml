@@ -1,4 +1,47 @@
 news_items:
+- title: China's Tencent admits Artificial Intelligence agent went rogue
+  description: Tencent reported that AI agents evaluating third-party models exhibited
+    unexpected web-browsing behavior during their operation. This incident marks a
+    significant acknowledgment by a major Chinese technology company. Meanwhile, G7
+    finance leaders hav
+  url: https://economictimes.indiatimes.com/news/international/world-news/chinas-tencent-admits-artificial-intelligence-agent-went-rogue/articleshow/135002662.cms
+  date: '2026-10-16'
+  source: The Times of India
+- title: Epistemology of Artificial Intelligence
+  description: "[New Entry by Claus Beisbart on October 16, 2026.]\n Artificial intelligence\
+    \ (AI) is increasingly being used to obtain knowledge and understanding. For example,\
+    \ it is employed to detect objects in images, make predictions, examine mathematical\
+    \ conject"
+  url: https://plato.stanford.edu/entries/epistemology-ai/
+  date: '2026-10-16'
+  source: Stanford.edu
+- title: Nova Scotia to host massive data centre to power artificial intelligence
+  description: A massive data centre to provide computing power for artificial intelligence
+    is under pre-construction just outside a town on Cape Breton Island, Nova Scotia.
+  url: https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-to-host-massive-data-centre-to-power-anthropic-s-ai-assistant-claude-9.7383129
+  date: '2026-10-16'
+  source: CBC News
+- title: Nova Scotia to host massive data centre to power artificial intelligence
+  description: An ultra-large data centre to provide computing power for artificial
+    intelligence is under construction just outside a town on Cape Breton Island,
+    Nova Scotia.
+  url: https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-to-host-massive-data-centre-to-power-artificial-intelligence-9.7383129
+  date: '2026-10-16'
+  source: CBC News
+- title: 'Artificial intelligence-enhanced electrocardiography for predicting mortality
+    and major adverse cardiovascular events: A systematic review and narrative synthesis'
+  description: Cardiovascular disease (CVD) remains the leading cause of death worldwide.
+    While clinical scores provide modest predictive accuracy, the electrocardiogram
+    (ECG) is rarely leveraged for prognosis. Artificial intelligence (AI) and deep
+    learning now ena
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360756
+  date: '2026-10-16'
+  source: Plos.org
+- title: Artificial intelligence is capitalism's final destination
+  description: Artificial intelligence is capitalism’s final destination
+  url: https://www.equator.org/articles/arundhati-roy-artificial-intelligence
+  date: '2026-10-16'
+  source: Equator.org
 - title: 'Better Artificial Intelligence Stock for 2026: Astera Labs vs. Marvell Technology'
   description: 'As artificial intelligence continues to reshape the data center landscape,
     choosing between Astera Labs (NASDAQ:ALAB) and Marvell Technology (NASDAQ:MRVL)
@@ -5456,21 +5499,3 @@ news_items:
   url: https://timesofindia.indiatimes.com/city/lucknow/artificial-intelligence-are-we-headed-towards-a-new-multiverse-god/articleshow/132490436.cms
   date: '2026-07-19'
   source: The Times of India
-- title: Who pays for Electrification and Artificial Intelligence?
-  description: 'Investing.com -- Europe will need an estimated €2.2 trillion to €3.5
-    trillion of power-system investment over the next decade to support electrification
-    and artificial intelligence, but consumers may face smaller bill increases than
-    widely expected, '
-  url: https://biztoc.com/x/ca741127d70b857c
-  date: '2026-07-18'
-  source: Biztoc.com
-- title: Who pays for Electrification and Artificial Intelligence?
-  description: 'Stocks snap two-week win streak as AI-trade bleeds, pushing chips
-    into bear market
-
-    Investing.com -- Europe will need an estimated €2.2 trillion to €3.5 trillion
-    of power-system investment over the next decade to support electrification and
-    artificial'
-  url: https://biztoc.com/x/0cae52a2ea06f59d
-  date: '2026-07-18'
-  source: Biztoc.com
