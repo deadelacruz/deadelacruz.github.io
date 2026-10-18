@@ -1,4 +1,25 @@
 news_items:
+- title: 'Adaptive storage optimization for deep learning workloads in converged HPC-cloud
+    environments: a reinforcement learning approach'
+  description: 'Scientific Reports - Adaptive storage optimization for deep learning
+    workloads in converged HPC-cloud environments: a reinforcement learning approach'
+  url: https://www.nature.com/articles/s41598-026-75703-w.pdf
+  date: '2026-10-17'
+  source: Nature.com
+- title: 'DashGuard: spatio-temporal deep learning for dashcam-based road accident
+    anticipation'
+  description: 'Scientific Reports - DashGuard: spatio-temporal deep learning for
+    dashcam-based road accident anticipation'
+  url: https://www.nature.com/articles/s41598-026-74110-5.pdf
+  date: '2026-10-17'
+  source: Nature.com
+- title: An interpretable hierarchical deep learning framework for lung and colon
+    cancer detection
+  description: Scientific Reports - An interpretable hierarchical deep learning framework
+    for lung and colon cancer detection
+  url: https://www.nature.com/articles/s41598-026-75965-4.pdf
+  date: '2026-10-17'
+  source: Nature.com
 - title: Multi-level malware subfamily attribution from RGB executable images using
     attention-augmented deep learning
   description: Scientific Reports - Multi-level malware subfamily attribution from
@@ -1073,10 +1094,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354018
   date: '2026-07-20'
   source: Plos.org
-- title: Multimodal graph-based deep learning for predicting heat of combustion as
-    a key hazard indicator under GHS/CLP standards
-  description: Scientific Reports - Multimodal graph-based deep learning for predicting
-    heat of combustion as a key hazard indicator under GHS/CLP standards
-  url: https://www.nature.com/articles/s41598-026-60540-8
-  date: '2026-07-19'
-  source: Nature.com
