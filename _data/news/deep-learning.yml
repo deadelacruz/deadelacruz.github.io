@@ -1,4 +1,18 @@
 news_items:
+- title: Multi-task deep learning framework for brain tumor classification and segmentation
+    using ensemble feature extraction
+  description: Scientific Reports - Multi-task deep learning framework for brain tumor
+    classification and segmentation using ensemble feature extraction
+  url: https://www.nature.com/articles/s41598-026-75592-z.pdf
+  date: '2026-10-18'
+  source: Nature.com
+- title: Hybrid dual attentional-based pyramidal deep learning model for liver tumor
+    detection
+  description: Scientific Reports - Hybrid dual attentional-based pyramidal deep learning
+    model for liver tumor detection
+  url: https://www.nature.com/articles/s41598-026-76482-0.pdf
+  date: '2026-10-18'
+  source: Nature.com
 - title: 'Adaptive storage optimization for deep learning workloads in converged HPC-cloud
     environments: a reinforcement learning approach'
   description: 'Scientific Reports - Adaptive storage optimization for deep learning
@@ -1085,12 +1099,3 @@ news_items:
   url: https://arxiv.org/abs/2607.18923
   date: '2026-07-21'
   source: Arxiv.org
-- title: Automated concrete crack detection enhanced by deep learning and generative
-    adversarial networks
-  description: Cracks on the surface of concrete structures are an obvious indication
-    of their condition. However, traditional visual inspection methods are significantly
-    influenced by human factors. They are accurate for larger cracks. However, they
-    introduce subj
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354018
-  date: '2026-07-20'
-  source: Plos.org
