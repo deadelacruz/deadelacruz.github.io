@@ -1090,12 +1090,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-61729-7.pdf
   date: '2026-07-22'
   source: Nature.com
-- title: Visual Semantic Decoding of Electrocorticography from Video Stimuli using
-    End-to-End Deep Learning
-  description: ECoG-based visual semantic decoding enables inference of semantic interpretation
-    of visual perception from complex, noisy brain activity. This study examines the
-    feasibility of visual semantic decoding using an end-to-end deep learning framework
-    usin
-  url: https://arxiv.org/abs/2607.18923
-  date: '2026-07-21'
-  source: Arxiv.org

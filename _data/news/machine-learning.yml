@@ -1,4 +1,12 @@
 news_items:
+- title: Closed-loop photoreactor design enabled by machine learning and digital twins
+  description: Designing efficient photoreactors remains challenging due to the complex
+    interplay of light transport phenomena, shaped by reflection, scattering and absorption
+    processes. Here, we introduce a workflow that integrates ray-tracing digital twins
+    with m
+  url: https://www.nature.com/articles/s41467-026-78785-2.pdf
+  date: '2026-10-19'
+  source: Nature.com
 - title: A machine learning-based platform for predicting the potential energy of
     small molecules
   description: Scientific Reports - A machine learning-based platform for predicting
@@ -2459,34 +2467,3 @@ news_items:
   url: https://nlppeople.com/job/principal-engineer-ai-and-machine-learning-software/
   date: '2026-07-22'
   source: Nlppeople.com
-- title: 'Beyond the Model: Building Real-World Machine Learning'
-  description: In the latest Developer Impact Series, Dave Neary of Ampere® Computing
-    talks with Dr. R.J. Nowling from the Milwaukee School of Engineering to discuss
-    how the school is bridging the gap between theoretical machine learning (ML) and
-    real-world product
-  url: https://dzone.com/articles/real-world-machine-learning
-  date: '2026-07-21'
-  source: Dzone.com
-- title: 'Prediction of factors contributing to Pain Intensity among low back pain
-    patients: A comparative machine learning frameworks (Random Forest versus XGBoost)'
-  description: Background Predicting pain intensity in patients with low back pain
-    (LBP) remains a complex task due to the biopsychosocial nature of pain. Pain intensity
-    is shaped by multifaceted interactions among demographic, lifestyle, and clinical
-    factors.   Ai
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354370
-  date: '2026-07-21'
-  source: Plos.org
-- title: A Quality Model for Machine Learning Components
-  description: This post presents a quality model for machine learning components
-    that serves as a guide for requirements elicitation and negotiation.
-  url: https://www.sei.cmu.edu/blog/a-quality-model-for-machine-learning-components/
-  date: '2026-07-21'
-  source: Carnegie Mellon University
-- title: Machine learning–assisted performance prediction of graphene–silicon twin-port
-    band-notched wideband antenna for THz 6G communication systems
-  description: Scientific Reports - Machine learning–assisted performance prediction
-    of graphene–silicon twin-port band-notched wideband antenna for THz 6G communication
-    systems
-  url: https://www.nature.com/articles/s41598-026-60977-x
-  date: '2026-07-21'
-  source: Nature.com
