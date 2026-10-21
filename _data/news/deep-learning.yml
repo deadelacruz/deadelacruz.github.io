@@ -1,4 +1,18 @@
 news_items:
+- title: A robust deep learning framework for smart grid stability classification
+    using statistical validation
+  description: Scientific Reports - A robust deep learning framework for smart grid
+    stability classification using statistical validation
+  url: https://www.nature.com/articles/s41598-026-74799-4.pdf
+  date: '2026-10-20'
+  source: Nature.com
+- title: Transforming mosquito surveillance LarvaFormer as a hybrid deep learning
+    tool for rapid and accurate larval recognition
+  description: Scientific Reports - Transforming mosquito surveillance LarvaFormer
+    as a hybrid deep learning tool for rapid and accurate larval recognition
+  url: https://www.nature.com/articles/s41598-026-71384-7.pdf
+  date: '2026-10-20'
+  source: Nature.com
 - title: Multi-task deep learning framework for brain tumor classification and segmentation
     using ensemble feature extraction
   description: Scientific Reports - Multi-task deep learning framework for brain tumor
@@ -1073,20 +1087,4 @@ news_items:
     predicting the pT and pN categories of resectable esophageal cancer
   url: https://www.nature.com/articles/s41598-026-62500-8.pdf
   date: '2026-07-23'
-  source: Nature.com
-- title: 'Deep learning approaches show promise for predicting childhood malnutrition:
-    A comparative study with traditional machine learning methods using survey data'
-  description: Childhood malnutrition remains a major public health concern in Nepal
-    and other low-resource settings, while conventional case-finding approaches are
-    labor-intensive and frequently unavailable in remote areas. This study provides
-    one of the first app
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0353969
-  date: '2026-07-22'
-  source: Plos.org
-- title: 'HECA-MobileNet: an explainable lightweight attention-based deep learning
-    framework for custard apple disease detection'
-  description: 'Scientific Reports - HECA-MobileNet: an explainable lightweight attention-based
-    deep learning framework for custard apple disease detection'
-  url: https://www.nature.com/articles/s41598-026-61729-7.pdf
-  date: '2026-07-22'
   source: Nature.com

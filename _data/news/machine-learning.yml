@@ -1,4 +1,35 @@
 news_items:
+- title: Integrating machine learning and geospatial technologies for spatio-temporal
+    analysis of urban expansion and land use transformation in Gambella Town, Ethiopia
+  description: Rapid urbanization and the associated expansion of built-up areas are
+    transforming land resources, ecosystem functions, and the spatial structure of
+    cities. Distinguishing urban growth, urban expansion, and urban sprawl is essential
+    for understanding
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360419
+  date: '2026-10-20'
+  source: Plos.org
+- title: Physics-informed machine learning formulation to infer the inverse problem
+    using the mass-radius geometry of neutron stars
+  description: The quest to understand the properties of matter at supranuclear densities
+    found in the cores of neutron stars has intrigued physicists for a long time.
+    The study addresses this problem using a physics-informed machine learning approach
+    guided by ast
+  url: https://link.aps.org/doi/10.1103/jhnt-q5wq
+  date: '2026-10-20'
+  source: Aps.org
+- title: Machine learning for dynamic incentive problems
+  description: Renner, P. & Scheidegger, S. (2026). Machine learning for dynamic incentive
+    problems. Review of Economic Studies, https://doi.org/10.1093/restud/rdag105
+  url: https://researchonline.lse.ac.uk/id/eprint/141438/
+  date: '2026-10-20'
+  source: Lse.ac.uk
+- title: A hybrid data-centric machine learning for lost circulation prediction using
+    imbalanced drilling and geological datasets
+  description: Scientific Reports - A hybrid data-centric machine learning for lost
+    circulation prediction using imbalanced drilling and geological datasets
+  url: https://www.nature.com/articles/s41598-026-75043-9.pdf
+  date: '2026-10-20'
+  source: Nature.com
 - title: Closed-loop photoreactor design enabled by machine learning and digital twins
   description: Designing efficient photoreactors remains challenging due to the complex
     interplay of light transport phenomena, shaped by reflection, scattering and absorption
@@ -2451,19 +2482,4 @@ news_items:
     and shops, ru
   url: https://nlppeople.com/job/machine-learning-engineer-ii-6/
   date: '2026-07-23'
-  source: Nlppeople.com
-- title: Acoustic feature selection and clinical information integration for machine
-    learning based dialysis shunt function prediction
-  description: Scientific Reports - Acoustic feature selection and clinical information
-    integration for machine learning based dialysis shunt function prediction
-  url: https://www.nature.com/articles/s41598-026-62029-w
-  date: '2026-07-22'
-  source: Nature.com
-- title: Principal Engineer, AI and Machine Learning Software
-  description: About the position Murata Vios is looking for a talented and motivated
-    Principal Engineer specializing in AI and Machine Learning (ML). This role combines
-    technical leadership with hands-on development, defining the technical direction
-    for AI/ML tech
-  url: https://nlppeople.com/job/principal-engineer-ai-and-machine-learning-software/
-  date: '2026-07-22'
   source: Nlppeople.com
