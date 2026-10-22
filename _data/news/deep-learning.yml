@@ -1,4 +1,33 @@
 news_items:
+- title: Deep learning search for gravitational waves from compact binary coalescence
+  description: 'Gravitational-wave searches rely on a combination of methods, including
+    matched filtering, coherent analyses, and more recent machine-learning--based
+    pipelines. For compact binary coalescences---where signals originate from the
+    relativistic dynamics '
+  url: https://link.aps.org/doi/10.1103/28ng-mj9x
+  date: '2026-10-21'
+  source: Aps.org
+- title: Deep learning-driven fault detection in photovoltaic modules using UAV assistance
+  description: Scientific Reports - Deep learning-driven fault detection in photovoltaic
+    modules using UAV assistance
+  url: https://www.nature.com/articles/s41598-026-75496-y.pdf
+  date: '2026-10-21'
+  source: Nature.com
+- title: Leveraging genomic deep learning models for the prediction of noncoding variant
+    effects
+  description: This Review outlines progress in leveraging genomic deep learning models
+    for the prediction of noncoding variant effects in humans, highlighting key considerations
+    for practitioners, current performance trends and opportunities for improvement.
+  url: https://www.nature.com/articles/s41588-026-02769-7
+  date: '2026-10-21'
+  source: Nature.com
+- title: Spatial metabolomics-guided deep learning framework for dissecting immune
+    evasion mechanisms in fungal infection microenvironments
+  description: Scientific Reports - Spatial metabolomics-guided deep learning framework
+    for dissecting immune evasion mechanisms in fungal infection microenvironments
+  url: https://www.nature.com/articles/s41598-026-73549-w.pdf
+  date: '2026-10-21'
+  source: Nature.com
 - title: A robust deep learning framework for smart grid stability classification
     using statistical validation
   description: Scientific Reports - A robust deep learning framework for smart grid
@@ -1081,10 +1110,3 @@ news_items:
   url: https://github.com/puffinsoft/mousecrack
   date: '2026-07-26'
   source: Github.com
-- title: Whole-esophageal radiomics and deep learning for predicting the pT and pN
-    categories of resectable esophageal cancer
-  description: Scientific Reports - Whole-esophageal radiomics and deep learning for
-    predicting the pT and pN categories of resectable esophageal cancer
-  url: https://www.nature.com/articles/s41598-026-62500-8.pdf
-  date: '2026-07-23'
-  source: Nature.com

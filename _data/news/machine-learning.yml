@@ -1,4 +1,29 @@
 news_items:
+- title: Spatio-temporal machine learning for multi-horizon prediction of bluetongue
+    outbreaks
+  description: Author summary Predicting infectious disease outbreaks before they
+    occur remains a major challenge, particularly for diseases influenced by environmental
+    conditions. In this study, we focus on bluetongue, a viral disease of livestock
+    transmitted by b
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014870
+  date: '2026-10-21'
+  source: Plos.org
+- title: 'Hybrid Machine Learning & Financial Econometrics: Building Volatility-Aware
+    Dynamic Forecast Bands for Bitcoin'
+  description: When forecasting high-volatility financial assets like Bitcoin (BTC-USD),
+    standard point-prediction models—whether classical ARIMA or deep neural networks—often
+    fall short. A point estimate tells you where the model expects the price to go,
+    but it co
+  url: https://www.r-bloggers.com/2026/10/hybrid-machine-learning-financial-econometrics-building-volatility-aware-dynamic-forecast-bands-for-bitcoin/
+  date: '2026-10-21'
+  source: R-bloggers.com
+- title: 'Development and validation of a machine learning-based diagnostic model
+    for depression in young populations: a retrospective cohort study'
+  description: 'Scientific Reports - Development and validation of a machine learning-based
+    diagnostic model for depression in young populations: a retrospective cohort study'
+  url: https://www.nature.com/articles/s41598-026-76338-7.pdf
+  date: '2026-10-21'
+  source: Nature.com
 - title: Integrating machine learning and geospatial technologies for spatio-temporal
     analysis of urban expansion and land use transformation in Gambella Town, Ethiopia
   description: Rapid urbanization and the associated expansion of built-up areas are
@@ -2459,27 +2484,4 @@ news_items:
     cry at Acen
   url: https://nlppeople.com/job/machine-learning-ai-engineer-associate-2/
   date: '2026-07-24'
-  source: Nlppeople.com
-- title: 'The fourth day at DebConf26 starts at 10.00 AM DebConf Time (1:00 PM UTC)
-    in the Aula Magna - FADU with a talk in Spanish about "Edge Machine Learning en
-    pequeños dispositivos con Debian" followed by "You Really Want an AI Agent in
-    the Cloud… But You Only Have Five Dollars" and, in the Aula Magna - FBCB, "Free
-    as in Burned Out: who really pays for Open Source Software", then "Funding in
-    Free Software Projects". At the same time, the Aula 0.3 - FICH will host a FAIme
-    hands-on session followed by the Publicity Team BoF https://debconf26.debconf.org/schedule/?block=37
-    #debian #debconf26 #debconf #santafe #debianargentina'
-  description: The fourth day at DebConf26 starts at 10.00 AM DebConf Time (1:00 PM
-    UTC) in the Aula Magna - FADU with a talk in Spanish about "Edge Machine Learning
-    en pequeños dispositivos con Debian" followed by "You Really Want an AI Agent
-    in the Cloud… But You
-  url: https://micronews.debian.org/2026/1784817393.html
-  date: '2026-07-23'
-  source: Debian.org
-- title: Machine Learning Engineer II
-  description: Overview Our new global headquarters is conveniently located in Irvine,
-    CA near John Wayne Airport in the Park Place development. For our onsite and hybrid
-    employees you will be able to enjoy amenities such as access to many restaurants
-    and shops, ru
-  url: https://nlppeople.com/job/machine-learning-engineer-ii-6/
-  date: '2026-07-23'
   source: Nlppeople.com
