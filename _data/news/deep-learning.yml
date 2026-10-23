@@ -1,4 +1,13 @@
 news_items:
+- title: Deep learning–driven fine-resolution finger movement recognition from surface
+    EMG signals
+  description: Surface electromyography (sEMG) has emerged as an impactful tool for
+    controlling advanced prosthetic devices by detecting and recording muscle electrical
+    activity during motion. This study presents a unique technique for recognizing
+    nine distinct cla
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361050
+  date: '2026-10-22'
+  source: Plos.org
 - title: Deep learning search for gravitational waves from compact binary coalescence
   description: 'Gravitational-wave searches rely on a combination of methods, including
     matched filtering, coherent analyses, and more recent machine-learning--based

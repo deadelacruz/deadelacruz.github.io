@@ -1,4 +1,31 @@
 news_items:
+- title: FDA grants 510(k) clearance for BoneEnhance, the first machine learning layer
+    on RIVANNA's Accuro XV platform
+  description: Anatomy segmentation and three-dimensional skeletal visualization arrive
+    with this clearance; an injury detection module for clinical decision support
+    is in development on the platform roadmap CHARLOTTESVILLE, Va., Oct. 22, 2026
+    /PRNewswire/ -- RIVAN
+  url: https://www.prnewswire.com/news-releases/fda-grants-510k-clearance-for-boneenhance-the-first-machine-learning-layer-on-rivannas-accuro-xv-platform-302917179.html
+  date: '2026-10-22'
+  source: PRNewswire
+- title: Feasibility of a machine learning model for predicting weight gain after
+    kidney transplantation machine learning and weight gain after kidney transplantation
+  description: Background Excessive weight gain after kidney transplantation adversely
+    affects patient and graft outcomes. Machine Learning has been increasingly used
+    to improve risk prediction across a range of transplant-related outcomes, yet
+    its application to p
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360501
+  date: '2026-10-22'
+  source: Plos.org
+- title: 'Predicting under-five child mortality in Zambia: Machine learning versus
+    parametric survival models'
+  description: Background In sub-Saharan Africa, child mortality remains a critical
+    public health challenge, with Zambia exhibiting some of the highest rates in the
+    region. While survival analysis has identified key risk factors, these methods
+    often fail to capture
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361197
+  date: '2026-10-22'
+  source: Plos.org
 - title: Spatio-temporal machine learning for multi-horizon prediction of bluetongue
     outbreaks
   description: Author summary Predicting infectious disease outbreaks before they
@@ -2460,28 +2487,4 @@ news_items:
     others accomplish th
   url: https://nlppeople.com/job/senior-ai-machine-learning-engineer-2/
   date: '2026-07-26'
-  source: Nlppeople.com
-- title: Machine Learning for Trading, 3rd Edition
-  description: 'eBook Details: Paperback: 826 pages Published: July 24, 2026 Language: English
-    ISBN-10: 1803246979 ISBN-13: 978-1803246970 eBook Description: Machine Learning
-    for Trading, 3rd Edition: A disciplined workflow from research to live execution,
-    with nine'
-  url: https://www.wowebook.org/machine-learning-for-trading-3rd-edition/
-  date: '2026-07-24'
-  source: Wowebook.org
-- title: Machine Learning/AI Engineer, Associate
-  description: Company Overview Acentra Health exists to empower better health outcomes
-    through technology, services, and clinical expertise. Our mission is to innovate
-    health solutions that deliver maximum value and impact. Lead the Way is our rallying
-    cry at Acen
-  url: https://nlppeople.com/job/machine-learning-ai-engineer-associate/
-  date: '2026-07-24'
-  source: Nlppeople.com
-- title: Machine Learning/AI Engineer, Associate
-  description: Company Overview Acentra Health exists to empower better health outcomes
-    through technology, services, and clinical expertise. Our mission is to innovate
-    health solutions that deliver maximum value and impact. Lead the Way is our rallying
-    cry at Acen
-  url: https://nlppeople.com/job/machine-learning-ai-engineer-associate-2/
-  date: '2026-07-24'
   source: Nlppeople.com
