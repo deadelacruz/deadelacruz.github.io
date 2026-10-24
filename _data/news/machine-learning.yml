@@ -1,4 +1,13 @@
 news_items:
+- title: 'Vaping and smoking as risk factors for arthritis: Evidence from double machine
+    learning'
+  description: Smoking is a well-documented risk factor for chronic diseases, including
+    arthritis. Vaping, often marketed as a safer alternative, has risen sharply, yet
+    its implications for musculoskeletal health remain unclear. We examine the associations
+    of vapin
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360863
+  date: '2026-10-23'
+  source: Plos.org
 - title: FDA grants 510(k) clearance for BoneEnhance, the first machine learning layer
     on RIVANNA's Accuro XV platform
   description: Anatomy segmentation and three-dimensional skeletal visualization arrive

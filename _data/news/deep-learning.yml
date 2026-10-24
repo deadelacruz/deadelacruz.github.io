@@ -1,4 +1,13 @@
 news_items:
+- title: Decoding motor imagery EEG signals by a deep learning network integrating
+    multiscale filtering and temporal-channel attention mechanisms
+  description: Due to their low signal-to-noise ratio and non-stationarity, accurately
+    classifying EEG signals is still one of the main hindrances that limit the real-world
+    applications of a brain-computer interface (BCI). Deep learning (DL) is a potential
+    method f
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361026
+  date: '2026-10-23'
+  source: Plos.org
 - title: Deep learning–driven fine-resolution finger movement recognition from surface
     EMG signals
   description: Surface electromyography (sEMG) has emerged as an impactful tool for
