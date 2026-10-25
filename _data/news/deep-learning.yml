@@ -1,4 +1,12 @@
 news_items:
+- title: Python for AI, Machine Learning, and Deep Learning
+  description: 'eBook Details: Paperback: 752 pages Published: October 23, 2026 Language: English
+    ISBN-10: 1808086759 ISBN-13: 978-1808086755 eBook Description: Python for AI,
+    Machine Learning, and Deep Learning: Build practical AI applications with XGBoost,
+    TensorF'
+  url: https://www.wowebook.org/python-for-ai-machine-learning-and-deep-learning/
+  date: '2026-10-24'
+  source: Wowebook.org
 - title: Decoding motor imagery EEG signals by a deep learning network integrating
     multiscale filtering and temporal-channel attention mechanisms
   description: Due to their low signal-to-noise ratio and non-stationarity, accurately
@@ -1117,14 +1125,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-61627-y
   date: '2026-07-27'
   source: Nature.com
-- title: 'Show HN: Mousecrack – Bypass agent mouse detection with deep learning'
-  description: 'Article URL: https://github.com/puffinsoft/mousecrack
-
-    Comments URL: https://news.ycombinator.com/item?id=49055418
-
-    Points: 1
-
-    # Comments: 0'
-  url: https://github.com/puffinsoft/mousecrack
-  date: '2026-07-26'
-  source: Github.com
