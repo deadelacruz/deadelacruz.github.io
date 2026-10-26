@@ -1112,16 +1112,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-62117-x
   date: '2026-07-28'
   source: Nature.com
-- title: 'Retraction: Hybrid deep learning and feature selection approach for autism
-    detection from rs-fMRI data'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354652
-  date: '2026-07-27'
-  source: Plos.org
-- title: Deep learning technique for grape leaf disease classification via deep high
-    attention stage-by-stage forward Taylor network
-  description: Scientific Reports - Deep learning technique for grape leaf disease
-    classification via deep high attention stage-by-stage forward Taylor network
-  url: https://www.nature.com/articles/s41598-026-61627-y
-  date: '2026-07-27'
-  source: Nature.com

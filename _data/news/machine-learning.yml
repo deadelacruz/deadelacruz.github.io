@@ -1,4 +1,13 @@
 news_items:
+- title: 'Interpretable machine learning for predicting intraoperative oxygenation
+    impairment during one-lung ventilation in thoracic surgery: a retrospective cohort
+    study'
+  description: 'Scientific Reports - Interpretable machine learning for predicting
+    intraoperative oxygenation impairment during one-lung ventilation in thoracic
+    surgery: a retrospective cohort study'
+  url: https://www.nature.com/articles/s41598-026-74032-2.pdf
+  date: '2026-10-25'
+  source: Nature.com
 - title: 'Vaping and smoking as risk factors for arthritis: Evidence from double machine
     learning'
   description: Smoking is a well-documented risk factor for chronic diseases, including
@@ -2432,45 +2441,4 @@ news_items:
     they need to grow the'
   url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-7/
   date: '2026-07-28'
-  source: Nlppeople.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-27/
-  date: '2026-07-27'
-  source: Nlppeople.com
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-14/
-  date: '2026-07-27'
-  source: Nlppeople.com
-- title: Artificial Intelligence/Machine Learning 2
-  description: 'Design and Development: Lead the design and development of AI-driven
-    solutions from conception to deployment, ensuring seamless integration with the
-    existing software architecture. This includes prototyping new models, writing
-    production-quality code'
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-2/
-  date: '2026-07-27'
-  source: Nlppeople.com
-- title: Research Engineer I II/III (AI / Machine Learning)
-  description: 'Category: Science Lab/Area: Jain Lab Description: Who we are At Gladstone
-    Institutes, every role contributes to discoveries that have the potential to transform
-    lives. Gladstone is a world-renowned independent, nonprofit biomedical research
-    organizat'
-  url: https://nlppeople.com/job/research-engineer-i-ii-iii-ai-machine-learning/
-  date: '2026-07-27'
-  source: Nlppeople.com
-- title: Senior Machine Learning Engineer – Physical AI and Synthetic Data Generation
-    and Evaluation
-  description: We are looking for outstanding Machine Learning Engineers to join our
-    Physical AI teams. As the pioneers of the GPU—the visual cortex of modern computing—we
-    are building the foundation for the next wave of AI that interacts with the physical
-    world. T
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-physical-ai-and-synthetic-data-generation-and-evaluation/
-  date: '2026-07-27'
   source: Nlppeople.com
