@@ -1,4 +1,10 @@
 news_items:
+- title: Deep learning mitigates batch effects in Raman spectroscopy
+  description: Scientific Reports - Deep learning mitigates batch effects in Raman
+    spectroscopy
+  url: https://www.nature.com/articles/s41598-026-62086-1
+  date: '2026-10-26'
+  source: Nature.com
 - title: Python for AI, Machine Learning, and Deep Learning
   description: 'eBook Details: Paperback: 752 pages Published: October 23, 2026 Language: English
     ISBN-10: 1808086759 ISBN-13: 978-1808086755 eBook Description: Python for AI,
@@ -1105,10 +1111,4 @@ news_items:
     disease classification via multimodal radiomic and visual features
   url: https://www.nature.com/articles/s41598-026-64370-6.pdf
   date: '2026-07-29'
-  source: Nature.com
-- title: 'Pi-Loc: a Pareto indoor localization using deep learning in 5GB'
-  description: 'Scientific Reports - Pi-Loc: a Pareto indoor localization using deep
-    learning in 5GB'
-  url: https://www.nature.com/articles/s41598-026-62117-x
-  date: '2026-07-28'
   source: Nature.com

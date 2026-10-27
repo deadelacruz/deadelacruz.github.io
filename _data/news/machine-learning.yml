@@ -1,4 +1,20 @@
 news_items:
+- title: 'Development and validation of an interpretable machine learning model for
+    early prediction of refractory mycoplasma pneumoniae pneumonia: a multi-center
+    study'
+  description: 'Scientific Reports - Development and validation of an interpretable
+    machine learning model for early prediction of refractory mycoplasma pneumoniae
+    pneumonia: a multi-center study'
+  url: https://www.nature.com/articles/s41598-026-77238-6.pdf
+  date: '2026-10-26'
+  source: Nature.com
+- title: Machine learning in predicting recurrence of self-inflicted neck trauma in
+    young adults
+  description: Scientific Reports - Machine learning in predicting recurrence of self-inflicted
+    neck trauma in young adults
+  url: https://www.nature.com/articles/s41598-026-75963-6.pdf
+  date: '2026-10-26'
+  source: Nature.com
 - title: 'Interpretable machine learning for predicting intraoperative oxygenation
     impairment during one-lung ventilation in thoracic surgery: a retrospective cohort
     study'
@@ -2358,87 +2374,4 @@ news_items:
     ML team at JPMorgan Com
   url: https://nlppeople.com/job/applied-ai-ml-senior-associate-machine-learning-engineer-2/
   date: '2026-07-29'
-  source: Nlppeople.com
-- title: 'Daily Deal: The Complete Machine Learning Bundle'
-  description: Dive into the world of self-driving cars, speech recognition technology,
-    and more with the Complete Machine Learning Bundle. Over 10 courses, you will
-    learn about pattern recognition and prediction, and how to harness the power of
-    machine learning to
-  url: https://slashdot.org/firehose.pl?op=view&amp;id=184738062
-  date: '2026-07-28'
-  source: Slashdot.org
-- title: 'Daily Deal: The Complete Machine Learning Bundle'
-  description: Dive into the world of self-driving cars, speech recognition technology,
-    and more with the Complete Machine Learning Bundle. Over 10 courses, you will
-    learn about pattern recognition and prediction, and how to harness the power of
-    machine learning to
-  url: http://www.techdirt.com/2026/07/28/daily-deal-the-complete-machine-learning-bundle-3/
-  date: '2026-07-28'
-  source: Techdirt
-- title: 'Machine learning reveals temperature as a key predictor of dengue risk across
-    Thailand’s provinces: A 20-year analysis'
-  description: Author summary This study used machine learning to predict the risk
-    of dengue fever outbreaks across Thailand’s provinces from 2003 to 2022. By analyzing
-    climate data, economic indicators, and satellite imagery, our machine learning
-    model could accur
-  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014590
-  date: '2026-07-28'
-  source: Plos.org
-- title: HeyDonto launches DFT Labs to pursue physics-based machine learning capabilities
-  description: Artificial intelligence startup HeyDonto AI Technology today announced
-    that it has established DFT Labs, a research subsidiary dedicated to pursuing
-    a physics-based framework for machine learning. The launch of the new company
-    follows the publication
-  url: https://siliconangle.com/2026/07/28/heydonto-launches-dft-labs-pursue-physics-based-machine-learning-capabilities/
-  date: '2026-07-28'
-  source: SiliconANGLE News
-- title: Machine Learning Engineer | Python | Pytorch | Natural Language Processing
-    | LLM | Langua
-  description: 'Position: Machine Learning Engineer | Python | Pytorch | Natural Language
-    Processing | LLM | Large Langua[…] Machine Learning Engineer | Python | Pytorch
-    | Natural Language Processing | LLM | Large Language Models | Remote, EuropeAbout
-    UsWe build AI '
-  url: https://nlppeople.com/job/machine-learning-engineer-python-pytorch-natural-language-processing-llm-langua-5/
-  date: '2026-07-28'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Senior Associate
-    – Machine Learning Center of Excellence
-  description: At JPMorgan Chase, AI and technology promote our global operations
-    with unmatched scale and speed. We invest over $18 billion annually in innovation,
-    data leverage, and security to shape the future for our clients, communities,
-    and employees. The Chi
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-senior-associate-machine-learning-center-of-excellence/
-  date: '2026-07-28'
-  source: Nlppeople.com
-- title: Senior / Principal Machine Learning Scientist, Scientific Reasoning Models,
-    AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/senior-principal-machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-16/
-  date: '2026-07-28'
-  source: Nlppeople.com
-- title: Remote Machine Learning Scientist Remote Sensing
-  description: Grow with Treefera We are a first-mile intelligence platform, delivering
-    granular visibility into the point of origin in global ag & soft commodity supply
-    chains – where risk, cost, performance and exposure are set. You’ll join a global,
-    cross-functi
-  url: https://nlppeople.com/job/remote-machine-learning-scientist-remote-sensing-11/
-  date: '2026-07-28'
-  source: Nlppeople.com
-- title: A hybrid experimental and machine learning framework for designing and predicting
-    compressive strength of ultra-high-performance concrete
-  description: Scientific Reports - A hybrid experimental and machine learning framework
-    for designing and predicting compressive strength of ultra-high-performance concrete
-  url: https://www.nature.com/articles/s41598-026-62257-0
-  date: '2026-07-28'
-  source: Nature.com
-- title: Principal Machine Learning Data Scientist, Gen AI
-  description: 'Xometry (NASDAQ: XMTR) powers the industries of today and tomorrow
-    by connecting the people with big ideas to the manufacturers who can bring them
-    to life. Xometry’s digital marketplace gives manufacturers the critical resources
-    they need to grow the'
-  url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-7/
-  date: '2026-07-28'
   source: Nlppeople.com
