@@ -1,4 +1,20 @@
 news_items:
+- title: An extensible deep learning framework for multi-type chromatin interaction
+    prediction through hierarchical adaptation strategies
+  description: Author summary The three-dimensional organization of the genome plays
+    a critical role in regulating gene expression by bringing distant regulatory regions
+    into physical contact. However, current computational methods for predicting chromatin
+    interact
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014911
+  date: '2026-10-27'
+  source: Plos.org
+- title: Anatomy-guided U-Net deep learning for sparse-view chest CT reconstruction
+    using spatially varying RTV regularization
+  description: Scientific Reports - Anatomy-guided U-Net deep learning for sparse-view
+    chest CT reconstruction using spatially varying RTV regularization
+  url: https://www.nature.com/articles/s41598-026-73560-1.pdf
+  date: '2026-10-27'
+  source: Nature.com
 - title: Deep learning mitigates batch effects in Raman spectroscopy
   description: Scientific Reports - Deep learning mitigates batch effects in Raman
     spectroscopy
@@ -1080,35 +1096,4 @@ news_items:
     12-lead ECG and indepen
   url: https://www.nature.com/articles/s41467-026-76155-6.pdf
   date: '2026-07-31'
-  source: Nature.com
-- title: Pytorch Tutorial for Deep Learning
-  description: This is a guest post from Naa Ashiorkor, a data scientist and tech
-    community builder. Building intelligent systems that can see, hear, understand
-    language, and make decisions was previously the domain of specialized researchers
-    with massive computing
-  url: https://blog.jetbrains.com/pycharm/2026/07/pytorch-tutorial-for-deep-learning/
-  date: '2026-07-29'
-  source: Jetbrains.com
-- title: 'SynAPSeg: A novel dataset and image analysis framework for deep learning-based
-    synapse detection and quantification'
-  description: Author summary The connections between brain cells, known as synapses,
-    are the fundamental units of learning and memory. Synapses are often densely packed
-    along dendrites making them difficult to accurately segment with automated image
-    analysis metho
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014571
-  date: '2026-07-29'
-  source: Plos.org
-- title: Benchmarking machine learning and deep learning models with a novel graph-attention
-    SAGEConv-transformer for ECG arrhythmia detection
-  description: Scientific Reports - Benchmarking machine learning and deep learning
-    models with a novel graph-attention SAGEConv-transformer for ECG arrhythmia detection
-  url: https://www.nature.com/articles/s41598-026-64615-4
-  date: '2026-07-29'
-  source: Nature.com
-- title: Hybrid deep learning and meta learning for Alzheimer disease classification
-    via multimodal radiomic and visual features
-  description: Scientific Reports - Hybrid deep learning and meta learning for Alzheimer
-    disease classification via multimodal radiomic and visual features
-  url: https://www.nature.com/articles/s41598-026-64370-6.pdf
-  date: '2026-07-29'
   source: Nature.com

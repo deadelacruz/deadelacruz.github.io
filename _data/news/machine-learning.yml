@@ -1,4 +1,21 @@
 news_items:
+- title: Machine Learning for Time Series with Python, 2nd Edition
+  description: 'eBook Details: Paperback: 590 pages Published: October 26, 2026 Language: English
+    ISBN-10: 1837631336 ISBN-13: 978-1837631339 eBook Description: Machine Learning
+    for Time Series with Python, 2nd Edition: Python to forecast, predict, and monitor
+    time '
+  url: https://www.wowebook.org/machine-learning-for-time-series-with-python-2nd-edition/
+  date: '2026-10-27'
+  source: Wowebook.org
+- title: 'Predicting 1-year outcomes after anterior cruciate ligament reconstruction
+    from preoperative physical performance using machine learning: an exploratory
+    study'
+  description: 'Scientific Reports - Predicting 1-year outcomes after anterior cruciate
+    ligament reconstruction from preoperative physical performance using machine learning:
+    an exploratory study'
+  url: https://www.nature.com/articles/s41598-026-77775-0.pdf
+  date: '2026-10-27'
+  source: Nature.com
 - title: 'Development and validation of an interpretable machine learning model for
     early prediction of refractory mycoplasma pneumoniae pneumonia: a multi-center
     study'
@@ -2348,30 +2365,4 @@ news_items:
     and employees. The Chi
   url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-senior-associate-machine-learning-center-of-excellence-2/
   date: '2026-07-30'
-  source: Nlppeople.com
-- title: Large-scale study points to potential -- and challenges -- of using machine
-    learning as diagnostic aid
-  description: Findings explored today at the ADLM 2026 meeting ANAHEIM, CALIF., July
-    29, 2026 /PRNewswire/ -- Breaking research presented today at ADLM 2026 in Anaheim,
-    California suggests that machine learning (ML) could play an important role in
-    enhancing the ac
-  url: https://www.prnewswire.com/news-releases/large-scale-study-points-to-potential--and-challenges--of-using-machine-learning-as-diagnostic-aid-302834720.html
-  date: '2026-07-29'
-  source: PRNewswire
-- title: Identifying agricultural consumptive-use patterns to support adaptive water
-    management in California’s Santa Clara Valley via remote sensing and machine learning
-  description: Site-specific agricultural water management is particularly important
-    in highly productive and diverse agricultural regions such as California’s Santa
-    Clara Valley (SCV), where broad crop categories can obscure substantial parcel-scale
-    differences in
-  url: https://journals.plos.org/water/article?id=10.1371/journal.pwat.0000416
-  date: '2026-07-29'
-  source: Plos.org
-- title: Applied AI ML – Senior Associate – Machine Learning Engineer
-  description: Job Description Join a high performing team of applied AI experts to
-    drive innovation and new capabilities in the Commercial & Investment Bank. As
-    an Applied AI / ML Senior Associate Machine Learning Engineer in the Applied AI
-    ML team at JPMorgan Com
-  url: https://nlppeople.com/job/applied-ai-ml-senior-associate-machine-learning-engineer-2/
-  date: '2026-07-29'
   source: Nlppeople.com
