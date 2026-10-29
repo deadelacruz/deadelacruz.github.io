@@ -1,4 +1,36 @@
 news_items:
+- title: Early vs late fusion of qMIDS with machine learning based classifiers for
+    oral cancer diagnosis from gene expression data
+  description: Author summary The study tests two fusion designs of the qMIDS gene-expression
+    method combined with machine-learning classifiers for oral cancer diagnosis. Evaluations
+    across geographically and ethnically diverse cohorts show that late fusion perform
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014888
+  date: '2026-10-28'
+  source: Plos.org
+- title: Revealing nonlinear and interaction mechanisms of resource and environmental
+    carrying capacity through explainable machine learning
+  description: Existing studies on resource and environmental carrying capacity (RECC)
+    have primarily focused on comprehensive evaluation and linear identification.
+    But the quantification of driving effect on RECC have not been fully explored,
+    especially the intera
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0360548
+  date: '2026-10-28'
+  source: Plos.org
+- title: Rolling down the leptonic BSM landscape using machine learning techniques
+  description: 'In this work, we adapt and apply techniques from machine learning
+    to the exploration of physics beyond the Standard Model in the leptonic sector.
+    Namely, we employ initialization and optimization, as they are applied in machine
+    learning, to minimize '
+  url: https://link.aps.org/doi/10.1103/g5l2-bzs4
+  date: '2026-10-28'
+  source: Aps.org
+- title: Machine learning for advancing gamma source localization in a human phantom
+    using NaI (Tl) detector spectra in radiobioassay
+  description: Scientific Reports - Machine learning for advancing gamma source localization
+    in a human phantom using NaI (Tl) detector spectra in radiobioassay
+  url: https://www.nature.com/articles/s41598-026-78522-1.pdf
+  date: '2026-10-28'
+  source: Nature.com
 - title: Machine Learning for Time Series with Python, 2nd Edition
   description: 'eBook Details: Paperback: 590 pages Published: October 26, 2026 Language: English
     ISBN-10: 1837631336 ISBN-13: 978-1837631339 eBook Description: Machine Learning
@@ -2340,29 +2372,4 @@ news_items:
     ideally suited to those
   url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-13/
   date: '2026-07-31'
-  source: Nlppeople.com
-- title: 7 Machine Learning Algorithms That Still Matter
-  description: Discover 7 essential machine learning algorithms that every data scientist
-    should know before reaching for LLMs and generative AI, with simple explanations
-    and practical Python code.
-  url: https://www.kdnuggets.com/7-machine-learning-algorithms-that-still-matter
-  date: '2026-07-30'
-  source: Kdnuggets.com
-- title: Machine Learning Scientist/Senior Machine Learning Scientist – Synthesis
-    Planning and Optimization, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-senior-machine-learning-scientist-synthesis-planning-and-optimization-ai-for-drug-discovery-4/
-  date: '2026-07-30'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Senior Associate
-    – Machine Learning Center of Excellence
-  description: At JPMorgan Chase, AI and technology promote our global operations
-    with unmatched scale and speed. We invest over $18 billion annually in innovation,
-    data leverage, and security to shape the future for our clients, communities,
-    and employees. The Chi
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-senior-associate-machine-learning-center-of-excellence-2/
-  date: '2026-07-30'
   source: Nlppeople.com

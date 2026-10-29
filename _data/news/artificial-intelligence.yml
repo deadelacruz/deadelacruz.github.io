@@ -1,4 +1,85 @@
 news_items:
+- title: AI (Artificial Intelligence) - Moderately critical - Cross-site scripting
+    - SA-CONTRIB-2026-273
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nModerately critical 11 ∕ 25\
+    \ AC:Complex/A:User/CI:Some/II:Some/E:Theoretical/TD:Uncommon\r\nVulnerability: \r\
+    \nCross-site scripting\r\nAffected ve"
+  url: https://www.drupal.org/sa-contrib-2026-273
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Moderately critical - Cross-site scripting
+    - SA-CONTRIB-2026-272
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nModerately critical 14 ∕ 25\
+    \ AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:All\r\nVulnerability: \r\n\
+    Cross-site scripting\r\nAffected versions:"
+  url: https://www.drupal.org/sa-contrib-2026-272
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Less critical - Information Disclosure - SA-CONTRIB-2026-271
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nLess critical 8 ∕ 25 AC:Complex/A:User/CI:Some/II:None/E:Theoretical/TD:Uncommon\r\
+    \nVulnerability: \r\nInformation Disclosure\r\nAffected version"
+  url: https://www.drupal.org/sa-contrib-2026-271
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Moderately critical - Access bypass - SA-CONTRIB-2026-270
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nModerately critical 10 ∕ 25\
+    \ AC:Complex/A:None/CI:Some/II:None/E:Theoretical/TD:Uncommon\r\nVulnerability: \r\
+    \nAccess bypass\r\nAffected versions:"
+  url: https://www.drupal.org/sa-contrib-2026-270
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Critical - Cross-site scripting - SA-CONTRIB-2026-269
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nCritical 15 ∕ 25 AC:Basic/A:None/CI:Some/II:Some/E:Theoretical/TD:Default\r\
+    \nVulnerability: \r\nCross-site scripting\r\nAffected versions: \r\n=1.5"
+  url: https://www.drupal.org/sa-contrib-2026-269
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Moderately critical - Information disclosure
+    - SA-CONTRIB-2026-268
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nModerately critical 11 ∕ 25\
+    \ AC:Complex/A:None/CI:Some/II:None/E:Theoretical/TD:Default\r\nVulnerability: \r\
+    \nInformation disclosure\r\nAffected v"
+  url: https://www.drupal.org/sa-contrib-2026-268
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Moderately critical - Cross-site scripting
+    - SA-CONTRIB-2026-267
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nModerately critical 13 ∕ 25\
+    \ AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:Default\r\nVulnerability: \r\
+    \nCross-site scripting\r\nAffected versi"
+  url: https://www.drupal.org/sa-contrib-2026-267
+  date: '2026-10-28'
+  source: Drupal.org
+- title: AI (Artificial Intelligence) - Moderately critical - Cross-site scripting
+    - SA-CONTRIB-2026-266
+  description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
+    \nai\r\nDate: \r\n2026-October-28\r\nSecurity risk: \r\nModerately critical 14 ∕ 25\
+    \ AC:Basic/A:User/CI:Some/II:Some/E:Theoretical/TD:All\r\nVulnerability: \r\n\
+    Cross-site scripting\r\nAffected versions:"
+  url: https://www.drupal.org/sa-contrib-2026-266
+  date: '2026-10-28'
+  source: Drupal.org
+- title: Donald Trump Claims He Will Be 'Officially Banning' the 'Very Bad and Inaccurate'
+    Term 'Artificial Intelligence'
+  description: President Donald Trump announced on Truth Social he will officially
+    ban the term 'artificial intelligence' in government documents and elsewhere.
+  url: https://radaronline.com/p/donald-trump-officially-banning-term-artificial-intelligence/
+  date: '2026-10-28'
+  source: Radaronline.com
+- title: Using artificial intelligence to step up the fight against doping
+  description: Tools used by WADA and national bodies, the danger that would-be cheats
+    use them too, the personal data risk from a simple online post, and lessons from
+    the "Santorini Summit".
+  url: https://biztoc.com/x/77377f9b21f3f97f
+  date: '2026-10-28'
+  source: Biztoc.com
 - title: Wall Street Has a New Blockbuster Stock Split Coming in 2027 -- It's an Artificial
     Intelligence (AI) Stock That's Up 1,615% in 14 Years - Yahoo Finance
   description: Wall Street Has a New Blockbuster Stock Split Coming in 2027 -- It's
@@ -103,6 +184,16 @@ news_items:
   url: https://slate.com/podcasts/slate-money/2026/10/artificial-intelligence-destroy-alarmist-tech-politics-policy
   date: '2026-10-27'
   source: Slate Magazine
+- title: Stanford professors Sebastian Thrun and Peter Norvig opened their artificial
+    intelligence course to the world for free in 2011; 160,000 students from 190 countries
+    enrolled
+  description: In October 2011, Stanford University unveiled a groundbreaking free
+    online Artificial Intelligence course, capturing global attention. The course
+    was crafted by professors Sebastian Thrun and Peter Norvig, featuring engaging
+    assessments and interacti
+  url: https://timesofindia.indiatimes.com/world/us/stanford-professors-sebastian-thrun-and-peter-norvig-opened-their-artificial-intelligence-course-to-the-world-for-free-in-2011-160000-students-from-190-countries-enrolled/articleshow/135229688.cms
+  date: '2026-10-27'
+  source: The Times of India
 - title: AI boom to burst soon? Artificial Intelligence meltdown in China but Anthropic
     IPO at US Stock Market tell interesting stories of AI bubble
   description: Amid the billions — even trillions — at stake, worries about an AI
@@ -4971,74 +5062,3 @@ news_items:
   url: https://www.computerweekly.com/news/366646624/Offshore-support-staff-dont-fear-artificial-intelligence
   date: '2026-07-31'
   source: ComputerWeekly.com
-- title: 'Vertiv vs. BWX Technologies: What Revenue Trends Tell Investors About the
-    Impact of Artificial Intelligence on These Companies'
-  description: 'Vertiv vs. BWX Technologies: What Revenue Trends Tell Investors About
-    the Impact of Artificial Intelligence on These Companies
-
-    Vertiv: Scaling Digital Infrastructure Revenue
-
-    Vertiv (NYSE:VRT) primarily generates revenue by designing, manufacturing, a'
-  url: https://biztoc.com/x/59ce77371b4daf9f
-  date: '2026-07-30'
-  source: Biztoc.com
-- title: '''With artificial intelligence, we are summoning the demon'' — quote of
-    the day by Elon Musk on the rise of machine intelligence'
-  description: Scientists and technology execs alike are torn on what the implications
-    of AI will be, although many liken it to a higher power
-  url: https://www.techradar.com/pro/with-artificial-intelligence-we-are-summoning-the-demon-quote-of-the-day-by-elon-musk-on-the-rise-of-machine-intelligence
-  date: '2026-07-30'
-  source: TechRadar
-- title: 'Meta Platforms vs. Microsoft: What Recent Revenue Trends Tell Investors
-    About These Artificial Intelligence Companies'
-  description: 'Meta Platforms vs. Microsoft: What Recent Revenue Trends Tell Investors
-    About These Artificial Intelligence Companies
-
-    Meta Platforms: Navigating Seasonal Revenue Swings
-
-    Meta Platforms (NASDAQ:META) primarily earns revenue by connecting people globall'
-  url: https://biztoc.com/x/472947c2fa246cae
-  date: '2026-07-30'
-  source: Biztoc.com
-- title: Floundering Artificial Intelligence Hedge Fund Is Rescued by Rival
-  description: The once-high flying fund Situational Awareness has been bailed out
-    by Kenneth Griffin’s Citadel, according to three people briefed on the transaction.
-  url: https://biztoc.com/x/10319df4f8bd7d5a
-  date: '2026-07-30'
-  source: Biztoc.com
-- title: '(g+) Artificial Intelligence: ByteDance''s plan to dominate AI'
-  description: The Chinese company behind TikTok is pouring resources into the technology.
-    Some think it is a big gamble Von Zijing Wu und Eleanor Olcott (Bytedance, KI)
-  url: https://www.golem.de/sonstiges/zustimmung/auswahl.html?from=https%3A%2F%2Fwww.golem.de%2Fnews%2Fartificial-intelligence-bytedance-s-plan-to-dominate-ai-2607-211431.html&referer=https%3A%2F%2Ft.co%2F975209234d
-  date: '2026-07-30'
-  source: Golem.de
-- title: Andrew Garfield Has a Blunt Take on Amazon Dropping Luca Guadagnino’s Artificial
-    Intelligence Movie - Yahoo
-  description: Andrew Garfield Has a Blunt Take on Amazon Dropping Luca Guadagnino’s
-    Artificial Intelligence MovieYahoo Andrew Garfield Weighs in on Drama Surrounding
-    OpenAI Film ‘Artificial’The Hollywood Reporter Andrew Garfield on Amazon Dropping
-    ‘Artificial’ and
-  url: https://slashdot.org/firehose.pl?op=view&amp;id=184770254
-  date: '2026-07-30'
-  source: Slashdot.org
-- title: AI-OS puts artificial intelligence at the center of the Linux desktop
-  description: MakuluLinux has released AI-OS, a Linux distribution that puts artificial
-    intelligence at the center of the desktop instead of treating it as another application.
-    Instead of adding another chatbot, the distribution includes an AI layer called
-    Electra
-  url: https://slashdot.org/submission/17349432/ai-os-puts-artificial-intelligence-at-the-center-of-the-linux-desktop
-  date: '2026-07-30'
-  source: Slashdot.org
-- title: Artificial Intelligence Could Help Prevent Sexual Assault In Prisons
-  description: Artificial intelligence is changing many aspects of our lives.  Could
-    it also be the solution to sexual assaults in our prisons?  One company believes
-    so.
-  url: https://www.forbes.com/sites/walterpavlo/2026/07/30/artificial-intelligence-could-help-prevent-sexual-assault-in-prisons/
-  date: '2026-07-30'
-  source: Forbes
-- title: Got $1,000? 2 Magnificent Artificial Intelligence (AI) Stocks Down 15% or
-    More From Their Highs to Buy Hand Over Fist
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_d8f23f8a-6d01-4901-890e-3619b9536d98
-  date: '2026-07-30'
-  source: Yahoo Entertainment
