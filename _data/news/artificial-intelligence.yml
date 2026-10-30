@@ -39,6 +39,13 @@ news_items:
   url: https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/
   date: '2026-10-29'
   source: InfoQ.com
+- title: Dartmouth provost resigns following accusations he used artificial intelligence
+    for writing
+  description: Dartmouth provost resigns following accusations he used artificial
+    intelligence for writingtimesunion.com
+  url: https://www.timesunion.com/business/article/dartmouth-provost-resigns-following-accusations-22501279.php
+  date: '2026-10-29'
+  source: Albany Times Union
 - title: AI (Artificial Intelligence) - Moderately critical - Cross-site scripting
     - SA-CONTRIB-2026-273
   description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
