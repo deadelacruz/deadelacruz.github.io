@@ -1,4 +1,30 @@
 news_items:
+- title: Deep learning for identifying Alzheimers disease and mild cognitive impairment
+    with optical coherence tomography angiography
+  description: 'Background/aims To develop a machine learning (ML) method with deep
+    learning (DL) models for detecting Alzheimer’s disease (AD) and mild cognitive
+    impairment (MCI) using optical coherence tomography angiography (OCTA) images.
+
+
+    Methods OCTA images of '
+  url: http://bjo.bmj.com/content/early/2026/10/29/bjo-2025-328423
+  date: '2026-10-29'
+  source: The BMJ
+- title: 'Taxonova: Deep learning enables fast and confidence-aware microbiome species-level
+    amplicon classification'
+  description: 'Author summary We developed Taxonova to address a long-standing problem
+    in microbiome research: extracting species-level information from short DNA marker
+    sequences. Taxonova abstains when the amplicon region carries too little signal
+    to separate clo'
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014912
+  date: '2026-10-29'
+  source: Plos.org
+- title: 'Expression of Concern: Pedestrian POSE estimation using multi-branched deep
+    learning pose net'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361677
+  date: '2026-10-29'
+  source: Plos.org
 - title: An extensible deep learning framework for multi-type chromatin interaction
     prediction through hierarchical adaptation strategies
   description: Author summary The three-dimensional organization of the genome plays
@@ -1081,19 +1107,3 @@ news_items:
   url: https://arxiv.org/abs/2608.00835
   date: '2026-08-01'
   source: Arxiv.org
-- title: "A scalable explainable deep learning framework for predictive analysis and\
-    \ interpretability of CO$$_2$$\r\n emissions patterns"
-  description: Scientific Reports - A scalable explainable deep learning framework
-    for predictive analysis and interpretability of CO$$_2$$ emissions patterns
-  url: https://www.nature.com/articles/s41598-026-61829-4.pdf
-  date: '2026-07-31'
-  source: Nature.com
-- title: Deep learning prediction of left atrial structure and function from 12-lead
-    electrocardiograms
-  description: Atrial cardiopathy precedes atrial fibrillation and stroke, yet it
-    is detected through costly, inaccessible cardiac imaging. Here, the authors show
-    that a deep learning model estimates left atrial structure and function from a
-    12-lead ECG and indepen
-  url: https://www.nature.com/articles/s41467-026-76155-6.pdf
-  date: '2026-07-31'
-  source: Nature.com

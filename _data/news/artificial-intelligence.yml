@@ -1,4 +1,44 @@
 news_items:
+- title: Dartmouth provost resigns following accusations he used artificial intelligence
+    for writing
+  description: The provost of Dartmouth College has resigned after a faculty committee
+    found that he used artificial intelligence in his writing, including in a Washington
+    Post guest column on AI cheating
+  url: https://abcnews.com/Technology/wireStory/dartmouth-provost-resigns-accusations-artificial-intelligence-writing-137686123
+  date: '2026-10-29'
+  source: Abcnews.com
+- title: Can Artificial Intelligence Forecast Treatment Effects in Economics?
+  description: 'I use LLMs to forecast treatment effects of research studies pre-registered
+    on the AEA RCT Registry and the Open Science Framework. I focus on studies whose
+    results were first publicly released in 2026 and elicit forecasts from models
+    whose training '
+  url: https://biztoc.com/x/9657cf692dd663df
+  date: '2026-10-29'
+  source: Biztoc.com
+- title: 'Research: Artificial Intelligence sector study 2025'
+  description: An analysis of the UK’s artificial intelligence (AI) sector, developing
+    estimates of the scale and scope of firms developing AI products and services
+    in the UK.
+  url: https://www.gov.uk/government/publications/artificial-intelligence-sector-study-2025
+  date: '2026-10-29'
+  source: Www.gov.uk
+- title: 'AI for personal finance: Can you trust artificial intelligence to manage
+    your investments? What investors must know'
+  description: AI can help investors identify costly funds, idle cash and gaps in
+    financial planning, but it may not replace human judgement. A 1 Finance report
+    says effective financial advice extends beyond investment returns to goal planning,
+    behavioural coaching
+  url: https://www.livemint.com/money/personal-finance/ai-for-personal-finance-can-you-trust-artificial-intelligence-to-manage-your-investments-what-investors-must-know-11793274152687.html
+  date: '2026-10-29'
+  source: Livemint
+- title: How to Make Artificial Intelligence More Environmentally Sustainable
+  description: 'IT is responsible for about 2 - 4% of all global emissions, and electricity
+    use at Microsoft and Google has climbed because of AI, according to their own
+    reports. Sustainability ought to be a top-level architectural concern. Some recommendations
+    are:'
+  url: https://www.infoq.com/news/2026/10/AI-environmentally-sustainable/
+  date: '2026-10-29'
+  source: InfoQ.com
 - title: AI (Artificial Intelligence) - Moderately critical - Cross-site scripting
     - SA-CONTRIB-2026-273
   description: "Project: \r\nAI (Artificial Intelligence)\r\nProject machine name: \r\
@@ -5053,25 +5093,3 @@ news_items:
   url: https://biztoc.com/x/6f4dbb1f37b9da05
   date: '2026-08-01'
   source: Biztoc.com
-- title: How Artificial Intelligence Discovered A New Way To Detect Patients At Risk
-    Of Cardiac Death Using Simple EKGs
-  description: Researchers using medical AI have discovered a hitherto unknown pattern
-    in the humble EKG that indicates an elevated risk for cardiac death.
-  url: https://www.forbes.com/sites/paulhsieh/2026/07/31/how-artificial-intelligence-discovered-a-new-way-to-detect-patients-at-risk-of-cardiac-death-using-simple-ekgs/
-  date: '2026-07-31'
-  source: Forbes
-- title: 'Human rights in the shadow of military exceptionalism: reflections on the
-    Informal Exchange on Artificial Intelligence in the military domain'
-  description: '[Chantal Joris is a Swiss qualified lawyer and the acting Head of
-    Law and Policy at ARTICLE 19. Dr Ilia Siatitsa is Programme Director at Privacy
-    International. Tomaso Falchetta is Global Advocacy Coordinator at Privacy International.]
-    On 15–17 June '
-  url: http://opiniojuris.org/2026/07/31/human-rights-in-the-shadow-of-military-exceptionalism-reflections-on-the-informal-exchange-on-artificial-intelligence-in-the-military-domain/
-  date: '2026-07-31'
-  source: Opiniojuris.org
-- title: Offshore support staff don’t fear artificial intelligence
-  description: Workers supporting business from offshore locations are unconcerned
-    about the impact of AI on their jobs
-  url: https://www.computerweekly.com/news/366646624/Offshore-support-staff-dont-fear-artificial-intelligence
-  date: '2026-07-31'
-  source: ComputerWeekly.com
