@@ -1,4 +1,11 @@
 news_items:
+- title: Identification of ferroptosis-related key genes influencing synovitis development
+    in osteoarthritis based on machine learning
+  description: Scientific Reports - Identification of ferroptosis-related key genes
+    influencing synovitis development in osteoarthritis based on machine learning
+  url: https://www.nature.com/articles/s41598-026-61921-9
+  date: '2026-10-30'
+  source: Nature.com
 - title: Explainable machine learning framework with Granger-based temporal predictive
     validation for monitoring fiscal risk in national health insurance expenditure
   description: Rising health insurance expenditure (HIE) poses fiscal risks and challenges
@@ -2284,35 +2291,3 @@ news_items:
   url: https://www.maxapress.com/article/doi/10.48130/biocontam-0026-0009
   date: '2026-08-02'
   source: Maxapress.com
-- title: 'KDnuggets Weekly Roundup: Build and Deploy Your First Autonomous Agent •
-    7 Machine Learning Algorithms That Still Matter'
-  description: A Beginner's Guide to Working with Claude Design • 5 Best AI Tools
-    for Data Analysis You Should Try in 2026 • 5 Books That Will Deepen Your Understanding
-    of Large Language Models • Is KimiClaw a Useful Tool?
-  url: https://www.kdnuggets.com/kdnuggets-weekly-roundup-2026-07-27
-  date: '2026-08-01'
-  source: Kdnuggets.com
-- title: Artificial Intelligence & Machine Learning, Off (US Only) | Boston, MA, USA
-  description: Artificial Intelligence & Machine Learning, Off (US Only) Who we are
-    looking for We are looking for an Officer-level Compliance Technology Business
-    Analyst / AI / Machine Learning professional to support the development and operation
-    of data-driven s
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-off-us-only-boston-ma-usa/
-  date: '2026-08-01'
-  source: Nlppeople.com
-- title: AI/Machine Learning Engineer (Software Engineering Team)
-  description: Join reputed company, winner of multiple Top Workplace awards! We are
-    seeking an analytical, data and business-reputed company reputed company to join
-    our software and product team. This role is centered on analyzing product hypotheses,
-    validating in
-  url: https://nlppeople.com/job/ai-machine-learning-engineer-software-engineering-team/
-  date: '2026-08-01'
-  source: Nlppeople.com
-- title: Founding Machine Learning Engineer – Predictive Technologies
-  description: 'AI Search has partnered with the Founder of a brand new Predictive
-    Technologies company to build out its first hires in the Machine Learning team.
-    Having previously built and scaled billion-dollar research organisations at two
-    of the world’s leading '
-  url: https://nlppeople.com/job/founding-machine-learning-engineer-predictive-technologies/
-  date: '2026-08-01'
-  source: Nlppeople.com

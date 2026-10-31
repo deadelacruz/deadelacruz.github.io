@@ -1,4 +1,21 @@
 news_items:
+- title: ATP-independent entropy-driven dsRNA unwinding by DDX3X revealed by coarse-grained
+    simulations and deep learning
+  description: 'Author summary Molecular motors are generally thought to require chemical
+    energy to perform mechanical work. ATP-dependent helicases are a classic example:
+    they use ATP to separate nucleic-acid strands. Recent experiments, however, have
+    challenged th'
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014928
+  date: '2026-10-30'
+  source: Plos.org
+- title: 'IDPForge: deep learning of proteins with global and local regions of disorder'
+  description: Intrinsically disordered proteins and regions (IDPs/IDRs) are defined
+    by diverse structural ensembles. We present IDPForge that exploits a transformer
+    protein language diffusion model to create all-atom IDP and IDR ensembles that
+    maintain folded doma
+  url: https://www.nature.com/articles/s41467-026-79191-4.pdf
+  date: '2026-10-30'
+  source: Nature.com
 - title: Deep learning for identifying Alzheimers disease and mild cognitive impairment
     with optical coherence tomography angiography
   description: 'Background/aims To develop a machine learning (ML) method with deep
@@ -1084,26 +1101,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-64476-x.pdf
   date: '2026-08-03'
   source: Nature.com
-- title: 'FaceAge+: training-free synthetic augmentation for deep learning-based biological
-    age estimation from facial images'
-  description: 'Scientific Reports - FaceAge+: training-free synthetic augmentation
-    for deep learning-based biological age estimation from facial images'
-  url: https://www.nature.com/articles/s41598-026-58631-7.pdf
-  date: '2026-08-01'
-  source: Nature.com
-- title: 'Ultimate End-to-End Guide to TensorFlow: From Installation to Your First
-    Deep Learning Model'
-  description: Master TensorFlow from installation to building your first deep learning
-    model with this comprehensive end-to-end guide for Windows and VS Code.
-  url: https://www.c-sharpcorner.com/article/ultimate-end-to-end-guide-to-tensorflow-from-installation-to-your-first-deep-le/
-  date: '2026-08-01'
-  source: C-sharpcorner.com
-- title: Deep Learning CNN and Recurrence Analysis for Alpha Gamma EEG Biomarkers
-    in Fragile X Syndrome
-  description: Fragile X Syndrome (FXS) is a neurodevelopmental disorder caused by
-    reduced expression of fragile X mental retardation protein (FMRP), leading to
-    disrupted synaptic plasticity, cortical hyperexcitability, and impaired network
-    synchronization. Electro
-  url: https://arxiv.org/abs/2608.00835
-  date: '2026-08-01'
-  source: Arxiv.org
