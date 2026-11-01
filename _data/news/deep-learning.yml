@@ -1,4 +1,19 @@
 news_items:
+- title: 'CSqL-m-H2LA-GRBiTM: categorical square loss-based multi-head hierarchical
+    location attention enabled deep learning mechanism for smishing detection'
+  description: 'Scientific Reports - CSqL-m-H2LA-GRBiTM: categorical square loss-based
+    multi-head hierarchical location attention enabled deep learning mechanism for
+    smishing detection'
+  url: https://www.nature.com/articles/s41598-026-77954-z.pdf
+  date: '2026-10-31'
+  source: Nature.com
+- title: A deep learning method for ECG heartbeat classification based on Gaussian
+    features
+  description: Scientific Reports - A deep learning method for ECG heartbeat classification
+    based on Gaussian features
+  url: https://www.nature.com/articles/s41598-026-76659-7.pdf
+  date: '2026-10-31'
+  source: Nature.com
 - title: ATP-independent entropy-driven dsRNA unwinding by DDX3X revealed by coarse-grained
     simulations and deep learning
   description: 'Author summary Molecular motors are generally thought to require chemical
