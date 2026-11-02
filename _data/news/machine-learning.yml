@@ -1,4 +1,13 @@
 news_items:
+- title: 'Hire a Freelance Python Machine Learning Programmer: PyTorch, Scikit-Learn
+    & ONNX'
+  description: Classical machine learning and custom deep learning models—built with
+    PyTorch, TensorFlow, scikit-learn, Sentence-Transformers, and ONNX Runtime—solve
+    predictive scoring, anomaly detection, image classification, and token-level NLP
+    problems with dete
+  url: https://www.aldianfazrihady.com/en-us/blog/a11ce227-0000-4000-8000-000000000227/freelance-programmer-scientific-python-pytorch-scikit-learn-ml/
+  date: '2026-11-01'
+  source: Aldianfazrihady.com
 - title: Machine learning-based classification of zeolite quantities for humidity
     and temperature control in fireworks storage safety
   description: Scientific Reports - Machine learning-based classification of zeolite
@@ -2264,28 +2273,4 @@ news_items:
     UsWe build AI '
   url: https://nlppeople.com/job/machine-learning-engineer-python-pytorch-natural-language-processing-llm-langua-7/
   date: '2026-08-04'
-  source: Nlppeople.com
-- title: 'Development of 2-step regression model for reconstruction of ambient air
-    PM mass: Theoretical, and machine learning approaches'
-  description: 'Scientific Reports - Development of 2-step regression model for reconstruction
-    of ambient air PM mass: Theoretical, and machine learning approaches'
-  url: https://www.nature.com/articles/s41598-026-57404-6.pdf
-  date: '2026-08-03'
-  source: Nature.com
-- title: Machine Learning Engineer- Inference Optimization | Experienced Hire
-  description: Overview We are looking for a Machine Learning Engineer focused on
-    low-latency inference optimization to help build, tune, and productionize high-performance
-    model serving systems. This role sits at the intersection of machine learning,
-    systems engin
-  url: https://nlppeople.com/job/machine-learning-engineer-inference-optimization-experienced-hire-6/
-  date: '2026-08-03'
-  source: Nlppeople.com
-- title: Machine Learning Scientist/Senior Machine Learning Scientist – Synthesis
-    Planning and Optimization, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-senior-machine-learning-scientist-synthesis-planning-and-optimization-ai-for-drug-discovery-5/
-  date: '2026-08-03'
   source: Nlppeople.com
