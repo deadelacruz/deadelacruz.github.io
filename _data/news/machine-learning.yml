@@ -1,4 +1,31 @@
 news_items:
+- title: 'Machine learning for predicting mortality in patients with sepsis and its
+    associated complications: A systematic review and meta-analysis'
+  description: Background Sepsis remains a leading cause of death in intensive care
+    units worldwide and may be accompanied by complex complications, including encephalopathy,
+    coagulopathy, acute kidney injury, myocardial dysfunction, and delirium, each
+    of which sub
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362057
+  date: '2026-11-02'
+  source: Plos.org
+- title: Integrative network toxicology and machine learning reveal the potential
+    role of 5-hydroxymethylfurfural in exacerbating pulmonary fibrosis
+  description: 'Background 5-Hydroxymethylfurfural (5-HMF), a ubiquitous furan derivative
+    formed during the thermal processing of carbohydrate-rich foods, represents a
+    widespread dietary exposure. However, its potential contribution to idiopathic
+    pulmonary fibrosis '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361700
+  date: '2026-11-02'
+  source: Plos.org
+- title: A mucosal barrier injury related six gene transcriptomic signature associated
+    with ulcerative colitis using machine learning and public transcriptomic data
+  description: Ulcerative colitis (UC) is characterized by epithelial barrier disruption,
+    mucosal immune activation, and sustained intestinal inflammation. We developed
+    a biologically interpretable public-transcriptomic signature using Gene Expression
+    Omnibus datas
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361599
+  date: '2026-11-02'
+  source: Plos.org
 - title: 'Hire a Freelance Python Machine Learning Programmer: PyTorch, Scikit-Learn
     & ONNX'
   description: Classical machine learning and custom deep learning models—built with
@@ -2256,21 +2283,4 @@ news_items:
     earn salaries of'
   url: https://nlppeople.com/job/junior-ai-engineer-machine-learning-engineer-no-experience-needed/
   date: '2026-08-06'
-  source: Nlppeople.com
-- title: WiMi Explores Federated Training Framework for Hybrid Quantum-Classical Machine
-    Learning Models
-  description: 'BEIJING, Aug. 4, 2026 /PRNewswire/ -- WiMi Hologram Cloud Inc. (NASDAQ:
-    WiMi) ("WiMi" or the "Company"), a leading global Hologram Augmented Reality ("AR")
-    Technology provider, is exploring a federated training framework for hybrid quantum-classical '
-  url: https://www.prnewswire.com/news-releases/wimi-explores-federated-training-framework-for-hybrid-quantum-classical-machine-learning-models-302842447.html
-  date: '2026-08-04'
-  source: PRNewswire
-- title: Machine Learning Engineer | Python | Pytorch | Natural Language Processing
-    | LLM | Langua
-  description: 'Position: Machine Learning Engineer | Python | Pytorch | Natural Language
-    Processing | LLM | Large Langua[…] Machine Learning Engineer | Python | Pytorch
-    | Natural Language Processing | LLM | Large Language Models | Remote, EuropeAbout
-    UsWe build AI '
-  url: https://nlppeople.com/job/machine-learning-engineer-python-pytorch-natural-language-processing-llm-langua-7/
-  date: '2026-08-04'
   source: Nlppeople.com
