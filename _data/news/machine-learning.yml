@@ -1,4 +1,36 @@
 news_items:
+- title: 'AbdulhaqIbrahimabubakar/Week_2_Feature_Engineering_Data_Preprocessing_for_Machine_Learning:
+    End-to-end cardiovascular risk predictive analysis and machine learning pipeline
+    for automated patient health screening using the Heart Disease dataset.'
+  description: 'AbdulhaqIbrahimabubakar/Week_2_Feature_Engineering_Data_Preprocessing_for_Machine_Learning:
+    End-to-end cardiovascular risk predictive analysis and machine learning pipeline
+    for automated patient health screening using the Heart Disease dataset.github'
+  url: https://github.com/AbdulhaqIbrahimabubakar/Week_2_Feature_Engineering_Data_Preprocessing_for_Machine_Learning
+  date: '2026-11-03'
+  source: Github.com
+- title: 'MLEP in KICS for Networks 5.0: how machine learning helps track network
+    behavior of OT devices'
+  description: We explain how Kaspersky Industrial CyberSecurity for Networks uses
+    Machine Learning Event Processor (MLEP) technology to help take inventory of assets
+    and detect anomalies in industrial networks.
+  url: https://securelist.com/tr/machine-learning-event-processor-in-kics-for-networks/121794/
+  date: '2026-11-03'
+  source: Securelist.com
+- title: Machine learning modularity
+  description: Based on a transformer-based sequence-to-sequence architecture combined
+    with a dynamic batching algorithm, this work introduces a machine learning framework
+    for automatically simplifying complex expressions involving multiple elliptic
+    gamma functions
+  url: https://link.aps.org/doi/10.1103/j99v-l6zq
+  date: '2026-11-03'
+  source: Aps.org
+- title: Deconvoluting the influence of environmental forcings on chemical weathering
+    rates using machine learning model
+  description: Scientific Reports - Deconvoluting the influence of environmental forcings
+    on chemical weathering rates using machine learning model
+  url: https://www.nature.com/articles/s41598-026-76267-5.pdf
+  date: '2026-11-03'
+  source: Nature.com
 - title: 'Machine learning for predicting mortality in patients with sepsis and its
     associated complications: A systematic review and meta-analysis'
   description: Background Sepsis remains a leading cause of death in intensive care

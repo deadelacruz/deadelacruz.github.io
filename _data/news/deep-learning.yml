@@ -1,4 +1,12 @@
 news_items:
+- title: 'rplatypus rebuilt: deep learning for medical images in R'
+  description: "In October 2020 I wrote about platypus, an R package for object detection\
+    \ and image segmentation: YOLOv3 and U-Net in a few lines of R, on top of the\
+    \ keras and tensorflow packages. People used it. It collected 134 stars and a\
+    \ queue of issues - ...\r\n\n"
+  url: https://www.r-bloggers.com/2026/11/rplatypus-rebuilt-deep-learning-for-medical-images-in-r/
+  date: '2026-11-03'
+  source: R-bloggers.com
 - title: 'CSqL-m-H2LA-GRBiTM: categorical square loss-based multi-head hierarchical
     location attention enabled deep learning mechanism for smishing detection'
   description: 'Scientific Reports - CSqL-m-H2LA-GRBiTM: categorical square loss-based
@@ -1031,36 +1039,4 @@ news_items:
     Aware Deep Learning for Enhanced Personalized Food Recommendation Systems
   url: https://www.nature.com/articles/s41598-026-62997-z.pdf
   date: '2026-08-06'
-  source: Nature.com
-- title: Deep learning framework for predicting measurement error drift in smart meter
-    sensors under harsh coastal environments
-  description: Smart meter sensors in coastal environments suffer severe accuracy
-    degradation due to salt fog corrosion, high humidity, and temperature cycling
-    affecting current transformers, voltage dividers, and measurement circuits. This
-    study proposes a reliabi
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355304
-  date: '2026-08-05'
-  source: Plos.org
-- title: 'Show HN: I created a new Deep Learning Framework'
-  description: I finally did it. I developed my own Deep Learning Framework from Scratch!
-    I am calling it picodl.All written by hand, in pure Python, just using raw Numpy.Anyone
-    can install it with pip:pip install picodl-nnI'd love to get feedback and your
-    suggesti
-  url: https://picodl.vercel.app
-  date: '2026-08-05'
-  source: Vercel.app
-- title: 'Clinical-guided deep learning framework for diabetic retinopathy: integrating
-    lesion-aware attention, adversarial augmentation, and uncertainty quantification'
-  description: 'Scientific Reports - Clinical-guided deep learning framework for diabetic
-    retinopathy: integrating lesion-aware attention, adversarial augmentation, and
-    uncertainty quantification'
-  url: https://www.nature.com/articles/s41598-026-58690-w.pdf
-  date: '2026-08-05'
-  source: Nature.com
-- title: A comparative evaluation of deep learning architectures, loss functions,
-    and ensemble strategies for underwater fish species classification
-  description: Scientific Reports - A comparative evaluation of deep learning architectures,
-    loss functions, and ensemble strategies for underwater fish species classification
-  url: https://www.nature.com/articles/s41598-026-65456-x.pdf
-  date: '2026-08-05'
   source: Nature.com

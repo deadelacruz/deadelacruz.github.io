@@ -1,4 +1,32 @@
 news_items:
+- title: A US company argued that lawyers using artificial intelligence should receive
+    lower fees after its trade-secrets lawsuit was dismissed; a federal appeals court
+    has upheld a $114,663 award, saying no overbilling was shown
+  description: A federal appeals court recently upheld the award of $114,663.11 in
+    legal fees, rejecting claims related to AI usage. The court clarified that accusations
+    of inflated billing require concrete evidence, particularly following Flux Drive
+    Inc.'s unsucce
+  url: https://timesofindia.indiatimes.com/world/us/a-us-company-argued-that-lawyers-using-artificial-intelligence-should-receive-lower-fees-after-its-trade-secrets-lawsuit-was-dismissed-a-federal-appeals-court-has-upheld-a-114663-award-saying-no-overbilling-was-shown/articleshow/135508298.cms
+  date: '2026-11-03'
+  source: The Times of India
+- title: Microsoft AI Chief Says AI Development Should Stop If Artificial Intelligence
+    Begins Showing Signs Of Consciousness
+  description: 'Microsoft AI CEO Mustafa Suleyman has warned against developing conscious
+    artificial intelligence, arguing that AI development should be halted if credible
+    evidence of machine consciousness emerges. His remarks come amid growing disagreements
+    within '
+  url: https://wccftech.com/microsoft-ai-chief-says-ai-development-should-stop-if-artificial-intelligence-begins-showing-signs-of-consciousness/
+  date: '2026-11-03'
+  source: Wccftech
+- title: 3 Genius Artificial Intelligence (AI) Stocks to Buy Hand Over Fist Before
+    Year-End
+  description: 'Artificial intelligence (AI) stocks have been getting hammered for
+    weeks now, and the headlines all sound the same: bubble fears, AI financing anxiety,
+    investors suddenly nervous that the hundreds of billions pouring into data centers
+    won''t pay off. '
+  url: https://biztoc.com/x/c28af71c08c5416c
+  date: '2026-11-03'
+  source: Biztoc.com
 - title: Google’s Hilariously Obvious, Self-Inflicted Artificial Intelligence Problem
   description: Alphabet is Google’s self-created parent company. On October 29, its
     stock dropped $500 billion — in a day. Thirteen percent of Alphabet’s total value.
@@ -4937,69 +4965,3 @@ news_items:
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_5ca7cbbc-73d7-4d38-8b77-0b5ed4c4acdd
   date: '2026-08-06'
   source: Yahoo Entertainment
-- title: Apollo Global Management appoints Katia Walsh as head of artificial intelligence
-  description: 'Apollo''s strategic focus on AI infrastructure financing could diversify
-    revenue streams and enhance its influence in the evolving AI market.
-
-    The post Apollo Global Management appoints Katia Walsh as head of artificial intelligence
-    appeared first on C'
-  url: https://cryptobriefing.com/apollo-global-management-katia-walsh-ai-head/
-  date: '2026-08-05'
-  source: Crypto Briefing
-- title: 'Daily Deal: The Ultimate Python & Artificial Intelligence Bundle'
-  description: The Ultimate Python and Artificial Intelligence Bundle has 9 courses
-    to help you take your Python and AI knowledge to the next level. Youll learn about
-    data pre-processing and visualization, artificial neural networks, how to use
-    the Keras framework,
-  url: https://slashdot.org/firehose.pl?op=view&amp;id=184870638
-  date: '2026-08-05'
-  source: Slashdot.org
-- title: 'Daily Deal: The Ultimate Python & Artificial Intelligence Bundle'
-  description: The Ultimate Python and Artificial Intelligence Bundle has 9 courses
-    to help you take your Python and AI knowledge to the next level. You’ll learn
-    about data pre-processing and visualization, artificial neural networks, how to
-    use the Keras framework
-  url: http://www.techdirt.com/2026/08/05/daily-deal-the-ultimate-python-artificial-intelligence-bundle-8/
-  date: '2026-08-05'
-  source: Techdirt
-- title: Legal artificial intelligence is creating a hidden writing problem
-  description: 'Every conversation about artificial intelligence in law eventually
-    arrives at the same destination: efficiency. Faster drafting, faster research,
-    faster turnaround. To be clear, this productivity narrative is real, but a concerning
-    story is emerging '
-  url: https://www.abajournal.com/columns/article/legal-ai-is-creating-a-hidden-writing-problem
-  date: '2026-08-05'
-  source: Abajournal.com
-- title: 12 Words From Amazon CEO Andy Jassy That Should Have Artificial Intelligence
-    (AI) Investors Cheering
-  description: '12 Words From Amazon CEO Andy Jassy That Should Have Artificial Intelligence
-    (AI) Investors Cheering
-
-    Amazon''s (NASDAQ: AMZN) second-quarter earnings had investors on edge, fixated
-    above all else on the company''s capital expenditure (capex) outlook. T'
-  url: https://biztoc.com/x/bd5f87f7e85b0cc1
-  date: '2026-08-05'
-  source: Biztoc.com
-- title: 12 Words From Amazon CEO Andy Jassy That Should Have Artificial Intelligence
-    (AI) Investors Cheering
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_16ba81a6-b46e-430a-bbfa-476972d7f4bc
-  date: '2026-08-05'
-  source: Yahoo Entertainment
-- title: The Future of Artificial Intelligence Will Be Defined by Identity
-  description: Artificial intelligence has rapidly evolved from an emerging technology
-    into a transformative force across business, government, education, and society,
-    according to Stanford HAI’s 2025 AI Index Report. The expansion of generative
-    AI has driven a sur
-  url: https://biztoc.com/x/a58483cfdc54335c
-  date: '2026-08-05'
-  source: Biztoc.com
-- title: 'The ethics of artificial intelligence in the life sciences: Universality,
-    cultural diversity and an architecture of care'
-  description: The life sciences and health research have started to benefit from
-    artificial intelligence, which raises ethical concerns that are real but, we argue,
-    not special. Any science should be governed by values that rest on how the human
-    brain is built and
-  url: https://arxiv.org/abs/2608.05436
-  date: '2026-08-05'
-  source: Arxiv.org
