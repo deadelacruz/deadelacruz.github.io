@@ -1,4 +1,29 @@
 news_items:
+- title: Integrative analysis reveals shared biomarkers and pathways in osteoporosis
+    and rheumatoid arthritis using machine learning and single-cell sequencing
+  description: Background Osteoporosis (OP) and Rheumatoid Arthritis (RA) are prevalent
+    chronic diseases characterized by bone loss and immune dysregulation. Evidence
+    suggests that patients with RA are at increased risk of developing OP; however,
+    the shared molecul
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362219
+  date: '2026-11-04'
+  source: Plos.org
+- title: Development and internal validation of machine learning models for predicting
+    prediabetes in China
+  description: Background Diabetes imposes a growing health burden among Chinese adults,
+    necessitating scalable tools for early identification of high-risk individuals.
+    We aimed to develop and internally validate survival machine-learning models for
+    prediabetes ris
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0361704
+  date: '2026-11-04'
+  source: Plos.org
+- title: Effective source selection of solar-grid powered electric vehicle charger
+    circuit using machine learning algorithm
+  description: Scientific Reports - Effective source selection of solar-grid powered
+    electric vehicle charger circuit using machine learning algorithm
+  url: https://www.nature.com/articles/s41598-026-75722-7.pdf
+  date: '2026-11-04'
+  source: Nature.com
 - title: 'AbdulhaqIbrahimabubakar/Week_2_Feature_Engineering_Data_Preprocessing_for_Machine_Learning:
     End-to-end cardiovascular risk predictive analysis and machine learning pipeline
     for automated patient health screening using the Heart Disease dataset.'
@@ -2269,50 +2294,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-53035-z
   date: '2026-08-07'
   source: Nature.com
-- title: 'Data Modeling: From Physical Processes to Machine Learning'
-  description: 'eBook Details: Paperback: 127 pages Published: August 3, 2026 Language: English
-    ISBN-10: 9819575915 ISBN-13: 978-9819575916 eBook Description: Data Modeling:
-    From Physical Processes to Machine Learning. This book presents the fundamental
-    theories, co'
-  url: https://www.wowebook.org/data-modeling-from-physical-processes-to-machine-learning/
-  date: '2026-08-06'
-  source: Wowebook.org
-- title: Machine learning–inspired design of a modified spider-shaped MIMO antenna
-    for 5G-advanced wireless communications
-  description: A modified Spider Shaped Four Element Multi Input Multi Output Antenna
-    (SSFEMIMOA) is suggested for the 5G-advanced, and sub-6 GHz advanced wireless
-    communications. The proposed SSFEMIMOA exhibits a low-profile and compact configuration
-    with an overa
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355221
-  date: '2026-08-06'
-  source: Plos.org
-- title: 'TN Agri Budget: Govt bets on AI, Machine Learning to deliver real-time assistance
-    to farmers'
-  description: ₹2 crore allocated for the 'Uzhavar AI scheme', which will integrate
-    AI and ML technologies to modernise agricultural extension services
-  url: https://www.thehindubusinessline.com/news/national/tn-agri-budget-govt-bets-on-ai-machine-learning-to-deliver-real-time-assistance-to-farmers/article71312495.ece
-  date: '2026-08-06'
-  source: BusinessLine
-- title: Distinguishing compound and cumulative hazards using machine learning and
-    fuzzy logic in multi-hazard susceptibility mapping
-  description: Scientific Reports - Distinguishing compound and cumulative hazards
-    using machine learning and fuzzy logic in multi-hazard susceptibility mapping
-  url: https://www.nature.com/articles/s41598-026-52012-w
-  date: '2026-08-06'
-  source: Nature.com
-- title: Data Scientist (ARTIFICIAL INTELLIGENCE/MACHINE LEARNING)
-  description: 'Summary See below for important information regarding this job. Position
-    will be filled at any of the locations listed below. Site specific salary information
-    as follows: Battle Creek, MI: $125,776- $163,514 Columbus, OH: $131,245- $170,624
-    Dayton, O'
-  url: https://nlppeople.com/job/data-scientist-artificial-intelligence-machine-learning-10/
-  date: '2026-08-06'
-  source: Nlppeople.com
-- title: Junior AI Engineer / Machine Learning Engineer – no experience needed
-  description: '*This is a self-funded career programme with a guaranteed job on completion
-    or 100% of your course fees back* Train. Certify. Get Hired. AI is expected to
-    generate 170 million jobs by 2030 and at present experienced professionals can
-    earn salaries of'
-  url: https://nlppeople.com/job/junior-ai-engineer-machine-learning-engineer-no-experience-needed/
-  date: '2026-08-06'
-  source: Nlppeople.com
