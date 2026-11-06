@@ -1,4 +1,31 @@
 news_items:
+- title: 'TriTower-m6Am: A triple-tower heterogeneous deep learning architecture integrating
+    semantic, sequential, and structural information for mRNA N6,2′-O-dimethyladenosine
+    site prediction'
+  description: Author summary Predicting where m6Am modifications occur on messenger
+    RNA is important for understanding how cells regulate transcript stability and
+    translation. Existing computational methods typically encode the RNA sequence
+    in a single way, such a
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014939
+  date: '2026-11-05'
+  source: Plos.org
+- title: Ubuntu Pro is now available on AWS Deep Learning Amazon Machine Images (DLAMI)
+  description: In September 2026, Amazon Web Services (AWS) published its first DLAMIs
+    built on Ubuntu Pro in the Base GPU family. By choosing Ubuntu Pro, enterprises
+    launching DLAMIs gain a stronger security maintenance posture at launch thanks
+    to Expanded Securit
+  url: https://ubuntu.com/blog/ubuntu-pro-available-on-dlami
+  date: '2026-11-05'
+  source: Ubuntu.com
+- title: Effective enzyme engineering through modeling kinetic parameter changes upon
+    mutations with geometric deep learning
+  description: Predicting how mutations affect enzyme catalytic efficiency remains
+    challenging. Here the authors build a benchmark dataset and develop DeltaCata,
+    a geometric deep learning model that predicts changes in enzyme kinetics and guides
+    enzyme engineering.
+  url: https://www.nature.com/articles/s41467-026-79287-x.pdf
+  date: '2026-11-05'
+  source: Nature.com
 - title: 'rplatypus rebuilt: deep learning for medical images in R'
   description: "In October 2020 I wrote about platypus, an R package for object detection\
     \ and image segmentation: YOLOv3 and U-Net in a few lines of R, on top of the\

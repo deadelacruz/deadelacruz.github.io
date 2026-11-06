@@ -1,4 +1,22 @@
 news_items:
+- title: An explainable machine learning framework for cross-dataset chronic kidney
+    disease risk prediction using hybrid data balancing
+  description: Chronic kidney disease (CKD) is a major global health problem, and
+    early detection is important for reducing complications and improving treatment.
+    Machine learning has shown strong potential for CKD prediction, but many existing
+    studies rely on sing
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362320
+  date: '2026-11-05'
+  source: Plos.org
+- title: 'Predicting stable planar boron clusters: Bonding rules, stability criteria,
+    and global structure search accelerated by a machine learning force field'
+  description: Boron's electron deficiency favors multicenter bonding and enables
+    planar or quasiplanar boron nanostructures with unusually stable pristine edges
+    and corners. Yet a compact bonding picture that explains these stability trends
+    remains elusive. Here w
+  url: https://link.aps.org/doi/10.1103/x3bz-g9zz
+  date: '2026-11-05'
+  source: Aps.org
 - title: Integrative analysis reveals shared biomarkers and pathways in osteoporosis
     and rheumatoid arthritis using machine learning and single-cell sequencing
   description: Background Osteoporosis (OP) and Rheumatoid Arthritis (RA) are prevalent
@@ -2200,97 +2218,4 @@ news_items:
     soil health assessment integrating remote sensing indices and terrain data
   url: https://www.nature.com/articles/s41598-026-66339-x.pdf
   date: '2026-08-08'
-  source: Nature.com
-- title: Machine learning powered protein engineering lab could accelerate biotech
-    innovation
-  description: Artificial intelligence is no longer simply being used to analyse scientific
-    data. Increasingly, AI is becoming integrated into the entire scientific workflow,
-    from hypothesis generation and experimental design to automated execution and
-    interpretati
-  url: https://www.digitaljournal.com/article/machine-learning-powered-protein-engineering-lab-could-accelerate-biotech-innovation/
-  date: '2026-08-07'
-  source: Digital Journal
-- title: 'Self-reported binary gender prediction from personality traits: Alignment
-    between machine learning importance and classical effect sizes'
-  description: 'Gender differences in personality have been characterized using effect
-    sizes such as Cohen’s d and multivariate measures such as the Mahalanobis distance.
-    However, as machine learning models are increasingly applied to personality classification,
-    it '
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355193
-  date: '2026-08-07'
-  source: Plos.org
-- title: Applied Machine Learning Research Scientist
-  description: Cerebras Systems builds the world’s largest AI chip, 56 times larger
-    than GPUs. This architecture allows Cerebras to deliver industry-leading training
-    and inference speeds; over 10 times faster than GPU-based hyperscale cloud inference
-    services. This
-  url: https://nlppeople.com/job/applied-machine-learning-research-scientist/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Machine Learning Research Engineer – NLP / LLM
-  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
-    for a Machine Learning Research Engineer to work on researching and investigating
-    new concepts for an industry-leading, machine-learning software company in Cambridge,
-    UK. This '
-  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-15/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Machine Learning Engineer | Python | Pytorch | Natural Language Processing
-    | LLM | Langua
-  description: 'Position: Machine Learning Engineer | Python | Pytorch | Natural Language
-    Processing | LLM | Large Langua[…] Machine Learning Engineer | Python | Pytorch
-    | Natural Language Processing | LLM | Large Language Models | Remote, EuropeAbout
-    UsWe build AI '
-  url: https://nlppeople.com/job/machine-learning-engineer-python-pytorch-natural-language-processing-llm-langua-8/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Machine Learning Scientist/Senior Machine Learning Scientist – Synthesis
-    Planning and Optimization, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-senior-machine-learning-scientist-synthesis-planning-and-optimization-ai-for-drug-discovery-6/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Machine Learning Research Engineer – NLP / LLM
-  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
-    for a Machine Learning Research Engineer to work on researching and investigating
-    new concepts for an industry-leading, machine-learning software company in Cambridge,
-    UK. This '
-  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-14/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Machine Learning Scientist, Scientific Reasoning Models, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-scientific-reasoning-models-ai-for-drug-discovery-28/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learn[…]
-  description: At JPMorgan Chase, AI and technology promote our global operations
-    with unmatched scale and speed. We invest over $18 billion annually in innovation,
-    data leverage, and security to shape the future for our clients, communities,
-    and employees. The Chi
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learn/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: Junior AI Engineer / Machine Learning Engineer no experience needed
-  description: This is a self-funded career programme with a guaranteed job on completion
-    or 100% of your course fees back Train. Certify. Get Hired. AI is expected to
-    generate 170 million jobs by 2030 and at present experienced professionals can
-    earn salaries of u
-  url: https://nlppeople.com/job/junior-ai-engineer-machine-learning-engineer-no-experience-needed-2/
-  date: '2026-08-07'
-  source: Nlppeople.com
-- title: 'Assessment and pathways of the energy production revolution in the Yellow
-    River Basin, China towards carbon peaking: a machine learning approach'
-  description: 'Scientific Reports - Assessment and pathways of the energy production
-    revolution in the Yellow River Basin, China towards carbon peaking: a machine
-    learning approach'
-  url: https://www.nature.com/articles/s41598-026-53035-z
-  date: '2026-08-07'
   source: Nature.com

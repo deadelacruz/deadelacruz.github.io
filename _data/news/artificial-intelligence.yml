@@ -1,4 +1,21 @@
 news_items:
+- title: 'Artificial intelligence for the diagnosis and prognosis of leprosy, leishmaniasis,
+    and schistosomiasis: A systematic review'
+  description: Author summary Leprosy, leishmaniasis, and schistosomiasis continue
+    to pose significant challenges to global health, disproportionately affecting
+    communities in resource-limited regions. Artificial Intelligence (AI) has emerged
+    as a promising technol
+  url: https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0014833
+  date: '2026-11-05'
+  source: Plos.org
+- title: Parent Comfort With Artificial Intelligence-Led Behavioral Therapy for Their
+    Child
+  description: This cross-sectional survey of US parents examined how comfortable
+    they were with AI-led behavioral therapy for their children and which factors
+    were associated with greater comfort.
+  url: https://www.rand.org/pubs/external_publications/EP71461.html
+  date: '2026-11-05'
+  source: Rand.org
 - title: JEPS Management Reports Strong Growth in Private Equity as Investor Interest
     in Artificial Intelligence Accelerates
   description: 'Sydney-based financial services firm expands its private equity activities
@@ -4859,53 +4876,3 @@ news_items:
   url: https://biztoc.com/x/6ef08023841aca0d
   date: '2026-08-08'
   source: Biztoc.com
-- title: Don't Anthropomorphize Artificial Intelligence
-  description: Describing AI with human words such as “believed” or “thought” is misleading.
-  url: https://biztoc.com/x/f92dfee1df493f2c
-  date: '2026-08-07'
-  source: Biztoc.com
-- title: Artificial Intelligence in Cybersecurity Market to Reach $275.02 Billion
-    by 2035 | SNS Insider
-  description: The U.S. artificial intelligence in cybersecurity market is projected
-    to reach $79.73 billion by 2035, while Europe is expected to hit $73.82 billion,
-    driven by sophisticated cyber threats, cloud adoption, automated threat detection,
-    AI-powered incid
-  url: https://www.globenewswire.com/news-release/2026/08/07/3341134/0/en/artificial-intelligence-in-cybersecurity-market-to-reach-275-02-billion-by-2035-sns-insider.html
-  date: '2026-08-07'
-  source: GlobeNewswire
-- title: Who is liable when artificial intelligence goes rogue?
-  description: Major AI developers have reported cases of their autonomous AI models
-    breaching other companies' cyber infrastructure, raising questions about who may
-    be held legally responsible when systems act without direct human oversight.
-  url: https://www.rte.ie/news/technology/2026/0807/1586941-artificial-intelligence-explainer/
-  date: '2026-08-07'
-  source: RTE
-- title: Artificial Intelligence, Very Real Debt
-  description: The markets go up and down but the debt just goes up.
-  url: https://slate.com/podcasts/what-next-tbd/2026/08/artificial-intelligence-bubble-watch
-  date: '2026-08-07'
-  source: Slate Magazine
-- title: 'What Next: TBD | Tech, power, and the future - Artificial Intelligence,
-    Very Real Debt'
-  description: 'Investments in—and among—artificial intelligence companies have pushed
-    the S&P 500 to record highs. It’s also introduced a volatility to the markets
-    that may be unprecedented. Is this growing pains or the wobble before the fall? Guest:
-    Ed Elson, co-h'
-  url: https://shows.acast.com/whatnext-tbd-tech-power-and-the-future/episodes/artificial-intelligence-very-real-debt
-  date: '2026-08-07'
-  source: Acast.com
-- title: Nvidia Is a Massive Investor in the Genius Artificial Intelligence (AI) Stock
-    Up 170% This Year
-  description: Nvidia just doesn't make GPUs and the various supporting equipment
-    for these computing units. It's also an active investor. When it comes across
-    a company it likes, it isn't afraid to invest. One company Nvidia has taken a
-    major stake in is Nebius (N
-  url: https://biztoc.com/x/f2f116e99b10998a
-  date: '2026-08-07'
-  source: Biztoc.com
-- title: 'C3.ai vs. Applied Digital: Which Artificial Intelligence Stock Is a Better
-    Buy in 2026?'
-  description: No description available.
-  url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_541952b7-60c6-4b02-82e5-7cb401b7c239
-  date: '2026-08-07'
-  source: Yahoo Entertainment
