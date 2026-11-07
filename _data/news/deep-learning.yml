@@ -1,4 +1,30 @@
 news_items:
+- title: Bacterial protein function prediction via multimodal deep learning
+  description: 'Bacterial proteins are specialized with extensive functional diversity
+    for survival in diverse and stressful environments. A significant portion of these
+    proteins remains functionally uncharacterized, limiting our understanding of bacterial
+    survival '
+  url: https://genome.cshlp.org/content/early/2026/11/06/gr282132126
+  date: '2026-11-06'
+  source: Cshlp.org
+- title: 'kinGEMs: A robust and scalable framework for resource-constraint models
+    through stochastic tuning of deep learning-predicted kinetic parameters'
+  description: Author summary Living cells are chemical factories, and computer models
+    of their metabolism can predict how they grow, what they consume, and what they
+    produce, useful for everything from engineering biofuel-producing microbes to
+    understanding diseas
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014881
+  date: '2026-11-06'
+  source: Plos.org
+- title: 'Deep learning optimisation for cardiology: Neural Architecture Search-driven
+    arrhythmia classification with electrocardiograms'
+  description: Cardiovascular disease is the leading cause of death worldwide. Sudden
+    cardiac death (SCD) accounts for roughly 50% of all cardiac deaths. The electrocardiogram
+    (ECG) is widely used for diagnosing cardiac disease. However, the complexity of
+    interpret
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362129
+  date: '2026-11-06'
+  source: Plos.org
 - title: 'TriTower-m6Am: A triple-tower heterogeneous deep learning architecture integrating
     semantic, sequential, and structural information for mRNA N6,2′-O-dimethyladenosine
     site prediction'
@@ -1051,12 +1077,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-65841-6.pdf
   date: '2026-08-09'
   source: Nature.com
-- title: High-accuracy SNV calling for bacterial isolates using deep learning with
-    AccuSNV
-  description: Accurate detection of mutations within bacterial species is critical
-    for fundamental studies of microbial evolution, reconstruction of transmission
-    events, and identification of antimicrobial resistance mutations. Although many
-    tools have been develo
-  url: https://genome.cshlp.org/content/early/2026/08/08/gr281341125
-  date: '2026-08-08'
-  source: Cshlp.org

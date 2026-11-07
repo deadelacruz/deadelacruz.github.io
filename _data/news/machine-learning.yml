@@ -1,4 +1,11 @@
 news_items:
+- title: Plasmonic biosensors based on X-shaped resonators for cancer cell detection
+    with machine learning-driven transmittance prediction
+  description: Scientific Reports - Plasmonic biosensors based on X-shaped resonators
+    for cancer cell detection with machine learning-driven transmittance prediction
+  url: https://www.nature.com/articles/s41598-026-79589-6.pdf
+  date: '2026-11-06'
+  source: Nature.com
 - title: An explainable machine learning framework for cross-dataset chronic kidney
     disease risk prediction using hybrid data balancing
   description: Chronic kidney disease (CKD) is a major global health problem, and
@@ -2204,18 +2211,3 @@ news_items:
   url: https://www.wowebook.org/prompting-scikit-learn-for-machine-learning/
   date: '2026-08-09'
   source: Wowebook.org
-- title: Integrated machine learning forecasting and grey wolf optimization for optimal
-    operation of virtual power plants in smart distribution networks
-  description: Scientific Reports - Integrated machine learning forecasting and grey
-    wolf optimization for optimal operation of virtual power plants in smart distribution
-    networks
-  url: https://www.nature.com/articles/s41598-026-65123-1.pdf
-  date: '2026-08-08'
-  source: Nature.com
-- title: A machine learning-based framework for spatial soil health assessment integrating
-    remote sensing indices and terrain data
-  description: Scientific Reports - A machine learning-based framework for spatial
-    soil health assessment integrating remote sensing indices and terrain data
-  url: https://www.nature.com/articles/s41598-026-66339-x.pdf
-  date: '2026-08-08'
-  source: Nature.com
