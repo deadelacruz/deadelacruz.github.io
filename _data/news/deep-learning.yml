@@ -1,4 +1,12 @@
 news_items:
+- title: 'The impact of reference data quality on building segmentation: a nationwide
+    comparison of 15 deep learning models and a new benchmark dataset'
+  description: 'Scientific Reports - The impact of reference data quality on building
+    segmentation: a nationwide comparison of 15 deep learning models and a new benchmark
+    dataset'
+  url: https://www.nature.com/articles/s41598-026-79457-3.pdf
+  date: '2026-11-07'
+  source: Nature.com
 - title: Bacterial protein function prediction via multimodal deep learning
   description: 'Bacterial proteins are specialized with extensive functional diversity
     for survival in diverse and stressful environments. A significant portion of these
@@ -1070,10 +1078,4 @@ news_items:
     AI for cybersecurity
   url: https://www.nature.com/articles/s41598-026-65732-w.pdf
   date: '2026-08-10'
-  source: Nature.com
-- title: Deep learning model cascade in electromyography decoding for gesture classification
-  description: Scientific Reports - Deep learning model cascade in electromyography
-    decoding for gesture classification
-  url: https://www.nature.com/articles/s41598-026-65841-6.pdf
-  date: '2026-08-09'
   source: Nature.com

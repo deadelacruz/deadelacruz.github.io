@@ -1,4 +1,17 @@
 news_items:
+- title: Clinical classification of multiple sclerosis by machine learning
+  description: Scientific Reports - Clinical classification of multiple sclerosis
+    by machine learning
+  url: https://www.nature.com/articles/s41598-026-79792-5.pdf
+  date: '2026-11-07'
+  source: Nature.com
+- title: Application of spectral preprocessing and machine learning models for discriminating
+    nitrogen levels in cucumber production
+  description: Scientific Reports - Application of spectral preprocessing and machine
+    learning models for discriminating nitrogen levels in cucumber production
+  url: https://www.nature.com/articles/s41598-026-79436-8.pdf
+  date: '2026-11-07'
+  source: Nature.com
 - title: Plasmonic biosensors based on X-shaped resonators for cancer cell detection
     with machine learning-driven transmittance prediction
   description: Scientific Reports - Plasmonic biosensors based on X-shaped resonators
@@ -2204,10 +2217,3 @@ news_items:
   url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-17/
   date: '2026-08-10'
   source: Nlppeople.com
-- title: Prompting Scikit-Learn for Machine Learning
-  description: 'eBook Details: Paperback: 574 pages Published: August 5, 2026 Language: English
-    ISBN-10: 8169646316 ISBN-13: 978-8169646314 eBook Description: Prompting Scikit-Learn
-    for Machine Learning: Build Classification, Regression, Clustering, Feature Engineer'
-  url: https://www.wowebook.org/prompting-scikit-learn-for-machine-learning/
-  date: '2026-08-09'
-  source: Wowebook.org
