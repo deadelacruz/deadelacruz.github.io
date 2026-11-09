@@ -1071,11 +1071,3 @@ news_items:
   url: https://en.antaranews.com/news/426528/indonesia-pushes-deep-learning-to-transform-education
   date: '2026-08-11'
   source: Antaranews.com
-- title: Enhancing botnet attack detection using a hybrid deep learning model combining
-    network flow and DNS query features with explainable AI for cybersecurity
-  description: Scientific Reports - Enhancing botnet attack detection using a hybrid
-    deep learning model combining network flow and DNS query features with explainable
-    AI for cybersecurity
-  url: https://www.nature.com/articles/s41598-026-65732-w.pdf
-  date: '2026-08-10'
-  source: Nature.com
