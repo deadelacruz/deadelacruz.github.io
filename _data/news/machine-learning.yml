@@ -1,4 +1,77 @@
 news_items:
+- title: 'Wiley Machine Learning For Dummies 3rd Edition eBook: Free'
+  description: This Wiley eBook is free, down from a $19 regular price. The 3rd edition
+    is a 2025 update to the 2021 edition, written by Luca Massaron and John Paul Mueller.
+    Its chapters run from machine learning basics through coding and math to recommendation
+    and
+  url: https://www.dealnews.com/Wiley-Machine-Learning-For-Dummies-3-rd-Edition-eBook-Free/22370625.html
+  date: '2026-11-09'
+  source: Dealnews.com
+- title: Machine learning researchers build a better world model
+  description: 'Machine learning researchers have developed a technique that allows
+    world models to make better predictions about how objects will behave.
+
+    World models are used to train physical AI systems like robots how to navigate
+    the real world. They predict the'
+  url: https://biztoc.com/x/c395e0b0df8391a7
+  date: '2026-11-09'
+  source: Biztoc.com
+- title: Machine learning researchers build a better world model
+  description: Leibniz lives! Insight about how 'nature makes no leaps' promises better
+    robot predictions
+  url: https://slashdot.org/firehose.pl?op=view&amp;id=186665929
+  date: '2026-11-09'
+  source: Slashdot.org
+- title: Machine learning researchers build a better world model
+  description: Leibniz lives! Insight about how 'nature makes no leaps' promises better
+    robot predictions
+  url: https://www.theregister.com/ai-and-ml/2026/11/09/machine-learning-researchers-build-a-better-world-model/5308301
+  date: '2026-11-09'
+  source: Theregister.com
+- title: He used machine learning to study how an invasive plant could help crops
+    grow; Grade 11 student Rudra Patel wins three awards and ₹ 4.1 lakh at 2026 Eskom
+    Expo
+  description: 'South African Grade 11 student Rudra Patel has won three awards at
+    the 2026 Eskom Expo for Young Scientists International Science Fair for research
+    combining machine learning and laboratory experiments. His project investigated
+    whether extracts from '
+  url: https://timesofindia.indiatimes.com/education/news/he-used-machine-learning-to-study-how-an-invasive-plant-could-help-crops-grow-grade-11-student-rudra-patel-wins-three-awards-and-4-1-lakh-at-2026-eskom-expo/articleshow/135675167.cms
+  date: '2026-11-09'
+  source: The Times of India
+- title: Full nonlinear velocity reconstruction with transformer and ensemble tree
+    machine learning
+  description: Accurate reconstruction of peculiar velocities from galaxy positions
+    is important for probing the motion and evolution of large-scale structure. They
+    are sensitive to the cosmological effects of gravity and dark sector matter, and
+    they complement oth
+  url: https://link.aps.org/doi/10.1103/5yrw-sl7s
+  date: '2026-11-09'
+  source: Aps.org
+- title: Feature Selection in Machine Learning
+  description: 'eBook Details: Paperback: 216 pages Published: October 30, 2026 Language: English
+    ISBN-10: 1808811119 ISBN-13: 978-1808811111 eBook Description: Feature Selection
+    in Machine Learning: 20+ feature selection methods to build simpler, faster, and
+    more r'
+  url: https://www.wowebook.org/feature-selection-in-machine-learning/
+  date: '2026-11-09'
+  source: Wowebook.org
+- title: Surat school student uses machine learning to estimate groundwater availability;
+    project wins national innovation challenge
+  description: A Surat school student, Dheyay Shah, has won the national title at
+    vivo Ignite 2026 for developing JALAAKAR, a machine-learning-based project that
+    estimates groundwater availability using historical borewell records, rainfall
+    and soil data. The innov
+  url: https://timesofindia.indiatimes.com/education/news/surat-school-student-uses-machine-learning-to-estimate-groundwater-availability-project-wins-national-innovation-challenge/articleshow/135669850.cms
+  date: '2026-11-09'
+  source: The Times of India
+- title: 'SimPoly: Simulation of polymers with machine learning force fields derived
+    from first principles'
+  description: The authors develop a machine learning force field trained only on
+    quantum-chemical data that can reproduce measured key polymer properties such
+    as densities and glass transition temperatures.
+  url: https://www.nature.com/articles/s41467-026-78736-x.pdf
+  date: '2026-11-09'
+  source: Nature.com
 - title: Clinical classification of multiple sclerosis by machine learning
   description: Scientific Reports - Clinical classification of multiple sclerosis
     by machine learning
@@ -2162,35 +2235,4 @@ news_items:
     on the planet. Applie
   url: https://nlppeople.com/job/machine-learning-performance-engineer-offboard-training-inference/
   date: '2026-08-12'
-  source: Nlppeople.com
-- title: 'Correction: Hypoxemia prediction in pediatric patients under general anesthesia
-    using machine learning: A retrospective observational study and external validation'
-  description: No description available.
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355945
-  date: '2026-08-11'
-  source: Plos.org
-- title: Data-driven rapid assessment of bridge responses under mixed traffic with
-    restricted overloaded vehicles using machine learning
-  description: For infrastructure and regional economic development, restricted overload
-    vehicles (ROVs) are an indispensable part. These vehicles are typically of large
-    size and heavy weight, and their impact on bridge structures and other infrastructure
-    is much g
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355597
-  date: '2026-08-11'
-  source: Plos.org
-- title: Machine learning based survival prediction for liver cancer using cancer
-    registry linked study from the cancer public library database
-  description: Scientific Reports - Machine learning based survival prediction for
-    liver cancer using cancer registry linked study from the cancer public library
-    database
-  url: https://www.nature.com/articles/s41598-026-66550-w.pdf
-  date: '2026-08-11'
-  source: Nature.com
-- title: Machine Learning/AI Architect
-  description: 'Machine Learning/AI Architect Day rate: £650pd inside IR35 Essential:
-    Active SC clearance Remote with ad-hoc travel to site London Competencies/skills
-    Essential  Delivery experience of AI-focussed technology projects within larger,
-    strategic programm'
-  url: https://nlppeople.com/job/machine-learning-ai-architect/
-  date: '2026-08-11'
   source: Nlppeople.com

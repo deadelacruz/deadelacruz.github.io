@@ -1,4 +1,28 @@
 news_items:
+- title: Suppression of $^{14}\mathrm{C}$ photon hits in large liquid scintillator
+    detectors via spatiotemporal deep learning
+  description: Liquid scintillator detectors are widely used in neutrino experiments
+    due to their low energy threshold and high energy resolution. Despite the tiny
+    abundance of $^{14}\mathrm{C}$ in LS, the photons induced by the $\ensuremath{\beta}$
+    decay of the $^
+  url: https://link.aps.org/doi/10.1103/6d6b-yfxx
+  date: '2026-11-09'
+  source: Aps.org
+- title: 'SkinFusionNet: MobileNetV2 and vision transformer hybrid deep learning model
+    with automated skin cancer classification'
+  description: 'Scientific Reports - SkinFusionNet: MobileNetV2 and vision transformer
+    hybrid deep learning model with automated skin cancer classification'
+  url: https://www.nature.com/articles/s41598-026-74475-7.pdf
+  date: '2026-11-09'
+  source: Nature.com
+- title: Deep learning-based gait analysis predicts multisystem health phenotypes
+  description: We developed a gait foundation model from three-dimensional skeletal
+    motion data of 3,328 deeply phenotyped adults, recorded using a depth camera during
+    five motor tasks. Embeddings significantly predicted 1,887 of 3,210 phenotypic
+    targets and provid
+  url: https://www.nature.com/articles/s41591-026-04725-8
+  date: '2026-11-09'
+  source: Nature.com
 - title: 'The impact of reference data quality on building segmentation: a nationwide
     comparison of 15 deep learning models and a new benchmark dataset'
   description: 'Scientific Reports - The impact of reference data quality on building
@@ -1064,10 +1088,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-54871-9
   date: '2026-08-12'
   source: Nature.com
-- title: Indonesia pushes deep learning to transform education
-  description: Indonesia&#39;s Ministry of Primary and Secondary Education is promoting
-    a Deep Learning approach to transform education, focusing on classroom instruction
-    as ...
-  url: https://en.antaranews.com/news/426528/indonesia-pushes-deep-learning-to-transform-education
-  date: '2026-08-11'
-  source: Antaranews.com
