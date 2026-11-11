@@ -1,4 +1,58 @@
 news_items:
+- title: Comparative assessment of ensemble and machine learning models for susceptibility
+    mapping of 2024 Wushi earthquake-triggered landslides
+  description: Coseismic landslide susceptibility mapping plays a critical role in
+    disaster risk mitigation, infrastructure protection, and territorial spatial planning,
+    particularly in tectonically active mountain belts such as the Tianshan Mountains.
+    Conventional
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362380
+  date: '2026-11-10'
+  source: Plos.org
+- title: 'Information content of Krylov observables: A machine learning approach'
+  description: 'We employ machine learning techniques to estimate the amount of information
+    contained in three Krylov-space observables: the spread complexity $C(t)$, the
+    discrete Wigner negativity $N(t)$, and the normalized negativity $\ensuremath{\chi}(t)=N(t)/|S('
+  url: https://link.aps.org/doi/10.1103/hqts-lp2n
+  date: '2026-11-10'
+  source: Aps.org
+- title: Prediction of IgE-mediated allergic reactions to beta-lactam antibiotics
+    using machine learning models
+  description: Scientific Reports - Prediction of IgE-mediated allergic reactions
+    to beta-lactam antibiotics using machine learning models
+  url: https://www.nature.com/articles/s41598-026-78994-1.pdf
+  date: '2026-11-10'
+  source: Nature.com
+- title: 'Machine learning model using contrast-enhanced CT for predicting overall
+    survival in unresectable hepatocellular carcinoma treated with TACE plus targeted
+    and immunotherapy: a multicenter study'
+  description: 'Scientific Reports - Machine learning model using contrast-enhanced
+    CT for predicting overall survival in unresectable hepatocellular carcinoma treated
+    with TACE plus targeted and immunotherapy: a...'
+  url: https://www.nature.com/articles/s41598-026-64608-3
+  date: '2026-11-10'
+  source: Nature.com
+- title: 'Retraction Note: Enhancing prediction accuracy for Parkinson’s disease using
+    advanced machine learning models'
+  description: 'Scientific Reports - Retraction Note: Enhancing prediction accuracy
+    for Parkinson’s disease using advanced machine learning models'
+  url: https://www.nature.com/articles/s41598-026-79877-1
+  date: '2026-11-10'
+  source: Nature.com
+- title: 'Bayesian-optimized machine learning models for state of charge estimation
+    of lithium-ion EV batteries: sensitivity analysis and XAI via SHAP'
+  description: 'Scientific Reports - Bayesian-optimized machine learning models for
+    state of charge estimation of lithium-ion EV batteries: sensitivity analysis and
+    XAI via SHAP'
+  url: https://www.nature.com/articles/s41598-026-75604-y.pdf
+  date: '2026-11-10'
+  source: Nature.com
+- title: Advanced optimization of drug solubility through statistical analysis using
+    machine learning
+  description: Scientific Reports - Advanced optimization of drug solubility through
+    statistical analysis using machine learning
+  url: https://www.nature.com/articles/s41598-026-79254-y.pdf
+  date: '2026-11-10'
+  source: Nature.com
 - title: 'Wiley Machine Learning For Dummies 3rd Edition eBook: Free'
   description: This Wiley eBook is free, down from a $19 regular price. The 3rd edition
     is a 2025 update to the 2021 edition, written by Luca Massaron and John Paul Mueller.
@@ -2183,56 +2237,4 @@ news_items:
     AI conferences in'
   url: https://nlppeople.com/job/machine-learning-research-scientist-remote-60-100-hr/
   date: '2026-08-13'
-  source: Nlppeople.com
-- title: Madhya Pradesh’s first Centre of Excellence for AI & machine learning to
-    begin at DAVV by Jan 2027
-  description: DAVV to launch MP’s first AI & ML Centre of Excellence at Takshashila
-    campus in Jan 2027, offering certificate/diploma courses and training 500 students
-    yearly.
-  url: https://timesofindia.indiatimes.com/city/indore/madhya-pradeshs-first-centre-of-excellence-for-ai-machine-learning-to-begin-at-davv-by-jan-2027/articleshow/133192393.cms
-  date: '2026-08-12'
-  source: The Times of India
-- title: Machine learning uses gene neighborhoods to identify harmful poultry bacteria
-  description: When it comes to identifying harmful bacteria, it helps to look at
-    the company their genes keep.
-  url: https://www.news-medical.net/news/20260812/Machine-learning-uses-gene-neighborhoods-to-identify-harmful-poultry-bacteria.aspx
-  date: '2026-08-12'
-  source: News-Medical.Net
-- title: A hybrid quantum–classical machine learning framework for commodity market
-    crash prediction
-  description: Scientific Reports - A hybrid quantum–classical machine learning framework
-    for commodity market crash prediction
-  url: https://www.nature.com/articles/s41598-026-66427-y.pdf
-  date: '2026-08-12'
-  source: Nature.com
-- title: A hybrid natural language processing-ontology and machine learning framework
-    for linguistic and knowledge-driven accident analysis in petrochemical occupational
-    safety informatics
-  description: Scientific Reports - A hybrid natural language processing-ontology
-    and machine learning framework for linguistic and knowledge-driven accident analysis
-    in petrochemical occupational safety informatics
-  url: https://www.nature.com/articles/s41598-026-66334-2.pdf
-  date: '2026-08-12'
-  source: Nature.com
-- title: Identification and validation of cellular senescence biomarkers in recurrent
-    pregnancy loss using machine learning and single-cell RNA sequencing
-  description: Scientific Reports - Identification and validation of cellular senescence
-    biomarkers in recurrent pregnancy loss using machine learning and single-cell
-    RNA sequencing
-  url: https://www.nature.com/articles/s41598-026-65744-6.pdf
-  date: '2026-08-12'
-  source: Nature.com
-- title: Mechanistic machine learning for prediction of prime editing outcomes
-  description: OptiPrime incorporates prime-editing biochemistry to predict prime-editing
-    outcomes.
-  url: https://www.nature.com/articles/s41587-026-03261-7
-  date: '2026-08-12'
-  source: Nature.com
-- title: Machine Learning Performance Engineer – Offboard Training & Inference
-  description: Applied Intuition, Inc. is powering the future of physical AI. Founded
-    in 2017 and now valued at $15 billion, the Silicon Valley company is creating
-    the digital infrastructure needed to bring intelligence to every moving machine
-    on the planet. Applie
-  url: https://nlppeople.com/job/machine-learning-performance-engineer-offboard-training-inference/
-  date: '2026-08-12'
   source: Nlppeople.com
