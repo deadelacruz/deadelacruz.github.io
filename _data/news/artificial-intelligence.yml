@@ -1,4 +1,42 @@
 news_items:
+- title: Democrats Have Big Plans for Artificial Intelligence
+  description: Yes, that's as ominous as it sounds.Despite being excited to see some
+    Republicans lose control of the Congress, I'm already dreading the Democrats'
+    takeover, especially what it will mean for tech policy. Doing nothing to allay
+    this feeling is this Re
+  url: https://freerepublic.com/focus/f-news/4402685/posts
+  date: '2026-11-11'
+  source: Freerepublic.com
+- title: Democrats Have Big Plans for Artificial Intelligence
+  description: Democrats plan to waste no time using their forthcoming majority to
+    start giving the government much more control over the AI industry.
+  url: https://reason.com/2026/11/11/democrats-have-big-plans-for-artificial-intelligence/
+  date: '2026-11-11'
+  source: Reason
+- title: 'AI boom: 5 youngest billionaires who built their fortunes on Artificial
+    Intelligence'
+  description: Surya Midha is just 22 and already holds a USD 2.2 billion stake in
+    Mercor, the startup he launched in 2023 with his partners. Four engineers in their
+    mid-20s started the AI code editor Cursor in 2022, and each is now worth USD 1.3
+    billion.
+  url: https://economictimes.indiatimes.com/news/international/us/ai-boom-5-youngest-billionaires-who-built-their-fortunes-on-artificial-intelligence/articleshow/135743717.cms
+  date: '2026-11-11'
+  source: The Times of India
+- title: Why artificial intelligence could be the last blow to higher education in
+    India
+  description: The country's higher education is in worse shape than its school education.
+    To make matters worse, artificial intelligence is eliminating human learning in
+    colleges, which are already failing amid teacher-student as well as policy neglect.
+  url: https://www.livemint.com/opinion/online-views/why-artificial-intelligence-could-be-the-last-blow-to-higher-education-in-india-11794311281838.html
+  date: '2026-11-11'
+  source: Livemint
+- title: Novel application of artificial intelligence based astronomical centroiding
+    to small particle tracking
+  description: Scientific Reports - Novel application of artificial intelligence based
+    astronomical centroiding to small particle tracking
+  url: https://www.nature.com/articles/s41598-026-79919-8.pdf
+  date: '2026-11-11'
+  source: Nature.com
 - title: 'WATCH: Artificial intelligence demands incredibly bizarre spelling for ‘seventeen,’
     has ballistic outburst'
   description: '''A.I. being incapable of basic spelling is pretty hilarious. A.I.
@@ -4744,47 +4782,3 @@ news_items:
   url: https://thediplomat.com/2026/08/how-indonesia-can-get-ahead-in-the-artificial-intelligence-race/
   date: '2026-08-14'
   source: The Diplomat
-- title: Israel Launches National AI Action Plan, Setting Goal of Becoming a Global
-    Artificial Intelligence Power
-  description: Government-backed strategy commits to a National AI Institute, "acceleration
-    reactors (labs)," a 100,000-accelerator computing base, a domestic quantum computer,
-    and a push to attract the world's leading AI labs to Israel JERUSALEM, Aug. 13,
-    2026 /PR
-  url: https://www.prnewswire.com/news-releases/israel-launches-national-ai-action-plan-setting-goal-of-becoming-a-global-artificial-intelligence-power-302851235.html
-  date: '2026-08-13'
-  source: PRNewswire
-- title: 'Artificial intelligence-based grading of human cataracts: A feasibility
-    study'
-  description: This feasibility study developed and validated an AI algorithm for
-    automatic classification of human lens opacification (cataracts) using anterior
-    segment optical coherence tomography (OCT). The dataset comprised 1,802 unprocessed
-    OCT images from 901
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355969
-  date: '2026-08-13'
-  source: Plos.org
-- title: 'Prediction: This Artificial Intelligence (AI) Stock Is Going to Double by
-    2027'
-  description: The timing can certainly be debated, but I think the artificial intelligence
-    (AI) boom began in November 2022, when OpenAI released ChatGPT, which amassed
-    100 million users in just two months. However, many companies were developing
-    and even successf
-  url: https://biztoc.com/x/ec9ac38986a0aaf9
-  date: '2026-08-13'
-  source: Biztoc.com
-- title: How Artificial Intelligence Disrupts Engineering Progression
-  description: AI is disrupting career progression by eliminating the learning opportunities
-    at each rung while simultaneously enabling people to perform above their experience
-    level, Alasdair Allan explained in his talk Engineering Progression When AI Ate
-    the Midd
-  url: https://www.infoq.com/news/2026/08/AI-disrupts-engineering-progress/
-  date: '2026-08-13'
-  source: InfoQ.com
-- title: Spotify will start “labeling” songs made using Artificial Intelligence
-  description: 'The “AI Persona” label will appear in the banner and “About” section
-    of artists’ profiles, as well as in search results
-
-    The post Spotify will start “labeling” songs made using Artificial Intelligence
-    appeared first on ProtoThema English.'
-  url: https://en.protothema.gr/2026/08/13/spotify-will-start-labeling-songs-made-using-artificial-intelligence/
-  date: '2026-08-13'
-  source: Protothema.gr

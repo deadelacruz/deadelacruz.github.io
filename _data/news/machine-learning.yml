@@ -1,4 +1,21 @@
 news_items:
+- title: '[eBook] Free: Machine Learning for Dummies, 3rd Edition (Normally $19) @
+    Tradepub'
+  description: The most human-friendly book on machine learning Somewhere buried in
+    all the systems that drive artificial intelligence, you'll find machine learning—the
+    process that allows technology to …
+  url: https://www.ozbargain.com.au/node/982673
+  date: '2026-11-11'
+  source: Ozbargain.com.au
+- title: External validation of a machine learning model for classifying hospitalization
+    outcomes in Asian elephants across three elephant hospitals in Thailand
+  description: Classification of hospitalization outcomes in wildlife hospitals may
+    support clinical assessment and resource planning, but model performance can vary
+    across institutions with different case profiles and care practices. This study
+    evaluated a previou
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362469
+  date: '2026-11-11'
+  source: Plos.org
 - title: Comparative assessment of ensemble and machine learning models for susceptibility
     mapping of 2024 Wushi earthquake-triggered landslides
   description: Coseismic landslide susceptibility mapping plays a critical role in
@@ -2205,36 +2222,4 @@ news_items:
     AI. You can read a
   url: https://nlppeople.com/job/machine-learning-engineer-597/
   date: '2026-08-14'
-  source: Nlppeople.com
-- title: Genome-wide machine learning analysis of anosmia and ageusia with COVID-19
-  description: The COVID-19 pandemic has caused substantial worldwide disruptions
-    in health, economy, and society, manifesting symptoms such as loss of smell (anosmia)
-    and loss of taste (ageusia), that can result in prolonged sensory impairment.
-    Establishing the ho
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355832
-  date: '2026-08-13'
-  source: Plos.org
-- title: Machine learning models for predicting the hardness of additively manufactured
-    Polymethyl Methacrylate (PMMA) parts for biomedical applications
-  description: Additively fabricated Polymethyl Methacrylate (PMMA) is highly preferred
-    for medical applications. Its biocompatibility makes it the preferred material
-    for biomedical applications such as prosthetics and dentistry. It is crucial to
-    understand the mec
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0355862
-  date: '2026-08-13'
-  source: Plos.org
-- title: A modular vision transformer and machine learning framework for scalable
-    multi-crop plant disease classification
-  description: Scientific Reports - A modular vision transformer and machine learning
-    framework for scalable multi-crop plant disease classification
-  url: https://www.nature.com/articles/s41598-026-65004-7.pdf
-  date: '2026-08-13'
-  source: Nature.com
-- title: Machine Learning Research Scientist (Remote | $60–$100/hr)
-  description: 'About the Job ML Research PhD Expert Location: Remote Engagement Type:
-    Hourly Contract Compensation: $60–$100/hour About the Opportunity This opportunity
-    is for accomplished Machine Learning Researchers with publications at top-tier
-    AI conferences in'
-  url: https://nlppeople.com/job/machine-learning-research-scientist-remote-60-100-hr/
-  date: '2026-08-13'
   source: Nlppeople.com

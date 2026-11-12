@@ -1,4 +1,11 @@
 news_items:
+- title: A hybrid deep learning framework with domain-adapted embeddings for regulatory
+    violation classification
+  description: Scientific Reports - A hybrid deep learning framework with domain-adapted
+    embeddings for regulatory violation classification
+  url: https://www.nature.com/articles/s41598-026-78042-y.pdf
+  date: '2026-11-11'
+  source: Nature.com
 - title: Lightweight Deep Learning Framework for Astrocyte-Centric 3D Reconstruction
     across Normal and Stress-associated Ultrastructural States
   description: The morphology of astrocytes is closely associated with their ability
@@ -1067,13 +1074,4 @@ news_items:
     in diverse bi
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014649
   date: '2026-08-14'
-  source: Plos.org
-- title: Spectral signature mapping and deep learning detection of Frankincense (Boswellia
-    Sacra) using worldview-3 imagery
-  description: The identification of plant species in arid ecosystems relies on spectral
-    signatures that capture their reflectance properties. Despite the ecological and
-    economic importance of the Frankincense tree (Boswellia sacra), its spectral characteristics
-    re
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356056
-  date: '2026-08-13'
   source: Plos.org
