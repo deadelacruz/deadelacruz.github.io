@@ -1,4 +1,13 @@
 news_items:
+- title: Mobility-state- and handover-direction-aware analytical and machine learning-based
+    HCP optimization in 5G heterogeneous networks
+  description: The use of ultra-dense small cells in 5G heterogeneous networks increases
+    capacity, coverage and spectral efficiency, but it also complicates mobility management.
+    In dense macro-small-cell networks, user devices often cross cells with varying
+    coverag
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362310
+  date: '2026-11-12'
+  source: Plos.org
 - title: '[eBook] Free: Machine Learning for Dummies, 3rd Edition (Normally $19) @
     Tradepub'
   description: The most human-friendly book on machine learning Somewhere buried in
@@ -2142,84 +2151,4 @@ news_items:
     earn salaries of u
   url: https://nlppeople.com/job/junior-ai-engineer-machine-learning-engineer-no-experience-needed-3/
   date: '2026-08-16'
-  source: Nlppeople.com
-- title: Scientific Machine Learning
-  description: 'eBook Details: Paperback: 830 pages Published: July 24, 2026 Language: English
-    ISBN-10: 9819578558 ISBN-13: 978-9819578559 eBook Description: Scientific Machine
-    Learning: Foundations, Algorithms, and Applications. This book highlights and
-    addresses a'
-  url: https://www.wowebook.org/scientific-machine-learning/
-  date: '2026-08-14'
-  source: Wowebook.org
-- title: Understanding the Role of Latent Space in Machine Learning Models
-  description: 'This article analyzes, illustrates, and categorizes the core functions
-    and key roles of latent spaces in machine learning models: descriptive, generative,
-    and predictive.'
-  url: https://machinelearningmastery.com/understanding-the-role-of-latent-space-in-machine-learning-models/
-  date: '2026-08-14'
-  source: Machinelearningmastery.com
-- title: 'Innovative development of an advanced machine learning modeling for predicting
-    compressive strength of graphene-infused concrete: a SHAP and PDP approach'
-  description: 'Scientific Reports - Innovative development of an advanced machine
-    learning modeling for predicting compressive strength of graphene-infused concrete:
-    a SHAP and PDP approach'
-  url: https://www.nature.com/articles/s41598-026-66152-6.pdf
-  date: '2026-08-14'
-  source: Nature.com
-- title: Sr. Artificial Intelligence & Machine Learning Developer
-  description: Summary Welcome to Ryerson, where exceptional career opportunities
-    await. As a leading provider of industrial and OEM metal products and services
-    since 1842, we are committed to excellence and best-in-class customer service.
-    Join our team and be a pa
-  url: https://nlppeople.com/job/sr-artificial-intelligence-machine-learning-developer/
-  date: '2026-08-14'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – 140859
-  description: 'Payroll Title: RSCH DATA ANL 3 RP Department: CLIMATE/ATMOS SCI/PHY
-    OCEANOG Hiring Pay Scale $96,075 – $136,710/ Annually Worksite: Hybrid Appointment
-    Type: Career Appointment Percent: 100% Union: RP Contract Total Openings: 1 Work
-    Schedule: 8 hrs/da'
-  url: https://nlppeople.com/job/machine-learning-scientist-140859/
-  date: '2026-08-14'
-  source: Nlppeople.com
-- title: Machine Learning Research Engineer – NLP / LLM
-  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
-    for a Machine Learning Research Engineer to work on researching and investigating
-    new concepts for an industry-leading, machine-learning software company in Cambridge,
-    UK. This '
-  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-16/
-  date: '2026-08-14'
-  source: Nlppeople.com
-- title: Senior Machine Learning Scientist
-  description: Senior Machine Learning Scientist  UK or Poland (Remote or Hybrid,
-    it’s up to you!)  Dependent on experience  Be part of our success with the opportunity
-    to join our company equity scheme Our Perks ❤️ Monthly Health & Wellness budget,
-    increasing with
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-31/
-  date: '2026-08-14'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – Natural Language Processing (NLP) – Vice President
-    – Machine Learn[…]
-  description: At JPMorgan Chase, AI and technology promote our global operations
-    with unmatched scale and speed. We invest over $18 billion annually in innovation,
-    data leverage, and security to shape the future for our clients, communities,
-    and employees. The Chi
-  url: https://nlppeople.com/job/machine-learning-scientist-natural-language-processing-nlp-vice-president-machine-learn-2/
-  date: '2026-08-14'
-  source: Nlppeople.com
-- title: Machine Learning Engineer
-  description: 'Your Journey at Crowe Starts Here: At Crowe, you can build a meaningful
-    and rewarding career. With real flexibility to balance work with life moments,
-    you’re trusted to deliver results and make an impact. We embrace you for who you
-    are, care for your'
-  url: https://nlppeople.com/job/machine-learning-engineer-596/
-  date: '2026-08-14'
-  source: Nlppeople.com
-- title: Machine Learning Engineer
-  description: Why Faculty? We established Faculty in 2014 because we thought that
-    AI would be the most important technology of our time. Since then, we’ve worked
-    with over 350 global customers to transform their performance through human-centric
-    AI. You can read a
-  url: https://nlppeople.com/job/machine-learning-engineer-597/
-  date: '2026-08-14'
   source: Nlppeople.com

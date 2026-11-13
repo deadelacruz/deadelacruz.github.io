@@ -1,4 +1,10 @@
 news_items:
+- title: Deep learning for earthquake magnitude prediction using temporal fusion transformers
+  description: Scientific Reports - Deep learning for earthquake magnitude prediction
+    using temporal fusion transformers
+  url: https://www.nature.com/articles/s41598-026-79541-8.pdf
+  date: '2026-11-12'
+  source: Nature.com
 - title: A hybrid deep learning framework with domain-adapted embeddings for regulatory
     violation classification
   description: Scientific Reports - A hybrid deep learning framework with domain-adapted
@@ -1066,12 +1072,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-66407-2.pdf
   date: '2026-08-15'
   source: Nature.com
-- title: Structure-aware deep learning enhances m6A prediction and reveals cell type-associated
-    RNA structural signatures
-  description: Author summary Chemical modifications of RNA provide a crucial regulatory
-    layer beyond the genetic code. Among them, N6-methyladenosine (m6A) is the most
-    abundant internal modification in eukaryotic messenger RNA and has been implicated
-    in diverse bi
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014649
-  date: '2026-08-14'
-  source: Plos.org
