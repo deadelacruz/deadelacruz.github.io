@@ -1,4 +1,11 @@
 news_items:
+- title: 'SQCDL-WIoT: a scalable quantum convolutional deep learning framework with
+    wearable IoT integration for breast cancer screening'
+  description: 'Scientific Reports - SQCDL-WIoT: a scalable quantum convolutional
+    deep learning framework with wearable IoT integration for breast cancer screening'
+  url: https://www.nature.com/articles/s41598-026-73447-1.pdf
+  date: '2026-11-13'
+  source: Nature.com
 - title: Deep learning for earthquake magnitude prediction using temporal fusion transformers
   description: Scientific Reports - Deep learning for earthquake magnitude prediction
     using temporal fusion transformers
@@ -1065,10 +1072,3 @@ news_items:
   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354896
   date: '2026-08-18'
   source: Plos.org
-- title: Spatiotemporal characterization and graph-based interpretation of distributed
-    denial of service attacks using deep learning
-  description: Scientific Reports - Spatiotemporal characterization and graph-based
-    interpretation of distributed denial of service attacks using deep learning
-  url: https://www.nature.com/articles/s41598-026-66407-2.pdf
-  date: '2026-08-15'
-  source: Nature.com

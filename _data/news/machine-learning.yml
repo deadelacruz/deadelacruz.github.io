@@ -1,4 +1,42 @@
 news_items:
+- title: Jackson School Celebrates Walter Award Winners and First Cohort of Machine
+    Learning Certificate Program
+  description: The Walter Awards recognize top talent among faculty, researchers and
+    staff at the Jackson School of Geosciences. On Thursday, November 12, we recognized
+    our 2025...
+  url: https://www.jsg.utexas.edu/news/2026/11/jackson-school-celebrates-walter-award-winners-and-first-cohort-of-machine-learning-certificate-program/
+  date: '2026-11-13'
+  source: Utexas.edu
+- title: Machine learning approaches for the identification of real-world predictors
+    of mepolizumab response
+  description: Background Mepolizumab improves control and reduces clinically significant
+    exacerbations in severe asthma patients. Further research is needed to understand
+    factors influencing patient response.   Objective Identify predictors of response
+    to mepolizu
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362402
+  date: '2026-11-13'
+  source: Plos.org
+- title: 'Correction: Feasibility of a machine learning model for predicting weight
+    gain after kidney transplantation machine learning and weight gain after kidney
+    transplantation'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362977
+  date: '2026-11-13'
+  source: Plos.org
+- title: Predicting compressive strength of concrete using machine learning
+  description: Scientific Reports - Predicting compressive strength of concrete using
+    machine learning
+  url: https://www.nature.com/articles/s41598-026-79849-5.pdf
+  date: '2026-11-13'
+  source: Nature.com
+- title: 'Machine learning-based prediction of overall survival after lung SBRT using
+    clinical, dosimetric, and radiomics features: a multicenter study'
+  description: 'Scientific Reports - Machine learning-based prediction of overall
+    survival after lung SBRT using clinical, dosimetric, and radiomics features: a
+    multicenter study'
+  url: https://www.nature.com/articles/s41598-026-77575-6.pdf
+  date: '2026-11-13'
+  source: Nature.com
 - title: Mobility-state- and handover-direction-aware analytical and machine learning-based
     HCP optimization in 5G heterogeneous networks
   description: The use of ultra-dense small cells in 5G heterogeneous networks increases

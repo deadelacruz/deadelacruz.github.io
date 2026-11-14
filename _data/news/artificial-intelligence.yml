@@ -1,4 +1,20 @@
 news_items:
+- title: Artificial intelligence is scary. But history reminds us that tech makes
+    lives better, not worse
+  description: We tend to forget that the typical American is living a healthier,
+    more comfortable life than even historical royalty.
+  url: https://nypost.com/2026/11/13/opinion/artificial-intelligence-is-scary-but-history-reminds-us-that-tech-makes-lives-better-not-worse/
+  date: '2026-11-13'
+  source: New York Post
+- title: Are wealthier parents pushing teens towards AI? RAND study finds a growing
+    income gap in how American families use artificial intelligence
+  description: A new RAND Corporation study has found that wealthier American parents
+    are adopting AI tools faster and are more likely to encourage teenagers to use
+    them for schoolwork. The income-based gap in parental AI use increased from 15
+    to 21 percentage poin
+  url: https://timesofindia.indiatimes.com/education/news/are-wealthier-parents-pushing-teens-towards-ai-rand-study-finds-a-growing-income-gap-in-how-american-families-use-artificial-intelligence/articleshow/135790682.cms
+  date: '2026-11-13'
+  source: The Times of India
 - title: United Kingdom-Norway Joint Statement of intent on Artificial Intelligence
   description: A joint statement by the UK and Norway to deepen cooperation on AI,
     including compute, defence, AI security, and international governance.
@@ -4721,28 +4737,3 @@ news_items:
   url: https://www.merca20.com/these-are-the-36-brands-that-appear-in-practically-all-artificial-intelligence-responses-according-to-semrush/
   date: '2026-08-16'
   source: Merca20.com
-- title: Can Artificial Intelligence Replace Human Judges?
-  description: "Can Artificial Intelligence Replace Human Judges?\n \nAuthored by\
-    \ Matthew Andersson via AmericanThinker.com,\nThere is growing interest in whether\
-    \ an “ai” or, artificial intelligence judge can make better rulings than a human\
-    \ one. \nThis is understandabl"
-  url: https://biztoc.com/x/412700bfb2a30d61
-  date: '2026-08-15'
-  source: Biztoc.com
-- title: Which Is the Better Artificial Intelligence ETF, Roundhill's CHAT or Vanguard's
-    VGT?
-  description: The Roundhill Generative AI & Technology ETF (NYSEMKT:CHAT) offers
-    thematic exposure to the artificial intelligence ecosystem, while the Vanguard
-    Information Technology ETF (NYSEMKT:VGT) provides broad-based technology sector
-    coverage with much lower
-  url: https://biztoc.com/x/59b273a4c7c3a2b3
-  date: '2026-08-15'
-  source: Biztoc.com
-- title: How Artificial Intelligence Is Rewriting the Workplace
-  description: Artificial intelligence is moving rapidly beyond a tool for answering
-    questions and generating content, with autonomous AI agents beginning to perform
-    complex business tasks independently, raising new questions over employment, corporate
-    competitiven
-  url: https://newsonjapan.com/article/150375.php
-  date: '2026-08-15'
-  source: Newsonjapan.com
