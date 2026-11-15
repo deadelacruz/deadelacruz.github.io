@@ -1,4 +1,20 @@
 news_items:
+- title: Deep learning identification of SST teleconnections driving early-winter
+    North Atlantic climate
+  description: Scientific Reports - Deep learning identification of SST teleconnections
+    driving early-winter North Atlantic climate
+  url: https://www.nature.com/articles/s41598-026-78245-3.pdf
+  date: '2026-11-14'
+  source: Nature.com
+- title: 'DPI-score: a deep learning-based metric for assessing protein-protein interfaces
+    in cryoEM derived assemblies'
+  description: The study introduces deep learning-based protein-protein interfaces’
+    quality score- DPI-score, that uses only structural coordinates, without engineered
+    interface features. It provides complementary validation and detects errors at
+    interfaces.
+  url: https://www.nature.com/articles/s41467-026-79090-8.pdf
+  date: '2026-11-14'
+  source: Nature.com
 - title: 'SQCDL-WIoT: a scalable quantum convolutional deep learning framework with
     wearable IoT integration for breast cancer screening'
   description: 'Scientific Reports - SQCDL-WIoT: a scalable quantum convolutional

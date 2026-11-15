@@ -1,4 +1,23 @@
 news_items:
+- title: What artificial intelligence is revealing about ancient Pompeii
+  description: From reconstructing the AD 79 eruption to immersive experiences for
+    visitors, technology is bringing archaeology and innovation together
+  url: https://www.repubblica.it/en/europe/culture/2026/11/14/news/artificial_intelligence_revealing_about_pompeii-425721054/
+  date: '2026-11-14'
+  source: La Repubblica
+- title: 'Will artificial intelligence take your job? | Insiders: On Background'
+  description: The promise of AI is that it will make our lives easier. But could
+    it also mean unemployment? This week, the government has ...
+  url: https://biztoc.com/x/ab0fc70d50b3a780
+  date: '2026-11-14'
+  source: Biztoc.com
+- title: An exploratory survey of student perceptions of generative artificial intelligence
+    at a Saudi maritime studies faculty
+  description: Scientific Reports - An exploratory survey of student perceptions of
+    generative artificial intelligence at a Saudi maritime studies faculty
+  url: https://www.nature.com/articles/s41598-026-80860-z.pdf
+  date: '2026-11-14'
+  source: Nature.com
 - title: Artificial intelligence is scary. But history reminds us that tech makes
     lives better, not worse
   description: We tend to forget that the typical American is living a healthier,
@@ -4709,31 +4728,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-65930-6.pdf
   date: '2026-08-17'
   source: Nature.com
-- title: '''We Actually Don''t Need AI'': Queen''s Brian May Warns Against the Artificial
-    Intelligence Rush in Music'
-  description: 'Legendary guitarist Brian May has used Meta AI to poorly recreate
-    the cover of Queen''s 1980 album The Game as a warning about artificial intelligence,
-    declaring that the technology is not needed and that data centers must not be
-    built in the UK.
-
-    The '
-  url: https://www.breitbart.com/tech/2026/08/16/we-actually-dont-need-ai-queens-brian-may-warns-against-the-artificial-intelligence-rush-in-music/
-  date: '2026-08-16'
-  source: Breitbart News
-- title: 'Amazon vs. Microsoft: Which Cloud Computing Behemoth Is the Better Artificial
-    Intelligence (AI) Buy Today?'
-  description: 'Amazon vs. Microsoft: Which Cloud Computing Behemoth Is the Better
-    Artificial Intelligence (AI) Buy Today?
-
-    Amazon (NASDAQ: AMZN) and Microsoft (NASDAQ: MSFT) are two of the biggest names
-    in artificial intelligence (AI). Both of these companies have t'
-  url: https://biztoc.com/x/53d0d5d25f40e7c6
-  date: '2026-08-16'
-  source: Biztoc.com
-- title: Which are the 36 brands that appear most frequently in artificial intelligence
-    responses, according to Semrush?
-  description: Semrush warns that the growth of artificial intelligence assistants
-    is changing the way people discover brands and make purchasing decisions
-  url: https://www.merca20.com/these-are-the-36-brands-that-appear-in-practically-all-artificial-intelligence-responses-according-to-semrush/
-  date: '2026-08-16'
-  source: Merca20.com
