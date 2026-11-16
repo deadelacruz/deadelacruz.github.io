@@ -1,4 +1,11 @@
 news_items:
+- title: Prediction of flavonoid components and antioxidant activity in tangerine
+    peel based on machine learning
+  description: Scientific Reports - Prediction of flavonoid components and antioxidant
+    activity in tangerine peel based on machine learning
+  url: https://www.nature.com/articles/s41598-026-74716-9.pdf
+  date: '2026-11-15'
+  source: Nature.com
 - title: Jackson School Celebrates Walter Award Winners and First Cohort of Machine
     Learning Certificate Program
   description: The Walter Awards recognize top talent among faculty, researchers and
@@ -2133,38 +2140,4 @@ news_items:
     heavily in the next '
   url: https://nlppeople.com/job/machine-learning-specialist-12/
   date: '2026-08-18'
-  source: Nlppeople.com
-- title: An “invisible” car? Researcher uses machine learning to hide vehicles from
-    Flock cameras
-  description: 'A cybersecurity expert has demonstrated how computer-generated patterns
-    can successfully prevent surveillance cameras from detecting vehicles - such as
-    the controversial AI-powered Flock licence plate readers that are becoming increasingly
-    common on '
-  url: https://www.bitdefender.com/en-us/blog/hotforsecurity/invisible-car-machine-learning-hide-vehicle-flock-cameras
-  date: '2026-08-17'
-  source: Bitdefender.com
-- title: Software Engineering, Machine Learning Operations, Tapestry
-  description: About Tapestry Tapestry is Alphabet’s moonshot for the electric grid,
-    working at the frontier where energy’s complexity meets AI’s potential. We were
-    born at X, the innovation lab responsible for breakthrough technologies like Waymo,
-    Verily and Googl
-  url: https://nlppeople.com/job/software-engineering-machine-learning-operations-tapestry/
-  date: '2026-08-17'
-  source: Nlppeople.com
-- title: Machine Learning Scientist/Senior Machine Learning Scientist – Synthesis
-    Planning and Optimization, AI for Drug Discovery
-  description: The PositionA healthier future. It’s what drives us to innovate. To
-    continuously advance science and ensure everyone has access to the healthcare
-    they need today and for generations to come. Creating a world where we all have
-    more time with the peopl
-  url: https://nlppeople.com/job/machine-learning-scientist-senior-machine-learning-scientist-synthesis-planning-and-optimization-ai-for-drug-discovery-7/
-  date: '2026-08-17'
-  source: Nlppeople.com
-- title: Machine Learning Engineer III
-  description: 'Job No: 26056 Department: Michigan Tech Rsrch Institute(MTRI) Work
-    Type: Staff – Full Time Full Time / Part Time: Full Time Categories: Computing,
-    Research Applications Close: Sub Department: Michigan Tech Research Institute
-    (MTRI) Michigan Technolog'
-  url: https://nlppeople.com/job/machine-learning-engineer-iii-15/
-  date: '2026-08-17'
   source: Nlppeople.com

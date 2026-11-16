@@ -1,4 +1,12 @@
 news_items:
+- title: The Catholic Church and Artificial Intelligence
+  description: Are we headed at breakneck speed towards the era of “The Terminator”,
+    where the machines rise against their creators? That would be the ugliest side
+    of Artificial Intelligence. The “not-so-attractive” side is that machines can
+    imitate human responses
+  url: https://radio.foxnews.com/2026/11/15/the-catholic-church-and-artificial-intelligence/
+  date: '2026-11-15'
+  source: Fox News
 - title: What artificial intelligence is revealing about ancient Pompeii
   description: From reconstructing the AD 79 eruption to immersive experiences for
     visitors, technology is bringing archaeology and innovation together
@@ -43,6 +51,13 @@ news_items:
   url: https://timesofindia.indiatimes.com/education/news/are-wealthier-parents-pushing-teens-towards-ai-rand-study-finds-a-growing-income-gap-in-how-american-families-use-artificial-intelligence/articleshow/135790682.cms
   date: '2026-11-13'
   source: The Times of India
+- title: Artificial Intelligence for the Z80
+  description: Understand artificial intelligence by programming it from scratch in
+    BASIC. A practical journey through algorithms, data and neural networks on 8-bit
+    computers.
+  url: https://www.dfsantos.com/en/libro-ia-z80
+  date: '2026-11-13'
+  source: Dfsantos.com
 - title: United Kingdom-Norway Joint Statement of intent on Artificial Intelligence
   description: A joint statement by the UK and Norway to deepen cooperation on AI,
     including compute, defence, AI security, and international governance.
@@ -4713,27 +4728,3 @@ news_items:
   url: https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_b3edf82a-735c-4a79-98b2-7aea7173d44b
   date: '2026-08-18'
   source: Yahoo Entertainment
-- title: Will Old Professors Be Forgotten in the Artificial Intelligence Era?
-  description: AI may free academics from narrow specialization, creating space for
-    broader interdisciplinary thinking, systemic perception, and philosophical questioning
-    of relationships, assumptions, and unresolved scientific problems across disciplines
-    and field
-  url: https://www.psychologytoday.com/us/blog/the-behavioral-microbiome/202608/will-old-professors-be-forgotten-in-the-artificial
-  date: '2026-08-17'
-  source: Psychology Today
-- title: TRM Launches Enterprise AI Practice to Help Asset-Intensive Organizations
-    Operationalize Artificial Intelligence
-  description: New TRM capabilities help organizations connect enterprise AI strategies
-    with asset management to enhance human decision-making, streamline execution,
-    and improve the performance, reliability, and lifecycle of critical assets. ALEXANDRIA,
-    Va., Aug. 1
-  url: https://www.prnewswire.com/news-releases/trm-launches-enterprise-ai-practice-to-help-asset-intensive-organizations-operationalize-artificial-intelligence-302852911.html
-  date: '2026-08-17'
-  source: PRNewswire
-- title: A model agnostic procedural framework for reverse concrete mix design using
-    existing artificial intelligence property predictors
-  description: Scientific Reports - A model agnostic procedural framework for reverse
-    concrete mix design using existing artificial intelligence property predictors
-  url: https://www.nature.com/articles/s41598-026-65930-6.pdf
-  date: '2026-08-17'
-  source: Nature.com
