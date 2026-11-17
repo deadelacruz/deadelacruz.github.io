@@ -1,4 +1,39 @@
 news_items:
+- title: 'Quote of the day by computer scientist Judea Pearl: "Deep learning has instead
+    given us machines with truly impressive abilities but no intelligence"'
+  description: Although LLMs and similar systems have impressed us, they haven't yet
+    demonstrated real humanlike smarts
+  url: https://www.techradar.com/pro/quote-of-the-day-by-computer-scientist-judea-pearl-deep-learning-has-instead-given-us-machines-with-truly-impressive-abilities-but-no-intelligence-capturing-the-central-fault-line-in-modern-ai
+  date: '2026-11-16'
+  source: TechRadar
+- title: 'Expression of Concern: Anomaly recognition in surveillance based on feature
+    optimizer using deep learning'
+  description: No description available.
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362826
+  date: '2026-11-16'
+  source: Plos.org
+- title: 'Deep learning approach helps students solve real problems: Ministry'
+  description: The Primary and Secondary Education Ministry said deep learning helps
+    students recognize real problems in their surroundings while developing critical,
+    ...
+  url: https://en.antaranews.com/news/443039/deep-learning-approach-helps-students-solve-real-problems-ministry
+  date: '2026-11-16'
+  source: Antaranews.com
+- title: Estimation of individual-tree DBH and allometry-derived biomass of Korean
+    red pine using mask-based multimodal deep learning from UAV imagery
+  description: Scientific Reports - Estimation of individual-tree DBH and allometry-derived
+    biomass of Korean red pine using mask-based multimodal deep learning from UAV
+    imagery
+  url: https://www.nature.com/articles/s41598-026-80383-7.pdf
+  date: '2026-11-16'
+  source: Nature.com
+- title: Research on super-resolution reconstruction technology of atmospheric turbulence
+    phase screens based on deep learning
+  description: Scientific Reports - Research on super-resolution reconstruction technology
+    of atmospheric turbulence phase screens based on deep learning
+  url: https://www.nature.com/articles/s41598-026-73558-9.pdf
+  date: '2026-11-16'
+  source: Nature.com
 - title: Deep learning identification of SST teleconnections driving early-winter
     North Atlantic climate
   description: Scientific Reports - Deep learning identification of SST teleconnections
@@ -1079,12 +1114,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-66861-y.pdf
   date: '2026-08-19'
   source: Nature.com
-- title: 'Deep learning applications in osteosarcoma MRI: A systematic review of recent
-    advances in AI-based osteosarcoma diagnosis'
-  description: Primary malignant bone tumours of the skeleton have a great diversity
-    in their biological behaviour, and the most common in adolescence is osteosarcoma
-    for which the diagnosis and therapeutic management are both a challenge. The use
-    of machine and de
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0354896
-  date: '2026-08-18'
-  source: Plos.org

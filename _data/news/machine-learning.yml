@@ -1,4 +1,21 @@
 news_items:
+- title: Getting Started with Docker for Machine Learning and MLOps
+  description: 'Table of Contents Getting Started with Docker for Machine Learning
+    and MLOps Why Use Docker for MLOps? Reproducible Machine Learning Environments
+    Configuring Your Development Environment Project Structure Docker Architecture
+    Explained: Images, Contai'
+  url: https://pyimagesearch.com/2026/11/16/getting-started-with-docker-for-machine-learning-and-mlops/
+  date: '2026-11-16'
+  source: Pyimagesearch.com
+- title: Knowledge-guided machine learning deciphers spatiotemporal dynamics in chemical
+    reactor systems
+  description: 'A physics-informed neural network embeds coking and heat transfer
+    knowledge via an output integration layer and region-weighted loss to predict
+    reactor spatiotemporal fields; it matches conventional simulation results, improves
+    peak wall temperature '
+  url: https://www.nature.com/articles/s41467-026-79078-4.pdf
+  date: '2026-11-16'
+  source: Nature.com
 - title: Prediction of flavonoid components and antioxidant activity in tangerine
     peel based on machine learning
   description: Scientific Reports - Prediction of flavonoid components and antioxidant
@@ -2067,77 +2084,4 @@ news_items:
     change that inc
   url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-15/
   date: '2026-08-19'
-  source: Nlppeople.com
-- title: Comparative analysis of machine learning techniques for cardiovascular disease
-    prediction
-  description: Background and objectives Early and accurate prediction of cardiovascular
-    disease (CVD) is fundamental for reducing morbidity and mortality. Machine learning
-    (ML) algorithms provide a data-driven, actionable foundation to strengthen clinical
-    decision
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356170
-  date: '2026-08-18'
-  source: Plos.org
-- title: Machine Learning with Rust, Second Edition
-  description: 'eBook Details: Paperback: 294 pages Published: May 20, 2026 Language: English
-    ISBN-10: 9349174219 ISBN-13: 978-9349174214 eBook Description: Machine Learning
-    with Rust, Second Edition: Implement data pipelines, classical models, deep learning
-    and NLP'
-  url: https://www.wowebook.org/machine-learning-with-rust-second-edition/
-  date: '2026-08-18'
-  source: Wowebook.org
-- title: Senior Machine Learning Scientist
-  description: Senior Machine Learning Scientist  UK or Poland (Remote or Hybrid,
-    it’s up to you!)  Dependent on experience  Be part of our success with the opportunity
-    to join our company equity scheme Our Perks ❤️ Monthly Health & Wellness budget,
-    increasing with
-  url: https://nlppeople.com/job/senior-machine-learning-scientist-32/
-  date: '2026-08-18'
-  source: Nlppeople.com
-- title: Machine Learning Research Engineer – NLP / LLM
-  description: 'Machine Learning Research Engineer – NLP / LLM An incredible opportunity
-    for a Machine Learning Research Engineer to work on researching and investigating
-    new concepts for an industry-leading, machine-learning software company in Cambridge,
-    UK. This '
-  url: https://nlppeople.com/job/machine-learning-research-engineer-nlp-llm-18/
-  date: '2026-08-18'
-  source: Nlppeople.com
-- title: Tracking funding disparities in global health aid with machine learning
-  description: 'Misalignment between health aid and country-level disease burden can
-    leave populations without the necessary support for major health challenges. Here
-    the authors report a machine learning analysis of global health aid and conclude
-    that aid is often '
-  url: https://www.nature.com/articles/s41467-026-76542-z
-  date: '2026-08-18'
-  source: Nature.com
-- title: Machine Learning & AI Materials Scientist
-  description: 'As a Machine Learning & AI Materials Scientist, you will be a part
-    of Dassault Systèmes Gen7 vision and actively contribute towards its implementation.
-    Materials AI is a strategically important, rapidly growing, and evolving core
-    technology Company: '
-  url: https://nlppeople.com/job/machine-learning-ai-materials-scientist-2/
-  date: '2026-08-18'
-  source: Nlppeople.com
-- title: Health risk assessment of heavy metals in Iranian cereal products using ICP-AES
-    and a hybrid machine learning framework
-  description: Scientific Reports - Health risk assessment of heavy metals in Iranian
-    cereal products using ICP-AES and a hybrid machine learning framework
-  url: https://www.nature.com/articles/s41598-026-67271-w.pdf
-  date: '2026-08-18'
-  source: Nature.com
-- title: Graduate Research Assistant for Evaluation of Energy-Efficient AI Accelerators
-    for Machine Learning Systems (Dr. Mariam Manakkadu)
-  description: 'Position Details Posting Summary Position Title Graduate Research
-    Assistant for Evaluation of Energy-Efficient AI Accelerators for Machine Learning
-    Systems (Dr. Mariam Manakkadu) Posting Number AS1111P Subdivision School of Engineering
-    and Computing '
-  url: https://nlppeople.com/job/graduate-research-assistant-for-evaluation-of-energy-efficient-ai-accelerators-for-machine-learning-systems-dr-mariam-manakkadu/
-  date: '2026-08-18'
-  source: Nlppeople.com
-- title: Machine Learning Specialist
-  description: 'Principal Machine Learning Engineer | €700/day Build greenfield AI
-    from the ground upOwn the technical direction of a next-generation AI platformWork
-    hands-on with cutting-edge Agentic AI A global reinsurance company is investing
-    heavily in the next '
-  url: https://nlppeople.com/job/machine-learning-specialist-12/
-  date: '2026-08-18'
   source: Nlppeople.com
