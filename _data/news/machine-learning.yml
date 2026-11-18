@@ -1,4 +1,45 @@
 news_items:
+- title: Ontology pre-training improves machine learning-based predictions for metabolites
+  description: Author summary Incorporating established biological knowledge into
+    artificial intelligence models is a longstanding challenge in the life sciences.
+    Ontologies provide carefully curated, structured data in classification hierarchies,
+    but making practi
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014925
+  date: '2026-11-17'
+  source: Plos.org
+- title: 'Machine learning for host-pathogen protein-protein interaction prediction:
+    A tutorial paper'
+  description: The study of Host-Pathogen Protein-Protein Interactions (HP-PPIs) is
+    critical for understanding mechanisms of infectious disease and for the development
+    of therapeutic interventions. Computational prediction of HP-PPIs has become essential
+    due to the
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362843
+  date: '2026-11-17'
+  source: Plos.org
+- title: Explainable machine learning audit of attribute rating relationships in Football
+    Manager 2023
+  description: Background Football Manager data contain simulated player attributes
+    generated within a proprietary game environment. They can reveal relationships
+    within the rating system but cannot establish real-world talent-identification
+    validity.   Objective T
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363141
+  date: '2026-11-17'
+  source: Plos.org
+- title: Quantum Boltzmann machine learning of ground-state energies
+  description: Estimating the ground-state energy of Hamiltonians is a fundamental
+    task for which it is believed that quantum computers can be helpful. Several approaches
+    have been proposed toward this goal, including algorithms based on quantum phase
+    estimation an
+  url: https://link.aps.org/doi/10.1103/zyqp-zb3p
+  date: '2026-11-17'
+  source: Aps.org
+- title: Learning the language of machine learning
+  description: MIT Associate Professor Jacob Andreas studies the way advanced AI systems
+    learn language, to help researchers design deep-learning models that can more
+    effectively learn about the world around them and communicate with human collaborators.
+  url: https://news.mit.edu/2026/learning-language-of-machine-learning-jacob-andreas-1117
+  date: '2026-11-17'
+  source: Mit.edu
 - title: Getting Started with Docker for Machine Learning and MLOps
   description: 'Table of Contents Getting Started with Docker for Machine Learning
     and MLOps Why Use Docker for MLOps? Reproducible Machine Learning Environments
@@ -2060,28 +2101,4 @@ news_items:
     protect against th
   url: https://nlppeople.com/job/artificial-intelligence-machine-learning-internship-dedrone-6/
   date: '2026-08-20'
-  source: Nlppeople.com
-- title: Machine learning prediction model for the sewing thread consumption
-  description: This study aims to provide rapid and precise methods for industrial
-    users to predict the amount of sewing thread required to sew garments using different
-    stitches of class 600. To avoid unused stocks, sewing consumption for each stitch
-    was computed u
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356367
-  date: '2026-08-19'
-  source: Plos.org
-- title: Principal Machine Learning Data Scientist, Gen AI
-  description: 'Xometry (NASDAQ: XMTR) powers the industries of today and tomorrow
-    by connecting the people with big ideas to the manufacturers who can bring them
-    to life. Xometry’s digital marketplace gives manufacturers the critical resources
-    they need to grow the'
-  url: https://nlppeople.com/job/principal-machine-learning-data-scientist-gen-ai-8/
-  date: '2026-08-19'
-  source: Nlppeople.com
-- title: Machine Learning / NLP Data Scientist
-  description: Attadale serves some of the most sophisticated and successful companies
-    in the world. We are at the forefront of Machine Learning solutions that influence
-    tangible business outcomes. Our clients engage Attadale because our work drives
-    change that inc
-  url: https://nlppeople.com/job/machine-learning-nlp-data-scientist-15/
-  date: '2026-08-19'
   source: Nlppeople.com

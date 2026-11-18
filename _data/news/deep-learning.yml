@@ -1,4 +1,13 @@
 news_items:
+- title: '"Pipe-Laying": A novel fusion of 3D MRI and health records for the early
+    detection and diagnosis of Alzheimer''s disease using deep learning'
+  description: Alzheimer’s disease (AD) is a prevalent form of dementia that impacts
+    brain cells. Although its likelihood increases with age, there is no transitional
+    period between its stages. In order to enhance diagnostic precision, physicians
+    rely on clinical j
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362862
+  date: '2026-11-17'
+  source: Plos.org
 - title: 'Quote of the day by computer scientist Judea Pearl: "Deep learning has instead
     given us machines with truly impressive abilities but no intelligence"'
   description: Although LLMs and similar systems have impressed us, they haven't yet
@@ -1099,18 +1108,3 @@ news_items:
   url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014499
   date: '2026-08-20'
   source: Plos.org
-- title: Lung cancer detection in CT scans using extracted nodule features and precise
-    multistage segmentation with deep learning based ensemble model
-  description: Scientific Reports - Lung cancer detection in CT scans using extracted
-    nodule features and precise multistage segmentation with deep learning based ensemble
-    model
-  url: https://www.nature.com/articles/s41598-026-50656-2
-  date: '2026-08-19'
-  source: Nature.com
-- title: Sustainable cultural digitization enabled by eco efficient deep learning
-    models
-  description: Scientific Reports - Sustainable cultural digitization enabled by eco
-    efficient deep learning models
-  url: https://www.nature.com/articles/s41598-026-66861-y.pdf
-  date: '2026-08-19'
-  source: Nature.com
