@@ -1,4 +1,18 @@
 news_items:
+- title: 'Beyond Marketing Automation: How Personalized Machine Learning With Fiore
+    Ai, Makes Your Marketing Smarter Over Time - Fiore'
+  description: See how a personalized machine learning marketing platform learns from
+    business data, adapts to brand voice, and improves recommendations over time.
+  url: https://www.fiore.ai/blog/beyond-marketing-automation-how-personalized-machine-learning-with-fiore-ai-makes-your-marketing-smarter-over-time/
+  date: '2026-11-18'
+  source: Fiore.ai
+- title: Machine learning based reference assisted signal recovery under anatomical
+    domain shift in simulated radiofrequency fracture sensing
+  description: Scientific Reports - Machine learning based reference assisted signal
+    recovery under anatomical domain shift in simulated radiofrequency fracture sensing
+  url: https://www.nature.com/articles/s41598-026-80163-3.pdf
+  date: '2026-11-18'
+  source: Nature.com
 - title: Ontology pre-training improves machine learning-based predictions for metabolites
   description: Author summary Incorporating established biological knowledge into
     artificial intelligence models is a longstanding challenge in the life sciences.
@@ -2051,54 +2065,4 @@ news_items:
     and client e
   url: https://nlppeople.com/job/director-artificial-intelligence-and-machine-learning-engineer/
   date: '2026-08-21'
-  source: Nlppeople.com
-- title: 'Uncovering the determinants of high-risk age at childbirth in Bangladesh:
-    A machine learning analysis of the BDHS 2022 data'
-  description: Childbirth occurring at high-risk maternal ages (≤18 years or ≥40 years)
-    remains an important public health concern in Bangladesh and is influenced by
-    a range of socio-demographic and behavioral factors. We conducted a cross-sectional
-    secondary analy
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356362
-  date: '2026-08-20'
-  source: Plos.org
-- title: Drug screen and machine learning predict neuroprotective agents in a preclinical
-    human model of childhood dementia
-  description: 'Here authors show patient-derived neural models of childhood dementia
-    exhibit key disease features. A drug screening platform integrating machine learning,
-    imaging, transcriptomics and electrophysiology, identifies repurposed compounds
-    that mitigate '
-  url: https://www.nature.com/articles/s41467-026-76837-1.pdf
-  date: '2026-08-20'
-  source: Nature.com
-- title: 'Ensemble machine learning prediction of LNG tank thermal stratification
-    and boil-off gas generation: an experimental study with uncertainty quantification'
-  description: 'Scientific Reports - Ensemble machine learning prediction of LNG tank
-    thermal stratification and boil-off gas generation: an experimental study with
-    uncertainty quantification'
-  url: https://www.nature.com/articles/s41598-026-67480-3.pdf
-  date: '2026-08-20'
-  source: Nature.com
-- title: Machine learning-based design and optimization of a cross-shaped circularly
-    polarized multiband patch MIMO antenna for 6G sub-THz communication systems
-  description: Scientific Reports - Machine learning-based design and optimization
-    of a cross-shaped circularly polarized multiband patch MIMO antenna for 6G sub-THz
-    communication systems
-  url: https://www.nature.com/articles/s41598-026-67438-5.pdf
-  date: '2026-08-20'
-  source: Nature.com
-- title: Machine Learning Engineer
-  description: Who we are At Twilio, we’re shaping the future of communications, all
-    from the comfort of our homes. We deliver innovative solutions to hundreds of
-    thousands of businesses and empower millions of developers worldwide to craft
-    personalized customer ex
-  url: https://nlppeople.com/job/machine-learning-engineer-598/
-  date: '2026-08-20'
-  source: Nlppeople.com
-- title: Artificial Intelligence / Machine Learning Internship, Dedrone
-  description: Company Overview: Dedrone is the world’s most trusted smart airspace
-    security company. Hundreds of commercial, government and military customers around
-    the world rely on Dedrone’s comprehensive, command and control (C2) solution to
-    protect against th
-  url: https://nlppeople.com/job/artificial-intelligence-machine-learning-internship-dedrone-6/
-  date: '2026-08-20'
   source: Nlppeople.com
