@@ -1,4 +1,19 @@
 news_items:
+- title: BMO Demonstrates Quantum Utility in Machine Learning Application Using IBM
+    Quantum Computers
+  description: Quantum computing shows promise to help identify the most important
+    information in complex datasets, allowing AI models to uncover useful insights
+    with
+  url: https://biztoc.com/x/928aa12f98761aca
+  date: '2026-11-19'
+  source: Biztoc.com
+- title: An explainable hybrid machine learning framework for predicting rapid chloride
+    permeability in durable concrete
+  description: Scientific Reports - An explainable hybrid machine learning framework
+    for predicting rapid chloride permeability in durable concrete
+  url: https://www.nature.com/articles/s41598-026-80431-2.pdf
+  date: '2026-11-19'
+  source: Nature.com
 - title: 'Beyond Marketing Automation: How Personalized Machine Learning With Fiore
     Ai, Makes Your Marketing Smarter Over Time - Fiore'
   description: See how a personalized machine learning marketing platform learns from
@@ -2009,60 +2024,4 @@ news_items:
     Hours: **40** Role Nu'
   url: https://nlppeople.com/job/machine-learning-research-engineer-natural-language-reputed-company-nlg-reputed-company-intelligence-2/
   date: '2026-08-22'
-  source: Nlppeople.com
-- title: Machine learning incorporating trabecular bone score improves lumbar fracture
-    risk stratification in type 2 diabetes
-  description: Scientific Reports - Machine learning incorporating trabecular bone
-    score improves lumbar fracture risk stratification in type 2 diabetes
-  url: https://www.nature.com/articles/s41598-026-67932-w.pdf
-  date: '2026-08-21'
-  source: Nature.com
-- title: Is a (satellite) image worth a thousand data points? Comparing machine learning
-    approaches to predict environmental and social inequalities in England
-  description: Accurately mapping environmental and social inequalities at fine spatial
-    scales is critical for urban policy, yet the data required are often costly and
-    infrequently updated. Vision foundation models can extract information directly
-    from satellite im
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356472
-  date: '2026-08-21'
-  source: Plos.org
-- title: Senior Machine Learning Engineer (Team Lead) – Various Australian Cities
-  description: 'Job no: 529754 Brand: Product and Technology Work type: Full time
-    Location: New South Wales, Queensland, Victoria Categories: Digital and Technology,
-    Data and Business Intelligence At Flight Centre Travel Group (FCTG) our purpose
-    is to ‘open up the w'
-  url: https://nlppeople.com/job/senior-machine-learning-engineer-team-lead-various-australian-cities-5/
-  date: '2026-08-21'
-  source: Nlppeople.com
-- title: Terrain attributes and seasonal Sentinel-2 covariates for machine learning-based
-    digital mapping of soil organic carbon fractions in a Himalayan watershed
-  description: Scientific Reports - Terrain attributes and seasonal Sentinel-2 covariates
-    for machine learning-based digital mapping of soil organic carbon fractions in
-    a Himalayan watershed
-  url: https://www.nature.com/articles/s41598-026-66839-w.pdf
-  date: '2026-08-21'
-  source: Nature.com
-- title: Machine Learning & AI Materials Scientist
-  description: 'As a Machine Learning & AI Materials Scientist, you will be a part
-    of Dassault Systèmes Gen7 vision and actively contribute towards its implementation.
-    Materials AI is a strategically important, rapidly growing, and evolving core
-    technology Company: '
-  url: https://nlppeople.com/job/machine-learning-ai-materials-scientist-3/
-  date: '2026-08-21'
-  source: Nlppeople.com
-- title: Machine Learning Scientist – 140859
-  description: 'Payroll Title: RSCH DATA ANL 3 RP Department: CLIMATE/ATMOS SCI/PHY
-    OCEANOG Hiring Pay Scale $96,075 – $136,710/ Annually Worksite: Hybrid Appointment
-    Type: Career Appointment Percent: 100% Union: RP Contract Total Openings: 1 Work
-    Schedule: 8 hrs/da'
-  url: https://nlppeople.com/job/machine-learning-scientist-140859-2/
-  date: '2026-08-21'
-  source: Nlppeople.com
-- title: Director, Artificial Intelligence and Machine Learning Engineer
-  description: About this role AI Labs Overview For more than three decades, BlackRock
-    has combined world-class talent and technology to redefine what’s possible in
-    asset management. Today, AI is reshaping every aspect of our industry, from investments
-    and client e
-  url: https://nlppeople.com/job/director-artificial-intelligence-and-machine-learning-engineer/
-  date: '2026-08-21'
   source: Nlppeople.com

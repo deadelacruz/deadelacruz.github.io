@@ -1,4 +1,21 @@
 news_items:
+- title: Enhancing auto-segmentation accuracy and robustness through multiple deep
+    learning systems
+  description: Purpose Deep learning auto-segmentation (DLAS) can improve the efficiency
+    and consistency of clinical contouring; however, no single DLAS system performs
+    optimally across all cases, organs, and image slices, and each system may produce
+    occasional poo
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363053
+  date: '2026-11-19'
+  source: Plos.org
+- title: Generative pre-trained transformer NEOX large language model driven predictive
+    maintenance system in industrial IoT with hybrid deep learning
+  description: Scientific Reports - Generative pre-trained transformer NEOX large
+    language model driven predictive maintenance system in industrial IoT with hybrid
+    deep learning
+  url: https://www.nature.com/articles/s41598-026-77543-0.pdf
+  date: '2026-11-19'
+  source: Nature.com
 - title: Supervised deep learning for efficient cryo-EM image alignment in drug discovery
     with cryoPARES
   description: Cryo-electron microscopy studies often generate multiple datasets of
@@ -1084,17 +1101,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-66664-1.pdf
   date: '2026-08-25'
   source: Nature.com
-- title: Multi-label arrhythmia classification from Holter scatter plots using deep
-    learning and clinically oriented thresholds
-  description: Scientific Reports - Multi-label arrhythmia classification from Holter
-    scatter plots using deep learning and clinically oriented thresholds
-  url: https://www.nature.com/articles/s41598-026-68106-4.pdf
-  date: '2026-08-21'
-  source: Nature.com
-- title: Kabarak University Advances AI and Health Technology Engagement at Deep Learning
-    Indaba 2026 Lagos, Nigeria
-  description: Kabarak University strengthened its engagement in artificial intelligence
-    (AI), data science, robotics and health technology through its...
-  url: https://kabarak.ac.ke/ibi/kabu-advances-ai-and-health-technology-engagement-at-deep-learning-indaba-2026-lagos
-  date: '2026-08-21'
-  source: Kabarak.ac.ke
