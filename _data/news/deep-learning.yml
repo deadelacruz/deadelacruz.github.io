@@ -1,4 +1,20 @@
 news_items:
+- title: Impact of MRI sequence heterogeneity on deep learning–based segmentation
+    of brain metastases
+  description: 'Brain metastases (BMs) require accurate delineation for treatment
+    planning, yet magnetic resonance imaging (MRI) acquisition protocols vary substantially
+    in clinical practice. Such protocol-level heterogeneity may affect the generalizability
+    of deep '
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0363055
+  date: '2026-11-20'
+  source: Plos.org
+- title: System dynamics and deep learning driven optimization of new product development
+    lifecycle a smart stage-gate decision engine architecture
+  description: Scientific Reports - System dynamics and deep learning driven optimization
+    of new product development lifecycle a smart stage-gate decision engine architecture
+  url: https://www.nature.com/articles/s41598-026-79416-y.pdf
+  date: '2026-11-20'
+  source: Nature.com
 - title: Enhancing auto-segmentation accuracy and robustness through multiple deep
     learning systems
   description: Purpose Deep learning auto-segmentation (DLAS) can improve the efficiency

@@ -1,4 +1,13 @@
 news_items:
+- title: 'CogD-ML: Cognitive determinants of social commerce purchase intention in
+    Bangladesh using machine learning and explainable AI'
+  description: Cognitive factors are associated with online purchase intentions in
+    developing economies, and the linear models conventionally used to study them
+    can miss non-linear patterns. We report an applied integration of the Theory of
+    Planned Behavior (TPB) w
+  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0362973
+  date: '2026-11-20'
+  source: Plos.org
 - title: BMO Demonstrates Quantum Utility in Machine Learning Application Using IBM
     Quantum Computers
   description: Quantum computing shows promise to help identify the most important
@@ -2007,21 +2016,4 @@ news_items:
     explain decisions.
   url: https://nlppeople.com/job/ai-machine-learning-engineer-28/
   date: '2026-08-24'
-  source: Nlppeople.com
-- title: Experimental and machine learning-guided optimization of tensile strength
-    of concrete incorporating silica fume, waste foundry sand, and polypropylene fibers
-  description: Scientific Reports - Experimental and machine learning-guided optimization
-    of tensile strength of concrete incorporating silica fume, waste foundry sand,
-    and polypropylene fibers
-  url: https://www.nature.com/articles/s41598-026-67230-5.pdf
-  date: '2026-08-22'
-  source: Nature.com
-- title: Machine Learning Research Engineer, Natural Language reputed company (NLG),
-    reputed company Intelligence
-  description: 'Machine Learning Research Engineer, Natural Language reputed company
-    (NLG), reputed company Intelligence • *Cupertino, California, reputed company**
-    • *Software and Services** • *reputed company** Posted: **Apr 17, 2025** Weekly
-    Hours: **40** Role Nu'
-  url: https://nlppeople.com/job/machine-learning-research-engineer-natural-language-reputed-company-nlg-reputed-company-intelligence-2/
-  date: '2026-08-22'
   source: Nlppeople.com
