@@ -1,4 +1,17 @@
 news_items:
+- title: 'California colleges strike major AI deal as educators rage at machine learning:
+    ‘Homogenized slop’'
+  description: Educators fear the deal may make things worse.
+  url: https://nypost.com/2026/11/21/tech/uc-gives-students-free-access-to-chatgpt-despite-faculty-pushback/
+  date: '2026-11-21'
+  source: New York Post
+- title: Systematic evaluation of machine learning and explainable AI for NOx emission
+    prediction in gas turbine systems
+  description: Scientific Reports - Systematic evaluation of machine learning and
+    explainable AI for NOx emission prediction in gas turbine systems
+  url: https://www.nature.com/articles/s41598-026-80856-9.pdf
+  date: '2026-11-21'
+  source: Nature.com
 - title: 'CogD-ML: Cognitive determinants of social commerce purchase intention in
     Bangladesh using machine learning and explainable AI'
   description: Cognitive factors are associated with online purchase intentions in

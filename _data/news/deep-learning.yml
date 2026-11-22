@@ -1,4 +1,19 @@
 news_items:
+- title: Region-aware CT-to-PET image synthesis using deep learning models for accurate
+    lung cancer localization
+  description: Scientific Reports - Region-aware CT-to-PET image synthesis using deep
+    learning models for accurate lung cancer localization
+  url: https://www.nature.com/articles/s41598-026-80981-5.pdf
+  date: '2026-11-21'
+  source: Nature.com
+- title: 'FP-TTFNet: fourier periodic embedding enhanced multi-scale deep learning
+    for monthly runoff prediction at contrasting hydrological stations'
+  description: 'Scientific Reports - FP-TTFNet: fourier periodic embedding enhanced
+    multi-scale deep learning for monthly runoff prediction at contrasting hydrological
+    stations'
+  url: https://www.nature.com/articles/s41598-026-81184-8.pdf
+  date: '2026-11-21'
+  source: Nature.com
 - title: Impact of MRI sequence heterogeneity on deep learning–based segmentation
     of brain metastases
   description: 'Brain metastases (BMs) require accurate delineation for treatment
