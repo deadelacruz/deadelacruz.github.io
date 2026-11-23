@@ -26,22 +26,13 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
-      - name: Build the site in the jekyll-docker container
-        run: |
-          docker run \
-          -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jvconseil/jekyll-docker@sha256:302ca25df72692e495b73ad3ac33220c0736379b64f100a2e8639bd63d6e46b2 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-
-      # - name: Build the site in the jekyll/builder container
-      #   run: |
-      #     docker run \
-      #     -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-      #     jekyll/builder:4.3.3 /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
-      # - name: Build the site in the jekyll/builder container
-      #   run: |
-      #     docker run \
-      #     -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-      #     jekyll/builder:pages /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+      - name: Build site with Jekyll
+        run: bundle exec jekyll build --future --trace --destination _site
 
   # Then check the markdown files are properly formatted
   analyse:
