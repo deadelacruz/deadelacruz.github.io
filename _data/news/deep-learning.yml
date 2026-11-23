@@ -1,4 +1,11 @@
 news_items:
+- title: 'DLFL-TLDNet: hybrid AI model integrating deep learning and fuzzy logic for
+    tomato leaf disease classification and severity estimation'
+  description: 'Scientific Reports - DLFL-TLDNet: hybrid AI model integrating deep
+    learning and fuzzy logic for tomato leaf disease classification and severity estimation'
+  url: https://www.nature.com/articles/s41598-026-81392-2.pdf
+  date: '2026-11-22'
+  source: Nature.com
 - title: Region-aware CT-to-PET image synthesis using deep learning models for accurate
     lung cancer localization
   description: Scientific Reports - Region-aware CT-to-PET image synthesis using deep
