@@ -3,7 +3,6 @@ param(
     [string]$TaskName = "UpdateNewsEvery12HoursLocal",
     [string]$RepoRoot = "",
     [string]$Branch = "",
-    [string]$NewsApiKey = "",
     [switch]$UseS4U,
     [switch]$SkipVenvSetup,
     [switch]$RunNow
@@ -63,34 +62,6 @@ function Get-CurrentBranch {
     return $branchName
 }
 
-function Resolve-NewsApiKey {
-    param([string]$InputKey)
-
-    if ($InputKey) {
-        [Environment]::SetEnvironmentVariable("NEWSAPI_KEY", $InputKey, "User")
-        $env:NEWSAPI_KEY = $InputKey
-        return $InputKey
-    }
-
-    if ($env:NEWSAPI_KEY) {
-        return $env:NEWSAPI_KEY
-    }
-
-    $userKey = [Environment]::GetEnvironmentVariable("NEWSAPI_KEY", "User")
-    if ($userKey) {
-        $env:NEWSAPI_KEY = $userKey
-        return $userKey
-    }
-
-    $machineKey = [Environment]::GetEnvironmentVariable("NEWSAPI_KEY", "Machine")
-    if ($machineKey) {
-        $env:NEWSAPI_KEY = $machineKey
-        return $machineKey
-    }
-
-    return $null
-}
-
 try {
     $resolvedRepoRoot = (Resolve-Path $RepoRoot).Path
     $runnerScript = Join-Path $resolvedRepoRoot "scripts\run-news-update.ps1"
@@ -134,11 +105,7 @@ try {
         Pop-Location
     }
 
-    $apiKey = Resolve-NewsApiKey -InputKey $NewsApiKey
-    if (-not $apiKey) {
-        throw "NEWSAPI_KEY is missing. Re-run setup with -NewsApiKey or set NEWSAPI_KEY in user environment."
-    }
-    Write-SetupLog -Message "NEWSAPI_KEY is available for scheduled runs."
+    Write-SetupLog -Message "The GDELT news source runs without an API key."
 
     $venvPython = Join-Path $resolvedRepoRoot ".venv\Scripts\python.exe"
     if (-not $SkipVenvSetup) {

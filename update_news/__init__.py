@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Script to automatically fetch and update news from NewsAPI.
+Script to automatically fetch and update topic news from configurable sources.
 Dynamically fetches news articles based on topic keywords from all available sources.
 This script can be run manually or scheduled via cron to keep news up-to-date.
 
@@ -81,6 +81,7 @@ DEFAULT_COMBINE_TOPICS_IN_SINGLE_REQUEST = True  # Default to combined requests 
 
 # API Configuration
 NEWSAPI_BASE_URL = "https://newsapi.org/v2/everything"
+GDELT_DOC_BASE_URL = "https://api.gdeltproject.org/api/v2/doc/doc"
 ENV_VAR_NEWSAPI_KEY = "NEWSAPI_KEY"
 
 # Metrics tracking
@@ -162,8 +163,8 @@ MSG_ERROR_SAVE_FAILED = "Failed to save news file"
 MSG_INFO_PRESERVING_CACHED = "Preserving {count} cached article(s) (API failed, not overwriting)"
 MSG_INFO_CACHED_AVAILABLE = "Cached articles are still available despite save error"
 MSG_ERROR_UNEXPECTED_PROCESSING = "Unexpected error processing"
-MSG_INFO_STARTING = "Starting news update from NewsAPI"
-MSG_INFO_FETCHING_DYNAMIC = "Fetching news dynamically from all available sources via NewsAPI"
+MSG_INFO_STARTING = "Starting news update"
+MSG_INFO_FETCHING_DYNAMIC = "Fetching recent news from the configured provider"
 MSG_INFO_DATE_RANGE = "Date range: Last {days} days (from {from_date} to {to_date})"
 MSG_WARNING_NO_KEY_ENV = "No NEWSAPI_KEY found in environment variables"
 MSG_INFO_SET_KEY = "Set it with: export NEWSAPI_KEY='your-key' (Linux/Mac)"
@@ -197,7 +198,7 @@ MSG_WARNING_REACHED_LIMIT = "Reached maximum API call limit ({limit}). Stopping 
 MSG_INFO_SKIPPED_TOPICS = "{count} topic(s) were skipped to stay within API limits"
 MSG_INFO_TOTAL_CALLS = "Total API calls made: {made}/{limit}"
 MSG_OK_UPDATE_COMPLETE = "[OK] News update complete!"
-MSG_INFO_FETCHED_DYNAMIC = "News fetched dynamically from NewsAPI"
+MSG_INFO_FETCHED_DYNAMIC = "Recent news fetch completed"
 MSG_INFO_UPDATE_CACHED = "News update complete (using cached articles)"
 MSG_INFO_RATE_LIMIT_QUOTA_MSG = "Rate limit detected - quota exhausted"
 MSG_INFO_CACHED_SERVED = "Cached articles are still available and being served"
@@ -471,7 +472,7 @@ def article_matches_keywords(article: Dict, keywords: List[str], config: Dict) -
             return True
     return False
 
-def process_article(article: Dict, exact_phrase: str, seen_urls: set, config: Dict, metrics: MetricsTracker, topic: str, use_exact_phrase: bool = False) -> Optional[Dict]:
+def process_article(article: Dict, exact_phrase: str, seen_urls: set, config: Dict, metrics: MetricsTracker, topic: str, use_exact_phrase: bool = False, trust_search_results: bool = False) -> Optional[Dict]:
     """
     Process a single article: validate, check exact phrase, and format.
     Returns formatted article dict or None if filtered out.
@@ -484,6 +485,7 @@ def process_article(article: Dict, exact_phrase: str, seen_urls: set, config: Di
         metrics: Metrics tracker
         topic: Topic name
         use_exact_phrase: If True, use exact phrase matching; otherwise use keyword matching (legacy)
+        trust_search_results: If True, trust the provider's exact-phrase full-text search.
     """
     article_url = article.get("url", "")
     article_title = article.get("title", "")
@@ -493,7 +495,9 @@ def process_article(article: Dict, exact_phrase: str, seen_urls: set, config: Di
         return None
     
     # Check if article matches exact phrase
-    if use_exact_phrase:
+    if trust_search_results:
+        pass
+    elif use_exact_phrase:
         if not article_matches_exact_phrase(article, exact_phrase, config):
             metrics.record_article_filtered(topic)
             return None
@@ -879,6 +883,106 @@ def _log_processed_articles(articles: List[Dict], config: Dict, prefix: str = ""
     
     for item in articles[:debug_limit]:
         logger.info(f"{prefix}{MSG_OK_ADDED.format(title=item['title'][:max_title_length])}")
+
+def fetch_from_gdelt(topic: str, config: Dict, metrics: MetricsTracker,
+                     api_call_count: Dict) -> Tuple[List[Dict], bool]:
+    """Fetch recent article headlines from GDELT DOC without an API key."""
+    news_sources = get_config_value(config, 'news_sources', {})
+    topic_config = news_sources.get(topic, {})
+    title_query = topic_config.get("title_query")
+    if not title_query:
+        logger.warning(f"{MSG_WARNING_NO_TITLE_QUERY} {topic}")
+        return [], True
+
+    params = {
+        "query": f'"{title_query}"',
+        "mode": "artlist",
+        "format": "json",
+        "maxrecords": get_config_value(config, 'gdelt.max_records', 75),
+        "timespan": get_config_value(config, 'gdelt.timespan', "1d"),
+        "sort": "datedesc",
+    }
+    url = get_config_value(config, 'gdelt.base_url', GDELT_DOC_BASE_URL)
+    timeout = get_config_value(config, 'api.timeout_seconds', DEFAULT_TIMEOUT_SECONDS)
+    started_at = time.time()
+    retry_delay = get_config_value(config, 'gdelt.retry_delay_seconds', 6)
+    response_data = None
+    articles = None
+    fetch_error = None
+
+    for attempt in range(2):
+        api_call_count['total'] += 1
+        try:
+            response = requests.get(
+                url,
+                params=params,
+                timeout=timeout,
+                headers={"User-Agent": "deadelacruz.github.io news updater"},
+            )
+            if response.status_code == 429 and attempt == 0:
+                retry_after = response.headers.get("Retry-After", "")
+                try:
+                    retry_delay = max(retry_delay, int(retry_after))
+                except (TypeError, ValueError):
+                    pass
+                logger.warning(f"GDELT rate limited {topic}; retrying after {retry_delay} seconds")
+                time.sleep(retry_delay)
+                continue
+
+            response.raise_for_status()
+            response_data = response.json()
+            if not isinstance(response_data, dict):
+                raise ValueError("GDELT response was not a JSON object")
+            articles = response_data.get("articles")
+            if not isinstance(articles, list):
+                raise ValueError("GDELT response did not contain an articles list")
+            break
+        except (requests.RequestException, ValueError) as error:
+            fetch_error = error
+            break
+
+    if articles is None:
+        response_time_ms = (time.time() - started_at) * 1000
+        metrics.record_api_call(topic, response_time_ms, False)
+        logger.error(f"GDELT fetch failed for {topic}: {fetch_error}")
+        return [], False
+
+    response_time_ms = (time.time() - started_at) * 1000
+    metrics.record_api_call(topic, response_time_ms, True)
+    logger.info(f"GDELT returned {len(articles)} recent results for {topic}")
+
+    processed_articles = []
+    seen_urls = set()
+    for article in articles:
+        if not isinstance(article, dict):
+            continue
+        seen_date = article.get("seendate", "")
+        try:
+            published_at = datetime.strptime(seen_date, "%Y%m%dT%H%M%SZ").strftime("%Y-%m-%dT%H:%M:%SZ")
+        except (TypeError, ValueError):
+            published_at = None
+
+        normalized_article = {
+            "title": (article.get("title") or "").strip(),
+            "url": article.get("url") or "",
+            "description": article.get("description") or "",
+            "publishedAt": published_at,
+            "source": {"name": article.get("domain") or MSG_DEFAULT_SOURCE},
+        }
+        processed = process_article(
+            normalized_article,
+            title_query,
+            seen_urls,
+            config,
+            metrics,
+            topic,
+            trust_search_results=True,
+        )
+        if processed:
+            processed_articles.append(processed)
+
+    _log_processed_articles(processed_articles, config)
+    return processed_articles, True
 
 def fetch_from_newsapi(topic: str, api_key: str, config: Dict, metrics: MetricsTracker, api_call_count: Dict) -> Tuple[List[Dict], bool]:
     """
@@ -1361,9 +1465,21 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         new_articles = []
         is_rate_limited = False
         
-        # Try to fetch from NewsAPI if key is available and we haven't hit rate limit
+        # Use the selected provider. GDELT needs no secret and includes recent coverage.
         rate_limited = rate_limited_flag.get('value', False) if rate_limited_flag else False
-        if api_key and not rate_limited:
+        provider = get_config_value(config, 'api.provider', 'newsapi').lower()
+        fetch_succeeded = True
+        if provider == "gdelt":
+            try:
+                new_articles, fetch_succeeded = fetch_from_gdelt(topic, config, metrics, api_call_count)
+                if new_articles:
+                    logger.info(MSG_OK_FOUND_ARTICLES.format(count=len(new_articles), query=topic_config.get("title_query", "")))
+                elif fetch_succeeded:
+                    logger.info(f"No matching recent headlines for {topic}; keeping retained articles")
+            except Exception as fetch_err:
+                logger.error(f"{MSG_ERROR_FETCH_FAILED} for {topic}: {fetch_err}")
+                fetch_succeeded = False
+        elif api_key and not rate_limited:
             try:
                 new_articles, is_rate_limited = fetch_from_newsapi(topic, api_key, config, metrics, api_call_count)
                 if is_rate_limited:
@@ -1396,7 +1512,7 @@ def process_topic(topic: str, topic_config: Dict, api_key: str, config: Dict, me
         if not success:
             return False, is_rate_limited
         
-        return True, is_rate_limited
+        return fetch_succeeded, is_rate_limited
         
     except Exception as topic_err:
         logger.error(f"{MSG_ERROR_UNEXPECTED_PROCESSING} {topic}: {topic_err}")
@@ -1421,8 +1537,9 @@ def main() -> int:
     
     # Check for NewsAPI key in environment variable
     api_key = os.environ.get(ENV_VAR_NEWSAPI_KEY)
+    provider = get_config_value(config, 'api.provider', 'newsapi').lower()
     
-    if not api_key:
+    if provider == "newsapi" and not api_key:
         logger.warning(MSG_WARNING_NO_KEY_ENV)
         logger.info(MSG_INFO_SET_KEY)
         logger.info(MSG_INFO_SET_KEY_WIN)
@@ -1439,9 +1556,13 @@ def main() -> int:
     api_call_count = {'total': 0}  # Track total API calls across all topics
     max_api_calls = get_config_value(config, 'api.max_api_calls', DEFAULT_MAX_API_CALLS)
     rate_limited_flag = {'value': False}  # Track if we hit rate limit globally (use dict for pass-by-reference)
-    combine_topics = get_config_value(config, 'api.combine_topics_in_single_request', DEFAULT_COMBINE_TOPICS_IN_SINGLE_REQUEST)
+    combine_topics = (
+        provider == "newsapi"
+        and get_config_value(config, 'api.combine_topics_in_single_request', DEFAULT_COMBINE_TOPICS_IN_SINGLE_REQUEST)
+    )
     
     logger.info(MSG_INFO_API_LIMIT.format(limit=max_api_calls))
+    logger.info(f"News provider: {provider}")
     if combine_topics:
         logger.info(MSG_INFO_COMBINED_ENABLED)
     else:
@@ -1622,6 +1743,11 @@ def main() -> int:
     if export_metrics:
         json_path = get_config_value(config, 'metrics.json_output_path', DEFAULT_METRICS_JSON_PATH)
         metrics.export_to_json(json_path)
+
+    # Keep the workflow green on partial outages, but do not stamp entirely stale
+    # cached data as freshly checked when every GDELT request failed.
+    if provider == "gdelt" and topics_list and total_api_errors >= len(topics_list):
+        return 1
 
     return 0
 

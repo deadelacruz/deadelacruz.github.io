@@ -1,9 +1,9 @@
-name: Update News Every 12 Hours
+name: Update News Every 6 Hours
 
 on:
   schedule:
-    # Run every 12 hours at 00:00 and 12:00 UTC
-    - cron: '0 0,12 * * *'
+    # Run four times daily, away from the top of the hour.
+    - cron: '17 */6 * * *'
   workflow_dispatch:
 
 concurrency:
@@ -51,15 +51,7 @@ jobs:
 
       - name: Update news
         id: update-news
-        env:
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
         run: |
-          if [ -z "$NEWSAPI_KEY" ]; then
-            echo "::warning::NEWSAPI_KEY is not set. Skipping update so workflow stays green."
-            echo "did_update=false" >> "$GITHUB_OUTPUT"
-            exit 0
-          fi
-
           python -m update_news
           echo "did_update=true" >> "$GITHUB_OUTPUT"
 
@@ -144,9 +136,11 @@ jobs:
       - name: Summary
         if: always()
         run: |
-          if [ "${{ steps.update-news.outputs.did_update }}" = "false" ]; then
-            echo "## Update News Summary" >> "$GITHUB_STEP_SUMMARY"
-            echo "" >> "$GITHUB_STEP_SUMMARY"
-            echo "Workflow skipped NewsAPI fetch because NEWSAPI_KEY is missing." >> "$GITHUB_STEP_SUMMARY"
-            echo "Add NEWSAPI_KEY in Settings > Secrets and variables > Actions." >> "$GITHUB_STEP_SUMMARY"
+          echo "## News update summary" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if [ "${{ steps.update-news.outputs.did_update }}" = "true" ]; then
+            echo "GDELT update completed without an API key." >> "$GITHUB_STEP_SUMMARY"
+            echo "The schedule runs every six hours; GitHub may delay scheduled runs during busy periods." >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "News update did not complete. Check the Update news step for source or network errors." >> "$GITHUB_STEP_SUMMARY"
           fi

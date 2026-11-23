@@ -1,26 +1,27 @@
 # News Configuration
 # This file contains all configuration for news fetching including topics, keywords, and settings
 
-# API Configuration
+# News source configuration
 api:
-  base_url: "https://newsapi.org/v2/everything"
-  timeout_seconds: 15  # Request timeout in seconds (range: 1-60)
-  max_page_size: 100  # NewsAPI maximum (range: 1-100)
+  provider: "gdelt"  # Keyless, near-real-time source for the published site.
+  base_url: "https://newsapi.org/v2/everything"  # Used only if provider is changed to newsapi.
+  timeout_seconds: 45  # GDELT searches can take longer than a small API response.
+  max_page_size: 100
   language: "en"
   sort_by: "publishedAt"
-  max_api_calls: 45  # Maximum API calls per run (range: 1-50, safety buffer under 50 limit per 12 hours)
+  max_api_calls: 45
   
-  # Pagination & Rate Limiting
+  # Legacy NewsAPI pagination settings.
   max_pages: 5  # Maximum pages to fetch per topic when not using combined mode (range: 1-10, default: 5)
   rate_limit_delay_seconds: 1.0  # Delay between page requests to avoid rate limits (range: 0-10, default: 1.0)
-  topic_delay_seconds: 2.0  # Delay between topics when using separate requests (range: 0-10, default: 2.0)
+  topic_delay_seconds: 6.0  # Stay below GDELT's public endpoint request rate.
   
-  # Early Stopping Optimization
+  # Legacy NewsAPI pagination settings.
   # These settings help optimize API usage by stopping pagination early when enough articles are found
   min_articles_per_topic: 10  # Stop pagination when we have this many new articles (range: 1-100, default: 10)
   early_stop_duplicate_threshold: 0.7  # Stop if this percentage of articles are duplicates (range: 0.0-1.0, default: 0.7 = 70%)
   
-  # Combined Request Optimization
+  # Legacy NewsAPI combined mode; unused by the deployed GDELT provider.
   # When enabled, combines all topics into a single API request using OR operator
   # Benefits: Reduces API calls from N (one per topic) to 1, faster execution, lower rate limit risk
   # Articles are automatically routed to the correct topic files based on which phrase they match
@@ -29,19 +30,22 @@ api:
   # 
   # RECOMMENDED: Set to false for better results - each topic gets focused query and up to 500 articles (5 pages × 100)
   # With 3 topics, this uses 3 API calls (still well under the 45 limit) but provides much better article coverage
-  combine_topics_in_single_request: true  # Set to true to use 1 request for all topics (max 100 results total), false for separate requests
+  combine_topics_in_single_request: false
+
+# GDELT DOC API Configuration (no API key required)
+gdelt:
+  base_url: "https://api.gdeltproject.org/api/v2/doc/doc"
+  timespan: "1d"  # Fetch the latest 24 hours on every scheduled run.
+  max_records: 75  # GDELT returns up to 250 records per request.
+  retry_delay_seconds: 6  # Retry once after the public endpoint's rate-limit window.
 
 # Date Range Configuration
 date_range:
-  lookback_days: 28  # Keep this safely within free-tier historical range limits.
-  exclude_today: true  # Exclude today due to NewsAPI free tier 24-hour delay (articles <24h old not available)
-  exclude_today_offset_days: 1  # Query up to yesterday for better free-tier compatibility (range: 0-7)
-  retention_days: 90  # How many days to keep articles in UI (range: 1-365, increased to build cache over time)
-  # NOTE: NewsAPI free tier limitations:
-  # - Only allows articles up to 30 days old
-  # - Has 24-hour delay (articles <24h old not available)
-  # - Best you can get: Articles from yesterday (~24-48 hours old)
-  # To get articles immediately (1 hour ago): Upgrade to paid plan ($449+/month)
+  # Used for NewsAPI; GDELT's query window is configured above.
+  lookback_days: 1
+  exclude_today: false
+  exclude_today_offset_days: 0
+  retention_days: 90  # How many days to keep articles in UI.
 
 # Article Processing Configuration
 article_processing:

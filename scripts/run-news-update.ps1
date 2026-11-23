@@ -186,19 +186,6 @@ try {
         throw "Python is not installed or not available on PATH, and .venv is missing."
     }
 
-    if (-not $env:NEWSAPI_KEY) {
-        $userKey = [Environment]::GetEnvironmentVariable("NEWSAPI_KEY", "User")
-        $machineKey = [Environment]::GetEnvironmentVariable("NEWSAPI_KEY", "Machine")
-        if ($userKey) {
-            $env:NEWSAPI_KEY = $userKey
-        } elseif ($machineKey) {
-            $env:NEWSAPI_KEY = $machineKey
-        }
-    }
-    if (-not $env:NEWSAPI_KEY) {
-        throw "NEWSAPI_KEY is missing. Set it in user environment before running this task."
-    }
-
     $workingTreeState = Get-GitWorkingTreeState -GitExe $gitExe
     $blockedTrackedPaths = @($workingTreeState.TrackedPaths | Where-Object { -not (Is-AllowedWorkingTreePath -Path $_) })
     if ($blockedTrackedPaths.Count -gt 0) {
