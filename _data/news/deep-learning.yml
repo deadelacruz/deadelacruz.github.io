@@ -1104,19 +1104,3 @@ news_items:
   url: https://genome.cshlp.org/content/36/9/1889
   date: '2026-08-27'
   source: Cshlp.org
-- title: Real-time PEM fuel cell fault classification in smart manufacturing plant
-    by using uncertainty aware federated deep learning
-  description: Scientific Reports - Real-time PEM fuel cell fault classification in
-    smart manufacturing plant by using uncertainty aware federated deep learning
-  url: https://www.nature.com/articles/s41598-026-51217-3
-  date: '2026-08-26'
-  source: Nature.com
-- title: Deep learning aging marker from retinal images unveils sex-specific clinical
-    and genetic signatures
-  description: Retinal images capture biological features of aging, but their links
-    to health and disease are not fully understood. Here, the authors develop a retinal
-    age predictor and show that accelerated retinal aging is associated with age‑related
-    diseases, mo
-  url: https://www.nature.com/articles/s41467-026-77102-1.pdf
-  date: '2026-08-26'
-  source: Nature.com
