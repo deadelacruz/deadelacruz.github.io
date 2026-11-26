@@ -1079,28 +1079,3 @@ news_items:
   url: https://www.nature.com/articles/s41563-026-02723-2.pdf
   date: '2026-08-28'
   source: Nature.com
-- title: 'iDCF: Interpretable deconvolution of cell fractions via biologically-informed
-    deep learning using scRNA-seq data'
-  description: Author summary Understanding the cellular composition of tissues is
-    essential for unraveling disease mechanisms, yet bulk RNA sequencing only captures
-    averaged signals from mixed cell populations. Computational deconvolution can
-    estimate cell-type pr
-  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1014727
-  date: '2026-08-27'
-  source: Plos.org
-- title: Deep Learning with Python
-  description: Deep Learning with Python is written for anyone who wishes to explore
-    deep learning from scratch. This new edition adds comprehensive coverage of generative
-    AI and modern deep learning frameworks. It is available for free online.
-  url: https://deeplearningwithpython.io/
-  date: '2026-08-27'
-  source: Deeplearningwithpython.io
-- title: High-accuracy SNV calling for bacterial isolates using deep learning with
-    AccuSNV
-  description: Accurate detection of mutations within bacterial species is critical
-    for fundamental studies of microbial evolution, reconstruction of transmission
-    events, and identification of antimicrobial resistance mutations. Although many
-    tools have been develo
-  url: https://genome.cshlp.org/content/36/9/1889
-  date: '2026-08-27'
-  source: Cshlp.org
