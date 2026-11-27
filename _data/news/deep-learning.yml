@@ -1,4 +1,9 @@
 news_items:
+- title: 臺北市推動幼兒STEAM教育 深耕創新學習
+  description: No description available.
+  url: https://n.yam.com/Article/20261127286334
+  date: '2026-11-27'
+  source: n.yam.com
 - title: 'DLFL-TLDNet: hybrid AI model integrating deep learning and fuzzy logic for
     tomato leaf disease classification and severity estimation'
   description: 'Scientific Reports - DLFL-TLDNet: hybrid AI model integrating deep
@@ -1061,21 +1066,4 @@ news_items:
     to macroscale for shock-to-detonation prediction
   url: https://www.nature.com/articles/s41598-026-68141-1.pdf
   date: '2026-08-29'
-  source: Nature.com
-- title: An efficient method for network traffic anomaly detection based on SHAP and
-    deep learning
-  description: To address the critical challenge of Denial-of-Service (DoS) attack
-    detection in wireless sensor networks (WSNs), this study proposes an efficient
-    anomaly detection framework that synergistically integrates SHAP (SHapley Additive
-    exPlanations) for fe
-  url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0356069
-  date: '2026-08-28'
-  source: Plos.org
-- title: Deep learning design of nanoscale polariton propagations in twisted van der
-    Waals multilayers
-  description: Neural-network-guided design of twisted multilayer van der Waals materials
-    enables on-demand control of polariton canalization across the visible, infrared
-    and terahertz spectral regions.
-  url: https://www.nature.com/articles/s41563-026-02723-2.pdf
-  date: '2026-08-28'
   source: Nature.com
