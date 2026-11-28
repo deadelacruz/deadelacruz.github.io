@@ -1060,10 +1060,3 @@ news_items:
   url: https://www.nature.com/articles/s41598-026-69083-4.pdf
   date: '2026-08-30'
   source: Nature.com
-- title: Microstructure-aware deep learning bridges atomistics to macroscale for shock-to-detonation
-    prediction
-  description: Scientific Reports - Microstructure-aware deep learning bridges atomistics
-    to macroscale for shock-to-detonation prediction
-  url: https://www.nature.com/articles/s41598-026-68141-1.pdf
-  date: '2026-08-29'
-  source: Nature.com
